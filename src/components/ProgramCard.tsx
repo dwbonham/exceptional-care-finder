@@ -36,6 +36,18 @@ export default function ProgramCard({ program }: Props) {
           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-blue-100 text-blue-700">
             {facilityDetails.decryptedProgramType}
           </span>
+          {program.currentAvailabilityStatus && (
+            <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${
+              program.currentAvailabilityStatus === 'Accepting'
+                ? 'bg-emerald-100 text-emerald-700'
+                : program.currentAvailabilityStatus === 'Waitlist'
+                ? 'bg-amber-100 text-amber-700'
+                : 'bg-red-100 text-red-600'
+            }`}>
+              {program.currentAvailabilityStatus === 'Accepting' ? '✓ ' : program.currentAvailabilityStatus === 'Waitlist' ? '⏳ ' : '✕ '}
+              {program.currentAvailabilityStatus}
+            </span>
+          )}
           <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-300 text-slate-600 bg-white">
             Service Code: {fundingMechanics.stateBillingCode}
           </span>
@@ -58,6 +70,27 @@ export default function ProgramCard({ program }: Props) {
           <p className="text-sm text-slate-700 leading-relaxed">{facilityDetails.programFocus}</p>
         </div>
 
+        {/* Facility details — age, languages, features */}
+        {(facilityDetails.minimumAge != null || facilityDetails.languagesSupported?.length || facilityDetails.facilityFeatures?.length) && (
+          <div className="flex flex-wrap gap-2">
+            {facilityDetails.minimumAge != null && (
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-violet-50 border border-violet-200 text-xs text-violet-700">
+                <span className="font-semibold">Age:</span> {facilityDetails.minimumAge}+
+              </span>
+            )}
+            {facilityDetails.languagesSupported?.map((lang) => (
+              <span key={lang} className="inline-flex items-center px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-600">
+                🌐 {lang}
+              </span>
+            ))}
+            {facilityDetails.facilityFeatures?.map((feat) => (
+              <span key={feat} className="inline-flex items-center px-2.5 py-1 rounded-md bg-slate-100 border border-slate-200 text-xs text-slate-600">
+                ✓ {feat}
+              </span>
+            ))}
+          </div>
+        )}
+
         {/* Funding & Administration block */}
         <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
           <p className="text-xs font-semibold text-slate-500 uppercase tracking-widest mb-3 flex items-center gap-1.5">
@@ -76,6 +109,12 @@ export default function ProgramCard({ program }: Props) {
               <span className="font-semibold">Required Doc:</span>
               {fundingMechanics.requiredFundingDocument}
             </span>
+            {fundingMechanics.transportationAvailability && (
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
+                <span className="font-semibold text-slate-700">🚌 Transport:</span>
+                {fundingMechanics.transportationAvailability}
+              </span>
+            )}
           </div>
           <p className="text-xs text-slate-600 leading-relaxed">
             {fundingMechanics.financialCoverageNote}

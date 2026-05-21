@@ -17,15 +17,21 @@
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Development Center",
-      "programFocus": "Helps individuals with disabilities build independent living, social, and job skills through community integration and supported work environments."
+      "programFocus": "Helps individuals with disabilities build independent living, social, and job skills through community integration and supported work environments.",
+      "minimumAge": 18,
+      "languagesSupported": ["English"],
+      "facilityFeatures": ["Wheelchair Accessible"]
     },
     "fundingMechanics": {
+      "vendorId": "TBD",
       "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
       "localAdministeringAgency": "Inland Regional Center",
       "stateBillingCode": "510",
+      "transportationAvailability": "Contact Regional Center",
       "requiredFundingDocument": "Individual Program Plan (IPP)",
       "financialCoverageNote": "Services are 100% state-funded for eligible clients whose IPP explicitly authorizes this placement. Transportation and ancillary services may require separate authorization from your Regional Center service coordinator."
     },
+    "currentAvailabilityStatus": "Accepting",
     "qualitativeInsights": {
       "parentReviews": [
         "Reviewers praise the highly structured environment and the variety of social, educational, and entertaining activities provided.",
@@ -52,15 +58,21 @@
     "facilityDetails": {
       "licensedCapacity": 40,
       "decryptedProgramType": "Behavior Management Program",
-      "programFocus": "A site-based adult day program with a strong emphasis on behavior management, teaching social skills curriculums, and providing integration into supported work environments."
+      "programFocus": "A site-based adult day program with a strong emphasis on behavior management, teaching social skills curriculums, and providing integration into supported work environments.",
+      "minimumAge": 18,
+      "languagesSupported": ["English"],
+      "facilityFeatures": ["Behavioral Support Spaces"]
     },
     "fundingMechanics": {
+      "vendorId": "TBD",
       "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
       "localAdministeringAgency": "Inland Regional Center",
       "stateBillingCode": "515",
+      "transportationAvailability": "Contact Regional Center",
       "requiredFundingDocument": "Individual Program Plan (IPP)",
       "financialCoverageNote": "Behavioral support services under Service Code 515 require a behavior support plan approved by your Regional Center. Full cost coverage applies when the service is authorized in the client's IPP."
     },
+    "currentAvailabilityStatus": "Accepting",
     "qualitativeInsights": {
       "parentReviews": [
         "Client care is highly praised; reviewers note that the agency provides excellent, individualized care and that client needs are met in every area of their life.",
@@ -87,15 +99,21 @@
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Development Center (Vocational)",
-      "programFocus": "Provides vocational resources and training for adults with developmental disabilities, focusing heavily on supervised work skills and local job placement."
+      "programFocus": "Provides vocational resources and training for adults with developmental disabilities, focusing heavily on supervised work skills and local job placement.",
+      "minimumAge": 18,
+      "languagesSupported": ["English", "Spanish"],
+      "facilityFeatures": ["Vocational Workshop"]
     },
     "fundingMechanics": {
+      "vendorId": "TBD",
       "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
       "localAdministeringAgency": "Inland Regional Center",
       "stateBillingCode": "510",
+      "transportationAvailability": "Contact Regional Center",
       "requiredFundingDocument": "Individual Program Plan (IPP)",
       "financialCoverageNote": "Vocational day program services are fully state-funded via DDS when listed in the client's IPP. Supported employment job coaching may be billed separately under an additional authorization code."
     },
+    "currentAvailabilityStatus": "Accepting",
     "qualitativeInsights": {
       "parentReviews": [
         "Highly rated for its direct focus on vocational training; reviewers appreciate that clients are integrated into actual work environments (like warehouse tasks and fulfillment).",
@@ -122,15 +140,21 @@
     "facilityDetails": {
       "licensedCapacity": 120,
       "decryptedProgramType": "Adult Development Center",
-      "programFocus": "Provides comprehensive day services aimed at promoting independence, community involvement, and life skills development for adults with intellectual and developmental disabilities."
+      "programFocus": "Provides comprehensive day services aimed at promoting independence, community involvement, and life skills development for adults with intellectual and developmental disabilities.",
+      "minimumAge": 18,
+      "languagesSupported": ["English"],
+      "facilityFeatures": ["Wheelchair Accessible", "On-site Therapies"]
     },
     "fundingMechanics": {
+      "vendorId": "TBD",
       "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
       "localAdministeringAgency": "Inland Regional Center",
       "stateBillingCode": "510",
+      "transportationAvailability": "Contact Regional Center",
       "requiredFundingDocument": "Individual Program Plan (IPP)",
       "financialCoverageNote": "As a certified DDS vendor, all core day services are fully state-funded when the program is written into the client's IPP. Wrap-around therapies (speech, OT, PT) offered on-site may be covered separately through Medi-Cal or private insurance."
     },
+    "currentAvailabilityStatus": "Accepting",
     "qualitativeInsights": {
       "parentReviews": [
         "Families feel highly secure working with a massive, trusted national brand that utilizes standardized care protocols and safety measures.",
