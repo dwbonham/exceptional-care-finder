@@ -42,8 +42,6 @@ export interface ProgramQualitativeInsights {
   parentReviews: string[];
 }
 
-export type AvailabilityStatus = 'Accepting' | 'Waitlist' | 'Closed';
-
 export interface ProgramData {
   legalLicenseName: string;
   streetName: string;
@@ -51,7 +49,6 @@ export interface ProgramData {
   contact: ProgramContact;
   facilityDetails: ProgramFacilityDetails;
   fundingMechanics: ProgramFundingMechanics;
-  currentAvailabilityStatus?: AvailabilityStatus;
   qualitativeInsights: ProgramQualitativeInsights;
 }
 
@@ -72,16 +69,9 @@ export interface FundingGuideFaq {
   sourceLabel?: string;
 }
 
-export interface AvailabilityStatusDefinitions {
-  Accepting: string;
-  Waitlist: string;
-  Closed: string;
-}
-
 export interface FundingGuide {
   state: string;
   title: string;
   localAgencies: LocalAgencyContact[];
-  availabilityTracking?: { statusDefinitions: AvailabilityStatusDefinitions };
   faqs: FundingGuideFaq[];
 }

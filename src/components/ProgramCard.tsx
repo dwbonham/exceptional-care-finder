@@ -36,24 +36,12 @@ export default function ProgramCard({ program }: Props) {
           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-blue-100 text-blue-700">
             {facilityDetails.decryptedProgramType}
           </span>
-          {program.currentAvailabilityStatus && (
-            <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${
-              program.currentAvailabilityStatus === 'Accepting'
-                ? 'bg-emerald-100 text-emerald-700'
-                : program.currentAvailabilityStatus === 'Waitlist'
-                ? 'bg-amber-100 text-amber-700'
-                : 'bg-red-100 text-red-600'
-            }`}>
-              {program.currentAvailabilityStatus === 'Accepting' ? '✓ ' : program.currentAvailabilityStatus === 'Waitlist' ? '⏳ ' : '✕ '}
-              {program.currentAvailabilityStatus}
-            </span>
-          )}
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-300 text-slate-600 bg-white">
+<span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-300 text-slate-600 bg-white">
             Service Code: {fundingMechanics.stateBillingCode}
           </span>
           {facilityDetails.licensedCapacity && (
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-200 text-slate-500 bg-slate-50">
-              Capacity: {facilityDetails.licensedCapacity}
+              Licensed Capacity: {facilityDetails.licensedCapacity}
             </span>
           )}
         </div>
@@ -174,7 +162,7 @@ export default function ProgramCard({ program }: Props) {
             aria-expanded={reviewsOpen}
           >
             <span className="text-sm font-semibold text-slate-700 flex items-center gap-2">
-              <span>💬</span> Parent Feedback &amp; Insights
+              <span>💬</span> AI-Aggregated Community Sentiment
               <span className="text-xs font-normal text-slate-400">
                 ({qualitativeInsights.parentReviews.length})
               </span>

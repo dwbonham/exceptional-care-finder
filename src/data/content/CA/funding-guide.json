@@ -10,13 +10,6 @@
       "note": "Serves Riverside & San Bernardino Counties"
     }
   ],
-  "availabilityTracking": {
-    "statusDefinitions": {
-      "Accepting": "Program is actively enrolling.",
-      "Waitlist": "Program is full but accepting names.",
-      "Closed": "Program is currently at capacity."
-    }
-  },
   "faqs": [
     {
       "question": "What is an IPP?",
