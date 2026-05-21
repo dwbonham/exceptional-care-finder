@@ -26,36 +26,58 @@ Parents of adults with disabilities (autism, cerebral palsy, intellectual disabi
 
 ---
 
-## How the Data Files Work
-
-All program and regulatory data lives in one folder:
+## Folder Guide — What Everything Is
 
 ```
-src/data/content/
-  CA/
-    funding-guide.json        ← State regulations, FAQs, and Regional Center contact info
-    riverside/
-      programs.json           ← All program listings for Riverside County
+exceptional-care-finder/
+│
+├── README.md                    ← You are here. Project overview.
+├── CLAUDE.md                    ← Loaded automatically by Claude Code each session.
+│
+├── program-data/                ← THE DATA FILES. This is what you edit.
+│   └── CA/
+│       ├── funding-guide.json   ← CA regulations, FAQs, Regional Center contact
+│       └── riverside/
+│           └── programs.json    ← The 4 Riverside County program listings
+│
+├── data-entry-templates/        ← Give these to Gemini when building new counties/states.
+│   ├── programs.json            ← Template for a county's programs file
+│   ├── funding-guide.json       ← Template for a state's regulations file
+│   └── README.md                ← Instructions for using the templates with Gemini
+│
+│  ── Everything below this line is app code. Claude manages it; you don't need to edit it. ──
+│
+├── src/                         ← The website's source code
+├── public/                      ← The browser tab icon
+├── index.html                   ← The HTML shell the app loads into
+├── vite.config.ts               ← Build tool settings
+├── package.json                 ← List of software packages the app uses
+├── bun.lock                     ← Auto-generated lock file for packages (never edit)
+├── tsconfig*.json               ← TypeScript compiler settings (never edit)
+├── eslint.config.js             ← Code quality checker settings (never edit)
+└── .github/                     ← GitHub Actions workflow that auto-publishes the site
 ```
-
-**To add a new county:** Create a new folder (e.g., `CA/los-angeles/`) with a `programs.json` file using the same format as the Riverside file, then tell Claude Code to wire it in.
-
-**To add a new state:** Create a new state folder (e.g., `TX/`) with a `funding-guide.json` and at least one county subfolder.
-
-**Schema templates** for both file types are at the top of this repo under `_templates/` — give these to Gemini or any AI when generating new data.
 
 ---
 
-## Workflow for Adding New Programs
+## How to Add a New County
 
-1. Open Gemini (or another AI) and provide:
-   - The `programs.json` schema template from `_templates/`
-   - The existing Riverside `programs.json` as a real example
+1. Open Gemini and provide:
+   - `data-entry-templates/programs.json` (the schema template)
+   - `program-data/CA/riverside/programs.json` (a real example)
    - The name of the county and state you want to add
-2. Ask Gemini to research and populate a complete `programs.json` for that county
-3. Save the file to `src/data/content/[STATE]/[county]/programs.json`
-4. Open Claude Code and say: "Wire in the new [County, State] programs file"
-5. Claude will update the two index files and deploy automatically
+2. Ask Gemini: *"Using this schema and example, research and build a complete programs.json for [County], [State]"*
+3. Save the result to `program-data/[STATE]/[county]/programs.json`
+4. Open Claude Code and say: *"Wire in the new [County, State] programs file"*
+5. Claude updates the code and the site publishes automatically
+
+## How to Add a New State
+
+Same as above, but also:
+- Give Gemini `data-entry-templates/funding-guide.json`
+- Ask it to research the state's developmental disability funding rules
+- Save the result to `program-data/[STATE]/funding-guide.json`
+- Tell Claude Code: *"Wire in the new [State] funding guide and programs"*
 
 ---
 
@@ -78,10 +100,4 @@ src/data/content/
 
 ## Starting a New Claude Code Session
 
-Claude Code automatically reads `CLAUDE.md` at the start of every session — all project context is already loaded. Just open the project folder in Claude Code and continue working. No need to re-explain what the project is.
-
-If starting fresh in a new terminal:
-```
-cd ~/Claude\ Projects/exceptional-care-finder
-claude
-```
+Claude Code automatically reads `CLAUDE.md` at the start of every session — all project context is already loaded. Just open the project folder in Claude Code and say what you want to work on. No need to re-explain what the project is.

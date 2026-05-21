@@ -6,15 +6,15 @@ These two files are schema templates. Give them to Gemini (or any AI) when askin
 
 **For a new county's programs:**
 1. Give Gemini `programs.json` from this folder
-2. Give Gemini an existing real example (e.g., `src/data/content/CA/riverside/programs.json`)
+2. Give Gemini an existing real example (e.g., `program-data/CA/riverside/programs.json`)
 3. Ask: "Using this schema and example, research and build a complete programs.json for [County], [State]"
-4. Save the result to `src/data/content/[STATE]/[county]/programs.json`
+4. Save the result to `program-data/[STATE]/[county]/programs.json`
 5. Tell Claude Code: "Wire in the new [County], [State] programs file"
 
 **For a new state's funding guide:**
 1. Give Gemini `funding-guide.json` from this folder
 2. Ask: "Using this schema, research the funding and eligibility rules for developmental disability day programs in [State] and build a funding-guide.json"
-3. Save to `src/data/content/[STATE]/funding-guide.json`
+3. Save to `program-data/[STATE]/funding-guide.json`
 4. Tell Claude Code: "Wire in the new [State] funding guide"
 
 ## Valid values for key fields

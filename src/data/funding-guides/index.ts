@@ -1,8 +1,8 @@
 import type { FundingGuide } from '../../types';
-import caGuideRaw from '../content/CA/funding-guide.json';
+import caGuideRaw from '../../../program-data/CA/funding-guide.json';
 
 // To add a new state, import its funding-guide.json here and add it to the map.
-// Example: import txGuideRaw from '../content/TX/funding-guide.json';
+// Example: import txGuideRaw from '../../../program-data/TX/funding-guide.json';
 
 const fundingGuideMap: Record<string, FundingGuide> = {
   CA: caGuideRaw as FundingGuide,

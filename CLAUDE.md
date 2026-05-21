@@ -61,17 +61,22 @@ exceptional-care-finder/
     │   └── StateRegulatoryGuide.tsx ← Sidebar: funding FAQs and local Regional Center contact
     │
     └── data/
-        ├── content/                 ← ALL EDITABLE DATA LIVES HERE
-        │   └── CA/
-        │       ├── funding-guide.json        ← CA regulations, FAQs, Inland RC contact
-        │       └── riverside/
-        │           └── programs.json         ← 4 Riverside County program listings
-        │
         ├── programs/
         │   └── index.ts            ← Imports all programs.json files → exports allPrograms[]
         ├── funding-guides/
         │   └── index.ts            ← Imports all funding-guide.json files → exports getFundingGuide()
         └── regulatoryContent.ts    ← Re-export shim (kept for import compatibility)
+
+program-data/                        ← ALL EDITABLE DATA LIVES HERE (top-level, not inside src/)
+└── CA/
+    ├── funding-guide.json           ← CA regulations, FAQs, Inland RC contact
+    └── riverside/
+        └── programs.json            ← 4 Riverside County program listings
+
+data-entry-templates/                ← Schema templates to give Gemini when generating new data
+├── programs.json
+├── funding-guide.json
+└── README.md
 ```
 
 ---
@@ -79,11 +84,11 @@ exceptional-care-finder/
 ## Data Architecture
 
 ### Adding a new county
-1. Create `src/data/content/[STATE]/[county]/programs.json`
+1. Create `program-data/[STATE]/[county]/programs.json`
 2. Add one import line to `src/data/programs/index.ts` and spread into `allPrograms`
 
 ### Adding a new state
-1. Create `src/data/content/[STATE]/funding-guide.json`
+1. Create `program-data/[STATE]/funding-guide.json`
 2. Create at least one county folder with `programs.json`
 3. Add one import to `src/data/funding-guides/index.ts` and add to `fundingGuideMap`
 4. Add one import to `src/data/programs/index.ts`
