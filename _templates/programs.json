@@ -1,0 +1,45 @@
+[
+  {
+    "legalLicenseName": "Official licensed entity name (from state license database)",
+    "streetName": "Display name shown to parents on the card",
+    "location": {
+      "street": "123 Main Street",
+      "city": "City Name",
+      "state": "CA",
+      "zipCode": "00000",
+      "county": "County Name",
+      "coordinates": {
+        "lat": 0.0,
+        "lng": 0.0
+      }
+    },
+    "contact": {
+      "phone": "(000) 000-0000",
+      "websiteUrl": "https://example.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 0,
+      "decryptedProgramType": "Adult Development Center",
+      "programFocus": "2-3 sentence plain-English description of what this program does and who it serves.",
+      "minimumAge": 18,
+      "languagesSupported": ["English"],
+      "facilityFeatures": ["Wheelchair Accessible"]
+    },
+    "fundingMechanics": {
+      "vendorId": "TBD",
+      "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
+      "localAdministeringAgency": "Name of the Regional Center",
+      "stateBillingCode": "510",
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "Individual Program Plan (IPP)",
+      "financialCoverageNote": "Plain-English explanation of how costs are covered and any conditions."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Theme 1 drawn from public reviews — what families consistently praise.",
+        "Theme 2 — what makes this program distinctive or stand out.",
+        "Theme 3 — any consistent concerns or caveats families should know."
+      ]
+    }
+  }
+]

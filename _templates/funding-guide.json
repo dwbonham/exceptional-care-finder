@@ -1,0 +1,29 @@
+{
+  "state": "CA",
+  "title": "California Funding & Eligibility Guide",
+  "localAgencies": [
+    {
+      "county": "County Name",
+      "name": "Regional Center Name",
+      "phone": "(000) 000-0000",
+      "websiteUrl": "https://example.org",
+      "note": "Optional note — e.g. which counties this RC serves"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is an IPP?",
+      "answer": "The Individual Program Plan (IPP) is a person-centered contract between you and your Regional Center. To have a day program 100% state-funded, the program must be explicitly approved in your IPP."
+    },
+    {
+      "question": "Who is Eligible?",
+      "answer": "Plain-English explanation of eligibility criteria for this state.",
+      "sourceUrl": "https://official-source.gov",
+      "sourceLabel": "Official source name"
+    },
+    {
+      "question": "How to Start",
+      "answer": "Step-by-step plain-English instructions for how a family begins the process of enrolling and getting funding in this state."
+    }
+  ]
+}
