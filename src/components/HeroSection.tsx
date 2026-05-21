@@ -1,7 +1,19 @@
 import { useState } from 'react';
 
-export default function HeroSection() {
+interface Props {
+  selectedState: string;
+  selectedCounty: string;
+}
+
+export default function HeroSection({ selectedState, selectedCounty }: Props) {
   const [zip, setZip] = useState('');
+
+  const locationLabel =
+    selectedCounty && selectedState
+      ? `${selectedCounty} County, ${selectedState}`
+      : selectedState
+      ? selectedState
+      : null;
 
   return (
     <div
@@ -25,14 +37,25 @@ export default function HeroSection() {
         <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-1.5 mb-6">
           <span className="text-yellow-300 text-sm">✦</span>
           <span className="text-white/90 text-sm font-medium tracking-wide">
-            Riverside County · State-Funded Programs
+            {locationLabel
+              ? `${locationLabel} · State-Funded Programs`
+              : 'Nationwide · State-Funded Programs'}
           </span>
         </div>
 
-        {/* Headline */}
+        {/* Dynamic Headline */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-5">
-          Riverside County<br />
-          <span className="text-blue-200">Exceptional Care</span> Finder
+          {locationLabel ? (
+            <>
+              Find Exceptional Care in{' '}
+              <span className="text-blue-200">{locationLabel}</span>
+            </>
+          ) : (
+            <>
+              Find Exceptional Care in{' '}
+              <span className="text-blue-200">Your Community</span>
+            </>
+          )}
         </h1>
 
         {/* Subheadline */}

@@ -7,7 +7,8 @@
       "city": "Corona",
       "state": "CA",
       "zipCode": "92880",
-      "county": "Riverside"
+      "county": "Riverside",
+      "coordinates": { "lat": 33.8786, "lng": -117.5649 }
     },
     "contact": {
       "phone": "(951) 371-5593",
@@ -41,7 +42,8 @@
       "city": "Corona",
       "state": "CA",
       "zipCode": "92879",
-      "county": "Riverside"
+      "county": "Riverside",
+      "coordinates": { "lat": 33.8812, "lng": -117.5508 }
     },
     "contact": {
       "phone": "(951) 280-9851",
@@ -75,7 +77,8 @@
       "city": "Corona",
       "state": "CA",
       "zipCode": "92882",
-      "county": "Riverside"
+      "county": "Riverside",
+      "coordinates": { "lat": 33.8530, "lng": -117.5856 }
     },
     "contact": {
       "phone": "(951) 734-6595",
@@ -109,7 +112,8 @@
       "city": "Riverside",
       "state": "CA",
       "zipCode": "92507",
-      "county": "Riverside"
+      "county": "Riverside",
+      "coordinates": { "lat": 33.9534, "lng": -117.3940 }
     },
     "contact": {
       "phone": "(951) 248-4873",

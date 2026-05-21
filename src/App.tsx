@@ -1,28 +1,68 @@
+import { useState } from 'react';
 import HeroSection from './components/HeroSection';
+import LocationFilter from './components/LocationFilter';
+import ProgramMap from './components/ProgramMap';
 import ProgramGrid from './components/ProgramGrid';
-import type { ProgramData } from './types';
-import coronaPrograms from './data/coronaPrograms.json';
+import StateRegulatoryGuide from './components/StateRegulatoryGuide';
+import { allPrograms } from './data/programs';
+import { extractStateMap, extractCareTypes, filterPrograms } from './utils/programUtils';
 import './index.css';
 
-const programs = coronaPrograms as ProgramData[];
+const stateMap = extractStateMap(allPrograms);
+const careTypes = extractCareTypes(allPrograms);
 
 export default function App() {
+  const [selectedState, setSelectedState] = useState('');
+  const [selectedCounty, setSelectedCounty] = useState('');
+  const [selectedCareType, setSelectedCareType] = useState('');
+
+  const filtered = filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType);
+
   return (
     <div className="min-h-screen bg-slate-50">
-      {/* Hero / Header */}
-      <HeroSection />
+      <HeroSection selectedState={selectedState} selectedCounty={selectedCounty} />
 
-      {/* Main content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <ProgramGrid programs={programs} />
+      <LocationFilter
+        stateMap={stateMap}
+        careTypes={careTypes}
+        selectedState={selectedState}
+        selectedCounty={selectedCounty}
+        selectedCareType={selectedCareType}
+        onStateChange={setSelectedState}
+        onCountyChange={setSelectedCounty}
+        onCareTypeChange={setSelectedCareType}
+        totalResults={filtered.length}
+      />
+
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        {/* Full map module — above listings, reacts to location filter */}
+        <div className="mb-8">
+          <ProgramMap programs={filtered} />
+        </div>
+
+        <div className="flex flex-col lg:flex-row gap-8">
+          <aside className="lg:w-80 xl:w-96 shrink-0">
+            <div className="lg:sticky lg:top-24">
+              <StateRegulatoryGuide
+                selectedState={selectedState}
+                selectedCounty={selectedCounty}
+              />
+            </div>
+          </aside>
+
+          <div className="flex-1 min-w-0">
+            <ProgramGrid
+              programs={filtered}
+              selectedState={selectedState}
+              selectedCounty={selectedCounty}
+            />
+          </div>
+        </div>
       </main>
 
-      {/* Footer */}
       <footer className="border-t border-slate-200 bg-white mt-16">
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-400">
-          <span>
-            © {new Date().getFullYear()} Exceptional Care Finder · Riverside County, CA
-          </span>
+          <span>© {new Date().getFullYear()} Exceptional Care Finder · Nationwide</span>
           <span className="flex items-center gap-1.5">
             <span className="text-violet-500">✨</span>
             AI-assisted program summaries. Always verify directly with providers.

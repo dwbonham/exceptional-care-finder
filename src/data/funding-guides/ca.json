@@ -1,0 +1,29 @@
+{
+  "state": "CA",
+  "title": "California Funding & Eligibility Guide",
+  "localAgencies": [
+    {
+      "county": "Riverside",
+      "name": "Inland Regional Center",
+      "phone": "(909) 890-3000",
+      "websiteUrl": "https://www.inlandrc.org/",
+      "note": "Serves Riverside & San Bernardino Counties"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is an IPP?",
+      "answer": "The Individual Program Plan (IPP) is a person-centered contract between you and your Regional Center. To have a day program 100% state-funded, the program must be explicitly approved in your IPP."
+    },
+    {
+      "question": "Who is Eligible?",
+      "answer": "Under the Lanterman Act, funding is available for individuals whose disability originated before age 18. Qualifying diagnoses include Autism, Cerebral Palsy, Intellectual Disability, and Epilepsy.",
+      "sourceUrl": "https://www.dds.ca.gov/services/lanterman-act/",
+      "sourceLabel": "CA Dept. of Developmental Services — Lanterman Act"
+    },
+    {
+      "question": "How to Start",
+      "answer": "You must establish eligibility with your local Regional Center through an intake assessment before touring programs for state coverage. Contact the Inland Regional Center directly to schedule your intake."
+    }
+  ]
+}
