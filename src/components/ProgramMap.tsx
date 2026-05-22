@@ -1,6 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 import L from 'leaflet';
+import 'leaflet.markercluster';
+import 'leaflet.markercluster/dist/MarkerCluster.css';
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 import type { ProgramData } from '../types';
 
 // Custom SVG pin — matches the app's blue palette, avoids Leaflet's broken
@@ -28,21 +31,52 @@ function makePin(color: string, label: string) {
 
 const PIN_COLORS = ['#2563eb', '#7c3aed', '#0891b2', '#059669'];
 
-// Child component: re-fits map bounds whenever the filtered program list changes.
-function BoundsController({ programs }: { programs: ProgramData[] }) {
+// Manages the marker cluster group imperatively — cleaner than trying to wrap Leaflet
+// plugins in React-Leaflet's declarative component model.
+function ClusterLayer({ programs }: { programs: ProgramData[] }) {
   const map = useMap();
 
   useEffect(() => {
+    const cluster = (L as any).markerClusterGroup({ maxClusterRadius: 60 });
+
+    programs.forEach((program, i) => {
+      if (!program.location.coordinates) return;
+      const { lat, lng } = program.location.coordinates;
+      const color = PIN_COLORS[i % PIN_COLORS.length];
+      const icon = makePin(color, String(i + 1));
+      const fullAddress = `${program.location.street}, ${program.location.city}, ${program.location.state} ${program.location.zipCode}`;
+      const directionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(fullAddress)}`;
+
+      const marker = L.marker([lat, lng], { icon });
+      marker.bindPopup(`
+        <div style="font-family:Inter,system-ui,sans-serif;padding:4px 2px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+            <span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:${color};color:white;font-size:11px;font-weight:700;flex-shrink:0">${i + 1}</span>
+            <strong style="font-size:13px;color:#0f172a;line-height:1.3">${program.streetName}</strong>
+          </div>
+          <span style="display:inline-block;padding:2px 8px;border-radius:999px;background:#dbeafe;color:#1d4ed8;font-size:11px;font-weight:600;margin-bottom:8px">${program.facilityDetails.decryptedProgramType}</span>
+          <p style="font-size:12px;color:#475569;margin:0 0 10px;line-height:1.4">${fullAddress}</p>
+          ${program.contact.phone ? `<p style="margin:0 0 10px"><a href="tel:${program.contact.phone.replace(/\D/g, '')}" style="font-size:12px;color:#2563eb;font-weight:600;text-decoration:none">📞 ${program.contact.phone}</a></p>` : ''}
+          <a href="${directionsHref}" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:4px;padding:6px 12px;border-radius:8px;background:#2563eb;color:white;font-size:12px;font-weight:600;text-decoration:none">🗺️ Get Directions ↗</a>
+        </div>
+      `, { minWidth: 220, maxWidth: 280 });
+
+      cluster.addLayer(marker);
+    });
+
+    map.addLayer(cluster);
+
+    // Fit bounds to all markers
     const pts = programs
       .filter((p) => p.location.coordinates)
       .map((p) => [p.location.coordinates!.lat, p.location.coordinates!.lng] as [number, number]);
-
-    if (pts.length === 0) return;
     if (pts.length === 1) {
       map.setView(pts[0], 14, { animate: true });
-    } else {
+    } else if (pts.length > 1) {
       map.fitBounds(pts, { padding: [48, 48], animate: true, maxZoom: 14 });
     }
+
+    return () => { map.removeLayer(cluster); };
   }, [programs, map]);
 
   return null;
@@ -107,73 +141,7 @@ export default function ProgramMap({ programs }: Props) {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
 
-        {mapped.map((program, i) => {
-          const { lat, lng } = program.location.coordinates!;
-          const color = PIN_COLORS[i % PIN_COLORS.length];
-          const icon = makePin(color, String(i + 1));
-          const fullAddress = `${program.location.street}, ${program.location.city}, ${program.location.state} ${program.location.zipCode}`;
-          const directionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(fullAddress)}`;
-
-          return (
-            <Marker key={i} position={[lat, lng]} icon={icon}>
-              <Popup minWidth={220} maxWidth={280}>
-                <div style={{ fontFamily: 'Inter, system-ui, sans-serif', padding: '4px 2px' }}>
-                  {/* Number badge */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
-                    <span style={{
-                      display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
-                      width: '22px', height: '22px', borderRadius: '50%',
-                      background: color, color: 'white',
-                      fontSize: '11px', fontWeight: '700', flexShrink: 0,
-                    }}>
-                      {i + 1}
-                    </span>
-                    <strong style={{ fontSize: '13px', color: '#0f172a', lineHeight: '1.3' }}>
-                      {program.streetName}
-                    </strong>
-                  </div>
-
-                  {/* Program type */}
-                  <span style={{
-                    display: 'inline-block', padding: '2px 8px', borderRadius: '999px',
-                    background: '#dbeafe', color: '#1d4ed8',
-                    fontSize: '11px', fontWeight: '600', marginBottom: '8px',
-                  }}>
-                    {program.facilityDetails.decryptedProgramType}
-                  </span>
-
-                  {/* Address */}
-                  <p style={{ fontSize: '12px', color: '#475569', margin: '0 0 10px', lineHeight: '1.4' }}>
-                    {fullAddress}
-                  </p>
-
-                  {/* Phone */}
-                  {program.contact.phone && (
-                    <p style={{ margin: '0 0 10px' }}>
-                      <a href={`tel:${program.contact.phone.replace(/\D/g, '')}`}
-                         style={{ fontSize: '12px', color: '#2563eb', fontWeight: '600', textDecoration: 'none' }}>
-                        📞 {program.contact.phone}
-                      </a>
-                    </p>
-                  )}
-
-                  {/* Get Directions link */}
-                  <a href={directionsHref} target="_blank" rel="noopener noreferrer"
-                     style={{
-                       display: 'inline-flex', alignItems: 'center', gap: '4px',
-                       padding: '6px 12px', borderRadius: '8px',
-                       background: '#2563eb', color: 'white',
-                       fontSize: '12px', fontWeight: '600', textDecoration: 'none',
-                     }}>
-                    🗺️ Get Directions ↗
-                  </a>
-                </div>
-              </Popup>
-            </Marker>
-          );
-        })}
-
-        <BoundsController programs={mapped} />
+        <ClusterLayer programs={mapped} />
       </MapContainer>
       )}
 

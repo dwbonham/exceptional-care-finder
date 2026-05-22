@@ -24,15 +24,26 @@ export interface ProgramFacilityDetails {
   decryptedProgramType: string;
   programFocus: string;
   minimumAge?: number;
+  maximumAge?: number;
   languagesSupported?: string[];
   facilityFeatures?: string[];
+  parentOrganization?: string;
+  daysOfOperation?: string;
+  hoursOfOperation?: string;
+  selfDeterminationAccepted?: 'Yes' | 'No' | 'Unknown';
+  populationSpecialization?: string[];
+}
+
+export interface VendorId {
+  rc: string;
+  id: string;
 }
 
 export interface ProgramFundingMechanics {
-  vendorId?: string;
+  vendorIds?: VendorId[];
   fundingSourceCategory: string;
-  localAdministeringAgency: string;
-  stateBillingCode: string;
+  coveringAgencies: string[];
+  authorizedServiceCodes: string[];
   transportationAvailability?: string;
   requiredFundingDocument: string;
   financialCoverageNote: string;
@@ -45,11 +56,17 @@ export interface ProgramQualitativeInsights {
 export interface ProgramData {
   legalLicenseName: string;
   streetName: string;
+  ccldLicenseNumber?: string;
+  licenseStatus?: 'Active' | 'Inactive' | 'Revoked';
+  licenseType?: string;
   location: ProgramLocation;
   contact: ProgramContact;
   facilityDetails: ProgramFacilityDetails;
   fundingMechanics: ProgramFundingMechanics;
   qualitativeInsights: ProgramQualitativeInsights;
+  completenessScore?: number;
+  lastVerifiedDate?: string;
+  dataSourceNotes?: string;
 }
 
 // ─── Funding Guides ───────────────────────────────────────────────────────────

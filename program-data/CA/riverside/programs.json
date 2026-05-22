@@ -30,10 +30,9 @@
       ]
     },
     "fundingMechanics": {
-      "vendorId": "TBD",
       "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
-      "localAdministeringAgency": "Inland Regional Center",
-      "stateBillingCode": "510",
+      "coveringAgencies": ["Inland Regional Center"],
+      "authorizedServiceCodes": ["510"],
       "transportationAvailability": "Contact Regional Center",
       "requiredFundingDocument": "Individual Program Plan (IPP)",
       "financialCoverageNote": "Services are 100% state-funded for eligible clients whose IPP explicitly authorizes this placement. Transportation and ancillary services may require separate authorization from your Regional Center service coordinator."
@@ -77,10 +76,9 @@
       ]
     },
     "fundingMechanics": {
-      "vendorId": "TBD",
       "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
-      "localAdministeringAgency": "Inland Regional Center",
-      "stateBillingCode": "515",
+      "coveringAgencies": ["Inland Regional Center"],
+      "authorizedServiceCodes": ["515"],
       "transportationAvailability": "Contact Regional Center",
       "requiredFundingDocument": "Individual Program Plan (IPP)",
       "financialCoverageNote": "Behavioral support services under Service Code 515 require a behavior support plan approved by your Regional Center. Full cost coverage applies when the service is authorized in the client's IPP."
@@ -125,10 +123,9 @@
       ]
     },
     "fundingMechanics": {
-      "vendorId": "TBD",
       "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
-      "localAdministeringAgency": "Inland Regional Center",
-      "stateBillingCode": "510",
+      "coveringAgencies": ["Inland Regional Center"],
+      "authorizedServiceCodes": ["510"],
       "transportationAvailability": "Contact Regional Center",
       "requiredFundingDocument": "Individual Program Plan (IPP)",
       "financialCoverageNote": "Vocational day program services are fully state-funded via DDS when listed in the client's IPP. Supported employment job coaching may be billed separately under an additional authorization code."
@@ -173,10 +170,9 @@
       ]
     },
     "fundingMechanics": {
-      "vendorId": "TBD",
       "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
-      "localAdministeringAgency": "Inland Regional Center",
-      "stateBillingCode": "510",
+      "coveringAgencies": ["Inland Regional Center"],
+      "authorizedServiceCodes": ["510"],
       "transportationAvailability": "Contact Regional Center",
       "requiredFundingDocument": "Individual Program Plan (IPP)",
       "financialCoverageNote": "As a certified DDS vendor, all core day services are fully state-funded when the program is written into the client's IPP. Wrap-around therapies (speech, OT, PT) offered on-site may be covered separately through Medi-Cal or private insurance."

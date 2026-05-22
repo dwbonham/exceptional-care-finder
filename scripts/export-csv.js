@@ -37,7 +37,7 @@ const HEADERS = [
   'Legal License Name',
   // Classification
   'Program Type',
-  'Billing Code',
+  'Service Codes',
   // Key numbers (quantitative)
   'Licensed Capacity',
   'Minimum Age',
@@ -54,8 +54,8 @@ const HEADERS = [
   'Transportation',
   // Funding
   'Funding Source',
-  'Administering Agency',
-  'Vendor ID',
+  'Covering Agencies',
+  'Vendor IDs',
   'Required Document',
   // Contact
   'Phone',
@@ -86,7 +86,7 @@ for (const file of files.sort()) {
       p.streetName,
       p.legalLicenseName,
       f.decryptedProgramType,
-      fm.stateBillingCode,
+      (fm.authorizedServiceCodes ?? []).join('; '),
       f.licensedCapacity ?? '',
       f.minimumAge ?? '',
       loc.city,
@@ -99,8 +99,8 @@ for (const file of files.sort()) {
       (f.facilityFeatures ?? []).join('; '),
       fm.transportationAvailability ?? '',
       fm.fundingSourceCategory,
-      fm.localAdministeringAgency,
-      fm.vendorId ?? '',
+      (fm.coveringAgencies ?? []).join('; '),
+      (fm.vendorIds ?? []).map(v => `${v.rc}: ${v.id}`).join('; '),
       fm.requiredFundingDocument,
       p.contact.phone,
       p.contact.websiteUrl,

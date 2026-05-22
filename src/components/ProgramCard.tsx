@@ -37,7 +37,7 @@ export default function ProgramCard({ program }: Props) {
             {facilityDetails.decryptedProgramType}
           </span>
 <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-300 text-slate-600 bg-white">
-            Service Code: {fundingMechanics.stateBillingCode}
+            Service Code: {fundingMechanics.authorizedServiceCodes.join(', ')}
           </span>
           {facilityDetails.licensedCapacity && (
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-200 text-slate-500 bg-slate-50">
@@ -85,13 +85,15 @@ export default function ProgramCard({ program }: Props) {
             <span>💰</span> Funding &amp; Administration
           </p>
           <div className="flex flex-wrap gap-2 mb-3">
-            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
-              <span className="font-semibold text-slate-700">Agency:</span>
-              {fundingMechanics.localAdministeringAgency}
-            </span>
+            {fundingMechanics.coveringAgencies.map((agency) => (
+              <span key={agency} className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
+                <span className="font-semibold text-slate-700">Agency:</span>
+                {agency}
+              </span>
+            ))}
             <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
               <span className="font-semibold text-slate-700">Billing Code:</span>
-              {fundingMechanics.stateBillingCode}
+              {fundingMechanics.authorizedServiceCodes.join(', ')}
             </span>
             <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-emerald-50 border border-emerald-200 text-xs text-emerald-700">
               <span className="font-semibold">Required Doc:</span>

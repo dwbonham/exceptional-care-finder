@@ -1,9 +1,9 @@
 import type { ProgramData } from '../../types';
-import caRiversideRaw from '../../../program-data/CA/riverside/programs.json';
 
-// To add a new county, import its programs.json and spread it in below.
-// Example: import caLosAngelesRaw from '../../../program-data/CA/los-angeles/programs.json';
+// Auto-discovers every programs.json in program-data/ — no import needed when the pipeline adds new counties.
+const modules = import.meta.glob<{ default: ProgramData[] }>(
+  '../../../program-data/**/programs.json',
+  { eager: true }
+);
 
-export const allPrograms: ProgramData[] = [
-  ...(caRiversideRaw as ProgramData[]),
-];
+export const allPrograms: ProgramData[] = Object.values(modules).flatMap((m) => m.default);

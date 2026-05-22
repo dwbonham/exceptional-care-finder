@@ -2,6 +2,9 @@
   {
     "legalLicenseName": "Official licensed entity name (from state license database)",
     "streetName": "Display name shown to parents on the card",
+    "ccldLicenseNumber": "000000000",
+    "licenseStatus": "Active",
+    "licenseType": "Adult Day Program",
     "location": {
       "street": "123 Main Street",
       "city": "City Name",
@@ -26,10 +29,9 @@
       "facilityFeatures": ["Wheelchair Accessible"]
     },
     "fundingMechanics": {
-      "vendorId": "TBD",
       "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
-      "localAdministeringAgency": "Name of the Regional Center",
-      "stateBillingCode": "510",
+      "coveringAgencies": ["Name of the Regional Center"],
+      "authorizedServiceCodes": ["510"],
       "transportationAvailability": "Contact Regional Center",
       "requiredFundingDocument": "Individual Program Plan (IPP)",
       "financialCoverageNote": "Plain-English explanation of how costs are covered and any conditions."
