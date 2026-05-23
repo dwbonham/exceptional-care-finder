@@ -1,6 +1,6 @@
 name: Bulk Import (CCLD only, no Gemini)
 
-# One-time workflow to import all 957 CA Adult Day Programs using only
+# One-time workflow to import all CA Adult Day Programs using only
 # CCLD data — no Gemini enrichment. Run this once to populate the full site.
 # After merging the resulting PR, the weekly pipeline will automatically
 # enrich 20 programs/day via Gemini until all cards are fully filled out.
@@ -46,7 +46,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Commit and open PR
-        id: commit
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -63,22 +62,23 @@ jobs:
           git commit -m "pipeline: bulk import — ${PROGRAM_COUNT} programs across ${COUNTY_COUNT} counties (CCLD data, Gemini backfill pending)"
           git push -f origin pipeline/bulk-import
 
+          cat > /tmp/pr-body.md << 'PREOF'
+          ## Bulk Import — All CA Adult Day Programs
+
+          Adds all active Adult Day Programs from the CA state licensing database.
+          Cards show basic CCLD data (name, address, phone, map). Gemini will
+          automatically enrich 20 programs per day after this merges.
+
+          **Before merging:**
+          - [ ] Program count looks right (~800-1,000 programs)
+          - [ ] Spot-check a few entries — name, address, county look correct
+          - [ ] Map shows programs spread across CA counties
+
+          After merging, the weekly pipeline handles Gemini enrichment automatically.
+          PREOF
+
           gh pr create \
             --base main \
             --head pipeline/bulk-import \
             --title "Bulk import: ${PROGRAM_COUNT} CA Adult Day Programs (CCLD data)" \
-            --body "$(cat <<'PREOF'
-## Bulk Import — All CA Adult Day Programs
-
-This PR adds all active Adult Day Programs from the CA state licensing database.
-Cards show basic CCLD data (name, address, phone, map). Gemini will automatically
-enrich 20 programs per day starting after this merges.
-
-**Before merging:**
-- [ ] Program count looks right (~800–1,000 programs)
-- [ ] Spot-check a few entries — name, address, county look correct
-- [ ] Map shows programs spread across CA counties
-
-After merging, the weekly pipeline handles everything automatically.
-PREOF
-            )"
+            --body-file /tmp/pr-body.md
