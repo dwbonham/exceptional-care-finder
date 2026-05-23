@@ -1,10 +1,14 @@
 #!/usr/bin/env bun
-// Quality gate — routes enriched+geocoded programs to auto-approve or Sheets review.
+// Quality gate — routes enriched+geocoded programs to approved or review.
 //
-// Rule (from engineering review):
-//   Completeness ≥ 80 AND at least 1 sentiment bullet → APPROVED (written to JSON)
-//   Anything else                                     → NEEDS_REVIEW (written to Sheet)
-//   licenseStatus !== 'Active'                        → SKIP_REVOKED (discarded)
+// Rule:
+//   licenseStatus === 'Active'  → APPROVED (always published to JSON + Sheet)
+//   licenseStatus !== 'Active'  → SKIP_REVOKED (discarded — never shown on site)
+//   NEEDS_REVIEW is reserved for future manual overrides; pipeline never sets it.
+//
+// Informational notes (low completeness, no web presence, parse errors) are
+// written to the Import Notes column so Doug can spot patterns, but they do
+// NOT block publication. We publish what we know; we omit what we don't.
 //
 // Also assembles the final ProgramData-shaped record used by both paths:
 //   APPROVED    → orchestrator writes it to program-data/CA/{county}/programs.json
@@ -17,8 +21,6 @@ export const DECISION = {
   NEEDS_REVIEW: 'needs_review',
   SKIP_REVOKED: 'skip_revoked',
 };
-
-const COMPLETENESS_THRESHOLD = 80;
 
 // ─── Public API ───────────────────────────────────────────────────────────────
 
@@ -42,25 +44,29 @@ export function evaluate(ccldRecord, enrichResult, geocodeResult) {
   }
 
   const score = calculateCompleteness(enrichResult);
-  const reasons = [];
+  const notes = [];
 
-  if (score < COMPLETENESS_THRESHOLD) {
-    reasons.push(`Completeness ${score}/100 is below the ${COMPLETENESS_THRESHOLD} threshold`);
-  }
-  if (!enrichResult.sentimentBullets?.length) {
-    reasons.push('No sentiment bullets found (low web presence)');
-  }
+  // Informational notes → Import Notes column in sheet (do NOT block publication)
   if (enrichResult.enrichParseError) {
-    reasons.push('Gemini enrichment response could not be parsed — data may be incomplete');
+    notes.push('Enrichment parse error — Gemini data unreliable, showing CCLD fields only');
+  }
+  if (!enrichResult.webPresenceFound) {
+    notes.push('No web presence found — description limited to CCLD data');
+  } else if (!enrichResult.sentimentBullets?.length) {
+    notes.push('Low web presence — no program description found');
+  }
+  if (score < 50) {
+    notes.push(`Low completeness (${score}/100) — many enriched fields missing`);
   }
   if (!geocodeResult?.lat || !geocodeResult?.lng) {
-    reasons.push('Coordinates not resolved — program will not appear on map');
+    notes.push('No coordinates — program will not appear on map');
   }
 
+  // All active programs are approved — publish what we know, omit what we don't
   return {
-    decision: reasons.length === 0 ? DECISION.APPROVED : DECISION.NEEDS_REVIEW,
+    decision: DECISION.APPROVED,
     completenessScore: score,
-    reasons,
+    reasons: notes,
     record: buildProgramRecord(ccldRecord, enrichResult, geocodeResult, score),
   };
 }

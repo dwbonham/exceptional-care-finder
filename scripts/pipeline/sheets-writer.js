@@ -16,8 +16,8 @@ import { createSign } from 'crypto';
 // Must match the order in buildSheetRow(). Used to create the header row.
 
 export const HEADERS = [
-  // Workflow (col 0–3)
-  'Status', 'Completeness %', 'Last Updated', 'CCLD Last Verified',
+  // Workflow (col 0–4)
+  'Status', 'Published Status', 'Completeness %', 'Last Updated', 'CCLD Last Verified',
   // CCLD Auto-fill (col 4–13)
   'CCLD License Number', 'Legal Name', 'License Type', 'License Status',
   'Address', 'City', 'County', 'State', 'Zip', 'Capacity',
@@ -88,11 +88,13 @@ export function buildSheetRow(gateResult) {
   const qi = r.qualitativeInsights ?? {};
 
   const statusLabel = decision === 'approved' ? 'Approved' : 'Needs Review';
+  const publishedStatus = decision === 'approved' ? 'Live' : 'Not Published';
   const today = new Date().toISOString().slice(0, 10);
 
   return [
     // Workflow
     statusLabel,
+    publishedStatus,
     completenessScore,
     today,
     r.lastVerifiedDate ?? today,
