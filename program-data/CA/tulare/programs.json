@@ -1,0 +1,895 @@
+[
+  {
+    "legalLicenseName": "PORTERVILLE SHELTERED WORKSHOP",
+    "streetName": "PORTERVILLE SHELTERED WORKSHOP",
+    "ccldLicenseNumber": "540408972",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "621 South E Street",
+      "city": "Porterville",
+      "state": "CA",
+      "zipCode": "93257",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.054592,
+        "lng": -119.0202
+      }
+    },
+    "contact": {
+      "phone": "(559) 784-1399",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 270,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VALLEY ADULT DAY SERVICES  INC.",
+    "streetName": "VALLEY ADULT DAY SERVICES  INC.",
+    "ccldLicenseNumber": "547200750",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "227 E Oak Avenue",
+      "city": "Porterville",
+      "state": "CA",
+      "zipCode": "93257",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.067707,
+        "lng": -119.01161
+      }
+    },
+    "contact": {
+      "phone": "(559) 783-9815",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CREATIVE CENTER  THE",
+    "streetName": "CREATIVE CENTER  THE",
+    "ccldLicenseNumber": "547203430",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "410 E. Race Street",
+      "city": "Visalia",
+      "state": "CA",
+      "zipCode": "93291",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.335365,
+        "lng": -119.28884
+      }
+    },
+    "contact": {
+      "phone": "(559) 733-9329",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 115,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER",
+    "streetName": "CENTRAL VALLEY TRAINING CENTER",
+    "ccldLicenseNumber": "547203972",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9838 W. Grove Ave",
+      "city": "Visalia",
+      "state": "CA",
+      "zipCode": "93291",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.337555,
+        "lng": -119.40049
+      }
+    },
+    "contact": {
+      "phone": "(559) 651-2844",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HERBS AND MORE ADULT DAY PROGRAM",
+    "streetName": "HERBS AND MORE ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "547204065",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "226 E. Front Street",
+      "city": "Farmersville",
+      "state": "CA",
+      "zipCode": "93223",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.30465,
+        "lng": -119.20553
+      }
+    },
+    "contact": {
+      "phone": "(559) 747-1101",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES  VISALIA #2",
+    "streetName": "SOCIAL VOCATIONAL SERVICES  VISALIA #2",
+    "ccldLicenseNumber": "547204112",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3140 West Caldwell Avenue",
+      "city": "Visalia",
+      "state": "CA",
+      "zipCode": "93277",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.298397,
+        "lng": -119.32636
+      }
+    },
+    "contact": {
+      "phone": "(559) 735-0938",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LINDSAY SERVICE CENTER",
+    "streetName": "LINDSAY SERVICE CENTER",
+    "ccldLicenseNumber": "547204156",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "911 Parkside Avenue",
+      "city": "Lindsay",
+      "state": "CA",
+      "zipCode": "93247",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.21518,
+        "lng": -119.091644
+      }
+    },
+    "contact": {
+      "phone": "(559) 562-2713",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS TULARE ADULT DAY PROGRAM",
+    "streetName": "SVS TULARE ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "547204193",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1225 Leland",
+      "city": "Tulare",
+      "state": "CA",
+      "zipCode": "93274",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.22948,
+        "lng": -119.32974
+      }
+    },
+    "contact": {
+      "phone": "(559) 684-9280",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PEOPLE'S CARE BLISS CENTER VISALIA",
+    "streetName": "PEOPLE'S CARE BLISS CENTER VISALIA",
+    "ccldLicenseNumber": "547206667",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "909 W Murray Rd",
+      "city": "Visalia",
+      "state": "CA",
+      "zipCode": "93291",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.33373,
+        "lng": -119.30125
+      }
+    },
+    "contact": {
+      "phone": "(559) 419-5415",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KINGS REHAB. CENTER INC.-TULARE CAMPUS",
+    "streetName": "KINGS REHAB. CENTER INC.-TULARE CAMPUS",
+    "ccldLicenseNumber": "547206781",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "388 E. Cross",
+      "city": "Tulare",
+      "state": "CA",
+      "zipCode": "93274",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.21388602,
+        "lng": -119.345324
+      }
+    },
+    "contact": {
+      "phone": "(559) 309-8217",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 200,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EMPLOY AMERICA",
+    "streetName": "EMPLOY AMERICA",
+    "ccldLicenseNumber": "547206782",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "340 N. Fourth St",
+      "city": "Porterville",
+      "state": "CA",
+      "zipCode": "93257",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.07168,
+        "lng": -119.013084
+      }
+    },
+    "contact": {
+      "phone": "(559) 443-7119",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CDL EXETER CENTER FOR DISCOVERY AND LEA",
+    "streetName": "CDL EXETER CENTER FOR DISCOVERY AND LEA",
+    "ccldLicenseNumber": "547206950",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "508 N Kaweah Ave",
+      "city": "Exeter",
+      "state": "CA",
+      "zipCode": "93221",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.303894,
+        "lng": -119.135704
+      }
+    },
+    "contact": {
+      "phone": "(559) 594-4646",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SEQUOIA ADULT ACTIVITY CENTER",
+    "streetName": "SEQUOIA ADULT ACTIVITY CENTER",
+    "ccldLicenseNumber": "547208766",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1329 N Alta Ave",
+      "city": "Dinuba",
+      "state": "CA",
+      "zipCode": "93618",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.556988,
+        "lng": -119.395195
+      }
+    },
+    "contact": {
+      "phone": "(559) 315-5351",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES  INC",
+    "streetName": "SOCIAL VOCATIONAL SERVICES  INC",
+    "ccldLicenseNumber": "547208843",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1120 S Ben Maddox Wy Ste 10",
+      "city": "Visalia",
+      "state": "CA",
+      "zipCode": "93292",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.33944,
+        "lng": -119.278786
+      }
+    },
+    "contact": {
+      "phone": "(559) 802-1560",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CHANCES LEARNING CENTER",
+    "streetName": "CHANCES LEARNING CENTER",
+    "ccldLicenseNumber": "547209055",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "823 W. Center",
+      "city": "Visalia",
+      "state": "CA",
+      "zipCode": "93291",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.33100254,
+        "lng": -119.300515
+      }
+    },
+    "contact": {
+      "phone": "(559) 636-6004",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 36,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PORTERVILLE SHELTERED W/S #2 (BEHAVIOR",
+    "streetName": "PORTERVILLE SHELTERED W/S #2 (BEHAVIOR",
+    "ccldLicenseNumber": "547209098",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "194 West Poplar Avenue",
+      "city": "Porterville",
+      "state": "CA",
+      "zipCode": "93257",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.05147592,
+        "lng": -119.0213276
+      }
+    },
+    "contact": {
+      "phone": "(559) 784-1399",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 193,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS TULARE #2",
+    "streetName": "SVS TULARE #2",
+    "ccldLicenseNumber": "547209165",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2143 E Bardsley Ave",
+      "city": "Tulare",
+      "state": "CA",
+      "zipCode": "93274",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.19664276,
+        "lng": -119.3141925
+      }
+    },
+    "contact": {
+      "phone": "(559) 443-7120",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT ACHIEVEMENT CENTER",
+    "streetName": "ADULT ACHIEVEMENT CENTER",
+    "ccldLicenseNumber": "547209253",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "306 S N St",
+      "city": "Tulare",
+      "state": "CA",
+      "zipCode": "93274",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.205929,
+        "lng": -119.341489
+      }
+    },
+    "contact": {
+      "phone": "(559) 688-8873",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 25,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIFE SKILLS LEARNING CENTER",
+    "streetName": "LIFE SKILLS LEARNING CENTER",
+    "ccldLicenseNumber": "547209317",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2505 N Shirk",
+      "city": "Visalia",
+      "state": "CA",
+      "zipCode": "93291",
+      "county": "Tulare",
+      "coordinates": {
+        "lat": 36.350296,
+        "lng": -119.367804
+      }
+    },
+    "contact": {
+      "phone": "(559) 651-8150",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 76,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

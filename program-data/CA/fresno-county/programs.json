@@ -1,0 +1,143 @@
+[
+  {
+    "legalLicenseName": "SUNSHINE COMMUNITY CARE CENTER",
+    "streetName": "SUNSHINE COMMUNITY CARE CENTER",
+    "ccldLicenseNumber": "107209421",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "5108 E Clinton Ave Ste 107",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "93727",
+      "county": "Fresno County",
+      "coordinates": {
+        "lat": 36.77223481,
+        "lng": -119.7317345
+      }
+    },
+    "contact": {
+      "phone": "(559) 478-3736",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS FRESNO CHAMPLAIN ADP",
+    "streetName": "SVS FRESNO CHAMPLAIN ADP",
+    "ccldLicenseNumber": "107209566",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1144 E Champlain Ave Ste 10",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "93720",
+      "county": "Fresno County",
+      "coordinates": {
+        "lat": 36.87146438,
+        "lng": -119.7632232
+      }
+    },
+    "contact": {
+      "phone": "(559) 443-7119",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DIAMOND LEARNING CENTER  INC.",
+    "streetName": "DIAMOND LEARNING CENTER  INC.",
+    "ccldLicenseNumber": "107209601",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "100 W. Ashlan Ave.",
+      "city": "Clovis",
+      "state": "CA",
+      "zipCode": "93612",
+      "county": "Fresno County",
+      "coordinates": {
+        "lat": 36.79398684,
+        "lng": -119.7112571
+      }
+    },
+    "contact": {
+      "phone": "(559) 241-0580",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 390,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

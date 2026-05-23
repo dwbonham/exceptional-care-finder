@@ -1,0 +1,190 @@
+[
+  {
+    "legalLicenseName": "KINGS REHABILITATION CENTER  INC.",
+    "streetName": "KINGS REHABILITATION CENTER  INC.",
+    "ccldLicenseNumber": "160403663",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "490 E. Hanford Armona Road",
+      "city": "Hanford",
+      "state": "CA",
+      "zipCode": "93230",
+      "county": "Kings",
+      "coordinates": {
+        "lat": 36.31346243,
+        "lng": -119.6389197
+      }
+    },
+    "contact": {
+      "phone": "(559) 582-9234",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LEMOORE ADULT DAY",
+    "streetName": "LEMOORE ADULT DAY",
+    "ccldLicenseNumber": "167204056",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1075 Blake Street",
+      "city": "Lemoore",
+      "state": "CA",
+      "zipCode": "93245",
+      "county": "Kings",
+      "coordinates": {
+        "lat": 36.31337,
+        "lng": -119.778244
+      }
+    },
+    "contact": {
+      "phone": "(559) 924-4419",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 15,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EMPLOY AMERICA #3",
+    "streetName": "EMPLOY AMERICA #3",
+    "ccldLicenseNumber": "167206283",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "307 Mall Drive Ste 105",
+      "city": "Hanford",
+      "state": "CA",
+      "zipCode": "93230",
+      "county": "Kings",
+      "coordinates": {
+        "lat": 36.32613001,
+        "lng": -119.66788
+      }
+    },
+    "contact": {
+      "phone": "(559) 583-0545",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KINGS REHABILITATION CENTER  INC.-DTAC",
+    "streetName": "KINGS REHABILITATION CENTER  INC.-DTAC",
+    "ccldLicenseNumber": "167206688",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "488 E. Hanford Armona Rd",
+      "city": "Hanford",
+      "state": "CA",
+      "zipCode": "93230",
+      "county": "Kings",
+      "coordinates": {
+        "lat": 36.31346259,
+        "lng": -119.6389285
+      }
+    },
+    "contact": {
+      "phone": "(559) 583-5051",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

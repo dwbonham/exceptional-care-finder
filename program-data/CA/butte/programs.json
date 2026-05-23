@@ -1,0 +1,378 @@
+[
+  {
+    "legalLicenseName": "ARC OF BUTTE   THE",
+    "streetName": "ARC OF BUTTE   THE",
+    "ccldLicenseNumber": "45000756",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2040 Park Ave",
+      "city": "Chico",
+      "state": "CA",
+      "zipCode": "95928",
+      "county": "Butte",
+      "coordinates": {
+        "lat": 39.718937,
+        "lng": -121.822586
+      }
+    },
+    "contact": {
+      "phone": "(530) 891-5865",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GRIDLEY ADULT SERVICES PROGRAM",
+    "streetName": "GRIDLEY ADULT SERVICES PROGRAM",
+    "ccldLicenseNumber": "45001341",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "262 Little Avenue",
+      "city": "Gridley",
+      "state": "CA",
+      "zipCode": "95948",
+      "county": "Butte",
+      "coordinates": {
+        "lat": 39.355713,
+        "lng": -121.70003
+      }
+    },
+    "contact": {
+      "phone": "(530) 846-4988",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 25,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIGHTHOUSE LIVING SERVICES  INC.",
+    "streetName": "LIGHTHOUSE LIVING SERVICES  INC.",
+    "ccldLicenseNumber": "45001802",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2065 Bird Street",
+      "city": "Oroville",
+      "state": "CA",
+      "zipCode": "95965",
+      "county": "Butte",
+      "coordinates": {
+        "lat": 39.513405,
+        "lng": -121.55438
+      }
+    },
+    "contact": {
+      "phone": "(530) 534-9237",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC OF BUTTE  - OROVILLE  THE",
+    "streetName": "ARC OF BUTTE  - OROVILLE  THE",
+    "ccldLicenseNumber": "45002089",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2745 Oro Dam Blvd.",
+      "city": "Oroville",
+      "state": "CA",
+      "zipCode": "95966",
+      "county": "Butte",
+      "coordinates": {
+        "lat": 39.508842,
+        "lng": -121.54372
+      }
+    },
+    "contact": {
+      "phone": "(530) 532-1272",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOAR",
+    "streetName": "SOAR",
+    "ccldLicenseNumber": "45002577",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3760 Morrow Ln Ste F",
+      "city": "Chico",
+      "state": "CA",
+      "zipCode": "95928",
+      "county": "Butte",
+      "coordinates": {
+        "lat": 39.71152,
+        "lng": -121.793236
+      }
+    },
+    "contact": {
+      "phone": "(530) 898-0813",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 6,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "INNOVATIONS",
+    "streetName": "INNOVATIONS",
+    "ccldLicenseNumber": "45002734",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1015 Mangrove Ave",
+      "city": "Chico",
+      "state": "CA",
+      "zipCode": "95926",
+      "county": "Butte",
+      "coordinates": {
+        "lat": 39.74034,
+        "lng": -121.83729
+      }
+    },
+    "contact": {
+      "phone": "(530) 899-1907",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 35,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ROSELEAF SENIOR DAY CENTER - CHICO",
+    "streetName": "ROSELEAF SENIOR DAY CENTER - CHICO",
+    "ccldLicenseNumber": "45002774",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2770 Sierra Ladera",
+      "city": "Chico",
+      "state": "CA",
+      "zipCode": "95928",
+      "county": "Butte",
+      "coordinates": {
+        "lat": 39.74545378,
+        "lng": -121.7829773
+      }
+    },
+    "contact": {
+      "phone": "(559) 970-1240",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "WTC NEXUS CHICO",
+    "streetName": "WTC NEXUS CHICO",
+    "ccldLicenseNumber": "45002948",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2201 Pillsbury Road Suite 1",
+      "city": "Chico",
+      "state": "CA",
+      "zipCode": "95926",
+      "county": "Butte",
+      "coordinates": {
+        "lat": 39.757966,
+        "lng": -121.848017
+      }
+    },
+    "contact": {
+      "phone": "(530) 343-7994",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 44,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

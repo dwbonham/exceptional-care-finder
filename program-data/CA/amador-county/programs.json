@@ -1,0 +1,96 @@
+[
+  {
+    "legalLicenseName": "US2REC",
+    "streetName": "US2REC",
+    "ccldLicenseNumber": "32701711",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "19710 Hwy 88",
+      "city": "Pine Grove",
+      "state": "CA",
+      "zipCode": "95665",
+      "county": "Amador County",
+      "coordinates": {
+        "lat": 38.41370364,
+        "lng": -120.6615352
+      }
+    },
+    "contact": {
+      "phone": "(209) 296-2000",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER JACKSON",
+    "streetName": "CENTRAL VALLEY TRAINING CENTER JACKSON",
+    "ccldLicenseNumber": "32701751",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "715 South State Highway 49",
+      "city": "Jackson",
+      "state": "CA",
+      "zipCode": "95642",
+      "county": "Amador County",
+      "coordinates": {
+        "lat": 38.34163088,
+        "lng": -120.7657275
+      }
+    },
+    "contact": {
+      "phone": "(209) 471-4404",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

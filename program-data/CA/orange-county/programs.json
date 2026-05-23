@@ -1,0 +1,425 @@
+[
+  {
+    "legalLicenseName": "VOCATIONAL INNOVATIONS GARDEN GROVE",
+    "streetName": "VOCATIONAL INNOVATIONS GARDEN GROVE",
+    "ccldLicenseNumber": "306006361",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9776 Katella",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92804",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.80320496,
+        "lng": -117.9481186
+      }
+    },
+    "contact": {
+      "phone": "(714) 771-8300",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DREAMS OF AMERICA",
+    "streetName": "DREAMS OF AMERICA",
+    "ccldLicenseNumber": "306006398",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8929 Irvine Center Dr.",
+      "city": "Irvine",
+      "state": "CA",
+      "zipCode": "92618",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.66262692,
+        "lng": -117.7544824
+      }
+    },
+    "contact": {
+      "phone": "(949) 398-7698",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 70,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DISCOVERY DAY PROGRAM LLC",
+    "streetName": "DISCOVERY DAY PROGRAM LLC",
+    "ccldLicenseNumber": "306006399",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8900 Knott Ave.",
+      "city": "Buena Park",
+      "state": "CA",
+      "zipCode": "90620",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.82087907,
+        "lng": -118.0108173
+      }
+    },
+    "contact": {
+      "phone": "(714) 952-9349",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT ENRICHMENT CENTER - ANAHEIM",
+    "streetName": "ADULT ENRICHMENT CENTER - ANAHEIM",
+    "ccldLicenseNumber": "306006457",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1901 E Center St.",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92805",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.84073595,
+        "lng": -117.8912696
+      }
+    },
+    "contact": {
+      "phone": "(714) 576-2688",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT ENRICHMENT CENTER",
+    "streetName": "ADULT ENRICHMENT CENTER",
+    "ccldLicenseNumber": "306006458",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1813 E Dyer Rd. #411",
+      "city": "Santa Ana",
+      "state": "CA",
+      "zipCode": "92705",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.710283,
+        "lng": -117.84699
+      }
+    },
+    "contact": {
+      "phone": "(714) 576-2688",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 121,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OC BRIDGES",
+    "streetName": "OC BRIDGES",
+    "ccldLicenseNumber": "306006627",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "31531 Rancho Viejo Rd Ste 1",
+      "city": "San Juan Capi",
+      "state": "CA",
+      "zipCode": "92675",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.50545787,
+        "lng": -117.6563236
+      }
+    },
+    "contact": {
+      "phone": "(949) 234-8250",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OC BRIDGES II  LLC",
+    "streetName": "OC BRIDGES II  LLC",
+    "ccldLicenseNumber": "306006634",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "23265 S Pointe Dr",
+      "city": "Laguna Hills",
+      "state": "CA",
+      "zipCode": "92653",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.62552435,
+        "lng": -117.7238939
+      }
+    },
+    "contact": {
+      "phone": "(949) 234-8250",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOICE BUENA PARK",
+    "streetName": "VOICE BUENA PARK",
+    "ccldLicenseNumber": "306006734",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6575 Crescent Ave",
+      "city": "Buena Park",
+      "state": "CA",
+      "zipCode": "90620",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.83934817,
+        "lng": -118.018351
+      }
+    },
+    "contact": {
+      "phone": "(714) 886-2036",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOMANG SOCIETY ADSP",
+    "streetName": "SOMANG SOCIETY ADSP",
+    "ccldLicenseNumber": "306006877",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2045 W Ball Rd",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92804",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.81785211,
+        "lng": -117.9542236
+      }
+    },
+    "contact": {
+      "phone": "(562) 977-4580",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

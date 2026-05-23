@@ -1,0 +1,49 @@
+[
+  {
+    "legalLicenseName": "ARC OF AMADOR/CALAVERAS",
+    "streetName": "ARC OF AMADOR/CALAVERAS",
+    "ccldLicenseNumber": "37000102",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "75 Academy Drive",
+      "city": "Sutter Creek",
+      "state": "CA",
+      "zipCode": "95685",
+      "county": "Amador",
+      "coordinates": {
+        "lat": 38.37757,
+        "lng": -120.80656
+      }
+    },
+    "contact": {
+      "phone": "(209) 267-5978",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "legalLicenseName": "EASTER SEALS SOUTHERN CALIFORNIA EL CEN",
+    "streetName": "EASTER SEALS SOUTHERN CALIFORNIA EL CEN",
+    "ccldLicenseNumber": "134601177",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "453 Main St",
+      "city": "El Centro",
+      "state": "CA",
+      "zipCode": "92243",
+      "county": "Imperial",
+      "coordinates": {
+        "lat": 32.79283,
+        "lng": -115.55367
+      }
+    },
+    "contact": {
+      "phone": "(760) 482-2777",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 80,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC IV DEVELOPMENT CENTER",
+    "streetName": "ARC IV DEVELOPMENT CENTER",
+    "ccldLicenseNumber": "134601955",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "298 E. Ross Ave",
+      "city": "El Centro",
+      "state": "CA",
+      "zipCode": "92244",
+      "county": "Imperial",
+      "coordinates": {
+        "lat": 32.78223,
+        "lng": -115.54029
+      }
+    },
+    "contact": {
+      "phone": "(760) 353-7440",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 85,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DAYOUT ADHC/ALZHEIMER DAY CARE RESOURCE",
+    "streetName": "DAYOUT ADHC/ALZHEIMER DAY CARE RESOURCE",
+    "ccldLicenseNumber": "134602532",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "757 Main Street",
+      "city": "El Centro",
+      "state": "CA",
+      "zipCode": "92243",
+      "county": "Imperial",
+      "coordinates": {
+        "lat": 32.792835,
+        "lng": -115.559845
+      }
+    },
+    "contact": {
+      "phone": "(760) 337-8394",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 10,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC IV BEHAVIOR MANAGEMENT PROGRAM",
+    "streetName": "ARC IV BEHAVIOR MANAGEMENT PROGRAM",
+    "ccldLicenseNumber": "134603455",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1291 South Hope Street",
+      "city": "El Centro",
+      "state": "CA",
+      "zipCode": "92243",
+      "county": "Imperial",
+      "coordinates": {
+        "lat": 32.781746,
+        "lng": -115.53959
+      }
+    },
+    "contact": {
+      "phone": "(760) 482-9388",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 70,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "legalLicenseName": "NORTH VALLEY SERVICES - BEHAVIOR MANAGE",
+    "streetName": "NORTH VALLEY SERVICES - BEHAVIOR MANAGE",
+    "ccldLicenseNumber": "525000804",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "13315 Baker Rd",
+      "city": "Red Bluff",
+      "state": "CA",
+      "zipCode": "96080",
+      "county": "Tehama",
+      "coordinates": {
+        "lat": 40.18405,
+        "lng": -122.26366
+      }
+    },
+    "contact": {
+      "phone": "(530) 528-1083",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 80,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIGHTHOUSE LIVING SERVICES",
+    "streetName": "LIGHTHOUSE LIVING SERVICES",
+    "ccldLicenseNumber": "525001287",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "22825 Antelope Blvd.  #F",
+      "city": "Red Bluff",
+      "state": "CA",
+      "zipCode": "96080",
+      "county": "Tehama",
+      "coordinates": {
+        "lat": 40.185688,
+        "lng": -122.18915
+      }
+    },
+    "contact": {
+      "phone": "(530) 737-6089",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 38,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NORTH VALLEY SERVICES - A/C WEST",
+    "streetName": "NORTH VALLEY SERVICES - A/C WEST",
+    "ccldLicenseNumber": "525002208",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "12097 Hwy 99 W",
+      "city": "Red Bluff",
+      "state": "CA",
+      "zipCode": "96080",
+      "county": "Tehama",
+      "coordinates": {
+        "lat": 40.14522999,
+        "lng": -122.21519
+      }
+    },
+    "contact": {
+      "phone": "(530) 527-9602",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CORNING ADULT SUPPORT CENTER",
+    "streetName": "CORNING ADULT SUPPORT CENTER",
+    "ccldLicenseNumber": "525002796",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "720 Hoag Street",
+      "city": "Corning",
+      "state": "CA",
+      "zipCode": "96021",
+      "county": "Tehama",
+      "coordinates": {
+        "lat": 39.92876,
+        "lng": -122.1869
+      }
+    },
+    "contact": {
+      "phone": "(530) 824-4562",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

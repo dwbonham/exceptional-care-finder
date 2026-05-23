@@ -1,0 +1,237 @@
+[
+  {
+    "legalLicenseName": "TAHOE ABILITY PROGRAM",
+    "streetName": "TAHOE ABILITY PROGRAM",
+    "ccldLicenseNumber": "292701027",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "11025 Pioneer Trail",
+      "city": "Truckee",
+      "state": "CA",
+      "zipCode": "96161",
+      "county": "Nevada",
+      "coordinates": {
+        "lat": 39.33575343,
+        "lng": -120.1815672
+      }
+    },
+    "contact": {
+      "phone": "(417) 619-0713",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ELEVATION TRUCKEE",
+    "streetName": "ELEVATION TRUCKEE",
+    "ccldLicenseNumber": "292701043",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "10344 & 10356 Donner Pass R",
+      "city": "Truckee",
+      "state": "CA",
+      "zipCode": "96161",
+      "county": "Nevada",
+      "coordinates": {
+        "lat": 39.32591312,
+        "lng": -120.189993
+      }
+    },
+    "contact": {
+      "phone": "(530) 386-0890",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NEIGHBORHOOD CENTER OF THE ARTS",
+    "streetName": "NEIGHBORHOOD CENTER OF THE ARTS",
+    "ccldLicenseNumber": "297000435",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "200 Litton Dr. Ste. 212",
+      "city": "Grass Valley",
+      "state": "CA",
+      "zipCode": "95945",
+      "county": "Nevada",
+      "coordinates": {
+        "lat": 39.234608,
+        "lng": -121.05388
+      }
+    },
+    "contact": {
+      "phone": "(530) 272-7287",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ALL-STAR PROGRAMS",
+    "streetName": "ALL-STAR PROGRAMS",
+    "ccldLicenseNumber": "297003934",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "10140 Wild Turkey Lane",
+      "city": "Smartsville",
+      "state": "CA",
+      "zipCode": "95977",
+      "county": "Nevada",
+      "coordinates": {
+        "lat": 39.20381,
+        "lng": -121.26864
+      }
+    },
+    "contact": {
+      "phone": "(530) 432-6564",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 24,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HELPING HANDS CAREGIVER RESOURCE",
+    "streetName": "HELPING HANDS CAREGIVER RESOURCE",
+    "ccldLicenseNumber": "297004181",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "17645 Penn Valley Drive",
+      "city": "Penn Valley",
+      "state": "CA",
+      "zipCode": "95946",
+      "county": "Nevada",
+      "coordinates": {
+        "lat": 39.198433,
+        "lng": -121.1806
+      }
+    },
+    "contact": {
+      "phone": "(530) 432-2540",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

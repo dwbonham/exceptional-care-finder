@@ -1,0 +1,143 @@
+[
+  {
+    "legalLicenseName": "HEART TO HEART ADULT DAY CARE",
+    "streetName": "HEART TO HEART ADULT DAY CARE",
+    "ccldLicenseNumber": "435202915",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "450 Marathon Drive",
+      "city": "Campbell",
+      "state": "CA",
+      "zipCode": "95008",
+      "county": "Santa Clara County",
+      "coordinates": {
+        "lat": 37.29330957,
+        "lng": -121.9653294
+      }
+    },
+    "contact": {
+      "phone": "(408) 460-1791",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EMBRACE DAY PROGRAM",
+    "streetName": "EMBRACE DAY PROGRAM",
+    "ccldLicenseNumber": "435202935",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4701 Patrick Henry Dr Bldg",
+      "city": "Santa Clara",
+      "state": "CA",
+      "zipCode": "95054",
+      "county": "Santa Clara County",
+      "coordinates": {
+        "lat": 37.397709,
+        "lng": -121.984972
+      }
+    },
+    "contact": {
+      "phone": "(408) 687-0996",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CELEBRATION DAY PROGRAM",
+    "streetName": "CELEBRATION DAY PROGRAM",
+    "ccldLicenseNumber": "435202964",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "133 Bernal Rd.",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95119",
+      "county": "Santa Clara County",
+      "coordinates": {
+        "lat": 37.22953134,
+        "lng": -121.7746207
+      }
+    },
+    "contact": {
+      "phone": "(408) 241-5020",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 22,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

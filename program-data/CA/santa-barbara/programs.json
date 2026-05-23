@@ -1,0 +1,801 @@
+[
+  {
+    "legalLicenseName": "FRIENDSHIP ADULT DAY CARE CENTER  INC.",
+    "streetName": "FRIENDSHIP ADULT DAY CARE CENTER  INC.",
+    "ccldLicenseNumber": "421701581",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "89 Eucalyptus Lane",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "zipCode": "93108",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.421223,
+        "lng": -119.631485
+      }
+    },
+    "contact": {
+      "phone": "(805) 969-0859",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 55,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VTC ENTERPRISES",
+    "streetName": "VTC ENTERPRISES",
+    "ccldLicenseNumber": "421701729",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2445 A Street",
+      "city": "Santa Maria",
+      "state": "CA",
+      "zipCode": "93455",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.915535,
+        "lng": -120.46422
+      }
+    },
+    "contact": {
+      "phone": "(805) 928-5000",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 150,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ALPHA RESOURCE CENTER OF SANTA BARBARA",
+    "streetName": "ALPHA RESOURCE CENTER OF SANTA BARBARA",
+    "ccldLicenseNumber": "421704067",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4501 Cathedral Oaks Road",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "zipCode": "93110",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.452724,
+        "lng": -119.77969
+      }
+    },
+    "contact": {
+      "phone": "(805) 683-2145",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 125,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UCP-WORK  INC-APPLIED ABILITIES PROGRAM",
+    "streetName": "UCP-WORK  INC-APPLIED ABILITIES PROGRAM",
+    "ccldLicenseNumber": "425800283",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3070 Skyway Dr Ste 104 & 10",
+      "city": "Santa Maria",
+      "state": "CA",
+      "zipCode": "93455",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.90519,
+        "lng": -120.45203
+      }
+    },
+    "contact": {
+      "phone": "(805) 739-0451",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DEVEREUX CALIFORNIA - ADULT DAY CARE",
+    "streetName": "DEVEREUX CALIFORNIA - ADULT DAY CARE",
+    "ccldLicenseNumber": "425801326",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6960b Falberg Way",
+      "city": "Goleta",
+      "state": "CA",
+      "zipCode": "93117",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.411797,
+        "lng": -119.873726
+      }
+    },
+    "contact": {
+      "phone": "(805) 968-2525",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PATHPOINT LIFE LEARNING CTR LIFE CTR IN",
+    "streetName": "PATHPOINT LIFE LEARNING CTR LIFE CTR IN",
+    "ccldLicenseNumber": "425801528",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2450 Professional Pkwy",
+      "city": "Santa Maria",
+      "state": "CA",
+      "zipCode": "93455",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.915607,
+        "lng": -120.43848
+      }
+    },
+    "contact": {
+      "phone": "(805) 934-3537",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOLVANG FRIENDSHIP HOUSE-ADP",
+    "streetName": "SOLVANG FRIENDSHIP HOUSE-ADP",
+    "ccldLicenseNumber": "425801652",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "880 Friendship Lane",
+      "city": "Solvang",
+      "state": "CA",
+      "zipCode": "93463",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.606483,
+        "lng": -120.099525
+      }
+    },
+    "contact": {
+      "phone": "(805) 688-8748",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 15,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PATHPONT - LAGUNA STREET",
+    "streetName": "PATHPONT - LAGUNA STREET",
+    "ccldLicenseNumber": "425801850",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "902 Laguna St",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "zipCode": "93101",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.424866,
+        "lng": -119.696175
+      }
+    },
+    "contact": {
+      "phone": "(805) 961-9200",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CAREMERIDIAN",
+    "streetName": "CAREMERIDIAN",
+    "ccldLicenseNumber": "425801991",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1135 N Patterson Ave",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "zipCode": "93111",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.458935,
+        "lng": -119.81817
+      }
+    },
+    "contact": {
+      "phone": "(805) 683-1995",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 8,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UCP WORK  INC. APPLIED ABILITIES PROGRA",
+    "streetName": "UCP WORK  INC. APPLIED ABILITIES PROGRA",
+    "ccldLicenseNumber": "425802004",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "423 W. Victoria Street",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "zipCode": "93101",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.419857,
+        "lng": -119.71044
+      }
+    },
+    "contact": {
+      "phone": "(805) 566-9000",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ATTERDAG VILLAGE OF SOLVANG",
+    "streetName": "ATTERDAG VILLAGE OF SOLVANG",
+    "ccldLicenseNumber": "425802103",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "636 Atterdag Road",
+      "city": "Solvang",
+      "state": "CA",
+      "zipCode": "93463",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.599823,
+        "lng": -120.14113
+      }
+    },
+    "contact": {
+      "phone": "(805) 688-3263",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 8,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VALLEY HAVEN",
+    "streetName": "VALLEY HAVEN",
+    "ccldLicenseNumber": "425850032",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2800 Harris Grade Rd",
+      "city": "Lompoc",
+      "state": "CA",
+      "zipCode": "93436",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.688263,
+        "lng": -120.44913
+      }
+    },
+    "contact": {
+      "phone": "(805) 733-9459",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PALS SANTA BARBARA AUTISM CENTER",
+    "streetName": "PALS SANTA BARBARA AUTISM CENTER",
+    "ccldLicenseNumber": "425850043",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "5385 Hollister Ave Bld9 Ste",
+      "city": "Goleta",
+      "state": "CA",
+      "zipCode": "93111",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.435116,
+        "lng": -119.813324
+      }
+    },
+    "contact": {
+      "phone": "(562) 426-5444",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REM CALIFORNIA LLC - HOLLISTER",
+    "streetName": "REM CALIFORNIA LLC - HOLLISTER",
+    "ccldLicenseNumber": "425850133",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7300 Hollister Avenue Unit",
+      "city": "Goleta",
+      "state": "CA",
+      "zipCode": "93117",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.43004184,
+        "lng": -119.8819967
+      }
+    },
+    "contact": {
+      "phone": "(805) 967-1533",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REM CALIFORNIA LLC - LOMPOC",
+    "streetName": "REM CALIFORNIA LLC - LOMPOC",
+    "ccldLicenseNumber": "425850134",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1133 North H Street Suite F",
+      "city": "Lompoc",
+      "state": "CA",
+      "zipCode": "93437",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.65631396,
+        "lng": -120.4576438
+      }
+    },
+    "contact": {
+      "phone": "(805) 757-9595",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REM CALIFORNIA LLC - CHURCH",
+    "streetName": "REM CALIFORNIA LLC - CHURCH",
+    "ccldLicenseNumber": "425850135",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "305 West Church Street",
+      "city": "Santa Maria",
+      "state": "CA",
+      "zipCode": "93458",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.95209996,
+        "lng": -120.4390337
+      }
+    },
+    "contact": {
+      "phone": "(805) 928-3414",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ALPHA RESOURCE CENTER OF SANTA BARBARA(",
+    "streetName": "ALPHA RESOURCE CENTER OF SANTA BARBARA(",
+    "ccldLicenseNumber": "425850288",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1911 De La Vina St.",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "zipCode": "93101",
+      "county": "Santa Barbara",
+      "coordinates": {
+        "lat": 34.428094,
+        "lng": -119.716191
+      }
+    },
+    "contact": {
+      "phone": "(805) 770-3878",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 35,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

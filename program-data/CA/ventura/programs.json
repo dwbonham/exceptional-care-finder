@@ -1,27 +1,27 @@
 [
   {
-    "legalLicenseName": "CREATIVE GROWTH",
-    "streetName": "CREATIVE GROWTH",
-    "ccldLicenseNumber": "11400147",
+    "legalLicenseName": "PATHPOINT",
+    "streetName": "PATHPOINT",
+    "ccldLicenseNumber": "197606198",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "355 - 24th Street",
-      "city": "Oakland",
+      "street": "1463 E Los Angeles Ave",
+      "city": "Simi Valley",
       "state": "CA",
-      "zipCode": "94612",
-      "county": "Alameda",
+      "zipCode": "93065",
+      "county": "Ventura",
       "coordinates": {
-        "lat": 37.81315,
-        "lng": -122.26416
+        "lat": 34.271732,
+        "lng": -118.76603
       }
     },
     "contact": {
-      "phone": "(510) 836-2340",
+      "phone": "(805) 520-8744",
       "websiteUrl": ""
     },
     "facilityDetails": {
-      "licensedCapacity": 90,
+      "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -47,165 +47,24 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "EVERGREEN PROGRAM",
-    "streetName": "EVERGREEN PROGRAM",
-    "ccldLicenseNumber": "11405820",
+    "legalLicenseName": "ARC VENTURA (ARCADE)",
+    "streetName": "ARC VENTURA (ARCADE)",
+    "ccldLicenseNumber": "197606385",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "797 Montague Avenue",
-      "city": "San Leandro",
+      "street": "295 S. Arcade Drive",
+      "city": "Ventura",
       "state": "CA",
-      "zipCode": "94577",
-      "county": "Alameda",
+      "zipCode": "93003",
+      "county": "Ventura",
       "coordinates": {
-        "lat": 37.71087,
-        "lng": -122.15628
+        "lat": 34.272392,
+        "lng": -119.26544
       }
     },
     "contact": {
-      "phone": "(510) 895-2838",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 150,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "WISDOM PATH",
-    "streetName": "WISDOM PATH",
-    "ccldLicenseNumber": "11440265",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "985 Sueirro",
-      "city": "Hayward",
-      "state": "CA",
-      "zipCode": "94541",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.66241,
-        "lng": -122.1156
-      }
-    },
-    "contact": {
-      "phone": "(510) 783-1174",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "KEYSTONE ADULT LEARNING CENTER",
-    "streetName": "KEYSTONE ADULT LEARNING CENTER",
-    "ccldLicenseNumber": "11440620",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1241 Quarry Lane  Suite 145",
-      "city": "Pleasanton",
-      "state": "CA",
-      "zipCode": "94566",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.674152,
-        "lng": -121.86565
-      }
-    },
-    "contact": {
-      "phone": "(925) 484-5330",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ABILITY NOW BAY AREA  INC.",
-    "streetName": "ABILITY NOW BAY AREA  INC.",
-    "ccldLicenseNumber": "11441112",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4500 Lincoln Avenue",
-      "city": "Oakland",
-      "state": "CA",
-      "zipCode": "94602",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.809036,
-        "lng": -122.20307
-      }
-    },
-    "contact": {
-      "phone": "(510) 531-3323",
+      "phone": "(805) 652-0541",
       "websiteUrl": ""
     },
     "facilityDetails": {
@@ -235,823 +94,24 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "COMMUNITY DAY PROGRAM  INC.",
-    "streetName": "COMMUNITY DAY PROGRAM  INC.",
-    "ccldLicenseNumber": "15600176",
+    "legalLicenseName": "CAMARILLO HEALTH CARE DISTRICT",
+    "streetName": "CAMARILLO HEALTH CARE DISTRICT",
+    "ccldLicenseNumber": "561704034",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "44250 Old Warm Springs",
-      "city": "Fremont",
+      "street": "3639 East Las Posas Road #1",
+      "city": "Camarillo",
       "state": "CA",
-      "zipCode": "94538",
-      "county": "Alameda",
+      "zipCode": "93010",
+      "county": "Ventura",
       "coordinates": {
-        "lat": 37.50765,
-        "lng": -121.94733
+        "lat": 34.24081,
+        "lng": -119.02154
       }
     },
     "contact": {
-      "phone": "(510) 445-1227",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 51,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "HAYWARD EMPLOY AMERICA",
-    "streetName": "HAYWARD EMPLOY AMERICA",
-    "ccldLicenseNumber": "15600218",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2483 Industrial Parkway",
-      "city": "Hayward",
-      "state": "CA",
-      "zipCode": "94545",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.61791,
-        "lng": -122.08506
-      }
-    },
-    "contact": {
-      "phone": "(510) 785-2284",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ONE STEP CLOSER",
-    "streetName": "ONE STEP CLOSER",
-    "ccldLicenseNumber": "15600506",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "7622 Mac Arthur Blvd.",
-      "city": "Oakland",
-      "state": "CA",
-      "zipCode": "94605",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.7675,
-        "lng": -122.16953
-      }
-    },
-    "contact": {
-      "phone": "(510) 636-0216",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CLAUSEN HOUSE ADULT EDUCATION PROGRAM",
-    "streetName": "CLAUSEN HOUSE ADULT EDUCATION PROGRAM",
-    "ccldLicenseNumber": "19200068",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "650 Grand Ave",
-      "city": "Oakland",
-      "state": "CA",
-      "zipCode": "94610",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.809597,
-        "lng": -122.24951
-      }
-    },
-    "contact": {
-      "phone": "(510) 208-4659",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 65,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ARC OF THE EAST BAY WALPERT AVP PROGRAM",
-    "streetName": "ARC OF THE EAST BAY WALPERT AVP PROGRAM",
-    "ccldLicenseNumber": "19200135",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1101 Walpert Street",
-      "city": "Hayward",
-      "state": "CA",
-      "zipCode": "94541",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.66859,
-        "lng": -122.075874
-      }
-    },
-    "contact": {
-      "phone": "(510) 357-3569",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 200,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MISSION HOPE DAY PROGRAM- HAYWARD",
-    "streetName": "MISSION HOPE DAY PROGRAM- HAYWARD",
-    "ccldLicenseNumber": "19200158",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "21328 Mission Blvd.",
-      "city": "Hayward",
-      "state": "CA",
-      "zipCode": "94541",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.68152,
-        "lng": -122.095436
-      }
-    },
-    "contact": {
-      "phone": "(510) 888-9231",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CARE ADMINISTRATION AND MGMT. PROFESSIO",
-    "streetName": "CARE ADMINISTRATION AND MGMT. PROFESSIO",
-    "ccldLicenseNumber": "19200189",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6805 Sierra Court  Suite A",
-      "city": "Dublin",
-      "state": "CA",
-      "zipCode": "94568",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.709255,
-        "lng": -121.91405
-      }
-    },
-    "contact": {
-      "phone": "(925) 560-0124",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 54,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "FCSN EAST BAY ADULT DAY PROGRAM",
-    "streetName": "FCSN EAST BAY ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "19200199",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2300 Peralta Blvd.",
-      "city": "Fremont",
-      "state": "CA",
-      "zipCode": "94536",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.562275,
-        "lng": -121.98963
-      }
-    },
-    "contact": {
-      "phone": "(510) 739-6900",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES  NEWARK",
-    "streetName": "SOCIAL VOCATIONAL SERVICES  NEWARK",
-    "ccldLicenseNumber": "19200203",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "37400 Cedar Blvd.  Suites A",
-      "city": "Newark",
-      "state": "CA",
-      "zipCode": "94560",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.539066,
-        "lng": -122.020485
-      }
-    },
-    "contact": {
-      "phone": "(510) 797-1916",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MISSION-HOPE DAY PROGRAM  DUBLIN",
-    "streetName": "MISSION-HOPE DAY PROGRAM  DUBLIN",
-    "ccldLicenseNumber": "19200218",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6300 Village Parkway",
-      "city": "Dublin",
-      "state": "CA",
-      "zipCode": "94568",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.70565,
-        "lng": -121.92328
-      }
-    },
-    "contact": {
-      "phone": "(925) 560-9582",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "HENRY AND HENRY ADULT DAY CARE",
-    "streetName": "HENRY AND HENRY ADULT DAY CARE",
-    "ccldLicenseNumber": "19200228",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3361 Macarthur Blvd.",
-      "city": "Oakland",
-      "state": "CA",
-      "zipCode": "94602",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.794643,
-        "lng": -122.20163
-      }
-    },
-    "contact": {
-      "phone": "(510) 530-3800",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "GARDEN TRI-VALLEY",
-    "streetName": "GARDEN TRI-VALLEY",
-    "ccldLicenseNumber": "19200237",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "676 & 690 L Street",
-      "city": "Livermore",
-      "state": "CA",
-      "zipCode": "94551",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.68849702,
-        "lng": -121.774391
-      }
-    },
-    "contact": {
-      "phone": "(925) 284-3240",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 20,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SOCIAL DAY SERVICES PROGRAM",
-    "streetName": "SOCIAL DAY SERVICES PROGRAM",
-    "ccldLicenseNumber": "19200251",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "211 Joaquin Avenue",
-      "city": "San Leandro",
-      "state": "CA",
-      "zipCode": "94577",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.72462,
-        "lng": -122.15361
-      }
-    },
-    "contact": {
-      "phone": "(510) 483-8000",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 46,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COLE VOCATIONAL SERVICES ALAMEDA  BMP",
-    "streetName": "COLE VOCATIONAL SERVICES ALAMEDA  BMP",
-    "ccldLicenseNumber": "19200273",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1479 Salmon Way",
-      "city": "Hayward",
-      "state": "CA",
-      "zipCode": "94544",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.610073,
-        "lng": -122.05676
-      }
-    },
-    "contact": {
-      "phone": "(510) 429-1919",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "GREEN OAK DEVELOPMENTAL CENTER II",
-    "streetName": "GREEN OAK DEVELOPMENTAL CENTER II",
-    "ccldLicenseNumber": "19200286",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2827 Whipple Road",
-      "city": "Union City",
-      "state": "CA",
-      "zipCode": "94587",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.60588237,
-        "lng": -122.0706075
-      }
-    },
-    "contact": {
-      "phone": "(510) 475-6069",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "GREEN OAK DEVELOPMENTAL CENTER",
-    "streetName": "GREEN OAK DEVELOPMENTAL CENTER",
-    "ccldLicenseNumber": "19200288",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2949 Whipple Road",
-      "city": "Union City",
-      "state": "CA",
-      "zipCode": "94587",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.60586043,
-        "lng": -122.0744751
-      }
-    },
-    "contact": {
-      "phone": "(510) 441-8300",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 80,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MISSION HOPE DAY PROGRAM  FREMONT",
-    "streetName": "MISSION HOPE DAY PROGRAM  FREMONT",
-    "ccldLicenseNumber": "19200347",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "43154 Osgood Road",
-      "city": "Fremont",
-      "state": "CA",
-      "zipCode": "94539",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.520435,
-        "lng": -121.94657
-      }
-    },
-    "contact": {
-      "phone": "(510) 226-1600",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "WAY OF THE ELDERS",
-    "streetName": "WAY OF THE ELDERS",
-    "ccldLicenseNumber": "19200444",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2700-A Merced Street",
-      "city": "San Leandro",
-      "state": "CA",
-      "zipCode": "94577",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.70291,
-        "lng": -122.167
-      }
-    },
-    "contact": {
-      "phone": "(510) 352-1867",
+      "phone": "(805) 388-1952",
       "websiteUrl": ""
     },
     "facilityDetails": {
@@ -1081,24 +141,118 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "SVS OAKLAND ADULT DAY PROGRAM",
-    "streetName": "SVS OAKLAND ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "19200481",
+    "legalLicenseName": "SENIOR CONCERNS ADULT DAY SUPPORT CENTE",
+    "streetName": "SENIOR CONCERNS ADULT DAY SUPPORT CENTE",
+    "ccldLicenseNumber": "561704040",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "1830 Embarcadero Suite 102",
-      "city": "Oakland",
+      "street": "401 Hodencamp Rd",
+      "city": "Thousand Oaks",
       "state": "CA",
-      "zipCode": "94606",
-      "county": "Alameda",
+      "zipCode": "91360",
+      "county": "Ventura",
       "coordinates": {
-        "lat": 37.78191,
-        "lng": -122.24291
+        "lat": 34.184372,
+        "lng": -118.86842
       }
     },
     "contact": {
-      "phone": "(415) 896-5777",
+      "phone": "(805) 497-0189",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ASSOCIATION FOR RETARDED CITIZENS - VEN",
+    "streetName": "ASSOCIATION FOR RETARDED CITIZENS - VEN",
+    "ccldLicenseNumber": "565800253",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3340 E. Los Angeles Avenue",
+      "city": "Simi Valley",
+      "state": "CA",
+      "zipCode": "93063",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.271667,
+        "lng": -118.73186
+      }
+    },
+    "contact": {
+      "phone": "(805) 527-1358",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES AUTO CENTER",
+    "streetName": "COLE VOCATIONAL SERVICES AUTO CENTER",
+    "ccldLicenseNumber": "565800303",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2011 Auto Center Dr Stes 10",
+      "city": "Oxnard",
+      "state": "CA",
+      "zipCode": "93030",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.22706002,
+        "lng": -119.147562
+      }
+    },
+    "contact": {
+      "phone": "(805) 278-2700",
       "websiteUrl": ""
     },
     "facilityDetails": {
@@ -1128,216 +282,780 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "DEAF PLUS ADULT COMMUNITY",
-    "streetName": "DEAF PLUS ADULT COMMUNITY",
-    "ccldLicenseNumber": "19200659",
+    "legalLicenseName": "ARC-OJAI ENRICHMENT CENTER",
+    "streetName": "ARC-OJAI ENRICHMENT CENTER",
+    "ccldLicenseNumber": "565800360",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "5437 Central Ave 4",
-      "city": "Newark",
+      "street": "210 Canada",
+      "city": "Ojai",
       "state": "CA",
-      "zipCode": "94560",
-      "county": "Alameda",
+      "zipCode": "93023",
+      "county": "Ventura",
       "coordinates": {
-        "lat": 37.538395,
-        "lng": -122.018036
+        "lat": 34.448647,
+        "lng": -119.24948
       }
     },
     "contact": {
-      "phone": "(510) 713-1803",
+      "phone": "(805) 646-5186",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC-HERITAGE VALLEY",
+    "streetName": "ARC-HERITAGE VALLEY",
+    "ccldLicenseNumber": "565800867",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "116 North 10th Street",
+      "city": "Santa Paula",
+      "state": "CA",
+      "zipCode": "93060",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.354313,
+        "lng": -119.060165
+      }
+    },
+    "contact": {
+      "phone": "(805) 933-9029",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SIMI OAKS COUNSELING GROUP",
+    "streetName": "SIMI OAKS COUNSELING GROUP",
+    "ccldLicenseNumber": "565800884",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2345 Erringer St.  Ste 106",
+      "city": "Simi Valley",
+      "state": "CA",
+      "zipCode": "93065",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.277023,
+        "lng": -118.76137
+      }
+    },
+    "contact": {
+      "phone": "(805) 581-4357",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC-VENTURA  (WALKER STREET)",
+    "streetName": "ARC-VENTURA  (WALKER STREET)",
+    "ccldLicenseNumber": "565801079",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "5101 Walker Street",
+      "city": "Ventura",
+      "state": "CA",
+      "zipCode": "93003",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.258114,
+        "lng": -119.221115
+      }
+    },
+    "contact": {
+      "phone": "(805) 644-0880",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OCEANVIEW WORKSHOP & RECREATION CENTER",
+    "streetName": "OCEANVIEW WORKSHOP & RECREATION CENTER",
+    "ccldLicenseNumber": "565801134",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "575 East Surfside Drive",
+      "city": "Port Hueneme",
+      "state": "CA",
+      "zipCode": "93041",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.145252,
+        "lng": -119.20044
+      }
+    },
+    "contact": {
+      "phone": "(805) 986-4818",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 150,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOCATIONAL SKILLS SERVICES  INC.-ADP/OX",
+    "streetName": "VOCATIONAL SKILLS SERVICES  INC.-ADP/OX",
+    "ccldLicenseNumber": "565801271",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "549 West Hueneme Road",
+      "city": "Oxnard",
+      "state": "CA",
+      "zipCode": "93033",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.14794399,
+        "lng": -119.183354
+      }
+    },
+    "contact": {
+      "phone": "(805) 986-8300",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 36,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES EASTMAN",
+    "streetName": "COLE VOCATIONAL SERVICES EASTMAN",
+    "ccldLicenseNumber": "565801293",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2363 Eastman Ave",
+      "city": "Ventura",
+      "state": "CA",
+      "zipCode": "93001",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.25242,
+        "lng": -119.22989
+      }
+    },
+    "contact": {
+      "phone": "(805) 658-9300",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOCATIONAL SKILLS SERVICES  INC.-ADP/SA",
+    "streetName": "VOCATIONAL SKILLS SERVICES  INC.-ADP/SA",
+    "ccldLicenseNumber": "565801379",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4225 Saviers Road  Suite #1",
+      "city": "Oxnard",
+      "state": "CA",
+      "zipCode": "93033",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.16174,
+        "lng": -119.17767
+      }
+    },
+    "contact": {
+      "phone": "(805) 487-5848",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 12,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC VC-COCHRAN",
+    "streetName": "ARC VC-COCHRAN",
+    "ccldLicenseNumber": "565801424",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "5143 Cochran Street",
+      "city": "Simi Valley",
+      "state": "CA",
+      "zipCode": "93063",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.278996,
+        "lng": -118.692924
+      }
+    },
+    "contact": {
+      "phone": "(805) 520-0399",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC OF VENTURA  - OXNARD  THE",
+    "streetName": "ARC OF VENTURA  - OXNARD  THE",
+    "ccldLicenseNumber": "565801544",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "416 North \"\"\"\"A\"\"\"\" St",
+      "city": "Oxnard",
+      "state": "CA",
+      "zipCode": "93030",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.207108,
+        "lng": -119.178474
+      }
+    },
+    "contact": {
+      "phone": "(805) 240-1620",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS-SIMI VALLEY",
+    "streetName": "SVS-SIMI VALLEY",
+    "ccldLicenseNumber": "565801684",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2381 Tapo Street  Unit D",
+      "city": "Simi Valley",
+      "state": "CA",
+      "zipCode": "93063",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.27851,
+        "lng": -118.70895
+      }
+    },
+    "contact": {
+      "phone": "(805) 582-1752",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PATHPOINT",
+    "streetName": "PATHPOINT",
+    "ccldLicenseNumber": "565801840",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "501 Marin St Ste 112",
+      "city": "Thousand Oaks",
+      "state": "CA",
+      "zipCode": "91360",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.18307,
+        "lng": -118.883446
+      }
+    },
+    "contact": {
+      "phone": "(805) 413-0790",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BALLARD VOCATIONAL SERVICE CENTER",
+    "streetName": "BALLARD VOCATIONAL SERVICE CENTER",
+    "ccldLicenseNumber": "565801913",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3151 West 5th Street  #102",
+      "city": "Oxnard",
+      "state": "CA",
+      "zipCode": "93030",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.197514,
+        "lng": -119.21132
+      }
+    },
+    "contact": {
+      "phone": "(805) 815-3233",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "E3 WELLNESS CENTER",
+    "streetName": "E3 WELLNESS CENTER",
+    "ccldLicenseNumber": "565802554",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2585-2587 Teller Road",
+      "city": "Newbury Park",
+      "state": "CA",
+      "zipCode": "91320",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.190335,
+        "lng": -118.932944
+      }
+    },
+    "contact": {
+      "phone": "(805) 375-9222",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES - SIMI VALLEY",
+    "streetName": "COLE VOCATIONAL SERVICES - SIMI VALLEY",
+    "ccldLicenseNumber": "565850062",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "660 East Los Angeles Ave Un",
+      "city": "Simi Valley",
+      "state": "CA",
+      "zipCode": "93065",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.27162253,
+        "lng": -118.784644
+      }
+    },
+    "contact": {
+      "phone": "(909) 483-2505",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PALS WTC SIMI VALLEY",
+    "streetName": "PALS WTC SIMI VALLEY",
+    "ccldLicenseNumber": "565850145",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "Y494 A-1 Madera Road",
+      "city": "Simi Valley",
+      "state": "CA",
+      "zipCode": "93065",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.25061345,
+        "lng": -118.8245313
+      }
+    },
+    "contact": {
+      "phone": "(805) 842-9505",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PALS SKILLS CENTER",
+    "streetName": "PALS SKILLS CENTER",
+    "ccldLicenseNumber": "565850244",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1310 E Main Street",
+      "city": "Santa Paula",
+      "state": "CA",
+      "zipCode": "93060",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.356047,
+        "lng": -119.053672
+      }
+    },
+    "contact": {
+      "phone": "(562) 489-3859",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS PLEASANTON ADULT DAY PROGRAM",
-    "streetName": "SVS PLEASANTON ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "19200675",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6602 Owen Drive Suite 100",
-      "city": "Pleasanton",
-      "state": "CA",
-      "zipCode": "94588",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.69673798,
-        "lng": -121.907058
-      }
-    },
-    "contact": {
-      "phone": "(925) 621-3902",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "REM CALIFORNIA LLC - ASHLAND",
-    "streetName": "REM CALIFORNIA LLC - ASHLAND",
-    "ccldLicenseNumber": "19201048",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "29800 Mission Blvd",
-      "city": "Hayward",
-      "state": "CA",
-      "zipCode": "94544",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.62874306,
-        "lng": -122.0457374
-      }
-    },
-    "contact": {
-      "phone": "(510) 278-3937",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "HENRY & HENRY ADULT DAY PROGRAM II",
-    "streetName": "HENRY & HENRY ADULT DAY PROGRAM II",
-    "ccldLicenseNumber": "19201074",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2614 Seminary Avenue",
-      "city": "Oakland",
-      "state": "CA",
-      "zipCode": "94605",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.7718,
-        "lng": -122.189971
-      }
-    },
-    "contact": {
-      "phone": "(510) 530-3800",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MITC EAST BAY",
-    "streetName": "MITC EAST BAY",
-    "ccldLicenseNumber": "19201157",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2192 E 14th St",
-      "city": "San Leandro",
-      "state": "CA",
-      "zipCode": "94577",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.718376,
-        "lng": -122.146889
-      }
-    },
-    "contact": {
-      "phone": "(408) 427-7119",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 70,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,

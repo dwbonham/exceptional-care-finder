@@ -1,0 +1,190 @@
+[
+  {
+    "legalLicenseName": "COMMUNITY EXPERIENCE CENTER INC",
+    "streetName": "COMMUNITY EXPERIENCE CENTER INC",
+    "ccldLicenseNumber": "502701333",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "5933 Stoddard Rd Building 1",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95356",
+      "county": "Stanislaus County",
+      "coordinates": {
+        "lat": 37.72460277,
+        "lng": -121.0687597
+      }
+    },
+    "contact": {
+      "phone": "(209) 918-5482",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNITED CEREBRAL PALSY ASSO",
+    "streetName": "UNITED CEREBRAL PALSY ASSO",
+    "ccldLicenseNumber": "502701630",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "275 Third St",
+      "city": "Turlock",
+      "state": "CA",
+      "zipCode": "95380",
+      "county": "Stanislaus County",
+      "coordinates": {
+        "lat": 37.49067733,
+        "lng": -120.8465453
+      }
+    },
+    "contact": {
+      "phone": "(209) 577-2122",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VALLEY CAPS",
+    "streetName": "VALLEY CAPS",
+    "ccldLicenseNumber": "502701633",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "108 Campus Way",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95380",
+      "county": "Stanislaus County",
+      "coordinates": {
+        "lat": 37.64737725,
+        "lng": -121.0105809
+      }
+    },
+    "contact": {
+      "phone": "(209) 576-1807",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 150,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER  INC. MO",
+    "streetName": "CENTRAL VALLEY TRAINING CENTER  INC. MO",
+    "ccldLicenseNumber": "502701705",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1900 Blue Gum Ave Ste B",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95358",
+      "county": "Stanislaus County",
+      "coordinates": {
+        "lat": 37.66039045,
+        "lng": -121.0360737
+      }
+    },
+    "contact": {
+      "phone": "(209) 471-4404",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]
