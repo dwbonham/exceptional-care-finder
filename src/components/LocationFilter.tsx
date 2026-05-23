@@ -1,13 +1,13 @@
-import type { ZipEntry } from '../utils/programUtils';
-
 interface Props {
-  zipMap: Record<string, ZipEntry[]>;
+  stateMap: Record<string, string[]>;
   careTypes: string[];
   selectedState: string;
-  selectedZip: string;
+  selectedCounty: string;
+  selectedLaZip: string;
   selectedCareType: string;
   onStateChange: (state: string) => void;
-  onZipChange: (zip: string) => void;
+  onCountyChange: (county: string) => void;
+  onLaZipChange: (zip: string) => void;
   onCareTypeChange: (careType: string) => void;
   totalResults: number;
 }
@@ -23,29 +23,42 @@ function Chevron() {
   );
 }
 
+const isLaCounty = (state: string, county: string) =>
+  state === 'CA' && county === 'Los Angeles';
+
 export default function LocationFilter({
-  zipMap,
+  stateMap,
   careTypes,
   selectedState,
-  selectedZip,
+  selectedCounty,
+  selectedLaZip,
   selectedCareType,
   onStateChange,
-  onZipChange,
+  onCountyChange,
+  onLaZipChange,
   onCareTypeChange,
   totalResults,
 }: Props) {
-  const states = Object.keys(zipMap).sort();
-  const zipEntries = selectedState ? (zipMap[selectedState] ?? []) : [];
-  const hasFilter = selectedState || selectedZip || selectedCareType;
+  const states = Object.keys(stateMap).sort();
+  const counties = selectedState ? (stateMap[selectedState] ?? []) : [];
+  const showLaZip = isLaCounty(selectedState, selectedCounty);
+  const hasFilter = selectedState || selectedCounty || selectedCareType;
 
   function handleStateChange(e: React.ChangeEvent<HTMLSelectElement>) {
     onStateChange(e.target.value);
-    onZipChange('');
+    onCountyChange('');
+    onLaZipChange('');
+  }
+
+  function handleCountyChange(e: React.ChangeEvent<HTMLSelectElement>) {
+    onCountyChange(e.target.value);
+    onLaZipChange('');
   }
 
   function clearAll() {
     onStateChange('');
-    onZipChange('');
+    onCountyChange('');
+    onLaZipChange('');
     onCareTypeChange('');
   }
 
@@ -54,7 +67,7 @@ export default function LocationFilter({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex flex-col sm:flex-row sm:items-center gap-3">
 
-          {/* Three filter dropdowns */}
+          {/* Filter dropdowns */}
           <div className="flex flex-col sm:flex-row gap-2 flex-1">
 
             {/* Location group */}
@@ -71,19 +84,34 @@ export default function LocationFilter({
 
               <div className="relative flex-1 min-w-0">
                 <select
-                  value={selectedZip}
-                  onChange={(e) => onZipChange(e.target.value)}
+                  value={selectedCounty}
+                  onChange={handleCountyChange}
                   disabled={!selectedState}
                   className={SELECT_CLASS}
                 >
-                  <option value="">{selectedState ? 'All Zip Codes' : 'Zip Code'}</option>
-                  {zipEntries.map(({ zip, county }) => (
-                    <option key={zip} value={zip}>{zip} – {county}</option>
+                  <option value="">{selectedState ? 'All Counties' : 'County'}</option>
+                  {counties.map((c) => (
+                    <option key={c} value={c}>{c} County</option>
                   ))}
                 </select>
                 <Chevron />
               </div>
             </div>
+
+            {/* LA County ZIP refinement — only shows for Los Angeles County */}
+            {showLaZip && (
+              <div className="relative sm:w-44">
+                <input
+                  type="text"
+                  inputMode="numeric"
+                  maxLength={5}
+                  placeholder="ZIP (optional)"
+                  value={selectedLaZip}
+                  onChange={(e) => onLaZipChange(e.target.value.replace(/\D/g, ''))}
+                  className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-sm font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-blue-400 placeholder:text-slate-400"
+                />
+              </div>
+            )}
 
             {/* Divider */}
             <div className="hidden sm:block w-px bg-slate-200 self-stretch" />

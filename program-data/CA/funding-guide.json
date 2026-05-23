@@ -105,49 +105,56 @@
       "name": "Frank D. Lanterman Regional Center",
       "phone": "(818) 246-5200",
       "websiteUrl": "https://www.lanterman.org",
-      "note": "LA County — serves Alhambra, Arcadia, Burbank, Glendale, Pasadena, and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+      "note": "Glendale, Burbank, Pasadena, Alhambra, Arcadia, San Gabriel, Monrovia",
+      "zipCodes": ["91201","91202","91203","91204","91205","91206","91207","91208","91214","91501","91502","91503","91504","91505","91506","91510","91101","91102","91103","91104","91105","91106","91107","91801","91802","91803","91006","91007","91775","91776","91016","91017","91011","91780","91770"]
     },
     {
       "county": "Los Angeles",
       "name": "North Los Angeles County Regional Center",
       "phone": "(818) 778-1900",
       "websiteUrl": "https://www.nlacrc.org",
-      "note": "LA County — serves San Fernando Valley, Antelope Valley (Lancaster, Palmdale), and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+      "note": "San Fernando Valley (Van Nuys, Northridge, Woodland Hills), Antelope Valley (Lancaster, Palmdale)",
+      "zipCodes": ["91401","91402","91403","91404","91405","91406","91407","91408","91409","91411","91601","91602","91603","91604","91605","91606","91607","91608","91609","91610","91611","91612","91614","91615","91616","91335","91337","91311","91324","91325","91326","91344","91303","91304","91364","91365","91366","91367","91316","91436","91423","93534","93535","93536","93550","93551","93552"]
     },
     {
       "county": "Los Angeles",
       "name": "Eastern Los Angeles Regional Center",
       "phone": "(323) 838-4750",
       "websiteUrl": "https://www.elarc.org",
-      "note": "LA County — serves East Los Angeles, Boyle Heights, West Covina, Whittier, and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+      "note": "East Los Angeles, Boyle Heights, West Covina, Whittier, Downey, El Monte",
+      "zipCodes": ["90022","90023","90032","90040","90063","90033","91790","91791","91792","90601","90602","90603","90604","90605","90606","90660","90240","90241","90242","91731","91732","91733"]
     },
     {
       "county": "Los Angeles",
       "name": "San Gabriel/Pomona Valley Regional Center",
       "phone": "(909) 620-7722",
       "websiteUrl": "https://www.sgprc.org",
-      "note": "LA County — serves Pomona, Claremont, Glendora, and eastern San Gabriel Valley communities. Assignment is by city of residence — contact DDS to confirm your RC."
+      "note": "Pomona, Claremont, Glendora, San Dimas, Covina, Azusa, Baldwin Park, Diamond Bar",
+      "zipCodes": ["91766","91767","91768","91711","91740","91741","91773","91750","91722","91723","91724","91702","91706","91765"]
     },
     {
       "county": "Los Angeles",
       "name": "South Central Los Angeles Regional Center",
       "phone": "(213) 744-7000",
       "websiteUrl": "https://www.sclarc.org",
-      "note": "LA County — serves South Central LA, Compton, Watts, Inglewood, and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+      "note": "South Central LA, Compton, Watts, Inglewood, Hawthorne, Gardena, Lynwood",
+      "zipCodes": ["90001","90002","90003","90011","90037","90044","90047","90059","90220","90221","90222","90224","90301","90302","90303","90304","90305","90250","90251","90262","90280","90247","90248","90249"]
     },
     {
       "county": "Los Angeles",
       "name": "Harbor Regional Center",
       "phone": "(310) 540-1711",
       "websiteUrl": "https://www.harborrc.org",
-      "note": "LA County — serves South Bay and Harbor area: Torrance, Long Beach, Carson, Redondo Beach, and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+      "note": "Long Beach, Torrance, Carson, Redondo Beach, San Pedro, Palos Verdes, Manhattan Beach",
+      "zipCodes": ["90801","90802","90803","90804","90805","90806","90807","90808","90810","90813","90814","90815","90501","90502","90503","90504","90505","90506","90510","90745","90746","90747","90749","90277","90278","90731","90732","90274","90275","90254","90266","90717"]
     },
     {
       "county": "Los Angeles",
       "name": "Westside Regional Center",
       "phone": "(310) 258-4000",
       "websiteUrl": "https://www.westsiderc.org",
-      "note": "LA County — serves Santa Monica, Beverly Hills, Culver City, Malibu, and westside communities. Assignment is by city of residence — contact DDS to confirm your RC."
+      "note": "Santa Monica, Beverly Hills, Culver City, Malibu, West LA, Brentwood, West Hollywood",
+      "zipCodes": ["90401","90402","90403","90404","90405","90209","90210","90211","90212","90213","90230","90232","90234","90265","90025","90064","90272","90291","90292","90049","90077","90046","90048","90069"]
     }
   ],
   "faqs": [

@@ -6,41 +6,37 @@ import ProgramGrid from './components/ProgramGrid';
 import StateRegulatoryGuide from './components/StateRegulatoryGuide';
 import RegionalCenterBanner from './components/RegionalCenterBanner';
 import { allPrograms } from './data/programs';
-import { extractZipMap, extractCareTypes, filterPrograms } from './utils/programUtils';
+import { extractStateMap, extractCareTypes, filterPrograms } from './utils/programUtils';
 import './index.css';
 
-const zipMap = extractZipMap(allPrograms);
+const stateMap = extractStateMap(allPrograms);
 const careTypes = extractCareTypes(allPrograms);
 
 export default function App() {
   const [selectedState, setSelectedState] = useState('');
-  const [selectedZip, setSelectedZip] = useState('');
+  const [selectedCounty, setSelectedCounty] = useState('');
+  const [selectedLaZip, setSelectedLaZip] = useState('');
   const [selectedCareType, setSelectedCareType] = useState('');
 
-  // Derive county from the selected zip (used for RC lookup and display)
-  const selectedCounty =
-    selectedZip && selectedState
-      ? (zipMap[selectedState]?.find((z) => z.zip === selectedZip)?.county ?? '')
-      : '';
-
-  const filtered = filterPrograms(allPrograms, selectedState, selectedZip, selectedCareType);
+  const filtered = filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType);
 
   return (
     <div className="min-h-screen bg-slate-50">
       <HeroSection
         selectedState={selectedState}
-        selectedZip={selectedZip}
         selectedCounty={selectedCounty}
       />
 
       <LocationFilter
-        zipMap={zipMap}
+        stateMap={stateMap}
         careTypes={careTypes}
         selectedState={selectedState}
-        selectedZip={selectedZip}
+        selectedCounty={selectedCounty}
+        selectedLaZip={selectedLaZip}
         selectedCareType={selectedCareType}
-        onStateChange={(s) => { setSelectedState(s); setSelectedZip(''); }}
-        onZipChange={setSelectedZip}
+        onStateChange={(s) => { setSelectedState(s); setSelectedCounty(''); setSelectedLaZip(''); }}
+        onCountyChange={(c) => { setSelectedCounty(c); setSelectedLaZip(''); }}
+        onLaZipChange={setSelectedLaZip}
         onCareTypeChange={setSelectedCareType}
         totalResults={filtered.length}
       />
@@ -52,8 +48,8 @@ export default function App() {
 
         <RegionalCenterBanner
           selectedState={selectedState}
-          selectedZip={selectedZip}
           selectedCounty={selectedCounty}
+          selectedLaZip={selectedLaZip}
         />
 
         <div className="flex flex-col lg:flex-row gap-8">
