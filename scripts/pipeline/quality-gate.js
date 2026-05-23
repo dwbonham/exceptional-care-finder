@@ -52,7 +52,7 @@ export function evaluate(ccldRecord, enrichResult, geocodeResult) {
   }
   if (!enrichResult.webPresenceFound) {
     notes.push('No web presence found — description limited to CCLD data');
-  } else if (!enrichResult.sentimentBullets?.length) {
+  } else if (enrichResult.sentimentFlagged) {
     notes.push('Low web presence — no program description found');
   }
   if (score < 50) {

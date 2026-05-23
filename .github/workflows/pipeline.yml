@@ -2,8 +2,8 @@ name: Weekly Data Pipeline
 
 on:
   schedule:
-    - cron: '0 14 * * 1'    # Monday 6 am PT (14:00 UTC) — main weekly run
-    - cron: '0 14 * * 2-5'  # Tue–Fri 6 am PT — catch-up if Monday was rate-limited
+    - cron: '0 14 * * 1'    # Monday 6 am PT (14:00 UTC) — weekly run (CCLD diff + enrichment)
+    - cron: '0 14 * * 2-7'  # Tue–Sun 6 am PT — daily catch-up enrichment (20 programs/day)
   workflow_dispatch:          # manual trigger for testing / one-off runs
 
 permissions:

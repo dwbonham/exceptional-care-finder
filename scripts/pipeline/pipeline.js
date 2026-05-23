@@ -119,7 +119,9 @@ if (toEnrich.length) {
   for (const licNum of toEnrich) {
     const ccldRecord = state.programs[licNum].ccldRecord;
     try {
-      const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey);
+      // skipSentiment=true halves API calls (1 per program instead of 2),
+      // doubling daily throughput on the free tier. Remove when upgrading to paid.
+      const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment: true });
       state = updateStatus(state, licNum, STATUS.PENDING_GEOCODE, { enrichResult });
       process.stdout.write('.');
     } catch (e) {
