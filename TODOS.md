@@ -42,10 +42,105 @@ Deferred work captured during engineering review (May 2026). Each item has a cle
 
 ## T4 — Display enriched fields in ProgramCard (days/hours, parent org, self-determination)
 
-**What:** Update `src/components/ProgramCard.tsx` to display `daysOfOperation`, `hoursOfOperation`, `parentOrganization`, and `selfDeterminationAccepted` when they are present on a program record.
+**What:** Update `src/components/ProgramCard.tsx` to display `daysOfOperation`, `hoursOfOperation`, `parentOrganization`, `selfDeterminationAccepted`, and `populationSpecialization` when they are present on a program record.
 
 **Why:** These are high-value fields for families. "Is this program open Monday–Friday?" and "Does this program accept Self-Determination funding?" are among the most common questions parents ask.
+
+**Design spec (from design review May 2026):**
+
+```
+CARD STRUCTURE (when enriched fields present):
+┌────────────────────────────────────────────┐
+│ ── amber banner if licenseStatus=Inactive ──│
+│ Program Name                                │
+│ by [parentOrganization]   ← gray subtitle   │
+│ Registered Legal Entity: xxx                │
+│ [Program Type badge]  [Capacity badge]      │
+│ ─────────────────────────────────────────── │
+│ KNOCKOUT ROW (only when data present):      │
+│ 📅 Mon–Fri  🕗 8:00am–3:00pm  [✓ Self-Det]│
+│ ─────────────────────────────────────────── │
+│ ✨ AI-Powered Summary                       │
+│ [Age chip] [Language chips]                 │
+│ [Autism chip] [Down Syndrome chip] ← popSpec│
+│ 💰 Funding & Administration                 │
+│ ...                                         │
+└────────────────────────────────────────────┘
+```
+
+**Knockout row rules:**
+- Show the knockout row only when at least one of `daysOfOperation`, `hoursOfOperation`, or `selfDeterminationAccepted` is present
+- `selfDeterminationAccepted`: green pill "✓ Self-Determination" (Yes), amber "? Self-Det" (Unknown), hide entirely (No — not a negative signal worth showing)
+- All emoji in the knockout row must have `aria-hidden="true"` on their wrapper `<span>`
+
+**Inactive badge:**
+- When `licenseStatus === 'Inactive'`: full-width amber-50/amber-200 banner above the card header
+- Text: "⚠️ License currently inactive — call to verify availability before visiting"
+- When `licenseStatus === 'Revoked'`: filtered out in `filterPrograms()`, never shown on site
 
 **Context:** The 4 existing Riverside programs don't have these fields yet (they predate the pipeline). Adding the UI now would display nothing. Wait until at least a few enriched programs exist to verify the display looks correct. Human: ~2hrs / CC: ~20min.
 
 **Depends on:** Phase 2 pipeline live and having enriched at least a few programs with real `daysOfOperation` / `hoursOfOperation` values.
+
+---
+
+## T5 — Wire up hero ZIP search to program data
+
+**What:** Make the hero ZIP input functional. Pass an `onSearch(zip: string)` prop from `App` to `HeroSection`. On submit, look up the ZIP in `zipMap`. If found: set `selectedState` + `selectedZip` and scroll to results. If not found: show inline message "No programs in this ZIP yet — we're expanding." with a "Browse all programs →" action.
+
+**Why:** The hero ZIP input currently accepts input and does nothing. The first thing a family tries is broken. This erodes trust (the "goodwill reservoir" principle).
+
+**Design spec:**
+- Input: `type="text"` maxLength 5, pattern `[0-9]{5}`
+- On submit: look up ZIP in `zipMap` (reverse lookup: build `zip → {state, county}` from `extractZipMap` output at startup)
+- Found: call `onStateChange(state)`, `onZipChange(zip)`, `window.scrollTo({ top: resultsEl.getBoundingClientRect().top, behavior: 'smooth' })`
+- Not found: show inline below input: "We don't have programs in this ZIP yet. [Browse all programs →]" (clears the zip and shows all results)
+- The existing `selectedZip` already drives the filter bar — hero search just sets the same state
+
+**Context:** Human: ~1hr / CC: ~15min. Don't implement until ProgramGrid has the RC-forward empty state (T6) — otherwise "not found" ZIP shows the old blank empty state.
+
+**Depends on:** T6 (RC-forward empty state) should ship first.
+
+---
+
+## T6 — RC-forward empty state in ProgramGrid
+
+**What:** Replace the current minimal empty state in `ProgramGrid` with a warm, actionable panel when zero programs are found for a filtered location.
+
+**Why:** Families who get zero results need a clear next step. "No programs found — try a different county" is a dead end. The Regional Center can give them a direct list.
+
+**Design spec:**
+```
+┌────────────────────────────────────────────┐
+│  🔎                                         │
+│  We don't have programs listed here yet.   │  slate-700 bold
+│  Our database is expanding to cover all     │  slate-500
+│  of California. In the meantime, your       │
+│  Regional Center can give you a full list:  │
+│                                             │
+│  [RC name from FundingGuide]                │  slate-900 bold
+│  [phone] · [website link]                   │  blue-600
+│                                             │
+│  [Try a different ZIP →]  ← calls clearZip  │
+└────────────────────────────────────────────┘
+```
+- RC data: pass `selectedState` and `selectedCounty` to `ProgramGrid`, look up `getFundingGuide(state, undefined, county)` to get the RC contact
+- "Try a different ZIP" clears `selectedZip` only (keeps state selected)
+- If no state selected: show "Select a state above to find programs near you."
+- If state selected but no RC data: show the basic message without RC contact
+
+**Context:** Human: ~1hr / CC: ~20min.
+
+**Depends on:** Nothing — can ship independently.
+
+---
+
+## T7 — Add aria-hidden to all decorative emoji in ProgramCard and RegionalCenterBanner
+
+**What:** Add `aria-hidden="true"` to every decorative `<span>` wrapper around emoji in `ProgramCard.tsx` and `RegionalCenterBanner.tsx`.
+
+**Why:** Screen readers read emoji aloud as their Unicode name: `💰` becomes "money bag", `📅` becomes "calendar". This produces broken speech output for blind users.
+
+**Context:** Quick pass, ~20min with CC. Every `<span>📍</span>` → `<span aria-hidden="true">📍</span>`. Human: ~15min / CC: ~5min.
+
+**Depends on:** Nothing — can ship anytime.
