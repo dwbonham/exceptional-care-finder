@@ -6,53 +6,60 @@ import ProgramGrid from './components/ProgramGrid';
 import StateRegulatoryGuide from './components/StateRegulatoryGuide';
 import RegionalCenterBanner from './components/RegionalCenterBanner';
 import { allPrograms } from './data/programs';
-import { extractStateMap, extractCareTypes, filterPrograms } from './utils/programUtils';
+import { extractZipMap, extractCareTypes, filterPrograms } from './utils/programUtils';
 import './index.css';
 
-const stateMap = extractStateMap(allPrograms);
+const zipMap = extractZipMap(allPrograms);
 const careTypes = extractCareTypes(allPrograms);
 
 export default function App() {
   const [selectedState, setSelectedState] = useState('');
-  const [selectedCounty, setSelectedCounty] = useState('');
+  const [selectedZip, setSelectedZip] = useState('');
   const [selectedCareType, setSelectedCareType] = useState('');
 
-  const filtered = filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType);
+  // Derive county from the selected zip (used for RC lookup and display)
+  const selectedCounty =
+    selectedZip && selectedState
+      ? (zipMap[selectedState]?.find((z) => z.zip === selectedZip)?.county ?? '')
+      : '';
+
+  const filtered = filterPrograms(allPrograms, selectedState, selectedZip, selectedCareType);
 
   return (
     <div className="min-h-screen bg-slate-50">
-      <HeroSection selectedState={selectedState} selectedCounty={selectedCounty} />
+      <HeroSection
+        selectedState={selectedState}
+        selectedZip={selectedZip}
+        selectedCounty={selectedCounty}
+      />
 
       <LocationFilter
-        stateMap={stateMap}
+        zipMap={zipMap}
         careTypes={careTypes}
         selectedState={selectedState}
-        selectedCounty={selectedCounty}
+        selectedZip={selectedZip}
         selectedCareType={selectedCareType}
-        onStateChange={setSelectedState}
-        onCountyChange={setSelectedCounty}
+        onStateChange={(s) => { setSelectedState(s); setSelectedZip(''); }}
+        onZipChange={setSelectedZip}
         onCareTypeChange={setSelectedCareType}
         totalResults={filtered.length}
       />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        {/* Full map module — above listings, reacts to location filter */}
         <div className="mb-8">
           <ProgramMap programs={filtered} />
         </div>
 
         <RegionalCenterBanner
           selectedState={selectedState}
+          selectedZip={selectedZip}
           selectedCounty={selectedCounty}
         />
 
         <div className="flex flex-col lg:flex-row gap-8">
           <aside className="lg:w-80 xl:w-96 shrink-0">
             <div className="lg:sticky lg:top-24">
-              <StateRegulatoryGuide
-                selectedState={selectedState}
-                selectedCounty={selectedCounty}
-              />
+              <StateRegulatoryGuide selectedState={selectedState} />
             </div>
           </aside>
 

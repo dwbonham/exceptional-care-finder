@@ -1,14 +1,24 @@
 import type { ProgramData } from '../types';
 
-export function extractStateMap(programs: ProgramData[]): Record<string, string[]> {
-  const map: Record<string, Set<string>> = {};
+export interface ZipEntry {
+  zip: string;
+  county: string;
+}
+
+export function extractZipMap(programs: ProgramData[]): Record<string, ZipEntry[]> {
+  const map: Record<string, Map<string, string>> = {};
   for (const p of programs) {
-    const { state, county } = p.location;
-    if (!map[state]) map[state] = new Set();
-    map[state].add(county);
+    const { state, zipCode, county } = p.location;
+    if (!map[state]) map[state] = new Map();
+    map[state].set(zipCode, county);
   }
   return Object.fromEntries(
-    Object.entries(map).map(([state, counties]) => [state, Array.from(counties).sort()])
+    Object.entries(map).map(([state, zipMap]) => [
+      state,
+      Array.from(zipMap.entries())
+        .map(([zip, county]) => ({ zip, county }))
+        .sort((a, b) => a.zip.localeCompare(b.zip)),
+    ])
   );
 }
 
@@ -21,12 +31,12 @@ export function extractCareTypes(programs: ProgramData[]): string[] {
 export function filterPrograms(
   programs: ProgramData[],
   selectedState: string,
-  selectedCounty: string,
+  selectedZip: string,
   selectedCareType: string
 ): ProgramData[] {
   return programs.filter((p) => {
     if (selectedState && p.location.state !== selectedState) return false;
-    if (selectedCounty && p.location.county !== selectedCounty) return false;
+    if (selectedZip && p.location.zipCode !== selectedZip) return false;
     if (selectedCareType && p.facilityDetails.decryptedProgramType !== selectedCareType) return false;
     return true;
   });

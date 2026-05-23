@@ -234,9 +234,10 @@ assert('FUNDING_GUIDE_HEADERS[0] = State',    FUNDING_GUIDE_HEADERS[0] === 'Stat
 assert('FUNDING_GUIDE_HEADERS[1] = Question', FUNDING_GUIDE_HEADERS[1] === 'Question');
 assert('FUNDING_GUIDE_HEADERS[2] = Answer',   FUNDING_GUIDE_HEADERS[2] === 'Answer');
 
-assert('REGIONAL_CENTER_HEADERS has 6 columns', REGIONAL_CENTER_HEADERS.length === 6);
-assert('REGIONAL_CENTER_HEADERS[0] = State',  REGIONAL_CENTER_HEADERS[0] === 'State');
-assert('REGIONAL_CENTER_HEADERS[2] = Name',   REGIONAL_CENTER_HEADERS[2] === 'Name');
+assert('REGIONAL_CENTER_HEADERS has 7 columns', REGIONAL_CENTER_HEADERS.length === 7);
+assert('REGIONAL_CENTER_HEADERS[0] = State',     REGIONAL_CENTER_HEADERS[0] === 'State');
+assert('REGIONAL_CENTER_HEADERS[2] = Name',      REGIONAL_CENTER_HEADERS[2] === 'Name');
+assert('REGIONAL_CENTER_HEADERS[5] = Zip Codes', REGIONAL_CENTER_HEADERS[5] === 'Zip Codes');
 
 // ─── syncFundingGuides() and syncRegionalCenters() — mocked fetch ─────────────
 
@@ -255,7 +256,7 @@ const sampleGuides = [
       { question: 'Who is Eligible?', answer: 'Lanterman Act qualifying diagnoses.' },
     ],
     localAgencies: [
-      { county: 'Riverside', name: 'Inland Regional Center', phone: '(909) 890-3000', websiteUrl: 'https://inlandrc.org', note: 'Serves Riverside & San Bernardino' },
+      { county: 'Riverside', zipCodes: ['92507', '92880'], name: 'Inland Regional Center', phone: '(909) 890-3000', websiteUrl: 'https://inlandrc.org', note: 'Serves Riverside & San Bernardino' },
     ],
   },
 ];

@@ -1,11 +1,13 @@
+import type { ZipEntry } from '../utils/programUtils';
+
 interface Props {
-  stateMap: Record<string, string[]>;
+  zipMap: Record<string, ZipEntry[]>;
   careTypes: string[];
   selectedState: string;
-  selectedCounty: string;
+  selectedZip: string;
   selectedCareType: string;
   onStateChange: (state: string) => void;
-  onCountyChange: (county: string) => void;
+  onZipChange: (zip: string) => void;
   onCareTypeChange: (careType: string) => void;
   totalResults: number;
 }
@@ -22,28 +24,28 @@ function Chevron() {
 }
 
 export default function LocationFilter({
-  stateMap,
+  zipMap,
   careTypes,
   selectedState,
-  selectedCounty,
+  selectedZip,
   selectedCareType,
   onStateChange,
-  onCountyChange,
+  onZipChange,
   onCareTypeChange,
   totalResults,
 }: Props) {
-  const states = Object.keys(stateMap).sort();
-  const counties = selectedState ? stateMap[selectedState] ?? [] : [];
-  const hasFilter = selectedState || selectedCounty || selectedCareType;
+  const states = Object.keys(zipMap).sort();
+  const zipEntries = selectedState ? (zipMap[selectedState] ?? []) : [];
+  const hasFilter = selectedState || selectedZip || selectedCareType;
 
   function handleStateChange(e: React.ChangeEvent<HTMLSelectElement>) {
     onStateChange(e.target.value);
-    onCountyChange('');
+    onZipChange('');
   }
 
   function clearAll() {
     onStateChange('');
-    onCountyChange('');
+    onZipChange('');
     onCareTypeChange('');
   }
 
@@ -69,14 +71,14 @@ export default function LocationFilter({
 
               <div className="relative flex-1 min-w-0">
                 <select
-                  value={selectedCounty}
-                  onChange={(e) => onCountyChange(e.target.value)}
+                  value={selectedZip}
+                  onChange={(e) => onZipChange(e.target.value)}
                   disabled={!selectedState}
                   className={SELECT_CLASS}
                 >
-                  <option value="">{selectedState ? 'All Counties' : 'County'}</option>
-                  {counties.map((c) => (
-                    <option key={c} value={c}>{c} County</option>
+                  <option value="">{selectedState ? 'All Zip Codes' : 'Zip Code'}</option>
+                  {zipEntries.map(({ zip, county }) => (
+                    <option key={zip} value={zip}>{zip} – {county}</option>
                   ))}
                 </select>
                 <Chevron />

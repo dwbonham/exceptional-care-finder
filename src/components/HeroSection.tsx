@@ -2,15 +2,16 @@ import { useState } from 'react';
 
 interface Props {
   selectedState: string;
+  selectedZip: string;
   selectedCounty: string;
 }
 
-export default function HeroSection({ selectedState, selectedCounty }: Props) {
+export default function HeroSection({ selectedState, selectedZip, selectedCounty }: Props) {
   const [zip, setZip] = useState('');
 
   const locationLabel =
-    selectedCounty && selectedState
-      ? `${selectedCounty} County, ${selectedState}`
+    selectedZip && selectedCounty && selectedState
+      ? `${selectedZip} – ${selectedCounty}, ${selectedState}`
       : selectedState
       ? selectedState
       : null;

@@ -2,14 +2,29 @@ import { getFundingGuide } from '../data/funding-guides';
 
 interface Props {
   selectedState: string;
+  selectedZip: string;
   selectedCounty: string;
 }
 
-export default function RegionalCenterBanner({ selectedState, selectedCounty }: Props) {
+export default function RegionalCenterBanner({ selectedState, selectedZip, selectedCounty }: Props) {
   if (!selectedState) return null;
 
-  const guide = getFundingGuide(selectedState, selectedCounty || undefined);
-  if (!guide || guide.localAgencies.length === 0) return null;
+  const guide = getFundingGuide(selectedState, selectedZip || undefined, selectedCounty || undefined);
+  if (!guide) return null;
+
+  // When no zip selected, nudge the family to pick one
+  if (!selectedZip) {
+    return (
+      <div className="mb-8 rounded-2xl border border-blue-100 bg-blue-50 px-6 py-4 flex items-center gap-3">
+        <span className="text-blue-400 text-lg shrink-0">📍</span>
+        <p className="text-sm text-slate-600 leading-snug">
+          Select a zip code above to see your local Regional Center — your first call for funding and eligibility.
+        </p>
+      </div>
+    );
+  }
+
+  if (guide.localAgencies.length === 0) return null;
 
   return (
     <div className="mb-8 rounded-2xl border border-blue-200 bg-blue-50 px-6 py-5">

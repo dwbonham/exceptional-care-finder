@@ -3,10 +3,9 @@ import { getFundingGuide } from '../data/funding-guides';
 
 interface Props {
   selectedState: string;
-  selectedCounty: string;
 }
 
-export default function StateRegulatoryGuide({ selectedState, selectedCounty }: Props) {
+export default function StateRegulatoryGuide({ selectedState }: Props) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   if (!selectedState) {
@@ -23,7 +22,7 @@ export default function StateRegulatoryGuide({ selectedState, selectedCounty }: 
     );
   }
 
-  const guide = getFundingGuide(selectedState, selectedCounty || undefined);
+  const guide = getFundingGuide(selectedState);
 
   if (!guide) {
     return (
@@ -76,7 +75,6 @@ export default function StateRegulatoryGuide({ selectedState, selectedCounty }: 
               <div className="px-5 pb-4 space-y-3">
                 <p className="text-sm text-slate-600 leading-relaxed">{faq.answer}</p>
 
-                {/* Optional source link */}
                 {faq.sourceUrl && (
                   <a
                     href={faq.sourceUrl}
@@ -89,7 +87,6 @@ export default function StateRegulatoryGuide({ selectedState, selectedCounty }: 
                     <span className="opacity-60">↗</span>
                   </a>
                 )}
-
               </div>
             )}
           </div>

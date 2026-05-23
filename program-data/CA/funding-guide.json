@@ -4,10 +4,19 @@
   "localAgencies": [
     {
       "county": "Riverside",
+      "zipCodes": ["92507", "92879", "92880", "92882"],
       "name": "Inland Regional Center",
       "phone": "(909) 890-3000",
       "websiteUrl": "https://www.inlandrc.org/",
       "note": "Serves Riverside & San Bernardino Counties"
+    },
+    {
+      "county": "Alameda",
+      "zipCodes": ["94538", "94541", "94545", "94566", "94577", "94602", "94605", "94610", "94612"],
+      "name": "East Bay Regional Center",
+      "phone": "(510) 383-1200",
+      "websiteUrl": "https://www.ebtrc.org/",
+      "note": "Serves Alameda & Contra Costa Counties"
     }
   ],
   "faqs": [
@@ -23,7 +32,7 @@
     },
     {
       "question": "How to Start",
-      "answer": "You must establish eligibility with your local Regional Center through an intake assessment before touring programs for state coverage. Contact the Inland Regional Center directly to schedule your intake."
+      "answer": "You must establish eligibility with your local Regional Center through an intake assessment before touring programs for state coverage. Select your zip code above to find and contact your Regional Center directly."
     }
   ]
 }

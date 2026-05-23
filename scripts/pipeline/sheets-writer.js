@@ -40,7 +40,7 @@ export const FUNDING_GUIDE_HEADERS = [
 ];
 
 export const REGIONAL_CENTER_HEADERS = [
-  'State', 'County', 'Name', 'Phone', 'Website', 'Notes',
+  'State', 'County', 'Name', 'Phone', 'Website', 'Zip Codes', 'Notes',
 ];
 
 // ─── Public API ───────────────────────────────────────────────────────────────
@@ -99,6 +99,7 @@ export async function syncRegionalCenters(guides, config) {
         agency.name ?? '',
         agency.phone ?? '',
         agency.websiteUrl ?? '',
+        (agency.zipCodes ?? []).join(', '),
         agency.note ?? '',
       ]);
     }

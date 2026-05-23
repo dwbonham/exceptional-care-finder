@@ -72,7 +72,8 @@ export interface ProgramData {
 // ─── Funding Guides ───────────────────────────────────────────────────────────
 
 export interface LocalAgencyContact {
-  county: string;
+  county?: string;
+  zipCodes?: string[];
   name: string;
   phone: string;
   websiteUrl: string;
