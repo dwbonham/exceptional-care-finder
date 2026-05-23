@@ -86,18 +86,20 @@ if (!state.currentRunId) {
   save(state);
   console.log(`Run ${state.currentRunId} started — ${newCount} programs to process`);
 
-  if (newCount === 0) {
+  // Re-queue any failed programs before deciding there's nothing to do
+  const { state: s3, resetCount } = resetFailed(state);
+  state = s3;
+  if (resetCount > 0) console.log(`Retrying ${resetCount} previously failed programs`);
+
+  if (newCount === 0 && resetCount === 0) {
     state = completeRun(state);
     save(state);
     console.log('Nothing to do — site is up to date.');
     process.exit(0);
   }
-}
 
-// Re-queue failed programs from a previous interrupted run
-const { state: s3, resetCount } = resetFailed(state);
-state = s3;
-if (resetCount > 0) console.log(`Retrying ${resetCount} previously failed programs`);
+  save(state);
+}
 
 // ── Phase 2: Gemini enrichment ────────────────────────────────────────────────
 const toEnrich = getPendingEnrichment(state);

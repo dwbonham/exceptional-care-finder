@@ -178,7 +178,7 @@ async function _callGemini(prompt, apiKey, model) {
   const url = `${GEMINI_BASE}/${model}:generateContent?key=${apiKey}`;
   const body = {
     contents: [{ role: 'user', parts: [{ text: prompt }] }],
-    tools: [{ google_search: {} }],
+    tools: [{ googleSearch: {} }],
     generationConfig: { temperature: 0.1 },
   };
 
