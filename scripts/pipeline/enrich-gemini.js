@@ -13,7 +13,7 @@
 // On a 429, this module throws RateLimitError so the orchestrator can save the
 // checkpoint and stop the run gracefully.
 
-const DEFAULT_MODEL = 'gemini-1.5-flash';
+const DEFAULT_MODEL = 'gemini-1.5-flash-latest';
 const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
 
 // ─── Public error class ───────────────────────────────────────────────────────

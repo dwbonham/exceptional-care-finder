@@ -119,9 +119,9 @@ if (toEnrich.length) {
         process.exit(0);
       }
       state = updateStatus(state, licNum, STATUS.ENRICHMENT_FAILED, { enrichError: e.message });
-      if (Object.values(state.programs).filter(p => p.status === STATUS.ENRICHMENT_FAILED).length === 1) {
-        console.error('\nFirst enrichment error:', e.message.slice(0, 400));
-      }
+      const failCount = Object.values(state.programs).filter(p => p.status === STATUS.ENRICHMENT_FAILED).length;
+      if (failCount <= 3) console.error(`\nEnrichment error #${failCount}: ${e.message}`);
+      if (failCount === 4) console.error('(suppressing further enrichment errors — see checkpoint for details)');
       process.stdout.write('!');
     }
     save(state); // save after every program so a crash loses at most one call
