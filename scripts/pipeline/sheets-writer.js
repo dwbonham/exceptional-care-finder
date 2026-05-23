@@ -149,7 +149,10 @@ async function _ensureHeaders(spreadsheetId, sheetName, token) {
     `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}`,
     { headers: { Authorization: `Bearer ${token}` } }
   );
-  if (!res.ok) throw new Error(`Sheets read failed: HTTP ${res.status}`);
+  if (!res.ok) {
+    const errText = await res.text();
+    throw new Error(`Sheets read failed: HTTP ${res.status}\n${errText}`);
+  }
 
   const data = await res.json();
   const firstCell = data.values?.[0]?.[0];
