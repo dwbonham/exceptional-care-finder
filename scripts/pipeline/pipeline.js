@@ -101,6 +101,18 @@ if (!state.currentRunId) {
   save(state);
 }
 
+// ── Preflight: list available Gemini models so we know what names are valid ───
+{
+  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${cfg.geminiKey}&pageSize=50`);
+  if (r.ok) {
+    const data = await r.json();
+    const names = (data.models ?? []).map(m => m.name).filter(n => /gemini/i.test(n));
+    console.log('Available Gemini models:', names.join(', '));
+  } else {
+    console.log('Could not list models:', r.status, await r.text());
+  }
+}
+
 // ── Phase 2: Gemini enrichment ────────────────────────────────────────────────
 const toEnrich = getPendingEnrichment(state);
 if (toEnrich.length) {
