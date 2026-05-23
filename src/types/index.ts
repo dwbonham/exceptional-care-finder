@@ -25,8 +25,10 @@ export interface ProgramFacilityDetails {
   programFocus: string;
   minimumAge?: number;
   maximumAge?: number;
+  yearEstablished?: number;
   languagesSupported?: string[];
   facilityFeatures?: string[];
+  activitiesOffered?: string[];
   parentOrganization?: string;
   daysOfOperation?: string;
   hoursOfOperation?: string;

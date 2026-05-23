@@ -5,6 +5,7 @@ import ProgramMap from './components/ProgramMap';
 import ProgramGrid from './components/ProgramGrid';
 import StateRegulatoryGuide from './components/StateRegulatoryGuide';
 import RegionalCenterBanner from './components/RegionalCenterBanner';
+import AboutPage from './components/AboutPage';
 import { allPrograms } from './data/programs';
 import { extractStateMap, extractCareTypes, filterPrograms } from './utils/programUtils';
 import './index.css';
@@ -17,11 +18,38 @@ export default function App() {
   const [selectedCounty, setSelectedCounty] = useState('');
   const [selectedLaZip, setSelectedLaZip] = useState('');
   const [selectedCareType, setSelectedCareType] = useState('');
+  const [view, setView] = useState<'finder' | 'about'>('finder');
 
   const filtered = filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType);
 
   return (
     <div className="min-h-screen bg-slate-50">
+      {/* Top nav */}
+      <nav className="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-11">
+          <span className="font-semibold text-slate-700 text-sm">Exceptional Care Finder</span>
+          <div className="flex gap-1">
+            {(['finder', 'about'] as const).map((v) => (
+              <button
+                key={v}
+                onClick={() => setView(v)}
+                className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-colors cursor-pointer ${
+                  view === v
+                    ? 'bg-blue-50 text-blue-700'
+                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-50'
+                }`}
+              >
+                {v === 'finder' ? 'Find Programs' : 'About'}
+              </button>
+            ))}
+          </div>
+        </div>
+      </nav>
+
+      {view === 'about' ? (
+        <AboutPage />
+      ) : (
+        <>
       <HeroSection
         selectedState={selectedState}
         selectedCounty={selectedCounty}
@@ -76,6 +104,8 @@ export default function App() {
           </span>
         </div>
       </footer>
+        </>
+      )}
     </div>
   );
 }
