@@ -26,7 +26,7 @@ import { fetchAdultDayPrograms, diffWithCheckpoint } from './ingest-ccld.js';
 import { enrichProgram, RateLimitError } from './enrich-gemini.js';
 import { resolveCoordinates, GeocodingError } from './geocode.js';
 import { evaluate, DECISION } from './quality-gate.js';
-import { appendProgramRow, syncFundingGuides, syncRegionalCenters } from './sheets-writer.js';
+import { appendProgramRow, appendProgramRows, syncFundingGuides, syncRegionalCenters } from './sheets-writer.js';
 
 const ROOT = join(import.meta.dir, '..', '..');
 const PROGRAM_DATA = join(ROOT, 'program-data');
@@ -208,22 +208,18 @@ const toScore = getPendingQualityGate(state);
 if (toScore.length) {
   console.log(`\nRunning quality gate on ${toScore.length} programs…`);
   let approved = 0, needsReview = 0;
-
   const sheetsConfig = { spreadsheetId: cfg.sheetId, sheetName: 'Programs', serviceAccount: cfg.serviceAccount };
 
+  // Score all programs and write JSON files first (no network calls)
+  const approvedGateResults = [];
   for (const licNum of toScore) {
     const prog = state.programs[licNum];
     const gateResult = evaluate(prog.ccldRecord, prog.enrichResult, prog.geocodeResult);
 
-    // Skip revoked programs entirely — they have no record to write
     if (gateResult.decision === DECISION.SKIP_REVOKED) {
       state = updateStatus(state, licNum, STATUS.SKIPPED_REVOKED);
-      save(state);
       continue;
     }
-
-    // Mirror ALL programs to Google Sheets regardless of quality gate result
-    await appendProgramRow(gateResult, sheetsConfig);
 
     if (gateResult.decision === DECISION.APPROVED) {
       _writeApprovedProgram(gateResult.record);
@@ -233,7 +229,14 @@ if (toScore.length) {
       state = updateStatus(state, licNum, STATUS.FLAGGED_FOR_REVIEW);
       needsReview++;
     }
-    save(state);
+    approvedGateResults.push(gateResult);
+  }
+  save(state);
+
+  // Mirror all programs to Sheets in one batch call (avoids per-row rate limits)
+  if (approvedGateResults.length > 0) {
+    console.log(`  Syncing ${approvedGateResults.length} rows to Google Sheets…`);
+    await appendProgramRows(approvedGateResults, sheetsConfig);
   }
   console.log(`  ${approved} auto-approved | ${needsReview} flagged for review | all mirrored to Sheets`);
 }
