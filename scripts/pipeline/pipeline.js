@@ -103,6 +103,7 @@ if (!state.currentRunId) {
 
 // ── Phase 2: Gemini enrichment ────────────────────────────────────────────────
 const toEnrich = getPendingEnrichment(state);
+let enrichmentRateLimited = false;
 if (toEnrich.length) {
   console.log(`\nEnriching ${toEnrich.length} programs via Gemini…`);
   for (const licNum of toEnrich) {
@@ -114,9 +115,9 @@ if (toEnrich.length) {
     } catch (e) {
       if (e instanceof RateLimitError) {
         save(state);
-        console.log(`\nRate limit reached — checkpoint saved. Re-run tomorrow to continue.\nError: ${e.message}`);
-        console.log(JSON.stringify(summary(state), null, 2));
-        process.exit(0);
+        console.log(`\nGemini quota reached — continuing to geocode/publish already-enriched programs.\nError: ${e.message}`);
+        enrichmentRateLimited = true;
+        break; // stop enriching; still run phases 3 and 4 below
       }
       state = updateStatus(state, licNum, STATUS.ENRICHMENT_FAILED, { enrichError: e.message });
       const failCount = Object.values(state.programs).filter(p => p.status === STATUS.ENRICHMENT_FAILED).length;
@@ -189,6 +190,13 @@ if (toScore.length) {
 }
 
 // ── Complete ──────────────────────────────────────────────────────────────────
+if (enrichmentRateLimited) {
+  // Don't mark the run complete — it will resume tomorrow when quota resets
+  console.log('\nPartial run complete (Gemini quota reached). Resuming tomorrow.');
+  console.log(JSON.stringify(summary(state), null, 2));
+  process.exit(0);
+}
+
 state = completeRun(state);
 save(state);
 
