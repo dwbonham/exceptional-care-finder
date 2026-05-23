@@ -1,0 +1,30 @@
+name: Populate Regional Centers Tab
+
+on:
+  workflow_dispatch:   # manual trigger only
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Write service account credentials
+        run: echo '${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}' > /tmp/sa.json
+
+      - name: Populate Regional Centers tab
+        env:
+          GOOGLE_SHEET_ID: ${{ vars.SHEET_ID }}
+          GOOGLE_SERVICE_ACCOUNT_PATH: /tmp/sa.json
+        run: bun scripts/pipeline/populate-regional-centers.js
