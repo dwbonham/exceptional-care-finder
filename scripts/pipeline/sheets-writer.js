@@ -143,6 +143,9 @@ export function buildSheetRow(gateResult) {
 // ─── Internal: Sheets API calls ───────────────────────────────────────────────
 
 async function _ensureHeaders(spreadsheetId, sheetName, token) {
+  // Create the tab if it doesn't exist yet
+  await _ensureTab(spreadsheetId, sheetName, token);
+
   // Read the first row to check if headers are already present
   const range = encodeURIComponent(`${sheetName}!A1:A1`);
   const res = await fetch(
@@ -159,8 +162,27 @@ async function _ensureHeaders(spreadsheetId, sheetName, token) {
 
   if (firstCell === HEADERS[0]) return; // headers already present
 
-  // Sheet is empty or has different headers — write the header row
+  // Tab is empty or has different headers — write the header row
   await _appendRows(spreadsheetId, sheetName, [HEADERS], token);
+}
+
+async function _ensureTab(spreadsheetId, sheetName, token) {
+  const res = await fetch(
+    `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}:batchUpdate`,
+    {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ requests: [{ addSheet: { properties: { title: sheetName } } }] }),
+    }
+  );
+  if (!res.ok) {
+    const data = await res.json();
+    const msg = data?.error?.message ?? '';
+    if (!msg.includes('already exists')) {
+      throw new Error(`Failed to create sheet tab "${sheetName}": ${msg}`);
+    }
+    // Tab already exists — that's fine
+  }
 }
 
 async function _appendRows(spreadsheetId, sheetName, rows, token) {
