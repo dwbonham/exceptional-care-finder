@@ -200,7 +200,7 @@ async function _getAccessToken(serviceAccount) {
 
   const data = await res.json();
   if (!data.access_token) {
-    throw new Error(`Service account auth failed: ${data.error} — ${data.error_description}`);
+    throw new Error(`Service account auth failed (${serviceAccount.client_email}): ${data.error} — ${data.error_description}`);
   }
   return data.access_token;
 }

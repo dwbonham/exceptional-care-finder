@@ -38,7 +38,11 @@ jobs:
             pipeline-checkpoint-
 
       - name: Write service account credentials
-        run: echo '${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}' > /tmp/sa.json
+        run: |
+          echo '${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}' > /tmp/sa.json
+          SA_EMAIL=$(jq -r .client_email /tmp/sa.json 2>/dev/null || echo "could not parse")
+          echo "Service account email: $SA_EMAIL"
+          echo "Sheet ID: ${{ vars.SHEET_ID }}"
 
       - name: Run pipeline
         env:
