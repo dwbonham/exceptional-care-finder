@@ -92,20 +92,20 @@ assert('reasons array is empty', approvedResult.reasons.length === 0);
 assert('record is present', approvedResult.record !== null);
 assert('record has streetName', approvedResult.record.streetName === 'Carole Sund Center');
 
-// ─── evaluate() — NEEDS_REVIEW: low completeness ─────────────────────────────
+// ─── evaluate() — APPROVED with notes: low completeness ──────────────────────
 
-console.log('\nevaluate() — NEEDS_REVIEW: low completeness score');
+console.log('\nevaluate() — APPROVED with notes: low completeness score');
 
 const lowScoreResult = evaluate(ccld, thinEnrich, goodGeocode);
-assert('decision is needs_review', lowScoreResult.decision === DECISION.NEEDS_REVIEW);
-assert('reasons includes completeness message', lowScoreResult.reasons.some(r => r.includes('threshold')));
-assert('reasons includes sentiment message', lowScoreResult.reasons.some(r => r.includes('sentiment')));
+assert('decision is approved (not blocked by low completeness)', lowScoreResult.decision === DECISION.APPROVED);
+assert('reasons includes low completeness note', lowScoreResult.reasons.some(r => r.includes('completeness')));
+assert('reasons includes no-web-presence note', lowScoreResult.reasons.some(r => r.includes('web presence')));
 assert('completenessScore is low', lowScoreResult.completenessScore < 80);
-assert('record still assembled for sheet writer', lowScoreResult.record !== null);
+assert('record assembled even with low completeness', lowScoreResult.record !== null);
 
-// ─── evaluate() — NEEDS_REVIEW: no sentiment bullets ─────────────────────────
+// ─── evaluate() — APPROVED: no sentiment bullets do not block ─────────────────
 
-console.log('\nevaluate() — NEEDS_REVIEW: high score but no sentiment bullets');
+console.log('\nevaluate() — APPROVED: high score but no sentiment bullets');
 
 // Build an enrichment that scores ≥ 80 on fields alone but has no bullets
 const noSentimentEnrich = { ...richEnrich, sentimentBullets: [] };
@@ -115,31 +115,27 @@ const noSentimentScore = calculateCompleteness(noSentimentEnrich);
 assert('noSentimentScore is richScore minus 10', noSentimentScore === richScore - 10);
 
 const noSentimentResult = evaluate(ccld, noSentimentEnrich, goodGeocode);
-if (noSentimentScore >= 80) {
-  // Score still ≥ 80 but missing bullets → NEEDS_REVIEW
-  assert('no bullets → needs_review despite high score', noSentimentResult.decision === DECISION.NEEDS_REVIEW);
-  assert('reason mentions sentiment', noSentimentResult.reasons.some(r => r.includes('sentiment')));
-} else {
-  // Score dropped below 80 — both reasons apply
-  assert('no bullets → needs_review (low score + no bullets)', noSentimentResult.decision === DECISION.NEEDS_REVIEW);
-}
+assert('no bullets → still approved (bullets no longer block publication)', noSentimentResult.decision === DECISION.APPROVED);
+assert('reasons is empty when score ≥ 80 and no other issues', noSentimentResult.reasons.length === 0);
+assert('record is present', noSentimentResult.record !== null);
 
-// ─── evaluate() — NEEDS_REVIEW: enrichment parse error ───────────────────────
+// ─── evaluate() — APPROVED with note: enrichment parse error ─────────────────
 
-console.log('\nevaluate() — NEEDS_REVIEW: enrichment parse error');
+console.log('\nevaluate() — APPROVED with note: enrichment parse error');
 
 const parseErrResult = evaluate(ccld, { ...richEnrich, enrichParseError: true }, goodGeocode);
-assert('parse error → needs_review', parseErrResult.decision === DECISION.NEEDS_REVIEW);
-assert('reason mentions parse', parseErrResult.reasons.some(r => r.includes('parsed')));
+assert('parse error → still approved', parseErrResult.decision === DECISION.APPROVED);
+assert('reasons includes parse error note', parseErrResult.reasons.some(r => r.includes('parse error')));
+assert('record is present', parseErrResult.record !== null);
 
-// ─── evaluate() — NEEDS_REVIEW: geocoding failed ─────────────────────────────
+// ─── evaluate() — APPROVED with note: geocoding failed ───────────────────────
 
-console.log('\nevaluate() — NEEDS_REVIEW: geocoding failed');
+console.log('\nevaluate() — APPROVED with note: geocoding failed');
 
 const noCoordResult = evaluate(ccld, richEnrich, failedGeocode);
-assert('failed geocode → needs_review', noCoordResult.decision === DECISION.NEEDS_REVIEW);
-assert('reason mentions coordinates', noCoordResult.reasons.some(r => r.includes('Coordinates')));
-assert('record still has no coordinates field', noCoordResult.record.location.coordinates === undefined);
+assert('failed geocode → still approved', noCoordResult.decision === DECISION.APPROVED);
+assert('reasons includes no-coordinates note', noCoordResult.reasons.some(r => r.includes('coordinates')));
+assert('record has no coordinates field', noCoordResult.record.location.coordinates === undefined);
 
 // ─── evaluate() — SKIP_REVOKED ────────────────────────────────────────────────
 

@@ -20,6 +20,7 @@ import {
   load, save, addKnown, startRun, updateStatus, resetFailed,
   hasPendingWork, getPendingEnrichment, getPendingGeocode,
   getPendingQualityGate, completeRun, summary, STATUS,
+  getNotGeminiEnriched, markGeminiEnriched,
 } from './checkpoint.js';
 import { fetchAdultDayPrograms, diffWithCheckpoint } from './ingest-ccld.js';
 import { enrichProgram, RateLimitError } from './enrich-gemini.js';
@@ -50,10 +51,28 @@ function loadConfig() {
 const cfg = loadConfig();
 let state = load();
 
-// Catch-up cron: exit early if no pending work from a previous run
+// Catch-up cron: if all new programs are processed, close the run.
+// Then check whether Gemini backfill is still needed before exiting.
 if (state.currentRunId && !hasPendingWork(state)) {
-  console.log('No pending work — pipeline already complete for this run.');
-  process.exit(0);
+  const pendingBackfill = !process.env.SKIP_ENRICHMENT && getNotGeminiEnriched(state, 1).length > 0;
+  if (!pendingBackfill) {
+    state = completeRun(state);
+    save(state);
+    console.log('No pending work — pipeline complete for this run.');
+    process.exit(0);
+  }
+  // Backfill needed — fall through to Phase 5 (Phase 1 is skipped since currentRunId is set)
+}
+
+// Catch-up path: re-queue any failed programs so they're retried this run.
+// (Phase 1 handles this on Monday; here we cover the Tue–Sun catch-up crons.)
+if (state.currentRunId) {
+  const { state: s, resetCount } = resetFailed(state);
+  state = s;
+  if (resetCount > 0) {
+    console.log(`Retrying ${resetCount} previously failed programs`);
+    save(state);
+  }
 }
 
 // ── Phase 1: CCLD ingest + diff ──────────────────────────────────────────────
@@ -102,44 +121,62 @@ if (!state.currentRunId) {
   if (resetCount > 0) console.log(`Retrying ${resetCount} previously failed programs`);
 
   if (newCount === 0 && resetCount === 0) {
-    state = completeRun(state);
+    const pendingBackfill = !process.env.SKIP_ENRICHMENT && getNotGeminiEnriched(state, 1).length > 0;
+    state = completeRun(state); // always clear the empty run immediately
     save(state);
-    console.log('Nothing to do — site is up to date.');
-    process.exit(0);
+    if (!pendingBackfill) {
+      console.log('Nothing to do — site is up to date.');
+      process.exit(0);
+    }
+    console.log(`No new programs. Continuing to Gemini backfill enrichment.`);
+    // Fall through — Phases 2–4 have nothing, Phase 5 will run backfill
+  } else {
+    save(state);
   }
-
-  save(state);
 }
 
 // ── Phase 2: Gemini enrichment ────────────────────────────────────────────────
 const toEnrich = getPendingEnrichment(state);
 let enrichmentRateLimited = false;
 if (toEnrich.length) {
-  console.log(`\nEnriching ${toEnrich.length} programs via Gemini…`);
-  for (const licNum of toEnrich) {
-    const ccldRecord = state.programs[licNum].ccldRecord;
-    try {
-      // skipSentiment=true halves API calls (1 per program instead of 2),
-      // doubling daily throughput on the free tier. Remove when upgrading to paid.
-      const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment: true });
-      state = updateStatus(state, licNum, STATUS.PENDING_GEOCODE, { enrichResult });
-      process.stdout.write('.');
-    } catch (e) {
-      if (e instanceof RateLimitError) {
-        save(state);
-        console.log(`\nGemini quota reached — continuing to geocode/publish already-enriched programs.\nError: ${e.message}`);
-        enrichmentRateLimited = true;
-        break; // stop enriching; still run phases 3 and 4 below
-      }
-      state = updateStatus(state, licNum, STATUS.ENRICHMENT_FAILED, { enrichError: e.message });
-      const failCount = Object.values(state.programs).filter(p => p.status === STATUS.ENRICHMENT_FAILED).length;
-      if (failCount <= 3) console.error(`\nEnrichment error #${failCount}: ${e.message}`);
-      if (failCount === 4) console.error('(suppressing further enrichment errors — see checkpoint for details)');
-      process.stdout.write('!');
+  if (process.env.SKIP_ENRICHMENT === 'true') {
+    // Bulk-import mode: skip Gemini entirely, use CCLD data only.
+    // Programs are marked geminiEnriched=false so Phase 5 backfill picks them up on future runs.
+    console.log(`\nSKIP_ENRICHMENT: moving ${toEnrich.length} programs to geocoding with CCLD data only…`);
+    for (const licNum of toEnrich) {
+      state = updateStatus(state, licNum, STATUS.PENDING_GEOCODE, {
+        enrichResult: _buildBareEnrichResult(),
+        geminiEnriched: false,
+      });
     }
-    save(state); // save after every program so a crash loses at most one call
+    save(state);
+  } else {
+    console.log(`\nEnriching ${toEnrich.length} programs via Gemini…`);
+    for (const licNum of toEnrich) {
+      const ccldRecord = state.programs[licNum].ccldRecord;
+      try {
+        // skipSentiment=true halves API calls (1 per program instead of 2),
+        // doubling daily throughput on the free tier. Remove when upgrading to paid.
+        const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment: true });
+        state = updateStatus(state, licNum, STATUS.PENDING_GEOCODE, { enrichResult, geminiEnriched: true });
+        process.stdout.write('.');
+      } catch (e) {
+        if (e instanceof RateLimitError) {
+          save(state);
+          console.log(`\nGemini quota reached — continuing to geocode/publish already-enriched programs.\nError: ${e.message}`);
+          enrichmentRateLimited = true;
+          break; // stop enriching; still run phases 3 and 4 below
+        }
+        state = updateStatus(state, licNum, STATUS.ENRICHMENT_FAILED, { enrichError: e.message });
+        const failCount = Object.values(state.programs).filter(p => p.status === STATUS.ENRICHMENT_FAILED).length;
+        if (failCount <= 3) console.error(`\nEnrichment error #${failCount}: ${e.message}`);
+        if (failCount === 4) console.error('(suppressing further enrichment errors — see checkpoint for details)');
+        process.stdout.write('!');
+      }
+      save(state); // save after every program so a crash loses at most one call
+    }
+    console.log();
   }
-  console.log();
 }
 
 // ── Phase 3: Geocoding ────────────────────────────────────────────────────────
@@ -201,6 +238,41 @@ if (toScore.length) {
   console.log(`  ${approved} auto-approved | ${needsReview} flagged for review | all mirrored to Sheets`);
 }
 
+// ── Phase 5: Gemini backfill enrichment ──────────────────────────────────────
+// Runs after new-program phases. Enriches up to 20 CCLD-only programs per day,
+// improving their site cards automatically until all 957 are fully enriched.
+// Skipped on SKIP_ENRICHMENT runs (the bulk-import itself) and when quota is gone.
+if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
+  const toBackfill = getNotGeminiEnriched(state);
+  if (toBackfill.length) {
+    console.log(`\nGemini backfill: enriching ${toBackfill.length} queued program(s)…`);
+    for (const licNum of toBackfill) {
+      const { ccldRecord, geocodeResult } = state.programs[licNum];
+      try {
+        const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment: true });
+        const gateResult = evaluate(ccldRecord, enrichResult, geocodeResult);
+        if (gateResult.decision !== DECISION.SKIP_REVOKED) {
+          _writeApprovedProgram(gateResult.record);
+        }
+        state = markGeminiEnriched(state, licNum, { enrichResult });
+        process.stdout.write('.');
+      } catch (e) {
+        if (e instanceof RateLimitError) {
+          enrichmentRateLimited = true;
+          console.log(`\nGemini quota reached during backfill — resuming tomorrow.`);
+          break;
+        }
+        // Non-quota error: log and continue; will retry tomorrow
+        console.error(`\nBackfill error for ${licNum}: ${e.message}`);
+        process.stdout.write('!');
+      }
+      save(state);
+    }
+    const remaining = getNotGeminiEnriched(state, 999999).length;
+    console.log(`  Backfill: ${remaining} programs still queued for enrichment`);
+  }
+}
+
 // ── Complete ──────────────────────────────────────────────────────────────────
 if (enrichmentRateLimited) {
   // Don't mark the run complete — it will resume tomorrow when quota resets
@@ -235,6 +307,32 @@ function _loadAllFundingGuides() {
     // PROGRAM_DATA doesn't exist yet — no guides to sync
   }
   return guides;
+}
+
+// ─── Helper: bare enrichResult for SKIP_ENRICHMENT bulk imports ───────────────
+// All fields null/empty so buildProgramRecord falls back to CCLD data.
+// geminiEnriched=false flag signals Phase 5 to backfill this program later.
+
+function _buildBareEnrichResult() {
+  return {
+    streetName:               null,
+    phone:                    null,
+    websiteUrl:               null,
+    parentOrganization:       null,
+    daysOfOperation:          null,
+    hoursOfOperation:         null,
+    languagesSupported:       [],
+    facilityFeatures:         [],
+    selfDeterminationAccepted: 'Unknown',
+    populationSpecialization: [],
+    maximumAge:               null,
+    programFocus:             null,
+    webPresenceFound:         false,
+    enrichParseError:         false,
+    sentimentBullets:         [],
+    sentimentFlagged:         false,
+    sentimentParseError:      false,
+  };
 }
 
 // ─── Helper: write approved program to county JSON file ──────────────────────

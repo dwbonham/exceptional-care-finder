@@ -13,6 +13,8 @@ import {
   hasPendingWork,
   getByStatus,
   getPendingEnrichment,
+  getNotGeminiEnriched,
+  markGeminiEnriched,
   summary,
 } from './checkpoint.js';
 
@@ -123,6 +125,47 @@ const completed = completeRun(allApproved);
 assert('currentRunId cleared', completed.currentRunId === null);
 assert('run has completedAt', typeof completed.runs[0].completedAt === 'string');
 assert('hasPendingWork = false after completing', !hasPendingWork(completed));
+
+// ─── getNotGeminiEnriched() + markGeminiEnriched() ───────────────────────────
+console.log('\ngetNotGeminiEnriched() + markGeminiEnriched()');
+
+// Build a state with 3 APPROVED programs: 2 needing backfill, 1 already enriched
+const approvedBase = updateStatus(
+  updateStatus(
+    updateStatus(completed, 'aaa111', STATUS.APPROVED, { ccldRecord: { dummy: 1 }, geminiEnriched: false }),
+    'aaa222', STATUS.APPROVED, { ccldRecord: { dummy: 2 }, geminiEnriched: false }
+  ),
+  'aaa333', STATUS.APPROVED, { ccldRecord: { dummy: 3 }, geminiEnriched: true }
+);
+
+const backfillList = getNotGeminiEnriched(approvedBase);
+assert('returns programs with geminiEnriched=false', backfillList.length === 2);
+assert('excludes already-enriched program', !backfillList.includes('aaa333'));
+assert('includes aaa111', backfillList.includes('aaa111'));
+assert('includes aaa222', backfillList.includes('aaa222'));
+
+const limited = getNotGeminiEnriched(approvedBase, 1);
+assert('limit=1 returns exactly 1', limited.length === 1);
+
+// markGeminiEnriched updates the flag and stores the enrichResult
+const fakeEnrichResult = { streetName: 'Test Center', phone: '(555) 000-0001' };
+const afterMark = markGeminiEnriched(approvedBase, 'aaa111', { enrichResult: fakeEnrichResult });
+assert('geminiEnriched set to true after mark', afterMark.programs['aaa111'].geminiEnriched === true);
+assert('enrichResult stored', afterMark.programs['aaa111'].enrichResult.streetName === 'Test Center');
+assert('other programs unchanged', afterMark.programs['aaa222'].geminiEnriched === false);
+
+const afterBothMarked = markGeminiEnriched(afterMark, 'aaa222', { enrichResult: fakeEnrichResult });
+assert('no backfill remaining after both marked', getNotGeminiEnriched(afterBothMarked).length === 0);
+
+// Programs without ccldRecord should not appear in backfill queue
+const noCcld = updateStatus(completed, 'noccld1', STATUS.APPROVED, { geminiEnriched: false });
+assert('programs without ccldRecord excluded from backfill', getNotGeminiEnriched(noCcld).length === 0);
+
+// PENDING_ENRICHMENT programs should not appear even if geminiEnriched=false
+const pending = updateStatus(completed, 'pend1', STATUS.PENDING_ENRICHMENT, {
+  ccldRecord: { dummy: 1 }, geminiEnriched: false
+});
+assert('PENDING_ENRICHMENT programs not in backfill queue', getNotGeminiEnriched(pending).length === 0);
 
 // ─── Cleanup ──────────────────────────────────────────────────────────────────
 if (existsSync(CHECKPOINT_FILE)) unlinkSync(CHECKPOINT_FILE);

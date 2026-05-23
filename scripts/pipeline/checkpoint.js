@@ -207,6 +207,38 @@ export function getPendingQualityGate(state) {
   return getByStatus(state, STATUS.PENDING_QUALITY_GATE);
 }
 
+/**
+ * Get approved programs that were imported without Gemini enrichment
+ * (SKIP_ENRICHMENT bulk import) and are waiting for backfill enrichment.
+ * Returns up to `limit` license numbers — the daily Gemini quota determines
+ * how many actually get processed.
+ */
+export function getNotGeminiEnriched(state, limit = 20) {
+  return Object.entries(state.programs)
+    .filter(([, prog]) =>
+      prog.status === STATUS.APPROVED &&
+      prog.geminiEnriched === false &&
+      prog.ccldRecord != null
+    )
+    .slice(0, limit)
+    .map(([num]) => num);
+}
+
+/**
+ * After a successful Gemini backfill call, replace the bare enrichResult
+ * with the Gemini-fetched one and mark the program as enriched.
+ */
+export function markGeminiEnriched(state, licNum, { enrichResult }) {
+  const prog = state.programs[licNum];
+  return {
+    ...state,
+    programs: {
+      ...state.programs,
+      [licNum]: { ...prog, geminiEnriched: true, enrichResult },
+    },
+  };
+}
+
 /** Count of programs in each status — useful for logging and health checks. */
 export function summary(state) {
   const counts = Object.fromEntries(Object.values(STATUS).map(s => [s, 0]));
