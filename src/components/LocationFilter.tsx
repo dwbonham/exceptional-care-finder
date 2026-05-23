@@ -1,11 +1,9 @@
 interface Props {
-  stateMap: Record<string, string[]>;
+  counties: string[];
   careTypes: string[];
-  selectedState: string;
   selectedCounty: string;
   selectedLaZip: string;
   selectedCareType: string;
-  onStateChange: (state: string) => void;
   onCountyChange: (county: string) => void;
   onLaZipChange: (zip: string) => void;
   onCareTypeChange: (careType: string) => void;
@@ -23,32 +21,19 @@ function Chevron() {
   );
 }
 
-const isLaCounty = (state: string, county: string) =>
-  state === 'CA' && county === 'Los Angeles';
-
 export default function LocationFilter({
-  stateMap,
+  counties,
   careTypes,
-  selectedState,
   selectedCounty,
   selectedLaZip,
   selectedCareType,
-  onStateChange,
   onCountyChange,
   onLaZipChange,
   onCareTypeChange,
   totalResults,
 }: Props) {
-  const states = Object.keys(stateMap).sort();
-  const counties = selectedState ? (stateMap[selectedState] ?? []) : [];
-  const showLaZip = isLaCounty(selectedState, selectedCounty);
-  const hasFilter = selectedState || selectedCounty || selectedCareType;
-
-  function handleStateChange(e: React.ChangeEvent<HTMLSelectElement>) {
-    onStateChange(e.target.value);
-    onCountyChange('');
-    onLaZipChange('');
-  }
+  const showLaZip = selectedCounty === 'Los Angeles';
+  const hasFilter = selectedCounty || selectedCareType;
 
   function handleCountyChange(e: React.ChangeEvent<HTMLSelectElement>) {
     onCountyChange(e.target.value);
@@ -56,7 +41,6 @@ export default function LocationFilter({
   }
 
   function clearAll() {
-    onStateChange('');
     onCountyChange('');
     onLaZipChange('');
     onCareTypeChange('');
@@ -72,24 +56,17 @@ export default function LocationFilter({
 
             {/* Location group */}
             <div className="flex gap-2 flex-1">
-              <div className="relative flex-1 min-w-0">
-                <select value={selectedState} onChange={handleStateChange} className={SELECT_CLASS}>
-                  <option value="">All States</option>
-                  {states.map((s) => (
-                    <option key={s} value={s}>{s}</option>
-                  ))}
-                </select>
-                <Chevron />
+              <div className="flex items-center px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm font-semibold text-slate-600 whitespace-nowrap shrink-0">
+                California
               </div>
 
               <div className="relative flex-1 min-w-0">
                 <select
                   value={selectedCounty}
                   onChange={handleCountyChange}
-                  disabled={!selectedState}
                   className={SELECT_CLASS}
                 >
-                  <option value="">{selectedState ? 'All Counties' : 'County'}</option>
+                  <option value="">All Counties</option>
                   {counties.map((c) => (
                     <option key={c} value={c}>{c} County</option>
                   ))}

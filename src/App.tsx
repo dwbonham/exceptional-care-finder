@@ -13,7 +13,7 @@ const stateMap = extractStateMap(allPrograms);
 const careTypes = extractCareTypes(allPrograms);
 
 export default function App() {
-  const [selectedState, setSelectedState] = useState('');
+  const selectedState = 'CA';
   const [selectedCounty, setSelectedCounty] = useState('');
   const [selectedLaZip, setSelectedLaZip] = useState('');
   const [selectedCareType, setSelectedCareType] = useState('');
@@ -28,13 +28,11 @@ export default function App() {
       />
 
       <LocationFilter
-        stateMap={stateMap}
+        counties={stateMap['CA'] ?? []}
         careTypes={careTypes}
-        selectedState={selectedState}
         selectedCounty={selectedCounty}
         selectedLaZip={selectedLaZip}
         selectedCareType={selectedCareType}
-        onStateChange={(s) => { setSelectedState(s); setSelectedCounty(''); setSelectedLaZip(''); }}
         onCountyChange={(c) => { setSelectedCounty(c); setSelectedLaZip(''); }}
         onLaZipChange={setSelectedLaZip}
         onCareTypeChange={setSelectedCareType}
@@ -54,8 +52,8 @@ export default function App() {
 
         <div className="flex flex-col lg:flex-row gap-8">
           <aside className="lg:w-80 xl:w-96 shrink-0">
-            <div className="lg:sticky lg:top-24">
-              <StateRegulatoryGuide selectedState={selectedState} />
+            <div className="lg:sticky lg:top-24 flex flex-col max-h-[calc(100vh-8rem)]">
+              <StateRegulatoryGuide />
             </div>
           </aside>
 
