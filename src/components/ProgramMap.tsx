@@ -3,33 +3,42 @@ import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
-import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 import type { ProgramData } from '../types';
 
-// Custom SVG pin — matches the app's blue palette, avoids Leaflet's broken
-// default icon URL resolution in Vite bundled builds.
-function makePin(color: string, label: string) {
-  const svg = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="42" viewBox="0 0 32 42">
-      <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%">
-        <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.25)"/>
-      </filter>
-      <path d="M16 0C7.163 0 0 7.163 0 16c0 10.667 16 26 16 26S32 26.667 32 16C32 7.163 24.837 0 16 0z"
-            fill="${color}" filter="url(#shadow)"/>
-      <circle cx="16" cy="16" r="7" fill="white"/>
-      <text x="16" y="20" text-anchor="middle" font-size="9" font-weight="700"
-            font-family="Inter,system-ui,sans-serif" fill="${color}">${label}</text>
-    </svg>`;
+const PIN_BLUE = '#2563eb';
+
+// Clean teardrop pin — white circle on brand blue, number label inside.
+function makePin(label: string) {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="30" height="38" viewBox="0 0 30 38">
+    <filter id="pf${label}" x="-60%" y="-40%" width="220%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="rgba(0,0,0,0.18)"/>
+    </filter>
+    <path d="M15 2C8.373 2 3 7.373 3 14c0 9.2 12 22 12 22S27 23.2 27 14C27 7.373 21.627 2 15 2z"
+          fill="${PIN_BLUE}" filter="url(#pf${label})"/>
+    <circle cx="15" cy="13.5" r="7.5" fill="white" opacity="0.96"/>
+    <text x="15" y="17.5" text-anchor="middle" font-size="9" font-weight="700"
+          font-family="-apple-system,BlinkMacSystemFont,Inter,sans-serif" fill="${PIN_BLUE}">${label}</text>
+  </svg>`;
   return L.divIcon({
     html: svg,
     className: '',
-    iconSize: [32, 42],
-    iconAnchor: [16, 42],
-    popupAnchor: [0, -44],
+    iconSize: [30, 38],
+    iconAnchor: [15, 38],
+    popupAnchor: [0, -40],
   });
 }
 
-const PIN_COLORS = ['#2563eb', '#7c3aed', '#0891b2', '#059669'];
+// Custom cluster bubble — single blue circle to match brand, replaces the
+// default yellow/green MarkerCluster.Default.css styling.
+function clusterIcon(clusterGroup: any) {
+  const count = clusterGroup.getChildCount();
+  return L.divIcon({
+    html: `<div style="width:36px;height:36px;border-radius:50%;background:${PIN_BLUE};border:3px solid white;box-shadow:0 2px 10px rgba(37,99,235,0.35);display:flex;align-items:center;justify-content:center;font-family:-apple-system,BlinkMacSystemFont,Inter,sans-serif;font-size:13px;font-weight:700;color:white">${count}</div>`,
+    className: '',
+    iconSize: [36, 36],
+    iconAnchor: [18, 18],
+  });
+}
 
 // Manages the marker cluster group imperatively — cleaner than trying to wrap Leaflet
 // plugins in React-Leaflet's declarative component model.
@@ -37,29 +46,31 @@ function ClusterLayer({ programs }: { programs: ProgramData[] }) {
   const map = useMap();
 
   useEffect(() => {
-    const cluster = (L as any).markerClusterGroup({ maxClusterRadius: 60 });
+    const cluster = (L as any).markerClusterGroup({
+      maxClusterRadius: 50,
+      iconCreateFunction: clusterIcon,
+    });
 
     programs.forEach((program, i) => {
       if (!program.location.coordinates) return;
       const { lat, lng } = program.location.coordinates;
-      const color = PIN_COLORS[i % PIN_COLORS.length];
-      const icon = makePin(color, String(i + 1));
+      const icon = makePin(String(i + 1));
       const fullAddress = `${program.location.street}, ${program.location.city}, ${program.location.state} ${program.location.zipCode}`;
       const directionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(fullAddress)}`;
 
       const marker = L.marker([lat, lng], { icon });
       marker.bindPopup(`
-        <div style="font-family:Inter,system-ui,sans-serif;padding:4px 2px">
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-            <span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:${color};color:white;font-size:11px;font-weight:700;flex-shrink:0">${i + 1}</span>
+        <div style="font-family:-apple-system,BlinkMacSystemFont,Inter,sans-serif;padding:4px 2px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:${PIN_BLUE};color:white;font-size:11px;font-weight:700;flex-shrink:0">${i + 1}</span>
             <strong style="font-size:13px;color:#0f172a;line-height:1.3">${program.streetName}</strong>
           </div>
-          <span style="display:inline-block;padding:2px 8px;border-radius:999px;background:#dbeafe;color:#1d4ed8;font-size:11px;font-weight:600;margin-bottom:8px">${program.facilityDetails.decryptedProgramType}</span>
-          <p style="font-size:12px;color:#475569;margin:0 0 10px;line-height:1.4">${fullAddress}</p>
-          ${program.contact.phone ? `<p style="margin:0 0 10px"><a href="tel:${program.contact.phone.replace(/\D/g, '')}" style="font-size:12px;color:#2563eb;font-weight:600;text-decoration:none">📞 ${program.contact.phone}</a></p>` : ''}
-          <a href="${directionsHref}" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:4px;padding:6px 12px;border-radius:8px;background:#2563eb;color:white;font-size:12px;font-weight:600;text-decoration:none">🗺️ Get Directions ↗</a>
+          <span style="display:inline-block;padding:2px 8px;border-radius:999px;background:#dbeafe;color:#1d4ed8;font-size:11px;font-weight:600;margin-bottom:10px">${program.facilityDetails.decryptedProgramType}</span>
+          <p style="font-size:12px;color:#64748b;margin:0 0 10px;line-height:1.5">${fullAddress}</p>
+          ${program.contact.phone ? `<p style="margin:0 0 10px"><a href="tel:${program.contact.phone.replace(/\D/g, '')}" style="font-size:12px;color:${PIN_BLUE};font-weight:600;text-decoration:none">📞 ${program.contact.phone}</a></p>` : ''}
+          <a href="${directionsHref}" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:4px;padding:7px 13px;border-radius:8px;background:${PIN_BLUE};color:white;font-size:12px;font-weight:600;text-decoration:none">Get Directions ↗</a>
         </div>
-      `, { minWidth: 220, maxWidth: 280 });
+      `, { minWidth: 230, maxWidth: 290 });
 
       cluster.addLayer(marker);
     });
@@ -132,33 +143,38 @@ export default function ProgramMap({ programs }: Props) {
         center={center}
         zoom={12}
         scrollWheelZoom
-        style={{ height: '260px', width: '100%' }}
+        style={{ height: '380px', width: '100%' }}
         dragging={true}
         touchZoom={true}
       >
         <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          subdomains="abcd"
+          maxZoom={20}
         />
 
         <ClusterLayer programs={mapped} />
       </MapContainer>
       )}
 
-      {/* Legend — hidden when collapsed */}
+      {/* Legend — hidden when collapsed, capped at 8 visible entries */}
       {!collapsed && (
-        <div className="px-5 py-2.5 bg-slate-50 border-t border-slate-100 flex flex-wrap gap-x-4 gap-y-1">
-          {mapped.map((program, i) => (
+        <div className="px-5 py-2.5 bg-slate-50 border-t border-slate-100 flex flex-wrap gap-x-4 gap-y-1.5 items-center">
+          {mapped.slice(0, 8).map((program, i) => (
             <span key={i} className="flex items-center gap-1.5 text-xs text-slate-500">
               <span
                 className="inline-flex items-center justify-center w-4 h-4 rounded-full text-white text-[9px] font-bold shrink-0"
-                style={{ background: PIN_COLORS[i % PIN_COLORS.length] }}
+                style={{ background: PIN_BLUE }}
               >
                 {i + 1}
               </span>
               {program.streetName}
             </span>
           ))}
+          {mapped.length > 8 && (
+            <span className="text-xs text-slate-400 italic">+{mapped.length - 8} more · zoom in to see all</span>
+          )}
         </div>
       )}
     </div>

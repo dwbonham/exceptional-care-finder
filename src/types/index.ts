@@ -47,6 +47,8 @@ export interface ProgramFundingMechanics {
   coveringAgencies: string[];
   authorizedServiceCodes: string[];
   transportationAvailability?: string;
+  transportationServiceArea?: string;
+  acceptsPrivatePay?: 'Yes' | 'No' | 'Unknown';
   requiredFundingDocument: string;
   financialCoverageNote: string;
 }

@@ -102,22 +102,22 @@ const needsReviewResult = {
 
 console.log('\nHEADERS');
 
-// Column layout (41 total):
+// Column layout (45 total):
 // 0:  Status
 // 1:  Published Status
 // 2:  Completeness %
 // 3:  Last Updated
 // 4:  CCLD Last Verified
-// 5–14: CCLD Auto-fill (License Number, Legal Name, Type, Status, Address, City, County, State, Zip, Capacity)
-// 15–19: RC / Funding (Covering Agencies, Vendor IDs, Service Codes, Transportation, Financial Coverage Note)
-// 20–32: Gemini-Enriched (Display Name, Phone, Website, Parent Org, Min/Max Age, Days, Hours, Languages, Features, Self-Det, Pop Spec, Program Focus)
-// 33–35: AI Sentiment (Bullet 1–3)
-// 36–40: Auto-generated (Lat, Lng, Geocode Source, Import Notes, Review Notes)
+// 5–14:  CCLD Auto-fill (License Number, Legal Name, Type, Status, Address, City, County, State, Zip, Capacity)
+// 15–21: RC / Funding (Covering Agencies, Vendor IDs, Service Codes, Transportation, Transportation Service Area, Accepts Private Pay, Financial Coverage Note)
+// 22–36: Gemini-Enriched (Display Name, Phone, Website, Parent Org, Year Established, Min/Max Age, Days, Hours, Languages, Features, Activities Offered, Self-Det, Pop Spec, Program Focus)
+// 37–39: AI Sentiment (Bullet 1–3)
+// 40–44: Auto-generated (Lat, Lng, Geocode Source, Import Notes, Review Notes)
 
-assert('exactly 41 columns', HEADERS.length === 41);
+assert('exactly 45 columns', HEADERS.length === 45);
 assert('first column is Status', HEADERS[0] === 'Status');
 assert('second column is Published Status', HEADERS[1] === 'Published Status');
-assert('last column is Review Notes', HEADERS[40] === 'Review Notes');
+assert('last column is Review Notes', HEADERS[44] === 'Review Notes');
 assert('no duplicate headers', new Set(HEADERS).size === HEADERS.length);
 
 // ─── buildSheetRow() — structure ─────────────────────────────────────────────
@@ -127,8 +127,8 @@ console.log('\nbuildSheetRow() — row length and structure');
 const approvedRow = buildSheetRow(approvedResult);
 const reviewRow   = buildSheetRow(needsReviewResult);
 
-assert('row has exactly 41 values', approvedRow.length === 41);
-assert('needs-review row also has 41 values', reviewRow.length === 41);
+assert('row has exactly 45 values', approvedRow.length === 45);
+assert('needs-review row also has 45 values', reviewRow.length === 45);
 
 // ─── buildSheetRow() — Workflow columns (0–4) ─────────────────────────────────
 
@@ -157,54 +157,59 @@ assert('col 12 State',               approvedRow[12] === 'CA');
 assert('col 13 Zip',                 approvedRow[13] === '95503');
 assert('col 14 Capacity',            approvedRow[14] === 30);
 
-// ─── buildSheetRow() — RC / Funding columns (15–19) ──────────────────────────
+// ─── buildSheetRow() — RC / Funding columns (15–21) ──────────────────────────
 
 console.log('\nbuildSheetRow() — RC / Funding columns');
 
-assert('col 15 Covering Agencies joined',     approvedRow[15] === 'Redwood Coast Regional Center');
-assert('col 16 Vendor IDs joined as rc:id',   approvedRow[16] === 'RCRC: V1234');
-assert('col 17 Service Codes joined',         approvedRow[17] === '510, 515');
-assert('col 18 Transportation',               approvedRow[18] === 'Contact Regional Center');
-assert('col 15 empty array → empty string',   reviewRow[15]  === '');
-assert('col 16 empty array → empty string',   reviewRow[16]  === '');
+assert('col 15 Covering Agencies joined',           approvedRow[15] === 'Redwood Coast Regional Center');
+assert('col 16 Vendor IDs joined as rc:id',         approvedRow[16] === 'RCRC: V1234');
+assert('col 17 Service Codes joined',               approvedRow[17] === '510, 515');
+assert('col 18 Transportation',                     approvedRow[18] === 'Contact Regional Center');
+assert('col 19 Transportation Service Area blank',  approvedRow[19] === '');
+assert('col 20 Accepts Private Pay default Unknown', approvedRow[20] === 'Unknown');
+assert('col 21 Financial Coverage Note',            approvedRow[21] === 'Funding via Regional Center.');
+assert('col 15 empty array → empty string',         reviewRow[15]  === '');
+assert('col 16 empty array → empty string',         reviewRow[16]  === '');
 
-// ─── buildSheetRow() — Gemini-Enriched columns (20–32) ───────────────────────
+// ─── buildSheetRow() — Gemini-Enriched columns (22–36) ───────────────────────
 
 console.log('\nbuildSheetRow() — Gemini-Enriched columns');
 
-assert('col 20 Display Name',  approvedRow[20] === 'Carole Sund Center');
-assert('col 21 Phone',         approvedRow[21] === '(707) 442-3969');
-assert('col 22 Website',       approvedRow[22] === 'https://carolesundcenter.org');
-assert('col 23 Parent Org',    approvedRow[23] === 'Easterseals');
-assert('col 24 Min Age',       approvedRow[24] === 18);
-assert('col 25 Max Age',       approvedRow[25] === 65);
-assert('col 26 Days',          approvedRow[26] === 'Monday–Friday');
-assert('col 27 Hours',         approvedRow[27] === '8:00am–3:00pm');
-assert('col 28 Languages',     approvedRow[28] === 'English, Spanish');
-assert('col 29 Features',      approvedRow[29] === 'Wheelchair Accessible');
-assert('col 30 Self-Det',      approvedRow[30] === 'Yes');
-assert('col 31 Pop Spec',      approvedRow[31] === 'Autism, Mixed IDD');
-assert('col 32 Program Focus', approvedRow[32].includes('disabilities'));
+assert('col 22 Display Name',       approvedRow[22] === 'Carole Sund Center');
+assert('col 23 Phone',              approvedRow[23] === '(707) 442-3969');
+assert('col 24 Website',            approvedRow[24] === 'https://carolesundcenter.org');
+assert('col 25 Parent Org',         approvedRow[25] === 'Easterseals');
+assert('col 26 Year Established blank when absent', approvedRow[26] === '');
+assert('col 27 Min Age',            approvedRow[27] === 18);
+assert('col 28 Max Age',            approvedRow[28] === 65);
+assert('col 29 Days',               approvedRow[29] === 'Monday–Friday');
+assert('col 30 Hours',              approvedRow[30] === '8:00am–3:00pm');
+assert('col 31 Languages',          approvedRow[31] === 'English, Spanish');
+assert('col 32 Features',           approvedRow[32] === 'Wheelchair Accessible');
+assert('col 33 Activities blank when absent', approvedRow[33] === '');
+assert('col 34 Self-Det',           approvedRow[34] === 'Yes');
+assert('col 35 Pop Spec',           approvedRow[35] === 'Autism, Mixed IDD');
+assert('col 36 Program Focus',      approvedRow[36].includes('disabilities'));
 
-// ─── buildSheetRow() — AI Sentiment columns (33–35) ──────────────────────────
+// ─── buildSheetRow() — AI Sentiment columns (37–39) ──────────────────────────
 
 console.log('\nbuildSheetRow() — AI Sentiment columns');
 
-assert('col 33 Bullet 1', approvedRow[33] === 'Established in 1988.');
-assert('col 34 Bullet 2', approvedRow[34] === 'Highly regarded in Humboldt County.');
-assert('col 35 Bullet 3', approvedRow[35] === 'Dedicated staff.');
-assert('col 33 empty string when no bullets', reviewRow[33] === '');
+assert('col 37 Bullet 1', approvedRow[37] === 'Established in 1988.');
+assert('col 38 Bullet 2', approvedRow[38] === 'Highly regarded in Humboldt County.');
+assert('col 39 Bullet 3', approvedRow[39] === 'Dedicated staff.');
+assert('col 37 empty string when no bullets', reviewRow[37] === '');
 
-// ─── buildSheetRow() — Auto-generated columns (36–40) ────────────────────────
+// ─── buildSheetRow() — Auto-generated columns (40–44) ────────────────────────
 
 console.log('\nbuildSheetRow() — Auto-generated columns');
 
-assert('col 36 Latitude',  approvedRow[36] === 40.7794);
-assert('col 37 Longitude', approvedRow[37] === -124.1688);
-assert('col 38 Geocode Source extracted from dataSourceNotes', approvedRow[38] === 'geocoded');
-assert('col 39 Import Notes empty when approved', approvedRow[39] === '');
-assert('col 39 Import Notes contains reasons when needs_review', reviewRow[39].includes('threshold'));
-assert('col 40 Review Notes always blank', approvedRow[40] === '' && reviewRow[40] === '');
+assert('col 40 Latitude',  approvedRow[40] === 40.7794);
+assert('col 41 Longitude', approvedRow[41] === -124.1688);
+assert('col 42 Geocode Source extracted from dataSourceNotes', approvedRow[42] === 'geocoded');
+assert('col 43 Import Notes empty when approved', approvedRow[43] === '');
+assert('col 43 Import Notes contains reasons when needs_review', reviewRow[43].includes('threshold'));
+assert('col 44 Review Notes always blank', approvedRow[44] === '' && reviewRow[44] === '');
 
 // ─── buildSheetRow() — missing coords ────────────────────────────────────────
 
@@ -215,8 +220,8 @@ const noCoordResult = {
   record: { ...approvedResult.record, location: { ...approvedResult.record.location, coordinates: undefined } },
 };
 const noCoordRow = buildSheetRow(noCoordResult);
-assert('lat empty string when no coordinates', noCoordRow[36] === '');
-assert('lng empty string when no coordinates', noCoordRow[37] === '');
+assert('lat empty string when no coordinates', noCoordRow[40] === '');
+assert('lng empty string when no coordinates', noCoordRow[41] === '');
 
 // ─── HEADERS alignment check ─────────────────────────────────────────────────
 

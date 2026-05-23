@@ -118,10 +118,12 @@ export function buildProgramRecord(ccldRecord, enrichResult, geocodeResult, comp
       programFocus:             enrichResult.programFocus || '',
       minimumAge:               18,
       ...(enrichResult.maximumAge != null        ? { maximumAge: enrichResult.maximumAge } : {}),
+      ...(enrichResult.yearEstablished != null   ? { yearEstablished: enrichResult.yearEstablished } : {}),
       languagesSupported:       enrichResult.languagesSupported?.length
                                   ? enrichResult.languagesSupported
                                   : ['English'],
       ...(enrichResult.facilityFeatures?.length  ? { facilityFeatures: enrichResult.facilityFeatures } : {}),
+      ...(enrichResult.activitiesOffered?.length ? { activitiesOffered: enrichResult.activitiesOffered } : {}),
       ...(enrichResult.parentOrganization        ? { parentOrganization: enrichResult.parentOrganization } : {}),
       ...(enrichResult.daysOfOperation           ? { daysOfOperation: enrichResult.daysOfOperation } : {}),
       ...(enrichResult.hoursOfOperation          ? { hoursOfOperation: enrichResult.hoursOfOperation } : {}),
@@ -137,6 +139,9 @@ export function buildProgramRecord(ccldRecord, enrichResult, geocodeResult, comp
       vendorIds:                [],
       authorizedServiceCodes:   [],
       transportationAvailability: 'Contact Regional Center',
+      ...(enrichResult.transportationServiceArea ? { transportationServiceArea: enrichResult.transportationServiceArea } : {}),
+      ...(enrichResult.acceptsPrivatePay && enrichResult.acceptsPrivatePay !== 'Unknown'
+        ? { acceptsPrivatePay: enrichResult.acceptsPrivatePay } : {}),
       requiredFundingDocument:  'IPP (Individual Program Plan)',
       financialCoverageNote:    'Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage.',
     },

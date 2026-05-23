@@ -18,20 +18,20 @@ import { createSign } from 'crypto';
 export const HEADERS = [
   // Workflow (col 0–4)
   'Status', 'Published Status', 'Completeness %', 'Last Updated', 'CCLD Last Verified',
-  // CCLD Auto-fill (col 4–13)
+  // CCLD Auto-fill (col 5–14)
   'CCLD License Number', 'Legal Name', 'License Type', 'License Status',
   'Address', 'City', 'County', 'State', 'Zip', 'Capacity',
-  // RC / Funding (col 14–18)
+  // RC / Funding (col 15–21)
   'Covering Agencies', 'Vendor IDs', 'Authorized Service Codes',
-  'Transportation', 'Financial Coverage Note',
-  // Gemini-Enriched (col 19–31)
-  'Display Name', 'Phone', 'Website', 'Parent Org',
+  'Transportation', 'Transportation Service Area', 'Accepts Private Pay', 'Financial Coverage Note',
+  // Gemini-Enriched (col 22–36)
+  'Display Name', 'Phone', 'Website', 'Parent Org', 'Year Established',
   'Min Age', 'Max Age', 'Days', 'Hours',
-  'Languages', 'Features', 'Self-Determination',
+  'Languages', 'Features', 'Activities Offered', 'Self-Determination',
   'Population Specialization', 'Program Focus',
-  // AI Sentiment (col 32–34)
+  // AI Sentiment (col 37–39)
   'Sentiment Bullet 1', 'Sentiment Bullet 2', 'Sentiment Bullet 3',
-  // Auto-generated (col 35–39)
+  // Auto-generated (col 40–44)
   'Latitude', 'Longitude', 'Geocode Source', 'Import Notes', 'Review Notes',
 ];
 
@@ -184,18 +184,22 @@ export function buildSheetRow(gateResult) {
     _joinVendorIds(fm.vendorIds),
     _join(fm.authorizedServiceCodes),
     fm.transportationAvailability ?? '',
+    fm.transportationServiceArea ?? '',
+    fm.acceptsPrivatePay ?? 'Unknown',
     fm.financialCoverageNote ?? '',
     // Gemini-Enriched
     r.streetName ?? '',
     r.contact?.phone ?? '',
     r.contact?.websiteUrl ?? '',
     fd.parentOrganization ?? '',
+    fd.yearEstablished ?? '',
     fd.minimumAge ?? '',
     fd.maximumAge ?? '',
     fd.daysOfOperation ?? '',
     fd.hoursOfOperation ?? '',
     _join(fd.languagesSupported),
     _join(fd.facilityFeatures),
+    _join(fd.activitiesOffered),
     fd.selfDeterminationAccepted ?? 'Unknown',
     _join(fd.populationSpecialization),
     fd.programFocus ?? '',

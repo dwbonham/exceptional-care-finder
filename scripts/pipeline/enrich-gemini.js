@@ -81,10 +81,13 @@ export function calculateCompleteness(enrichResult) {
     [8,  !!enrichResult.hoursOfOperation],
     [8,  enrichResult.languagesSupported?.length > 0],
     [8,  enrichResult.facilityFeatures?.length > 0],
+    [8,  enrichResult.activitiesOffered?.length > 0],
     [7,  enrichResult.selfDeterminationAccepted !== 'Unknown'],
     [6,  enrichResult.populationSpecialization?.length > 0],
     [5,  !!enrichResult.parentOrganization],
     [5,  enrichResult.maximumAge != null],
+    [4,  enrichResult.acceptsPrivatePay != null && enrichResult.acceptsPrivatePay !== 'Unknown'],
+    [3,  enrichResult.yearEstablished != null],
   ];
   const score = checks.reduce((sum, [weight, present]) => sum + (present ? weight : 0), 0);
   return Math.min(100, score);
@@ -108,14 +111,18 @@ Return ONLY a JSON object with exactly these fields (no other text):
   "phone": "(XXX) XXX-XXXX format, or null",
   "websiteUrl": "URL starting with https://, or null",
   "parentOrganization": "Parent company or nonprofit (e.g. Sevita, Easterseals, ResCare/BrightSpring), or null if independent",
+  "yearEstablished": null,
   "daysOfOperation": "e.g. Monday–Friday, or null",
   "hoursOfOperation": "e.g. 8:00am–3:00pm, or null",
   "languagesSupported": ["English"],
-  "facilityFeatures": ["Wheelchair Accessible", "Sensory Room"],
+  "facilityFeatures": ["Wheelchair Accessible", "Outdoor Space", "Sensory Room", "Computer Lab", "Commercial Kitchen", "Vocational Workshop"],
+  "activitiesOffered": ["Arts and Crafts", "Music Therapy", "Life Skills Training"],
   "selfDeterminationAccepted": "Yes or No or Unknown",
   "populationSpecialization": ["Autism", "Down Syndrome"],
   "maximumAge": null,
   "programFocus": "1–2 sentence description of what the program offers to participants",
+  "acceptsPrivatePay": "Yes or No or Unknown",
+  "transportationServiceArea": "Geographic area served by program transportation (e.g. 'Within 10 miles', 'Riverside County'), or null",
   "webPresenceFound": true
 }
 
@@ -218,14 +225,18 @@ function _normalizeEnrichment(json, ccldRecord) {
     phone:                    _str(j.phone)        || ccldRecord.phone,
     websiteUrl:               _str(j.websiteUrl),
     parentOrganization:       _str(j.parentOrganization),
+    yearEstablished:          _posInt(j.yearEstablished),
     daysOfOperation:          _str(j.daysOfOperation),
     hoursOfOperation:         _str(j.hoursOfOperation),
     languagesSupported:       _strArray(j.languagesSupported),
     facilityFeatures:         _strArray(j.facilityFeatures),
+    activitiesOffered:        _strArray(j.activitiesOffered),
     selfDeterminationAccepted: _selfDet(j.selfDeterminationAccepted),
     populationSpecialization: _strArray(j.populationSpecialization),
     maximumAge:               _posInt(j.maximumAge),
     programFocus:             _str(j.programFocus),
+    acceptsPrivatePay:        _selfDet(j.acceptsPrivatePay),
+    transportationServiceArea: _str(j.transportationServiceArea),
     webPresenceFound:         j.webPresenceFound !== false,
     enrichParseError:         json === null,
   };
@@ -272,14 +283,18 @@ function _posInt(v) {
  * @property {string|null} phone
  * @property {string|null} websiteUrl
  * @property {string|null} parentOrganization
+ * @property {number|null} yearEstablished
  * @property {string|null} daysOfOperation
  * @property {string|null} hoursOfOperation
  * @property {string[]} languagesSupported
  * @property {string[]} facilityFeatures
+ * @property {string[]} activitiesOffered
  * @property {'Yes'|'No'|'Unknown'} selfDeterminationAccepted
  * @property {string[]} populationSpecialization
  * @property {number|null} maximumAge
  * @property {string|null} programFocus
+ * @property {'Yes'|'No'|'Unknown'} acceptsPrivatePay
+ * @property {string|null} transportationServiceArea
  * @property {boolean} webPresenceFound
  * @property {boolean} enrichParseError
  * @property {string[]} sentimentBullets

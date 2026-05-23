@@ -41,6 +41,11 @@ export default function ProgramCard({ program }: Props) {
               Licensed Capacity: {facilityDetails.licensedCapacity}
             </span>
           )}
+          {facilityDetails.yearEstablished && (
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-200 text-slate-500 bg-slate-50">
+              Est. {facilityDetails.yearEstablished}
+            </span>
+          )}
         </div>
       </div>
 
@@ -76,6 +81,20 @@ export default function ProgramCard({ program }: Props) {
           </div>
         )}
 
+        {/* Activities */}
+        {facilityDetails.activitiesOffered && facilityDetails.activitiesOffered.length > 0 && (
+          <div>
+            <p className="text-xs font-semibold text-slate-500 uppercase tracking-widest mb-1.5">Daily Activities</p>
+            <div className="flex flex-wrap gap-2">
+              {facilityDetails.activitiesOffered.map((activity) => (
+                <span key={activity} className="inline-flex items-center px-2.5 py-1 rounded-md bg-amber-50 border border-amber-200 text-xs text-amber-700">
+                  {activity}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Funding & Administration block */}
         <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
           <p className="text-xs font-semibold text-slate-500 uppercase tracking-widest mb-3 flex items-center gap-1.5">
@@ -96,6 +115,18 @@ export default function ProgramCard({ program }: Props) {
               <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
                 <span className="font-semibold text-slate-700">🚌 Transport:</span>
                 {fundingMechanics.transportationAvailability}
+              </span>
+            )}
+            {fundingMechanics.transportationServiceArea && (
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
+                <span className="font-semibold text-slate-700">Service Area:</span>
+                {fundingMechanics.transportationServiceArea}
+              </span>
+            )}
+            {fundingMechanics.acceptsPrivatePay && fundingMechanics.acceptsPrivatePay !== 'Unknown' && (
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
+                <span className="font-semibold text-slate-700">Private Pay:</span>
+                {fundingMechanics.acceptsPrivatePay}
               </span>
             )}
           </div>

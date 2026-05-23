@@ -89,6 +89,10 @@ assert('contains city', ep.includes('EUREKA'));
 assert('contains license number', ep.includes('126803405'));
 assert('mentions selfDeterminationAccepted field', ep.includes('selfDeterminationAccepted'));
 assert('mentions webPresenceFound field', ep.includes('webPresenceFound'));
+assert('mentions activitiesOffered field', ep.includes('activitiesOffered'));
+assert('mentions yearEstablished field', ep.includes('yearEstablished'));
+assert('mentions acceptsPrivatePay field', ep.includes('acceptsPrivatePay'));
+assert('mentions transportationServiceArea field', ep.includes('transportationServiceArea'));
 
 // ─── _buildSentimentPrompt ────────────────────────────────────────────────────
 
@@ -177,14 +181,18 @@ const MOCK_ENRICHMENT = {
   phone: '(707) 442-3969',
   websiteUrl: 'https://carolesundcenter.org',
   parentOrganization: null,
+  yearEstablished: 1988,
   daysOfOperation: 'Monday–Friday',
   hoursOfOperation: '8:00am–2:30pm',
   languagesSupported: ['English'],
   facilityFeatures: ['Wheelchair Accessible'],
+  activitiesOffered: ['Arts and Crafts', 'Music Therapy'],
   selfDeterminationAccepted: 'Yes',
   populationSpecialization: ['Autism', 'Mixed IDD'],
   maximumAge: null,
   programFocus: 'Supports adults with developmental disabilities through day activities.',
+  acceptsPrivatePay: 'No',
+  transportationServiceArea: null,
   webPresenceFound: true,
 };
 
@@ -225,6 +233,10 @@ assert('streetName from enrichment', result.streetName === 'Carole Sund ADP');
 assert('websiteUrl from enrichment', result.websiteUrl === 'https://carolesundcenter.org');
 assert('daysOfOperation from enrichment', result.daysOfOperation === 'Monday–Friday');
 assert('selfDeterminationAccepted from enrichment', result.selfDeterminationAccepted === 'Yes');
+assert('yearEstablished from enrichment', result.yearEstablished === 1988);
+assert('activitiesOffered from enrichment', result.activitiesOffered.length === 2);
+assert('acceptsPrivatePay from enrichment', result.acceptsPrivatePay === 'No');
+assert('transportationServiceArea null when absent', result.transportationServiceArea === null);
 assert('sentimentBullets from sentiment step', result.sentimentBullets.length === 1);
 assert('sentimentFlagged false', result.sentimentFlagged === false);
 assert('enrichParseError false', result.enrichParseError === false);
