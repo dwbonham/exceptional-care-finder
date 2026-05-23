@@ -1,0 +1,595 @@
+[
+  {
+    "legalLicenseName": "CREATIVE GROWTH",
+    "streetName": "Creative Growth Art Center",
+    "ccldLicenseNumber": "11400147",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "355 - 24th Street",
+      "city": "Oakland",
+      "state": "CA",
+      "zipCode": "94612",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.81315,
+        "lng": -122.26416
+      }
+    },
+    "contact": {
+      "phone": "(510) 836-2340",
+      "websiteUrl": "https://creativegrowth.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Creative Growth Art Center is dedicated to advancing the careers of artists with developmental, mental, and physical disabilities by providing a supportive studio environment, professional art-making workshops, gallery exhibition, and representation.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:30am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Creative Growth Art Center empowers adult artists with developmental disabilities through a professional studio and gallery.",
+        "Founded in 1973, it's the world's first art center for artists with disabilities, offering global exhibition opportunities."
+      ]
+    },
+    "completenessScore": 90,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EVERGREEN PROGRAM",
+    "streetName": "EVERGREEN PROGRAM",
+    "ccldLicenseNumber": "11405820",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "797 Montague Avenue",
+      "city": "San Leandro",
+      "state": "CA",
+      "zipCode": "94577",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.71087,
+        "lng": -122.15628
+      }
+    },
+    "contact": {
+      "phone": "(510) 895-2838",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 150,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Evergreen Program provides structured daytime activities, supervision, and support services for adults who need assistance during the day, including health monitoring, therapeutic activities, social and recreational programming, and meals.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Adults with Disabilities",
+        "Older Adults"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Evergreen Program is a licensed adult day program in San Leandro, CA, with a capacity of 150 participants.",
+        "It offers structured daytime activities, health monitoring, meals, and personal care for adults needing daily assistance."
+      ]
+    },
+    "completenessScore": 41,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "WISDOM PATH",
+    "streetName": "WISDOM PATH",
+    "ccldLicenseNumber": "11440265",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "985 Sueirro",
+      "city": "Hayward",
+      "state": "CA",
+      "zipCode": "94541",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.66241,
+        "lng": -122.1156
+      }
+    },
+    "contact": {
+      "phone": "(510) 783-1174",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "WISDOM PATH is an adult day program that provides structured daytime activities, supervision, and support services for adults with disabilities, including health monitoring, therapeutic activities, social and recreational programming, meals and snacks, and personal care assistance. The program aims to promote a high quality of life for participants and offers socialization and enrichment opportunities.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00am–6:00pm, Saturday–Sunday: 10:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Wisdom Path is a licensed Adult Day Program in Hayward, CA, with a 50-person capacity.",
+        "It offers social, recreational, educational, and health services to developmentally disabled seniors.",
+        "The program provides structured daytime activities, health monitoring, meals, and therapeutic programming."
+      ]
+    },
+    "completenessScore": 57,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KEYSTONE ADULT LEARNING CENTER",
+    "streetName": "Keystone Adult Learning Center",
+    "ccldLicenseNumber": "11440620",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1241 Quarry Lane  Suite 145",
+      "city": "Pleasanton",
+      "state": "CA",
+      "zipCode": "94566",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.674152,
+        "lng": -121.86565
+      }
+    },
+    "contact": {
+      "phone": "(925) 484-5330",
+      "websiteUrl": "https://www.keystonealc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Keystone Adult Learning Center provides opportunities for developmentally disabled adults to lead meaningful and active lives within the mainstream of the Tri-Valley community. It works with families and the local community to serve the needs of adults with developmental disabilities.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "parentOrganization": "Keystone Adult Learning Center, Inc.",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Mon-Fri: 9:00 AM–6:00 PM, Sat-Sun: 10:00 AM–4:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Keystone Adult Learning Center supports adults with developmental disabilities in the Tri-Valley.",
+        "Established in 1989, it offers structured activities, health monitoring, and therapeutic programs.",
+        "It is licensed by the CA Dept. of Social Services and a vendorized agency with the Regional Center of the East Bay."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ABILITY NOW BAY AREA  INC.",
+    "streetName": "ABILITY NOW BAY AREA INC.",
+    "ccldLicenseNumber": "11441112",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4500 Lincoln Avenue",
+      "city": "Oakland",
+      "state": "CA",
+      "zipCode": "94602",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.809036,
+        "lng": -122.20307
+      }
+    },
+    "contact": {
+      "phone": "(510) 531-3323",
+      "websiteUrl": "https://www.abilitynowbayarea.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Ability Now Bay Area offers comprehensive services for adults with developmental and physical disabilities, focusing on education, communication, computer literacy, vocational training, wellness, and community integration. The programs aim to promote self-advocacy, independent living skills, and leisure skills to enhance participants' ability to live more independent and fulfilled lives.",
+      "minimumAge": 18,
+      "maximumAge": 65,
+      "languagesSupported": [
+        "English",
+        "Spanish",
+        "Filipino"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Adaptive Technology"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Physical Disabilities",
+        "Cerebral Palsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Ability Now Bay Area empowers adults with developmental and physical disabilities through diverse programs.",
+        "Established in 1939, it offers comprehensive services for independence and community integration.",
+        "The program is licensed by California and partners with the Regional Center of the East Bay."
+      ]
+    },
+    "completenessScore": 95,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY DAY PROGRAM  INC.",
+    "streetName": "Community Day Program, Inc.",
+    "ccldLicenseNumber": "15600176",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "44250 Old Warm Springs",
+      "city": "Fremont",
+      "state": "CA",
+      "zipCode": "94538",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.50765,
+        "lng": -121.94733
+      }
+    },
+    "contact": {
+      "phone": "(510) 445-1227",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 51,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides structured daytime activities, supervision, and support services for adults with developmental disabilities, including health monitoring, therapeutic activities, social and recreational programming, meals, and personal care assistance. It aims to offer professional care, socialization, and enrichment opportunities, with transportation provided for regional center consumers.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Community Day Program, Inc. is a licensed adult day program in Fremont, CA, offering structured activities and health monitoring.",
+        "It serves adults with disabilities, older adults with dementia, or those recovering from illness, including Regional Center consumers.",
+        "The program provides door-to-door transportation and is licensed by the CA Dept. of Developmental Services."
+      ]
+    },
+    "completenessScore": 49,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HAYWARD EMPLOY AMERICA",
+    "streetName": "HAYWARD EMPLOY AMERICA",
+    "ccldLicenseNumber": "15600218",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2483 Industrial Parkway",
+      "city": "Hayward",
+      "state": "CA",
+      "zipCode": "94545",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.61791,
+        "lng": -122.08506
+      }
+    },
+    "contact": {
+      "phone": "(510) 785-2284",
+      "websiteUrl": "https://www.employamerica.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Employ America, a division of Social Vocational Services, Inc., connects individuals with developmental disabilities to employers in community settings and offers adult day programs, adult employment, and adult independent living services.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Hayward Employ America is a licensed adult day program in Hayward, CA.",
+        "Licensed since 1998, it offers structured activities and support for up to 30 adults.",
+        "The program serves older adults with dementia, disabilities, or those recovering from illness."
+      ]
+    },
+    "completenessScore": 64,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ONE STEP CLOSER",
+    "streetName": "One Step Closer",
+    "ccldLicenseNumber": "15600506",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7622 Mac Arthur Blvd.",
+      "city": "Oakland",
+      "state": "CA",
+      "zipCode": "94605",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.7675,
+        "lng": -122.16953
+      }
+    },
+    "contact": {
+      "phone": "(510) 636-0216",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "One Step Closer is a licensed adult day program that provides structured daytime activities, supervision, and support services for adults with developmental disabilities. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "One Step Closer is an adult behavioral management program for developmentally disabled individuals aged 18-59.",
+        "It teaches self-care skills, promotes community integration, and uses behavior modification techniques."
+      ]
+    },
+    "completenessScore": 41,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CLAUSEN HOUSE ADULT EDUCATION PROGRAM",
+    "streetName": "CLAUSEN HOUSE ADULT EDUCATION PROGRAM",
+    "ccldLicenseNumber": "19200068",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "650 Grand Ave",
+      "city": "Oakland",
+      "state": "CA",
+      "zipCode": "94610",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.809597,
+        "lng": -122.24951
+      }
+    },
+    "contact": {
+      "phone": "(510) 839-0050",
+      "websiteUrl": "https://www.clausenhouse.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 65,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Clausen House's Adult Education & Activity program empowers participants to advocate for and gain access to their hopes and dreams, helping them gain competency in essential life skills through classes, cultural events, and volunteer experiences. The program focuses on enhancing confidence, independence, self-awareness, and social interaction to foster inclusion in the community.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "parentOrganization": "Clausen House",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "10:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Clausen House empowers adults with intellectual and developmental disabilities through education and community integration.",
+        "Its Adult Education program offers classes, cultural events, and volunteer experiences to build essential life skills.",
+        "Founded in 1967, the program fosters independence and community inclusion for its clients."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC OF THE EAST BAY WALPERT AVP PROGRAM",
+    "streetName": "The Arc of the East Bay Walpert AVP Program",
+    "ccldLicenseNumber": "19200135",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1101 Walpert Street",
+      "city": "Hayward",
+      "state": "CA",
+      "zipCode": "94541",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.66859,
+        "lng": -122.075874
+      }
+    },
+    "contact": {
+      "phone": "(510) 582-8151",
+      "websiteUrl": "https://arceastbay.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 200,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Alternative Ventures Program (AVP) offers life skills training both on-site and in the community. It focuses on developing volunteer, social, recreational, and community building skills, encourages daily exercise, and may provide occasional paid work opportunities.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English",
+        "Cantonese",
+        "Spanish",
+        "Tagalog",
+        "Vietnamese",
+        "American Sign Language"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "parentOrganization": "The Arc of the East Bay",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Cerebral Palsy",
+        "Fetal Alcohol Syndrome"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Arc of the East Bay Walpert AVP Program is a licensed Adult Day Program in Hayward, CA.",
+        "It has a licensed capacity of 200 and offers structured activities, health monitoring, and meals.",
+        "The program serves adults with disabilities or dementia, also providing valuable respite for caregivers."
+      ]
+    },
+    "completenessScore": 95,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]
