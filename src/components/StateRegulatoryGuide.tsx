@@ -93,6 +93,43 @@ export default function StateRegulatoryGuide({ selectedState }: Props) {
         ))}
       </div>
 
+      {/* Regional Center Contacts */}
+      {guide.localAgencies.length > 0 && (
+        <div className="border-t border-slate-100">
+          <div className="px-5 py-4">
+            <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-widest mb-3">
+              Regional Centers
+            </h3>
+            <div className="space-y-4">
+              {guide.localAgencies.map((agency, i) => (
+                <div key={i} className="text-sm">
+                  <p className="font-semibold text-slate-700">{agency.name}</p>
+                  {agency.note && (
+                    <p className="text-xs text-slate-500 mt-0.5 leading-relaxed">{agency.note}</p>
+                  )}
+                  <div className="flex flex-wrap gap-x-4 gap-y-1 mt-1.5">
+                    <a
+                      href={`tel:${agency.phone}`}
+                      className="text-xs text-blue-600 hover:underline"
+                    >
+                      {agency.phone}
+                    </a>
+                    <a
+                      href={agency.websiteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-blue-600 hover:underline"
+                    >
+                      Website ↗
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Footer */}
       <div className="px-5 py-3 bg-slate-50 border-t border-slate-100">
         <p className="text-xs text-slate-400">

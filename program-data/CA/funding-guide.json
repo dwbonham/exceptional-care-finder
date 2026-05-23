@@ -3,20 +3,151 @@
   "title": "California Funding & Eligibility Guide",
   "localAgencies": [
     {
-      "county": "Riverside",
-      "zipCodes": ["92507", "92879", "92880", "92882"],
-      "name": "Inland Regional Center",
-      "phone": "(909) 890-3000",
-      "websiteUrl": "https://www.inlandrc.org/",
-      "note": "Serves Riverside & San Bernardino Counties"
+      "county": "Sacramento, Placer, El Dorado, Yolo, Nevada, Sierra, Plumas",
+      "name": "Alta California Regional Center",
+      "phone": "(916) 978-6400",
+      "websiteUrl": "https://www.altaregional.org",
+      "note": "Serves Sacramento, Placer, El Dorado, Yolo, Nevada, Sierra, and Plumas counties"
     },
     {
-      "county": "Alameda",
-      "zipCodes": ["94538", "94541", "94545", "94566", "94577", "94602", "94605", "94610", "94612"],
-      "name": "East Bay Regional Center",
+      "county": "Butte, Glenn, Lassen, Modoc, Shasta, Siskiyou, Tehama, Trinity",
+      "name": "Far Northern Regional Center",
+      "phone": "(530) 222-4791",
+      "websiteUrl": "https://www.fnrc.org",
+      "note": "Serves Butte, Glenn, Lassen, Modoc, Shasta, Siskiyou, Tehama, and Trinity counties"
+    },
+    {
+      "county": "Del Norte, Humboldt, Lake, Mendocino, Trinity",
+      "name": "Redwood Coast Regional Center",
+      "phone": "(707) 445-0893",
+      "websiteUrl": "https://www.redwoodcoast.org",
+      "note": "Serves Del Norte, Humboldt, Lake, Mendocino, and Trinity counties"
+    },
+    {
+      "county": "Napa, Solano",
+      "name": "North Bay Regional Center",
+      "phone": "(707) 256-1100",
+      "websiteUrl": "https://www.nbrc.net",
+      "note": "Serves Napa and Solano counties. Also has offices in Fairfield and Napa"
+    },
+    {
+      "county": "San Francisco, Marin, San Mateo",
+      "name": "Golden Gate Regional Center",
+      "phone": "(415) 546-9222",
+      "websiteUrl": "https://www.ggrc.org",
+      "note": "Serves San Francisco, Marin, and San Mateo counties"
+    },
+    {
+      "county": "Alameda, Contra Costa",
+      "name": "Regional Center of the East Bay",
       "phone": "(510) 383-1200",
-      "websiteUrl": "https://www.ebtrc.org/",
-      "note": "Serves Alameda & Contra Costa Counties"
+      "websiteUrl": "https://www.rceb.org",
+      "note": "Serves Alameda and Contra Costa counties"
+    },
+    {
+      "county": "Amador, Calaveras, San Joaquin, Stanislaus, Tuolumne",
+      "name": "Valley Mountain Regional Center",
+      "phone": "(209) 473-0951",
+      "websiteUrl": "https://www.vmrc.net",
+      "note": "Serves Amador, Calaveras, San Joaquin, Stanislaus, and Tuolumne counties"
+    },
+    {
+      "county": "Santa Clara, Santa Cruz, San Benito, Monterey",
+      "name": "San Andreas Regional Center",
+      "phone": "(408) 374-9960",
+      "websiteUrl": "https://www.sarc.org",
+      "note": "Serves Santa Clara, Santa Cruz, San Benito, and Monterey counties. Headquarters in Campbell"
+    },
+    {
+      "county": "Fresno, Kings, Madera, Tulare",
+      "name": "Central Valley Regional Center",
+      "phone": "(559) 276-4300",
+      "websiteUrl": "https://www.cvrc.org",
+      "note": "Serves Fresno, Kings, Madera, and Tulare counties"
+    },
+    {
+      "county": "Inyo, Kern, Mono",
+      "name": "Kern Regional Center",
+      "phone": "(661) 327-0071",
+      "websiteUrl": "https://www.kern.org",
+      "note": "Serves Inyo, Kern, and Mono counties"
+    },
+    {
+      "county": "San Luis Obispo, Santa Barbara, Ventura",
+      "name": "Tri-Counties Regional Center",
+      "phone": "(805) 962-7881",
+      "websiteUrl": "https://www.tri-counties.org",
+      "note": "Serves San Luis Obispo, Santa Barbara, and Ventura counties"
+    },
+    {
+      "county": "Riverside, San Bernardino",
+      "name": "Inland Regional Center",
+      "phone": "(909) 890-3000",
+      "websiteUrl": "https://www.inlandrc.org",
+      "note": "Serves Riverside and San Bernardino counties"
+    },
+    {
+      "county": "Orange",
+      "name": "Regional Center of Orange County",
+      "phone": "(714) 796-5100",
+      "websiteUrl": "https://www.rcoc.org",
+      "note": "Serves Orange County"
+    },
+    {
+      "county": "Imperial, San Diego",
+      "name": "San Diego Regional Center",
+      "phone": "(619) 685-1500",
+      "websiteUrl": "https://www.sdrc.org",
+      "note": "Serves Imperial and San Diego counties"
+    },
+    {
+      "county": "Los Angeles",
+      "name": "Frank D. Lanterman Regional Center",
+      "phone": "(818) 246-5200",
+      "websiteUrl": "https://www.lanterman.org",
+      "note": "LA County — serves Alhambra, Arcadia, Burbank, Glendale, Pasadena, and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+    },
+    {
+      "county": "Los Angeles",
+      "name": "North Los Angeles County Regional Center",
+      "phone": "(818) 778-1900",
+      "websiteUrl": "https://www.nlacrc.org",
+      "note": "LA County — serves San Fernando Valley, Antelope Valley (Lancaster, Palmdale), and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+    },
+    {
+      "county": "Los Angeles",
+      "name": "Eastern Los Angeles Regional Center",
+      "phone": "(323) 838-4750",
+      "websiteUrl": "https://www.elarc.org",
+      "note": "LA County — serves East Los Angeles, Boyle Heights, West Covina, Whittier, and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+    },
+    {
+      "county": "Los Angeles",
+      "name": "San Gabriel/Pomona Valley Regional Center",
+      "phone": "(909) 620-7722",
+      "websiteUrl": "https://www.sgprc.org",
+      "note": "LA County — serves Pomona, Claremont, Glendora, and eastern San Gabriel Valley communities. Assignment is by city of residence — contact DDS to confirm your RC."
+    },
+    {
+      "county": "Los Angeles",
+      "name": "South Central Los Angeles Regional Center",
+      "phone": "(213) 744-7000",
+      "websiteUrl": "https://www.sclarc.org",
+      "note": "LA County — serves South Central LA, Compton, Watts, Inglewood, and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+    },
+    {
+      "county": "Los Angeles",
+      "name": "Harbor Regional Center",
+      "phone": "(310) 540-1711",
+      "websiteUrl": "https://www.harborrc.org",
+      "note": "LA County — serves South Bay and Harbor area: Torrance, Long Beach, Carson, Redondo Beach, and surrounding communities. Assignment is by city of residence — contact DDS to confirm your RC."
+    },
+    {
+      "county": "Los Angeles",
+      "name": "Westside Regional Center",
+      "phone": "(310) 258-4000",
+      "websiteUrl": "https://www.westsiderc.org",
+      "note": "LA County — serves Santa Monica, Beverly Hills, Culver City, Malibu, and westside communities. Assignment is by city of residence — contact DDS to confirm your RC."
     }
   ],
   "faqs": [
