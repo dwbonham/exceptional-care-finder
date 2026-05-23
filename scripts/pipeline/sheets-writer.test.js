@@ -1,7 +1,11 @@
 #!/usr/bin/env bun
 // Run: bun scripts/pipeline/sheets-writer.test.js
 
-import { HEADERS, buildSheetRow, appendProgramRow } from './sheets-writer.js';
+import {
+  HEADERS, buildSheetRow, appendProgramRow,
+  FUNDING_GUIDE_HEADERS, REGIONAL_CENTER_HEADERS,
+  syncFundingGuides, syncRegionalCenters,
+} from './sheets-writer.js';
 import { DECISION } from './quality-gate.js';
 
 let passed = 0;
@@ -98,9 +102,22 @@ const needsReviewResult = {
 
 console.log('\nHEADERS');
 
-assert('exactly 40 columns', HEADERS.length === 40);
+// Column layout (41 total):
+// 0:  Status
+// 1:  Published Status
+// 2:  Completeness %
+// 3:  Last Updated
+// 4:  CCLD Last Verified
+// 5–14: CCLD Auto-fill (License Number, Legal Name, Type, Status, Address, City, County, State, Zip, Capacity)
+// 15–19: RC / Funding (Covering Agencies, Vendor IDs, Service Codes, Transportation, Financial Coverage Note)
+// 20–32: Gemini-Enriched (Display Name, Phone, Website, Parent Org, Min/Max Age, Days, Hours, Languages, Features, Self-Det, Pop Spec, Program Focus)
+// 33–35: AI Sentiment (Bullet 1–3)
+// 36–40: Auto-generated (Lat, Lng, Geocode Source, Import Notes, Review Notes)
+
+assert('exactly 41 columns', HEADERS.length === 41);
 assert('first column is Status', HEADERS[0] === 'Status');
-assert('last column is Review Notes', HEADERS[39] === 'Review Notes');
+assert('second column is Published Status', HEADERS[1] === 'Published Status');
+assert('last column is Review Notes', HEADERS[40] === 'Review Notes');
 assert('no duplicate headers', new Set(HEADERS).size === HEADERS.length);
 
 // ─── buildSheetRow() — structure ─────────────────────────────────────────────
@@ -110,82 +127,84 @@ console.log('\nbuildSheetRow() — row length and structure');
 const approvedRow = buildSheetRow(approvedResult);
 const reviewRow   = buildSheetRow(needsReviewResult);
 
-assert('row has exactly 40 values', approvedRow.length === 40);
-assert('needs-review row also has 40 values', reviewRow.length === 40);
+assert('row has exactly 41 values', approvedRow.length === 41);
+assert('needs-review row also has 41 values', reviewRow.length === 41);
 
-// ─── buildSheetRow() — Workflow columns (0–3) ─────────────────────────────────
+// ─── buildSheetRow() — Workflow columns (0–4) ─────────────────────────────────
 
 console.log('\nbuildSheetRow() — Workflow columns');
 
-assert('col 0 Status = Approved', approvedRow[0] === 'Approved');
-assert('col 0 Status = Needs Review', reviewRow[0] === 'Needs Review');
-assert('col 1 completeness score', approvedRow[1] === 84);
-assert('col 2 Last Updated is date', /^\d{4}-\d{2}-\d{2}$/.test(approvedRow[2]));
-assert('col 3 CCLD Last Verified', approvedRow[3] === '2026-05-22');
+assert('col 0 Status = Approved',      approvedRow[0] === 'Approved');
+assert('col 0 Status = Needs Review',  reviewRow[0]   === 'Needs Review');
+assert('col 1 Published Status = Live',          approvedRow[1] === 'Live');
+assert('col 1 Published Status = Not Published', reviewRow[1]   === 'Not Published');
+assert('col 2 completeness score',     approvedRow[2] === 84);
+assert('col 3 Last Updated is date',   /^\d{4}-\d{2}-\d{2}$/.test(approvedRow[3]));
+assert('col 4 CCLD Last Verified',     approvedRow[4] === '2026-05-22');
 
-// ─── buildSheetRow() — CCLD Auto-fill columns (4–13) ─────────────────────────
+// ─── buildSheetRow() — CCLD Auto-fill columns (5–14) ─────────────────────────
 
 console.log('\nbuildSheetRow() — CCLD Auto-fill columns');
 
-assert('col 4  CCLD License Number', approvedRow[4]  === '126803405');
-assert('col 5  Legal Name',          approvedRow[5]  === 'CAROLE SUND CENTER');
-assert('col 6  License Type',        approvedRow[6]  === 'ADULT DAY CARE');
-assert('col 7  License Status',      approvedRow[7]  === 'Active');
-assert('col 8  Address',             approvedRow[8]  === '4635 Broadway');
-assert('col 9  City',                approvedRow[9]  === 'Eureka');
-assert('col 10 County',              approvedRow[10] === 'Humboldt');
-assert('col 11 State',               approvedRow[11] === 'CA');
-assert('col 12 Zip',                 approvedRow[12] === '95503');
-assert('col 13 Capacity',            approvedRow[13] === 30);
+assert('col 5  CCLD License Number', approvedRow[5]  === '126803405');
+assert('col 6  Legal Name',          approvedRow[6]  === 'CAROLE SUND CENTER');
+assert('col 7  License Type',        approvedRow[7]  === 'ADULT DAY CARE');
+assert('col 8  License Status',      approvedRow[8]  === 'Active');
+assert('col 9  Address',             approvedRow[9]  === '4635 Broadway');
+assert('col 10 City',                approvedRow[10] === 'Eureka');
+assert('col 11 County',              approvedRow[11] === 'Humboldt');
+assert('col 12 State',               approvedRow[12] === 'CA');
+assert('col 13 Zip',                 approvedRow[13] === '95503');
+assert('col 14 Capacity',            approvedRow[14] === 30);
 
-// ─── buildSheetRow() — RC / Funding columns (14–18) ──────────────────────────
+// ─── buildSheetRow() — RC / Funding columns (15–19) ──────────────────────────
 
 console.log('\nbuildSheetRow() — RC / Funding columns');
 
-assert('col 14 Covering Agencies joined', approvedRow[14] === 'Redwood Coast Regional Center');
-assert('col 15 Vendor IDs joined as rc:id', approvedRow[15] === 'RCRC: V1234');
-assert('col 16 Service Codes joined', approvedRow[16] === '510, 515');
-assert('col 17 Transportation', approvedRow[17] === 'Contact Regional Center');
-assert('col 14 empty array → empty string', reviewRow[14] === '');
-assert('col 15 empty array → empty string', reviewRow[15] === '');
+assert('col 15 Covering Agencies joined',     approvedRow[15] === 'Redwood Coast Regional Center');
+assert('col 16 Vendor IDs joined as rc:id',   approvedRow[16] === 'RCRC: V1234');
+assert('col 17 Service Codes joined',         approvedRow[17] === '510, 515');
+assert('col 18 Transportation',               approvedRow[18] === 'Contact Regional Center');
+assert('col 15 empty array → empty string',   reviewRow[15]  === '');
+assert('col 16 empty array → empty string',   reviewRow[16]  === '');
 
-// ─── buildSheetRow() — Gemini-Enriched columns (19–31) ───────────────────────
+// ─── buildSheetRow() — Gemini-Enriched columns (20–32) ───────────────────────
 
 console.log('\nbuildSheetRow() — Gemini-Enriched columns');
 
-assert('col 19 Display Name',  approvedRow[19] === 'Carole Sund Center');
-assert('col 20 Phone',         approvedRow[20] === '(707) 442-3969');
-assert('col 21 Website',       approvedRow[21] === 'https://carolesundcenter.org');
-assert('col 22 Parent Org',    approvedRow[22] === 'Easterseals');
-assert('col 23 Min Age',       approvedRow[23] === 18);
-assert('col 24 Max Age',       approvedRow[24] === 65);
-assert('col 25 Days',          approvedRow[25] === 'Monday–Friday');
-assert('col 26 Hours',         approvedRow[26] === '8:00am–3:00pm');
-assert('col 27 Languages',     approvedRow[27] === 'English, Spanish');
-assert('col 28 Features',      approvedRow[28] === 'Wheelchair Accessible');
-assert('col 29 Self-Det',      approvedRow[29] === 'Yes');
-assert('col 30 Pop Spec',      approvedRow[30] === 'Autism, Mixed IDD');
-assert('col 31 Program Focus', approvedRow[31].includes('disabilities'));
+assert('col 20 Display Name',  approvedRow[20] === 'Carole Sund Center');
+assert('col 21 Phone',         approvedRow[21] === '(707) 442-3969');
+assert('col 22 Website',       approvedRow[22] === 'https://carolesundcenter.org');
+assert('col 23 Parent Org',    approvedRow[23] === 'Easterseals');
+assert('col 24 Min Age',       approvedRow[24] === 18);
+assert('col 25 Max Age',       approvedRow[25] === 65);
+assert('col 26 Days',          approvedRow[26] === 'Monday–Friday');
+assert('col 27 Hours',         approvedRow[27] === '8:00am–3:00pm');
+assert('col 28 Languages',     approvedRow[28] === 'English, Spanish');
+assert('col 29 Features',      approvedRow[29] === 'Wheelchair Accessible');
+assert('col 30 Self-Det',      approvedRow[30] === 'Yes');
+assert('col 31 Pop Spec',      approvedRow[31] === 'Autism, Mixed IDD');
+assert('col 32 Program Focus', approvedRow[32].includes('disabilities'));
 
-// ─── buildSheetRow() — AI Sentiment columns (32–34) ──────────────────────────
+// ─── buildSheetRow() — AI Sentiment columns (33–35) ──────────────────────────
 
 console.log('\nbuildSheetRow() — AI Sentiment columns');
 
-assert('col 32 Bullet 1', approvedRow[32] === 'Established in 1988.');
-assert('col 33 Bullet 2', approvedRow[33] === 'Highly regarded in Humboldt County.');
-assert('col 34 Bullet 3', approvedRow[34] === 'Dedicated staff.');
-assert('col 32 empty string when no bullets', reviewRow[32] === '');
+assert('col 33 Bullet 1', approvedRow[33] === 'Established in 1988.');
+assert('col 34 Bullet 2', approvedRow[34] === 'Highly regarded in Humboldt County.');
+assert('col 35 Bullet 3', approvedRow[35] === 'Dedicated staff.');
+assert('col 33 empty string when no bullets', reviewRow[33] === '');
 
-// ─── buildSheetRow() — Auto-generated columns (35–39) ────────────────────────
+// ─── buildSheetRow() — Auto-generated columns (36–40) ────────────────────────
 
 console.log('\nbuildSheetRow() — Auto-generated columns');
 
-assert('col 35 Latitude',  approvedRow[35] === 40.7794);
-assert('col 36 Longitude', approvedRow[36] === -124.1688);
-assert('col 37 Geocode Source extracted from dataSourceNotes', approvedRow[37] === 'geocoded');
-assert('col 38 Import Notes empty when approved', approvedRow[38] === '');
-assert('col 38 Import Notes contains reasons when needs_review', reviewRow[38].includes('threshold'));
-assert('col 39 Review Notes always blank', approvedRow[39] === '' && reviewRow[39] === '');
+assert('col 36 Latitude',  approvedRow[36] === 40.7794);
+assert('col 37 Longitude', approvedRow[37] === -124.1688);
+assert('col 38 Geocode Source extracted from dataSourceNotes', approvedRow[38] === 'geocoded');
+assert('col 39 Import Notes empty when approved', approvedRow[39] === '');
+assert('col 39 Import Notes contains reasons when needs_review', reviewRow[39].includes('threshold'));
+assert('col 40 Review Notes always blank', approvedRow[40] === '' && reviewRow[40] === '');
 
 // ─── buildSheetRow() — missing coords ────────────────────────────────────────
 
@@ -196,8 +215,8 @@ const noCoordResult = {
   record: { ...approvedResult.record, location: { ...approvedResult.record.location, coordinates: undefined } },
 };
 const noCoordRow = buildSheetRow(noCoordResult);
-assert('lat empty string when no coordinates', noCoordRow[35] === '');
-assert('lng empty string when no coordinates', noCoordRow[36] === '');
+assert('lat empty string when no coordinates', noCoordRow[36] === '');
+assert('lng empty string when no coordinates', noCoordRow[37] === '');
 
 // ─── HEADERS alignment check ─────────────────────────────────────────────────
 
@@ -206,11 +225,105 @@ console.log('\nHEADERS vs buildSheetRow() alignment');
 const headerRow = buildSheetRow({ decision: DECISION.NEEDS_REVIEW, completenessScore: 0, reasons: [], record: {} });
 assert('row length matches HEADERS length', headerRow.length === HEADERS.length);
 
+// ─── FUNDING_GUIDE_HEADERS and REGIONAL_CENTER_HEADERS ───────────────────────
+
+console.log('\nFUNDING_GUIDE_HEADERS and REGIONAL_CENTER_HEADERS');
+
+assert('FUNDING_GUIDE_HEADERS has 5 columns', FUNDING_GUIDE_HEADERS.length === 5);
+assert('FUNDING_GUIDE_HEADERS[0] = State',    FUNDING_GUIDE_HEADERS[0] === 'State');
+assert('FUNDING_GUIDE_HEADERS[1] = Question', FUNDING_GUIDE_HEADERS[1] === 'Question');
+assert('FUNDING_GUIDE_HEADERS[2] = Answer',   FUNDING_GUIDE_HEADERS[2] === 'Answer');
+
+assert('REGIONAL_CENTER_HEADERS has 6 columns', REGIONAL_CENTER_HEADERS.length === 6);
+assert('REGIONAL_CENTER_HEADERS[0] = State',  REGIONAL_CENTER_HEADERS[0] === 'State');
+assert('REGIONAL_CENTER_HEADERS[2] = Name',   REGIONAL_CENTER_HEADERS[2] === 'Name');
+
+// ─── syncFundingGuides() and syncRegionalCenters() — mocked fetch ─────────────
+
+console.log('\nsyncFundingGuides() and syncRegionalCenters() — mocked fetch');
+
+const fakeServiceAccount = {
+  client_email: 'test@project.iam.gserviceaccount.com',
+  private_key: '-----BEGIN RSA PRIVATE KEY-----\nMIIEow...\n-----END RSA PRIVATE KEY-----',
+};
+
+const sampleGuides = [
+  {
+    state: 'CA',
+    faqs: [
+      { question: 'What is an IPP?', answer: 'A person-centered plan.', sourceUrl: 'https://dds.ca.gov', sourceLabel: 'DDS' },
+      { question: 'Who is Eligible?', answer: 'Lanterman Act qualifying diagnoses.' },
+    ],
+    localAgencies: [
+      { county: 'Riverside', name: 'Inland Regional Center', phone: '(909) 890-3000', websiteUrl: 'https://inlandrc.org', note: 'Serves Riverside & San Bernardino' },
+    ],
+  },
+];
+
+const originalFetch = globalThis.fetch;
+const syncCalls = [];
+
+globalThis.fetch = async (url, opts) => {
+  syncCalls.push({ url: String(url), method: opts?.method ?? 'GET' });
+
+  if (url.includes('oauth2.googleapis.com/token')) {
+    return { ok: true, json: async () => ({ access_token: 'mock-token' }) };
+  }
+  if (url.includes(':batchUpdate')) {
+    // ensureTab
+    return { ok: true, json: async () => ({}) };
+  }
+  if (url.includes(':clear')) {
+    return { ok: true, json: async () => ({}) };
+  }
+  if (url.includes(':append')) {
+    return { ok: true, json: async () => ({ updates: { updatedRange: 'A1', updatedRows: 3 } }) };
+  }
+  return { ok: true, json: async () => ({}) };
+};
+
+let syncFundingError = null;
+try {
+  await syncFundingGuides(sampleGuides, { spreadsheetId: 'fake-id', serviceAccount: fakeServiceAccount });
+} catch (e) {
+  syncFundingError = e;
+}
+
+let syncRCError = null;
+try {
+  await syncRegionalCenters(sampleGuides, { spreadsheetId: 'fake-id', serviceAccount: fakeServiceAccount });
+} catch (e) {
+  syncRCError = e;
+}
+
+const isCryptoError = (e) => e && (
+  e.message.includes('key') || e.message.includes('PEM') ||
+  e.message.includes('sign') || e.message.includes('RSA')
+);
+
+if (!syncFundingError) {
+  const clearCall = syncCalls.find(c => c.url.includes(':clear') && c.method === 'POST');
+  const appendCall = syncCalls.find(c => c.url.includes(':append'));
+  assert('syncFundingGuides: clear called before append', !!clearCall);
+  assert('syncFundingGuides: append called', !!appendCall);
+} else {
+  assert('syncFundingGuides: only crypto error from fake key', isCryptoError(syncFundingError));
+  console.log(`  (crypto error expected: ${syncFundingError.message.slice(0, 60)})`);
+}
+
+if (!syncRCError) {
+  assert('syncRegionalCenters completed without error', true);
+} else {
+  assert('syncRegionalCenters: only crypto error from fake key', isCryptoError(syncRCError));
+  console.log(`  (crypto error expected: ${syncRCError.message.slice(0, 60)})`);
+}
+
+globalThis.fetch = originalFetch;
+
 // ─── appendProgramRow() — mocked fetch ───────────────────────────────────────
 
 console.log('\nappendProgramRow() — mocked fetch');
 
-const originalFetch = globalThis.fetch;
 const calls = [];
 
 globalThis.fetch = async (url, opts) => {
@@ -220,7 +333,6 @@ globalThis.fetch = async (url, opts) => {
     return { ok: true, json: async () => ({ access_token: 'mock-token' }) };
   }
   if (url.includes('/values/') && (!opts || opts.method === 'GET' || !opts.method)) {
-    // ensureHeaders check — return empty sheet (no headers yet)
     return { ok: true, json: async () => ({ values: [] }) };
   }
   if (url.includes(':append')) {
@@ -230,10 +342,6 @@ globalThis.fetch = async (url, opts) => {
 };
 
 calls.length = 0;
-const fakeServiceAccount = {
-  client_email: 'test@project.iam.gserviceaccount.com',
-  private_key: '-----BEGIN RSA PRIVATE KEY-----\nMIIEow...\n-----END RSA PRIVATE KEY-----',
-};
 
 let appendError = null;
 try {
@@ -246,8 +354,6 @@ try {
   appendError = e;
 }
 
-// We expect either success (if Bun can handle the fake key) or a crypto error (not an API error)
-// The important thing is the right API endpoints were called in the right order
 const tokenCall  = calls.find(c => c.url.includes('oauth2.googleapis.com'));
 const readCall   = calls.find(c => c.url.includes('/values/') && c.method === 'GET');
 const appendCall = calls.find(c => c.url.includes(':append'));
@@ -258,8 +364,7 @@ if (!appendError) {
   assert('append endpoint called', !!appendCall);
   assert('append body contains row data', appendCall?.body?.includes('126803405'));
 } else {
-  // Fake RSA key causes crypto error — verify it's crypto not an API logic error
-  assert('only error is from crypto (fake key)', appendError.message.includes('key') || appendError.message.includes('PEM') || appendError.message.includes('sign') || appendError.message.includes('RSA'));
+  assert('only error is from crypto (fake key)', isCryptoError(appendError));
   console.log(`  (crypto error with fake key is expected: ${appendError.message.slice(0, 60)})`);
 }
 

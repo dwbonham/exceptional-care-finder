@@ -36,9 +36,6 @@ export default function ProgramCard({ program }: Props) {
           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-blue-100 text-blue-700">
             {facilityDetails.decryptedProgramType}
           </span>
-<span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-300 text-slate-600 bg-white">
-            Service Code: {fundingMechanics.authorizedServiceCodes.join(', ')}
-          </span>
           {facilityDetails.licensedCapacity && (
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-200 text-slate-500 bg-slate-50">
               Licensed Capacity: {facilityDetails.licensedCapacity}
@@ -91,10 +88,6 @@ export default function ProgramCard({ program }: Props) {
                 {agency}
               </span>
             ))}
-            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
-              <span className="font-semibold text-slate-700">Billing Code:</span>
-              {fundingMechanics.authorizedServiceCodes.join(', ')}
-            </span>
             <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-emerald-50 border border-emerald-200 text-xs text-emerald-700">
               <span className="font-semibold">Required Doc:</span>
               {fundingMechanics.requiredFundingDocument}

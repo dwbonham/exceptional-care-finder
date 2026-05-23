@@ -35,7 +35,76 @@ export const HEADERS = [
   'Latitude', 'Longitude', 'Geocode Source', 'Import Notes', 'Review Notes',
 ];
 
+export const FUNDING_GUIDE_HEADERS = [
+  'State', 'Question', 'Answer', 'Source URL', 'Source Label',
+];
+
+export const REGIONAL_CENTER_HEADERS = [
+  'State', 'County', 'Name', 'Phone', 'Website', 'Notes',
+];
+
 // ─── Public API ───────────────────────────────────────────────────────────────
+
+/**
+ * Overwrite the Funding Guides tab with all FAQs from every state guide.
+ * Clears the tab first so stale rows never accumulate.
+ *
+ * @param {Array<{ state: string, faqs: Array<{ question, answer, sourceUrl?, sourceLabel? }> }>} guides
+ * @param {{ spreadsheetId: string, serviceAccount: object }} config
+ */
+export async function syncFundingGuides(guides, config) {
+  const { spreadsheetId, serviceAccount } = config;
+  const token = await _getAccessToken(serviceAccount);
+  const sheetName = 'Funding Guides';
+
+  await _ensureTab(spreadsheetId, sheetName, token);
+  await _clearSheet(spreadsheetId, sheetName, token);
+
+  const rows = [FUNDING_GUIDE_HEADERS];
+  for (const guide of guides) {
+    for (const faq of guide.faqs ?? []) {
+      rows.push([
+        guide.state ?? '',
+        faq.question ?? '',
+        faq.answer ?? '',
+        faq.sourceUrl ?? '',
+        faq.sourceLabel ?? '',
+      ]);
+    }
+  }
+  return _appendRows(spreadsheetId, sheetName, rows, token);
+}
+
+/**
+ * Overwrite the Regional Centers tab with all agency contacts from every state guide.
+ * Clears the tab first so stale rows never accumulate.
+ *
+ * @param {Array<{ state: string, localAgencies: Array<{ county?, name, phone, websiteUrl, note? }> }>} guides
+ * @param {{ spreadsheetId: string, serviceAccount: object }} config
+ */
+export async function syncRegionalCenters(guides, config) {
+  const { spreadsheetId, serviceAccount } = config;
+  const token = await _getAccessToken(serviceAccount);
+  const sheetName = 'Regional Centers';
+
+  await _ensureTab(spreadsheetId, sheetName, token);
+  await _clearSheet(spreadsheetId, sheetName, token);
+
+  const rows = [REGIONAL_CENTER_HEADERS];
+  for (const guide of guides) {
+    for (const agency of guide.localAgencies ?? []) {
+      rows.push([
+        guide.state ?? '',
+        agency.county ?? '',
+        agency.name ?? '',
+        agency.phone ?? '',
+        agency.websiteUrl ?? '',
+        agency.note ?? '',
+      ]);
+    }
+  }
+  return _appendRows(spreadsheetId, sheetName, rows, token);
+}
 
 /**
  * Append a program row to the Google Sheet (all programs, not just needs-review).
@@ -184,6 +253,21 @@ async function _ensureTab(spreadsheetId, sheetName, token) {
       throw new Error(`Failed to create sheet tab "${sheetName}": ${msg}`);
     }
     // Tab already exists — that's fine
+  }
+}
+
+async function _clearSheet(spreadsheetId, sheetName, token) {
+  const range = encodeURIComponent(`${sheetName}!A:ZZ`);
+  const res = await fetch(
+    `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}:clear`,
+    {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    }
+  );
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Sheets clear failed: HTTP ${res.status}\n${text}`);
   }
 }
 

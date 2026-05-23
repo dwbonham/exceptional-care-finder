@@ -13,7 +13,7 @@
 // The script is idempotent: re-run after a rate-limit pause and it resumes
 // from where it left off. Monday cron starts the run; Tue–Fri crons resume it.
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 import {
@@ -25,7 +25,7 @@ import { fetchAdultDayPrograms, diffWithCheckpoint } from './ingest-ccld.js';
 import { enrichProgram, RateLimitError } from './enrich-gemini.js';
 import { resolveCoordinates, GeocodingError } from './geocode.js';
 import { evaluate, DECISION } from './quality-gate.js';
-import { appendProgramRow } from './sheets-writer.js';
+import { appendProgramRow, syncFundingGuides, syncRegionalCenters } from './sheets-writer.js';
 
 const ROOT = join(import.meta.dir, '..', '..');
 const PROGRAM_DATA = join(ROOT, 'program-data');
@@ -58,6 +58,16 @@ if (state.currentRunId && !hasPendingWork(state)) {
 
 // ── Phase 1: CCLD ingest + diff ──────────────────────────────────────────────
 if (!state.currentRunId) {
+  // Sync funding guide FAQs and RC contacts to Google Sheets on each Monday run
+  const sheetsBase = { spreadsheetId: cfg.sheetId, serviceAccount: cfg.serviceAccount };
+  const fundingGuides = _loadAllFundingGuides();
+  if (fundingGuides.length > 0) {
+    console.log(`Syncing ${fundingGuides.length} state funding guide(s) to Sheets…`);
+    await syncFundingGuides(fundingGuides, sheetsBase);
+    await syncRegionalCenters(fundingGuides, sheetsBase);
+    console.log('  Funding Guides and Regional Centers tabs updated.');
+  }
+
   console.log('Fetching CCLD Adult Day Program records…');
   const ccldRecords = await fetchAdultDayPrograms();
   console.log(`  ${ccldRecords.length} total programs in CCLD`);
@@ -206,6 +216,23 @@ console.log(JSON.stringify(summary(state), null, 2));
 if (summary(state)[STATUS.APPROVED] > 0) {
   console.log('\nNext step: commit program-data/ changes and open a PR for review.');
   console.log('  git add program-data/ && git commit -m "pipeline: add new programs" && git push');
+}
+
+// ─── Helper: load all state funding guides from program-data/ ─────────────────
+
+function _loadAllFundingGuides() {
+  const guides = [];
+  try {
+    for (const stateDir of readdirSync(PROGRAM_DATA)) {
+      const guideFile = join(PROGRAM_DATA, stateDir, 'funding-guide.json');
+      if (existsSync(guideFile)) {
+        guides.push(JSON.parse(readFileSync(guideFile, 'utf8')));
+      }
+    }
+  } catch {
+    // PROGRAM_DATA doesn't exist yet — no guides to sync
+  }
+  return guides;
 }
 
 // ─── Helper: write approved program to county JSON file ──────────────────────

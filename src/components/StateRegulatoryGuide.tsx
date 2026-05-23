@@ -90,40 +90,6 @@ export default function StateRegulatoryGuide({ selectedState, selectedCounty }: 
                   </a>
                 )}
 
-                {/* "How to Start" — show matched local agency contact */}
-                {faq.question === 'How to Start' && guide.localAgencies.length > 0 && (
-                  <div className="space-y-3">
-                    {guide.localAgencies.map((agency, j) => (
-                      <div key={j} className="rounded-xl border border-blue-100 bg-blue-50 p-4 space-y-2">
-                        <p className="text-xs font-semibold text-blue-700 uppercase tracking-widest">
-                          Your Local Regional Center
-                          {agency.county ? ` · ${agency.county} County` : ''}
-                        </p>
-                        <p className="text-sm font-bold text-slate-800">{agency.name}</p>
-                        {agency.note && (
-                          <p className="text-xs text-slate-500">{agency.note}</p>
-                        )}
-                        <div className="flex flex-col gap-1.5 pt-1">
-                          <a
-                            href={`tel:${agency.phone.replace(/\D/g, '')}`}
-                            className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-800 hover:underline"
-                          >
-                            <span>📞</span> {agency.phone}
-                          </a>
-                          <a
-                            href={agency.websiteUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-800 hover:underline"
-                          >
-                            <span>🌐</span> Visit Website
-                            <span className="text-xs opacity-60">↗</span>
-                          </a>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
               </div>
             )}
           </div>

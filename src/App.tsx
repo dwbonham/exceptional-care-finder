@@ -4,6 +4,7 @@ import LocationFilter from './components/LocationFilter';
 import ProgramMap from './components/ProgramMap';
 import ProgramGrid from './components/ProgramGrid';
 import StateRegulatoryGuide from './components/StateRegulatoryGuide';
+import RegionalCenterBanner from './components/RegionalCenterBanner';
 import { allPrograms } from './data/programs';
 import { extractStateMap, extractCareTypes, filterPrograms } from './utils/programUtils';
 import './index.css';
@@ -39,6 +40,11 @@ export default function App() {
         <div className="mb-8">
           <ProgramMap programs={filtered} />
         </div>
+
+        <RegionalCenterBanner
+          selectedState={selectedState}
+          selectedCounty={selectedCounty}
+        />
 
         <div className="flex flex-col lg:flex-row gap-8">
           <aside className="lg:w-80 xl:w-96 shrink-0">
