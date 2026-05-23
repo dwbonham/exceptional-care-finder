@@ -1,0 +1,237 @@
+[
+  {
+    "legalLicenseName": "AMFC DAY PROGRAM INC",
+    "streetName": "AMFC DAY PROGRAM INC",
+    "ccldLicenseNumber": "157209310",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7825 California Blvd",
+      "city": "California Ci",
+      "state": "CA",
+      "zipCode": "93505",
+      "county": "Kern County",
+      "coordinates": {
+        "lat": 35.12601404,
+        "lng": -117.9884595
+      }
+    },
+    "contact": {
+      "phone": "(661) 717-7628",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ASHRAM  INC",
+    "streetName": "ASHRAM  INC",
+    "ccldLicenseNumber": "157209380",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7500 District Blvd",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93313",
+      "county": "Kern County",
+      "coordinates": {
+        "lat": 35.31317748,
+        "lng": -119.08539
+      }
+    },
+    "contact": {
+      "phone": "(661) 282-8428",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 210,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "TRANSITION TRAINING PROGRAM  LLC",
+    "streetName": "TRANSITION TRAINING PROGRAM  LLC",
+    "ccldLicenseNumber": "157209382",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3940 San Dimas",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93301",
+      "county": "Kern County",
+      "coordinates": {
+        "lat": 35.3867536,
+        "lng": -119.0086676
+      }
+    },
+    "contact": {
+      "phone": "(661) 599-2882",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ALBRAY MAXWELL",
+    "streetName": "ALBRAY MAXWELL",
+    "ccldLicenseNumber": "157209423",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "325 19th St",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93301",
+      "county": "Kern County",
+      "coordinates": {
+        "lat": 35.3761655,
+        "lng": -119.0056365
+      }
+    },
+    "contact": {
+      "phone": "(661) 342-1914",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AMFC DAY PROGRAM II",
+    "streetName": "AMFC DAY PROGRAM II",
+    "ccldLicenseNumber": "157209613",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "917 W Inyokern Rd Ste A  B",
+      "city": "Ridgecrest",
+      "state": "CA",
+      "zipCode": "93555",
+      "county": "Kern County",
+      "coordinates": {
+        "lat": 35.65168239,
+        "lng": -117.6886957
+      }
+    },
+    "contact": {
+      "phone": "(661) 717-7628",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

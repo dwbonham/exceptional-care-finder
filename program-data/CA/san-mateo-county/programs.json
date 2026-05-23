@@ -1,0 +1,190 @@
+[
+  {
+    "legalLicenseName": "STELLA DAY PROGRAM - SAN MATEO LLC",
+    "streetName": "STELLA DAY PROGRAM - SAN MATEO LLC",
+    "ccldLicenseNumber": "415601155",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "120 W Harris Ave",
+      "city": "South San Fra",
+      "state": "CA",
+      "zipCode": "94080",
+      "county": "San Mateo County",
+      "coordinates": {
+        "lat": 37.6503503,
+        "lng": -122.4031735
+      }
+    },
+    "contact": {
+      "phone": "(408) 644-5613",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "J AND J DAY PROGRAM  INC",
+    "streetName": "J AND J DAY PROGRAM  INC",
+    "ccldLicenseNumber": "415601158",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "191 West 25th Avenue",
+      "city": "San Mateo",
+      "state": "CA",
+      "zipCode": "94403",
+      "county": "San Mateo County",
+      "coordinates": {
+        "lat": 37.5431627,
+        "lng": -122.3107448
+      }
+    },
+    "contact": {
+      "phone": "(650) 296-5844",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 32,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES INC (SSF)",
+    "streetName": "SOCIAL VOCATIONAL SERVICES INC (SSF)",
+    "ccldLicenseNumber": "415601162",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "192 Beacon Street",
+      "city": "South San Fra",
+      "state": "CA",
+      "zipCode": "94080",
+      "county": "San Mateo County",
+      "coordinates": {
+        "lat": 37.63966055,
+        "lng": -122.4022905
+      }
+    },
+    "contact": {
+      "phone": "(650) 877-7255",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY CONNECTIONS LEARNING CENTER",
+    "streetName": "COMMUNITY CONNECTIONS LEARNING CENTER",
+    "ccldLicenseNumber": "415601196",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1934 S El Camino Real",
+      "city": "San Mateo",
+      "state": "CA",
+      "zipCode": "94403",
+      "county": "San Mateo County",
+      "coordinates": {
+        "lat": 37.54910907,
+        "lng": -122.3108704
+      }
+    },
+    "contact": {
+      "phone": "(916) 743-9164",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

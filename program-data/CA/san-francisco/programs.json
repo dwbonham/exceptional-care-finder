@@ -1,0 +1,331 @@
+[
+  {
+    "legalLicenseName": "POMEROY RECREATION & REHABILITATION CEN",
+    "streetName": "POMEROY RECREATION & REHABILITATION CEN",
+    "ccldLicenseNumber": "380500542",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "207 Skyline Blvd",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94132",
+      "county": "San Francisco",
+      "coordinates": {
+        "lat": 37.73214,
+        "lng": -122.49829
+      }
+    },
+    "contact": {
+      "phone": "(415) 665-4100",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 250,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KIMOCHI HOME-DAY CARE",
+    "streetName": "KIMOCHI HOME-DAY CARE",
+    "ccldLicenseNumber": "380504138",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1531 Sutter Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94109",
+      "county": "San Francisco",
+      "coordinates": {
+        "lat": 37.787056,
+        "lng": -122.42559
+      }
+    },
+    "contact": {
+      "phone": "(415) 922-9972",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PROGRESS FOUNDATION-RYPINS DAY TREATMEN",
+    "streetName": "PROGRESS FOUNDATION-RYPINS DAY TREATMEN",
+    "ccldLicenseNumber": "380540091",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1405 Guerrero Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94110",
+      "county": "San Francisco",
+      "coordinates": {
+        "lat": 37.748238,
+        "lng": -122.42247
+      }
+    },
+    "contact": {
+      "phone": "(415) 821-0697",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 25,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CATHOLIC CHARITIES OF THE ARCHDIOCESE O",
+    "streetName": "CATHOLIC CHARITIES OF THE ARCHDIOCESE O",
+    "ccldLicenseNumber": "385600087",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "50 Broad",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94112",
+      "county": "San Francisco",
+      "coordinates": {
+        "lat": 37.71321,
+        "lng": -122.45476
+      }
+    },
+    "contact": {
+      "phone": "(415) 452-3500",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 35,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPPORTUNITY UNLIMITED II",
+    "streetName": "OPPORTUNITY UNLIMITED II",
+    "ccldLicenseNumber": "385600403",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "378 18th Avenue",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94121",
+      "county": "San Francisco",
+      "coordinates": {
+        "lat": 37.78097,
+        "lng": -122.47727
+      }
+    },
+    "contact": {
+      "phone": "(415) 387-8405",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 80,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "IRENE SWINDELL'S CENTER FOR ADULT DAY S",
+    "streetName": "IRENE SWINDELL'S CENTER FOR ADULT DAY S",
+    "ccldLicenseNumber": "385601060",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "386 Arguello Blvd",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94129",
+      "county": "San Francisco",
+      "coordinates": {
+        "lat": 37.784107,
+        "lng": -122.45906
+      }
+    },
+    "contact": {
+      "phone": "(415) 600-2691",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 82,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CREATIVITY EXPLORED II",
+    "streetName": "CREATIVITY EXPLORED II",
+    "ccldLicenseNumber": "385610006",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "One Arkansas Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94107",
+      "county": "San Francisco",
+      "coordinates": {
+        "lat": 37.76592598,
+        "lng": -122.398404
+      }
+    },
+    "contact": {
+      "phone": "(415) 863-2108",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "legalLicenseName": "NAPA VALLEY SUPPORT SERVICES - NAPA",
+    "streetName": "NAPA VALLEY SUPPORT SERVICES - NAPA",
+    "ccldLicenseNumber": "280109485",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "622 Imperial Way",
+      "city": "Napa",
+      "state": "CA",
+      "zipCode": "94558",
+      "county": "Napa",
+      "coordinates": {
+        "lat": 38.30688,
+        "lng": -122.2829
+      }
+    },
+    "contact": {
+      "phone": "(707) 253-0400",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 121,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NAPA VALLEY SUPPORT SERVICES - BROWN ST",
+    "streetName": "NAPA VALLEY SUPPORT SERVICES - BROWN ST",
+    "ccldLicenseNumber": "286801359",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2225 Brown St.  Ste. 102",
+      "city": "Napa",
+      "state": "CA",
+      "zipCode": "94558",
+      "county": "Napa",
+      "coordinates": {
+        "lat": 38.30909,
+        "lng": -122.29467
+      }
+    },
+    "contact": {
+      "phone": "(707) 255-8523",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNITED CEREBRAL PALSY OF THE NORTH BAY",
+    "streetName": "UNITED CEREBRAL PALSY OF THE NORTH BAY",
+    "ccldLicenseNumber": "286803252",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "500 Technology Way",
+      "city": "Napa",
+      "state": "CA",
+      "zipCode": "94558",
+      "county": "Napa",
+      "coordinates": {
+        "lat": 38.224358,
+        "lng": -122.271324
+      }
+    },
+    "contact": {
+      "phone": "(707) 603-0010",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 180,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "A BRIGHT FUTURE ACADEMY",
+    "streetName": "A BRIGHT FUTURE ACADEMY",
+    "ccldLicenseNumber": "286803618",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3419 Broadway Street H 4-5-",
+      "city": "American Cany",
+      "state": "CA",
+      "zipCode": "94503",
+      "county": "Napa",
+      "coordinates": {
+        "lat": 38.17014,
+        "lng": -122.25332
+      }
+    },
+    "contact": {
+      "phone": "(510) 692-1804",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

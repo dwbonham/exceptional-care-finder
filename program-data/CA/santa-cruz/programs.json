@@ -1,0 +1,331 @@
+[
+  {
+    "legalLicenseName": "PAJARO VALLEY TRAINING CENTER",
+    "streetName": "PAJARO VALLEY TRAINING CENTER",
+    "ccldLicenseNumber": "445201410",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "14 Carr Street",
+      "city": "Watsonville",
+      "state": "CA",
+      "zipCode": "95076",
+      "county": "Santa Cruz",
+      "coordinates": {
+        "lat": 36.91268,
+        "lng": -121.75512
+      }
+    },
+    "contact": {
+      "phone": "(831) 761-8628",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 49,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "APTOS SENIOR ACTIVITY CENTER",
+    "streetName": "APTOS SENIOR ACTIVITY CENTER",
+    "ccldLicenseNumber": "445201411",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8056 Valencia St.",
+      "city": "Aptos",
+      "state": "CA",
+      "zipCode": "95003",
+      "county": "Santa Cruz",
+      "coordinates": {
+        "lat": 36.97727,
+        "lng": -121.89909
+      }
+    },
+    "contact": {
+      "phone": "(831) 662-8708",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 42,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MAINSTREAM ART PROGRAM",
+    "streetName": "MAINSTREAM ART PROGRAM",
+    "ccldLicenseNumber": "445202075",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1725 Seabright Ave. #A",
+      "city": "Santa Cruz",
+      "state": "CA",
+      "zipCode": "95062",
+      "county": "Santa Cruz",
+      "coordinates": {
+        "lat": 36.980225,
+        "lng": -122.01071
+      }
+    },
+    "contact": {
+      "phone": "(831) 427-1878",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 36,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BAYSIDE ADULT DAY ACTIVITY PROGRAM",
+    "streetName": "BAYSIDE ADULT DAY ACTIVITY PROGRAM",
+    "ccldLicenseNumber": "445202097",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2301 17th Ave.",
+      "city": "Santa Cruz",
+      "state": "CA",
+      "zipCode": "95062",
+      "county": "Santa Cruz",
+      "coordinates": {
+        "lat": 36.983334,
+        "lng": -121.9819
+      }
+    },
+    "contact": {
+      "phone": "(831) 475-0888",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BRIGHTPATH COMMUNITY CENTER",
+    "streetName": "BRIGHTPATH COMMUNITY CENTER",
+    "ccldLicenseNumber": "445202354",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "720 Capitola Avenue  Suite",
+      "city": "Capitola",
+      "state": "CA",
+      "zipCode": "95010",
+      "county": "Santa Cruz",
+      "coordinates": {
+        "lat": 36.979942,
+        "lng": -121.95284
+      }
+    },
+    "contact": {
+      "phone": "(831) 476-1465",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS WATSONVILLE ADULT DAY PROGRAM",
+    "streetName": "SVS WATSONVILLE ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "445202381",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1875 Main Street",
+      "city": "Watsonville",
+      "state": "CA",
+      "zipCode": "95076",
+      "county": "Santa Cruz",
+      "coordinates": {
+        "lat": 36.91724198,
+        "lng": -121.781252
+      }
+    },
+    "contact": {
+      "phone": "(831) 707-2280",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NEW PERSPECTIVES INC",
+    "streetName": "NEW PERSPECTIVES INC",
+    "ccldLicenseNumber": "445202618",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "100 Westridge Dr",
+      "city": "Watsonville",
+      "state": "CA",
+      "zipCode": "95076",
+      "county": "Santa Cruz",
+      "coordinates": {
+        "lat": 36.914234,
+        "lng": -121.78418
+      }
+    },
+    "contact": {
+      "phone": "(916) 203-6246",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

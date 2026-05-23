@@ -1,0 +1,472 @@
+[
+  {
+    "legalLicenseName": "HOWARD TRAINING CENTER",
+    "streetName": "HOWARD TRAINING CENTER",
+    "ccldLicenseNumber": "500300344",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1424 Stonum Road",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95351",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.61187,
+        "lng": -120.96159
+      }
+    },
+    "contact": {
+      "phone": "(209) 538-4000",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 320,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY CONTINUUM COLLEGE",
+    "streetName": "COMMUNITY CONTINUUM COLLEGE",
+    "ccldLicenseNumber": "500305115",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1731 Colorado",
+      "city": "Turlock",
+      "state": "CA",
+      "zipCode": "95380",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.50873998,
+        "lng": -120.835985
+      }
+    },
+    "contact": {
+      "phone": "(209) 632-2406",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 110,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOCATIONAL COACHING AND DEVELOPMENT INS",
+    "streetName": "VOCATIONAL COACHING AND DEVELOPMENT INS",
+    "ccldLicenseNumber": "502700078",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1125 I Street",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95354",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.640476,
+        "lng": -120.997925
+      }
+    },
+    "contact": {
+      "phone": "(209) 342-6707",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 70,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EL RIO ADULT DAY CARE",
+    "streetName": "EL RIO ADULT DAY CARE",
+    "ccldLicenseNumber": "502700308",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2828 Healthcare Way",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95356",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.70857499,
+        "lng": -121.046098
+      }
+    },
+    "contact": {
+      "phone": "(209) 543-3805",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 15,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AIM HIGHER  INC.",
+    "streetName": "AIM HIGHER  INC.",
+    "ccldLicenseNumber": "502701065",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "318 Mchenry Ave",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95354",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.64897643,
+        "lng": -120.9937332
+      }
+    },
+    "contact": {
+      "phone": "(916) 835-2933",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 80,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTRAL VALLEY ADULT CARE  LLC",
+    "streetName": "CENTRAL VALLEY ADULT CARE  LLC",
+    "ccldLicenseNumber": "502701149",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1208 Floyd Ave Bldg A",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95350",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.678015,
+        "lng": -120.977644
+      }
+    },
+    "contact": {
+      "phone": "(847) 708-5180",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER  INC.",
+    "streetName": "CENTRAL VALLEY TRAINING CENTER  INC.",
+    "ccldLicenseNumber": "507001405",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1405 Kansas Avenue  Suite C",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95351",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.646008,
+        "lng": -121.02836
+      }
+    },
+    "contact": {
+      "phone": "(209) 522-0332",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 126,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPEN DOOR SERVICES  INC.",
+    "streetName": "OPEN DOOR SERVICES  INC.",
+    "ccldLicenseNumber": "507005317",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "730 Mchenry Ave",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95350",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.653923,
+        "lng": -120.99379
+      }
+    },
+    "contact": {
+      "phone": "(209) 576-1918",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES MODESTO",
+    "streetName": "COLE VOCATIONAL SERVICES MODESTO",
+    "ccldLicenseNumber": "507005586",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "544 Lyell Dr",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95356",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.702904,
+        "lng": -121.00029
+      }
+    },
+    "contact": {
+      "phone": "(209) 575-3100",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNITED CEREBRAL PALSY OF STANISLAUS",
+    "streetName": "UNITED CEREBRAL PALSY OF STANISLAUS",
+    "ccldLicenseNumber": "507203048",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4265 Spyres Way  Suite #2",
+      "city": "Modesto",
+      "state": "CA",
+      "zipCode": "95356",
+      "county": "Stanislaus",
+      "coordinates": {
+        "lat": 37.70164,
+        "lng": -121.00055
+      }
+    },
+    "contact": {
+      "phone": "(209) 577-2122",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

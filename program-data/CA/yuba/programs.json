@@ -1,0 +1,190 @@
+[
+  {
+    "legalLicenseName": "COMMUNITY RESOURCE SERVICES #2",
+    "streetName": "COMMUNITY RESOURCE SERVICES #2",
+    "ccldLicenseNumber": "581370663",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "730 I Street",
+      "city": "Marysville",
+      "state": "CA",
+      "zipCode": "95901",
+      "county": "Yuba",
+      "coordinates": {
+        "lat": 39.14231,
+        "lng": -121.59694
+      }
+    },
+    "contact": {
+      "phone": "(530) 742-1014",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 23,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY RESOURCE SERVICES #3",
+    "streetName": "COMMUNITY RESOURCE SERVICES #3",
+    "ccldLicenseNumber": "581370929",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1020 F Street",
+      "city": "Marysville",
+      "state": "CA",
+      "zipCode": "95901",
+      "county": "Yuba",
+      "coordinates": {
+        "lat": 39.145985,
+        "lng": -121.59293
+      }
+    },
+    "contact": {
+      "phone": "(530) 742-0420",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 26,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY RESOURCE SERVICES #4",
+    "streetName": "COMMUNITY RESOURCE SERVICES #4",
+    "ccldLicenseNumber": "581372346",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "814 6th Street",
+      "city": "Marysville",
+      "state": "CA",
+      "zipCode": "95901",
+      "county": "Yuba",
+      "coordinates": {
+        "lat": 39.140903,
+        "lng": -121.59584
+      }
+    },
+    "contact": {
+      "phone": "(530) 742-7610",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 15,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY RESOURCE SERVICES #6",
+    "streetName": "COMMUNITY RESOURCE SERVICES #6",
+    "ccldLicenseNumber": "581374809",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "915 H Street",
+      "city": "Marysville",
+      "state": "CA",
+      "zipCode": "95901",
+      "county": "Yuba",
+      "coordinates": {
+        "lat": 39.144493,
+        "lng": -121.595726
+      }
+    },
+    "contact": {
+      "phone": "(530) 742-0952",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

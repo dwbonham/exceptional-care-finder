@@ -1,0 +1,284 @@
+[
+  {
+    "legalLicenseName": "MOTHER LODE REHABILITATION",
+    "streetName": "MOTHER LODE REHABILITATION",
+    "ccldLicenseNumber": "90312052",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "399 Placerville Drive",
+      "city": "Placerville",
+      "state": "CA",
+      "zipCode": "95667",
+      "county": "El Dorado",
+      "coordinates": {
+        "lat": 38.73235,
+        "lng": -120.8324
+      }
+    },
+    "contact": {
+      "phone": "(530) 622-4848",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 250,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EL DORADO  SENIOR DAY CARE CENTER",
+    "streetName": "EL DORADO  SENIOR DAY CARE CENTER",
+    "ccldLicenseNumber": "90312340",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "935-A Spring Street",
+      "city": "Placerville",
+      "state": "CA",
+      "zipCode": "95667",
+      "county": "El Dorado",
+      "coordinates": {
+        "lat": 38.732265,
+        "lng": -120.801765
+      }
+    },
+    "contact": {
+      "phone": "(530) 621-6180",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EMPOWER ACADEMY",
+    "streetName": "EMPOWER ACADEMY",
+    "ccldLicenseNumber": "95920221",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "5003 Windplay Drive Suite 3",
+      "city": "El Dorado Hil",
+      "state": "CA",
+      "zipCode": "95762",
+      "county": "El Dorado",
+      "coordinates": {
+        "lat": 38.63751047,
+        "lng": -121.0711508
+      }
+    },
+    "contact": {
+      "phone": "(916) 835-2933",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DAYCATION FOR SENIORS EDH",
+    "streetName": "DAYCATION FOR SENIORS EDH",
+    "ccldLicenseNumber": "95920304",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3860 El Dorado Hills Blvd 5",
+      "city": "El Dorado Hil",
+      "state": "CA",
+      "zipCode": "95762",
+      "county": "El Dorado",
+      "coordinates": {
+        "lat": 38.65771748,
+        "lng": -121.0718649
+      }
+    },
+    "contact": {
+      "phone": "(916) 975-0611",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NEW WEST HAVEN II (ADC)",
+    "streetName": "NEW WEST HAVEN II (ADC)",
+    "ccldLicenseNumber": "97003240",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2551 Cameo Lane",
+      "city": "Cameron Park",
+      "state": "CA",
+      "zipCode": "95682",
+      "county": "El Dorado",
+      "coordinates": {
+        "lat": 38.658455,
+        "lng": -120.999916
+      }
+    },
+    "contact": {
+      "phone": "(888) 852-5930",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 28,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPPORTUNITY ACRES INC.",
+    "streetName": "OPPORTUNITY ACRES INC.",
+    "ccldLicenseNumber": "97005102",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7315 S. Shingle Road",
+      "city": "Shingle Sprin",
+      "state": "CA",
+      "zipCode": "95682",
+      "county": "El Dorado",
+      "coordinates": {
+        "lat": 38.564335,
+        "lng": -120.968864
+      }
+    },
+    "contact": {
+      "phone": "(530) 672-9462",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

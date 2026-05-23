@@ -1,0 +1,425 @@
+[
+  {
+    "legalLicenseName": "CEDARS TEXTILE ARTS CENTER",
+    "streetName": "CEDARS TEXTILE ARTS CENTER",
+    "ccldLicenseNumber": "210104528",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2470 5th Avenue",
+      "city": "San Rafael",
+      "state": "CA",
+      "zipCode": "94901",
+      "county": "Marin",
+      "coordinates": {
+        "lat": 37.986168,
+        "lng": -122.55428
+      }
+    },
+    "contact": {
+      "phone": "(415) 453-4240",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 110,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CH&S ENTERPRISE DAY SERVICE",
+    "streetName": "CH&S ENTERPRISE DAY SERVICE",
+    "ccldLicenseNumber": "216800673",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "405 Norman Drive",
+      "city": "Novato",
+      "state": "CA",
+      "zipCode": "94949",
+      "county": "Marin",
+      "coordinates": {
+        "lat": 38.068493,
+        "lng": -122.54228
+      }
+    },
+    "contact": {
+      "phone": "(415) 883-4048",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 38,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CEDARS COMMUNITY CHALLENGES",
+    "streetName": "CEDARS COMMUNITY CHALLENGES",
+    "ccldLicenseNumber": "216801258",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "72 Kensington Rd.",
+      "city": "San Anselmo",
+      "state": "CA",
+      "zipCode": "94960",
+      "county": "Marin",
+      "coordinates": {
+        "lat": 37.970177,
+        "lng": -122.56683
+      }
+    },
+    "contact": {
+      "phone": "(415) 258-2859",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CEDARS COMMUNITY CHALLENGES-VICTORY CEN",
+    "streetName": "CEDARS COMMUNITY CHALLENGES-VICTORY CEN",
+    "ccldLicenseNumber": "216801623",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2 Kensington Rd.",
+      "city": "San Anselmo",
+      "state": "CA",
+      "zipCode": "94960",
+      "county": "Marin",
+      "coordinates": {
+        "lat": 37.96786,
+        "lng": -122.56614
+      }
+    },
+    "contact": {
+      "phone": "(415) 453-7099",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 49,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CAREPLUS",
+    "streetName": "CAREPLUS",
+    "ccldLicenseNumber": "216803350",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4182-4184 Redwood Highway",
+      "city": "San Rafael",
+      "state": "CA",
+      "zipCode": "94903",
+      "county": "Marin",
+      "coordinates": {
+        "lat": 38.01069,
+        "lng": -122.54149
+      }
+    },
+    "contact": {
+      "phone": "(415) 225-6868",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 39,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CH&S LIFE COLLEGE",
+    "streetName": "CH&S LIFE COLLEGE",
+    "ccldLicenseNumber": "216803493",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "837 Sweetser Street",
+      "city": "Novato",
+      "state": "CA",
+      "zipCode": "94945",
+      "county": "Marin",
+      "coordinates": {
+        "lat": 38.108112,
+        "lng": -122.56706
+      }
+    },
+    "contact": {
+      "phone": "(415) 897-8676",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 18,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AUTISTRY STUDIOS",
+    "streetName": "AUTISTRY STUDIOS",
+    "ccldLicenseNumber": "216803659",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "448 Du Bois St",
+      "city": "San Rafael",
+      "state": "CA",
+      "zipCode": "94901",
+      "county": "Marin",
+      "coordinates": {
+        "lat": 37.96437,
+        "lng": -122.51744
+      }
+    },
+    "contact": {
+      "phone": "(415) 454-1037",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIGAYA DAY SERVICES",
+    "streetName": "LIGAYA DAY SERVICES",
+    "ccldLicenseNumber": "216803823",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "70 San Pablo Ave",
+      "city": "San Rafael",
+      "state": "CA",
+      "zipCode": "94903",
+      "county": "Marin",
+      "coordinates": {
+        "lat": 37.99638599,
+        "lng": -122.527778
+      }
+    },
+    "contact": {
+      "phone": "(415) 785-3996",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MARIN VENTURES",
+    "streetName": "MARIN VENTURES",
+    "ccldLicenseNumber": "216803883",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "10 Joseph Court",
+      "city": "San Rafael",
+      "state": "CA",
+      "zipCode": "94903",
+      "county": "Marin",
+      "coordinates": {
+        "lat": 38.01111249,
+        "lng": -122.540707
+      }
+    },
+    "contact": {
+      "phone": "(415) 472-4961",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

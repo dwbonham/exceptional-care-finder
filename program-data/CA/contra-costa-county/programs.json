@@ -1,0 +1,190 @@
+[
+  {
+    "legalLicenseName": "CATALYST CARES ADULT DAY PROGRAM",
+    "streetName": "CATALYST CARES ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "79201349",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3905 San Pablo Dam Road",
+      "city": "El Sobrante",
+      "state": "CA",
+      "zipCode": "94803",
+      "county": "Contra Costa County",
+      "coordinates": {
+        "lat": 37.96530903,
+        "lng": -122.3127566
+      }
+    },
+    "contact": {
+      "phone": "(510) 390-5538",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "A STEP ABOVE  LLC",
+    "streetName": "A STEP ABOVE  LLC",
+    "ccldLicenseNumber": "79201397",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "161 Sand Creek Road #C",
+      "city": "Brentwood",
+      "state": "CA",
+      "zipCode": "94513",
+      "county": "Contra Costa County",
+      "coordinates": {
+        "lat": 37.94676473,
+        "lng": -121.698807
+      }
+    },
+    "contact": {
+      "phone": "(925) 481-2189",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 70,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPEN HOUSE CENTER",
+    "streetName": "OPEN HOUSE CENTER",
+    "ccldLicenseNumber": "79201463",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2440 Stanwell Drive",
+      "city": "Concord",
+      "state": "CA",
+      "zipCode": "94520",
+      "county": "Contra Costa County",
+      "coordinates": {
+        "lat": 37.98394563,
+        "lng": -122.0485038
+      }
+    },
+    "contact": {
+      "phone": "(925) 349-4244",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 108,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FUTURES EXPLORED",
+    "streetName": "FUTURES EXPLORED",
+    "ccldLicenseNumber": "79201571",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2150 John Glenn Drive Ste 3",
+      "city": "Concord",
+      "state": "CA",
+      "zipCode": "94520",
+      "county": "Contra Costa County",
+      "coordinates": {
+        "lat": 37.97831329,
+        "lng": -122.0542551
+      }
+    },
+    "contact": {
+      "phone": "(925) 413-9837",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

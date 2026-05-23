@@ -1,883 +1,23 @@
 [
   {
-    "legalLicenseName": "California MENTOR - Corona",
-    "streetName": "First Step Independent Living",
-    "location": {
-      "street": "237 River Road",
-      "city": "Corona",
-      "state": "CA",
-      "zipCode": "92880",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.8786,
-        "lng": -117.5649
-      }
-    },
-    "contact": {
-      "phone": "(951) 371-5593",
-      "websiteUrl": "https://locations.sevitahealth.com/united-states/ca/corona/"
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Development Center",
-      "programFocus": "Helps individuals with disabilities build independent living, social, and job skills through community integration and supported work environments.",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "facilityFeatures": [
-        "Wheelchair Accessible"
-      ]
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
-      "coveringAgencies": [
-        "Inland Regional Center"
-      ],
-      "authorizedServiceCodes": [
-        "510"
-      ],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "Individual Program Plan (IPP)",
-      "financialCoverageNote": "Services are 100% state-funded for eligible clients whose IPP explicitly authorizes this placement. Transportation and ancillary services may require separate authorization from your Regional Center service coordinator."
-    },
-    "qualitativeInsights": {
-      "parentReviews": [
-        "Reviewers praise the highly structured environment and the variety of social, educational, and entertaining activities provided.",
-        "The location is noted for having a fully trained, professional staff that helps clients maintain their independence and high quality of life.",
-        "Because it operates under the large Sevita/MENTOR corporate umbrella, some families note that the intake and administrative paperwork can feel highly bureaucratic."
-      ]
-    }
-  },
-  {
-    "legalLicenseName": "Independent Options, Inc.",
-    "streetName": "Independent Options Adult Day Program",
-    "location": {
-      "street": "391 Corporate Terrace Circle",
-      "city": "Corona",
-      "state": "CA",
-      "zipCode": "92879",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.8812,
-        "lng": -117.5508
-      }
-    },
-    "contact": {
-      "phone": "(951) 280-9851",
-      "websiteUrl": "https://www.independentoptions.org/"
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Behavior Management Program",
-      "programFocus": "A site-based adult day program with a strong emphasis on behavior management, teaching social skills curriculums, and providing integration into supported work environments.",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "facilityFeatures": [
-        "Behavioral Support Spaces"
-      ]
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
-      "coveringAgencies": [
-        "Inland Regional Center"
-      ],
-      "authorizedServiceCodes": [
-        "515"
-      ],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "Individual Program Plan (IPP)",
-      "financialCoverageNote": "Behavioral support services under Service Code 515 require a behavior support plan approved by your Regional Center. Full cost coverage applies when the service is authorized in the client's IPP."
-    },
-    "qualitativeInsights": {
-      "parentReviews": [
-        "Client care is highly praised; reviewers note that the agency provides excellent, individualized care and that client needs are met in every area of their life.",
-        "The program is well-regarded for safely handling clients who require specialized behavioral management and structured routines.",
-        "Online employee reviews indicate high management turnover, which parents should note as it can occasionally impact daily staff consistency."
-      ]
-    }
-  },
-  {
-    "legalLicenseName": "Ability Counts, Inc.",
-    "streetName": "Ability Counts",
-    "location": {
-      "street": "2600 South Main Street",
-      "city": "Corona",
-      "state": "CA",
-      "zipCode": "92882",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.853,
-        "lng": -117.5856
-      }
-    },
-    "contact": {
-      "phone": "(951) 734-6595",
-      "websiteUrl": "https://www.abilitycounts.org/"
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Development Center (Vocational)",
-      "programFocus": "Provides vocational resources and training for adults with developmental disabilities, focusing heavily on supervised work skills and local job placement.",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English",
-        "Spanish"
-      ],
-      "facilityFeatures": [
-        "Vocational Workshop"
-      ]
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
-      "coveringAgencies": [
-        "Inland Regional Center"
-      ],
-      "authorizedServiceCodes": [
-        "510"
-      ],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "Individual Program Plan (IPP)",
-      "financialCoverageNote": "Vocational day program services are fully state-funded via DDS when listed in the client's IPP. Supported employment job coaching may be billed separately under an additional authorization code."
-    },
-    "qualitativeInsights": {
-      "parentReviews": [
-        "Highly rated for its direct focus on vocational training; reviewers appreciate that clients are integrated into actual work environments (like warehouse tasks and fulfillment).",
-        "The program maintains strong corporate partnerships (e.g., e.l.f. beauty, GEODIS) to provide real-world, supervised employment opportunities.",
-        "Because the focus is heavily on repetitive, routine tasks for vocational training, it is best suited for individuals specifically looking for employment skills rather than purely social recreation."
-      ]
-    }
-  },
-  {
-    "legalLicenseName": "Easterseals Southern California",
-    "streetName": "Easterseals Adult Day Services",
-    "location": {
-      "street": "1737 Atlanta Avenue, Unit H9",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92507",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.9534,
-        "lng": -117.394
-      }
-    },
-    "contact": {
-      "phone": "(951) 248-4873",
-      "websiteUrl": "https://www.easterseals.com/southerncal/"
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Development Center",
-      "programFocus": "Provides comprehensive day services aimed at promoting independence, community involvement, and life skills development for adults with intellectual and developmental disabilities.",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "facilityFeatures": [
-        "Wheelchair Accessible",
-        "On-site Therapies"
-      ]
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "Regional Center / Dept. of Developmental Services (DDS)",
-      "coveringAgencies": [
-        "Inland Regional Center"
-      ],
-      "authorizedServiceCodes": [
-        "510"
-      ],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "Individual Program Plan (IPP)",
-      "financialCoverageNote": "As a certified DDS vendor, all core day services are fully state-funded when the program is written into the client's IPP. Wrap-around therapies (speech, OT, PT) offered on-site may be covered separately through Medi-Cal or private insurance."
-    },
-    "qualitativeInsights": {
-      "parentReviews": [
-        "Families feel highly secure working with a massive, trusted national brand that utilizes standardized care protocols and safety measures.",
-        "The center is praised for offering a wide variety of wrap-around services beyond just day care, including speech and physical therapies.",
-        "Due to the massive scale of the organization, the environment can feel very clinical, but the staff is highly trained in managing transitions."
-      ]
-    }
-  },
-  {
-    "legalLicenseName": "PASS RESOURCE CENTER",
-    "streetName": "PASS RESOURCE CENTER",
-    "ccldLicenseNumber": "330902477",
+    "legalLicenseName": "LIVE OAK ADULT DAY SERVICES",
+    "streetName": "LIVE OAK ADULT DAY SERVICES",
+    "ccldLicenseNumber": "430703329",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "702 East 11th Street",
-      "city": "Beaumont",
+      "street": "111 Church Street  Rm. #7",
+      "city": "Los Gatos",
       "state": "CA",
-      "zipCode": "92223",
-      "county": "Riverside",
+      "zipCode": "95030",
+      "county": "Santa Clara",
       "coordinates": {
-        "lat": 33.93711,
-        "lng": -116.97245
+        "lat": 37.22169,
+        "lng": -121.97827
       }
     },
     "contact": {
-      "phone": "(951) 845-3385",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 80,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DESERT ARC",
-    "streetName": "DESERT ARC",
-    "ccldLicenseNumber": "330905206",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "73-255 Country Club Drive",
-      "city": "Palm Desert",
-      "state": "CA",
-      "zipCode": "92260",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.687515,
-        "lng": -116.40697
-      }
-    },
-    "contact": {
-      "phone": "(760) 346-1611",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 250,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNLIMITED QUEST INC - SUNNYMEAD",
-    "streetName": "UNLIMITED QUEST INC - SUNNYMEAD",
-    "ccldLicenseNumber": "331800090",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "14325 Frederick St",
-      "city": "Moreno Valley",
-      "state": "CA",
-      "zipCode": "92553",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.914192,
-        "lng": -117.26113
-      }
-    },
-    "contact": {
-      "phone": "(909) 483-2505",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "RIVERSIDE RESOURCE CENTER",
-    "streetName": "RIVERSIDE RESOURCE CENTER",
-    "ccldLicenseNumber": "331800128",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6377 Riverside Ave Suite 10",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92506",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.95171,
-        "lng": -117.38794
-      }
-    },
-    "contact": {
-      "phone": "(951) 788-0747",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "IN-ROADS DAY PROGRAM 4",
-    "streetName": "IN-ROADS DAY PROGRAM 4",
-    "ccldLicenseNumber": "331800158",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4120-4130-4140-4150 E. Flor",
-      "city": "Hemet",
-      "state": "CA",
-      "zipCode": "92545",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.731735,
-        "lng": -116.996415
-      }
-    },
-    "contact": {
-      "phone": "(909) 864-1551",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COMMUNITY CROSSINGS INC SAN JACINTO",
-    "streetName": "COMMUNITY CROSSINGS INC SAN JACINTO",
-    "ccldLicenseNumber": "331880492",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "641 N State Street #1",
-      "city": "San Jacinto",
-      "state": "CA",
-      "zipCode": "92583",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.78147,
-        "lng": -116.9719
-      }
-    },
-    "contact": {
-      "phone": "(951) 654-3052",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS MURRIETA CCES",
-    "streetName": "SVS MURRIETA CCES",
-    "ccldLicenseNumber": "331880913",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "39040 Sky Canyon Dr Suite 1",
-      "city": "Murrieta",
-      "state": "CA",
-      "zipCode": "92563",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.551415,
-        "lng": -117.137135
-      }
-    },
-    "contact": {
-      "phone": "(626) 304-1074",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SPOELSTRA LLC DBA VOICE BANNING",
-    "streetName": "SPOELSTRA LLC DBA VOICE BANNING",
-    "ccldLicenseNumber": "331881190",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2985 W Lincoln St",
-      "city": "Banning",
-      "state": "CA",
-      "zipCode": "92220",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.92162,
-        "lng": -116.909576
-      }
-    },
-    "contact": {
-      "phone": "(909) 792-2428",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "INDEPENDENT OPTIONS  INC./ADVANCED OPTI",
-    "streetName": "INDEPENDENT OPTIONS  INC./ADVANCED OPTI",
-    "ccldLicenseNumber": "336400068",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2060 Chicago  Suite A-5",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92507",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.992985,
-        "lng": -117.34843
-      }
-    },
-    "contact": {
-      "phone": "(951) 222-2074",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 32,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNLIMITED QUEST INC II",
-    "streetName": "UNLIMITED QUEST INC II",
-    "ccldLicenseNumber": "336402681",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9758 Magnolia Ave #G/H/I",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92503",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.917583,
-        "lng": -117.45143
-      }
-    },
-    "contact": {
-      "phone": "(951) 689-8026",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNLIMITED QUEST INC EDGEMONT",
-    "streetName": "UNLIMITED QUEST INC EDGEMONT",
-    "ccldLicenseNumber": "336402685",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "23900 Allesandro Blvd Ste A",
-      "city": "Moreno Valley",
-      "state": "CA",
-      "zipCode": "92553",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.917282,
-        "lng": -117.245865
-      }
-    },
-    "contact": {
-      "phone": "(951) 653-0054",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VALLEY RESOURCE CENTER",
-    "streetName": "VALLEY RESOURCE CENTER",
-    "ccldLicenseNumber": "336406642",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1285 N. Santa Fe  Suite B",
-      "city": "Hemet",
-      "state": "CA",
-      "zipCode": "92543",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.768303,
-        "lng": -116.963135
-      }
-    },
-    "contact": {
-      "phone": "(951) 766-8659",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 35,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VALLEY RESOURCE CENTER",
-    "streetName": "VALLEY RESOURCE CENTER",
-    "ccldLicenseNumber": "336407918",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2050 Trumble Road",
-      "city": "Perris",
-      "state": "CA",
-      "zipCode": "92570",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.75555076,
-        "lng": -117.1847749
-      }
-    },
-    "contact": {
-      "phone": "(951) 657-0609",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES  RIVERSIDE",
-    "streetName": "SOCIAL VOCATIONAL SERVICES  RIVERSIDE",
-    "ccldLicenseNumber": "336408335",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1220 Palmyrita Avenue",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92507",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 34.00482,
-        "lng": -117.33816
-      }
-    },
-    "contact": {
-      "phone": "(951) 222-7088",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ON THE MOVE ADULT DEVELOPMENT CENTER",
-    "streetName": "ON THE MOVE ADULT DEVELOPMENT CENTER",
-    "ccldLicenseNumber": "336408337",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3351 Chicago Avenue",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92507",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.98186,
-        "lng": -117.348465
-      }
-    },
-    "contact": {
-      "phone": "(951) 779-9665",
+      "phone": "(408) 354-4782",
       "websiteUrl": ""
     },
     "facilityDetails": {
@@ -907,28 +47,28 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER SAN",
-    "streetName": "BASIC OCCUPATIONAL TRAINING CENTER SAN",
-    "ccldLicenseNumber": "336409381",
+    "legalLicenseName": "LEARNING SERVICES DAY TREATMENT ACTIVIT",
+    "streetName": "LEARNING SERVICES DAY TREATMENT ACTIVIT",
+    "ccldLicenseNumber": "430707540",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "1215 Buena Vista  Ste F G &",
-      "city": "San Jacinto",
+      "street": "10855 De Bruin Way",
+      "city": "Gilroy",
       "state": "CA",
-      "zipCode": "92583",
-      "county": "Riverside",
+      "zipCode": "95020",
+      "county": "Santa Clara",
       "coordinates": {
-        "lat": 33.775351,
-        "lng": -116.966582
+        "lat": 37.050964,
+        "lng": -121.60553
       }
     },
     "contact": {
-      "phone": "(951) 487-2725",
+      "phone": "(408) 848-4379",
       "websiteUrl": ""
     },
     "facilityDetails": {
-      "licensedCapacity": 75,
+      "licensedCapacity": 28,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -954,306 +94,24 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER  INC",
-    "streetName": "BASIC OCCUPATIONAL TRAINING CENTER  INC",
-    "ccldLicenseNumber": "336409382",
+    "legalLicenseName": "HOPE REHABILITATION SERVICES - PARKMOOR",
+    "streetName": "HOPE REHABILITATION SERVICES - PARKMOOR",
+    "ccldLicenseNumber": "430707808",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "1323 Jet Way",
-      "city": "Perris",
+      "street": "1555 Parkmoor Avenue",
+      "city": "San Jose",
       "state": "CA",
-      "zipCode": "92571",
-      "county": "Riverside",
+      "zipCode": "95128",
+      "county": "Santa Clara",
       "coordinates": {
-        "lat": 33.86407,
-        "lng": -117.256516
+        "lat": 37.31675,
+        "lng": -121.91654
       }
     },
     "contact": {
-      "phone": "(951) 657-8028",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ANGEL VIEW ADULT DAY CARE",
-    "streetName": "ANGEL VIEW ADULT DAY CARE",
-    "ccldLicenseNumber": "336413159",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "12379 Miracle Hill Road",
-      "city": "Desert Hot Sp",
-      "state": "CA",
-      "zipCode": "92240",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.95894,
-        "lng": -116.4838
-      }
-    },
-    "contact": {
-      "phone": "(760) 329-6471",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS-PALM SPRINGS ADULT DAY PROGRAM",
-    "streetName": "SVS-PALM SPRINGS ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "336423741",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "997 E. Tahquitz Canyon Way",
-      "city": "Palm Springs",
-      "state": "CA",
-      "zipCode": "92262",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.82314,
-        "lng": -116.53713
-      }
-    },
-    "contact": {
-      "phone": "(310) 944-3303",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "TOTAL EDUCATIONAL ACTIVITY MODEL CORP.",
-    "streetName": "TOTAL EDUCATIONAL ACTIVITY MODEL CORP.",
-    "ccldLicenseNumber": "336423930",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4076 Flatrock Drive",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92505",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.901917,
-        "lng": -117.49132
-      }
-    },
-    "contact": {
-      "phone": "(951) 688-8593",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 80,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "EASTER SEALS SOUTHERN CALIFORNIA RIVERS",
-    "streetName": "EASTER SEALS SOUTHERN CALIFORNIA RIVERS",
-    "ccldLicenseNumber": "336424421",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1737 Atlanta Avenue Suite H",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92507",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.995987,
-        "lng": -117.34418
-      }
-    },
-    "contact": {
-      "phone": "(951) 248-4873",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 48,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER",
-    "streetName": "BASIC OCCUPATIONAL TRAINING CENTER",
-    "ccldLicenseNumber": "336424627",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1121 Bradford Circle",
-      "city": "Corona",
-      "state": "CA",
-      "zipCode": "92882",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.88531,
-        "lng": -117.582245
-      }
-    },
-    "contact": {
-      "phone": "(951) 735-5084",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COMMUNITY CROSSINGS INC.",
-    "streetName": "COMMUNITY CROSSINGS INC.",
-    "ccldLicenseNumber": "336425334",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "27363 Jefferson Ave Ste. J",
-      "city": "Temecula",
-      "state": "CA",
-      "zipCode": "92590",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.521477,
-        "lng": -117.16558
-      }
-    },
-    "contact": {
-      "phone": "(909) 477-0179",
+      "phone": "(408) 282-0449",
       "websiteUrl": ""
     },
     "facilityDetails": {
@@ -1283,118 +141,24 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "KAISER ADULT BEHAVIORAL CENTER TEMECULA",
-    "streetName": "KAISER ADULT BEHAVIORAL CENTER TEMECULA",
-    "ccldLicenseNumber": "336425347",
+    "legalLicenseName": "YU-AI KAI SENIOR DAY SERVICES",
+    "streetName": "YU-AI KAI SENIOR DAY SERVICES",
+    "ccldLicenseNumber": "430707894",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "274 Commerce Center Dr Ste",
-      "city": "Temecula",
+      "street": "588 North Fourth Street",
+      "city": "San Jose",
       "state": "CA",
-      "zipCode": "92590",
-      "county": "Riverside",
+      "zipCode": "95112",
+      "county": "Santa Clara",
       "coordinates": {
-        "lat": 33.51330275,
-        "lng": -117.1620914
+        "lat": 37.3481,
+        "lng": -121.89517
       }
     },
     "contact": {
-      "phone": "(951) 225-2632",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SUPPORTING UNLIMITED POSSIBILITIES  INC",
-    "streetName": "SUPPORTING UNLIMITED POSSIBILITIES  INC",
-    "ccldLicenseNumber": "336425826",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "14137 Business Center Drive",
-      "city": "Moreno Valley",
-      "state": "CA",
-      "zipCode": "92553",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.91421,
-        "lng": -117.27143
-      }
-    },
-    "contact": {
-      "phone": "(951) 214-6833",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "GRACE ADULT DAY CARE",
-    "streetName": "GRACE ADULT DAY CARE",
-    "ccldLicenseNumber": "336426107",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "24318 Hemlock Avenue #F-1",
-      "city": "Moreno Valley",
-      "state": "CA",
-      "zipCode": "92557",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.941948,
-        "lng": -117.24043
-      }
-    },
-    "contact": {
-      "phone": "(951) 704-3741",
+      "phone": "(408) 294-2505",
       "websiteUrl": ""
     },
     "facilityDetails": {
@@ -1424,28 +188,28 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "FIRST STEP CORONA",
-    "streetName": "FIRST STEP CORONA",
-    "ccldLicenseNumber": "336426108",
+    "legalLicenseName": "LIVE OAK ADULT DAY SERVICES- WHEELER MA",
+    "streetName": "LIVE OAK ADULT DAY SERVICES- WHEELER MA",
+    "ccldLicenseNumber": "430707918",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "237 River Rd",
-      "city": "Corona",
+      "street": "651 West Sixth Street  Ste.",
+      "city": "Gilroy",
       "state": "CA",
-      "zipCode": "92880",
-      "county": "Riverside",
+      "zipCode": "95020",
+      "county": "Santa Clara",
       "coordinates": {
-        "lat": 33.89198,
-        "lng": -117.567924
+        "lat": 37.00461,
+        "lng": -121.57627
       }
     },
     "contact": {
-      "phone": "(951) 371-5593",
+      "phone": "(408) 354-4782",
       "websiteUrl": ""
     },
     "facilityDetails": {
-      "licensedCapacity": 75,
+      "licensedCapacity": 25,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -1471,24 +235,447 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER",
-    "streetName": "BASIC OCCUPATIONAL TRAINING CENTER",
-    "ccldLicenseNumber": "336426342",
+    "legalLicenseName": "SARATOGA ADULT CARE CENTER",
+    "streetName": "SARATOGA ADULT CARE CENTER",
+    "ccldLicenseNumber": "430708454",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "1044 E. La Cadena",
-      "city": "Riverside",
+      "street": "19655 Allendale Avenue",
+      "city": "Saratoga",
       "state": "CA",
-      "zipCode": "92507",
-      "county": "Riverside",
+      "zipCode": "95070",
+      "county": "Santa Clara",
       "coordinates": {
-        "lat": 34.00369202,
-        "lng": -117.349659
+        "lat": 37.2666,
+        "lng": -122.01615
       }
     },
     "contact": {
-      "phone": "(951) 788-2349",
+      "phone": "(408) 868-1262",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EMPLOY AMERICA",
+    "streetName": "EMPLOY AMERICA",
+    "ccldLicenseNumber": "435200391",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "124 Blossom Hill Rd  Ste. F",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95123",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.252583,
+        "lng": -121.806694
+      }
+    },
+    "contact": {
+      "phone": "(408) 574-3950",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIVE OAK ADULT DAY SERVICES",
+    "streetName": "LIVE OAK ADULT DAY SERVICES",
+    "ccldLicenseNumber": "435200743",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1147 Minnesota Ave.",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95125",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.302895,
+        "lng": -121.89886
+      }
+    },
+    "contact": {
+      "phone": "(408) 971-9363",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EVERGREEN ADULT DEVELOPMENT CENTER",
+    "streetName": "EVERGREEN ADULT DEVELOPMENT CENTER",
+    "ccldLicenseNumber": "435201385",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2887 Mclaughlin Avenue Bldg",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95121",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.304657,
+        "lng": -121.826355
+      }
+    },
+    "contact": {
+      "phone": "(408) 578-1280",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 216,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "W.A.T.C.INCORPORATED(WREN AVENUE TRAINI",
+    "streetName": "W.A.T.C.INCORPORATED(WREN AVENUE TRAINI",
+    "ccldLicenseNumber": "435201399",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7888 Wren Ave. Bldg A-111",
+      "city": "Gilroy",
+      "state": "CA",
+      "zipCode": "95020",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.011063,
+        "lng": -121.58702
+      }
+    },
+    "contact": {
+      "phone": "(408) 472-2059",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIVE OAK ADULT DAY SERVICES",
+    "streetName": "LIVE OAK ADULT DAY SERVICES",
+    "ccldLicenseNumber": "435201427",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "20920 Mcclellan Road",
+      "city": "Cupertino",
+      "state": "CA",
+      "zipCode": "95014",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.315575,
+        "lng": -122.04012
+      }
+    },
+    "contact": {
+      "phone": "(408) 973-0905",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES  INC.",
+    "streetName": "SOCIAL VOCATIONAL SERVICES  INC.",
+    "ccldLicenseNumber": "435201522",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "471 Gianni Street",
+      "city": "Santa Clara",
+      "state": "CA",
+      "zipCode": "95054",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.37948601,
+        "lng": -121.942069
+      }
+    },
+    "contact": {
+      "phone": "(408) 727-3370",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MMS BEHAVIORAL DAY PROGRAM  INC.",
+    "streetName": "MMS BEHAVIORAL DAY PROGRAM  INC.",
+    "ccldLicenseNumber": "435201773",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "18980 Monterey Road",
+      "city": "Morgan Hill",
+      "state": "CA",
+      "zipCode": "95037",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.1488979,
+        "lng": -121.6697156
+      }
+    },
+    "contact": {
+      "phone": "(408) 778-5600",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 81,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HOPE SERVICES-LAS COLINAS ADULT DAY PRO",
+    "streetName": "HOPE SERVICES-LAS COLINAS ADULT DAY PRO",
+    "ccldLicenseNumber": "435201933",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "30 Las Colinas Lane",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95119",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.23847,
+        "lng": -121.77729
+      }
+    },
+    "contact": {
+      "phone": "(408) 284-2850",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 55,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MULTIPLE INTELLIGENCE TRAINING CENTER",
+    "streetName": "MULTIPLE INTELLIGENCE TRAINING CENTER",
+    "ccldLicenseNumber": "435201947",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3737 Madeline Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95127",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.375725,
+        "lng": -121.82682
+      }
+    },
+    "contact": {
+      "phone": "(408) 254-9241",
       "websiteUrl": ""
     },
     "facilityDetails": {
@@ -1518,28 +705,28 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "IN-ROADS DAY PROGRAM #3",
-    "streetName": "IN-ROADS DAY PROGRAM #3",
-    "ccldLicenseNumber": "336426777",
+    "legalLicenseName": "HEARTS AND MINDS ACTIVITY CENTER",
+    "streetName": "HEARTS AND MINDS ACTIVITY CENTER",
+    "ccldLicenseNumber": "435202011",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "26900  04  08 Cherry Hills",
-      "city": "Menifee",
+      "street": "2380 Enborg Lane",
+      "city": "San Jose",
       "state": "CA",
-      "zipCode": "92586",
-      "county": "Riverside",
+      "zipCode": "95128",
+      "county": "Santa Clara",
       "coordinates": {
-        "lat": 33.71050353,
-        "lng": -117.1911532
+        "lat": 37.311024,
+        "lng": -121.93645
       }
     },
     "contact": {
-      "phone": "(951) 672-1800",
+      "phone": "(408) 279-7515",
       "websiteUrl": ""
     },
     "facilityDetails": {
-      "licensedCapacity": 45,
+      "licensedCapacity": 90,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -1565,28 +752,968 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "FAIRMOUNT RESOURCE CENTER-UP IN MOTION",
-    "streetName": "FAIRMOUNT RESOURCE CENTER-UP IN MOTION",
-    "ccldLicenseNumber": "336426847",
+    "legalLicenseName": "PIEDMONT ADULT DAY PROGRAM (PADPRO)",
+    "streetName": "PIEDMONT ADULT DAY PROGRAM (PADPRO)",
+    "ccldLicenseNumber": "435202031",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "2190 Market Street  Suite D",
-      "city": "Riverside",
+      "street": "1325-1333 Piedmont Rd #109-",
+      "city": "San Jose",
       "state": "CA",
-      "zipCode": "92501",
-      "county": "Riverside",
+      "zipCode": "95131",
+      "county": "Santa Clara",
       "coordinates": {
-        "lat": 33.998558,
-        "lng": -117.37265
+        "lat": 37.40080999,
+        "lng": -121.848708
       }
     },
     "contact": {
-      "phone": "(951) 367-0856",
+      "phone": "(408) 347-0402",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MISSION BAY  INC.",
+    "streetName": "MISSION BAY  INC.",
+    "ccldLicenseNumber": "435202154",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "980 Rincon Cir.",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95131",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.397476,
+        "lng": -121.90968
+      }
+    },
+    "contact": {
+      "phone": "(408) 433-3303",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 135,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CREATIVE MIND DAY PROGRAM",
+    "streetName": "CREATIVE MIND DAY PROGRAM",
+    "ccldLicenseNumber": "435202202",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7425 Eigleberry Street",
+      "city": "Gilroy",
+      "state": "CA",
+      "zipCode": "95020",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.0069,
+        "lng": -121.57012
+      }
+    },
+    "contact": {
+      "phone": "(408) 427-9260",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AIM HIGHER  INC.",
+    "streetName": "AIM HIGHER  INC.",
+    "ccldLicenseNumber": "435202216",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "90 Great Oaks Blvd.  Ste. #",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95119",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.233574,
+        "lng": -121.779236
+      }
+    },
+    "contact": {
+      "phone": "(408) 599-3155",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 80,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MISSION BAY LAS COLINAS",
+    "streetName": "MISSION BAY LAS COLINAS",
+    "ccldLicenseNumber": "435202261",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "50 Las Colinas Lane",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95119",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.23795,
+        "lng": -121.77777
+      }
+    },
+    "contact": {
+      "phone": "(408) 661-4883",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 177,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MOVING FORWARD",
+    "streetName": "MOVING FORWARD",
+    "ccldLicenseNumber": "435202274",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1840 Benton St.",
+      "city": "Santa Clara",
+      "state": "CA",
+      "zipCode": "95050",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.34732,
+        "lng": -121.954575
+      }
+    },
+    "contact": {
+      "phone": "(408) 607-7465",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "A & T TRAINING CENTER",
+    "streetName": "A & T TRAINING CENTER",
+    "ccldLicenseNumber": "435202286",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3269 Kifer Rd.",
+      "city": "Santa Clara",
+      "state": "CA",
+      "zipCode": "95051",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.374065,
+        "lng": -121.98685
+      }
+    },
+    "contact": {
+      "phone": "(408) 900-8940",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GREEN OAK DEVELOPMENTAL CENTER III",
+    "streetName": "GREEN OAK DEVELOPMENTAL CENTER III",
+    "ccldLicenseNumber": "435202315",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "645 Giguere Court",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95133",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.366524,
+        "lng": -121.86032
+      }
+    },
+    "contact": {
+      "phone": "(510) 676-4569",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS GILROY ADULT DAY PROGRAM",
+    "streetName": "SVS GILROY ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "435202331",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7101 Monterey Road",
+      "city": "Gilroy",
+      "state": "CA",
+      "zipCode": "95020",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.001915,
+        "lng": -121.56651
+      }
+    },
+    "contact": {
+      "phone": "(408) 843-9630",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AIM HIGHER INC.",
+    "streetName": "AIM HIGHER INC.",
+    "ccldLicenseNumber": "435202347",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1237 Reamwood Drive",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "zipCode": "94089",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.4052,
+        "lng": -121.98853
+      }
+    },
+    "contact": {
+      "phone": "(408) 462-9811",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 80,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "TRAINING CENTER  THE",
+    "streetName": "TRAINING CENTER  THE",
+    "ccldLicenseNumber": "435202432",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7996 Westwood Drive",
+      "city": "Gilroy",
+      "state": "CA",
+      "zipCode": "95020",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.013443,
+        "lng": -121.59379
+      }
+    },
+    "contact": {
+      "phone": "(408) 713-2771",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GREATER OPPORTUNITIES",
+    "streetName": "GREATER OPPORTUNITIES",
+    "ccldLicenseNumber": "435202437",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "687 North King Road",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95133",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.36582,
+        "lng": -121.86848
+      }
+    },
+    "contact": {
+      "phone": "(408) 272-3629",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FRIENDS OF CHILDREN WITH SPECIAL NEEDS",
+    "streetName": "FRIENDS OF CHILDREN WITH SPECIAL NEEDS",
+    "ccldLicenseNumber": "435202510",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1029 South Bascom Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95128",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.307396,
+        "lng": -121.93177
+      }
+    },
+    "contact": {
+      "phone": "(510) 739-6900",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NEW PERSPECTIVES INC 2 GILROY",
+    "streetName": "NEW PERSPECTIVES INC 2 GILROY",
+    "ccldLicenseNumber": "435202555",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6400 Monterey Rd",
+      "city": "Gilroy",
+      "state": "CA",
+      "zipCode": "95020",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 36.99415001,
+        "lng": -121.562086
+      }
+    },
+    "contact": {
+      "phone": "(408) 821-2697",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "INTEGRATED LEARNING CENTER",
+    "streetName": "INTEGRATED LEARNING CENTER",
+    "ccldLicenseNumber": "435202593",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "511 S Bascom",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95128",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.32903,
+        "lng": -121.932755
+      }
+    },
+    "contact": {
+      "phone": "(650) 799-4099",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS SAN JOSE INCLUSION CENTER",
+    "streetName": "SVS SAN JOSE INCLUSION CENTER",
+    "ccldLicenseNumber": "435202649",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1304 Saratoga Ave",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95129",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.30073,
+        "lng": -121.98181
+      }
+    },
+    "contact": {
+      "phone": "(408) 574-3950",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MORGAN AUTISM CENTER",
+    "streetName": "MORGAN AUTISM CENTER",
+    "ccldLicenseNumber": "435202688",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "950 St. Elizabeth Drive",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95126",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.306263,
+        "lng": -121.9164
+      }
+    },
+    "contact": {
+      "phone": "(408) 241-8161",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ACHIEVE ADULT DAY PROGRAM",
+    "streetName": "ACHIEVE ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "435202716",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3930 Monterey Road",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95111",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.28137655,
+        "lng": -121.8384559
+      }
+    },
+    "contact": {
+      "phone": "(408) 821-2477",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SPREAD YOUR WINGS  LLC",
+    "streetName": "SPREAD YOUR WINGS  LLC",
+    "ccldLicenseNumber": "435202769",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "570-590 Blossom Hill Rd",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95123",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.250526,
+        "lng": -121.8411
+      }
+    },
+    "contact": {
+      "phone": "(408) 401-2984",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 27,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "APOLLO ADULT DAY PROGRAM",
+    "streetName": "APOLLO ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "435202823",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "888 Capitol Ave",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95127",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.35297685,
+        "lng": -121.8278608
+      }
+    },
+    "contact": {
+      "phone": "(408) 439-2640",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 150,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MISSION BAY INC.",
+    "streetName": "MISSION BAY INC.",
+    "ccldLicenseNumber": "435202845",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "220 South Main St",
+      "city": "Milpitas",
+      "state": "CA",
+      "zipCode": "95035",
+      "county": "Santa Clara",
+      "coordinates": {
+        "lat": 37.427373,
+        "lng": -121.905972
+      }
+    },
+    "contact": {
+      "phone": "(408) 661-4883",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 135,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,

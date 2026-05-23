@@ -1,0 +1,190 @@
+[
+  {
+    "legalLicenseName": "UCPNB SENIOR ADULT PROGRAM",
+    "streetName": "UCPNB SENIOR ADULT PROGRAM",
+    "ccldLicenseNumber": "496804170",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6597 Commerce Blvd",
+      "city": "Rohnert Park",
+      "state": "CA",
+      "zipCode": "94928",
+      "county": "Sonoma County",
+      "coordinates": {
+        "lat": 38.35033636,
+        "lng": -122.7096169
+      }
+    },
+    "contact": {
+      "phone": "(707) 766-9990",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BECOMING INDEPENDENT",
+    "streetName": "BECOMING INDEPENDENT",
+    "ccldLicenseNumber": "496804198",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "500 West Napa St Ste 526",
+      "city": "Sonoma",
+      "state": "CA",
+      "zipCode": "95476",
+      "county": "Sonoma County",
+      "coordinates": {
+        "lat": 38.29303037,
+        "lng": -122.4688329
+      }
+    },
+    "contact": {
+      "phone": "(707) 524-6670",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 10,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOUTHWEST DAY PROGRAM",
+    "streetName": "SOUTHWEST DAY PROGRAM",
+    "ccldLicenseNumber": "496804253",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "205 Southwest Blvd.",
+      "city": "Rohnert Park",
+      "state": "CA",
+      "zipCode": "94928",
+      "county": "Sonoma County",
+      "coordinates": {
+        "lat": 38.34052953,
+        "lng": -122.6991251
+      }
+    },
+    "contact": {
+      "phone": "(650) 866-9367",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "STAND BY ME PROGRAM  LLC",
+    "streetName": "STAND BY ME PROGRAM  LLC",
+    "ccldLicenseNumber": "496804320",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "5805 Labath Ave",
+      "city": "Rohnert Park",
+      "state": "CA",
+      "zipCode": "94928",
+      "county": "Sonoma County",
+      "coordinates": {
+        "lat": 38.35441099,
+        "lng": -122.7221296
+      }
+    },
+    "contact": {
+      "phone": "(707) 799-2747",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 32,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]

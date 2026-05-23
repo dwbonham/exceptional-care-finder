@@ -1,0 +1,2493 @@
+[
+  {
+    "legalLicenseName": "ST MADELEINE SOPHIES CENTER",
+    "streetName": "ST MADELEINE SOPHIES CENTER",
+    "ccldLicenseNumber": "370800930",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2119 E. Madison Avenue",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92019",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.8033,
+        "lng": -116.90069
+      }
+    },
+    "contact": {
+      "phone": "(619) 442-5129",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 400,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC-EAST  TRAINING CENTER",
+    "streetName": "ARC-EAST  TRAINING CENTER",
+    "ccldLicenseNumber": "370803149",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1374 E. Lexington Avenue",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92019",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.792725,
+        "lng": -116.9322
+      }
+    },
+    "contact": {
+      "phone": "(619) 444-9417",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 180,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC OF SAN DIEGO-SOL AND RUTH GERBER FA",
+    "streetName": "ARC OF SAN DIEGO-SOL AND RUTH GERBER FA",
+    "ccldLicenseNumber": "370803192",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1280 Nolan Avenue",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zipCode": "91911",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.61461,
+        "lng": -117.04233
+      }
+    },
+    "contact": {
+      "phone": "(619) 427-7524",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 186,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GEORGE G. GLENNER ALZHEIMER'S FAMILY CE",
+    "streetName": "GEORGE G. GLENNER ALZHEIMER'S FAMILY CE",
+    "ccldLicenseNumber": "370804406",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3686 Fourth Ave.",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92103",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.7448,
+        "lng": -117.16158
+      }
+    },
+    "contact": {
+      "phone": "(619) 543-4704",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 24,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNYEWAY  INC.-ADULT DEVELOPMENT CENTER",
+    "streetName": "UNYEWAY  INC.-ADULT DEVELOPMENT CENTER",
+    "ccldLicenseNumber": "370808372",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "11440 Riverside Dr  A-D & I",
+      "city": "Lakeside",
+      "state": "CA",
+      "zipCode": "92040",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.860985,
+        "lng": -116.94622
+      }
+    },
+    "contact": {
+      "phone": "(619) 562-6330",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 224,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM - CIVIC",
+    "streetName": "AVID BEHAVIORAL DAY PROGRAM - CIVIC",
+    "ccldLicenseNumber": "371881367",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "510 Civic Center Dr Suite E",
+      "city": "Vista",
+      "state": "CA",
+      "zipCode": "92084",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.199065,
+        "lng": -117.23421
+      }
+    },
+    "contact": {
+      "phone": "(858) 442-6840",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 15,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LEARNING SERVICES ESCONDIDO-ADULT DAY C",
+    "streetName": "LEARNING SERVICES ESCONDIDO-ADULT DAY C",
+    "ccldLicenseNumber": "372008307",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2335 Bear Valley Pkwy.",
+      "city": "Escondido",
+      "state": "CA",
+      "zipCode": "92027",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.136635,
+        "lng": -117.04284
+      }
+    },
+    "contact": {
+      "phone": "(760) 746-3223",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 28,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ST. PAUL'S COMMUNITY CARE CENTER",
+    "streetName": "ST. PAUL'S COMMUNITY CARE CENTER",
+    "ccldLicenseNumber": "374600538",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "328 Maple Street",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92103",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.73243,
+        "lng": -117.161835
+      }
+    },
+    "contact": {
+      "phone": "(619) 239-6900",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPPORTUNITIES UNLIMITED",
+    "streetName": "OPPORTUNITIES UNLIMITED",
+    "ccldLicenseNumber": "374600990",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1718 E. Valley Parkway",
+      "city": "Escondido",
+      "state": "CA",
+      "zipCode": "92027",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.134987,
+        "lng": -117.05729
+      }
+    },
+    "contact": {
+      "phone": "(760) 747-5112",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GEORGE G. GLENNER FAMILY CENTER - ENCIN",
+    "streetName": "GEORGE G. GLENNER FAMILY CENTER - ENCIN",
+    "ccldLicenseNumber": "374601048",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "223 Saxony Rd",
+      "city": "Encinitas",
+      "state": "CA",
+      "zipCode": "92024",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.05135,
+        "lng": -117.285614
+      }
+    },
+    "contact": {
+      "phone": "(760) 635-1895",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNITED CEREBRAL PALSY ASSOC. OF SAN DIE",
+    "streetName": "UNITED CEREBRAL PALSY ASSOC. OF SAN DIE",
+    "ccldLicenseNumber": "374601076",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "205 W. Mission Avenue  Spac",
+      "city": "Escondido",
+      "state": "CA",
+      "zipCode": "92026",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.12905199,
+        "lng": -117.087092
+      }
+    },
+    "contact": {
+      "phone": "(760) 743-1050",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FALLBROOK ADULT DAY CARE",
+    "streetName": "FALLBROOK ADULT DAY CARE",
+    "ccldLicenseNumber": "374601769",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "320 W. Alvarado",
+      "city": "Fallbrook",
+      "state": "CA",
+      "zipCode": "92028",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.382076,
+        "lng": -117.253845
+      }
+    },
+    "contact": {
+      "phone": "(760) 723-0890",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "INDEPENDENT OPTIONS/ADVANCED OPTIONS SA",
+    "streetName": "INDEPENDENT OPTIONS/ADVANCED OPTIONS SA",
+    "ccldLicenseNumber": "374602050",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "302 Enterprise St Suite C",
+      "city": "Escondido",
+      "state": "CA",
+      "zipCode": "92029",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.121857,
+        "lng": -117.11537
+      }
+    },
+    "contact": {
+      "phone": "(760) 743-7193",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 36,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SAM & ROSE STEIN EDUCATION CENTER",
+    "streetName": "SAM & ROSE STEIN EDUCATION CENTER",
+    "ccldLicenseNumber": "374602441",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4990 Williams Ave",
+      "city": "La Mesa",
+      "state": "CA",
+      "zipCode": "91941",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.769485,
+        "lng": -117.03708
+      }
+    },
+    "contact": {
+      "phone": "(619) 463-3300",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LA MESA WORK CENTER",
+    "streetName": "LA MESA WORK CENTER",
+    "ccldLicenseNumber": "374602444",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6134 University Ave",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92115",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.75312,
+        "lng": -117.063614
+      }
+    },
+    "contact": {
+      "phone": "(619) 286-2144",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 112,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "INNOVATIVE CENTER",
+    "streetName": "INNOVATIVE CENTER",
+    "ccldLicenseNumber": "374602610",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7464 University Avenue",
+      "city": "La Mesa",
+      "state": "CA",
+      "zipCode": "91941",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.75812,
+        "lng": -117.036644
+      }
+    },
+    "contact": {
+      "phone": "(619) 461-0914",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CPSRC BMDTP-LAKESIDE",
+    "streetName": "CPSRC BMDTP-LAKESIDE",
+    "ccldLicenseNumber": "374602824",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "11757 Topo Lane",
+      "city": "Lakeside",
+      "state": "CA",
+      "zipCode": "92040",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.891754,
+        "lng": -116.92479
+      }
+    },
+    "contact": {
+      "phone": "(619) 561-7405",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC SULPIZIO FAMILY ARC CENTER",
+    "streetName": "ARC SULPIZIO FAMILY ARC CENTER",
+    "ccldLicenseNumber": "374602842",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3030 Market Street",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92102",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.71165,
+        "lng": -117.12928
+      }
+    },
+    "contact": {
+      "phone": "(619) 685-1175",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 135,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EASTER SEALS SOUTHERN CALIFORNIA ESCOND",
+    "streetName": "EASTER SEALS SOUTHERN CALIFORNIA ESCOND",
+    "ccldLicenseNumber": "374602843",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "401 S Ivy St",
+      "city": "Escondido",
+      "state": "CA",
+      "zipCode": "92025",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.12053361,
+        "lng": -117.0760019
+      }
+    },
+    "contact": {
+      "phone": "(760) 737-3990",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 23,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LINK CENTER  THE",
+    "streetName": "LINK CENTER  THE",
+    "ccldLicenseNumber": "374602918",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7944 Golden Ave",
+      "city": "Lemon Grove",
+      "state": "CA",
+      "zipCode": "91945",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.74194,
+        "lng": -117.02719
+      }
+    },
+    "contact": {
+      "phone": "(619) 460-7333",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 6,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PROMISING FUTURES",
+    "streetName": "PROMISING FUTURES",
+    "ccldLicenseNumber": "374602960",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "109 E Lexington Ave",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92020",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.79269,
+        "lng": -116.96216
+      }
+    },
+    "contact": {
+      "phone": "(619) 592-4850",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 72,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "STEIN SPECIAL CARE SERVICES - ADULT",
+    "streetName": "STEIN SPECIAL CARE SERVICES - ADULT",
+    "ccldLicenseNumber": "374602966",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6145 Decena Dr",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92120",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.786224,
+        "lng": -117.09676
+      }
+    },
+    "contact": {
+      "phone": "(619) 281-5511",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "WILLIAMS QUEST",
+    "streetName": "WILLIAMS QUEST",
+    "ccldLicenseNumber": "374603074",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "640 Civic Ctr Dr  Ste 101-1",
+      "city": "Vista",
+      "state": "CA",
+      "zipCode": "92084",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.19710998,
+        "lng": -117.233372
+      }
+    },
+    "contact": {
+      "phone": "(760) 806-7500",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADVANTAGE CENTER  THE",
+    "streetName": "ADVANTAGE CENTER  THE",
+    "ccldLicenseNumber": "374603103",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8363 Center Dr Unit 4",
+      "city": "La Mesa",
+      "state": "CA",
+      "zipCode": "91942",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.77501,
+        "lng": -117.01745
+      }
+    },
+    "contact": {
+      "phone": "(619) 697-6311",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC OF SAN DIEGO-NORTH  TRAINING CENTER",
+    "streetName": "ARC OF SAN DIEGO-NORTH  TRAINING CENTER",
+    "ccldLicenseNumber": "374603127",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1336 Rancheros Drive  Ste 1",
+      "city": "San Marcos",
+      "state": "CA",
+      "zipCode": "92069",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.135746,
+        "lng": -117.13187
+      }
+    },
+    "contact": {
+      "phone": "(760) 740-6800",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 200,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SAM & ROSE STEIN EDUCATION CENTER",
+    "streetName": "SAM & ROSE STEIN EDUCATION CENTER",
+    "ccldLicenseNumber": "374603143",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8910 Clairemont Mesa Blvd",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92123",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.831398,
+        "lng": -117.13644
+      }
+    },
+    "contact": {
+      "phone": "(858) 514-5146",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SALVA CENTER",
+    "streetName": "SALVA CENTER",
+    "ccldLicenseNumber": "374603288",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6255 University Ave",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92115",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.753906,
+        "lng": -117.06097
+      }
+    },
+    "contact": {
+      "phone": "(619) 265-2911",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REBECCA'S RETREAT",
+    "streetName": "REBECCA'S RETREAT",
+    "ccldLicenseNumber": "374603306",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9307 Tropico Drive",
+      "city": "La Mesa",
+      "state": "CA",
+      "zipCode": "91941",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.75793,
+        "lng": -116.99721
+      }
+    },
+    "contact": {
+      "phone": "(619) 206-0590",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 14,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PACIFIC COAST LEARNING CENTER  INC.",
+    "streetName": "PACIFIC COAST LEARNING CENTER  INC.",
+    "ccldLicenseNumber": "374603335",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1300-1320 Rancheros Drive",
+      "city": "San Marcos",
+      "state": "CA",
+      "zipCode": "92069",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.135963,
+        "lng": -117.13207
+      }
+    },
+    "contact": {
+      "phone": "(760) 740-9266",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 49,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HEALTHY OPPORTUNITIES PROGRESSIVE EDUCA",
+    "streetName": "HEALTHY OPPORTUNITIES PROGRESSIVE EDUCA",
+    "ccldLicenseNumber": "374603404",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3225 Olive St.",
+      "city": "Lemon Grove",
+      "state": "CA",
+      "zipCode": "91945",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.740425,
+        "lng": -117.03215
+      }
+    },
+    "contact": {
+      "phone": "(619) 825-9854",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "WORK SKILL RESOURCES",
+    "streetName": "WORK SKILL RESOURCES",
+    "ccldLicenseNumber": "374603533",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9349 Jamacha Blvd",
+      "city": "Spring Valley",
+      "state": "CA",
+      "zipCode": "91977",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.707671,
+        "lng": -116.998356
+      }
+    },
+    "contact": {
+      "phone": "(619) 512-1107",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM",
+    "streetName": "AVID BEHAVIORAL DAY PROGRAM",
+    "ccldLicenseNumber": "374603572",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "562 W Grand Avenue",
+      "city": "Escondido",
+      "state": "CA",
+      "zipCode": "92025",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.118504,
+        "lng": -117.08779
+      }
+    },
+    "contact": {
+      "phone": "(442) 999-5740",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ACI",
+    "streetName": "ACI",
+    "ccldLicenseNumber": "374603621",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "296 H Street  #101",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zipCode": "91910",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.63448,
+        "lng": -117.07681
+      }
+    },
+    "contact": {
+      "phone": "(619) 409-4100",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LOL - LIFE OF LIBERTY  LLC",
+    "streetName": "LOL - LIFE OF LIBERTY  LLC",
+    "ccldLicenseNumber": "374603642",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "320 N. Horne Street",
+      "city": "Oceanside",
+      "state": "CA",
+      "zipCode": "92054",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.199226,
+        "lng": -117.37665
+      }
+    },
+    "contact": {
+      "phone": "(760) 433-5411",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SHINING STAR ADULT DAY CARE INC",
+    "streetName": "SHINING STAR ADULT DAY CARE INC",
+    "ccldLicenseNumber": "374603734",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "333 E Street",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zipCode": "91910",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.644314,
+        "lng": -117.08274
+      }
+    },
+    "contact": {
+      "phone": "(619) 869-0049",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LA MESA WORK CENTER ANNEX",
+    "streetName": "LA MESA WORK CENTER ANNEX",
+    "ccldLicenseNumber": "374603789",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3403 E Plaza Blvd Suite H",
+      "city": "National City",
+      "state": "CA",
+      "zipCode": "91950",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.684544,
+        "lng": -117.07095
+      }
+    },
+    "contact": {
+      "phone": "(619) 267-7796",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNYEWAY INC",
+    "streetName": "UNYEWAY INC",
+    "ccldLicenseNumber": "374603800",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1689 Broadway Suite 106",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zipCode": "91911",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.595917,
+        "lng": -117.075714
+      }
+    },
+    "contact": {
+      "phone": "(619) 334-6502",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 210,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SAM AND ROSE STEIN EDUCATION CENTER",
+    "streetName": "SAM AND ROSE STEIN EDUCATION CENTER",
+    "ccldLicenseNumber": "374603907",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6070 Mission Gorge Rd",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92120",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.784397,
+        "lng": -117.09779
+      }
+    },
+    "contact": {
+      "phone": "(619) 281-5031",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 97,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HEALTHY OPPORTUNITES PROGRESSIVE EDUCAT",
+    "streetName": "HEALTHY OPPORTUNITES PROGRESSIVE EDUCAT",
+    "ccldLicenseNumber": "374604018",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3146 School Lane",
+      "city": "Lemon Grove",
+      "state": "CA",
+      "zipCode": "91945",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.73956,
+        "lng": -117.02944
+      }
+    },
+    "contact": {
+      "phone": "(619) 933-3077",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "STEP ADULT TRAINING SERVICES",
+    "streetName": "STEP ADULT TRAINING SERVICES",
+    "ccldLicenseNumber": "374604098",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2308 E 6th St",
+      "city": "National City",
+      "state": "CA",
+      "zipCode": "91950",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.684223,
+        "lng": -117.08388
+      }
+    },
+    "contact": {
+      "phone": "(619) 267-2468",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM VISTA",
+    "streetName": "AVID BEHAVIORAL DAY PROGRAM VISTA",
+    "ccldLicenseNumber": "374604106",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1221 West Vista Way",
+      "city": "Vista",
+      "state": "CA",
+      "zipCode": "92084",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.194042,
+        "lng": -117.26651
+      }
+    },
+    "contact": {
+      "phone": "(760) 691-9622",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MOUNTAIN SHADOWS THERAPEUTIC DAY PROGRA",
+    "streetName": "MOUNTAIN SHADOWS THERAPEUTIC DAY PROGRA",
+    "ccldLicenseNumber": "374604128",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "970 Los Vallecitos Blvd #13",
+      "city": "San Marcos",
+      "state": "CA",
+      "zipCode": "92069",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.14231799,
+        "lng": -117.184819
+      }
+    },
+    "contact": {
+      "phone": "(760) 743-3714",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOMERFORD PLACE ENCINITAS ADULT DAY CAR",
+    "streetName": "SOMERFORD PLACE ENCINITAS ADULT DAY CAR",
+    "ccldLicenseNumber": "374604228",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1350 S. El Camino Real",
+      "city": "Encinitas",
+      "state": "CA",
+      "zipCode": "92024",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.031094,
+        "lng": -117.255684
+      }
+    },
+    "contact": {
+      "phone": "(617) 796-8350",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOPHIE'S ART GALLERY",
+    "streetName": "SOPHIE'S ART GALLERY",
+    "ccldLicenseNumber": "374604303",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "140 East Main St",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92020",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.79521001,
+        "lng": -116.961476
+      }
+    },
+    "contact": {
+      "phone": "(619) 442-5129",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AMARIS CENTER FOR CHANGE",
+    "streetName": "AMARIS CENTER FOR CHANGE",
+    "ccldLicenseNumber": "374604330",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "250 E Douglas Ave",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92020",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.79387749,
+        "lng": -116.95949
+      }
+    },
+    "contact": {
+      "phone": "(202) 520-3781",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MARANATHA DAY PROGRAM",
+    "streetName": "MARANATHA DAY PROGRAM",
+    "ccldLicenseNumber": "374604331",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1112 Broadway  #103",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92020",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.80776822,
+        "lng": -116.9437881
+      }
+    },
+    "contact": {
+      "phone": "(619) 760-3322",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PEOPLE MOVING FORWARD INC.",
+    "streetName": "PEOPLE MOVING FORWARD INC.",
+    "ccldLicenseNumber": "374604346",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "650 Hollister Street",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92154",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.58459658,
+        "lng": -117.0841052
+      }
+    },
+    "contact": {
+      "phone": "(619) 305-9251",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HEALTHY OPPORTUNITIES PROGRESSIVE EDUCA",
+    "streetName": "HEALTHY OPPORTUNITIES PROGRESSIVE EDUCA",
+    "ccldLicenseNumber": "374604349",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2530 Main St. Suite A",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zipCode": "91911",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.59487692,
+        "lng": -117.0789108
+      }
+    },
+    "contact": {
+      "phone": "(619) 933-3077",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARTS & SERVICES FOR DISABLED INC.",
+    "streetName": "ARTS & SERVICES FOR DISABLED INC.",
+    "ccldLicenseNumber": "374604513",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "11633 Sorrento Valley Road",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92121",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.913124,
+        "lng": -117.232629
+      }
+    },
+    "contact": {
+      "phone": "(562) 982-0250",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 24,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GENERATION'S DAY CARE",
+    "streetName": "GENERATION'S DAY CARE",
+    "ccldLicenseNumber": "374604553",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "424 Letton St",
+      "city": "Ramona",
+      "state": "CA",
+      "zipCode": "92065",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.037037,
+        "lng": -116.889412
+      }
+    },
+    "contact": {
+      "phone": "(513) 226-6349",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OCEANSIDE IVEY RANCH PARK ASSOCIATION",
+    "streetName": "OCEANSIDE IVEY RANCH PARK ASSOCIATION",
+    "ccldLicenseNumber": "374604613",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "110 Rancho Del Oro Drive",
+      "city": "Oceanside",
+      "state": "CA",
+      "zipCode": "92057",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.230044,
+        "lng": -117.318555
+      }
+    },
+    "contact": {
+      "phone": "(760) 722-4839",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 12,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HOPE INC IV",
+    "streetName": "HOPE INC IV",
+    "ccldLicenseNumber": "374604651",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8125 Broadway",
+      "city": "Lemon Grove",
+      "state": "CA",
+      "zipCode": "91945",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.743555,
+        "lng": -117.022469
+      }
+    },
+    "contact": {
+      "phone": "(619) 933-3077",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIVING FOR TODAY",
+    "streetName": "LIVING FOR TODAY",
+    "ccldLicenseNumber": "374604666",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3472 El Rancho Grande",
+      "city": "Bonita",
+      "state": "CA",
+      "zipCode": "91902",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.677924,
+        "lng": -116.994104
+      }
+    },
+    "contact": {
+      "phone": "(619) 804-1578",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  }
+]
