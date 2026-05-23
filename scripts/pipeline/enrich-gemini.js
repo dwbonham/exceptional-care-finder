@@ -189,7 +189,8 @@ async function _callGemini(prompt, apiKey, model) {
   });
 
   if (res.status === 429) {
-    throw new RateLimitError('Gemini rate limit reached — save checkpoint and stop the run');
+    const body429 = await res.text();
+    throw new RateLimitError(`Gemini rate limit reached (429): ${body429}`);
   }
 
   if (!res.ok) {

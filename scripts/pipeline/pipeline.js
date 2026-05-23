@@ -112,7 +112,7 @@ if (toEnrich.length) {
     } catch (e) {
       if (e instanceof RateLimitError) {
         save(state);
-        console.log(`\nRate limit reached — checkpoint saved. Re-run tomorrow to continue.`);
+        console.log(`\nRate limit reached — checkpoint saved. Re-run tomorrow to continue.\nError: ${e.message}`);
         console.log(JSON.stringify(summary(state), null, 2));
         process.exit(0);
       }
