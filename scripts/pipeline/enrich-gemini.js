@@ -13,7 +13,9 @@
 // On a 429, this module throws RateLimitError so the orchestrator can save the
 // checkpoint and stop the run gracefully.
 
-const DEFAULT_MODEL = 'gemini-2.5-flash';
+// gemini-2.0-flash-lite: confirmed available on this API key, ~1,500 RPD free tier.
+// gemini-2.5-flash has only 20 RPD free (10 programs/day — too slow for first import).
+const DEFAULT_MODEL = 'gemini-2.0-flash-lite';
 const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
 
 // ─── Public error class ───────────────────────────────────────────────────────
