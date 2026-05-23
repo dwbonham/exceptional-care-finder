@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-// Google Sheets writer — appends needs-review programs to the staging sheet.
+// Google Sheets writer — mirrors all pipeline programs to the master data sheet.
 //
 // Authentication: Google service account (JSON key file from Cloud Console).
 // The orchestrator reads the JSON key file and passes it as serviceAccount object.
@@ -38,7 +38,7 @@ export const HEADERS = [
 // ─── Public API ───────────────────────────────────────────────────────────────
 
 /**
- * Append a needs-review program to the Google Sheet.
+ * Append a program row to the Google Sheet (all programs, not just needs-review).
  * Writes header row first if the sheet is empty.
  *
  * @param {import('./quality-gate.js').QualityGateResult} gateResult

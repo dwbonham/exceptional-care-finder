@@ -154,26 +154,33 @@ if (toScore.length) {
   console.log(`\nRunning quality gate on ${toScore.length} programs…`);
   let approved = 0, needsReview = 0;
 
+  const sheetsConfig = { spreadsheetId: cfg.sheetId, sheetName: 'Programs', serviceAccount: cfg.serviceAccount };
+
   for (const licNum of toScore) {
     const prog = state.programs[licNum];
     const gateResult = evaluate(prog.ccldRecord, prog.enrichResult, prog.geocodeResult);
+
+    // Skip revoked programs entirely — they have no record to write
+    if (gateResult.decision === DECISION.SKIP_REVOKED) {
+      state = updateStatus(state, licNum, STATUS.SKIPPED_REVOKED);
+      save(state);
+      continue;
+    }
+
+    // Mirror ALL programs to Google Sheets regardless of quality gate result
+    await appendProgramRow(gateResult, sheetsConfig);
 
     if (gateResult.decision === DECISION.APPROVED) {
       _writeApprovedProgram(gateResult.record);
       state = updateStatus(state, licNum, STATUS.APPROVED);
       approved++;
     } else {
-      await appendProgramRow(gateResult, {
-        spreadsheetId: cfg.sheetId,
-        sheetName: 'Programs',
-        serviceAccount: cfg.serviceAccount,
-      });
       state = updateStatus(state, licNum, STATUS.FLAGGED_FOR_REVIEW);
       needsReview++;
     }
     save(state);
   }
-  console.log(`  ${approved} auto-approved | ${needsReview} sent to Sheets for review`);
+  console.log(`  ${approved} auto-approved | ${needsReview} flagged for review | all mirrored to Sheets`);
 }
 
 // ── Complete ──────────────────────────────────────────────────────────────────
