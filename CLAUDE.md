@@ -243,11 +243,23 @@ authorizedServiceCodes: string[]
 - `lastVerifiedDate?: string` — ISO date of last CCLD confirmation
 - `dataSourceNotes?: string` — import run ID and any flags
 
-### Google Sheets — Staging and Review Layer
+### Google Sheets — Full Mirror + Review Layer
 
-The sheet is where flagged programs surface for human review. It is NOT the source of truth — GitHub is. The pipeline writes low-confidence programs to the sheet; Doug reviews and approves them; a sync job pushes approved records back to JSON files.
+**Decision (May 2026):** The pipeline mirrors ALL programs to Google Sheets, not just flagged ones. GitHub JSON remains the deploy source of truth (the site reads from it). The Sheet is a read-friendly audit view of the entire dataset — useful for data quality checks, filtering, pivot tables, and portfolio work.
 
-**Sheet column groups (40 columns total):**
+**Why this matters:** Doug is job searching and wants to demonstrate data pipeline and auditing skills. A full mirror lets him query "show me all LA County programs with no phone number" or "how many programs have Self-Determination accepted?" directly in Sheets without touching JSON files.
+
+**Workbook name:** `Exceptional Care Finder — Master Data`
+
+**Three tabs — pipeline creates headers automatically on first run:**
+
+| Tab | Content | Updated by |
+|-----|---------|------------|
+| `Programs` | Every program, all fields, one row per program | Pipeline (automated weekly) |
+| `Funding Guides` | FAQs per state — question, answer, source URL | Doug (manually, rarely) |
+| `Regional Centers` | RC contacts per county — name, phone, website, notes | Doug (manually, rarely) |
+
+**Programs tab column groups:**
 1. **Workflow** — Status, Completeness %, Last Updated, CCLD Last Verified
 2. **CCLD Auto-fill** — License Number, Legal Name, License Type, License Status, Address, City, County, State, Zip, Capacity
 3. **RC / Funding** — Covering Agencies, Vendor IDs (per RC), Authorized Service Codes, Transportation, Financial Coverage Note
@@ -301,28 +313,53 @@ These were open questions resolved in the engineering review:
 
 ## Current State (as of May 2026)
 
-**Working:**
+### Phase 1 — Complete
 - 4 programs in Riverside County, CA
 - State/County/Care Type filters
 - Leaflet map with collapse toggle
 - Per-card map modal (Google Maps embed, no API key)
 - State Regulatory Guide sidebar with FAQ accordion
 - GitHub Pages deployment at https://dwbonham.github.io/exceptional-care-finder/
+- TypeScript schema fully migrated (`vendorIds[]`, `coveringAgencies[]`, `authorizedServiceCodes[]`, all new CCLD/enrichment/metadata fields)
+- `import.meta.glob` auto-discovery in place — new counties need no code changes
+
+### Phase 2 — Complete (ready to run)
+
+**API keys configured (all stored as GitHub Actions secrets/variables):**
+- `GEMINI_API_KEY` — Google AI Studio (Gemini API, free tier 1,500 req/day)
+- `GOOGLE_MAPS_API_KEY` — Google Maps Geocoding API (restricted to Geocoding API only)
+- `GOOGLE_SHEETS_CREDENTIALS` — Service account JSON (Google Cloud Console)
+- `SHEET_ID` — GitHub Actions variable (not secret); Sheet ID of the master data workbook
+
+**Google Sheet configured:**
+- Workbook: `Exceptional Care Finder — Master Data`
+- Shared with service account as Editor
+- Tabs (pipeline creates headers on first run): `Programs`, `Funding Guides`, `Regional Centers`
+
+**Pipeline modules (scripts/pipeline/) — all complete, 85 tests passing:**
+- `ingest-ccld.js` — CCLD ArcGIS fetch + diff
+- `enrich-gemini.js` — Gemini web enrichment + sentiment
+- `geocode.js` — Google Maps geocoding
+- `quality-gate.js` — completeness scoring + auto-approve/flag routing
+- `checkpoint.js` — idempotent state across rate-limit pauses
+- `sheets-writer.js` — Google Sheets append
+- `pipeline.js` — orchestrator (CCLD → Gemini → geocode → quality gate → write JSON)
+
+**GitHub Actions workflow (`.github/workflows/pipeline.yml`) — complete:**
+- Runs Monday 6am PT; catch-up crons Tue–Fri
+- Checkpoint persists between runs via Actions cache
+- Commits approved programs to `pipeline/weekly-update` branch and opens a PR
+
+**Before the first live run — complete T1 in TODOS.md:**
+- Manually add CCLD license numbers for 4 existing Riverside programs to bootstrap checkpoint
 
 **Known placeholders in data:**
 - `vendorId: "TBD"` on all 4 Riverside programs — real DDS vendor IDs not yet researched
 - `transportationAvailability: "Contact Regional Center"` — placeholder; real values TBD
 - `coordinates` — manually set; will be auto-geocoded by pipeline
 
-**Schema needs updating before pipeline build:**
-- `vendorId` → `vendorIds[]`
-- `localAdministeringAgency` → `coveringAgencies[]`
-- `stateBillingCode` → `authorizedServiceCodes[]`
-- New CCLD, enrichment, and metadata fields (see Planned Pipeline section above)
-
 **Not yet built:**
-- Automated data pipeline (planned — see above)
-- Additional counties or states
+- Additional counties or states (pipeline will fill these in automatically)
 - Search by program name
 - Filtering by `minimumAge`, `languagesSupported`, or `facilityFeatures`
 - Mobile map improvements

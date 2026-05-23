@@ -1,0 +1,105 @@
+name: Weekly Data Pipeline
+
+on:
+  schedule:
+    - cron: '0 14 * * 1'    # Monday 6 am PT (14:00 UTC) — main weekly run
+    - cron: '0 14 * * 2-5'  # Tue–Fri 6 am PT — catch-up if Monday was rate-limited
+  workflow_dispatch:          # manual trigger for testing / one-off runs
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0      # full history needed for branch operations
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      # Checkpoint persists between runs so a rate-limited Monday run resumes on Tuesday.
+      # Key includes run_id so each run creates a fresh entry; restore-keys picks up the
+      # latest previous entry when the exact key doesn't match (every catch-up run).
+      - name: Restore pipeline checkpoint
+        uses: actions/cache@v4
+        with:
+          path: scripts/pipeline/checkpoint.json
+          key: pipeline-checkpoint-${{ github.run_id }}
+          restore-keys: |
+            pipeline-checkpoint-
+
+      - name: Write service account credentials
+        run: echo '${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}' > /tmp/sa.json
+
+      - name: Run pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          GOOGLE_SHEET_ID: ${{ vars.SHEET_ID }}
+          GOOGLE_SERVICE_ACCOUNT_PATH: /tmp/sa.json
+        run: bun run pipeline
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Stage any program-data/ files written by the pipeline, commit to a staging
+      # branch, and push. Force-push is intentional: this branch is pipeline-owned
+      # and always rebuilt from main + the current run's approved programs.
+      - name: Commit approved programs
+        id: commit
+        run: |
+          git add program-data/
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No new approved programs this run — skipping PR."
+            exit 0
+          fi
+
+          COUNTY_FILES=$(git diff --staged --name-only | grep -c 'programs\.json' || true)
+
+          git checkout -B pipeline/weekly-update
+          git commit -m "pipeline: $(date -u '+%Y-%m-%d') — $COUNTY_FILES county file(s) updated"
+          git push -f origin pipeline/weekly-update
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open PR
+        if: steps.commit.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Skip if a PR is already open for this branch (e.g. Doug hasn't merged last week's yet)
+          OPEN=$(gh pr list --head pipeline/weekly-update --state open --json number --jq length)
+          if [ "$OPEN" != "0" ]; then
+            echo "PR already open for pipeline/weekly-update — new commit pushed, no duplicate PR needed."
+            exit 0
+          fi
+
+          cat > /tmp/pr-body.md << 'PREOF'
+          ## Weekly Pipeline Update
+
+          Opened automatically by the CCLD data pipeline.
+
+          **Before merging:**
+          - [ ] Program count in the diff looks reasonable (not 0, not unexpectedly large)
+          - [ ] Spot-check 1–2 entries in `program-data/` — name, address, county look correct
+          - [ ] No unexpected counties or states
+
+          Merge to publish. The site deploys automatically via the existing deploy workflow.
+          PREOF
+
+          gh pr create \
+            --base main \
+            --head pipeline/weekly-update \
+            --title "Pipeline: $(date -u '+%Y-%m-%d') weekly program update" \
+            --body-file /tmp/pr-body.md
