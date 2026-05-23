@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 .gstack/
 exports/
+
+# Pipeline checkpoint — persisted via GitHub Actions cache, not git
+scripts/pipeline/checkpoint.json
+scripts/pipeline/checkpoint.json.tmp
