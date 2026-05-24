@@ -1,193 +1,5 @@
 [
   {
-    "legalLicenseName": "KINGS VIEW WORK EXPERIENCE CENTER",
-    "streetName": "KINGS VIEW WORK EXPERIENCE CENTER",
-    "ccldLicenseNumber": "240403819",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "100 Airpark Road",
-      "city": "Atwater",
-      "state": "CA",
-      "zipCode": "95301",
-      "county": "Merced",
-      "coordinates": {
-        "lat": 37.333767,
-        "lng": -120.59957
-      }
-    },
-    "contact": {
-      "phone": "(209) 357-0321",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 200,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "KINGS VIEW WORK EXPERIENCE CENTER II",
-    "streetName": "KINGS VIEW WORK EXPERIENCE CENTER II",
-    "ccldLicenseNumber": "240407470",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "703 \"\"\"\"I\"\"\"\" Street",
-      "city": "Los Banos",
-      "state": "CA",
-      "zipCode": "93635",
-      "county": "Merced",
-      "coordinates": {
-        "lat": 37.06021,
-        "lng": -120.84633
-      }
-    },
-    "contact": {
-      "phone": "(209) 826-8118",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ENRICHMENT CENTER",
-    "streetName": "ENRICHMENT CENTER",
-    "ccldLicenseNumber": "247201052",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "645 West Main Street",
-      "city": "Merced",
-      "state": "CA",
-      "zipCode": "95340",
-      "county": "Merced",
-      "coordinates": {
-        "lat": 37.30224,
-        "lng": -120.48554
-      }
-    },
-    "contact": {
-      "phone": "(209) 388-1162",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 25,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER  INC. (M",
-    "streetName": "CENTRAL VALLEY TRAINING CENTER  INC. (M",
-    "ccldLicenseNumber": "247202368",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "865 Piper Avenue",
-      "city": "Merced",
-      "state": "CA",
-      "zipCode": "95341",
-      "county": "Merced",
-      "coordinates": {
-        "lat": 37.29865,
-        "lng": -120.51686
-      }
-    },
-    "contact": {
-      "phone": "(209) 388-9242",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "LOYD'S LIBERTY HOMES  INC.",
     "streetName": "LOYD'S LIBERTY HOMES  INC.",
     "ccldLicenseNumber": "247203533",
@@ -278,6 +90,299 @@
       "parentReviews": []
     },
     "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KINGS VIEW WORK EXPERIENCE CENTER",
+    "streetName": "KINGS VIEW WORK EXPERIENCE CENTER",
+    "ccldLicenseNumber": "240403819",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "100 Airpark Road",
+      "city": "Atwater",
+      "state": "CA",
+      "zipCode": "95301",
+      "county": "Merced",
+      "coordinates": {
+        "lat": 37.333767,
+        "lng": -120.59957
+      }
+    },
+    "contact": {
+      "phone": "(209) 357-0321",
+      "websiteUrl": "https://www.kingsview.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 200,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program hosts adult day care for individuals with developmental disabilities, providing supported integrated employment and work activity programs. It also offers independent living skills instruction, including training in cooking, shopping, transportation, and money management.",
+      "minimumAge": 18,
+      "yearEstablished": 1975,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Work Experience",
+        "Vocational Assessment",
+        "Life Skills Training (cooking, shopping, transportation, money management)",
+        "Social Activities",
+        "Recreational Activities",
+        "Community Engagement",
+        "Community-Based Learning"
+      ],
+      "parentOrganization": "Kings View",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities",
+        "Autism",
+        "Down Syndrome"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Kings View Work Experience Center is a licensed adult day program in Atwater.",
+        "It serves adults with developmental disabilities, offering work experience and vocational training.",
+        "The program provides independent living skills instruction, including cooking and money management."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KINGS VIEW WORK EXPERIENCE CENTER II",
+    "streetName": "KINGS VIEW WORK EXPERIENCE CENTER II",
+    "ccldLicenseNumber": "240407470",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "703 \"\"\"\"I\"\"\"\" Street",
+      "city": "Los Banos",
+      "state": "CA",
+      "zipCode": "93635",
+      "county": "Merced",
+      "coordinates": {
+        "lat": 37.06021,
+        "lng": -120.84633
+      }
+    },
+    "contact": {
+      "phone": "(209) 826-8118",
+      "websiteUrl": "https://www.kingsview.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides structured daytime activities, supervision, and support services for adults with developmental and intellectual disabilities. It offers supported integrated employment, work activity programs, and independent living skills instruction to enhance socialization, community integration, and personal development.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Music Room",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Socialization",
+        "Community Integration",
+        "Music Therapy",
+        "Arts and Crafts",
+        "Gardening",
+        "Sports/Exercise"
+      ],
+      "parentOrganization": "Kings View",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Kings View Work Experience Center II is a licensed adult day program in Los Banos, CA.",
+        "It offers structured activities and support for adults with intellectual disabilities.",
+        "Kings View, established in 1951, is a BBB Accredited nonprofit organization."
+      ]
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ENRICHMENT CENTER",
+    "streetName": "ENRICHMENT CENTER",
+    "ccldLicenseNumber": "247201052",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "645 West Main Street",
+      "city": "Merced",
+      "state": "CA",
+      "zipCode": "95340",
+      "county": "Merced",
+      "coordinates": {
+        "lat": 37.30224,
+        "lng": -120.48554
+      }
+    },
+    "contact": {
+      "phone": "(209) 388-1162",
+      "websiteUrl": "https://artsmerced.org/enrichment-center"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 25,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Enrichment Center (EC) is a visual and performing arts-based adult day program that provides a forum for exploration, practice, and study in the arts for adult artists with developmental disabilities, offering studio practice, workshops, and art-based community options, including opportunities to market and sell their original artwork.",
+      "minimumAge": 18,
+      "maximumAge": 56,
+      "yearEstablished": 2000,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Dance",
+        "Theatre"
+      ],
+      "parentOrganization": "Merced County Arts Council",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–2:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Enrichment Center offers visual and performing arts for adults with developmental disabilities.",
+        "It is a licensed community care facility under the California Department of Social Services.",
+        "Artists engage in community exhibits and activities, fostering creative expression."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER  INC. (M",
+    "streetName": "Central Valley Training Center, Inc. - Merced Day Program",
+    "ccldLicenseNumber": "247202368",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "865 Piper Avenue",
+      "city": "Merced",
+      "state": "CA",
+      "zipCode": "95341",
+      "county": "Merced",
+      "coordinates": {
+        "lat": 37.29865,
+        "lng": -120.51686
+      }
+    },
+    "contact": {
+      "phone": "(209) 388-9242",
+      "websiteUrl": "https://www.cvtcinc.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Central Valley Training Center, Inc. provides vocational training and educational programs to equip individuals with developmental and intellectual disabilities with skills for career success and independent living, focusing on community integration, behavior support, and person-centered services.",
+      "minimumAge": 18,
+      "yearEstablished": 1982,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Training",
+        "Behavior Support"
+      ],
+      "parentOrganization": "Central Valley Training Center, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Central Valley Training Center's Merced Day Program supports adults with developmental disabilities.",
+        "It offers vocational training, education, community integration, and behavior support services.",
+        "The program emphasizes person-centered planning and client advocacy in the community."
+      ]
+    },
+    "completenessScore": 91,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

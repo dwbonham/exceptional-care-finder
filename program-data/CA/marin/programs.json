@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "CEDARS TEXTILE ARTS CENTER",
-    "streetName": "CEDARS TEXTILE ARTS CENTER",
+    "streetName": "Cedars Textile Arts Collaborative",
     "ccldLicenseNumber": "210104528",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -17,18 +17,43 @@
       }
     },
     "contact": {
-      "phone": "(415) 453-4240",
-      "websiteUrl": ""
+      "phone": "(415) 454-5310",
+      "websiteUrl": "https://www.cedarslife.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 110,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Cedars Textile Arts Collaborative is situated on 22 acres in San Rafael and offers a range of activities and opportunities to earn income through weaving, gardening, cooking, animal husbandry, and art, as well as a senior program. The program aims to foster independence, defend dignity, and realize each person's full potential.",
       "minimumAge": 18,
+      "yearEstablished": 1982,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Life Skills Training",
+        "Gardening",
+        "Cooking",
+        "Animal Care",
+        "Drama and Dance",
+        "Senior Program"
+      ],
+      "parentOrganization": "Cedars",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,15 +65,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Cedars Textile Arts Collaborative offers vocational training in textile arts, gardening, and animal care for adults with developmental disabilities.",
+        "Established in 1982, it provides opportunities for participants to earn income and engage in community art events.",
+        "This program is part of Cedars, a nonprofit with over a century of supporting individuals with disabilities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 99,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CH&S ENTERPRISE DAY SERVICE",
-    "streetName": "CH&S ENTERPRISE DAY SERVICE",
+    "streetName": "CH&S Enterprise Day Program",
     "ccldLicenseNumber": "216800673",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -65,17 +94,31 @@
     },
     "contact": {
       "phone": "(415) 883-4048",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.communityhomesandservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 38,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The CH&S Enterprise Day Program emphasizes a positive behavioral approach to teaching skills and building self-esteem within a structured, engaging, and personalized environment. The curriculum is multi-dimensional, dynamic, versatile, accessible, and ambitious, focusing on vocational, educational, social, and practical skills.",
       "minimumAge": 18,
+      "yearEstablished": 1998,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Community Homes and Services (CHAS)",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -87,15 +130,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The CH&S Enterprise Day Program supports adults with intellectual/developmental disabilities through a positive behavioral approach.",
+        "Established in 1998, it offers structured activities, health monitoring, and therapeutic programming.",
+        "As a non-profit, it fosters self-esteem, life skills, and meaningful community participation."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 83,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CEDARS COMMUNITY CHALLENGES",
-    "streetName": "CEDARS COMMUNITY CHALLENGES",
+    "streetName": "Cedars Fine Art Studios",
     "ccldLicenseNumber": "216801258",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -111,18 +158,35 @@
       }
     },
     "contact": {
-      "phone": "(415) 258-2859",
-      "websiteUrl": ""
+      "phone": "(415) 454-5310",
+      "websiteUrl": "https://www.cedarslife.org"
     },
     "facilityDetails": {
       "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Artists in the Cedars Fine Art Studios program explore their creativity in fine art, expressive arts, music, and jewelry making. Participants are working artists who create gallery-ready portfolios for exhibitions and juried shows, receiving guidance and mentoring from professional artists.",
       "minimumAge": 18,
+      "yearEstablished": 1919,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "The Cedars of Marin",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -130,19 +194,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Cedars Fine Art Studios supports adults with developmental disabilities through professional art instruction and career development.",
+        "Artists explore fine art, music, and jewelry making, exhibiting and selling their work at the \"Artist Within\" gallery."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CEDARS COMMUNITY CHALLENGES-VICTORY CEN",
-    "streetName": "CEDARS COMMUNITY CHALLENGES-VICTORY CEN",
+    "streetName": "Victory Center (The Cedars of Marin)",
     "ccldLicenseNumber": "216801623",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -158,18 +226,35 @@
       }
     },
     "contact": {
-      "phone": "(415) 453-7099",
-      "websiteUrl": ""
+      "phone": "(415) 526-1356",
+      "websiteUrl": "https://www.cedarslife.org"
     },
     "facilityDetails": {
       "licensedCapacity": 49,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Individuals in this program explore their creativity in fine art, expressive arts, music, and jewelry making. Participants are working artists who create gallery-ready portfolios for exhibitions and juried shows, developing professional art skills with guidance from professional artists.",
       "minimumAge": 18,
+      "yearEstablished": 1919,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Art Studio",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy"
+      ],
+      "parentOrganization": "The Cedars of Marin",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "10:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -181,9 +266,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Victory Center (The Cedars of Marin) offers award-winning art programs for adults with developmental disabilities.",
+        "Artists create and sell their work at the 'Artist Within' gallery in San Anselmo, fostering community engagement.",
+        "The Cedars of Marin has provided services for individuals with developmental disabilities for over 100 years."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 99,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -211,12 +300,31 @@
     "facilityDetails": {
       "licensedCapacity": 39,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "CAREPLUS provides structured daytime activities, supervision, and support services for adults with developmental disabilities, including autism, Down syndrome, and intellectual disabilities, who need assistance during the day.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Social and Recreational Programming",
+        "Health Monitoring",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "daysOfOperation": "Monday–Friday, Saturday–Sunday",
+      "hoursOfOperation": "Mon-Fri: 9:00 AM - 6:00 PM Sat-Sun: 10:00 AM - 4:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -228,9 +336,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "CAREPLUS is a licensed Adult Day Program in San Rafael, CA.",
+        "It offers structured activities, health monitoring, meals, and therapeutic programming."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 81,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -253,17 +364,35 @@
     },
     "contact": {
       "phone": "(415) 897-8676",
-      "websiteUrl": ""
+      "websiteUrl": "https://communityhomesandservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 18,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "CH&S Life College offers a professionalized social environment with a 'graduate school' approach, emphasizing cultural literacy, citizenship, professionalism, and esteem building through a curriculum that includes vocational, educational, social, and practical skills.",
       "minimumAge": 18,
+      "yearEstablished": 2014,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Community Homes and Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities",
+        "Autism",
+        "Down Syndrome"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -275,15 +404,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "CH&S Life College serves adults with intellectual/developmental disabilities in Novato, CA.",
+        "It offers a \"graduate school\" environment focusing on vocational, educational, and social skills.",
+        "Licensed in 2014, it is a 501(c)(3) non-profit promoting community involvement and employment."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 99,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "AUTISTRY STUDIOS",
-    "streetName": "AUTISTRY STUDIOS",
+    "streetName": "Autistry Studios",
     "ccldLicenseNumber": "216803659",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -300,17 +433,40 @@
     },
     "contact": {
       "phone": "(415) 454-1037",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.autistrystudios.com"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Autistry Studios is a therapeutic educational Maker Space dedicated to building independent adults. The program offers education, vocational training, life skills, and physical fitness to help individuals achieve their highest level of independence.",
       "minimumAge": 18,
+      "yearEstablished": 2008,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Training",
+        "College Support",
+        "Theater and Animation",
+        "Academic Support",
+        "Physical Fitness",
+        "Community Integration"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Neurodiversity"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -318,13 +474,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Autistry Studios supports autistic/neurodivergent teens and adults in Marin County, focusing on independence through project-based learning.",
+        "Founded by parents of an autistic son, it offers therapeutic makerspace workshops and a comprehensive adult program.",
+        "As a 501(c)(3) nonprofit, Autistry Studios partners with local businesses like Double Rainbow Cafe for vocational training."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -352,10 +513,19 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Ligaya Day Services provides structured daytime activities, supervision, and support services for adults who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, and personal care assistance.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Social and Recreational Programming",
+        "Therapeutic Activities",
+        "Meals and Snacks",
+        "Personal Care Assistance"
       ],
       "selfDeterminationAccepted": "Unknown"
     },
@@ -369,15 +539,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "LIGAYA DAY SERVICES is a licensed Adult Day Program in San Rafael, CA.",
+        "It offers daytime support for adults, including those with disabilities or dementia."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 59,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "MARIN VENTURES",
-    "streetName": "MARIN VENTURES",
+    "streetName": "Marin Ventures",
     "ccldLicenseNumber": "216803883",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -394,17 +567,36 @@
     },
     "contact": {
       "phone": "(415) 472-4961",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.marinventures.org"
     },
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Marin Ventures is a community engagement day program for adults with developmental disabilities. Its mission is to foster independence and personal growth, and to promote the opportunity for community integration through activities at its San Rafael location and throughout Marin County and the Bay Area, as well as through promoting independent living and employment skills training.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Marin Ventures",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -412,13 +604,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Marin County and the Bay Area",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Marin Ventures is a day program for adults with developmental disabilities, fostering independence and community integration.",
+        "The program offers diverse activities including creative arts, health/fitness, and independent living skills training.",
+        "They feature an award-winning art studio and participate in local community events like Marin Open Studios."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

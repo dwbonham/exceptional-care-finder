@@ -18,17 +18,29 @@
     },
     "contact": {
       "phone": "(707) 468-8824",
-      "websiteUrl": ""
+      "websiteUrl": "https://uvah.org/programs/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Rural Adult Program (RAP) provides training and support in self-care, communication, community awareness, recreation/leisure activities, and vocational development to help people with developmental disabilities maximize their independence. RAP uses person-centered planning for individualized goals, with most activities occurring in the community.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Self-care training",
+        "Communication skills",
+        "Community awareness",
+        "Recreation/leisure activities",
+        "Vocational development",
+        "Physical therapy support"
+      ],
+      "parentOrganization": "Ukiah Valley Association for Habilitation",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,15 +52,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Rural Adult Program serves adults with developmental disabilities in rural Mendocino County.",
+        "It focuses on community integration, independent living, and vocational training.",
+        "The parent organization, UVAH, is CARF accredited and a nonprofit since 1961."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 72,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "REDWOOD COAST SENIORS  INC.",
-    "streetName": "REDWOOD COAST SENIORS  INC.",
+    "streetName": "Redwood Coast Seniors",
     "ccldLicenseNumber": "236800285",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -65,16 +81,30 @@
     },
     "contact": {
       "phone": "(707) 964-0443",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.rcscenter.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Alzheimer's Day Program offers activities to stimulate memory retention, including art projects, exercise, and movies, in a supervised and protective setting. It also provides social and recreational activities, and training essential for sustaining daily living activities for persons with moderate to severe Alzheimer's disease, dementia, or other cognitive and mental impairments.",
       "minimumAge": 18,
+      "yearEstablished": 1973,
       "languagesSupported": [
         "English"
       ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Exercise",
+        "Memory Stimulation",
+        "Social Activities",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Thursday",
+      "hoursOfOperation": "10:00am–2:00pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -83,19 +113,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "North to Cleone, south to Gibney Lane and 4 miles east",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Redwood Coast Seniors, founded in 1973, offers an Alzheimer's Day Program and various activities for optimal senior wellness.",
+        "This licensed Adult Day Care provides essential services like meals, transportation, and peer counseling for seniors."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 88,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ENHANCED SERVICES",
-    "streetName": "ENHANCED SERVICES",
+    "streetName": "Enhanced Services",
     "ccldLicenseNumber": "236803321",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -111,18 +145,41 @@
       }
     },
     "contact": {
-      "phone": "(707) 489-1513",
-      "websiteUrl": ""
+      "phone": "(707) 468-8824",
+      "websiteUrl": "https://uvah.org"
     },
     "facilityDetails": {
       "licensedCapacity": 40,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Enhanced Services offers a higher level of support for individuals requiring physical assistance or therapeutic intervention. Operating at a 1:2 staff ratio, this program ensures participants receive personalized, compassionate care—whether at home or in the community.",
       "minimumAge": 18,
+      "yearEstablished": 1961,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "On-site therapies including physical therapy and speech"
+      ],
+      "activitiesOffered": [
+        "Physical support and mobility assistance",
+        "Community-based activities",
+        "On-site therapies including physical therapy and speech",
+        "Social opportunities",
+        "Life Skills Training",
+        "Employment Support",
+        "Community Integration Programs",
+        "Self-care training",
+        "Communication training",
+        "Community awareness",
+        "Recreation/leisure activities",
+        "Vocational development"
+      ],
+      "parentOrganization": "Ukiah Valley Association for Habilitation",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -134,15 +191,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Enhanced Services offers specialized support for adults with significant needs, including physical assistance and therapies.",
+        "The program maintains a 1:2 staff ratio for personalized care and is CARF accredited."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 83,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "COMMUNITY CONNECTION  THE",
-    "streetName": "COMMUNITY CONNECTION  THE",
+    "streetName": "The Community Connection",
     "ccldLicenseNumber": "236803761",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -158,18 +218,33 @@
       }
     },
     "contact": {
-      "phone": "(707) 964-1489",
-      "websiteUrl": ""
+      "phone": "(707) 964-4940",
+      "websiteUrl": "https://www.parentsandfriends.org/the-community-connection"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Community Connection is a person-centered, community-based program that empowers individuals with developmental disabilities to build meaningful relationships, explore their interests, and become more engaged in everyday community life. The program emphasizes inclusion, self-expression, and personal growth by supporting participants in pursuing activities that align with their unique goals and values.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Community Integration",
+        "Socialization"
+      ],
+      "parentOrganization": "Parents and Friends, Inc.",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -181,15 +256,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Community Connection is a licensed adult day program in Fort Bragg, CA, for adults with developmental disabilities.",
+        "It offers inclusive, community-based activities focused on social connection, self-advocacy, and personal growth.",
+        "As a non-profit, it empowers individuals to build relationships and engage in everyday community life."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 87,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "COMMUNITY CONNECTION 2  THE",
-    "streetName": "COMMUNITY CONNECTION 2  THE",
+    "streetName": "The Community Connection 2",
     "ccldLicenseNumber": "236803786",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -206,17 +285,31 @@
     },
     "contact": {
       "phone": "(707) 964-4940",
-      "websiteUrl": ""
+      "websiteUrl": "https://parentsandfriends.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 15,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Community Connection is a person-centered, community-based program that empowers individuals with developmental disabilities to build meaningful relationships, explore their interests, and become more engaged in everyday community life. The program emphasizes inclusion, self-expression, and personal growth by supporting participants in pursuing activities that align with their unique goals and values.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Community Integration",
+        "Life Skills Training",
+        "Social Activities",
+        "Self-Advocacy Training"
+      ],
+      "parentOrganization": "Parents and Friends, Inc.",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00am–6:00pm, Saturday–Sunday: 10:00am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -228,9 +321,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Community Connection 2 is a licensed adult day program in Fort Bragg, CA, serving adults with developmental disabilities.",
+        "It empowers individuals through community-based activities, fostering relationships and personal growth."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 95,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
