@@ -148,6 +148,29 @@ for (const status of ['Inactive', 'Revoked']) {
   assert(`${status} → reason mentions status`, r.reasons[0].includes(status));
 }
 
+// ─── evaluate() — SKIP_WRONG_POPULATION ──────────────────────────────────────
+
+console.log('\nevaluate() — SKIP_WRONG_POPULATION');
+
+const nonDDEnrich = { ...richEnrich, servesDDPopulation: 'No' };
+const wrongPopResult = evaluate(ccld, nonDDEnrich, goodGeocode);
+assert('servesDDPopulation No → skip_wrong_population', wrongPopResult.decision === DECISION.SKIP_WRONG_POPULATION);
+assert('skip_wrong_population → record is null', wrongPopResult.record === null);
+assert('skip_wrong_population → reason mentions Lanterman', wrongPopResult.reasons[0].includes('Lanterman'));
+
+const ddEnrich    = { ...richEnrich, servesDDPopulation: 'Yes' };
+const unknownEnrich = { ...richEnrich, servesDDPopulation: 'Unknown' };
+const missingEnrich = { ...richEnrich }; // field absent (pre-fix enrichResult)
+delete missingEnrich.servesDDPopulation;
+
+assert('servesDDPopulation Yes → approved', evaluate(ccld, ddEnrich, goodGeocode).decision === DECISION.APPROVED);
+assert('servesDDPopulation Unknown → approved (conservative pass-through)', evaluate(ccld, unknownEnrich, goodGeocode).decision === DECISION.APPROVED);
+assert('servesDDPopulation absent → approved (pre-fix enrichResults pass through)', evaluate(ccld, missingEnrich, goodGeocode).decision === DECISION.APPROVED);
+
+// SKIP_WRONG_POPULATION takes precedence over license status check
+const revokedNonDD = evaluate({ ...ccld, licenseStatus: 'Inactive' }, nonDDEnrich, goodGeocode);
+assert('inactive license checked before population — still skip_revoked', revokedNonDD.decision === DECISION.SKIP_REVOKED);
+
 // ─── buildProgramRecord() — field mapping ─────────────────────────────────────
 
 console.log('\nbuildProgramRecord() — field mapping');

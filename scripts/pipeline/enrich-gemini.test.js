@@ -93,6 +93,8 @@ assert('mentions activitiesOffered field', ep.includes('activitiesOffered'));
 assert('mentions yearEstablished field', ep.includes('yearEstablished'));
 assert('mentions acceptsPrivatePay field', ep.includes('acceptsPrivatePay'));
 assert('mentions transportationServiceArea field', ep.includes('transportationServiceArea'));
+assert('mentions servesDDPopulation field', ep.includes('servesDDPopulation'));
+assert('prompt explains DD population criteria', ep.includes('Lanterman'));
 
 // ─── _buildSentimentPrompt ────────────────────────────────────────────────────
 
@@ -121,6 +123,8 @@ assert('includes website URL', sp.includes('https://example.com'));
 assert('explicitly bans Yelp', sp.includes('Yelp'));
 assert('explicitly bans Google Maps reviews', sp.includes('Google Maps'));
 assert('requests flaggedForReview field', sp.includes('flaggedForReview'));
+assert('mentions Lanterman Act for DD context', sp.includes('Lanterman Act'));
+assert('mentions developmental disabilities audience', sp.includes('developmental disabilities'));
 
 const spNoWebsite = _buildSentimentPrompt(sampleRecord, { ...enrichData, streetName: null, websiteUrl: null });
 assert('falls back to legal name when streetName null', spNoWebsite.includes('CAROLE SUND CENTER'));
@@ -301,6 +305,25 @@ const resultParseFail = await enrichProgram(sampleRecord, 'test-key', { skipSent
 assert('enrichParseError true when JSON extraction fails', resultParseFail.enrichParseError === true);
 assert('streetName falls back to legal name on parse error', resultParseFail.streetName === 'CAROLE SUND CENTER');
 assert('languagesSupported defaults to [] on parse error', Array.isArray(resultParseFail.languagesSupported) && resultParseFail.languagesSupported.length === 0);
+
+// ── servesDDPopulation normalization ────────────────────────────────────────
+for (const [input, expected] of [
+  ['Yes', 'Yes'],
+  ['No', 'No'],
+  ['Unknown', 'Unknown'],
+  [null, 'Unknown'],
+  [undefined, 'Unknown'],
+  ['yes', 'Unknown'],   // case-sensitive — Gemini should return exact values
+  ['no', 'Unknown'],
+]) {
+  const mockBody = JSON.stringify({ servesDDPopulation: input, webPresenceFound: true, languagesSupported: [], facilityFeatures: [], selfDeterminationAccepted: 'Unknown', populationSpecialization: [] });
+  globalThis.fetch = async () => ({
+    ok: true, status: 200,
+    json: async () => ({ candidates: [{ content: { parts: [{ text: mockBody }], role: 'model' }, finishReason: 'STOP' }] }),
+  });
+  const r = await enrichProgram(sampleRecord, 'test-key', { skipSentiment: true });
+  assert(`servesDDPopulation '${input}' normalizes to '${expected}'`, r.servesDDPopulation === expected);
+}
 
 // Restore fetch
 globalThis.fetch = originalFetch;

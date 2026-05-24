@@ -136,7 +136,7 @@ For servesDDPopulation: answer Yes if this program PRIMARILY serves adults with 
 export function _buildSentimentPrompt(record, enrichData) {
   const name = enrichData.streetName || record.legalLicenseName;
   const website = enrichData.websiteUrl || 'unknown';
-  return `You are researching the reputation of a California Adult Day Program for a parent-facing directory.
+  return `You are researching a California Adult Day Program for a directory used by families of adults with developmental disabilities (autism, intellectual disability, Down syndrome, cerebral palsy, and related conditions) funded through California Regional Centers under the Lanterman Act.
 
 Program: ${name}
 Location: ${record.city}, ${record.county} County, CA
@@ -147,7 +147,7 @@ Search the web for factual information about this specific program from: the pro
 
 DO NOT use Yelp, Google Maps reviews, or any review aggregator platform. Do not use user-submitted ratings.
 
-Write 0–3 sentences suitable for parents researching the program. Each sentence must be under 150 characters and convey something useful: program specialty, history, accreditation, population focus, or community involvement.
+Write 0–3 sentences suitable for families of adults with developmental disabilities researching this program. Each sentence must be under 150 characters and convey something useful: program specialty, population focus (e.g. autism, intellectual disability), history, accreditation, or community involvement.
 
 Respond with ONLY this JSON (no other text):
 {

@@ -113,9 +113,14 @@ if (!state.currentRunId) {
     state = updateStatus(state, r.ccldLicenseNumber, STATUS.SKIPPED_REVOKED, { ccldLicenseStatus: r.licenseStatus });
   }
 
-  // Handle status changes on known programs (log for now; future: update JSON files)
+  // Handle status changes on known programs — update JSON and checkpoint
   for (const { record, oldStatus, newStatus } of statusChanges) {
     console.log(`  ⚠ Status change: ${record.legalLicenseName} (${record.ccldLicenseNumber}) ${oldStatus} → ${newStatus}`);
+    const updated = _updateProgramLicenseStatus(record, newStatus);
+    if (updated) {
+      console.log(`    Updated JSON file: licenseStatus → ${newStatus}`);
+    }
+    state = updateStatus(state, record.ccldLicenseNumber, STATUS.SKIPPED_REVOKED, { ccldLicenseStatus: newStatus });
   }
 
   const { state: s2, newCount } = startRun(state, newPrograms.map(r => r.ccldLicenseNumber));
@@ -307,11 +312,13 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
           state = updateStatus(state, licNum, STATUS.SKIPPED_WRONG_POPULATION, { skipReason: gateResult.reasons[0] });
           console.log(`\n  ⚠ Backfill wrong population: ${ccldRecord.legalLicenseName} (${licNum}) — removed from directory`);
           _removeWrongPopulationProgram(ccldRecord);
-        } else if (gateResult.decision === DECISION.APPROVED) {
-          _writeApprovedProgram(gateResult.record);
-          backfillGateResults.push(gateResult);
+        } else {
+          if (gateResult.decision === DECISION.APPROVED) {
+            _writeApprovedProgram(gateResult.record);
+            backfillGateResults.push(gateResult);
+          }
+          state = markGeminiEnriched(state, licNum, { enrichResult });
         }
-        state = markGeminiEnriched(state, licNum, { enrichResult });
         process.stdout.write('.');
       } catch (e) {
         if (e instanceof RateLimitError) {
@@ -426,6 +433,26 @@ function _removeWrongPopulationProgram(ccldRecord) {
   if (filtered.length < existing.length) {
     writeFileSync(file, JSON.stringify(filtered, null, 2) + '\n');
   }
+}
+
+// ─── Helper: update licenseStatus on a published program when CCLD status changes ─
+// Called during Phase 1 when diffWithCheckpoint detects an Active → Inactive/Revoked change.
+// Updates the JSON file in-place so families see the Inactive badge immediately.
+// Returns true if the program was found in our JSON files, false if it wasn't yet published.
+
+function _updateProgramLicenseStatus(ccldRecord, newStatus) {
+  const rawCounty = (ccldRecord.county ?? '').replace(/ County$/i, '').trim();
+  const county = rawCounty.toLowerCase().replace(/\s+/g, '-');
+  const file = join(PROGRAM_DATA, ccldRecord.state ?? 'CA', county, 'programs.json');
+
+  if (!existsSync(file)) return false;
+  const existing = JSON.parse(readFileSync(file, 'utf8'));
+  const idx = existing.findIndex(p => p.ccldLicenseNumber === ccldRecord.ccldLicenseNumber);
+  if (idx === -1) return false;
+
+  existing[idx] = { ...existing[idx], licenseStatus: newStatus };
+  writeFileSync(file, JSON.stringify(existing, null, 2) + '\n');
+  return true;
 }
 
 // ─── Helper: write approved program to county JSON file ──────────────────────
