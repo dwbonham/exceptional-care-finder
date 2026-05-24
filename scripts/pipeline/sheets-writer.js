@@ -43,7 +43,85 @@ export const REGIONAL_CENTER_HEADERS = [
   'State', 'County', 'Name', 'Phone', 'Website', 'Zip Codes', 'Notes',
 ];
 
+export const COUNTY_SUMMARY_HEADERS = [
+  'County', 'Total Programs', 'Enriched', 'Pending Gemini', 'Enrichment %',
+  'Last CCLD Refresh', 'Last Gemini Run', 'Summary Updated',
+];
+
 // ─── Public API ───────────────────────────────────────────────────────────────
+
+/**
+ * Rebuild the "County Summary" tab from the current Programs tab data.
+ * Reads all Programs rows, groups by county, computes stats, clears the tab,
+ * and rewrites. Called at the end of every pipeline run that touches the sheet.
+ *
+ * @param {{ spreadsheetId: string, serviceAccount: object }} config
+ */
+export async function syncCountySummary(config) {
+  const { spreadsheetId, serviceAccount } = config;
+  const token = await _getAccessToken(serviceAccount);
+
+  // Read all Programs rows (columns A–AS)
+  const range = encodeURIComponent('Programs!A:AS');
+  const res = await fetch(
+    `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}`,
+    { headers: { Authorization: `Bearer ${token}` } }
+  );
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`County summary read failed: HTTP ${res.status}\n${text}`);
+  }
+  const { values = [] } = await res.json();
+  const [, ...rows] = values; // skip header row
+
+  // Column indices matching HEADERS in this file
+  const C_LAST_UPDATED = 3;   // "Last Updated"
+  const C_CCLD_VERIFIED = 4;  // "CCLD Last Verified"
+  const C_COUNTY        = 11; // "County"
+  const C_COMPLETENESS  = 2;  // "Completeness %"
+  const C_PHONE         = 23; // "Phone"
+  const C_WEBSITE       = 24; // "Website"
+  const C_SENTIMENT     = 37; // "Sentiment Bullet 1"
+
+  const countyMap = new Map();
+  for (const row of rows) {
+    const county       = (row[C_COUNTY]       ?? '').trim() || '(unknown)';
+    const completeness = parseFloat(row[C_COMPLETENESS]) || 0;
+    const website      = (row[C_WEBSITE]      ?? '').trim();
+    const phone        = (row[C_PHONE]        ?? '').trim();
+    const sentiment    = (row[C_SENTIMENT]    ?? '').trim();
+    const lastUpdated  = (row[C_LAST_UPDATED] ?? '').trim();
+    const ccldVerified = (row[C_CCLD_VERIFIED]?? '').trim();
+
+    if (!countyMap.has(county)) {
+      countyMap.set(county, { total: 0, enriched: 0, pending: 0, lastCcld: '', lastGemini: '' });
+    }
+    const c = countyMap.get(county);
+    c.total++;
+
+    const geminiFoundData = completeness > 0 && (website || phone || sentiment);
+    if (geminiFoundData) {
+      c.enriched++;
+      if (lastUpdated > c.lastGemini) c.lastGemini = lastUpdated;
+    } else {
+      c.pending++;
+    }
+    if (ccldVerified > c.lastCcld) c.lastCcld = ccldVerified;
+  }
+
+  const today = new Date().toISOString().slice(0, 10);
+  const summaryRows = [COUNTY_SUMMARY_HEADERS];
+  for (const [county, { total, enriched, pending, lastCcld, lastGemini }] of
+    [...countyMap.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
+    const pct = total > 0 ? `${Math.round((enriched / total) * 100)}%` : '0%';
+    summaryRows.push([county, total, enriched, pending, pct, lastCcld, lastGemini, today]);
+  }
+
+  const sheetName = 'County Summary';
+  await _ensureTab(spreadsheetId, sheetName, token);
+  await _clearSheet(spreadsheetId, sheetName, token);
+  return _appendRows(spreadsheetId, sheetName, summaryRows, token);
+}
 
 /**
  * Overwrite the Funding Guides tab with all FAQs from every state guide.
@@ -143,6 +221,53 @@ export async function appendProgramRows(gateResults, config) {
 }
 
 /**
+ * Upsert program rows: update existing rows in place by CCLD License Number,
+ * append rows that don't exist yet. Prevents duplicates when Phase 5 backfill
+ * re-processes programs already written by Phase 4.
+ *
+ * Review Notes (column AS, index 44) are preserved on update — only columns
+ * A through AR are overwritten.
+ *
+ * @param {import('./quality-gate.js').QualityGateResult[]} gateResults
+ * @param {{ spreadsheetId: string, sheetName: string, serviceAccount: object }} config
+ */
+export async function upsertProgramRows(gateResults, config) {
+  if (gateResults.length === 0) return;
+  const { spreadsheetId, sheetName, serviceAccount } = config;
+  const token = await _getAccessToken(serviceAccount);
+
+  await _ensureHeaders(spreadsheetId, sheetName, token);
+
+  const licToRow = await _readLicenseToRowMap(spreadsheetId, sheetName, token);
+
+  const updateData = [];
+  const toAppend = [];
+
+  for (const gateResult of gateResults) {
+    const licNum = gateResult.record?.ccldLicenseNumber ?? '';
+    const row = buildSheetRow(gateResult);
+    const existingRowIdx = licToRow[licNum];
+
+    if (existingRowIdx != null) {
+      // Update columns A–AR (indices 0–43); preserve Review Notes at index 44 (col AS)
+      updateData.push({
+        range: `${sheetName}!A${existingRowIdx}:AR${existingRowIdx}`,
+        values: [row.slice(0, 44)],
+      });
+    } else {
+      toAppend.push(row);
+    }
+  }
+
+  if (updateData.length > 0) {
+    await _batchUpdateValues(spreadsheetId, updateData, token);
+  }
+  if (toAppend.length > 0) {
+    await _appendRows(spreadsheetId, sheetName, toAppend, token);
+  }
+}
+
+/**
  * Map a QualityGateResult to a 40-column row array matching HEADERS order.
  * Pure function — exported for tests.
  *
@@ -217,6 +342,48 @@ export function buildSheetRow(gateResult) {
 }
 
 // ─── Internal: Sheets API calls ───────────────────────────────────────────────
+
+/**
+ * Read column F (CCLD License Number) from the sheet and return a map of
+ * licenseNumber → 1-based row index. Only the first occurrence is kept for
+ * each license number — duplicates are resolved by the cleanup script.
+ */
+async function _readLicenseToRowMap(spreadsheetId, sheetName, token) {
+  const range = encodeURIComponent(`${sheetName}!F:F`);
+  const res = await fetch(
+    `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}`,
+    { headers: { Authorization: `Bearer ${token}` } }
+  );
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Sheets read failed: HTTP ${res.status}\n${text}`);
+  }
+  const data = await res.json();
+  const rows = data.values ?? [];
+  const map = {};
+  for (let i = 0; i < rows.length; i++) {
+    const licNum = rows[i]?.[0];
+    if (licNum && licNum !== HEADERS[5] && !(licNum in map)) {
+      map[licNum] = i + 1; // 1-based row index
+    }
+  }
+  return map;
+}
+
+async function _batchUpdateValues(spreadsheetId, data, token) {
+  const res = await fetch(
+    `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values:batchUpdate`,
+    {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ valueInputOption: 'USER_ENTERED', data }),
+    }
+  );
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Sheets batchUpdate failed: HTTP ${res.status}\n${text}`);
+  }
+}
 
 async function _ensureHeaders(spreadsheetId, sheetName, token) {
   // Create the tab if it doesn't exist yet

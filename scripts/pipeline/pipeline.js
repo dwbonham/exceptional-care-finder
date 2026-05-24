@@ -26,7 +26,7 @@ import { fetchAdultDayPrograms, diffWithCheckpoint } from './ingest-ccld.js';
 import { enrichProgram, RateLimitError } from './enrich-gemini.js';
 import { resolveCoordinates, GeocodingError } from './geocode.js';
 import { evaluate, DECISION } from './quality-gate.js';
-import { appendProgramRow, appendProgramRows, syncFundingGuides, syncRegionalCenters } from './sheets-writer.js';
+import { appendProgramRow, appendProgramRows, upsertProgramRows, syncFundingGuides, syncRegionalCenters, syncCountySummary } from './sheets-writer.js';
 
 const ROOT = join(import.meta.dir, '..', '..');
 const PROGRAM_DATA = join(ROOT, 'program-data');
@@ -314,11 +314,12 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
       }
       save(state);
     }
-    // Mirror enriched rows to Sheets so the sheet reflects updated completeness scores
+    // Upsert enriched rows into Sheets — updates existing rows written by Phase 4
+    // instead of appending duplicates. New rows (not yet in sheet) are appended.
     if (backfillGateResults.length > 0) {
       const sheetsConfig = { spreadsheetId: cfg.sheetId, sheetName: 'Programs', serviceAccount: cfg.serviceAccount };
-      console.log(`\n  Syncing ${backfillGateResults.length} backfilled rows to Google Sheets…`);
-      await appendProgramRows(backfillGateResults, sheetsConfig);
+      console.log(`\n  Upserting ${backfillGateResults.length} backfilled rows in Google Sheets…`);
+      await upsertProgramRows(backfillGateResults, sheetsConfig);
     }
     const remaining = getNotGeminiEnriched(state, 999999).length;
     console.log(`  Backfill: ${remaining} programs still queued for enrichment`);
@@ -326,12 +327,19 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
 }
 
 // ── Complete ──────────────────────────────────────────────────────────────────
+const sheetsBase = { spreadsheetId: cfg.sheetId, serviceAccount: cfg.serviceAccount };
+
 if (enrichmentRateLimited) {
   // Don't mark the run complete — it will resume tomorrow when quota resets
   console.log('\nPartial run complete (Gemini quota reached). Resuming tomorrow.');
+  console.log('\nUpdating County Summary tab…');
+  await syncCountySummary(sheetsBase);
   console.log(JSON.stringify(summary(state), null, 2));
   process.exit(0);
 }
+
+console.log('\nUpdating County Summary tab…');
+await syncCountySummary(sheetsBase);
 
 state = completeRun(state);
 save(state);
