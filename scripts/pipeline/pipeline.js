@@ -249,6 +249,7 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
   const toBackfill = getNotGeminiEnriched(state);
   if (toBackfill.length) {
     console.log(`\nGemini backfill: enriching ${toBackfill.length} queued program(s)…`);
+    const backfillGateResults = [];
     for (const licNum of toBackfill) {
       const { ccldRecord, geocodeResult } = state.programs[licNum];
       try {
@@ -256,6 +257,7 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
         const gateResult = evaluate(ccldRecord, enrichResult, geocodeResult);
         if (gateResult.decision !== DECISION.SKIP_REVOKED) {
           _writeApprovedProgram(gateResult.record);
+          backfillGateResults.push(gateResult);
         }
         state = markGeminiEnriched(state, licNum, { enrichResult });
         process.stdout.write('.');
@@ -270,6 +272,12 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
         process.stdout.write('!');
       }
       save(state);
+    }
+    // Mirror enriched rows to Sheets so the sheet reflects updated completeness scores
+    if (backfillGateResults.length > 0) {
+      const sheetsConfig = { spreadsheetId: cfg.sheetId, sheetName: 'Programs', serviceAccount: cfg.serviceAccount };
+      console.log(`\n  Syncing ${backfillGateResults.length} backfilled rows to Google Sheets…`);
+      await appendProgramRows(backfillGateResults, sheetsConfig);
     }
     const remaining = getNotGeminiEnriched(state, 999999).length;
     console.log(`  Backfill: ${remaining} programs still queued for enrichment`);

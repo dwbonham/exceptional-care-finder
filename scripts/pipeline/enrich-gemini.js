@@ -96,12 +96,13 @@ export function calculateCompleteness(enrichResult) {
 // ─── Prompt builders (exported for tests) ────────────────────────────────────
 
 export function _buildEnrichmentPrompt(record) {
+  const countyDisplay = record.county.replace(/ County$/i, '');
   return `You are a research assistant building a directory for parents seeking Adult Day Programs in California. These programs serve adults with developmental disabilities (autism, Down syndrome, intellectual disabilities) and are funded by regional centers.
 
 Search the web to find current details about this licensed facility:
 - Legal name: ${record.legalLicenseName}
 - Address: ${record.address}, ${record.city}, CA ${record.zipCode}
-- County: ${record.county} County
+- County: ${countyDisplay} County
 - CCLD License #: ${record.ccldLicenseNumber}
 - Licensed capacity: ${record.capacity ?? 'unknown'}
 
