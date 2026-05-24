@@ -124,10 +124,13 @@ Return ONLY a JSON object with exactly these fields (no other text):
   "programFocus": "1–2 sentence description of what the program offers to participants",
   "acceptsPrivatePay": "Yes or No or Unknown",
   "transportationServiceArea": "Geographic area served by program transportation (e.g. 'Within 10 miles', 'Riverside County'), or null",
-  "webPresenceFound": true
+  "webPresenceFound": true,
+  "servesDDPopulation": "Yes or No or Unknown"
 }
 
-Set webPresenceFound to false only if you cannot find ANY web presence for this program. Use null for fields you cannot confirm.`;
+Set webPresenceFound to false only if you cannot find ANY web presence for this program. Use null for fields you cannot confirm.
+
+For servesDDPopulation: answer Yes if this program PRIMARILY serves adults with intellectual or developmental disabilities (autism, intellectual disability, cerebral palsy, Down syndrome, epilepsy, or closely related conditions) funded through a California Regional Center under the Lanterman Act. Answer No if it primarily serves seniors with dementia or Alzheimer's, adults with mental illness or substance use disorders, or medically frail elderly adults. Answer Unknown only if you genuinely cannot determine the primary population served.`;
 }
 
 export function _buildSentimentPrompt(record, enrichData) {
@@ -244,6 +247,7 @@ function _normalizeEnrichment(json, ccldRecord) {
     acceptsPrivatePay:        _selfDet(j.acceptsPrivatePay),
     transportationServiceArea: _str(j.transportationServiceArea),
     webPresenceFound:         j.webPresenceFound !== false,
+    servesDDPopulation:       _selfDet(j.servesDDPopulation),
     enrichParseError:         json === null,
   };
 }
@@ -302,6 +306,7 @@ function _posInt(v) {
  * @property {'Yes'|'No'|'Unknown'} acceptsPrivatePay
  * @property {string|null} transportationServiceArea
  * @property {boolean} webPresenceFound
+ * @property {'Yes'|'No'|'Unknown'} servesDDPopulation
  * @property {boolean} enrichParseError
  * @property {string[]} sentimentBullets
  * @property {boolean} sentimentFlagged

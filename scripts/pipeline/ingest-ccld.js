@@ -7,8 +7,11 @@
 // returns clean JSON, and fits under the 1,000-record page limit for the ~969 ADP records.
 //
 // CRITICAL FILTER: TYPE = 775 ("Adult Day Care" / Adult Day Programs)
-// NOT Adult Day Health Care — that program type is licensed by DHCS, not CCLD, and
-// serves a different population with different funding. It does not appear in this dataset.
+// WARNING: Type 775 is a broad CCLD category that includes DDS-funded programs for
+// adults with developmental disabilities AND senior/dementia ADHC programs AND mental
+// health IOPs. CCLD licenses by facility type, not by funding source or population served.
+// The quality gate's Gemini population check (servesDDPopulation) is the second filter
+// that removes non-DD programs before they reach the site.
 
 const FEATURE_SERVICE =
   'https://services.arcgis.com/XLPEppdz2H9dOiqp/arcgis/rest/services/CDSS_CCL_Facilities/FeatureServer/0/query';

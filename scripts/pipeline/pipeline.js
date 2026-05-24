@@ -252,6 +252,12 @@ if (toScore.length) {
       continue;
     }
 
+    if (gateResult.decision === DECISION.SKIP_WRONG_POPULATION) {
+      state = updateStatus(state, licNum, STATUS.SKIPPED_WRONG_POPULATION, { skipReason: gateResult.reasons[0] });
+      console.log(`  ⚠ Wrong population: ${state.programs[licNum]?.ccldRecord?.legalLicenseName} (${licNum}) — excluded`);
+      continue;
+    }
+
     if (gateResult.decision === DECISION.APPROVED) {
       _writeApprovedProgram(gateResult.record);
       state = updateStatus(state, licNum, STATUS.APPROVED);
@@ -297,7 +303,11 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
       try {
         const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment });
         const gateResult = evaluate(ccldRecord, enrichResult, geocodeResult);
-        if (gateResult.decision !== DECISION.SKIP_REVOKED) {
+        if (gateResult.decision === DECISION.SKIP_WRONG_POPULATION) {
+          state = updateStatus(state, licNum, STATUS.SKIPPED_WRONG_POPULATION, { skipReason: gateResult.reasons[0] });
+          console.log(`\n  ⚠ Backfill wrong population: ${ccldRecord.legalLicenseName} (${licNum}) — removed from directory`);
+          _removeWrongPopulationProgram(ccldRecord);
+        } else if (gateResult.decision === DECISION.APPROVED) {
           _writeApprovedProgram(gateResult.record);
           backfillGateResults.push(gateResult);
         }
@@ -393,11 +403,29 @@ function _buildBareEnrichResult() {
     acceptsPrivatePay:        'Unknown',
     transportationServiceArea: null,
     webPresenceFound:         false,
+    servesDDPopulation:       'Unknown',
     enrichParseError:         false,
     sentimentBullets:         [],
     sentimentFlagged:         false,
     sentimentParseError:      false,
   };
+}
+
+// ─── Helper: remove a wrong-population program from its county JSON file ─────
+// Called during Phase 5 backfill when Gemini determines a previously-written
+// CCLD-only record doesn't serve the Lanterman Act population.
+
+function _removeWrongPopulationProgram(ccldRecord) {
+  const rawCounty = (ccldRecord.county ?? '').replace(/ County$/i, '').trim();
+  const county = rawCounty.toLowerCase().replace(/\s+/g, '-');
+  const file = join(PROGRAM_DATA, ccldRecord.state ?? 'CA', county, 'programs.json');
+
+  if (!existsSync(file)) return;
+  const existing = JSON.parse(readFileSync(file, 'utf8'));
+  const filtered = existing.filter(p => p.ccldLicenseNumber !== ccldRecord.ccldLicenseNumber);
+  if (filtered.length < existing.length) {
+    writeFileSync(file, JSON.stringify(filtered, null, 2) + '\n');
+  }
 }
 
 // ─── Helper: write approved program to county JSON file ──────────────────────

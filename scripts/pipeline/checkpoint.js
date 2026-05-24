@@ -30,7 +30,8 @@ export const STATUS = {
   APPROVED: 'approved',                     // score ≥ 80%; included in weekly PR
   FLAGGED_FOR_REVIEW: 'flagged_for_review', // score < 80%; written to Google Sheet
   PUBLISHED: 'published',                   // PR merged; permanently in the site
-  SKIPPED_REVOKED: 'skipped_revoked',       // CCLD licenseStatus = Revoked; excluded
+  SKIPPED_REVOKED:          'skipped_revoked',           // CCLD licenseStatus = Revoked; excluded
+  SKIPPED_WRONG_POPULATION: 'skipped_wrong_population',  // Gemini confirmed non-DD population; excluded
 };
 
 // Stages that represent unfinished work (used by catch-up crons)

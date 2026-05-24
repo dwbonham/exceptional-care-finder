@@ -17,9 +17,10 @@
 import { calculateCompleteness } from './enrich-gemini.js';
 
 export const DECISION = {
-  APPROVED:     'approved',
-  NEEDS_REVIEW: 'needs_review',
-  SKIP_REVOKED: 'skip_revoked',
+  APPROVED:              'approved',
+  NEEDS_REVIEW:          'needs_review',
+  SKIP_REVOKED:          'skip_revoked',
+  SKIP_WRONG_POPULATION: 'skip_wrong_population',
 };
 
 // ─── Public API ───────────────────────────────────────────────────────────────
@@ -39,6 +40,17 @@ export function evaluate(ccldRecord, enrichResult, geocodeResult) {
       decision: DECISION.SKIP_REVOKED,
       completenessScore: 0,
       reasons: [`License status is "${ccldRecord.licenseStatus}" — excluded from site`],
+      record: null,
+    };
+  }
+
+  // Hard filter — programs Gemini confirms do not serve the DD/Lanterman Act population
+  // Unknown passes through; only an explicit No is rejected here.
+  if (enrichResult.servesDDPopulation === 'No') {
+    return {
+      decision: DECISION.SKIP_WRONG_POPULATION,
+      completenessScore: 0,
+      reasons: ['Gemini determined this program does not primarily serve the Lanterman Act (developmental disabilities) population — excluded from directory'],
       record: null,
     };
   }
