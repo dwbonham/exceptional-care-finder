@@ -203,6 +203,11 @@ async function _callGemini(prompt, apiKey, model) {
     throw new RateLimitError(`Gemini rate limit reached (429): ${body429}`);
   }
 
+  if (res.status === 503) {
+    const body503 = await res.text();
+    throw new RateLimitError(`Gemini unavailable (503) — will retry next run: ${body503}`);
+  }
+
   if (!res.ok) {
     const errBody = await res.text();
     throw new Error(`Gemini API error: HTTP ${res.status}\n${errBody}`);
