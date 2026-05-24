@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "NURTURING INDEPENDENCE THROUGH ARTISTIC",
-    "streetName": "NURTURING INDEPENDENCE THROUGH ARTISTIC",
+    "streetName": "NIAD Art Center",
     "ccldLicenseNumber": "71440493",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,37 @@
     },
     "contact": {
       "phone": "(510) 620-0290",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.niadart.org"
     },
     "facilityDetails": {
       "licensedCapacity": 70,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "NIAD Art Center is a progressive art studio and gallery that promotes creative expression, independence, dignity, and community integration for adult artists with developmental and physical disabilities. It provides studio space, materials, mentorship, and opportunities to exhibit and sell artwork, fostering professional artistic careers and life skills.",
       "minimumAge": 18,
+      "yearEstablished": 1982,
       "languagesSupported": [
-        "English"
+        "English",
+        "Español"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Field Trips"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "10:00am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Physical Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,15 +60,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "NIAD Art Center is a Richmond-based progressive art studio and gallery for adult artists with developmental and physical disabilities.",
+        "Founded in 1982, NIAD fosters creative expression, independence, and community integration for its artists."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CAP - CONCORD",
-    "streetName": "CAP - CONCORD",
+    "streetName": "Community Access Program (CAP) - Concord",
     "ccldLicenseNumber": "71441228",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -65,17 +88,35 @@
     },
     "contact": {
       "phone": "(925) 685-9742",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.vistability.org"
     },
     "facilityDetails": {
       "licensedCapacity": 38,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Provides a program for adults with severe or multiple intellectual and developmental disabilities. It tailors individual programs to help these adults actively participate in their own communities, offering community awareness training, recreation and leisure skills development, domestic skills, and a vocational program.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Community Integration",
+        "Recreation and Leisure",
+        "Life Skills Training",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Vistability",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -83,19 +124,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Contra Costa County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "CAP Concord supports adults with intellectual and developmental disabilities in achieving independent community living.",
+        "The program offers vocational training, domestic skill development, and recreational activities in a 1:3 support ratio."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 96,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "REHABILITATION & EMP. SVCS. OF THE EAST",
-    "streetName": "REHABILITATION & EMP. SVCS. OF THE EAST",
+    "streetName": "RES Success",
     "ccldLicenseNumber": "75600296",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -111,18 +156,34 @@
       }
     },
     "contact": {
-      "phone": "(925) 229-8228",
-      "websiteUrl": ""
+      "phone": "(925) 229-8828",
+      "websiteUrl": "https://ressuccess.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Rehabilitation and Employment Services of the East Bay provides program services to adults with intellectual challenges and autism spectrum disorders, and other developmental disabilities, focusing on social and vocational skills, community integration, and education to foster greater independence and self-worth. The program emphasizes individualized plans, daily living skills, and communication support.",
       "minimumAge": 18,
+      "yearEstablished": 1994,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Workshop",
+        "Community Integration"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -134,9 +195,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "RES Success provides person-centered adult day programs for individuals with intellectual disabilities or autism spectrum disorder.",
+        "Founded in 1994, the program focuses on education, community integration, and developing life skills.",
+        "It offers both site-based and community-based programs in Contra Costa County, licensed by CA DSS."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 78,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -159,17 +224,43 @@
     },
     "contact": {
       "phone": "(925) 778-2905",
-      "websiteUrl": ""
+      "websiteUrl": "https://ciwp.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 48,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Community Integrated Work Program, Inc. (CIWP) provides work and behavioral day-programs, independent living supports, and crisis intervention for adults with developmental disabilities and mental challenges. The program focuses on community integration, vocational training, job supports, and fostering self-advocacy to help participants achieve productive lifestyles and their full potential.",
       "minimumAge": 18,
+      "yearEstablished": 1987,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Job Supports",
+        "Business Ownership",
+        "Community Integration",
+        "Self-Advocacy",
+        "Health Maintenance",
+        "Social / Interpersonal Skills",
+        "Augmented Communication",
+        "Behavioral Supports",
+        "Work Preparation",
+        "Volunteer Opportunities",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Community Integrated Work Program, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -177,19 +268,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local to Antioch and surrounding Contra Costa County communities",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Community Integrated Work Program has supported individuals with developmental disabilities since 1987.",
+        "It offers work, behavioral day-programs, independent living support, and crisis intervention.",
+        "Day programs focus on vocational training, community integration, and behavioral supports."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CENTER FOR ADAPTIVE LEARNING",
-    "streetName": "CENTER FOR ADAPTIVE LEARNING",
+    "streetName": "Adaptive Learning Center",
     "ccldLicenseNumber": "75600483",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -206,17 +302,34 @@
     },
     "contact": {
       "phone": "(925) 827-3863",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.alc-ca.org"
     },
     "facilityDetails": {
       "licensedCapacity": 48,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Adaptive Learning Center (ALC) empowers adults with neurodevelopmental disabilities and autism spectrum disorders to achieve self-reliant living through independent living skills training, vocational support, and community engagement. ALC offers a comprehensive program including educational groups, art therapy, computer training, and health/nutrition programs to foster personal growth and successful socialization.",
       "minimumAge": 18,
+      "yearEstablished": 1988,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Training",
+        "Social/Recreational Activities"
+      ],
+      "parentOrganization": "Adaptive Learning Center",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -224,13 +337,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Adaptive Learning Center supports adults with neurodevelopmental and autism spectrum disabilities.",
+        "It fosters self-reliant living through vocational, social, and community integration programs.",
+        "Established in 1988, it is a non-profit licensed by CA Dept. of Social Services."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -258,11 +376,13 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Adult Day Programs provide structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -275,15 +395,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Community Integrated Support Services supports individuals with autism and developmental disabilities.",
+        "Founded in 2002, it holds a 4-star Charity Navigator rating for accountability and finance.",
+        "This licensed Adult Day Care offers programs for independence and community integration."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 59,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "RESIDENTIAL & EDUCATIONAL SERVICES",
-    "streetName": "RESIDENTIAL & EDUCATIONAL SERVICES",
+    "streetName": "Residential & Educational Services",
     "ccldLicenseNumber": "79200037",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -299,18 +423,25 @@
       }
     },
     "contact": {
-      "phone": "(925) 229-8228",
+      "phone": "(925) 957-1665",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 20,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Residential & Educational Services is a licensed adult day program providing structured daytime activities, supervision, and support services for adults. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00am–6:00pm, Saturday–Sunday: 10:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -322,15 +453,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Residential & Educational Services (RES Success) offers day programs for adults with intellectual and developmental disabilities.",
+        "The Martinez program provides structured activities, skill development, and community integration opportunities.",
+        "It serves individuals with developmental disabilities, including those with severe needs, with a licensed capacity of 20."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 65,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GEORGE MILLER CENTER - RICHMOND",
-    "streetName": "GEORGE MILLER CENTER - RICHMOND",
+    "streetName": "George Miller Center - Richmond Adult Program",
     "ccldLicenseNumber": "79200104",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -346,18 +481,38 @@
       }
     },
     "contact": {
-      "phone": "(510) 222-8266",
-      "websiteUrl": ""
+      "phone": "(510) 374-3981",
+      "websiteUrl": "https://www.vistability.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 100,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Provides a program for adults with severe or multiple intellectual and developmental disabilities. The program tailors individual plans to help these adults actively participate in their own communities, offering community awareness training, recreation and leisure skills development, domestic skills, and a vocational program.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Community Awareness Training",
+        "Recreation and Leisure Skills Development",
+        "Life Skills Training",
+        "Vocational Program"
+      ],
+      "parentOrganization": "Vistability",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities",
+        "Autism",
+        "Down Syndrome"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -365,19 +520,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Contra Costa County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The George Miller Center - Richmond Adult Program supports adults with severe intellectual and developmental disabilities.",
+        "It offers community awareness, recreation, domestic skills, and vocational training to foster community participation."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 96,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GEORGE MILLER CENTER - CONCORD",
-    "streetName": "GEORGE MILLER CENTER - CONCORD",
+    "streetName": "George Miller Center - Concord Adult Program",
     "ccldLicenseNumber": "79200118",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -394,17 +553,39 @@
     },
     "contact": {
       "phone": "(925) 646-5710",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.vistability.org"
     },
     "facilityDetails": {
       "licensedCapacity": 100,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Provides a program for adults with severe or multiple intellectual and developmental disabilities. It tailors individual programs to help these adults actively participate in their own communities, offering community awareness training, recreation and leisure skills development, domestic skills, and a vocational program.",
       "minimumAge": 18,
+      "yearEstablished": 1965,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Community Awareness Training",
+        "Recreation and Leisure Skills Development",
+        "Domestic Skills",
+        "Vocational Program"
+      ],
+      "parentOrganization": "VistAbility",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy",
+        "Epilepsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -416,9 +597,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The George Miller Center - Concord Adult Program serves adults with severe or multiple intellectual and developmental disabilities.",
+        "It offers community awareness training, recreation, leisure, domestic, and vocational skill development.",
+        "Operated by VistAbility, a non-profit founded in 1965, it supports independent community living."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 99,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -441,17 +626,37 @@
     },
     "contact": {
       "phone": "(925) 254-3465",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.lamorindarespite.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 35,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Lamorinda Adult Respite Center (LARC) is a licensed and supervised social adult day program serving people with memory loss due to mild to moderate Alzheimer's Disease or related dementias. It provides a safe, supportive, and interactive environment to promote peer interaction and maximize participants' skills, while offering much-needed respite and support to caregivers.",
       "minimumAge": 18,
+      "yearEstablished": 1997,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Games",
+        "Chair Exercise",
+        "Therapy Pet Visits",
+        "Story Sharing"
+      ],
+      "parentOrganization": "Holy Shepherd Lutheran Church",
+      "daysOfOperation": "Monday–Thursday",
+      "hoursOfOperation": "11:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Alzheimer's Disease",
+        "Dementia",
+        "Memory Impairment"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -459,13 +664,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Contra Costa County",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "LARC is a licensed adult day program for those with mild to moderate memory loss, Alzheimer's, or related dementias.",
+        "Established in 1997, LARC offers engaging activities like music, art, and pet visits in a supportive environment."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -487,18 +697,37 @@
       }
     },
     "contact": {
-      "phone": "(510) 724-9042",
-      "websiteUrl": ""
+      "phone": "(510) 724-9044",
+      "websiteUrl": "https://www.pathwaytochoices.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The mission of Pathway To Choices is to provide adults with developmental disabilities, behavioral challenges, and/or concurrent mental illnesses with a stimulating and individualized program that will expand upon and strengthen their base of knowledge and competence for active and effective participation in a broad range of activities that they find meaningful.",
       "minimumAge": 18,
+      "yearEstablished": 2002,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Pathway to Choices, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–1:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -506,13 +735,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Bay Area",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Pathway To Choices Day Services in Pinole offers individualized day programs for adults 21+ with developmental disabilities.",
+        "The program emphasizes community outings, educational activities, and a 1:3 staff-to-client ratio.",
+        "Founded in 2002, it supports clients from regional centers in the Bay Area."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 99,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -540,12 +774,22 @@
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Ciss Brentwood Day Program provides structured daytime activities, supervision, and support services for adults who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, medication management, and in some cases, physical therapy, occupational therapy, and nursing services.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Structured daytime activities",
+        "Therapeutic activities",
+        "Social and recreational programming"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Adults with disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -557,9 +801,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "CISS Brentwood Day Program is a licensed adult day program in Brentwood, CA, with a capacity of 60 individuals.",
+        "It offers structured daytime activities, health monitoring, meals, and therapeutic programming for adults needing supervision, including those with dementia or disabilities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 73,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -581,18 +828,34 @@
       }
     },
     "contact": {
-      "phone": "(510) 714-6071",
-      "websiteUrl": ""
+      "phone": "(925) 516-2222",
+      "websiteUrl": "https://www.missionhopedayprogram.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Mission-Hope Day Program is a community-based Adult Day Program serving the IDD community. They support opportunities for community living by providing access in the least restrictive environment, encouraging individuals in exercising choices and decision making, and offering a wide range of personalized services that are engaging, accessible and safe.",
       "minimumAge": 18,
+      "yearEstablished": 2002,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Independent Choices",
+        "Natural Supports, Social, and Recreational skills",
+        "Independent Living Skills",
+        "Pre-vocational skills",
+        "Self Care skills",
+        "Communication skills",
+        "Learning based on interests",
+        "Remote Services (Zoom classes)",
+        "Transportation Services"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Behavioral Challenges"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -604,15 +867,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Mission-Hope Day Program Brentwood serves adults 18+ with developmental disabilities and behavioral challenges.",
+        "This licensed program, established in 2002, offers community-based social, recreational, and independent living skills."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 77,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "RES SUCCESS",
-    "streetName": "RES SUCCESS",
+    "streetName": "RES Success",
     "ccldLicenseNumber": "79200212",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -629,17 +895,36 @@
     },
     "contact": {
       "phone": "(925) 229-8228",
-      "websiteUrl": ""
+      "websiteUrl": "http://www.ressuccess.org"
     },
     "facilityDetails": {
       "licensedCapacity": 72,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "RES Success provides an adult day program for adults with developmental disabilities at its Pittsburg facility, serving severe to profoundly disabled individuals. The program offers a multitude of learning and activities that promote self-expression, such as arts and crafts, music and dance, access to a computer lab, and a Zen garden. The program aims to help individuals grow in independence, develop critical skills, connect with their communities, and pursue their goals and interests.",
       "minimumAge": 18,
+      "yearEstablished": 1994,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -647,19 +932,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "San Francisco Bay Area",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "RES Success Pittsburg supports adults with intellectual and developmental disabilities.",
+        "The program offers a Community Integrated Behavior Management Program."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GARDEN BRENTWOOD",
-    "streetName": "GARDEN BRENTWOOD",
+    "streetName": "GARDEN Brentwood",
     "ccldLicenseNumber": "79200220",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -676,17 +965,39 @@
     },
     "contact": {
       "phone": "(925) 626-3642",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.futures-explored.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "GARDEN Brentwood is designed for individuals with developmental disabilities requiring supportive assistance, potentially with medical needs. The program engages participants in a variety of sensory, stimulation, and community activities tailored to individual desires and needs. A Registered Nurse is employed to provide medical care and support during the program day.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Sensory Room",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Sensory and Stimulation Activities",
+        "Community Activities",
+        "Social and Recreational Programming",
+        "Therapeutic Programming"
+      ],
+      "parentOrganization": "Futures Explored",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -698,15 +1009,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "GARDEN Brentwood supports adults with developmental disabilities needing medical and supportive assistance.",
+        "The program is CARF accredited and has a Registered Nurse for medical care and support."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 96,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "RES SUCCESS",
-    "streetName": "RES SUCCESS",
+    "streetName": "RES Success",
     "ccldLicenseNumber": "79200239",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -723,17 +1037,37 @@
     },
     "contact": {
       "phone": "(925) 229-8228",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.ressuccess.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This modern industrial facility in Hercules operates as a vocational training program, assisting participants with mild developmental disabilities in becoming successful employees. It offers a computer learning center and an artistic workshop for creating up-cycled products, alongside academic instruction in reading, writing, and math.",
       "minimumAge": 18,
+      "yearEstablished": 1994,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab",
+        "Vocational Workshop",
+        "Art Studio"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Academic Instruction (reading, writing, math)"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -741,13 +1075,17 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "San Francisco Bay Area (Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Solano, Sonoma Counties)",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "RES Success, founded in 1994, supports adults with intellectual and developmental disabilities through vocational training and community integration.",
+        "The Hercules program offers a computer learning center, artistic workshop, and opportunities for employment and volunteering."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -775,12 +1113,33 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The program offers site-based life skills support groups, case management, translation, and counseling services to help individuals assimilate into their community. It provides structured daytime activities, supervision, and support, including health monitoring, therapeutic activities, social and recreational programming, meals, snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Laotian",
+        "Mien",
+        "Khmu",
+        "Thai",
+        "Vietnamese",
+        "Mandarin",
+        "Cantonese"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Activities",
+        "Recreational Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Asian Community"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -788,13 +1147,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Contra Costa County",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Asian Family Resource Center offers life skills support groups in multiple Asian languages for low-income adults with MediCal.",
+        "This Richmond Adult Day Program provides structured daytime activities, health monitoring, and therapeutic programming for up to 30 individuals."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 85,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -817,17 +1181,39 @@
     },
     "contact": {
       "phone": "(510) 724-7190",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.sevitahealth.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Cole Vocational Services offers structured, activity-based day programs designed to help individuals with intellectual and developmental disabilities achieve goals, become independent, and be active in the community by building life skills and supporting community integration.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Life Skills Training",
+        "Community Integration"
+      ],
+      "parentOrganization": "Sevita",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -839,9 +1225,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Cole Vocational Services Pinole supports adults with intellectual and developmental disabilities.",
+        "It offers structured day programs focused on independence and community integration.",
+        "The Pinole program has a licensed capacity of 45 individuals."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 95,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -864,17 +1254,48 @@
     },
     "contact": {
       "phone": "(925) 849-8750",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.socialvocationalservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Provides adult day behavior management and community inclusion programs for adults with developmental disabilities, offering opportunities for independence, self-advocacy, community integration, self-discovery, career exploration, socialization, job training, and job search.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts",
+        "Cooking",
+        "Computer technology",
+        "Gardening",
+        "Work experience",
+        "Volunteer activities",
+        "Physical fitness",
+        "Music expression",
+        "Self-advocacy",
+        "Health and well being",
+        "Community integration",
+        "Social interaction",
+        "Recreational activities",
+        "Job training/coaching",
+        "Job search",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -882,19 +1303,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "East Bay Counties (Alameda County, Contra Costa County)",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "SVS Concord Adult Day Program is a non-profit serving adults with intellectual/developmental disabilities.",
+        "It offers community inclusion, promoting independence, self-advocacy, and skill development through diverse activities.",
+        "The program provides personalized services, including career exploration and potential door-to-door transportation."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "HAND IN HAND FOR PROGRESS DAY PROGRAM",
-    "streetName": "HAND IN HAND FOR PROGRESS DAY PROGRAM",
+    "streetName": "Hand In Hand For Progress Day Program",
     "ccldLicenseNumber": "79200396",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -911,17 +1337,38 @@
     },
     "contact": {
       "phone": "(925) 332-7973",
-      "websiteUrl": ""
+      "websiteUrl": "https://handinhandforprogress.com"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Hand In Hand For Progress Day Program is a community-based provider that offers services to adults 18 years and older with developmental disabilities and behavioral challenges. The program focuses on promoting active involvement, self-advocacy, and self-determination, helping individuals build skills and knowledge to succeed in life and integrate into the community.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Independent Living Skills",
+        "Social/Recreational Skills",
+        "Communication Skills",
+        "Leisure Activities",
+        "Mobility",
+        "Self-Care Skills",
+        "Pre-Vocational Skills",
+        "Money Handling and Management",
+        "Community Integration"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Behavioral Challenges"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -929,19 +1376,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Contra Costa County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Hand In Hand For Progress serves adults 18+ with developmental disabilities and behavioral challenges.",
+        "It is licensed by CCL and vendored by the Regional Center of the East Bay, focusing on independent living and community integration skills."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 82,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SAINT ANNE VILLAGE INC",
-    "streetName": "SAINT ANNE VILLAGE INC",
+    "streetName": "Saint Anne Village, Inc.",
     "ccldLicenseNumber": "79200544",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -958,17 +1409,37 @@
     },
     "contact": {
       "phone": "(925) 240-4757",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.stannevillage.com"
     },
     "facilityDetails": {
       "licensedCapacity": 15,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Saint Anne Village is a licensed adult day program in Byron, California, providing structured daytime activities, supervision, and support services. They focus on enhancing the quality of life for adults with disabilities, including those who are physically and cognitively challenged, and offer personalized socialization, wellness education, nutrition, and exercise.",
       "minimumAge": 18,
+      "yearEstablished": 2016,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Exercise",
+        "Socialization"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–3:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Dementia",
+        "Physical Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -980,15 +1451,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Saint Anne Village is a non-profit Adult Day Program in Byron, CA, offering respite care for seniors.",
+        "It provides services for active seniors and those with physical or cognitive challenges, including memory care."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "MISSION-HOPE DAY PROGRAM-ANTIOCH",
-    "streetName": "MISSION-HOPE DAY PROGRAM-ANTIOCH",
+    "streetName": "Mission-Hope Day Program-Antioch",
     "ccldLicenseNumber": "79200563",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1005,17 +1479,38 @@
     },
     "contact": {
       "phone": "(925) 706-7517",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.missionhopedayprogram.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 49,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Mission-Hope Day Program is a community-based Adult Day Program serving individuals with developmental disabilities and behavioral challenges. They provide structured daytime activities, supervision, and support services, encouraging individuals in exercising choices and decision making, and offering a wide range of personalized services that are engaging, accessible and safe.",
       "minimumAge": 18,
+      "yearEstablished": 2002,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social and Recreational Activities",
+        "Therapeutic Activities",
+        "Pre-vocational Skills",
+        "Community Inclusion",
+        "Remote Learning",
+        "Health Monitoring",
+        "Brain Stimulation Activities",
+        "Support Groups"
+      ],
+      "parentOrganization": "Mission-Hope Day Program",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Behavioral Challenges"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1027,15 +1522,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Mission-Hope Day Program-Antioch serves adults 18+ with developmental disabilities and behavioral challenges.",
+        "Established in 2002, it is a licensed community-based Adult Day Program.",
+        "The program offers personalized services, including community access, skill-building, and transportation."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 98,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "P & P DEVELOPMENTAL SERVICES",
-    "streetName": "P & P DEVELOPMENTAL SERVICES",
+    "streetName": "P&P Developmental Services",
     "ccldLicenseNumber": "79200579",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1052,17 +1551,33 @@
     },
     "contact": {
       "phone": "(925) 813-1979",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.ppdevelopmentalservices.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 40,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "P&P Developmental Services is a family-owned company dedicated to giving adults with intellectual disabilities the care, activities, and support they need to stay active and involved in the community. Their day program offers a welcoming, enriching environment where participants can connect, grow, and thrive.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Sensory Room"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Indoor Sports",
+        "Community Outings"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1070,13 +1585,17 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Nearby neighborhoods",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "P&P Developmental Services supports adults with intellectual disabilities via engaging activities & personalized care.",
+        "This licensed Antioch Adult Day Program offers personal care, transportation, and community outings."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 91,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1099,17 +1618,40 @@
     },
     "contact": {
       "phone": "(925) 331-3116",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.socialvocationalservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Provides adult day behavior management program for adults with developmental disabilities. Offers job training/coaching and job search to help clients become self-sufficient.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Expression",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Social Interaction",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "Social Vocational Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1117,19 +1659,25 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "East Bay Counties",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "SVS Antioch Adult Day Program supports adults with developmental disabilities.",
+        "The program offers community inclusion, job training, and behavior management services.",
+        "It is a licensed adult day program in Antioch, California."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CISS PAINT CREATIVE ARTS DAY PROGRAM",
-    "streetName": "CISS PAINT CREATIVE ARTS DAY PROGRAM",
+    "streetName": "Paint Art Program",
     "ccldLicenseNumber": "79200920",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1146,17 +1694,27 @@
     },
     "contact": {
       "phone": "(925) 666-8142",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.paintartprogram.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The P.A.I.N.T. Program is a day program where individuals with intellectual disabilities freely express their creativity through art, offering a fully equipped artist studio and opportunities to showcase and sell their work.",
       "minimumAge": 18,
+      "yearEstablished": 2014,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Arts and Crafts"
+      ],
+      "parentOrganization": "Community Integrated Support Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1168,9 +1726,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Paint Art Program is a non-profit adult day program in Brentwood, CA, serving individuals with intellectual disabilities through art.",
+        "Founded in 2002, it fosters artistic expression and offers opportunities to showcase and sell artists' work."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 91,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1198,12 +1759,29 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "AIM HIGH is a licensed adult day program in Antioch, California, providing structured daytime activities, supervision, and support services for adults with developmental disabilities. The program offers vocational training, life skills development, social and recreational activities, health monitoring, and personal care assistance.",
       "minimumAge": 18,
+      "yearEstablished": 2019,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Vocational Training",
+        "Life Skills Training",
+        "Social and Recreational Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Meals and Snacks"
+      ],
+      "parentOrganization": "Aim High (Concord, CA)",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1215,9 +1793,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Aim High in Antioch provides vocational training and support for adults with developmental disabilities.",
+        "As a licensed adult day program, it offers structured daytime activities and supervision for adults."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 81,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1240,17 +1821,37 @@
     },
     "contact": {
       "phone": "(925) 331-7797",
-      "websiteUrl": ""
+      "websiteUrl": "https://workingwonders.org"
     },
     "facilityDetails": {
       "licensedCapacity": 8,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Working Wonders' mission is to open doors for adults with disabilities in the community so they can have choices about where they live, work and play. Working Wonders serves these individuals by providing sustainable opportunities to improve their lives, including work-related programs and opportunities for personal growth, independence and social interaction.",
       "minimumAge": 18,
+      "yearEstablished": 2018,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Sensory Room",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Training",
+        "Fitness Activities",
+        "Recreational Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–2:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1258,19 +1859,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "East Contra Costa County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Working Wonders is a licensed adult day program in Brentwood for adults with intellectual and related disabilities.",
+        "The program focuses on work skills, health & fitness, and arts to foster independence and community involvement.",
+        "Founded in 2016, it offers a day program from 9 am to 2 pm with transportation options for clients."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FUTURES EXPLORED  INC.",
-    "streetName": "FUTURES EXPLORED  INC.",
+    "streetName": "Futures ALIVE",
     "ccldLicenseNumber": "79200984",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1286,18 +1892,37 @@
       }
     },
     "contact": {
-      "phone": "(925) 890-2709",
-      "websiteUrl": ""
+      "phone": "(925) 332-7183",
+      "websiteUrl": "https://futures-explored.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Futures ALIVE is a program of Futures Explored that supports individuals with intellectual and developmental disabilities in building meaningful, independent lives through frequent community trips and extended use of the program facility. Participants engage in social, recreational, and volunteer activities while building life skills and engaging with their community, and can also explore career goals and receive job coaching.",
       "minimumAge": 18,
+      "yearEstablished": 1964,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Recreational Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1305,13 +1930,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Contra Costa, Alameda, Yolo, and Sacramento counties",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Futures ALIVE supports adults with intellectual and developmental disabilities through community integration and personal wellness.",
+        "The program offers choice-led activities, frequent community trips, and care for specialized health needs.",
+        "Futures Explored, the parent nonprofit, was founded in 1964 and is CARF accredited."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1333,18 +1963,34 @@
       }
     },
     "contact": {
-      "phone": "(925) 370-1820",
-      "websiteUrl": ""
+      "phone": "(925) 755-4925",
+      "websiteUrl": "https://www.vistability.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 50,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Provides a program for adults with severe or multiple intellectual and developmental disabilities, tailoring individual programs to help them actively participate in their communities through community awareness training, recreation and leisure skills development, domestic skills, and vocational programs.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training"
+      ],
+      "parentOrganization": "VistAbility",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1352,19 +1998,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Contra Costa County",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "CAP-ANTIOCH supports adults 22+ with intellectual and developmental disabilities.",
+        "It offers community access, vocational training, and life skills development."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "D + V ENHANCEMENT SERVICES",
-    "streetName": "D + V ENHANCEMENT SERVICES",
+    "streetName": "D+V Enhancement Services",
     "ccldLicenseNumber": "79201043",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1381,17 +2032,49 @@
     },
     "contact": {
       "phone": "(925) 206-4020",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.dvenhancementservices.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 50,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "D+V Enhancements serves adult consumers with intellectual disabilities by providing opportunities for meaningful engagement and implementing nursing care and service plans that evolve with the consumer's needs. They offer services including specially trained instructors, personal care, individualized service plans, transportation, and alternative services.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Sensory Mats",
+        "Tactile Materials",
+        "Indoor Basketball",
+        "Indoor Bowling"
+      ],
+      "activitiesOffered": [
+        "Games",
+        "Creative Projects",
+        "Para Sports",
+        "Socializing with Peers",
+        "Karaoke",
+        "Community Dancing",
+        "Playing Musical Instruments",
+        "Storytelling",
+        "Theme Days",
+        "Bingo",
+        "Arts and Crafts",
+        "Painting and Coloring",
+        "Puzzles",
+        "Parachute",
+        "Sensory Stimulation",
+        "Balloon Volleyball",
+        "Ring & Bean Bag Toss",
+        "Life Skills Training"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1403,15 +2086,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "D+V Enhancement Services in Antioch supports adults with intellectual disabilities through engaging activities and nursing care plans.",
+        "This Adult Day Program offers personal care, individualized plans, transportation, and has a capacity for 50 residents."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 75,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "WORKING WONDERS",
-    "streetName": "WORKING WONDERS",
+    "streetName": "Working Wonders",
     "ccldLicenseNumber": "79201094",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1427,18 +2113,37 @@
       }
     },
     "contact": {
-      "phone": "(925) 331-7800",
-      "websiteUrl": ""
+      "phone": "(925) 626-4750",
+      "websiteUrl": "https://www.letsworkwonders.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 24,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Working Wonders provides work-related training, health and fitness activities, and arts programs to adults with developmental disabilities, fostering personal growth, independence, and social interaction.",
       "minimumAge": 18,
+      "yearEstablished": 2016,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Training",
+        "Fitness Activities",
+        "Recreational Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1446,19 +2151,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "East Contra Costa County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Working Wonders is a non-profit adult day program in Brentwood, CA, serving young adults with intellectual and related disabilities.",
+        "The program focuses on work skills, health, fitness, and arts, aiming to foster personal growth and community involvement.",
+        "Founded in 2016, it offers a day program with work experience and has been recognized as Nonprofit of the Year."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LAS TRAMPAS-ADULT DEVELOPMENT PROGRAM",
-    "streetName": "LAS TRAMPAS-ADULT DEVELOPMENT PROGRAM",
+    "streetName": "Las Trampas Adult Development Program",
     "ccldLicenseNumber": "79201154",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1475,17 +2185,42 @@
     },
     "contact": {
       "phone": "(925) 284-1462",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.lastrampas.org"
     },
     "facilityDetails": {
       "licensedCapacity": 120,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Adult Development Program (ADP) is a licensed adult day program for individuals with moderate to profound developmental disabilities. ADP focuses on teaching and coaching individuals in the areas of activities of daily living, self-advocacy, and community integration, offering educational and vocational services, and promoting community-based programming.",
       "minimumAge": 18,
+      "yearEstablished": 1958,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Opportunities",
+        "Recreational Activities",
+        "Dance Classes"
+      ],
+      "parentOrganization": "Las Trampas, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1493,13 +2228,19 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Central and Eastern Contra Costa County, California",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Las Trampas is a licensed adult day program in Lafayette, CA, serving adults with intellectual and developmental disabilities.",
+        "Founded in 1958, it offers educational, vocational, and life skills training, fostering community integration.",
+        "The program utilizes an innovative \"DISCOVER model\" in a state-of-the-art, accessible facility."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1521,18 +2262,31 @@
       }
     },
     "contact": {
-      "phone": "(925) 332-7183",
-      "websiteUrl": ""
+      "phone": "(925) 529-4246",
+      "websiteUrl": "https://www.futures-explored.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "ALIVE East supports individuals with intellectual and developmental disabilities to be active members of their community through volunteering, advocacy, attending college, working, or simply being a member of their community. Supports are provided to ensure that an individual's personal care needs are met, and that they have the support to access the activities of their choosing.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Futures Explored",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1540,13 +2294,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Contra Costa County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "ALIVE East supports adults with intellectual and developmental disabilities in community engagement and personal wellness.",
+        "Part of Futures Explored, a CARF-accredited nonprofit founded in 1964, it has served since 1989.",
+        "The program currently offers zoom and in-person services while seeking a new Antioch location."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 96,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1568,18 +2327,34 @@
       }
     },
     "contact": {
-      "phone": "(925) 915-0030",
-      "websiteUrl": ""
+      "phone": "(925) 915-0095",
+      "websiteUrl": "https://valleyoakrespite.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Valley Oak Respite Center offers engaging activities to boost cognitive function, social interaction, and physical well-being in a relaxing, enjoyable environment for individuals with dementia. The program provides a safe, engaging, and stimulating environment, focusing on enriching the lives of members while offering family caregivers peace of mind.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Brain Games",
+        "Exercise",
+        "Games",
+        "Music",
+        "Art",
+        "Arts and Crafts",
+        "Sing-alongs",
+        "Memory Activities"
+      ],
+      "parentOrganization": "Danville Dementia Day Care",
+      "daysOfOperation": "Monday, Wednesday, Friday",
+      "hoursOfOperation": "10:30am–2:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Dementia"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1587,13 +2362,17 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Valley Oak Respite Center is an adult day program in Danville for individuals with dementia, offering engaging activities.",
+        "The program has provided compassionate care for memory-impaired adults for over 30 years."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 92,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1615,18 +2394,43 @@
       }
     },
     "contact": {
-      "phone": "(925) 363-9705",
-      "websiteUrl": ""
+      "phone": "(925) 229-8228",
+      "websiteUrl": "https://www.ressuccess.org"
     },
     "facilityDetails": {
       "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This academically oriented facility provides an adult day program for adults with mild developmental disabilities, focusing on educational pursuits, social skills, and interpersonal services. Participants engage in reading, writing, math, art, and music, with access to a computer learning lab and gardening opportunities. The program also facilitates community visits and social activities.",
       "minimumAge": 18,
+      "yearEstablished": 1994,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Art Studio",
+        "Music Room"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Life Skills Training",
+        "Reading",
+        "Writing",
+        "Math",
+        "Social Activities",
+        "Community Integration"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1638,9 +2442,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "RES SUCCESS supports adults with intellectual and developmental disabilities in Pleasant Hill.",
+        "It offers site-based learning, an art studio, and community-based programs at Diablo Valley College."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1655,25 +2462,48 @@
       "city": "El Sobrante",
       "state": "CA",
       "zipCode": "94803",
-      "county": "Contra Costa",
+      "county": "Contra Costa County",
       "coordinates": {
         "lat": 37.96530903,
         "lng": -122.3127566
       }
     },
     "contact": {
-      "phone": "(510) 390-5538",
-      "websiteUrl": ""
+      "phone": "(510) 390-5467",
+      "websiteUrl": "https://catalystcaresadultdayprogram.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Catalyst Cares Adult Day Program is dedicated to empowering adults with intellectual and developmental disabilities through a comprehensive and supportive day program. The program aims to provide a safe, nurturing, and stimulating environment where participants can thrive, develop their abilities, and build meaningful connections.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Job Readiness",
+        "Employment Opportunities",
+        "Life Skills Training",
+        "Cooking and Nutrition",
+        "Behavioral Programs",
+        "CPR Training",
+        "Recreational Activities",
+        "Social Engagement Opportunities",
+        "Therapeutic Interventions"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1685,15 +2515,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Catalyst Cares Adult Day Program empowers adults with intellectual and developmental disabilities.",
+        "It offers comprehensive day programs including life skills, job readiness, and academic support.",
+        "This licensed program provides a supportive environment in El Sobrante, California."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 91,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "A STEP ABOVE  LLC",
-    "streetName": "A STEP ABOVE  LLC",
+    "streetName": "A Step Above",
     "ccldLicenseNumber": "79201397",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1702,7 +2536,7 @@
       "city": "Brentwood",
       "state": "CA",
       "zipCode": "94513",
-      "county": "Contra Costa",
+      "county": "Contra Costa County",
       "coordinates": {
         "lat": 37.94676473,
         "lng": -121.698807
@@ -1710,17 +2544,28 @@
     },
     "contact": {
       "phone": "(925) 481-2189",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.asapus.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 70,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "A Step Above offers structured daytime programs for adults with developmental disabilities, providing meaningful activities and social engagement. The program focuses on personal growth, independence, and social connection through facility-based and community-based support options.",
       "minimumAge": 18,
+      "yearEstablished": 2019,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Social Engagement"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1732,9 +2577,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "A Step Above, founded in 2019, supports adults with developmental disabilities in Contra Costa County.",
+        "They offer structured daytime programs and community-based services focused on personal growth and social engagement.",
+        "The licensed adult day program provides reliable transportation and individualized support."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 86,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1749,7 +2598,7 @@
       "city": "Concord",
       "state": "CA",
       "zipCode": "94520",
-      "county": "Contra Costa",
+      "county": "Contra Costa County",
       "coordinates": {
         "lat": 37.98394563,
         "lng": -122.0485038
@@ -1757,17 +2606,26 @@
     },
     "contact": {
       "phone": "(925) 349-4244",
-      "websiteUrl": ""
+      "websiteUrl": "https://openhousecenter.org"
     },
     "facilityDetails": {
       "licensedCapacity": 108,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Open House Center is a non-profit Social and Wellness Program that primarily provides services to adults with developmental disabilities, designed to enhance their abilities and advance their quality of life. The program offers a vibrant and supportive environment filled with meaningful activities and joyful moments.",
       "minimumAge": 18,
+      "yearEstablished": 2016,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "parentOrganization": "Open House Center",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities",
+        "Complex Healthcare & Behavioral Needs"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1779,9 +2637,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Open House Center is a licensed adult day program in Concord, CA, serving adults with intellectual and developmental disabilities.",
+        "They offer comprehensive assessments, care coordination, and medication management, fostering independence and engagement.",
+        "Established in 2016, the center provides a vibrant environment with meaningful activities and community involvement."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 90,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1796,25 +2658,47 @@
       "city": "Concord",
       "state": "CA",
       "zipCode": "94520",
-      "county": "Contra Costa",
+      "county": "Contra Costa County",
       "coordinates": {
         "lat": 37.97831329,
         "lng": -122.0542551
       }
     },
     "contact": {
-      "phone": "(925) 413-9837",
-      "websiteUrl": ""
+      "phone": "(925) 332-7183",
+      "websiteUrl": "https://www.futures-explored.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Futures Explored supports adults with intellectual and developmental disabilities by providing programs focused on community engagement, personal wellness, employment, education, creative arts, and filmmaking, empowering them to lead self-determined lives.",
       "minimumAge": 18,
+      "yearEstablished": 1964,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Community Engagement",
+        "Employment Support",
+        "Vocational Training (Film/Media)"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1822,13 +2706,19 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Contra Costa County",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Futures Explored supports individuals with intellectual and developmental disabilities.",
+        "Founded in 1964, it offers creative arts, employment, and community programs.",
+        "The program is CARF accredited and fosters community involvement and advocacy."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

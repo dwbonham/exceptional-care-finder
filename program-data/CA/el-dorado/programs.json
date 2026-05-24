@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "MOTHER LODE REHABILITATION",
-    "streetName": "MOTHER LODE REHABILITATION",
+    "streetName": "Mother Lode Rehabilitation Enterprises, Inc.",
     "ccldLicenseNumber": "90312052",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,34 @@
     },
     "contact": {
       "phone": "(530) 622-4848",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.morerehab.org"
     },
     "facilityDetails": {
       "licensedCapacity": 250,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Mother Lode Rehabilitation Enterprises (MORE) empowers individuals with developmental disabilities and autism spectrum disorders to enhance their quality of life and achieve their full potential. They offer programs focused on supported employment, community access, creative arts, and basic living skills to foster independence and community inclusion.",
       "minimumAge": 18,
+      "yearEstablished": 1969,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Art Gallery",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Self-advocacy classes",
+        "Supported Employment"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,15 +57,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Mother Lode Rehabilitation Enterprises serves adults with developmental disabilities in El Dorado County.",
+        "The program has over 55 years of history and achieved CARF accreditation in February 2024.",
+        "They offer diverse programs including employment, community access, and creative arts."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "EL DORADO  SENIOR DAY CARE CENTER",
-    "streetName": "EL DORADO  SENIOR DAY CARE CENTER",
+    "streetName": "El Dorado County Older Adult Day Services (The Club)",
     "ccldLicenseNumber": "90312340",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -65,16 +86,31 @@
     },
     "contact": {
       "phone": "(530) 621-6180",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.edcgov.us/Government/hhsa/pages/adult_day_services.aspx"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "El Dorado County Older Adult Day Services, also known as \"The Club,\" provides a warm, nurturing, and friendly environment for older adults. The program offers activities designed to enhance mental and physical function, increase self-worth, and foster friendships, while also providing supportive services and respite care for families of individuals with dementia and other chronic health issues.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Group and individual exercise programs",
+        "Modified group sports",
+        "Field trips and outings"
+      ],
+      "parentOrganization": "El Dorado County Health and Human Services Agency",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:30pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -83,13 +119,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Placerville and El Dorado Hills areas",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Club provides a nurturing setting with activities for body, mind, and spirit, including specialized dementia care.",
+        "Operating since 1989, this county program offers daily activities, meals, and respite for caregivers of older adults."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -111,18 +152,34 @@
       }
     },
     "contact": {
-      "phone": "(916) 835-2933",
-      "websiteUrl": ""
+      "phone": "(916) 906-2202",
+      "websiteUrl": "https://empoweracademy.us"
     },
     "facilityDetails": {
       "licensedCapacity": 90,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Empower Academy serves adults with developmental disabilities by providing compassionate, personalized support and innovative programs that promote self-advocacy. The program focuses on enhancing the quality of life for participants through engaging, supportive, and inclusive activities that promote physical, mental, and social well-being, including life skills, functional education, community access, vocational training, and arts & expression.",
       "minimumAge": 18,
+      "yearEstablished": 2024,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Functional Education",
+        "Community Access",
+        "Vocational Training",
+        "Arts & Expression"
+      ],
+      "parentOrganization": "Empower Academy LLC",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -134,15 +191,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Empower Academy serves adults with developmental disabilities, offering compassionate, personalized support.",
+        "It is a licensed adult day program in El Dorado Hills, providing structured activities and therapeutic programming."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 91,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "DAYCATION FOR SENIORS EDH",
-    "streetName": "DAYCATION FOR SENIORS EDH",
+    "streetName": "Daycation for Seniors EDH",
     "ccldLicenseNumber": "95920304",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -159,16 +219,33 @@
     },
     "contact": {
       "phone": "(916) 975-0611",
-      "websiteUrl": ""
+      "websiteUrl": "https://daycationforseniorsedh.com"
     },
     "facilityDetails": {
       "licensedCapacity": 40,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Daycation for Seniors™ EDH is a senior social daycare center dedicated to providing compassionate care and supervision for seniors during the day while giving family members and caregivers much-needed respite. The program is designed to delay or prevent the transition to higher levels of care by fostering socialization, boosting self-esteem, and promoting overall well-being.",
       "minimumAge": 18,
+      "yearEstablished": 2023,
       "languagesSupported": [
         "English"
       ],
+      "activitiesOffered": [
+        "Therapeutic Activities",
+        "Mental & Physical Stimulation",
+        "Social Interaction",
+        "Games & Music",
+        "Birthday & Holiday Celebrations",
+        "Social Luncheons & Snacks",
+        "Art Projects",
+        "Crafts",
+        "Memory Games",
+        "Light Exercise",
+        "Live Music"
+      ],
+      "parentOrganization": "Daycation for Seniors",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:30pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -177,13 +254,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Placer County, CA; Sacramento County, CA",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Daycation for Seniors EDH offers a social daycare for seniors, including those with cognitive challenges.",
+        "The program provides therapeutic activities, social interaction, and CNA care.",
+        "It is a certified vendor with the Alzheimer's Association and Del Oro CareGiver Resource Center."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 85,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -198,7 +280,7 @@
       "city": "Cameron Park",
       "state": "CA",
       "zipCode": "95682",
-      "county": "El Dorado",
+      "county": "El Dorado County",
       "coordinates": {
         "lat": 38.65589526,
         "lng": -120.9678497
@@ -228,9 +310,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "ADULT VOCATIONAL SERVICES INC #2 is a licensed Adult Day Program in Cameron Park, CA.",
+        "It serves adults 22+ eligible through Alta California Regional Center, focusing on vocational and life skills."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 33,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -252,17 +337,26 @@
       }
     },
     "contact": {
-      "phone": "(888) 852-5930",
-      "websiteUrl": ""
+      "phone": "(800) 755-1458",
+      "websiteUrl": "https://newwesthaven.com"
     },
     "facilityDetails": {
       "licensedCapacity": 28,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The adult day program offers an activities center for seniors to visit during the day, providing opportunities to engage in activities, socialize, exercise, learn, and be entertained in a safe environment among trusted staff.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -271,13 +365,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "New West Haven II is a licensed Adult Day Program in Cameron Park, CA, specializing in senior care.",
+        "The program offers daily activities, community outings, medication support, and meals Monday-Friday.",
+        "It provides individualized care within an assisted living community, based on Eden Alternative concepts."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 89,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -300,17 +399,36 @@
     },
     "contact": {
       "phone": "(530) 672-9462",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.opportunity-acres.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 40,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Opportunity Acres provides a unique educational and social experience for adults diagnosed with autism as they embark on their journey of adulthood and independence. The program aims to provide an environment where individuals can explore their interests, strengths, gifts, and talents, offering choices in work and recreation that are fulfilling and meaningful. Participants learn a variety of ranching, independent living, construction, and other job skills.",
       "minimumAge": 18,
+      "yearEstablished": 2013,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Outdoor Activities",
+        "Animal-Assisted Activities",
+        "Vocational Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–2:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -322,9 +440,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Opportunity Acres is a licensed adult day program in Shingle Springs, CA, specializing in services for adults with autism.",
+        "The program focuses on skill acquisition, independence, and positive reinforcement, collaborating closely with families."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
