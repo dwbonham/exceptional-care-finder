@@ -94,53 +94,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "ONEGENERATION - MARK TAPER J.O.Y. PROGR",
-    "streetName": "ONEGENERATION - MARK TAPER J.O.Y. PROGR",
-    "ccldLicenseNumber": "191222639",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "17400 Victory Blvd.",
-      "city": "Van Nuys",
-      "state": "CA",
-      "zipCode": "91406",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.18661,
-        "lng": -118.51204
-      }
-    },
-    "contact": {
-      "phone": "(818) 708-6625",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "VALLEY VILLAGE ADULT DEVELOPMENT CENTER",
     "streetName": "VALLEY VILLAGE ADULT DEVELOPMENT CENTER",
     "ccldLicenseNumber": "191222733",
