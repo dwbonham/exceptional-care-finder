@@ -470,288 +470,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "MISSION HOPE DAY PROGRAM- HAYWARD",
-    "streetName": "MISSION HOPE DAY PROGRAM- HAYWARD",
-    "ccldLicenseNumber": "19200158",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "21328 Mission Blvd.",
-      "city": "Hayward",
-      "state": "CA",
-      "zipCode": "94541",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.68152,
-        "lng": -122.095436
-      }
-    },
-    "contact": {
-      "phone": "(510) 888-9231",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CARE ADMINISTRATION AND MGMT. PROFESSIO",
-    "streetName": "CARE ADMINISTRATION AND MGMT. PROFESSIO",
-    "ccldLicenseNumber": "19200189",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6805 Sierra Court  Suite A",
-      "city": "Dublin",
-      "state": "CA",
-      "zipCode": "94568",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.709255,
-        "lng": -121.91405
-      }
-    },
-    "contact": {
-      "phone": "(925) 560-0124",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 54,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "FCSN EAST BAY ADULT DAY PROGRAM",
-    "streetName": "FCSN EAST BAY ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "19200199",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2300 Peralta Blvd.",
-      "city": "Fremont",
-      "state": "CA",
-      "zipCode": "94536",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.562275,
-        "lng": -121.98963
-      }
-    },
-    "contact": {
-      "phone": "(510) 739-6900",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES  NEWARK",
-    "streetName": "SOCIAL VOCATIONAL SERVICES  NEWARK",
-    "ccldLicenseNumber": "19200203",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "37400 Cedar Blvd.  Suites A",
-      "city": "Newark",
-      "state": "CA",
-      "zipCode": "94560",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.539066,
-        "lng": -122.020485
-      }
-    },
-    "contact": {
-      "phone": "(510) 797-1916",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MISSION-HOPE DAY PROGRAM  DUBLIN",
-    "streetName": "MISSION-HOPE DAY PROGRAM  DUBLIN",
-    "ccldLicenseNumber": "19200218",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6300 Village Parkway",
-      "city": "Dublin",
-      "state": "CA",
-      "zipCode": "94568",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.70565,
-        "lng": -121.92328
-      }
-    },
-    "contact": {
-      "phone": "(925) 560-9582",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "HENRY AND HENRY ADULT DAY CARE",
-    "streetName": "HENRY AND HENRY ADULT DAY CARE",
-    "ccldLicenseNumber": "19200228",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3361 Macarthur Blvd.",
-      "city": "Oakland",
-      "state": "CA",
-      "zipCode": "94602",
-      "county": "Alameda",
-      "coordinates": {
-        "lat": 37.794643,
-        "lng": -122.20163
-      }
-    },
-    "contact": {
-      "phone": "(510) 530-3800",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "GARDEN TRI-VALLEY",
     "streetName": "GARDEN TRI-VALLEY",
     "ccldLicenseNumber": "19200237",
@@ -846,8 +564,433 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
+    "legalLicenseName": "MISSION HOPE DAY PROGRAM- HAYWARD",
+    "streetName": "MISSION HOPE DAY PROGRAM- HAYWARD",
+    "ccldLicenseNumber": "19200158",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "21328 Mission Blvd.",
+      "city": "Hayward",
+      "state": "CA",
+      "zipCode": "94541",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.68152,
+        "lng": -122.095436
+      }
+    },
+    "contact": {
+      "phone": "(510) 888-9231",
+      "websiteUrl": "https://www.missionhopedayprogram.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Mission-Hope Day Program is a community-based Adult Day Program serving individuals with intellectual and developmental disabilities. The program supports opportunities for community living by providing access in the least restrictive environment, encouraging individuals in exercising choices and decision making, and offering a wide range of personalized, engaging, accessible, and safe services. They also provide services to individuals who display behavioral challenges and need supervision.",
+      "minimumAge": 18,
+      "yearEstablished": 2002,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Activities",
+        "Recreational Activities",
+        "Pre-vocational skills",
+        "Communication Skills Training",
+        "Remote Services"
+      ],
+      "parentOrganization": "Mission-Hope Developmental Svcs, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Mission Hope Day Program serves adults with developmental disabilities and behavioral challenges.",
+        "Established in 2002, it is licensed by Community Care Licensing and vendored by the Regional Center of the East Bay.",
+        "The program offers personalized services including independent living, social, recreational, and pre-vocational skills."
+      ]
+    },
+    "completenessScore": 98,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CARE ADMINISTRATION AND MGMT. PROFESSIO",
+    "streetName": "Care Administration and Mgmt. Professionals, Inc.",
+    "ccldLicenseNumber": "19200189",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6805 Sierra Court  Suite A",
+      "city": "Dublin",
+      "state": "CA",
+      "zipCode": "94568",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.709255,
+        "lng": -121.91405
+      }
+    },
+    "contact": {
+      "phone": "(925) 560-0124",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 54,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Care Administration and Mgmt. Professionals, Inc. is a licensed adult day program that provides structured daytime activities, supervision, and support services for adults who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, and personal care assistance.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Social Activities",
+        "Therapeutic Activities",
+        "Health Monitoring",
+        "Meals"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Care Administration and Mgmt. Professionals, Inc. is a licensed Adult Day Program in Dublin, CA, with a 54-person capacity.",
+        "It offers structured daytime activities, health monitoring, and therapeutic programming for adults."
+      ]
+    },
+    "completenessScore": 55,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FCSN EAST BAY ADULT DAY PROGRAM",
+    "streetName": "FCSN EAST BAY ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "19200199",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2300 Peralta Blvd.",
+      "city": "Fremont",
+      "state": "CA",
+      "zipCode": "94536",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.562275,
+        "lng": -121.98963
+      }
+    },
+    "contact": {
+      "phone": "(510) 739-6900",
+      "websiteUrl": "https://fcsn1996.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "FCSN provides a day program for adults with developmental disabilities, helping them learn job skills, achieve personal goals, improve independence, increase communication and social skills, and learn about healthy lifestyles. The program aims to help individuals with special needs find love, hope, respect, and support through integrated community involvement.",
+      "minimumAge": 18,
+      "yearEstablished": 2002,
+      "languagesSupported": [
+        "English",
+        "Cantonese",
+        "Mandarin"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Life Skills Training",
+        "Social Skills Training",
+        "Health Education",
+        "Community Integration",
+        "Music Therapy"
+      ],
+      "parentOrganization": "Friends of Children with Special Needs (FCSN)",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Alameda and Santa Clara Counties",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "FCSN East Bay Adult Day Program supports adults with developmental disabilities, fostering independence and social skills.",
+        "The program, established in 1996, emphasizes community involvement and vocational training.",
+        "It offers culturally and linguistically compatible employment training for its clients."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES  NEWARK",
+    "streetName": "Social Vocational Services, Inc. - Newark",
+    "ccldLicenseNumber": "19200203",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "37400 Cedar Blvd.  Suites A",
+      "city": "Newark",
+      "state": "CA",
+      "zipCode": "94560",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.539066,
+        "lng": -122.020485
+      }
+    },
+    "contact": {
+      "phone": "(510) 797-1916",
+      "websiteUrl": "https://socialvocationalservices.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Social Vocational Services (SVS) connects individuals with developmental disabilities to employers in community settings and offers a wide variety of services aimed at promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization.",
+      "minimumAge": 18,
+      "yearEstablished": 1977,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop",
+        "Computer Access"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Expression",
+        "Life Skills Training",
+        "Gardening",
+        "Computer Technology",
+        "Work Experience",
+        "Community Integration",
+        "Recreational Activities",
+        "Self-Advocacy"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local community served by program",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Social Vocational Services, Inc. in Newark offers diverse programs for adults with developmental/intellectual disabilities.",
+        "The program is part of a 4-star rated nonprofit dedicated to social, vocational, and residential goals.",
+        "The Newark site actively engages clients in community activities, promoting independence and integration."
+      ]
+    },
+    "completenessScore": 98,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MISSION-HOPE DAY PROGRAM  DUBLIN",
+    "streetName": "MISSION-HOPE DAY PROGRAM DUBLIN",
+    "ccldLicenseNumber": "19200218",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6300 Village Parkway",
+      "city": "Dublin",
+      "state": "CA",
+      "zipCode": "94568",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.70565,
+        "lng": -121.92328
+      }
+    },
+    "contact": {
+      "phone": "(925) 560-9582",
+      "websiteUrl": "https://www.missionhopedayprogram.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Mission-Hope Day Program is a community-based Adult Day Program serving individuals 18 years and over with intellectual and developmental disabilities and behavioral challenges, promoting active involvement in making choices, exercising self-advocacy, and fostering self-determination.",
+      "minimumAge": 18,
+      "yearEstablished": 2002,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social and Recreational Activities",
+        "Community Integration",
+        "Pre-Vocational Training",
+        "Virtual Learning"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–3:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Mission-Hope Day Program serves adults 18+ with developmental disabilities and behavioral challenges.",
+        "It is a licensed community-based adult day program, vendored by the Regional Center of the East Bay.",
+        "The program offers personalized services, including independent living skills and transportation."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HENRY AND HENRY ADULT DAY CARE",
+    "streetName": "Henry & Henry Adult Activity Center",
+    "ccldLicenseNumber": "19200228",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3361 Macarthur Blvd.",
+      "city": "Oakland",
+      "state": "CA",
+      "zipCode": "94602",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.794643,
+        "lng": -122.20163
+      }
+    },
+    "contact": {
+      "phone": "(510) 530-9656",
+      "websiteUrl": "https://www.henryandhenryadultactivitycenter.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This supervised adult day program focuses on improving communication, community integration, and literacy. It provides social, recreational, vocational, and supported employment services, including a CARF-certified Supported Employment Program and a Paid Work Experience program for individuals seeking paid employment.",
+      "minimumAge": 18,
+      "yearEstablished": 2006,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Social Activities",
+        "Recreational Activities",
+        "Vocational Training",
+        "Community Integration",
+        "Supported Employment",
+        "Computer Training",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Helping Hands Improving Lives",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Autism",
+        "Down Syndrome"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Henry & Henry Adult Activity Center offers social, recreational, and vocational services for adults with intellectual developmental disabilities.",
+        "The program, established in 2006, provides a CARF-certified Supported Employment Program and paid work experience.",
+        "Licensed as an Adult Day Care (19200228), it focuses on person-centered planning and community integration."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
     "legalLicenseName": "COLE VOCATIONAL SERVICES ALAMEDA  BMP",
-    "streetName": "COLE VOCATIONAL SERVICES ALAMEDA  BMP",
+    "streetName": "Cole Vocational Services Alameda County Bmp",
     "ccldLicenseNumber": "19200273",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -869,12 +1012,31 @@
     "facilityDetails": {
       "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Cole Vocational Services offers structured, activity-based day programs designed to help individuals with developmental disabilities achieve goals, become independent, and be active in the community. These programs typically include health monitoring, therapeutic activities, social and recreational programming, meals, personal care assistance, and vocational support.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social and Recreational Activities",
+        "Community Integration",
+        "Vocational Training/Job Coaching"
+      ],
+      "parentOrganization": "Sevita",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -886,9 +1048,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Cole Vocational Services Alameda County Bmp is a licensed adult day program for adults with disabilities.",
+        "It offers structured activities, supervision, and support with a licensed capacity of 45 individuals."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 86,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -911,17 +1076,35 @@
     },
     "contact": {
       "phone": "(510) 475-6069",
-      "websiteUrl": ""
+      "websiteUrl": "https://greenoakdevelopmentalcenter.com/greenoak2"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Green Oak Developmental Center II provides support and activities for adults with developmental disabilities, focusing on community integration and employment opportunities. They offer a range of services including virtual activities and individualized support.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Recreational Activities",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Green Oak Developmental Center",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -933,15 +1116,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Green Oak Developmental Center II is a licensed adult day program for disabled or older adults.",
+        "It offers structured daytime activities, health monitoring, social programming, and respite for caregivers.",
+        "The program emphasizes person-centered planning to respect individual choices and needs."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 87,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GREEN OAK DEVELOPMENTAL CENTER",
-    "streetName": "GREEN OAK DEVELOPMENTAL CENTER",
+    "streetName": "Green Oak Developmental Center",
     "ccldLicenseNumber": "19200288",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -958,17 +1145,37 @@
     },
     "contact": {
       "phone": "(510) 441-8300",
-      "websiteUrl": ""
+      "websiteUrl": "https://greenoakdevelopmentalcenter.com"
     },
     "facilityDetails": {
       "licensedCapacity": 80,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Green Oak Developmental Center provides structured daytime activities, supervision, and support services for adults with developmental disabilities who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -980,15 +1187,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Green Oak Developmental Center is a licensed adult day program in Union City, CA.",
+        "It serves adults with developmental disabilities, offering structured daytime activities and support."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 91,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "MISSION HOPE DAY PROGRAM  FREMONT",
-    "streetName": "MISSION HOPE DAY PROGRAM  FREMONT",
+    "streetName": "MISSION HOPE DAY PROGRAM FREMONT",
     "ccldLicenseNumber": "19200347",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1005,17 +1215,40 @@
     },
     "contact": {
       "phone": "(510) 226-1600",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.missionhopedayprogram.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Mission-Hope Day Program is a community-based Adult Day Program serving adults with intellectual and developmental disabilities (IDD) and behavioral challenges. The program supports opportunities for community living by providing access in the least restrictive environment, encouraging individuals in exercising choices and decision making, and offering a wide range of personalized services that are engaging, accessible, and safe.",
       "minimumAge": 18,
+      "yearEstablished": 2002,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Structured daytime activities",
+        "Health monitoring",
+        "Therapeutic programming",
+        "Social and recreational programming",
+        "Independent living skills",
+        "Pre-vocational skills",
+        "Self-care skills",
+        "Communication skills",
+        "Community inclusion",
+        "Virtual learning and interaction"
+      ],
+      "parentOrganization": "Mission-Hope Day Program",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Behavioral Challenges"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1027,9 +1260,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Mission Hope Day Program in Fremont is a licensed adult day program with a capacity of 45 participants, offering structured daytime activities and health monitoring.",
+        "It provides therapeutic programming, meals, and respite care for seniors, adults with disabilities, and those recovering from illness or dementia."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 98,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1057,12 +1293,30 @@
     "facilityDetails": {
       "licensedCapacity": 40,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "WAY OF THE ELDERS is a licensed adult day program that offers structured daytime activities, supervision, and support services for adults who require assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Structured daytime activities",
+        "Health monitoring",
+        "Therapeutic programming",
+        "Social and recreational programming",
+        "Meals and snacks",
+        "Personal care assistance",
+        "Medication management"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Dementia"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1074,15 +1328,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Way of the Elders is an adult day program in San Leandro, part of Center for Elders' Independence (CEI) PACE.",
+        "It supports seniors 55+ with complex health needs to live independently through comprehensive care.",
+        "Services include medical care, social activities, and transportation."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 73,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SVS OAKLAND ADULT DAY PROGRAM",
-    "streetName": "SVS OAKLAND ADULT DAY PROGRAM",
+    "streetName": "SVS Oakland Adult Day Program",
     "ccldLicenseNumber": "19200481",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1098,18 +1356,38 @@
       }
     },
     "contact": {
-      "phone": "(415) 896-5777",
-      "websiteUrl": ""
+      "phone": "(510) 698-3990",
+      "websiteUrl": "https://www.socialvocationalservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "SVS Oakland Adult Day Program offers structured daytime activities, supervision, and support services for adults with developmental disabilities, promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Expression",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Physical Fitness"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1117,19 +1395,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "SVS Oakland Adult Day Program supports adults with developmental disabilities through community inclusion and career exploration.",
+        "This licensed program offers diverse activities like arts, cooking, and volunteer work to promote independence."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "DEAF PLUS ADULT COMMUNITY",
-    "streetName": "DEAF PLUS ADULT COMMUNITY",
+    "streetName": "Deaf Plus Adult Community",
     "ccldLicenseNumber": "19200659",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1145,18 +1427,41 @@
       }
     },
     "contact": {
-      "phone": "(510) 713-1803",
-      "websiteUrl": ""
+      "phone": "(510) 556-2750",
+      "websiteUrl": "https://www.deafplus.us"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Deaf Plus Adult Community (DPAC) is an integrated adult day program that serves deaf adults with disabilities (\"deafplus\") in the Greater San Francisco Bay Area. They provide a safe space for deafplus adults to gather, build relationships, and explore their identities through recreational, educational, and social opportunities, with a goal to provide communication and support necessary to gain access to employment, education, and community services.",
       "minimumAge": 18,
+      "yearEstablished": 2013,
       "languagesSupported": [
-        "English"
+        "English",
+        "American Sign Language"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Social and Cultural Events",
+        "Fitness and Sports Activities",
+        "Field Trips",
+        "Vocational Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Deaf/Hard of Hearing",
+        "DeafBlind"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1168,15 +1473,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Deaf Plus Adult Community serves deaf adults with disabilities in the Bay Area.",
+        "Founded in 2013, it offers day programs, employment support, and community integration.",
+        "The program provides a safe, accessible space with activities like life skills and creative arts."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SVS PLEASANTON ADULT DAY PROGRAM",
-    "streetName": "SVS PLEASANTON ADULT DAY PROGRAM",
+    "streetName": "SVS Pleasanton Adult Day Program",
     "ccldLicenseNumber": "19200675",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1193,17 +1502,52 @@
     },
     "contact": {
       "phone": "(925) 621-3902",
-      "websiteUrl": ""
+      "websiteUrl": "https://svsinc.org"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This program offers structured daytime activities, supervision, and support services for adults with developmental disabilities, focusing on promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization.",
       "minimumAge": 18,
+      "yearEstablished": 1977,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts",
+        "Cooking",
+        "Computer technology",
+        "Gardening",
+        "Work experience",
+        "Volunteer activities",
+        "Physical fitness",
+        "Music expression",
+        "Self-advocacy",
+        "Health and well being",
+        "Community integration",
+        "Social interaction",
+        "Recreational activities",
+        "Therapeutic activities",
+        "Social and recreational programming",
+        "Meals and snacks",
+        "Personal care assistance",
+        "Medication management",
+        "Physical therapy",
+        "Occupational therapy",
+        "Nursing services"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00 AM–6:00 PM, Saturday–Sunday: 10:00 AM–4:00 PM",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1215,9 +1559,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "SVS Pleasanton Adult Day Program supports adults with developmental/intellectual disabilities through community inclusion and career exploration.",
+        "Founded in 1977, Social Vocational Services operates over 80 California locations, offering diverse individualized activities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1239,18 +1586,43 @@
       }
     },
     "contact": {
-      "phone": "(510) 278-3937",
-      "websiteUrl": ""
+      "phone": "(510) 881-1018",
+      "websiteUrl": "https://www.sevitahealth.com/locations/california"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This Adult Day Program, part of Sevita, offers structured daytime activities, supervision, and support services for adults with developmental disabilities. The program focuses on building life skills, fostering social connections, and providing therapeutic and recreational programming, including health monitoring and personal care assistance.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Computer Learning",
+        "Gardening",
+        "Social Activities",
+        "Health Monitoring",
+        "Personal Care Assistance"
+      ],
+      "parentOrganization": "Sevita",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00am–6:00pm, Saturday–Sunday: 10:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1258,13 +1630,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "REM CALIFORNIA LLC - ASHLAND is a licensed Adult Day Program in Hayward, CA.",
+        "It offers structured activities, health monitoring, meals, and therapeutic programming for adults.",
+        "The program supports adults with disabilities through day and vocational services."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1287,17 +1664,36 @@
     },
     "contact": {
       "phone": "(510) 530-3800",
-      "websiteUrl": ""
+      "websiteUrl": "https://henryandhenryadultactivitycenter.com"
     },
     "facilityDetails": {
       "licensedCapacity": 100,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Henry & Henry Adult Day Program II provides a safe, compassionate, and personalized environment fostering dignity, independence, happiness, and an enhanced quality of life for participants. The program offers engaging social, recreational, and vocational activities to promote communication, community integration, and literacy.",
       "minimumAge": 18,
+      "yearEstablished": 2006,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Social Activities",
+        "Recreational Activities",
+        "Vocational Training",
+        "Community Integration",
+        "Life Skills Training",
+        "Literacy Programs"
+      ],
+      "parentOrganization": "Henry & Henry",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1309,9 +1705,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Henry & Henry Adult Day Program II offers social, recreational, and vocational services for Regional Center of the East Bay participants.",
+        "The program provides a CARF-certified Supported Employment Program and a Paid Adult Work Experience program.",
+        "Established in 2006, it focuses on improving communication, community integration, and literacy."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1333,18 +1733,39 @@
       }
     },
     "contact": {
-      "phone": "(408) 427-7119",
-      "websiteUrl": ""
+      "phone": "(510) 904-5966",
+      "websiteUrl": "https://sites.google.com/view/mitceastbay/"
     },
     "facilityDetails": {
       "licensedCapacity": 70,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "MITC East Bay is an adult day program offering innovative and non-traditional programming for individuals with uniquely challenging needs. It provides a rich curriculum focused on drawing real-life connections, skill development, independence, and community integration through individualized Positive Behavior Support Plans.",
       "minimumAge": 18,
+      "yearEstablished": 2017,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "Multiple Intelligence Training Center",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1356,9 +1777,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "MITC East Bay is a licensed adult day program in San Leandro, CA.",
+        "It offers innovative, person-centered programming with behavioral support and community integration."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1380,18 +1804,35 @@
       }
     },
     "contact": {
-      "phone": "(650) 580-5111",
-      "websiteUrl": ""
+      "phone": "(510) 431-3152",
+      "websiteUrl": "https://www.tinsdayprogram.com"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "TINS ADULT DAY PROGRAM is a vendored provider for developmentally-disabled clients of the Regional Center of East Bay, offering Medical Day (Code 533) services. The program focuses on personal and social development with an emphasis on self-determination through structured daytime activities, including outdoor events, with a staff-to-client ratio of 1:3.",
       "minimumAge": 18,
+      "yearEstablished": 1997,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Social Activities",
+        "Therapeutic Activities"
+      ],
+      "parentOrganization": "TINs Professional Nursing Corporation",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Mon-Fri: 9:00 AM–6:00 PM, Sat-Sun: 10:00 AM–4:00 PM",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1403,15 +1844,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "TINS Adult Day Program is a licensed provider for Medical Day (Code 533) services, serving developmentally-disabled clients.",
+        "Established in 1997, it offers structured daytime activities with a 1:3 staff-to-client ratio.",
+        "The program supports adults with disabilities, dementia, or those recovering from illness, providing caregiver respite."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FCSN L.E.A.D. ADULT TRAINING PROGRAM",
-    "streetName": "FCSN L.E.A.D. ADULT TRAINING PROGRAM",
+    "streetName": "Friends of Children with Special Needs (FCSN) - L.E.A.D. Adult Training Program",
     "ccldLicenseNumber": "19201359",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1428,17 +1873,43 @@
     },
     "contact": {
       "phone": "(510) 739-6900",
-      "websiteUrl": ""
+      "websiteUrl": "https://fcsn1996.org"
     },
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The program focuses on helping adults with developmental disabilities develop job skills, achieve personal goals, improve independence, increase communication and social skills, learn about healthy lifestyles, and engage in vocational training, volunteer work, and integrated community outings.",
       "minimumAge": 18,
+      "yearEstablished": 1996,
       "languagesSupported": [
-        "English"
+        "English",
+        "Cantonese",
+        "Mandarin"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Volunteer Work"
+      ],
+      "parentOrganization": "Friends of Children with Special Needs (FCSN)",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1446,19 +1917,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Alameda County and Santa Clara County",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "FCSN's L.E.A.D. Adult Training Program supports adults with developmental disabilities in Fremont, focusing on independence and community integration.",
+        "The program, established over 20 years ago, offers vocational training, life skills, and culturally compatible support."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FCSN ADAPTIVE SKILLS TRAINING",
-    "streetName": "FCSN ADAPTIVE SKILLS TRAINING",
+    "streetName": "FCSN Adaptive Skills Training",
     "ccldLicenseNumber": "19201428",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1475,17 +1951,48 @@
     },
     "contact": {
       "phone": "(510) 739-6900",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.fcsn1996.org"
     },
     "facilityDetails": {
       "licensedCapacity": 20,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "FCSN provides a day program for adults with developmental disabilities, including Adaptive Skills Training. The program aims to enhance existing skills, remediate deficits, and promote independence, social participation, and self-determination, helping adult attendees learn job skills, achieve personal goals, and improve communication and social skills.",
       "minimumAge": 18,
+      "yearEstablished": 1996,
       "languagesSupported": [
-        "English"
+        "English",
+        "Cantonese",
+        "Mandarin Chinese"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Job Skills Training",
+        "Personal Goal Achievement",
+        "Independence Improvement",
+        "Communication Skills",
+        "Social Skills",
+        "Healthy Lifestyles",
+        "Money Management",
+        "Time Management",
+        "Personal Hygiene Care",
+        "Mobility Training",
+        "Community Integration",
+        "Home Maintenance (chores and laundry skills)",
+        "Life Skills Training",
+        "Job Placement Support"
+      ],
+      "parentOrganization": "Friends of Children with Special Needs (FCSN)",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1493,13 +2000,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "FCSN Adaptive Skills Training is a licensed Adult Day Program in Fremont, CA.",
+        "It supports individuals aged 13-70 with developmental disabilities like Autism and Cerebral Palsy.",
+        "The program teaches daily living skills, including community safety, personal hygiene, and financial management."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1527,12 +2039,24 @@
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Provides structured daytime activities, supervision, and support services for adults with disabilities, including health monitoring, therapeutic activities, social and recreational programming, meals, snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Therapeutic Activities",
+        "Social and Recreational Programming"
+      ],
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00 AM–6:00 PM, Saturday–Sunday: 10:00 AM–4:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1540,19 +2064,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Optimum Learning Center is a licensed adult day program in Pleasanton, CA, offering structured activities and health monitoring.",
+        "The program provides respite care for caregivers and serves older adults with dementia or disabilities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 77,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GOLDEN HOUSE ADC",
-    "streetName": "GOLDEN HOUSE ADC",
+    "streetName": "Golden House Adult Development Center",
     "ccldLicenseNumber": "19201629",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1568,18 +2096,42 @@
       }
     },
     "contact": {
-      "phone": "(510) 453-5560",
-      "websiteUrl": ""
+      "phone": "(510) 522-4260",
+      "websiteUrl": "https://www.goldenhouseadc.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 21,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Golden House A.D.C. aims to help individuals with developmental disabilities achieve their highest potential of independence and self-esteem by providing freedom to learn new skills and attitudes of their own choice. The program believes positive behavior is enhanced by individuals learning to control their environments through communication.",
       "minimumAge": 18,
+      "maximumAge": 59,
+      "yearEstablished": 1985,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Computer Use",
+        "Gardening",
+        "Bowling",
+        "Museum Exploration",
+        "Nature Awareness",
+        "Restaurant Experiences",
+        "Library Experiences"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1591,9 +2143,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Golden House ADC specializes in behavior management for adults with developmental disabilities.",
+        "Serving Alameda since 1985, it offers structured activities and community excursions.",
+        "The program provides personalized support with a 1:3 staff-to-participant ratio."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 90,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
