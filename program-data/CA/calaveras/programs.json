@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER VALLEY S",
-    "streetName": "CENTRAL VALLEY TRAINING CENTER VALLEY S",
+    "streetName": "Valley Springs Day Program",
     "ccldLicenseNumber": "52701697",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -10,25 +10,39 @@
       "city": "Valley Spring",
       "state": "CA",
       "zipCode": "95252",
-      "county": "Calaveras",
+      "county": "Calaveras County",
       "coordinates": {
         "lat": 38.16801451,
         "lng": -120.8382492
       }
     },
     "contact": {
-      "phone": "(209) 951-1671",
-      "websiteUrl": ""
+      "phone": "(209) 920-3526",
+      "websiteUrl": "https://www.cvtcinc.com"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Central Valley Training Center, Inc. provides person-centered services to individuals with intellectual and developmental disabilities, including those with challenging behaviors. The program focuses on vocational training, community integration, and skill development in areas such as social skills, pedestrian safety, public transportation, budgeting, and self-advocacy. Individual Service Plans are developed to support participants in reaching their full potential.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Vocational Training",
+        "Community Integration",
+        "Behavior Support",
+        "Life Skills Training",
+        "Social Skills Development",
+        "Self-Advocacy",
+        "Emergency Response Services"
+      ],
+      "parentOrganization": "Central Valley Training Center, Inc.",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,15 +54,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Valley Springs Day Program, part of CVTC Inc., serves individuals with intellectual and developmental disabilities.",
+        "It offers person-centered services, vocational training, and community integration support."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 79,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ARC OF AMADOR AND CALAVERAS  THE",
-    "streetName": "ARC OF AMADOR AND CALAVERAS  THE",
+    "streetName": "The Arc of Amador and Calaveras",
     "ccldLicenseNumber": "57000034",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -65,17 +82,38 @@
     },
     "contact": {
       "phone": "(209) 754-4001",
-      "websiteUrl": ""
+      "websiteUrl": "https://arcofamador.org"
     },
     "facilityDetails": {
       "licensedCapacity": 40,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Campus Program provides individuals with disabilities exposure to a variety of social, recreational, and vocational opportunities within their community, focusing on program-based skill building and community integration. Participants learn basic life and vocational skills and are exposed to a range of trainings designed to help them develop new interests.",
       "minimumAge": 18,
+      "yearEstablished": 1971,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Recreational Activities",
+        "Community Integration",
+        "Vocational Training",
+        "Physical Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -83,13 +121,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Amador and Calaveras counties",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Arc of Amador and Calaveras has served individuals with intellectual and developmental disabilities since 1971.",
+        "It offers a Campus Program with social, recreational, and vocational opportunities, emphasizing community integration.",
+        "The program holds its 9th consecutive Three-Year CARF Accreditation for its quality services."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
