@@ -43,8 +43,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SOUTH SAN FRANCISCO ADULT DAY CARE CENT",
@@ -90,8 +90,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FAMILY HOUSING AND ADULT RESOURCES  INC",
@@ -137,8 +137,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ROSENER HOUSE ADULT DAY SERVICE",
@@ -184,8 +184,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "OASIS DAY PROGRAM",
@@ -231,8 +231,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CALIFORNIA ASSISTED DEVELOPMENT LLC",
@@ -278,8 +278,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NORTH PENINSULA DAY SERVICES",
@@ -325,8 +325,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FOCUS DAY PROGRAM II",
@@ -372,8 +372,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "STRIDES INCLUSION CENTER",
@@ -419,8 +419,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ISPOT DAY PROGRAM",
@@ -466,8 +466,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FOCUS DAY PROGRAM",
@@ -513,8 +513,196 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "STELLA DAY PROGRAM - SAN MATEO LLC",
+    "streetName": "STELLA DAY PROGRAM - SAN MATEO LLC",
+    "ccldLicenseNumber": "415601155",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "120 W Harris Ave",
+      "city": "South San Fra",
+      "state": "CA",
+      "zipCode": "94080",
+      "county": "San Mateo County",
+      "coordinates": {
+        "lat": 37.6503503,
+        "lng": -122.4031735
+      }
+    },
+    "contact": {
+      "phone": "(408) 644-5613",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "J AND J DAY PROGRAM  INC",
+    "streetName": "J AND J DAY PROGRAM  INC",
+    "ccldLicenseNumber": "415601158",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "191 West 25th Avenue",
+      "city": "San Mateo",
+      "state": "CA",
+      "zipCode": "94403",
+      "county": "San Mateo County",
+      "coordinates": {
+        "lat": 37.5431627,
+        "lng": -122.3107448
+      }
+    },
+    "contact": {
+      "phone": "(650) 296-5844",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 32,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES INC (SSF)",
+    "streetName": "SOCIAL VOCATIONAL SERVICES INC (SSF)",
+    "ccldLicenseNumber": "415601162",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "192 Beacon Street",
+      "city": "South San Fra",
+      "state": "CA",
+      "zipCode": "94080",
+      "county": "San Mateo County",
+      "coordinates": {
+        "lat": 37.63966055,
+        "lng": -122.4022905
+      }
+    },
+    "contact": {
+      "phone": "(650) 877-7255",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY CONNECTIONS LEARNING CENTER",
+    "streetName": "COMMUNITY CONNECTIONS LEARNING CENTER",
+    "ccldLicenseNumber": "415601196",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1934 S El Camino Real",
+      "city": "San Mateo",
+      "state": "CA",
+      "zipCode": "94403",
+      "county": "San Mateo County",
+      "coordinates": {
+        "lat": 37.54910907,
+        "lng": -122.3108704
+      }
+    },
+    "contact": {
+      "phone": "(916) 743-9164",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FHAR - EMPLOYMENT SUPPORT SERVICES",
@@ -560,8 +748,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SOCIAL DYNAMICS  A LIFE STEPS FOUNDATIO",
@@ -607,8 +795,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "PARTNERS FOR INDEPENDENCE- INCLUSION CT",
@@ -654,8 +842,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FOCUS DAY PROGRAM",
@@ -701,8 +889,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SVS DALY CITY SKILLS CENTER",
@@ -748,8 +936,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SVS  SAN MATEO ADULT DAY PROGRAM",
@@ -795,8 +983,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "PFI INCLUSION CENTER",
@@ -842,8 +1030,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "HORIZON ADULT DAY PROGRAM",
@@ -889,8 +1077,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FOCUS DAY PROGRAM III",
@@ -936,195 +1124,7 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "STELLA DAY PROGRAM - SAN MATEO LLC",
-    "streetName": "STELLA DAY PROGRAM - SAN MATEO LLC",
-    "ccldLicenseNumber": "415601155",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "120 W Harris Ave",
-      "city": "South San Fra",
-      "state": "CA",
-      "zipCode": "94080",
-      "county": "San Mateo",
-      "coordinates": {
-        "lat": 37.6503503,
-        "lng": -122.4031735
-      }
-    },
-    "contact": {
-      "phone": "(408) 644-5613",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "J AND J DAY PROGRAM  INC",
-    "streetName": "J AND J DAY PROGRAM  INC",
-    "ccldLicenseNumber": "415601158",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "191 West 25th Avenue",
-      "city": "San Mateo",
-      "state": "CA",
-      "zipCode": "94403",
-      "county": "San Mateo",
-      "coordinates": {
-        "lat": 37.5431627,
-        "lng": -122.3107448
-      }
-    },
-    "contact": {
-      "phone": "(650) 296-5844",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 32,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES INC (SSF)",
-    "streetName": "SOCIAL VOCATIONAL SERVICES INC (SSF)",
-    "ccldLicenseNumber": "415601162",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "192 Beacon Street",
-      "city": "South San Fra",
-      "state": "CA",
-      "zipCode": "94080",
-      "county": "San Mateo",
-      "coordinates": {
-        "lat": 37.63966055,
-        "lng": -122.4022905
-      }
-    },
-    "contact": {
-      "phone": "(650) 877-7255",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COMMUNITY CONNECTIONS LEARNING CENTER",
-    "streetName": "COMMUNITY CONNECTIONS LEARNING CENTER",
-    "ccldLicenseNumber": "415601196",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1934 S El Camino Real",
-      "city": "San Mateo",
-      "state": "CA",
-      "zipCode": "94403",
-      "county": "San Mateo",
-      "coordinates": {
-        "lat": 37.54910907,
-        "lng": -122.3108704
-      }
-    },
-    "contact": {
-      "phone": "(916) 743-9164",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
 ]

@@ -43,8 +43,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ARC IV DEVELOPMENT CENTER",
@@ -90,8 +90,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "DAYOUT ADHC/ALZHEIMER DAY CARE RESOURCE",
@@ -137,8 +137,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ARC IV BEHAVIOR MANAGEMENT PROGRAM",
@@ -184,8 +184,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NOR EDUCATIONAL CENTER  LLC",
@@ -198,7 +198,7 @@
       "city": "El Centro",
       "state": "CA",
       "zipCode": "92243",
-      "county": "Imperial",
+      "county": "Imperial County",
       "coordinates": {
         "lat": 32.79284673,
         "lng": -115.5574722
@@ -231,7 +231,7 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
 ]

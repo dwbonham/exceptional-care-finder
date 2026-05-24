@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "ARC OF BUTTE   THE",
-    "streetName": "ARC OF BUTTE   THE",
+    "streetName": "The Arc of Butte County",
     "ccldLicenseNumber": "45000756",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,40 @@
     },
     "contact": {
       "phone": "(530) 891-5865",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.arcbutte.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 90,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Arc of Butte County's Adult Day Program offers tailored vocational, educational, and recreational assistance to adults with disabilities. Through a blend of facility and community-based programs, they equip individuals with skills for societal contribution, independent living, and goal achievement, with a strong emphasis on community integration.",
       "minimumAge": 18,
+      "yearEstablished": 1952,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Educational Assistance",
+        "Recreational Activities",
+        "Life Skills Training",
+        "Community Integration",
+        "Social Interaction"
+      ],
+      "parentOrganization": "The Arc of Butte County",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Cerebral Palsy",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -36,19 +59,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Chico and Oroville areas",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Arc of Butte County offers Adult Day Programs for individuals with intellectual and developmental disabilities, fostering inclusion and independence.",
+        "Founded in 1952 by parents, it provides vocational readiness, life skills, and community-based experiences.",
+        "Services are funded by the State of California Department of Developmental Services and Far Northern Regional Center."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GRIDLEY ADULT SERVICES PROGRAM",
-    "streetName": "GRIDLEY ADULT SERVICES PROGRAM",
+    "streetName": "Gridley Adult Services Program",
     "ccldLicenseNumber": "45001341",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -65,17 +93,47 @@
     },
     "contact": {
       "phone": "(530) 846-4988",
-      "websiteUrl": ""
+      "websiteUrl": "https://crsprograms.com"
     },
     "facilityDetails": {
       "licensedCapacity": 25,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Gridley Adult Services Program provides meaningful experiences to adults with disabilities, assisting them in achieving greater independence and happiness. The program offers training in various areas including computer skills, meal preparation, money management, personal care, recreation, social skills, and community activities.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Community Activities",
+        "Daily Exercise",
+        "Recreation / Leisure Skills",
+        "Job Exploration Tours",
+        "Meal Preparation",
+        "Nutrition",
+        "Money Management",
+        "Personal Shopping",
+        "Personal Care / Hygiene",
+        "Social Skills Training",
+        "Safety Training",
+        "Communication Skills",
+        "Self-Advocacy Training"
+      ],
+      "parentOrganization": "Community Resource Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -87,15 +145,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Gridley Adult Services Program supports adults with disabilities in Butte & Sutter counties.",
+        "It offers life skills training, recreation, and respite services for caregivers."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LIGHTHOUSE LIVING SERVICES  INC.",
-    "streetName": "LIGHTHOUSE LIVING SERVICES  INC.",
+    "streetName": "Lighthouse Living Services, Inc.",
     "ccldLicenseNumber": "45001802",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -112,17 +173,35 @@
     },
     "contact": {
       "phone": "(530) 534-9237",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.lighthouselivingservices.com"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Lighthouse Living Services, Inc. is a licensed adult day program in Oroville, California, providing structured daytime activities, supervision, and support services for adults with disabilities. Services include health monitoring, therapeutic and recreational programming, meals, and personal care assistance.",
       "minimumAge": 18,
+      "yearEstablished": 1999,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance"
+      ],
+      "parentOrganization": "Lighthouse Living Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -134,15 +213,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Lighthouse Living Services is an Adult Day Program in Oroville, CA, serving seniors and individuals with disabilities.",
+        "It offers structured daytime activities, health monitoring, meals, and therapeutic programming.",
+        "The program focuses on independent living skills, including money management and socialization."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ARC OF BUTTE  - OROVILLE  THE",
-    "streetName": "ARC OF BUTTE  - OROVILLE  THE",
+    "streetName": "The Arc of Butte County - Oroville",
     "ccldLicenseNumber": "45002089",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -158,18 +241,37 @@
       }
     },
     "contact": {
-      "phone": "(530) 532-1272",
-      "websiteUrl": ""
+      "phone": "(530) 532-8759",
+      "websiteUrl": "https://www.arcbutte.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Arc of Butte County's Adult Day Program provides a nurturing environment aimed at fostering growth and development for individuals with intellectual and developmental disabilities. It empowers clients through a blend of facility and community-based programs, equipping them with skills for societal contribution, independent living, and goal achievement.",
       "minimumAge": 18,
+      "yearEstablished": 1953,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Outings",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "The Arc of Butte County",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -181,15 +283,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Arc of Butte County's Oroville Adult Day Program supports adults with intellectual and developmental disabilities.",
+        "It offers facility and community-based activities, including vocational training at the Arc Thrift Store.",
+        "Established in 1953, the nonprofit fosters independence and community integration for clients."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SOAR",
-    "streetName": "SOAR",
+    "streetName": "SOAR (Social, Occupational, Academic, Recreational)",
     "ccldLicenseNumber": "45002577",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -205,18 +311,44 @@
       }
     },
     "contact": {
-      "phone": "(530) 898-0813",
-      "websiteUrl": ""
+      "phone": "(530) 877-4146",
+      "websiteUrl": "https://californiavocations.org/day-programs/"
     },
     "facilityDetails": {
       "licensedCapacity": 6,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "SOAR (Social, Occupational, Academic, Recreational) specializes in providing tailored support services for adults with the most challenging behaviors. This small group program is dedicated to assisting adults with developmental disabilities who require intensive staffing, offering the focused care they need to thrive. At SOAR, the mission is to empower individuals with developmental disabilities to become active, accepted, and welcomed participants in their communities.",
       "minimumAge": 18,
+      "yearEstablished": 1990,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Life Skills Training",
+        "Exercise",
+        "Bowling",
+        "Movies",
+        "Gardening",
+        "Swimming",
+        "Computer skills",
+        "College classes",
+        "Social Skills Training",
+        "Vocational Skills Training"
+      ],
+      "parentOrganization": "California Vocations Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -224,19 +356,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Paradise, Chico, Gridley, and Oroville areas",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "SOAR, a California Vocations program, supports adults with developmental disabilities needing intensive care.",
+        "It focuses on social, occupational, academic, and recreational growth, including community outings."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 98,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "INNOVATIONS",
-    "streetName": "INNOVATIONS",
+    "streetName": "Innovations Day Center",
     "ccldLicenseNumber": "45002734",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -253,17 +389,35 @@
     },
     "contact": {
       "phone": "(530) 899-1907",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.mainsl.com/california/innovations-day-center"
     },
     "facilityDetails": {
       "licensedCapacity": 35,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Innovations Day Center is a vibrant, inclusive space where attendees explore new interests, build practical skills, and connect with other community members in Redding and Chico. Through daily creative projects, wellness activities, and social engagement, the program helps each person grow in confidence and independence.",
       "minimumAge": 18,
+      "yearEstablished": 2008,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Fitness Activities",
+        "Community Integration",
+        "Wellness Workshops"
+      ],
+      "parentOrganization": "Mains'l Services",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -275,15 +429,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Innovations Day Center offers a vibrant, inclusive space for adults to explore interests, build skills, and engage socially.",
+        "It is a licensed adult day program in Chico, CA, with a capacity for 35 attendees.",
+        "The program emphasizes a person-centered approach, tailoring activities to individual goals and promoting community integration."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 98,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ROSELEAF SENIOR DAY CENTER - CHICO",
-    "streetName": "ROSELEAF SENIOR DAY CENTER - CHICO",
+    "streetName": "Roseleaf Memory Care Communities",
     "ccldLicenseNumber": "45002774",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -299,18 +457,54 @@
       }
     },
     "contact": {
-      "phone": "(559) 970-1240",
-      "websiteUrl": ""
+      "phone": "(530) 488-7496",
+      "websiteUrl": "https://www.roseleafcare.com"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Roseleaf Memory Care Communities in Chico is a residential facility dedicated exclusively to memory care and assisted living for seniors, offering structured support for residents with Alzheimer's disease and other forms of dementia. It is not an Adult Day Program for individuals with developmental disabilities.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Filipino",
+        "American Sign Language"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Common Areas",
+        "Outdoor Garden",
+        "Library",
+        "Computer Lounge",
+        "Activity Center",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Exercise",
+        "Brain Games",
+        "Outings",
+        "Life Skills Training",
+        "Karaoke",
+        "Wii bowling",
+        "Happy hour",
+        "Stretching classes",
+        "Swimming",
+        "Birthday and holiday parties",
+        "Social outings",
+        "Clubs and interest groups",
+        "Live entertainment",
+        "Yoga",
+        "Tai Chi",
+        "Light therapy"
+      ],
+      "parentOrganization": "Golden Roseleaf Gardens Opco LLC",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Alzheimer's",
+        "Dementia"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -318,19 +512,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local to Chico for medical appointments and outings",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Roseleaf Memory Care Communities specializes in memory care, offering assisted living for those with Alzheimer's or dementia.",
+        "The program utilizes a \"dementia village concept\" with themed spaces and person-centered daily activities."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "WTC NEXUS CHICO",
-    "streetName": "WTC NEXUS CHICO",
+    "streetName": "WTC Nexus Chico",
     "ccldLicenseNumber": "45002948",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -346,18 +545,33 @@
       }
     },
     "contact": {
-      "phone": "(530) 343-7994",
-      "websiteUrl": ""
+      "phone": "(530) 327-5958",
+      "websiteUrl": "https://www.wtcinc.org/programs/nexus-program/"
     },
     "facilityDetails": {
       "licensedCapacity": 44,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Nexus Program delivers tailored services to meet individual needs and preferences, empowering participants to expand their abilities and engage comfortably in community spaces. WTC ensures each participant finds their niche in activities like Contributing, Community, and Center (arts, crafts, education technology).",
       "minimumAge": 18,
+      "yearEstablished": 1949,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "WTC (Work Training Center)",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -365,19 +579,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Butte County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "WTC Nexus Chico offers tailored day services for adults 18+ with developmental disabilities, fostering independence and community engagement.",
+        "As a 501(c)(3) nonprofit, WTC has served Butte County for over 75 years, promoting skill development."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 90,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "HOPE ALZHEIMER'S AND DEMENTIA CARE",
-    "streetName": "HOPE ALZHEIMER'S AND DEMENTIA CARE",
+    "streetName": "Hope Alzheimer's & Dementia Care",
     "ccldLicenseNumber": "45002997",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -386,7 +604,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95973",
-      "county": "Butte",
+      "county": "Butte County",
       "coordinates": {
         "lat": 39.76470667,
         "lng": -121.8190548
@@ -394,16 +612,27 @@
     },
     "contact": {
       "phone": "(530) 592-9083",
-      "websiteUrl": ""
+      "websiteUrl": "https://hopedementiacare.com"
     },
     "facilityDetails": {
       "licensedCapacity": 6,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Hope Alzheimer's & Dementia Care provides a loving, enriching social adult day program specifically for individuals living with Alzheimer's and dementia. The program offers caregivers respite and creates joyful, meaningful experiences through therapeutic programming, creative arts, nature-based outings, and social connection.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Social and Recreational Activities",
+        "Exercise Programs",
+        "Cognitive Engagement"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "12:30pm–4:30pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -416,15 +645,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Hope Alzheimer's & Dementia Care offers a person-centered adult day program in Chico, CA, specializing in memory care.",
+        "Founded by a Registered Nurse, the program provides therapeutic engagement, creative arts, and respite for caregivers.",
+        "It focuses on small groups (up to six guests) for personalized attention, promoting dignity and quality of life."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 85,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "WTC MOSAIC CHICO",
-    "streetName": "WTC MOSAIC CHICO",
+    "streetName": "WTC Mosaic Chico",
     "ccldLicenseNumber": "45920041",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -433,7 +666,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95973",
-      "county": "Butte",
+      "county": "Butte County",
       "coordinates": {
         "lat": 39.77361234,
         "lng": -121.8782292
@@ -441,17 +674,42 @@
     },
     "contact": {
       "phone": "(530) 343-7994",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.ewtc.org/programs/mosaic/"
     },
     "facilityDetails": {
       "licensedCapacity": 36,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "WTC's Mosaic program is medically based, offering a supportive environment for high-needs clients, including those with mobility issues. It provides personal care, skilled nursing, medication administration, and assistance with health, hygiene, and motor skill enhancement.",
       "minimumAge": 18,
+      "yearEstablished": 1949,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Activities",
+        "Life Skills Training",
+        "Physical Therapy Activities",
+        "Bowling",
+        "Bingo",
+        "Karaoke",
+        "Motor Skills Development"
+      ],
+      "parentOrganization": "Work Training Center",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -459,19 +717,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Butte County",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "WTC Mosaic Chico is an adult day program for individuals 18+ with medical needs, offering skilled nursing and personal care.",
+        "The program provides engaging activities, focusing on personal growth, community involvement, and skill development."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "MERAKEY - INSPIRATIONS",
-    "streetName": "MERAKEY - INSPIRATIONS",
+    "streetName": "Merakey - Inspirations",
     "ccldLicenseNumber": "45920056",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -480,7 +743,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95928",
-      "county": "Butte",
+      "county": "Butte County",
       "coordinates": {
         "lat": 39.71217997,
         "lng": -121.7893819
@@ -488,17 +751,32 @@
     },
     "contact": {
       "phone": "(530) 774-2793",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.merakey.org"
     },
     "facilityDetails": {
       "licensedCapacity": 35,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Merakey - Inspirations is a licensed adult day program that provides structured daytime activities, supervision, and support services for adults with intellectual and developmental disabilities. The program aims to enhance abilities and interests, helping individuals become self-sufficient and find meaningful roles in their community, including through community service.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Community Service",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Merakey",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Mon-Fri: 9:00 AM–6:00 PM, Sat-Sun: 10:00 AM–4:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -510,11 +788,14 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Merakey - Inspirations is a licensed adult day program in Chico for adults with intellectual and developmental disabilities.",
+        "It offers structured daytime activities, health monitoring, meals, and therapeutic programming."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 88,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "COUNTRY CLUB AT THE COMMONS",
@@ -527,7 +808,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95973",
-      "county": "Butte",
+      "county": "Butte County",
       "coordinates": {
         "lat": 39.7709055,
         "lng": -121.8427448
@@ -557,15 +838,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Country Club is a structured adult day program for individuals with early-stage dementia, offering social connection and engaging activities.",
+        "It provides flexible, drop-off care for seniors at any stage of memory loss, with trained staff in a secure, home-like setting."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 33,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LITTLE RED HEN KITCHEN",
-    "streetName": "LITTLE RED HEN KITCHEN",
+    "streetName": "Little Red Hen Adult Day Services (Kitchen Program)",
     "ccldLicenseNumber": "45920313",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -574,25 +858,40 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95926",
-      "county": "Butte",
+      "county": "Butte County",
       "coordinates": {
         "lat": 39.7608641,
         "lng": -121.8424779
       }
     },
     "contact": {
-      "phone": "(530) 891-1300",
-      "websiteUrl": ""
+      "phone": "(530) 514-7311",
+      "websiteUrl": "https://littleredhen.org"
     },
     "facilityDetails": {
       "licensedCapacity": 35,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Little Red Hen promotes self-determination, independence, productivity, and inclusion for adults with intellectual and developmental disabilities. The program at this location offers choice-based activities, skills development, and pre-employment opportunities, including cooking classes and healthy eating support.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Cooking Classes"
+      ],
+      "parentOrganization": "Little Red Hen",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -604,11 +903,14 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Little Red Hen Adult Day Services supports adults with developmental disabilities through dynamic, person-centered activities.",
+        "The Kitchen Program offers cooking classes and healthy eating, with proceeds supporting programs for individuals with disabilities."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 87,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LITTLE RED HEN ARTISANS",
@@ -621,25 +923,42 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95926",
-      "county": "Butte",
+      "county": "Butte County",
       "coordinates": {
         "lat": 39.76088891,
         "lng": -121.8413936
       }
     },
     "contact": {
-      "phone": "(560) 894-8401",
-      "websiteUrl": ""
+      "phone": "(530) 894-8401",
+      "websiteUrl": "https://www.littleredhen.org"
     },
     "facilityDetails": {
       "licensedCapacity": 35,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Artisan Shop provides a creative environment for adults with developmental disabilities to express themselves through various art techniques like mosaics, beading, macrame, and ceramics. The program aims to enhance creativity, focus, group collaboration, and decision-making skills, supporting social connection, skills development, and pre-employment opportunities.",
       "minimumAge": 18,
+      "yearEstablished": 1993,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Little Red Hen",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -651,15 +970,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Little Red Hen Artisans offers art programs and supportive employment for adults with developmental disabilities.",
+        "This non-profit provides community skills training and social activities for individuals with cognitive disabilities.",
+        "Founded by a parent, it supports families and individuals with disabilities, including those with autism."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LITTLE RED HEN GIFT LAB",
-    "streetName": "LITTLE RED HEN GIFT LAB",
+    "streetName": "The Lab (Little Red Hen)",
     "ccldLicenseNumber": "45920315",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -668,7 +991,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95928",
-      "county": "Butte",
+      "county": "Butte County",
       "coordinates": {
         "lat": 39.72429101,
         "lng": -121.8175345
@@ -676,17 +999,39 @@
     },
     "contact": {
       "phone": "(530) 897-0100",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.littleredhen.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 35,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Lab is a day program teaching video game design, video production, and other technology skills to adults with developmental disabilities.",
       "minimumAge": 18,
+      "yearEstablished": 1993,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Video Game Design",
+        "Video Production",
+        "Technology Skills Training",
+        "Life Skills Training",
+        "Vocational Workshop"
+      ],
+      "parentOrganization": "Little Red Hen",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "9:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy",
+        "Epilepsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -698,15 +1043,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Lab is an adult day program in Chico, CA, focusing on technology skills like video game design and production.",
+        "It serves adults with developmental disabilities, offering person-centered activities and pre-employment opportunities."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LITTLE RED HEN PARK & GARDEN",
-    "streetName": "LITTLE RED HEN PARK & GARDEN",
+    "streetName": "Park & Garden",
     "ccldLicenseNumber": "45920316",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -715,7 +1063,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95926",
-      "county": "Butte",
+      "county": "Butte County",
       "coordinates": {
         "lat": 39.7608817,
         "lng": -121.8419679
@@ -723,17 +1071,33 @@
     },
     "contact": {
       "phone": "(530) 892-8987",
-      "websiteUrl": ""
+      "websiteUrl": "https://littleredhen.org/park-garden/"
     },
     "facilityDetails": {
       "licensedCapacity": 35,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Park & Garden program offers vocational training in horticulture, organic gardening, and animal care, providing participants with opportunities to develop work and social skills in an outdoor environment while promoting healthy eating habits.",
       "minimumAge": 18,
+      "yearEstablished": 1993,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Little Red Hen",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -745,15 +1109,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Park & Garden, a Little Red Hen program, offers vocational training in a plant nursery for adults with developmental disabilities.",
+        "It helps individuals with autism, cerebral palsy, and Down syndrome gain social and work skills.",
+        "Established in 1993, the program focuses on enhancing quality of life through supportive employment."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "WTC NEXUS OROVILLE",
-    "streetName": "WTC NEXUS OROVILLE",
+    "streetName": "WTC Nexus Oroville",
     "ccldLicenseNumber": "45920357",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -762,7 +1130,7 @@
       "city": "Oroville",
       "state": "CA",
       "zipCode": "95966",
-      "county": "Butte",
+      "county": "Butte County",
       "coordinates": {
         "lat": 39.50150942,
         "lng": -121.5513175
@@ -770,17 +1138,37 @@
     },
     "contact": {
       "phone": "(530) 343-7994",
-      "websiteUrl": ""
+      "websiteUrl": "https://wtc.org"
     },
     "facilityDetails": {
       "licensedCapacity": 44,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Nexus Program delivers tailored services to meet individual needs and preferences, empowering participants to expand their abilities and engage comfortably in community spaces. WTC ensures each participant finds their niche in activities like Contributing, Community, and Center (arts, crafts, education technology).",
       "minimumAge": 18,
+      "yearEstablished": 1949,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Community Integration",
+        "Recreational Activities",
+        "Money Management",
+        "Education Technology"
+      ],
+      "parentOrganization": "Work Training Center",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -788,14 +1176,19 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Butte County",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "WTC Nexus Oroville offers tailored services for adults 18+ with developmental/intellectual disabilities, focusing on community engagement and skill development.",
+        "As a 501(c)(3) nonprofit, WTC has served Butte County for over 75 years, promoting independence through diverse activities."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
 ]

@@ -43,8 +43,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ARC-EAST  TRAINING CENTER",
@@ -90,8 +90,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ARC OF SAN DIEGO-SOL AND RUTH GERBER FA",
@@ -137,8 +137,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GEORGE G. GLENNER ALZHEIMER'S FAMILY CE",
@@ -184,8 +184,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "UNYEWAY  INC.-ADULT DEVELOPMENT CENTER",
@@ -231,8 +231,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM - CIVIC",
@@ -278,8 +278,243 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM-CAPALINA",
+    "streetName": "AVID BEHAVIORAL DAY PROGRAM-CAPALINA",
+    "ccldLicenseNumber": "371881409",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1637 Capalina Rd",
+      "city": "San Marcos",
+      "state": "CA",
+      "zipCode": "92069",
+      "county": "San Diego County",
+      "coordinates": {
+        "lat": 33.15184421,
+        "lng": -117.1974378
+      }
+    },
+    "contact": {
+      "phone": "(858) 442-6840",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTER FOR THE ARTS AND ADULT EDUCATION",
+    "streetName": "CENTER FOR THE ARTS AND ADULT EDUCATION",
+    "ccldLicenseNumber": "371881461",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "555 Deer Spring Road",
+      "city": "San Marcos",
+      "state": "CA",
+      "zipCode": "92069",
+      "county": "San Diego County",
+      "coordinates": {
+        "lat": 33.19455894,
+        "lng": -117.1457624
+      }
+    },
+    "contact": {
+      "phone": "(760) 721-1706",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 200,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "STEPPING STONE RESOURCES",
+    "streetName": "STEPPING STONE RESOURCES",
+    "ccldLicenseNumber": "371881466",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "842 South Main Avenue",
+      "city": "Fallbrook",
+      "state": "CA",
+      "zipCode": "92028",
+      "county": "San Diego County",
+      "coordinates": {
+        "lat": 33.37535155,
+        "lng": -117.2514595
+      }
+    },
+    "contact": {
+      "phone": "(760) 451-8692",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AVID BDP PENNSYLVANIA",
+    "streetName": "AVID BDP PENNSYLVANIA",
+    "ccldLicenseNumber": "371881598",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "351 E Pennsylvania Ave",
+      "city": "Escondido",
+      "state": "CA",
+      "zipCode": "92025",
+      "county": "San Diego County",
+      "coordinates": {
+        "lat": 33.12530051,
+        "lng": -117.0790348
+      }
+    },
+    "contact": {
+      "phone": "(858) 442-6840",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NEW BEGINNINGS #1 LLC",
+    "streetName": "NEW BEGINNINGS #1 LLC",
+    "ccldLicenseNumber": "371881641",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "504 E Alvarado St #102 201",
+      "city": "Fallbrook",
+      "state": "CA",
+      "zipCode": "92028",
+      "county": "San Diego County",
+      "coordinates": {
+        "lat": 33.38216131,
+        "lng": -117.2291184
+      }
+    },
+    "contact": {
+      "phone": "(760) 586-1994",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LEARNING SERVICES ESCONDIDO-ADULT DAY C",
@@ -325,8 +560,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ST. PAUL'S COMMUNITY CARE CENTER",
@@ -372,8 +607,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "OPPORTUNITIES UNLIMITED",
@@ -419,8 +654,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GEORGE G. GLENNER FAMILY CENTER - ENCIN",
@@ -466,8 +701,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "UNITED CEREBRAL PALSY ASSOC. OF SAN DIE",
@@ -513,8 +748,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "FALLBROOK ADULT DAY CARE",
@@ -560,8 +795,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "INDEPENDENT OPTIONS/ADVANCED OPTIONS SA",
@@ -607,8 +842,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SAM & ROSE STEIN EDUCATION CENTER",
@@ -654,8 +889,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LA MESA WORK CENTER",
@@ -701,8 +936,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "INNOVATIVE CENTER",
@@ -748,8 +983,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CPSRC BMDTP-LAKESIDE",
@@ -795,8 +1030,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ARC SULPIZIO FAMILY ARC CENTER",
@@ -842,8 +1077,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "EASTER SEALS SOUTHERN CALIFORNIA ESCOND",
@@ -889,8 +1124,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LINK CENTER  THE",
@@ -936,8 +1171,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "PROMISING FUTURES",
@@ -983,8 +1218,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "STEIN SPECIAL CARE SERVICES - ADULT",
@@ -1030,8 +1265,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "WILLIAMS QUEST",
@@ -1077,8 +1312,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ADVANTAGE CENTER  THE",
@@ -1124,8 +1359,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ARC OF SAN DIEGO-NORTH  TRAINING CENTER",
@@ -1171,8 +1406,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SAM & ROSE STEIN EDUCATION CENTER",
@@ -1218,8 +1453,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SALVA CENTER",
@@ -1265,8 +1500,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "REBECCA'S RETREAT",
@@ -1312,8 +1547,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "PACIFIC COAST LEARNING CENTER  INC.",
@@ -1359,8 +1594,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "HEALTHY OPPORTUNITIES PROGRESSIVE EDUCA",
@@ -1406,8 +1641,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "WORK SKILL RESOURCES",
@@ -1453,8 +1688,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM",
@@ -1500,8 +1735,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ACI",
@@ -1547,8 +1782,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LOL - LIFE OF LIBERTY  LLC",
@@ -1594,8 +1829,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SHINING STAR ADULT DAY CARE INC",
@@ -1641,8 +1876,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LA MESA WORK CENTER ANNEX",
@@ -1688,8 +1923,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "UNYEWAY INC",
@@ -1735,8 +1970,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SAM AND ROSE STEIN EDUCATION CENTER",
@@ -1782,8 +2017,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "HEALTHY OPPORTUNITES PROGRESSIVE EDUCAT",
@@ -1829,8 +2064,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "STEP ADULT TRAINING SERVICES",
@@ -1876,8 +2111,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM VISTA",
@@ -1923,8 +2158,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "MOUNTAIN SHADOWS THERAPEUTIC DAY PROGRA",
@@ -1970,8 +2205,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SOMERFORD PLACE ENCINITAS ADULT DAY CAR",
@@ -2017,8 +2252,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SOPHIE'S ART GALLERY",
@@ -2064,8 +2299,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "AMARIS CENTER FOR CHANGE",
@@ -2111,8 +2346,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "MARANATHA DAY PROGRAM",
@@ -2158,8 +2393,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "PEOPLE MOVING FORWARD INC.",
@@ -2205,8 +2440,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "HEALTHY OPPORTUNITIES PROGRESSIVE EDUCA",
@@ -2252,8 +2487,55 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ALNOOR ADULT DAY HEALTHCARE CENTER",
+    "streetName": "ALNOOR ADULT DAY HEALTHCARE CENTER",
+    "ccldLicenseNumber": "374604379",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "905 W Main St",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92020",
+      "county": "San Diego County",
+      "coordinates": {
+        "lat": 32.79494154,
+        "lng": -116.9734635
+      }
+    },
+    "contact": {
+      "phone": "(619) 402-5570",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ARTS & SERVICES FOR DISABLED INC.",
@@ -2299,8 +2581,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GENERATION'S DAY CARE",
@@ -2346,8 +2628,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "OCEANSIDE IVEY RANCH PARK ASSOCIATION",
@@ -2393,8 +2675,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "HOPE INC IV",
@@ -2440,8 +2722,102 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "STEIN EDUCATION CENTER",
+    "streetName": "STEIN EDUCATION CENTER",
+    "ccldLicenseNumber": "374604658",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "45 3rd Ave",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zipCode": "91910",
+      "county": "San Diego County",
+      "coordinates": {
+        "lat": 32.63657563,
+        "lng": -117.0780453
+      }
+    },
+    "contact": {
+      "phone": "(619) 281-5031",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EMPOWER NEUROREHAB",
+    "streetName": "EMPOWER NEUROREHAB",
+    "ccldLicenseNumber": "374604661",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8996 Miramar Rd Suite 301",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92126",
+      "county": "San Diego County",
+      "coordinates": {
+        "lat": 32.89229689,
+        "lng": -117.1384275
+      }
+    },
+    "contact": {
+      "phone": "(760) 688-0601",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 15,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LIVING FOR TODAY",
@@ -2487,384 +2863,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM-CAPALINA",
-    "streetName": "AVID BEHAVIORAL DAY PROGRAM-CAPALINA",
-    "ccldLicenseNumber": "371881409",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1637 Capalina Rd",
-      "city": "San Marcos",
-      "state": "CA",
-      "zipCode": "92069",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.15184421,
-        "lng": -117.1974378
-      }
-    },
-    "contact": {
-      "phone": "(858) 442-6840",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CENTER FOR THE ARTS AND ADULT EDUCATION",
-    "streetName": "CENTER FOR THE ARTS AND ADULT EDUCATION",
-    "ccldLicenseNumber": "371881461",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "555 Deer Spring Road",
-      "city": "San Marcos",
-      "state": "CA",
-      "zipCode": "92069",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.19455894,
-        "lng": -117.1457624
-      }
-    },
-    "contact": {
-      "phone": "(760) 721-1706",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 200,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "STEPPING STONE RESOURCES",
-    "streetName": "STEPPING STONE RESOURCES",
-    "ccldLicenseNumber": "371881466",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "842 South Main Avenue",
-      "city": "Fallbrook",
-      "state": "CA",
-      "zipCode": "92028",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.37535155,
-        "lng": -117.2514595
-      }
-    },
-    "contact": {
-      "phone": "(760) 451-8692",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "AVID BDP PENNSYLVANIA",
-    "streetName": "AVID BDP PENNSYLVANIA",
-    "ccldLicenseNumber": "371881598",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "351 E Pennsylvania Ave",
-      "city": "Escondido",
-      "state": "CA",
-      "zipCode": "92025",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.12530051,
-        "lng": -117.0790348
-      }
-    },
-    "contact": {
-      "phone": "(858) 442-6840",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "NEW BEGINNINGS #1 LLC",
-    "streetName": "NEW BEGINNINGS #1 LLC",
-    "ccldLicenseNumber": "371881641",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "504 E Alvarado St #102 201",
-      "city": "Fallbrook",
-      "state": "CA",
-      "zipCode": "92028",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.38216131,
-        "lng": -117.2291184
-      }
-    },
-    "contact": {
-      "phone": "(760) 586-1994",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ALNOOR ADULT DAY HEALTHCARE CENTER",
-    "streetName": "ALNOOR ADULT DAY HEALTHCARE CENTER",
-    "ccldLicenseNumber": "374604379",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "905 W Main St",
-      "city": "El Cajon",
-      "state": "CA",
-      "zipCode": "92020",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 32.79494154,
-        "lng": -116.9734635
-      }
-    },
-    "contact": {
-      "phone": "(619) 402-5570",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "STEIN EDUCATION CENTER",
-    "streetName": "STEIN EDUCATION CENTER",
-    "ccldLicenseNumber": "374604658",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "45 3rd Ave",
-      "city": "Chula Vista",
-      "state": "CA",
-      "zipCode": "91910",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 32.63657563,
-        "lng": -117.0780453
-      }
-    },
-    "contact": {
-      "phone": "(619) 281-5031",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "EMPOWER NEUROREHAB",
-    "streetName": "EMPOWER NEUROREHAB",
-    "ccldLicenseNumber": "374604661",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8996 Miramar Rd Suite 301",
-      "city": "San Diego",
-      "state": "CA",
-      "zipCode": "92126",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 32.89229689,
-        "lng": -117.1384275
-      }
-    },
-    "contact": {
-      "phone": "(760) 688-0601",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 15,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "WINGS RECOVERY CENTER  LLC",
@@ -2877,7 +2877,7 @@
       "city": "Carlsbad",
       "state": "CA",
       "zipCode": "92008",
-      "county": "San Diego",
+      "county": "San Diego County",
       "coordinates": {
         "lat": 33.13608244,
         "lng": -117.2743255
@@ -2910,8 +2910,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "WINGS RECOVERY CENTER LLC",
@@ -2924,7 +2924,7 @@
       "city": "Carlsbad",
       "state": "CA",
       "zipCode": "92008",
-      "county": "San Diego",
+      "county": "San Diego County",
       "coordinates": {
         "lat": 33.16102558,
         "lng": -117.3490252
@@ -2957,8 +2957,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "INDAYPROGRAMSAC",
@@ -2971,7 +2971,7 @@
       "city": "El Cajon",
       "state": "CA",
       "zipCode": "92020",
-      "county": "San Diego",
+      "county": "San Diego County",
       "coordinates": {
         "lat": 32.79272395,
         "lng": -116.9534595
@@ -3004,8 +3004,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NOR DAY ACADEMY",
@@ -3018,7 +3018,7 @@
       "city": "La Mesa",
       "state": "CA",
       "zipCode": "91942",
-      "county": "San Diego",
+      "county": "San Diego County",
       "coordinates": {
         "lat": 32.75647376,
         "lng": -117.03895
@@ -3051,8 +3051,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CHANGING OPTIONS ADULT DAY CARE",
@@ -3065,7 +3065,7 @@
       "city": "Ramona",
       "state": "CA",
       "zipCode": "92065",
-      "county": "San Diego",
+      "county": "San Diego County",
       "coordinates": {
         "lat": 33.04645932,
         "lng": -116.8562069
@@ -3098,8 +3098,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "HOPE INC. V",
@@ -3112,7 +3112,7 @@
       "city": "La Mesa",
       "state": "CA",
       "zipCode": "91942",
-      "county": "San Diego",
+      "county": "San Diego County",
       "coordinates": {
         "lat": 32.76806605,
         "lng": -117.0296913
@@ -3145,8 +3145,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "REBECCA'S RETREAT BONITA",
@@ -3159,7 +3159,7 @@
       "city": "Bonita",
       "state": "CA",
       "zipCode": "91902",
-      "county": "San Diego",
+      "county": "San Diego County",
       "coordinates": {
         "lat": 32.65887183,
         "lng": -117.0528144
@@ -3192,8 +3192,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "WINGS RECOVERY CENTER @ BRIGHTQUEST SAN",
@@ -3206,7 +3206,7 @@
       "city": "La Mesa",
       "state": "CA",
       "zipCode": "91942",
-      "county": "San Diego",
+      "county": "San Diego County",
       "coordinates": {
         "lat": 32.77986493,
         "lng": -117.0329138
@@ -3239,8 +3239,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "OPTIONS FOR ALL - ENHANCED BEHAVIORAL S",
@@ -3253,7 +3253,7 @@
       "city": "San Diego",
       "state": "CA",
       "zipCode": "92104",
-      "county": "San Diego",
+      "county": "San Diego County",
       "coordinates": {
         "lat": 32.75593564,
         "lng": -117.1302261
@@ -3286,7 +3286,7 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
 ]

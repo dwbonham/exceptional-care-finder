@@ -43,8 +43,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "APTOS SENIOR ACTIVITY CENTER",
@@ -90,8 +90,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "MAINSTREAM ART PROGRAM",
@@ -137,8 +137,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "BAYSIDE ADULT DAY ACTIVITY PROGRAM",
@@ -184,8 +184,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "BRIGHTPATH COMMUNITY CENTER",
@@ -231,8 +231,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SVS WATSONVILLE ADULT DAY PROGRAM",
@@ -278,8 +278,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NEW PERSPECTIVES INC",
@@ -325,8 +325,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "MOBILE WORK GROUP",
@@ -339,7 +339,7 @@
       "city": "Watsonville",
       "state": "CA",
       "zipCode": "95076",
-      "county": "Santa Cruz",
+      "county": "Santa Cruz County",
       "coordinates": {
         "lat": 36.91763907,
         "lng": -121.7841623
@@ -372,7 +372,7 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
 ]

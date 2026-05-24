@@ -202,899 +202,6 @@
     }
   },
   {
-    "legalLicenseName": "PASS RESOURCE CENTER",
-    "streetName": "PASS RESOURCE CENTER",
-    "ccldLicenseNumber": "330902477",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "702 East 11th Street",
-      "city": "Beaumont",
-      "state": "CA",
-      "zipCode": "92223",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.93711,
-        "lng": -116.97245
-      }
-    },
-    "contact": {
-      "phone": "(951) 845-3385",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 80,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DESERT ARC",
-    "streetName": "DESERT ARC",
-    "ccldLicenseNumber": "330905206",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "73-255 Country Club Drive",
-      "city": "Palm Desert",
-      "state": "CA",
-      "zipCode": "92260",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.687515,
-        "lng": -116.40697
-      }
-    },
-    "contact": {
-      "phone": "(760) 346-1611",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 250,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNLIMITED QUEST INC - SUNNYMEAD",
-    "streetName": "UNLIMITED QUEST INC - SUNNYMEAD",
-    "ccldLicenseNumber": "331800090",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "14325 Frederick St",
-      "city": "Moreno Valley",
-      "state": "CA",
-      "zipCode": "92553",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.914192,
-        "lng": -117.26113
-      }
-    },
-    "contact": {
-      "phone": "(909) 483-2505",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "RIVERSIDE RESOURCE CENTER",
-    "streetName": "RIVERSIDE RESOURCE CENTER",
-    "ccldLicenseNumber": "331800128",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6377 Riverside Ave Suite 10",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92506",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.95171,
-        "lng": -117.38794
-      }
-    },
-    "contact": {
-      "phone": "(951) 788-0747",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "IN-ROADS DAY PROGRAM 4",
-    "streetName": "IN-ROADS DAY PROGRAM 4",
-    "ccldLicenseNumber": "331800158",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4120-4130-4140-4150 E. Flor",
-      "city": "Hemet",
-      "state": "CA",
-      "zipCode": "92545",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.731735,
-        "lng": -116.996415
-      }
-    },
-    "contact": {
-      "phone": "(909) 864-1551",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COMMUNITY CROSSINGS INC SAN JACINTO",
-    "streetName": "COMMUNITY CROSSINGS INC SAN JACINTO",
-    "ccldLicenseNumber": "331880492",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "641 N State Street #1",
-      "city": "San Jacinto",
-      "state": "CA",
-      "zipCode": "92583",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.78147,
-        "lng": -116.9719
-      }
-    },
-    "contact": {
-      "phone": "(951) 654-3052",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS MURRIETA CCES",
-    "streetName": "SVS MURRIETA CCES",
-    "ccldLicenseNumber": "331880913",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "39040 Sky Canyon Dr Suite 1",
-      "city": "Murrieta",
-      "state": "CA",
-      "zipCode": "92563",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.551415,
-        "lng": -117.137135
-      }
-    },
-    "contact": {
-      "phone": "(626) 304-1074",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SPOELSTRA LLC DBA VOICE BANNING",
-    "streetName": "SPOELSTRA LLC DBA VOICE BANNING",
-    "ccldLicenseNumber": "331881190",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2985 W Lincoln St",
-      "city": "Banning",
-      "state": "CA",
-      "zipCode": "92220",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.92162,
-        "lng": -116.909576
-      }
-    },
-    "contact": {
-      "phone": "(909) 792-2428",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "INDEPENDENT OPTIONS  INC./ADVANCED OPTI",
-    "streetName": "INDEPENDENT OPTIONS  INC./ADVANCED OPTI",
-    "ccldLicenseNumber": "336400068",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2060 Chicago  Suite A-5",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92507",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.992985,
-        "lng": -117.34843
-      }
-    },
-    "contact": {
-      "phone": "(951) 222-2074",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 32,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNLIMITED QUEST INC II",
-    "streetName": "UNLIMITED QUEST INC II",
-    "ccldLicenseNumber": "336402681",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9758 Magnolia Ave #G/H/I",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92503",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.917583,
-        "lng": -117.45143
-      }
-    },
-    "contact": {
-      "phone": "(951) 689-8026",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNLIMITED QUEST INC EDGEMONT",
-    "streetName": "UNLIMITED QUEST INC EDGEMONT",
-    "ccldLicenseNumber": "336402685",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "23900 Allesandro Blvd Ste A",
-      "city": "Moreno Valley",
-      "state": "CA",
-      "zipCode": "92553",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.917282,
-        "lng": -117.245865
-      }
-    },
-    "contact": {
-      "phone": "(951) 653-0054",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VALLEY RESOURCE CENTER",
-    "streetName": "VALLEY RESOURCE CENTER",
-    "ccldLicenseNumber": "336406642",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1285 N. Santa Fe  Suite B",
-      "city": "Hemet",
-      "state": "CA",
-      "zipCode": "92543",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.768303,
-        "lng": -116.963135
-      }
-    },
-    "contact": {
-      "phone": "(951) 766-8659",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 35,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VALLEY RESOURCE CENTER",
-    "streetName": "VALLEY RESOURCE CENTER",
-    "ccldLicenseNumber": "336407918",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2050 Trumble Road",
-      "city": "Perris",
-      "state": "CA",
-      "zipCode": "92570",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.75555076,
-        "lng": -117.1847749
-      }
-    },
-    "contact": {
-      "phone": "(951) 657-0609",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES  RIVERSIDE",
-    "streetName": "SOCIAL VOCATIONAL SERVICES  RIVERSIDE",
-    "ccldLicenseNumber": "336408335",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1220 Palmyrita Avenue",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92507",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 34.00482,
-        "lng": -117.33816
-      }
-    },
-    "contact": {
-      "phone": "(951) 222-7088",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ON THE MOVE ADULT DEVELOPMENT CENTER",
-    "streetName": "ON THE MOVE ADULT DEVELOPMENT CENTER",
-    "ccldLicenseNumber": "336408337",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3351 Chicago Avenue",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92507",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.98186,
-        "lng": -117.348465
-      }
-    },
-    "contact": {
-      "phone": "(951) 779-9665",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER SAN",
-    "streetName": "BASIC OCCUPATIONAL TRAINING CENTER SAN",
-    "ccldLicenseNumber": "336409381",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1215 Buena Vista  Ste F G &",
-      "city": "San Jacinto",
-      "state": "CA",
-      "zipCode": "92583",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.775351,
-        "lng": -116.966582
-      }
-    },
-    "contact": {
-      "phone": "(951) 487-2725",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER  INC",
-    "streetName": "BASIC OCCUPATIONAL TRAINING CENTER  INC",
-    "ccldLicenseNumber": "336409382",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1323 Jet Way",
-      "city": "Perris",
-      "state": "CA",
-      "zipCode": "92571",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.86407,
-        "lng": -117.256516
-      }
-    },
-    "contact": {
-      "phone": "(951) 657-8028",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ANGEL VIEW ADULT DAY CARE",
-    "streetName": "ANGEL VIEW ADULT DAY CARE",
-    "ccldLicenseNumber": "336413159",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "12379 Miracle Hill Road",
-      "city": "Desert Hot Sp",
-      "state": "CA",
-      "zipCode": "92240",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.95894,
-        "lng": -116.4838
-      }
-    },
-    "contact": {
-      "phone": "(760) 329-6471",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS-PALM SPRINGS ADULT DAY PROGRAM",
-    "streetName": "SVS-PALM SPRINGS ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "336423741",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "997 E. Tahquitz Canyon Way",
-      "city": "Palm Springs",
-      "state": "CA",
-      "zipCode": "92262",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.82314,
-        "lng": -116.53713
-      }
-    },
-    "contact": {
-      "phone": "(310) 944-3303",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "TOTAL EDUCATIONAL ACTIVITY MODEL CORP.",
     "streetName": "TOTAL EDUCATIONAL ACTIVITY MODEL CORP.",
     "ccldLicenseNumber": "336423930",
@@ -1189,241 +296,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER",
-    "streetName": "BASIC OCCUPATIONAL TRAINING CENTER",
-    "ccldLicenseNumber": "336424627",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1121 Bradford Circle",
-      "city": "Corona",
-      "state": "CA",
-      "zipCode": "92882",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.88531,
-        "lng": -117.582245
-      }
-    },
-    "contact": {
-      "phone": "(951) 735-5084",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COMMUNITY CROSSINGS INC.",
-    "streetName": "COMMUNITY CROSSINGS INC.",
-    "ccldLicenseNumber": "336425334",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "27363 Jefferson Ave Ste. J",
-      "city": "Temecula",
-      "state": "CA",
-      "zipCode": "92590",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.521477,
-        "lng": -117.16558
-      }
-    },
-    "contact": {
-      "phone": "(909) 477-0179",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "KAISER ADULT BEHAVIORAL CENTER TEMECULA",
-    "streetName": "KAISER ADULT BEHAVIORAL CENTER TEMECULA",
-    "ccldLicenseNumber": "336425347",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "274 Commerce Center Dr Ste",
-      "city": "Temecula",
-      "state": "CA",
-      "zipCode": "92590",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.51330275,
-        "lng": -117.1620914
-      }
-    },
-    "contact": {
-      "phone": "(951) 225-2632",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SUPPORTING UNLIMITED POSSIBILITIES  INC",
-    "streetName": "SUPPORTING UNLIMITED POSSIBILITIES  INC",
-    "ccldLicenseNumber": "336425826",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "14137 Business Center Drive",
-      "city": "Moreno Valley",
-      "state": "CA",
-      "zipCode": "92553",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.91421,
-        "lng": -117.27143
-      }
-    },
-    "contact": {
-      "phone": "(951) 214-6833",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "GRACE ADULT DAY CARE",
-    "streetName": "GRACE ADULT DAY CARE",
-    "ccldLicenseNumber": "336426107",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "24318 Hemlock Avenue #F-1",
-      "city": "Moreno Valley",
-      "state": "CA",
-      "zipCode": "92557",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.941948,
-        "lng": -117.24043
-      }
-    },
-    "contact": {
-      "phone": "(951) 704-3741",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "FIRST STEP CORONA",
     "streetName": "FIRST STEP CORONA",
     "ccldLicenseNumber": "336426108",
@@ -1471,34 +343,189 @@
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   },
   {
-    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER",
-    "streetName": "BASIC OCCUPATIONAL TRAINING CENTER",
-    "ccldLicenseNumber": "336426342",
+    "legalLicenseName": "PASS RESOURCE CENTER",
+    "streetName": "Ray Strebe Resource Center",
+    "ccldLicenseNumber": "330902477",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "1044 E. La Cadena",
-      "city": "Riverside",
+      "street": "702 East 11th Street",
+      "city": "Beaumont",
       "state": "CA",
-      "zipCode": "92507",
+      "zipCode": "92223",
       "county": "Riverside",
       "coordinates": {
-        "lat": 34.00369202,
-        "lng": -117.349659
+        "lat": 33.93711,
+        "lng": -116.97245
       }
     },
     "contact": {
-      "phone": "(951) 788-2349",
-      "websiteUrl": ""
+      "phone": "(951) 845-3385",
+      "websiteUrl": "https://arcriverside.org/"
     },
     "facilityDetails": {
-      "licensedCapacity": 90,
+      "licensedCapacity": 80,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This program supports adults with intellectual and developmental disabilities (IDD) in the San Gorgonio Pass area. It offers community-based and on-site programming, including a Greenhouse Project for learning about sustainability, and emphasizes community integration through volunteering, job skills development, educational pursuits, health and wellness, and enhancing daily living skills.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Volunteer Opportunities",
+        "Health and Wellness Activities",
+        "Educational Development"
+      ],
+      "parentOrganization": "The Arc of Riverside County",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Ray Strebe Resource Center supports adults with intellectual and developmental disabilities.",
+        "It offers community integration, skill-building, and a unique Greenhouse Project.",
+        "The program is part of The Arc of Riverside County, established in 1953."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DESERT ARC",
+    "streetName": "DESERT ARC",
+    "ccldLicenseNumber": "330905206",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "73-255 Country Club Drive",
+      "city": "Palm Desert",
+      "state": "CA",
+      "zipCode": "92260",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.687515,
+        "lng": -116.40697
+      }
+    },
+    "contact": {
+      "phone": "(760) 346-1611",
+      "websiteUrl": "https://www.desertarc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 250,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Adult Day Program provides a nurturing environment that enhances the lives of individuals who require support. Activities are designed to promote individual goals both on site and in the community, enhancing independence with activities of daily living, promoting social growth, pre-vocational training, volunteerism, arts & leisure exploration and self-advocacy skill building.",
+      "minimumAge": 18,
+      "yearEstablished": 1959,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Cerebral Palsy",
+        "Epilepsy",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Coachella Valley, Morongo Basin, Riverside County, parts of San Bernardino County (Morongo Basin), Temecula, Blythe",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Desert Arc is a nonprofit serving adults with intellectual and developmental disabilities since 1959.",
+        "Programs include adult day centers, employment training, independent living skills, and transportation.",
+        "They offer business services like shredding and landscaping, providing clients with meaningful employment."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNLIMITED QUEST INC - SUNNYMEAD",
+    "streetName": "UNLIMITED QUEST INC - SUNNYMEAD",
+    "ccldLicenseNumber": "331800090",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "14325 Frederick St",
+      "city": "Moreno Valley",
+      "state": "CA",
+      "zipCode": "92553",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.914192,
+        "lng": -117.26113
+      }
+    },
+    "contact": {
+      "phone": "(909) 483-2505",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "UNLIMITED QUEST INC - SUNNYMEAD is a licensed adult day program in Moreno Valley, California, providing structured daytime activities, supervision, and support services for adults needing assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals, and personal care assistance.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -1511,42 +538,65 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Unlimited Quest Inc - Sunnymead is a licensed Adult Day Program for adults ages 18-59, with a capacity for 75 non-ambulatory clients.",
+        "The program provides structured daytime activities, health monitoring, meals, and therapeutic programming."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 67,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "IN-ROADS DAY PROGRAM #3",
-    "streetName": "IN-ROADS DAY PROGRAM #3",
-    "ccldLicenseNumber": "336426777",
+    "legalLicenseName": "RIVERSIDE RESOURCE CENTER",
+    "streetName": "Riverside Resource Center",
+    "ccldLicenseNumber": "331800128",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "26900  04  08 Cherry Hills",
-      "city": "Menifee",
+      "street": "6377 Riverside Ave Suite 10",
+      "city": "Riverside",
       "state": "CA",
-      "zipCode": "92586",
+      "zipCode": "92506",
       "county": "Riverside",
       "coordinates": {
-        "lat": 33.71050353,
-        "lng": -117.1911532
+        "lat": 33.95171,
+        "lng": -117.38794
       }
     },
     "contact": {
-      "phone": "(951) 672-1800",
-      "websiteUrl": ""
+      "phone": "(951) 788-0747",
+      "websiteUrl": "https://arcriverside.org/what-we-do/adult-day-programs/"
     },
     "facilityDetails": {
-      "licensedCapacity": 45,
+      "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Riverside Resource Center supports adults with intellectual and developmental disabilities (IDD) by providing meaningful programming tailored to individual interests and needs, including community-based and on-site opportunities for personal development, volunteerism, social engagement, and daily living skill-building.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Adaptive Equipment Therapy Program"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Personal Development",
+        "Volunteerism",
+        "Social Engagement",
+        "Educational Development",
+        "Health and Wellness"
+      ],
+      "parentOrganization": "The Arc of Riverside County",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1558,40 +608,276 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Riverside Resource Center supports adults with intellectual and developmental disabilities.",
+        "It offers community-based and on-site programs, including arts, personal development, and daily living skills.",
+        "The center provides unique adaptive equipment therapy and LVN care for restricted health conditions."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "FAIRMOUNT RESOURCE CENTER-UP IN MOTION",
-    "streetName": "FAIRMOUNT RESOURCE CENTER-UP IN MOTION",
-    "ccldLicenseNumber": "336426847",
+    "legalLicenseName": "IN-ROADS DAY PROGRAM 4",
+    "streetName": "IN-ROADS DAY PROGRAM 4",
+    "ccldLicenseNumber": "331800158",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "2190 Market Street  Suite D",
-      "city": "Riverside",
+      "street": "4120-4130-4140-4150 E. Flor",
+      "city": "Hemet",
       "state": "CA",
-      "zipCode": "92501",
+      "zipCode": "92545",
       "county": "Riverside",
       "coordinates": {
-        "lat": 33.998558,
-        "lng": -117.37265
+        "lat": 33.731735,
+        "lng": -116.996415
       }
     },
     "contact": {
-      "phone": "(951) 367-0856",
+      "phone": "(951) 392-2975",
+      "websiteUrl": "https://in-roads.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides environmental experiences to foster growth and achievement, emphasizing improved communication and social skills for developmentally challenged adults, including those with severe behavioral challenges. It also supports adults with developmental delays and medical challenges, offering career development, pre-employment training, interviewing techniques, life enrichment coaching, personal self-development, community awareness, and mobility training.",
+      "minimumAge": 18,
+      "yearEstablished": 2000,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Skill Development",
+        "Day Trips",
+        "Community Events",
+        "Pre-Employment Training",
+        "Interviewing Techniques",
+        "Mobility Training"
+      ],
+      "parentOrganization": "In-Roads Creative Programs, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Behavioral Challenges"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "In-Roads Day Program 4 in Hemet serves developmentally challenged adults, including those with severe behavioral challenges.",
+        "This Adult Day Program offers community and site-based services, licensed for up to 60 individuals."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY CROSSINGS INC SAN JACINTO",
+    "streetName": "COMMUNITY CROSSINGS INC SAN JACINTO",
+    "ccldLicenseNumber": "331880492",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "641 N State Street #1",
+      "city": "San Jacinto",
+      "state": "CA",
+      "zipCode": "92583",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.78147,
+        "lng": -116.9719
+      }
+    },
+    "contact": {
+      "phone": "(951) 654-3052",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Adult Day Programs provide structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, medication management, and in some cases, physical therapy, occupational therapy, and nursing services.",
       "minimumAge": 18,
+      "yearEstablished": 2018,
       "languagesSupported": [
         "English"
+      ],
+      "facilityFeatures": [
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Adults with Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Community Crossings Inc San Jacinto is a licensed adult day program serving older adults with dementia or disabilities.",
+        "It offers health monitoring, therapeutic activities, social programming, and caregiver respite."
+      ]
+    },
+    "completenessScore": 76,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS MURRIETA CCES",
+    "streetName": "SVS MURRIETA CCES",
+    "ccldLicenseNumber": "331880913",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "39040 Sky Canyon Dr Suite 1",
+      "city": "Murrieta",
+      "state": "CA",
+      "zipCode": "92563",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.551415,
+        "lng": -117.137135
+      }
+    },
+    "contact": {
+      "phone": "(626) 304-1074",
+      "websiteUrl": "https://svsinc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "SVS Murrieta CCES provides clients with meaningful and age-appropriate daytime activities, including vocational work opportunities, to enhance movement towards independence and self-reliance. The program aims to create an environment that supports positive choices, promotes self-worth, and encourages participation in activities within the local community, reflecting typical adult activities.",
+      "minimumAge": 18,
+      "yearEstablished": 2020,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Media Room",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Career Exploration",
+        "Socialization",
+        "Vocational Training",
+        "Planned Activities",
+        "Personalized Activities",
+        "Employment Services"
+      ],
+      "parentOrganization": "Social Vocational Services",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "SVS Murrieta CCES is a licensed adult day program for individuals with developmental disabilities.",
+        "It offers community integration, career exploration, and vocational training services.",
+        "Founded in 1977, SVS aims to foster independence and self-reliance for its clients."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SPOELSTRA LLC DBA VOICE BANNING",
+    "streetName": "Voice Banning",
+    "ccldLicenseNumber": "331881190",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2985 W Lincoln St",
+      "city": "Banning",
+      "state": "CA",
+      "zipCode": "92220",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.92162,
+        "lng": -116.909576
+      }
+    },
+    "contact": {
+      "phone": "(951) 849-1429",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Voice Banning provides structured daytime activities, supervision, and support services for adults who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "yearEstablished": 2023,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Meals",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Transportation Arrangement",
+        "Health Monitoring"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Programs",
+        "Fitness Programs",
+        "Social Activities",
+        "Therapeutic Programming",
+        "Life Skills Training"
       ],
       "selfDeterminationAccepted": "Unknown"
     },
@@ -1605,11 +891,15 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Voice Banning is a licensed adult day program in Banning, CA, with a capacity for 60 participants.",
+        "It offers structured activities, health monitoring, meals, and therapeutic programming.",
+        "The program serves older adults with dementia, disabilities, or those recovering from illness."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 62,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "MORENO VALLEY RESOURCE CENTER",
@@ -1622,7 +912,7 @@
       "city": "Moreno Valley",
       "state": "CA",
       "zipCode": "92557",
-      "county": "Riverside",
+      "county": "Riverside County",
       "coordinates": {
         "lat": 33.91145938,
         "lng": -117.2684762
@@ -1630,17 +920,35 @@
     },
     "contact": {
       "phone": "(951) 247-6077",
-      "websiteUrl": ""
+      "websiteUrl": "https://arcriverside.org/what-we-do/adult-day-programs/"
     },
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Moreno Valley Resource Center, operated by The Arc of Riverside County, serves adults with intellectual and developmental disabilities (IDD) and those with mobility impairments or restricted health care plans. The program focuses on enhancing quality of life through individualized support, social interaction, independent living skills training, community integration, and personal development, with care provided by direct support professionals and a licensed vocational nurse.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Community Integration",
+        "Vocational Training",
+        "Health and Wellness"
+      ],
+      "parentOrganization": "The Arc of Riverside County",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Mobility Impairments"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1648,19 +956,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Moreno Valley and Riverside area",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Moreno Valley Resource Center serves adults with intellectual and developmental disabilities, offering specialized care for mobility impairments.",
+        "This licensed adult day program provides LVN care, daily living support, and therapeutic activities."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SOL MENTAL WELLNESS",
-    "streetName": "SOL MENTAL WELLNESS",
+    "streetName": "Sol Women's Treatment",
     "ccldLicenseNumber": "331881576",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1669,7 +981,7 @@
       "city": "Riverside",
       "state": "CA",
       "zipCode": "92501",
-      "county": "Riverside",
+      "county": "Riverside County",
       "coordinates": {
         "lat": 33.98484023,
         "lng": -117.3787164
@@ -1677,16 +989,32 @@
     },
     "contact": {
       "phone": "(951) 972-5085",
-      "websiteUrl": ""
+      "websiteUrl": "https://solwomenstreatment.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 25,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Sol Women's Treatment is an intensive outpatient treatment program serving Riverside, CA for women in need of mental health support and life skills services. Their treatment approach combines holistic wellness, evidence-based therapies, and life skills training to support women who want to get back to their best self.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
+      "facilityFeatures": [
+        "Relaxation Room"
+      ],
+      "activitiesOffered": [
+        "Mindfulness Meditation",
+        "CBT Group Therapy",
+        "Restorative Activity Hour",
+        "Yoga",
+        "Breathwork",
+        "Soundbath",
+        "Art Therapy",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–1:30pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -1699,11 +1027,14 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Sol Women's Treatment provides all-female, trauma-informed care for mental health and substance use disorders.",
+        "This Riverside facility offers PHP, IOP, and outpatient programs, and is a CDSS licensed facility."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 85,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ABILITIES UNLIMITED INC",
@@ -1716,7 +1047,7 @@
       "city": "Hemet",
       "state": "CA",
       "zipCode": "92545",
-      "county": "Riverside",
+      "county": "Riverside County",
       "coordinates": {
         "lat": 33.74574783,
         "lng": -117.0141066
@@ -1748,8 +1079,1274 @@
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "completenessScore": 23,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "INDEPENDENT OPTIONS  INC./ADVANCED OPTI",
+    "streetName": "Independent Options, Inc./Advanced Options",
+    "ccldLicenseNumber": "336400068",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2060 Chicago  Suite A-5",
+      "city": "Riverside",
+      "state": "CA",
+      "zipCode": "92507",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.992985,
+        "lng": -117.34843
+      }
+    },
+    "contact": {
+      "phone": "(951) 222-2074",
+      "websiteUrl": "https://www.independentoptions.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 32,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This adult day program provides structured daytime activities, supervision, and support services for adults with disabilities who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "yearEstablished": 1984,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "parentOrganization": "Independent Options, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Riverside County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Independent Options, Inc. offers adult day programs for individuals with developmental disabilities, including behavior management.",
+        "This licensed program has provided services in Riverside County since 1984, supporting over 400 people.",
+        "It serves adults needing daytime assistance, including those with dementia, disabilities, or recovering from illness."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNLIMITED QUEST INC II",
+    "streetName": "UNLIMITED QUEST INC II",
+    "ccldLicenseNumber": "336402681",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9758 Magnolia Ave #G/H/I",
+      "city": "Riverside",
+      "state": "CA",
+      "zipCode": "92503",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.917583,
+        "lng": -117.45143
+      }
+    },
+    "contact": {
+      "phone": "(951) 689-8026",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Unlimited Quest Inc II provides structured daytime activities, supervision, and support services for adults with developmental/intellectual disabilities, focusing on community integration, job training, and life skills to enhance independence and achieve work and social goals.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured daytime activities",
+        "Health monitoring",
+        "Therapeutic activities",
+        "Social and recreational programming",
+        "Meals and snacks",
+        "Personal care assistance",
+        "Medication management",
+        "Community Integration Services",
+        "Job Training Skill",
+        "Job Placement service",
+        "Independent Living Skills Training",
+        "Individualized Job Exploration options"
+      ],
+      "parentOrganization": "Unlimited Quest Inc",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Riverside and San Bernardino County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "UNLIMITED QUEST INC II is a licensed adult day program in Riverside, CA, offering structured daytime activities and support services.",
+        "The program serves older adults with dementia, disabilities, or those recovering, providing health monitoring and therapeutic activities.",
+        "It offers a supportive environment for seniors, enabling caregivers flexibility and providing a robust schedule of activities."
+      ]
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNLIMITED QUEST INC EDGEMONT",
+    "streetName": "UNLIMITED QUEST INC EDGEMONT",
+    "ccldLicenseNumber": "336402685",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "23900 Allesandro Blvd Ste A",
+      "city": "Moreno Valley",
+      "state": "CA",
+      "zipCode": "92553",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.917282,
+        "lng": -117.245865
+      }
+    },
+    "contact": {
+      "phone": "(951) 653-0054",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program is believed to be out of business as of April 2024.",
+      "minimumAge": 18,
+      "yearEstablished": 1998,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "UNLIMITED QUEST INC EDGEMONT is a licensed Adult Day Program in Moreno Valley, CA.",
+        "It offers structured daytime activities, health monitoring, meals, and therapeutic programming."
+      ]
+    },
+    "completenessScore": 46,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VALLEY RESOURCE CENTER",
+    "streetName": "EXCEED",
+    "ccldLicenseNumber": "336406642",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1285 N. Santa Fe  Suite B",
+      "city": "Hemet",
+      "state": "CA",
+      "zipCode": "92543",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.768303,
+        "lng": -116.963135
+      }
+    },
+    "contact": {
+      "phone": "(951) 766-8659",
+      "websiteUrl": "https://www.weexceed.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 35,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "EXCEED provides services and support to empower adults with developmental disabilities in Riverside County through education, work skills development, job placements, and basic living skills training to achieve greater independence and community inclusion.",
+      "minimumAge": 18,
+      "yearEstablished": 1981,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Vocational Workshop",
+        "Life Skills Training",
+        "Community Integration",
+        "Pre-Employment Skills Training",
+        "Social Skills Training",
+        "Therapeutic Activities"
+      ],
+      "parentOrganization": "EXCEED",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "EXCEED empowers adults with developmental disabilities through education, work, and life skills training.",
+        "The program holds the highest 3-year CARF accreditation for its employment and planning services.",
+        "Established in 1981, EXCEED is a recognized nonprofit actively involved in the Hemet community."
+      ]
+    },
+    "completenessScore": 75,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VALLEY RESOURCE CENTER",
+    "streetName": "VALLEY RESOURCE CENTER",
+    "ccldLicenseNumber": "336407918",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2050 Trumble Road",
+      "city": "Perris",
+      "state": "CA",
+      "zipCode": "92570",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.75555076,
+        "lng": -117.1847749
+      }
+    },
+    "contact": {
+      "phone": "(951) 657-0609",
+      "websiteUrl": "http://www.weexceed.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Valley Resource Center provides a remunerable work experience for adults with developmental disabilities to develop and maintain vocational, social, and behavior skills, including pre-employment training and specific job skills. Their Adult Developmental Center offers basic living skills training, self-advocacy, mobility, money management, and personal growth to promote independence and community inclusion.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Volunteer Opportunities"
+      ],
+      "parentOrganization": "Valley Resource Center Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Valley Resource Center, part of EXCEED, offers adult day programs for individuals with developmental disabilities.",
+        "Programs focus on daily living skills, self-advocacy, and community integration.",
+        "EXCEED holds a 3-year CARF accreditation for its employment services."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SOCIAL VOCATIONAL SERVICES  RIVERSIDE",
+    "streetName": "Social Vocational Services - Riverside",
+    "ccldLicenseNumber": "336408335",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1220 Palmyrita Avenue",
+      "city": "Riverside",
+      "state": "CA",
+      "zipCode": "92507",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 34.00482,
+        "lng": -117.33816
+      }
+    },
+    "contact": {
+      "phone": "(951) 222-7088",
+      "websiteUrl": "https://socialvocationalservices.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Social Vocational Services (SVS) offers individualized programs for adults with developmental disabilities, focusing on community inclusion, career exploration, supported employment, and independent living to promote independence, self-advocacy, and socialization.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Career Exploration",
+        "Community Integration"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local door-to-door transportation available",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Social Vocational Services - Riverside supports adults with intellectual and developmental disabilities.",
+        "The program holds a three-year CARF accreditation for its employment services.",
+        "It offers adult day programs and supported employment opportunities."
+      ]
+    },
+    "completenessScore": 72,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ON THE MOVE ADULT DEVELOPMENT CENTER",
+    "streetName": "On-the-Move Community Integration",
+    "ccldLicenseNumber": "336408337",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3351 Chicago Avenue",
+      "city": "Riverside",
+      "state": "CA",
+      "zipCode": "92507",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.98186,
+        "lng": -117.348465
+      }
+    },
+    "contact": {
+      "phone": "(951) 779-9665",
+      "websiteUrl": "https://on-the-move.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "On-the-Move Community Integration is a community-based day program for adults with intellectual and developmental disabilities. The program focuses on building independence, social skills, safety awareness, and helping participants find meaningful ways to contribute and engage with their community.",
+      "minimumAge": 18,
+      "yearEstablished": 2004,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Skills Development",
+        "Community Integration",
+        "Vocational Skills Development",
+        "Arts and Music",
+        "Educational Development",
+        "Health and Wellness"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 76,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER SAN",
+    "streetName": "Basic Occupational Training - San Jacinto",
+    "ccldLicenseNumber": "336409381",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1215 Buena Vista  Ste F G &",
+      "city": "San Jacinto",
+      "state": "CA",
+      "zipCode": "92583",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.775351,
+        "lng": -116.966582
+      }
+    },
+    "contact": {
+      "phone": "(951) 487-2725",
+      "websiteUrl": "https://www.botbmod.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Basic Occupational Training Center (B.O.T.) is a person-centered behavior modification day program that provides support, supervision, and personal advancement, especially in regards to behaviors, for developmentally disabled adults. It aims to promote consumer progress in behavior management, skill acquisition, and emotional growth, fostering independence and community integration.",
+      "minimumAge": 18,
+      "maximumAge": 65,
+      "yearEstablished": 1997,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Center-based classroom",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Behavior Management",
+        "Skill Acquisition",
+        "Emotional Growth",
+        "Life Skills Training",
+        "Community Integration",
+        "Social Interaction",
+        "Academic Advancements",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Basic Occupational Training",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm or 9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Basic Occupational Training - San Jacinto offers person-centered services for developmentally disabled adults.",
+        "The program, licensed by CA Community Care Licensing since 1997, focuses on behavior modification."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER  INC",
+    "streetName": "Basic Occupational Training Center",
+    "ccldLicenseNumber": "336409382",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1323 Jet Way",
+      "city": "Perris",
+      "state": "CA",
+      "zipCode": "92571",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.86407,
+        "lng": -117.256516
+      }
+    },
+    "contact": {
+      "phone": "(951) 657-8028",
+      "websiteUrl": "https://www.botbmod.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Basic Occupational Training Center (B.O.T.) is a person-centered behavior modification day program that provides support, supervision, and personal advancement for developmentally disabled adults, focusing on behavior management, skill acquisition, and emotional growth.",
+      "minimumAge": 18,
+      "yearEstablished": 1997,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Volunteer Activities",
+        "Trade Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ANGEL VIEW ADULT DAY CARE",
+    "streetName": "ANGEL VIEW ADULT DAY CARE",
+    "ccldLicenseNumber": "336413159",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "12379 Miracle Hill Road",
+      "city": "Desert Hot Sp",
+      "state": "CA",
+      "zipCode": "92240",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.95894,
+        "lng": -116.4838
+      }
+    },
+    "contact": {
+      "phone": "(760) 329-6471",
+      "websiteUrl": "https://www.angelview.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Angel View's therapeutic Day Program provides weekday services to eligible adults with intellectual disabilities from the Coachella Valley and High Desert. Designed to promote independence in a center-based setting and in daily life, the program encourages self-determination and self-advocacy, provides education and work skills training, advances personal social skills, and increases integration into the community.",
+      "minimumAge": 18,
+      "yearEstablished": 2008,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Angel View, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Coachella Valley and High Desert",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Angel View's therapeutic Day Program serves adults aged 22+ with intellectual disabilities, including ambulatory and non-ambulatory individuals.",
+        "Founded in 1954, Angel View is a nonprofit dedicated to helping children and adults with disabilities reach their maximum potential.",
+        "The program offers therapeutic, educational, and recreational services, with transportation provided, and a licensed nurse on staff."
+      ]
+    },
+    "completenessScore": 98,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS-PALM SPRINGS ADULT DAY PROGRAM",
+    "streetName": "SVS-PALM SPRINGS ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "336423741",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "997 E. Tahquitz Canyon Way",
+      "city": "Palm Springs",
+      "state": "CA",
+      "zipCode": "92262",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.82314,
+        "lng": -116.53713
+      }
+    },
+    "contact": {
+      "phone": "(760) 322-6023",
+      "websiteUrl": "https://www.svsinc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "SVS-Palm Springs Adult Day Program offers opportunities for individuals with developmental disabilities to engage in a wide range of activities promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization.",
+      "minimumAge": 18,
+      "yearEstablished": 1977,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Community Integration",
+        "Career Exploration"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Riverside County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "SVS-Palm Springs Adult Day Program supports adults with developmental disabilities.",
+        "It offers community inclusion, skill development, and social activities.",
+        "The program provides individualized services like career exploration and supported living."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER",
+    "streetName": "Basic Occupational Training Center",
+    "ccldLicenseNumber": "336424627",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1121 Bradford Circle",
+      "city": "Corona",
+      "state": "CA",
+      "zipCode": "92882",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.88531,
+        "lng": -117.582245
+      }
+    },
+    "contact": {
+      "phone": "(951) 268-3185",
+      "websiteUrl": "https://www.botbmod.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Basic Occupational Training Center (B.O.T.) is a behavior modification day program that provides person-centered support, supervision, and personal advancement, especially in regards to behaviors. The program aims to promote consumer progress in behavior management, skill acquisition, and emotional growth, fostering independence, community integration, self-advocacy, and empowerment.",
+      "minimumAge": 18,
+      "yearEstablished": 1997,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Center Base Activities",
+        "Community Volunteer Activities",
+        "Vocational Workshop",
+        "Structured Classroom Curriculum"
+      ],
+      "activitiesOffered": [
+        "Behavior Modification",
+        "Skill Acquisition",
+        "Emotional Growth",
+        "Life Skills Training",
+        "Community Integration",
+        "Prevocational Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm or 9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Basic Occupational Training Center is a licensed adult day program in Corona, CA.",
+        "It offers person-centered behavior modification and vocational training for adults with developmental disabilities.",
+        "The Corona location opened in October 2010 and has a licensed capacity of 100."
+      ]
+    },
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY CROSSINGS INC.",
+    "streetName": "COMMUNITY CROSSINGS INC.",
+    "ccldLicenseNumber": "336425334",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "27363 Jefferson Ave Ste. J",
+      "city": "Temecula",
+      "state": "CA",
+      "zipCode": "92590",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.521477,
+        "lng": -117.16558
+      }
+    },
+    "contact": {
+      "phone": "(951) 296-2158",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Community Crossings Inc. provides structured daytime activities, supervision, and support services for adults who need assistance during the day, including health monitoring, therapeutic activities, social and recreational programming, meals, and personal care assistance.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 49,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KAISER ADULT BEHAVIORAL CENTER TEMECULA",
+    "streetName": "KAISER ADULT BEHAVIORAL CENTER TEMECULA",
+    "ccldLicenseNumber": "336425347",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "274 Commerce Center Dr Ste",
+      "city": "Temecula",
+      "state": "CA",
+      "zipCode": "92590",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.51330275,
+        "lng": -117.1620914
+      }
+    },
+    "contact": {
+      "phone": "(951) 225-2632",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This licensed adult day program provides structured daytime activities, supervision, and support services for adults with intellectual and developmental disabilities. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, medication management, ABA therapy, adult employment, and adult independent living.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "ABA Therapy",
+        "Adult Employment",
+        "Adult Independent Living",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "People's Care",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–1:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Kaiser Adult Behavioral Center Temecula is a licensed adult day program serving adults needing daytime supervision.",
+        "It offers structured activities, health monitoring, meals, and therapeutic programming for up to 60 individuals."
+      ]
+    },
+    "completenessScore": 85,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SUPPORTING UNLIMITED POSSIBILITIES  INC",
+    "streetName": "Supporting Unlimited Possibilities, Inc.",
+    "ccldLicenseNumber": "336425826",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "14137 Business Center Drive",
+      "city": "Moreno Valley",
+      "state": "CA",
+      "zipCode": "92553",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.91421,
+        "lng": -117.27143
+      }
+    },
+    "contact": {
+      "phone": "(951) 214-6833",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Supporting Unlimited Possibilities, Inc. is a licensed adult day program that provides structured daytime activities, health monitoring, meals, therapeutic programming, social and recreational activities, personal care assistance, and medication management for adults with developmental disabilities.",
+      "minimumAge": 18,
+      "yearEstablished": 2013,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Health Monitoring",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Social and Recreational Activities"
+      ],
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00 AM–6:00 PM, Saturday–Sunday: 10:00 AM–4:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Supporting Unlimited Possibilities, Inc. is a licensed adult day program in Moreno Valley, CA.",
+        "It offers health monitoring, therapeutic activities, and social programming for adults.",
+        "The program serves adults needing daytime support, including those with disabilities or dementia."
+      ]
+    },
+    "completenessScore": 76,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GRACE ADULT DAY CARE",
+    "streetName": "GRACE ADULT DAY CARE",
+    "ccldLicenseNumber": "336426107",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "24318 Hemlock Avenue #F-1",
+      "city": "Moreno Valley",
+      "state": "CA",
+      "zipCode": "92557",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.941948,
+        "lng": -117.24043
+      }
+    },
+    "contact": {
+      "phone": "(951) 704-3741",
+      "websiteUrl": "https://myadultdaycare.com/grace-adult-day-care"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "GRACE ADULT DAY CARE offers structured daytime activities, supervision, and support services for adults needing assistance. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals, snacks, personal care, and medication management.",
+      "minimumAge": 18,
+      "yearEstablished": 2015,
+      "languagesSupported": [
+        "English"
+      ],
+      "daysOfOperation": "Monday–Saturday",
+      "hoursOfOperation": "8:00 AM–5:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Grace Adult Day Care in Moreno Valley offers structured activities, health monitoring, and meals.",
+        "The program provides a supportive environment for seniors, including those with dementia or disabilities.",
+        "It is a licensed adult day program with a capacity of 20 participants."
+      ]
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BASIC OCCUPATIONAL TRAINING CENTER",
+    "streetName": "Basic Occupational Training Center",
+    "ccldLicenseNumber": "336426342",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1044 E. La Cadena",
+      "city": "Riverside",
+      "state": "CA",
+      "zipCode": "92507",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 34.00369202,
+        "lng": -117.349659
+      }
+    },
+    "contact": {
+      "phone": "(951) 788-2349",
+      "websiteUrl": "https://www.botbmod.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Basic Occupational Training Center (B.O.T.) is a behavior modification day program that provides person-centered support, supervision, and personal advancement for developmentally disabled adults, focusing on behavior management, skill acquisition, emotional growth, and fostering independence through vocational and community integration activities.",
+      "minimumAge": 18,
+      "maximumAge": 65,
+      "yearEstablished": 2005,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Behavior Management",
+        "Person-Centered Planning",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Employment Support"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm or 9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Transportation provided from facility to job sites",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Basic Occupational Training Center is a licensed behavior modification day program.",
+        "It offers person-centered services for developmentally disabled adults.",
+        "The Riverside location opened in 2005, providing structured and community training."
+      ]
+    },
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "IN-ROADS DAY PROGRAM #3",
+    "streetName": "IN-ROADS DAY PROGRAM #3",
+    "ccldLicenseNumber": "336426777",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "26900  04  08 Cherry Hills",
+      "city": "Menifee",
+      "state": "CA",
+      "zipCode": "92586",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.71050353,
+        "lng": -117.1911532
+      }
+    },
+    "contact": {
+      "phone": "(951) 672-1800",
+      "websiteUrl": "https://in-roads.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "IN-ROADS DAY PROGRAM #3 offers structured daytime activities, supervision, and support services for adults with developmental disabilities, including those with severe behavioral challenges and medical needs. The program focuses on skill development, community integration, and pre-employment training, and includes a specialized art program for autistic adults.",
+      "minimumAge": 18,
+      "yearEstablished": 2000,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "On-site Medical Staff",
+        "Medical Care Support"
+      ],
+      "activitiesOffered": [
+        "Behavior Management",
+        "Community Integration",
+        "Arts and Crafts",
+        "Art Therapy",
+        "Vocational Training",
+        "Pre-Employment Training",
+        "Life Skills Training",
+        "Social Skills Training",
+        "Mobility Training",
+        "Communication Skills Training"
+      ],
+      "parentOrganization": "In-Roads Creative Programs, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "In-Roads Day Program #3 in Menifee is a licensed adult day program for developmentally delayed adults with medical needs.",
+        "A Licensed Vocational Nurse is on-site, and services include career development, life enrichment, and mobility training.",
+        "The program, licensed since 2016, serves up to 45 individuals and welcomes those with complex medical care plans."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FAIRMOUNT RESOURCE CENTER-UP IN MOTION",
+    "streetName": "Fairmount Resource Center – Up in Motion",
+    "ccldLicenseNumber": "336426847",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2190 Market Street  Suite D",
+      "city": "Riverside",
+      "state": "CA",
+      "zipCode": "92501",
+      "county": "Riverside",
+      "coordinates": {
+        "lat": 33.998558,
+        "lng": -117.37265
+      }
+    },
+    "contact": {
+      "phone": "(951) 367-0856",
+      "websiteUrl": "https://arcriverside.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program supports adults with intellectual and developmental disabilities (IDD) in the Riverside area and provides assistance to participants with restricted health care conditions. Care is provided by a Licensed Vocational Nurse (LVN) and direct support staff, who help with self-care, daily living activities, and personal development classes. Additionally, the program features an innovative adaptive equipment therapy program, which is the only one of its kind in Riverside and San Bernardino Counties.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Adaptive Equipment Therapy Program"
+      ],
+      "activitiesOffered": [
+        "Arts and Music",
+        "Life Skills Training",
+        "Social Interaction",
+        "Community Awareness & Integration",
+        "Volunteering",
+        "Job Skills Development",
+        "Educational Development",
+        "Health and Wellness Activities",
+        "Therapeutic Activities",
+        "Recreational Programming",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Physical Therapy",
+        "Occupational Therapy",
+        "Nursing Services"
+      ],
+      "parentOrganization": "The Arc of Riverside County",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00am–6:00pm, Saturday–Sunday: 10:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Fairmount Resource Center supports adults with intellectual and developmental disabilities, offering LVN care.",
+        "It features an innovative adaptive equipment therapy program, unique in Riverside and San Bernardino Counties.",
+        "The program is operated by The Arc of Riverside County, established in 1953 to empower individuals with IDD."
+      ]
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
 ]

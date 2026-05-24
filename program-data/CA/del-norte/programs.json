@@ -43,8 +43,8 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GLEN HAVEN DAY PROGRAM",
@@ -57,7 +57,7 @@
       "city": "Crescent City",
       "state": "CA",
       "zipCode": "95531",
-      "county": "Del Norte",
+      "county": "Del Norte County",
       "coordinates": {
         "lat": 41.77276294,
         "lng": -124.1958495
@@ -90,7 +90,7 @@
       "parentReviews": []
     },
     "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-23",
-    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
 ]
