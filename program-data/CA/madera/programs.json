@@ -70,63 +70,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "STAR CENTER - ADP",
-    "streetName": "STAR CENTER - ADP",
-    "ccldLicenseNumber": "207204202",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "109 E. Central Avenue",
-      "city": "Madera",
-      "state": "CA",
-      "zipCode": "93638",
-      "county": "Madera",
-      "coordinates": {
-        "lat": 36.967403,
-        "lng": -120.0649
-      }
-    },
-    "contact": {
-      "phone": "(559) 674-8670",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "This Adult Day Program provides structured daytime activities, supervision, and support services for adults with disabilities who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "parentOrganization": "Our House Residential Care",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
-      "selfDeterminationAccepted": "Unknown",
-      "populationSpecialization": [
-        "Developmental Disabilities"
-      ]
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": [
-        "STAR CENTER - ADP is a licensed adult day program in Madera, CA.",
-        "It offers structured daytime activities, health monitoring, and social programming.",
-        "The program serves older adults with dementia, disabilities, or those recovering from illness."
-      ]
-    },
-    "completenessScore": 70,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "SVS MADERA ADP",
     "streetName": "SVS Madera",
     "ccldLicenseNumber": "207209567",
