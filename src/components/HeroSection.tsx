@@ -47,13 +47,13 @@ export default function HeroSection({ selectedState, selectedCounty }: Props) {
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-5">
           {locationLabel ? (
             <>
-              Find Exceptional Care in{' '}
+              Adult Day Programs in{' '}
               <span className="text-blue-200">{locationLabel}</span>
             </>
           ) : (
             <>
-              Find Exceptional Care in{' '}
-              <span className="text-blue-200">Your Community</span>
+              California{' '}
+              <span className="text-blue-200">Adult Day Program Finder</span>
             </>
           )}
         </h1>

@@ -124,7 +124,7 @@ export default function AboutPage() {
             <span className="text-white/90 text-sm font-medium tracking-wide">About This Site</span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
-            Exceptional Care Finder
+            California Adult Day Program Finder
           </h1>
           <p className="text-lg text-blue-100 leading-relaxed max-w-xl mx-auto">
             A searchable directory of state-licensed Adult Day Programs for adults with developmental disabilities — built for families navigating the Regional Center system.
@@ -388,10 +388,10 @@ export default function AboutPage() {
               (names, websites, summaries) can contain errors.
             </p>
             <p>
-              Contact:{' '}
-              <a href="mailto:douglas.w.bonham@gmail.com" className="text-blue-600 hover:underline font-medium">
-                douglas.w.bonham@gmail.com
-              </a>
+              Submit an issue or correction via{' '}
+              <A href="https://github.com/dwbonham/exceptional-care-finder/issues">
+                GitHub Issues
+              </A>.
             </p>
           </div>
         </section>

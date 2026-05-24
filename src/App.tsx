@@ -27,7 +27,7 @@ export default function App() {
       {/* Top nav */}
       <nav className="bg-white border-b border-slate-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-11">
-          <span className="font-semibold text-slate-700 text-sm">Exceptional Care Finder</span>
+          <span className="font-semibold text-slate-700 text-sm">California Adult Day Program Finder</span>
           <div className="flex gap-1">
             {(['finder', 'about'] as const).map((v) => (
               <button
@@ -97,7 +97,7 @@ export default function App() {
 
       <footer className="border-t border-slate-200 bg-white mt-16">
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-400">
-          <span>© {new Date().getFullYear()} Exceptional Care Finder · Nationwide</span>
+          <span>© {new Date().getFullYear()} California Adult Day Program Finder</span>
           <span className="flex items-center gap-1.5">
             <span className="text-violet-500">✨</span>
             AI-assisted program summaries. Always verify directly with providers.
