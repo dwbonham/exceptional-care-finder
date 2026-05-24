@@ -51,6 +51,20 @@ function loadConfig() {
 const cfg = loadConfig();
 let state = load();
 
+// Enrichment settings — parsed once, used by both Phase 2 and Phase 5.
+// ENRICH_COUNTIES=butte,riverside limits Gemini calls to specific counties;
+// non-matching programs get CCLD-only data now and Gemini enrichment later via Phase 5.
+// WITH_SENTIMENT=1 enables the second sentiment API call (default off).
+const enrichCounties = process.env.ENRICH_COUNTIES
+  ? new Set(process.env.ENRICH_COUNTIES.toLowerCase().split(',').map(c => c.trim()))
+  : null;
+const skipSentiment = !['1', 'true', 'yes'].includes((process.env.WITH_SENTIMENT ?? '').toLowerCase());
+
+function _matchesCountyFilter(county) {
+  if (!enrichCounties) return true;
+  return [...enrichCounties].some(c => (county ?? '').toLowerCase().includes(c));
+}
+
 // Catch-up cron: if all new programs are processed, close the run.
 // Then check whether Gemini backfill is still needed before exiting.
 if (state.currentRunId && !hasPendingWork(state)) {
@@ -151,13 +165,30 @@ if (toEnrich.length) {
     }
     save(state);
   } else {
-    console.log(`\nEnriching ${toEnrich.length} programs via Gemini…`);
-    for (const licNum of toEnrich) {
+    // When ENRICH_COUNTIES is set, non-matching programs get CCLD data now;
+    // Phase 5 will Gemini-enrich them on future runs once the county filter is removed.
+    const nonMatching = enrichCounties
+      ? toEnrich.filter(licNum => !_matchesCountyFilter(state.programs[licNum].ccldRecord.county))
+      : [];
+    if (nonMatching.length > 0) {
+      for (const licNum of nonMatching) {
+        state = updateStatus(state, licNum, STATUS.PENDING_GEOCODE, {
+          enrichResult: _buildBareEnrichResult(),
+          geminiEnriched: false,
+        });
+      }
+      save(state);
+    }
+
+    const toEnrichFiltered = enrichCounties
+      ? toEnrich.filter(licNum => _matchesCountyFilter(state.programs[licNum].ccldRecord.county))
+      : toEnrich;
+    const skipNote = nonMatching.length > 0 ? ` (${nonMatching.length} non-matching counties deferred to Phase 5)` : '';
+    console.log(`\nEnriching ${toEnrichFiltered.length} programs via Gemini${skipNote}…`);
+    for (const licNum of toEnrichFiltered) {
       const ccldRecord = state.programs[licNum].ccldRecord;
       try {
-        // skipSentiment=true halves API calls (1 per program instead of 2),
-        // doubling daily throughput on the free tier. Remove when upgrading to paid.
-        const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment: true });
+        const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment });
         state = updateStatus(state, licNum, STATUS.PENDING_GEOCODE, { enrichResult, geminiEnriched: true });
         process.stdout.write('.');
       } catch (e) {
@@ -165,7 +196,7 @@ if (toEnrich.length) {
           save(state);
           console.log(`\nGemini quota reached — continuing to geocode/publish already-enriched programs.\nError: ${e.message}`);
           enrichmentRateLimited = true;
-          break; // stop enriching; still run phases 3 and 4 below
+          break;
         }
         state = updateStatus(state, licNum, STATUS.ENRICHMENT_FAILED, { enrichError: e.message });
         const failCount = Object.values(state.programs).filter(p => p.status === STATUS.ENRICHMENT_FAILED).length;
@@ -173,7 +204,7 @@ if (toEnrich.length) {
         if (failCount === 4) console.error('(suppressing further enrichment errors — see checkpoint for details)');
         process.stdout.write('!');
       }
-      save(state); // save after every program so a crash loses at most one call
+      save(state);
     }
     console.log();
   }
@@ -250,22 +281,13 @@ if (toScore.length) {
 //   ENRICH_COUNTIES=butte,riverside  — only process programs in these counties
 //   WITH_SENTIMENT=1                 — include sentiment step (2 API calls/program vs 1)
 if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
-  const countyFilter = process.env.ENRICH_COUNTIES
-    ? new Set(process.env.ENRICH_COUNTIES.toLowerCase().split(',').map(c => c.trim()))
-    : null;
-
-  const allUnenriched = getNotGeminiEnriched(state, countyFilter ? 999999 : undefined);
-  const toBackfill = countyFilter
-    ? allUnenriched.filter(licNum => {
-        const county = (state.programs[licNum]?.ccldRecord?.county ?? '').toLowerCase();
-        return [...countyFilter].some(c => county.includes(c));
-      })
+  const allUnenriched = getNotGeminiEnriched(state, enrichCounties ? 999999 : undefined);
+  const toBackfill = enrichCounties
+    ? allUnenriched.filter(licNum => _matchesCountyFilter(state.programs[licNum]?.ccldRecord?.county))
     : allUnenriched;
 
-  const skipSentiment = !['1', 'true', 'yes'].includes((process.env.WITH_SENTIMENT ?? '').toLowerCase());
-
   if (toBackfill.length) {
-    const modeNote = countyFilter ? `counties: ${[...countyFilter].join(', ')}` : 'all queued';
+    const modeNote = enrichCounties ? `counties: ${[...enrichCounties].join(', ')}` : 'all queued';
     const sentNote = skipSentiment ? 'no sentiment' : 'with sentiment';
     console.log(`\nGemini backfill: enriching ${toBackfill.length} program(s) (${modeNote}, ${sentNote})…`);
     const backfillGateResults = [];
