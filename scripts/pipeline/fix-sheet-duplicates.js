@@ -217,16 +217,15 @@ async function run() {
   console.log(`  County names normalized: ${countiesFixed}`);
 
   if (dupesRemoved === 0 && countiesFixed === 0) {
-    console.log('\nNo changes needed — sheet is already clean.');
-    return;
+    console.log('\nPrograms tab already clean — no changes needed.');
+  } else {
+    console.log('\nClearing Programs tab…');
+    await clearSheet(spreadsheetId, sheetName, token);
+
+    console.log(`Writing ${dedupedRows.length + 1} rows (header + data)…`);
+    const written = await appendRows(spreadsheetId, sheetName, [headerRow, ...dedupedRows], token);
+    console.log(`Done — ${written} row(s) written.`);
   }
-
-  console.log('\nClearing Programs tab…');
-  await clearSheet(spreadsheetId, sheetName, token);
-
-  console.log(`Writing ${dedupedRows.length + 1} rows (header + data)…`);
-  const written = await appendRows(spreadsheetId, sheetName, [headerRow, ...dedupedRows], token);
-  console.log(`Done — ${written} row(s) written.`);
 
   console.log('\nRebuilding County Summary tab…');
   await syncCountySummary({ spreadsheetId, serviceAccount });
