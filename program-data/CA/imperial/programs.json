@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "EASTER SEALS SOUTHERN CALIFORNIA EL CEN",
-    "streetName": "EASTER SEALS SOUTHERN CALIFORNIA EL CEN",
+    "streetName": "Easterseals Southern California Adult Day Services - El Centro",
     "ccldLicenseNumber": "134601177",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,32 @@
     },
     "contact": {
       "phone": "(760) 482-2777",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.easterseals.com/southerncal"
     },
     "facilityDetails": {
       "licensedCapacity": 80,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Easterseals Southern California's Adult Day Services are designed to enrich the lives of individuals with disabilities by offering hands-on experiences that promote personal growth, community involvement, and skill development. Through a supportive and inclusive environment, participants engage in purposeful activities that build confidence, encourage independence, and foster meaningful connections.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Support",
+        "Therapeutic Services",
+        "Community Integration",
+        "Camps"
+      ],
+      "parentOrganization": "Easterseals Southern California",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,9 +55,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Easterseals Southern California offers Adult Day Services in El Centro for individuals with intellectual and developmental disabilities.",
+        "The program promotes personal growth, community involvement, and skill development for greater independence.",
+        "As a nonprofit, Easterseals Southern California empowers people with disabilities to thrive in their communities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 88,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -64,18 +83,35 @@
       }
     },
     "contact": {
-      "phone": "(760) 353-7440",
-      "websiteUrl": ""
+      "phone": "(760) 352-0180",
+      "websiteUrl": "http://www.arciv.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 85,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Arc Imperial Valley provides adult day vocational programs, skills building, and employment services for individuals with intellectual and developmental disabilities, aiming to help them achieve their potential and integrate into the community.",
       "minimumAge": 18,
+      "yearEstablished": 1973,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Life Skills Training",
+        "Social Activities",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "The Arc Imperial Valley",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -83,19 +119,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local area served by program",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "ARC Imperial Valley is a nonprofit serving individuals with intellectual and developmental disabilities.",
+        "It offers adult day vocational, employment, residential, and paratransit programs.",
+        "The program holds the highest quality rating from CARF for employment services."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 90,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "DAYOUT ADHC/ALZHEIMER DAY CARE RESOURCE",
-    "streetName": "DAYOUT ADHC/ALZHEIMER DAY CARE RESOURCE",
+    "streetName": "DayOut El Centro",
     "ccldLicenseNumber": "134602532",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -111,18 +152,32 @@
       }
     },
     "contact": {
-      "phone": "(760) 337-8394",
-      "websiteUrl": ""
+      "phone": "(760) 337-8393",
+      "websiteUrl": "https://dayoutadhc.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 10,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "DayOut ADHC/Alzheimer Day Care Resource Center specializes in memory care services for individuals with Alzheimer's disease and other forms of dementia. The program offers health monitoring, therapeutic activities, social and recreational programming, meals, personal care assistance, and various therapies to support participants in remaining in the community.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Alzheimer's",
+        "Dementia",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -130,13 +185,17 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "DayOut El Centro is a family-owned adult day health care center operating since 1996, offering personalized care.",
+        "They specialize in cognitive impairment, dementia, and chronic conditions, providing nursing, therapy, meals, and transport."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -158,18 +217,41 @@
       }
     },
     "contact": {
-      "phone": "(760) 482-9388",
-      "websiteUrl": ""
+      "phone": "(760) 352-0180",
+      "websiteUrl": "https://arciv.org"
     },
     "facilityDetails": {
       "licensedCapacity": 70,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Behavioral Program offers services for individuals with developmental disabilities who also have behavioral challenges, focusing on behavior skills assessment, program plans, applied behavior analysis, and intervention strategies. The program aims to increase independence, improve coping skills, and facilitate transitions for participants.",
       "minimumAge": 18,
+      "maximumAge": 59,
+      "yearEstablished": 1973,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop",
+        "Sensory Room"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Life Skills Training",
+        "Health and Wellness Activities",
+        "Self-Advocacy Training",
+        "Social Skills Training",
+        "Sensory Integration Activities",
+        "Community Integration Activities"
+      ],
+      "parentOrganization": "The Arc Imperial Valley",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities",
+        "Behavioral Challenges"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -177,19 +259,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Within Imperial County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "ARC IV BEHAVIOR MANAGEMENT PROGRAM serves adults 18-59 with developmental disabilities and behavioral challenges.",
+        "The program focuses on positive support, vocational training, and community integration.",
+        "It is part of Arc Imperial Valley, established by parents in 1973 to support individuals with disabilities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NOR EDUCATIONAL CENTER  LLC",
-    "streetName": "NOR EDUCATIONAL CENTER  LLC",
+    "streetName": "NOR EDUCATIONAL CENTER LLC",
     "ccldLicenseNumber": "134605031",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -198,7 +285,7 @@
       "city": "El Centro",
       "state": "CA",
       "zipCode": "92243",
-      "county": "Imperial",
+      "county": "Imperial County",
       "coordinates": {
         "lat": 32.79284673,
         "lng": -115.5574722
@@ -211,12 +298,18 @@
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This program serves adults with developmental disabilities, including autism, Down syndrome, and intellectual disabilities, and is funded by regional centers.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -230,7 +323,7 @@
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
+    "completenessScore": 39,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "COMMUNITY CORNERSTONE  INC",
-    "streetName": "COMMUNITY CORNERSTONE  INC",
+    "streetName": "Community Cornerstone Inc.",
     "ccldLicenseNumber": "121373926",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,37 @@
     },
     "contact": {
       "phone": "(707) 923-9248",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.communitycornerstone.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Community Cornerstone Inc. provides training and opportunities for adults with developmental disabilities in Northern Mendocino and Southern Humboldt Counties. The program focuses on developing a variety of skills including domestic management, social skills, personal development, leisure and recreational skills, community access, and vocational training through activities like a recycling facility and crafting stepping stones.",
       "minimumAge": 18,
+      "maximumAge": 70,
+      "yearEstablished": 1985,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Training",
+        "Social Skills Development",
+        "Community Integration"
+      ],
+      "parentOrganization": "Independent",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,9 +60,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Community Cornerstone Inc. is a licensed Adult Day Program for up to 30 adults with disabilities.",
+        "It provides vocational and developmental training, including life skills and work opportunities.",
+        "Founded in 1985, the program has no complaints on record with California's CCLD."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 95,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -65,17 +89,30 @@
     },
     "contact": {
       "phone": "(707) 443-1428",
-      "websiteUrl": ""
+      "websiteUrl": "https://hcar.us"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "HCAR's Studio program, known as Canvas & Clay Studio, provides an inclusive studio environment for artists with varying abilities to foster an authentic art practice and professional growth within an inviting art community.",
       "minimumAge": 18,
+      "yearEstablished": 1955,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Arts and Crafts"
+      ],
+      "parentOrganization": "Humboldt Community Access and Resource Center",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–2:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -87,15 +124,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "HCAR's Canvas & Clay Studio offers an inclusive art environment for artists with varying abilities.",
+        "Established in 1955, HCAR is a non-profit supporting individuals with developmental disabilities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 98,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "DIANE CATHEY CENTER",
-    "streetName": "DIANE CATHEY CENTER",
+    "streetName": "Diane Cathey Center",
     "ccldLicenseNumber": "125001082",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -112,17 +152,38 @@
     },
     "contact": {
       "phone": "(707) 725-5860",
-      "websiteUrl": ""
+      "websiteUrl": "https://dccbreakingbarriers.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 13,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Diane Cathey Center is a 501(c)3 nonprofit support agency that provides services for adults with developmental or intellectual disabilities in Fortuna, California. It offers programs focused on community integration, employment development, life skills instruction, and personal development to help individuals achieve their life goals and participate in the community.",
       "minimumAge": 18,
+      "yearEstablished": 1998,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Community Integration",
+        "Employment Development",
+        "Goal Attainment Assistance",
+        "Higher Education",
+        "Social/Leisure Activities",
+        "Daily Living Skills Instruction",
+        "Personal Development Support",
+        "Individualized Program Scheduling",
+        "Sustainable Living Practices",
+        "Customized Employment",
+        "Personal Development Programs"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities",
+        "Autism",
+        "Down Syndrome"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -134,15 +195,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Diane Cathey Center, a 501(c)3 nonprofit, supports adults with developmental or intellectual disabilities.",
+        "Founded by parents in 1998, it offers personalized programs for employment, education, and life skills.",
+        "The center provides community integration and independent living services in Fortuna, CA."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 78,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "HCAR BAY CENTER",
-    "streetName": "HCAR BAY CENTER",
+    "streetName": "Bay Center Day Services",
     "ccldLicenseNumber": "125001177",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -159,17 +224,36 @@
     },
     "contact": {
       "phone": "(707) 441-8625",
-      "websiteUrl": ""
+      "websiteUrl": "https://hcar.us/bay-center-day-services/"
     },
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Bay Center Day Services provides coaching in vocational skills, day-to-day life skills, behavioral skills, and community integration to help consumers be successful and independent in their communities. Support is tailored to meet the individual's wants, needs, and functional level.",
       "minimumAge": 18,
+      "yearEstablished": 1955,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration"
+      ],
+      "parentOrganization": "Humboldt Community Access & Resource Center",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -181,15 +265,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Bay Center Day Services supports adults with developmental disabilities.",
+        "It offers vocational, life, and behavioral skills coaching for community integration.",
+        "The program provides opportunities for paid work and community volunteering."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "CAROLE SUND CENTER",
-    "streetName": "CAROLE SUND CENTER",
+    "streetName": "Carole Sund Center Farm",
     "ccldLicenseNumber": "126803405",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -205,18 +293,37 @@
       }
     },
     "contact": {
-      "phone": "(707) 442-3969",
-      "websiteUrl": ""
+      "phone": "(707) 442-2451",
+      "websiteUrl": "https://www.butlervalley.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Carole Sund Center provides day program services to adults with intellectual and developmental disabilities, focusing on skill-building, community integration, and competitive employment. The program utilizes an agricultural-based environment for vocational training and life skills development.",
       "minimumAge": 18,
+      "yearEstablished": 2000,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop",
+        "Raised Garden Beds"
+      ],
+      "activitiesOffered": [
+        "Farming and Gardening",
+        "Community Recycling",
+        "Life Skills Training",
+        "Arts and Crafts",
+        "Animal Care"
+      ],
+      "parentOrganization": "Butler Valley, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -228,15 +335,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Carole Sund Center Farm offers adults with intellectual disabilities an agricultural-based day program.",
+        "Participants learn farming skills, create products, and engage in community work for pay.",
+        "Operated by Butler Valley, a non-profit, it promotes independence and community integration."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 83,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "GAINING GROUND  LLC",
-    "streetName": "GAINING GROUND  LLC",
+    "streetName": "Gaining Ground LLC",
     "ccldLicenseNumber": "126803598",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -258,12 +369,15 @@
     "facilityDetails": {
       "licensedCapacity": 120,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Gaining Ground, LLC is a licensed adult day program that provides structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -275,9 +389,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Gaining Ground LLC is a licensed adult day program in Eureka, California.",
+        "It provides structured daytime activities, supervision, and support for adults."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 49,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

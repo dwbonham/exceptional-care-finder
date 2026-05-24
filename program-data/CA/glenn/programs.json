@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "NORTH VALLEY SERVICES - ADULT DAY SUPPO",
-    "streetName": "NORTH VALLEY SERVICES - ADULT DAY SUPPO",
+    "streetName": "North Valley Services - Adult Day Support Center",
     "ccldLicenseNumber": "115000591",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,40 @@
     },
     "contact": {
       "phone": "(530) 865-5631",
-      "websiteUrl": ""
+      "websiteUrl": "http://www.northvalleyservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 50,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This program provides structured daytime activities, supervision, and support services for adults with developmental disabilities, focusing on self-help skills, vocational skills, and social interaction. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals, snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Sign Language"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Plans",
+        "Life Skills Training",
+        "Vocational Skills",
+        "Social Interaction",
+        "Academics",
+        "Culinary Skills",
+        "Household Skills",
+        "Movie Entertainment",
+        "Workout Schedules"
+      ],
+      "parentOrganization": "North Valley Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -36,13 +59,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local area",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "North Valley Services is a nonprofit established in 1967, promoting opportunities for persons with disabilities.",
+        "The program is accredited by CARF and offers day programs, behavioral support, and transportation.",
+        "It serves disabled adults in Tehama, Glenn, and Lassen counties, focusing on personal growth."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 96,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

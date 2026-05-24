@@ -1,52 +1,5 @@
 [
   {
-    "legalLicenseName": "NOIA'S ADULT DAY PROGRAM",
-    "streetName": "NOIA'S ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "100405068",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "606 East Belmont",
-      "city": "Fresno",
-      "state": "CA",
-      "zipCode": "93701",
-      "county": "Fresno",
-      "coordinates": {
-        "lat": 36.75015201,
-        "lng": -119.804043
-      }
-    },
-    "contact": {
-      "phone": "(559) 485-1729",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "UNITED CEREBRAL PALSY OF CENTRAL CA  IN",
     "streetName": "UNITED CEREBRAL PALSY OF CENTRAL CA  IN",
     "ccldLicenseNumber": "100406030",
@@ -282,100 +235,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "ARC FRESNO ENRICHMENT CENTER",
-    "streetName": "ARC FRESNO ENRICHMENT CENTER",
-    "ccldLicenseNumber": "107203365",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4567 N. Marty",
-      "city": "Fresno",
-      "state": "CA",
-      "zipCode": "93722",
-      "county": "Fresno",
-      "coordinates": {
-        "lat": 36.802753,
-        "lng": -119.856224
-      }
-    },
-    "contact": {
-      "phone": "(559) 547-2671",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 125,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS CLOVIS ADULT DAY PROGRAM",
-    "streetName": "SVS CLOVIS ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "107203506",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "155 Park Creek Drive  #101",
-      "city": "Clovis",
-      "state": "CA",
-      "zipCode": "93611",
-      "county": "Fresno",
-      "coordinates": {
-        "lat": 36.840103,
-        "lng": -119.70938
-      }
-    },
-    "contact": {
-      "phone": "(559) 323-0537",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "ACCESS SPECIALIZED TREATMENT PROGRAM",
     "streetName": "ACCESS SPECIALIZED TREATMENT PROGRAM",
     "ccldLicenseNumber": "107204023",
@@ -398,53 +257,6 @@
     },
     "facilityDetails": {
       "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER  INC.",
-    "streetName": "CENTRAL VALLEY TRAINING CENTER  INC.",
-    "ccldLicenseNumber": "107204057",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4018 N. Ann Avenue",
-      "city": "Fresno",
-      "state": "CA",
-      "zipCode": "93727",
-      "county": "Fresno",
-      "coordinates": {
-        "lat": 36.790413,
-        "lng": -119.72778
-      }
-    },
-    "contact": {
-      "phone": "(559) 292-1392",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -611,147 +423,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "CEDARBROOK MEMORY CARE COMMUNITY",
-    "streetName": "CEDARBROOK MEMORY CARE COMMUNITY",
-    "ccldLicenseNumber": "107206766",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1425 E. Nees Avenue",
-      "city": "Fresno",
-      "state": "CA",
-      "zipCode": "93720",
-      "county": "Fresno",
-      "coordinates": {
-        "lat": 36.851997,
-        "lng": -119.759
-      }
-    },
-    "contact": {
-      "phone": "(559) 412-2299",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 10,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS FRESNO DOWNTOWN ADULT DAY PROGRAM",
-    "streetName": "SVS FRESNO DOWNTOWN ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "107206773",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2115 Amador St.",
-      "city": "Fresno",
-      "state": "CA",
-      "zipCode": "93721",
-      "county": "Fresno",
-      "coordinates": {
-        "lat": 36.742718,
-        "lng": -119.79763
-      }
-    },
-    "contact": {
-      "phone": "(559) 443-7119",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER FRESNO W",
-    "streetName": "CENTRAL VALLEY TRAINING CENTER FRESNO W",
-    "ccldLicenseNumber": "107206787",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3685 W Holland Ave",
-      "city": "Fresno",
-      "state": "CA",
-      "zipCode": "93722",
-      "county": "Fresno",
-      "coordinates": {
-        "lat": 36.797577,
-        "lng": -119.857635
-      }
-    },
-    "contact": {
-      "phone": "(559) 228-8696",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "APIQUE BEHAVIORAL SERVICES",
     "streetName": "APIQUE BEHAVIORAL SERVICES",
     "ccldLicenseNumber": "107206793",
@@ -774,53 +445,6 @@
     },
     "facilityDetails": {
       "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ARC FRESNO/MADERA COUNTIES  KERMAN TRAI",
-    "streetName": "ARC FRESNO/MADERA COUNTIES  KERMAN TRAI",
-    "ccldLicenseNumber": "107206895",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "14550 W. California Avenue",
-      "city": "Kerman",
-      "state": "CA",
-      "zipCode": "93630",
-      "county": "Fresno",
-      "coordinates": {
-        "lat": 36.72057,
-        "lng": -120.05365
-      }
-    },
-    "contact": {
-      "phone": "(559) 846-8003",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -940,8 +564,556 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
+    "legalLicenseName": "NOIA'S ADULT DAY PROGRAM",
+    "streetName": "NOIA'S ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "100405068",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "606 East Belmont",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "93701",
+      "county": "Fresno",
+      "coordinates": {
+        "lat": 36.75015201,
+        "lng": -119.804043
+      }
+    },
+    "contact": {
+      "phone": "(559) 485-1729",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Noia's Adult Day Program provides structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Music Therapy",
+        "Social Activities",
+        "Recreational Programming"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Noia's Adult Day Program in Fresno provides daytime care for up to 32 elderly adults.",
+        "The program offers personal care, daily meals, and activities like music and pet therapy."
+      ]
+    },
+    "completenessScore": 63,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC FRESNO ENRICHMENT CENTER",
+    "streetName": "ARC FRESNO ENRICHMENT CENTER",
+    "ccldLicenseNumber": "107203365",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4567 N. Marty",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "93722",
+      "county": "Fresno",
+      "coordinates": {
+        "lat": 36.802753,
+        "lng": -119.856224
+      }
+    },
+    "contact": {
+      "phone": "(559) 237-5101",
+      "websiteUrl": "https://www.arcfresno.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 125,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Arc of Fresno and Madera Counties offers individuals with an intellectual or developmental disability the opportunity to succeed in a supportive environment, providing necessary training to acquire skills for full community integration. The programs are designed to provide a structured environment with comprehensive training and intervention for individuals with complex needs, including those with minor medical conditions.",
+      "minimumAge": 18,
+      "yearEstablished": 1953,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Activities"
+      ],
+      "parentOrganization": "The Arc of Fresno and Madera Counties",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "ARC Fresno Enrichment Center offers an arts-based day program and supported employment for adults with developmental disabilities.",
+        "The program provides social, daily living, and educational opportunities to foster independence.",
+        "Licensed for 125 participants, it is part of The Arc Fresno/Madera Counties, founded by parents in 1953."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS CLOVIS ADULT DAY PROGRAM",
+    "streetName": "SVS CLOVIS ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "107203506",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "155 Park Creek Drive  #101",
+      "city": "Clovis",
+      "state": "CA",
+      "zipCode": "93611",
+      "county": "Fresno",
+      "coordinates": {
+        "lat": 36.840103,
+        "lng": -119.70938
+      }
+    },
+    "contact": {
+      "phone": "(559) 323-0537",
+      "websiteUrl": "https://www.svsinc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "SVS Clovis Adult Day Program offers Community Inclusion Services aimed at promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization for individuals with developmental disabilities. The program also provides opportunities for career exploration and work experience.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Expression",
+        "Life Skills Training",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "SVS Clovis Adult Day Program supports adults with developmental disabilities.",
+        "It offers community inclusion, skill development, and career exploration activities."
+      ]
+    },
+    "completenessScore": 87,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER  INC.",
+    "streetName": "Central Valley Training Center, Inc.",
+    "ccldLicenseNumber": "107204057",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4018 N. Ann Avenue",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "93727",
+      "county": "Fresno",
+      "coordinates": {
+        "lat": 36.790413,
+        "lng": -119.72778
+      }
+    },
+    "contact": {
+      "phone": "(559) 292-1392",
+      "websiteUrl": "https://www.cvtcinc.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Central Valley Training Center, Inc. provides vocational training, educational programs, and support services aimed at equipping individuals with essential skills for career success and helping them reach their full potential, particularly for those with intellectual or developmental disabilities.",
+      "minimumAge": 18,
+      "yearEstablished": 1982,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Behavior Support",
+        "Community Integration Activities",
+        "Self-Advocacy"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Central Valley Training Center, Inc. (CVTC) supports adults with developmental disabilities through vocational and behavioral programs.",
+        "Founded in 1982, CVTC offers person-centered services including community integration and emergency response.",
+        "CVTC's Fresno-based RAPID South mobile crisis response service is closing September 1, 2025."
+      ]
+    },
+    "completenessScore": 86,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CEDARBROOK MEMORY CARE COMMUNITY",
+    "streetName": "Cedarbrook Memory Care Community",
+    "ccldLicenseNumber": "107206766",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1425 E. Nees Avenue",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "93720",
+      "county": "Fresno",
+      "coordinates": {
+        "lat": 36.851997,
+        "lng": -119.759
+      }
+    },
+    "contact": {
+      "phone": "(559) 934-4138",
+      "websiteUrl": "https://www.koelschcommunities.com/senior-living/california/fresno/cedarbrook/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 10,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Cedarbrook Memory Care Community specializes in providing a safe and personalized care model for seniors experiencing Alzheimer's, dementia, and other forms of memory loss, aiming to reconnect them to cherished memories and create a deep sense of purpose.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Common Areas",
+        "Secured Community",
+        "Beauty Salon",
+        "Game Room",
+        "Library",
+        "Communal Gardens",
+        "Internet Access"
+      ],
+      "activitiesOffered": [
+        "Cognitive and Physical Exercise",
+        "Musical Events",
+        "Pet Visits",
+        "Spiritual Opportunities",
+        "Picnics",
+        "Outings",
+        "Special-Interest Clubs"
+      ],
+      "parentOrganization": "Koelsch Senior Communities",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Alzheimer's",
+        "Dementia",
+        "Memory Loss"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local area",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Cedarbrook Memory Care Community specializes in care for individuals with Alzheimer's and dementia.",
+        "It is a licensed Residential Care Facility for the Elderly in California.",
+        "The community offers monthly support groups for caregivers."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS FRESNO DOWNTOWN ADULT DAY PROGRAM",
+    "streetName": "SVS Fresno Downtown Adult Day Program",
+    "ccldLicenseNumber": "107206773",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2115 Amador St.",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "93721",
+      "county": "Fresno",
+      "coordinates": {
+        "lat": 36.742718,
+        "lng": -119.79763
+      }
+    },
+    "contact": {
+      "phone": "(559) 443-7119",
+      "websiteUrl": "https://www.socialvocationalservices.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "SVS Fresno Downtown Adult Day Program offers opportunities for adults with developmental disabilities to engage in a wide range of activities promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization, creating engaging, accessible, and safe daily experiences.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Community Integration",
+        "Vocational Training/Work Experience",
+        "Physical Fitness",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "Social Vocational Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "SVS Fresno Downtown Adult Day Program is a licensed facility offering structured daytime activities and therapeutic programming.",
+        "It serves adults needing daily supervision, including those with dementia or developmental disabilities."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER FRESNO W",
+    "streetName": "CENTRAL VALLEY TRAINING CENTER FRESNO W",
+    "ccldLicenseNumber": "107206787",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3685 W Holland Ave",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "93722",
+      "county": "Fresno",
+      "coordinates": {
+        "lat": 36.797577,
+        "lng": -119.857635
+      }
+    },
+    "contact": {
+      "phone": "(559) 228-8696",
+      "websiteUrl": "https://www.cvtcinc.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Central Valley Training Center Fresno W offers a variety of participant services designed to educate, facilitate, train, and assist individuals with developmental and intellectual disabilities in reaching their full potential and living life to the fullest, with a focus on behavior support, community integration, and vocational training.",
+      "minimumAge": 18,
+      "yearEstablished": 1982,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Skills Training",
+        "Pedestrian Safety Training",
+        "Public Transportation Training",
+        "Community Resources Navigation",
+        "Self-Advocacy Training",
+        "Education"
+      ],
+      "parentOrganization": "Central Valley Training Center, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Central Valley Training Center Fresno W supports adults with developmental disabilities, offering vocational and community integration services.",
+        "Founded in 1982, it was an early California program for individuals needing behavioral management services."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC FRESNO/MADERA COUNTIES  KERMAN TRAI",
+    "streetName": "Arc Fresno/Madera Counties, Kerman Training Ctr.",
+    "ccldLicenseNumber": "107206895",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "14550 W. California Avenue",
+      "city": "Kerman",
+      "state": "CA",
+      "zipCode": "93630",
+      "county": "Fresno",
+      "coordinates": {
+        "lat": 36.72057,
+        "lng": -120.05365
+      }
+    },
+    "contact": {
+      "phone": "(559) 547-2692",
+      "websiteUrl": "https://www.arcfresno.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Adult Day Program offers both center-based and community-integrated opportunities, where participants engage in creative, educational, recreational, and social activities. The program supports individuals with intellectual and developmental disabilities in building life and independent living skills, fostering friendships, and making community connections.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "The Arc of Fresno and Madera Counties",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Fresno and Madera Counties",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Arc Fresno/Madera Counties, Kerman Training Ctr. serves adults with intellectual and developmental disabilities.",
+        "It is a licensed adult day program in Kerman, CA, with a capacity of 100 individuals."
+      ]
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
     "legalLicenseName": "TOWER STUDIO  THE",
-    "streetName": "TOWER STUDIO  THE",
+    "streetName": "Social Vocational Services, Inc - Tower Studio",
     "ccldLicenseNumber": "107208256",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -958,17 +1130,43 @@
     },
     "contact": {
       "phone": "(559) 777-8008",
-      "websiteUrl": ""
+      "websiteUrl": "https://socialvocationalservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Social Vocational Services, Inc. - Tower Studio offers adult day programs, adult employment, and adult independent living services for individuals with developmental disabilities, focusing on community inclusion, career exploration, and skill development to promote independence and self-advocacy.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Cooking",
+        "Computer Technology",
+        "Gardening",
+        "Work Experience",
+        "Physical Fitness",
+        "Music Expression",
+        "Community Integration",
+        "Social Interaction",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -976,19 +1174,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Social Vocational Services - Tower Studio offers individualized day programs for adults with developmental/intellectual disabilities.",
+        "As part of a 501(c)(3) nonprofit, it provides community inclusion, employment, and independent living support.",
+        "The Fresno program has partnered with the local courthouse to empower individuals with disabilities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NEST  THE",
-    "streetName": "NEST  THE",
+    "streetName": "NEST THE",
     "ccldLicenseNumber": "107208765",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1010,12 +1213,28 @@
     "facilityDetails": {
       "licensedCapacity": 76,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The program provides structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, medication management, and in some cases, physical therapy, occupational therapy, and nursing services.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Physical Therapy",
+        "Occupational Therapy",
+        "Nursing Services"
+      ],
+      "daysOfOperation": "Monday–Friday, 9:00 AM–6:00 PM; Saturday–Sunday, 10:00 AM–4:00 PM",
+      "hoursOfOperation": "9:00 AM–6:00 PM (Mon-Fri), 10:00 AM–4:00 PM (Sat-Sun)",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1027,15 +1246,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "NEST THE is a licensed Adult Day Program in Fresno, CA.",
+        "It operates under an active license from the CA Community Care Licensing Division."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 73,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "OASIS/PALS",
-    "streetName": "OASIS/PALS",
+    "streetName": "OASIS Adult Day Program",
     "ccldLicenseNumber": "107208896",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1052,17 +1274,33 @@
     },
     "contact": {
       "phone": "(559) 224-9121",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.valleycrc.org/oasis"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "OASIS Adult Day Program provides licensed daytime care for seniors in the early stages of dementia or Alzheimer's. The program offers a stimulating and engaging environment that encourages social interaction, independence, and purpose-filled activities, while also providing respite and support for caregivers.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Social and Recreational Activities",
+        "Life Skills Training",
+        "Community Service Projects"
+      ],
+      "parentOrganization": "Valley Caregiver Resource Center",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–5:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Dementia",
+        "Alzheimer's"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1070,13 +1308,19 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Fresno and Madera Counties",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "OASIS Adult Day Program offers licensed daytime care for seniors with early dementia or memory loss.",
+        "It is operated by Valley Caregiver Resource Center, a non-profit with over 35 years of community service.",
+        "The program provides engaging activities with a 1:8 staff-to-participant ratio."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1098,16 +1342,23 @@
       }
     },
     "contact": {
-      "phone": "(559) 458-1958",
-      "websiteUrl": ""
+      "phone": "(559) 276-1171",
+      "websiteUrl": "https://rivendellcommunity.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 100,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Rivendell Community Inc. provides adult day care services to adults with disabilities in the Central Valley, offering structured daytime activities, supervision, support services, health monitoring, therapeutic activities, social and recreational programming, meals, and personal care assistance.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
+      ],
+      "activitiesOffered": [
+        "Social Activities",
+        "Therapeutic Activities",
+        "Meals",
+        "Health Monitoring",
+        "Outings"
       ],
       "selfDeterminationAccepted": "Unknown"
     },
@@ -1121,15 +1372,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Rivendell Community Inc. is a licensed adult day program in Fresno for adults with disabilities.",
+        "Established in 2005, it is a 501(c)(3) nonprofit offering day care services and community outings."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 61,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SVS KINGSBURG",
-    "streetName": "SVS KINGSBURG",
+    "streetName": "Social Vocational Services, Inc. - Kingsburg",
     "ccldLicenseNumber": "107208997",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1145,18 +1399,44 @@
       }
     },
     "contact": {
-      "phone": "(559) 443-7119",
-      "websiteUrl": ""
+      "phone": "(559) 634-9094",
+      "websiteUrl": "https://www.socialvocationalservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Social Vocational Services, Inc. (SVS) is a California non-profit corporation that connects individuals with developmental disabilities to employers in community settings and offers a wide variety of services to meet diverse needs and interests. The program aims to promote independence, self-advocacy, community integration, self-discovery, career exploration, and socialization.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Cooking",
+        "Computer Technology",
+        "Gardening",
+        "Work Experience",
+        "Volunteer Activities",
+        "Physical Fitness",
+        "Music Expression",
+        "Self-Advocacy",
+        "Health and Well-being",
+        "Community Integration",
+        "Social Interaction",
+        "Recreational Activities",
+        "Life Skills Training",
+        "Career Exploration"
+      ],
+      "parentOrganization": "Social Vocational Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities",
+        "Autism",
+        "Down Syndrome"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1168,9 +1448,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Social Vocational Services offers individualized programs for adults with developmental disabilities.",
+        "This Kingsburg program is part of a California non-profit with over 80 locations statewide."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 88,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1192,18 +1475,42 @@
       }
     },
     "contact": {
-      "phone": "(559) 443-7119",
-      "websiteUrl": ""
+      "phone": "(559) 299-2746",
+      "websiteUrl": "https://socialvocationalservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "SVS Day Programs offer opportunities for individuals with developmental disabilities to engage in a wide range of activities promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization. The program also provides employment and supported living services to help participants achieve their goals.",
       "minimumAge": 18,
+      "yearEstablished": 1977,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Expression",
+        "Life Skills Training",
+        "Computer Technology",
+        "Gardening",
+        "Work Experience",
+        "Volunteer Activities",
+        "Physical Fitness",
+        "Community Integration",
+        "Social Interaction",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "Social Vocational Services",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1215,9 +1522,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "SVS Bullard Adult Day Program supports adults with developmental/intellectual disabilities.",
+        "It offers community inclusion, career exploration, and supported employment services.",
+        "Part of a 1977-founded California non-profit, it promotes independence and community integration."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 83,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1232,7 +1543,7 @@
       "city": "Fresno",
       "state": "CA",
       "zipCode": "93727",
-      "county": "Fresno",
+      "county": "Fresno County",
       "coordinates": {
         "lat": 36.77223481,
         "lng": -119.7317345
@@ -1245,12 +1556,20 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Sunshine Community Care Center is a licensed adult day program in Fresno, California, offering structured daytime activities, supervision, and support services for adults who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "parentOrganization": "SUNSHINE COMMUNITY CARE CENTER LLC",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00am–6:00pm, Saturday–Sunday: 10:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1262,9 +1581,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Sunshine Community Care Center is a licensed adult day program in Fresno, CA, offering structured activities and support.",
+        "It serves adults needing daytime assistance, including those with dementia or disabilities, providing respite for caregivers.",
+        "Services include health monitoring, therapeutic activities, meals, and personal care for up to 30 participants."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 70,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1279,7 +1602,7 @@
       "city": "Fresno",
       "state": "CA",
       "zipCode": "93720",
-      "county": "Fresno",
+      "county": "Fresno County",
       "coordinates": {
         "lat": 36.87146438,
         "lng": -119.7632232
@@ -1287,17 +1610,44 @@
     },
     "contact": {
       "phone": "(559) 443-7119",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.socialvocationalservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Social Vocational Services offers a wide range of individualized programs for adults with developmental/intellectual disabilities, including Community Inclusion, Career Exploration, Supported Employment, Supported/Independent Living, Residential, Alternative, and Transportation Services. The Community Inclusion Adult Day program aims to promote independence, self-advocacy, community integration, self-discovery, career exploration, and socialization in the community.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Gardening",
+        "Work Experience",
+        "Volunteer Activities",
+        "Physical Fitness",
+        "Self-Advocacy",
+        "Health and Well-being",
+        "Community Integration",
+        "Social Interaction",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc. (SVS)",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1305,19 +1655,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Door-to-door transportation services may be provided for clients who need it, funded by Regional Centers. Specific geographic area is not defined.",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "SVS Fresno Champlain ADP offers individualized programs for adults with developmental disabilities.",
+        "As part of Social Vocational Services, it focuses on community inclusion and supported employment."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 84,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "DIAMOND LEARNING CENTER  INC.",
-    "streetName": "DIAMOND LEARNING CENTER  INC.",
+    "streetName": "Diamond Learning Center Inc.",
     "ccldLicenseNumber": "107209601",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1326,7 +1681,7 @@
       "city": "Clovis",
       "state": "CA",
       "zipCode": "93612",
-      "county": "Fresno",
+      "county": "Fresno County",
       "coordinates": {
         "lat": 36.79398684,
         "lng": -119.7112571
@@ -1334,17 +1689,39 @@
     },
     "contact": {
       "phone": "(559) 241-0580",
-      "websiteUrl": ""
+      "websiteUrl": "https://dlclife.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 390,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Diamond Learning Center Inc. provides a unique learning and vocational environment for adults with intellectual and developmental disabilities, focusing on lifelong learning, personal growth, and preparing students for productive and fulfilling lives through engaging programming and employment opportunities.",
       "minimumAge": 18,
+      "yearEstablished": 2005,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Music Therapy",
+        "Life Skills Training",
+        "Student Employment",
+        "Athletics",
+        "Instructional Cooking"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Down Syndrome",
+        "Autism"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1356,9 +1733,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Diamond Learning Center Inc. supports adults with intellectual disabilities through lifelong learning.",
+        "Founded in 2005, the center is expanding to offer more programs and improved accessibility.",
+        "It fosters community involvement and student employment, including through E's Diamond Deli."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

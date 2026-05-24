@@ -1,757 +1,5 @@
 [
   {
-    "legalLicenseName": "ARC-TAFT  THE",
-    "streetName": "ARC-TAFT  THE",
-    "ccldLicenseNumber": "150404353",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "204 Van Buren Street",
-      "city": "Taft",
-      "state": "CA",
-      "zipCode": "93268",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.15312,
-        "lng": -119.45503
-      }
-    },
-    "contact": {
-      "phone": "(661) 763-1532",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ENRICHMENT ACTIVITY CENTER  THE",
-    "streetName": "ENRICHMENT ACTIVITY CENTER  THE",
-    "ccldLicenseNumber": "150404574",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "600 Jefferson St",
-      "city": "Delano",
-      "state": "CA",
-      "zipCode": "93215",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.764202,
-        "lng": -119.24312
-      }
-    },
-    "contact": {
-      "phone": "(661) 721-3220",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 49,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ACHIEVEMENT CENTER  THE",
-    "streetName": "ACHIEVEMENT CENTER  THE",
-    "ccldLicenseNumber": "150406303",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "531 High Street",
-      "city": "Delano",
-      "state": "CA",
-      "zipCode": "93215",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.762856,
-        "lng": -119.24557
-      }
-    },
-    "contact": {
-      "phone": "(661) 721-3222",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DAI BREAK",
-    "streetName": "DAI BREAK",
-    "ccldLicenseNumber": "150406808",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "14150 1/2 Sunset Blvd.",
-      "city": "Arvin",
-      "state": "CA",
-      "zipCode": "93203",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.223576,
-        "lng": -118.845505
-      }
-    },
-    "contact": {
-      "phone": "(661) 854-4543",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ACES",
-    "streetName": "ACES",
-    "ccldLicenseNumber": "157200175",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "612 Main Street",
-      "city": "Delano",
-      "state": "CA",
-      "zipCode": "93215",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.76413,
-        "lng": -119.24448
-      }
-    },
-    "contact": {
-      "phone": "(661) 721-3220",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS BAKERSFIELD SOUTHWEST ADULT DAY PRO",
-    "streetName": "SVS BAKERSFIELD SOUTHWEST ADULT DAY PRO",
-    "ccldLicenseNumber": "157200632",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4705 New Horizon Blvd  Ste",
-      "city": "Bakersfield",
-      "state": "CA",
-      "zipCode": "93313",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.314095,
-        "lng": -119.05485
-      }
-    },
-    "contact": {
-      "phone": "(661) 241-6760",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PATHWAYS",
-    "streetName": "PATHWAYS",
-    "ccldLicenseNumber": "157200680",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1401 Poso Avenue",
-      "city": "Wasco",
-      "state": "CA",
-      "zipCode": "93280",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.587013,
-        "lng": -119.34165
-      }
-    },
-    "contact": {
-      "phone": "(661) 758-5331",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MERCIE'S DAY PROGRAM",
-    "streetName": "MERCIE'S DAY PROGRAM",
-    "ccldLicenseNumber": "157200749",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2700 K Street",
-      "city": "Bakersfield",
-      "state": "CA",
-      "zipCode": "93301",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.38392,
-        "lng": -119.01754
-      }
-    },
-    "contact": {
-      "phone": "(661) 323-5585",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 49,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "RIVERSIDE RANCH  ADULT OUTPATIENT SERVI",
-    "streetName": "RIVERSIDE RANCH  ADULT OUTPATIENT SERVI",
-    "ccldLicenseNumber": "157200752",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "18200 Highway 178",
-      "city": "Bakersfield",
-      "state": "CA",
-      "zipCode": "93306",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.4364578,
-        "lng": -118.8018847
-      }
-    },
-    "contact": {
-      "phone": "(661) 871-9697",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 15,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "KERN ADULT PROGRAM  INC.",
-    "streetName": "KERN ADULT PROGRAM  INC.",
-    "ccldLicenseNumber": "157200963",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2900 Eye St.",
-      "city": "Bakersfield",
-      "state": "CA",
-      "zipCode": "93301",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.38584,
-        "lng": -119.019966
-      }
-    },
-    "contact": {
-      "phone": "(661) 323-4700",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SAILS RIDGECREST ADULT DAY PROGRAM",
-    "streetName": "SAILS RIDGECREST ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "157202415",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "126 S China Lake Blvd",
-      "city": "Ridgecrest",
-      "state": "CA",
-      "zipCode": "93555",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.62222336,
-        "lng": -117.6698926
-      }
-    },
-    "contact": {
-      "phone": "(661) 855-3740",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS BAKERSFIELD ADULT DAY PROGRAM",
-    "streetName": "SVS BAKERSFIELD ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "157202789",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3601 Union Ave",
-      "city": "Bakersfield",
-      "state": "CA",
-      "zipCode": "93305",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.392998,
-        "lng": -119.00287
-      }
-    },
-    "contact": {
-      "phone": "(661) 323-0533",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "N.A.P.D. MELANIE BELL-KENNEMER ADULT EN",
-    "streetName": "N.A.P.D. MELANIE BELL-KENNEMER ADULT EN",
-    "ccldLicenseNumber": "157203233",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3720 N. Sillect Ave.",
-      "city": "Bakersfield",
-      "state": "CA",
-      "zipCode": "93308",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.391834,
-        "lng": -119.03617
-      }
-    },
-    "contact": {
-      "phone": "(661) 324-9854",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 210,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COLE VOCATIONAL SERVICES BAKERSFIELD",
-    "streetName": "COLE VOCATIONAL SERVICES BAKERSFIELD",
-    "ccldLicenseNumber": "157203245",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "7500 District St Ste B",
-      "city": "Bakersfield",
-      "state": "CA",
-      "zipCode": "93313",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.313152,
-        "lng": -119.08565
-      }
-    },
-    "contact": {
-      "phone": "(661) 834-9300",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MOUNTAIN PATHWAYS",
-    "streetName": "MOUNTAIN PATHWAYS",
-    "ccldLicenseNumber": "157203492",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "311 West F Street",
-      "city": "Tehachapi",
-      "state": "CA",
-      "zipCode": "93561",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.131477,
-        "lng": -118.45118
-      }
-    },
-    "contact": {
-      "phone": "(661) 823-7302",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "NEW PATHWAYS",
-    "streetName": "NEW PATHWAYS",
-    "ccldLicenseNumber": "157203969",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1107 Olive Dr.",
-      "city": "Bakersfield",
-      "state": "CA",
-      "zipCode": "93308",
-      "county": "Kern",
-      "coordinates": {
-        "lat": 35.412285,
-        "lng": -119.04294
-      }
-    },
-    "contact": {
-      "phone": "(661) 615-6480",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "POSITIVE SUPPORTS",
     "streetName": "POSITIVE SUPPORTS",
     "ccldLicenseNumber": "157204067",
@@ -799,8 +47,1086 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
+    "legalLicenseName": "ARC-TAFT  THE",
+    "streetName": "The Arc of Taft",
+    "ccldLicenseNumber": "150404353",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "204 Van Buren Street",
+      "city": "Taft",
+      "state": "CA",
+      "zipCode": "93268",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.15312,
+        "lng": -119.45503
+      }
+    },
+    "contact": {
+      "phone": "(661) 763-1532",
+      "websiteUrl": "https://www.thearctaft.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "ARC-Taft provides instruction and hands-on training to adults with intellectual disabilities. Its objectives are to increase independent living skills, develop vocational skills, and to empower individuals to advocate for themselves in their desire for full integration within society.",
+      "minimumAge": 18,
+      "yearEstablished": 1955,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Outdoor Activities",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "The Arc",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Arc of Taft provides instruction and training to adults with intellectual disabilities, fostering independent living skills.",
+        "Established in 1955, The Arc of Taft is a 501(c)(3) nonprofit dedicated to supporting individuals with developmental disabilities."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ENRICHMENT ACTIVITY CENTER  THE",
+    "streetName": "ENRICHMENT ACTIVITY CENTER THE",
+    "ccldLicenseNumber": "150404574",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "600 Jefferson St",
+      "city": "Delano",
+      "state": "CA",
+      "zipCode": "93215",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.764202,
+        "lng": -119.24312
+      }
+    },
+    "contact": {
+      "phone": "(661) 721-3220",
+      "websiteUrl": "https://dadddelano.org/enrichment-activity-center/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 49,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Enrichment Activity Center (EAC) provides a comfortable and enriching environment where its clients have enjoyable and meaningful experiences, maintain important relationships, and experience personal growth and development.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "parentOrganization": "Delano Adult Development Center",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Enrichment Activity Center is a California-licensed Adult Day Program with a capacity of 90 participants.",
+        "It provides a supportive environment for adults with developmental disabilities needing high levels of assistance.",
+        "The program is operated by the Delano Association for the Developmentally Disabled, a nonprofit established in 1976."
+      ]
+    },
+    "completenessScore": 58,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ACHIEVEMENT CENTER  THE",
+    "streetName": "Achievement Center",
+    "ccldLicenseNumber": "150406303",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "531 High Street",
+      "city": "Delano",
+      "state": "CA",
+      "zipCode": "93215",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.762856,
+        "lng": -119.24557
+      }
+    },
+    "contact": {
+      "phone": "(661) 721-3220",
+      "websiteUrl": "https://dadddelano.org/achievement-center/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Achievement Center aims to enable its clients to develop personal life goals, gain knowledge and skills, and enjoy new experiences in a positive and supportive community environment, with a focus on community integration.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training"
+      ],
+      "parentOrganization": "DADD",
+      "daysOfOperation": "Monday–Thursday",
+      "hoursOfOperation": "8:00am–3:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Achievement Center supports adults with developmental disabilities in Delano, CA.",
+        "It helps clients develop personal life goals, social skills, and community integration.",
+        "The program operates as part of the nonprofit Delano Association for the Developmentally Disabled."
+      ]
+    },
+    "completenessScore": 88,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DAI BREAK",
+    "streetName": "DAI BREAK",
+    "ccldLicenseNumber": "150406808",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "14150 1/2 Sunset Blvd.",
+      "city": "Arvin",
+      "state": "CA",
+      "zipCode": "93203",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.223576,
+        "lng": -118.845505
+      }
+    },
+    "contact": {
+      "phone": "(661) 854-4543",
+      "websiteUrl": "https://www.kerncountyautismcenter.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "DAI BREAK is a weekly day program for autistic adults in Kern County, dedicated to assisting individuals in building responsibility, esteem, awareness, and knowledge through various activities that promote physical, emotional, educational, and mental growth.",
+      "minimumAge": 18,
+      "yearEstablished": 1983,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Classrooms",
+        "Community Room"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Group Games",
+        "Outdoor Activities (biking, farm animals)"
+      ],
+      "parentOrganization": "Kern County Autism Center",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Kern County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "DAI BREAK is a licensed weekly day program for autistic adults in Kern County.",
+        "It is a 501(c)(3) non-profit, founded by parents in 1983, offering structured activities.",
+        "The program provides a healthy learning environment with small classrooms and outdoor space."
+      ]
+    },
+    "completenessScore": 91,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ACES",
+    "streetName": "Center for Activity – Control – Empowerment & Strength (ACES)",
+    "ccldLicenseNumber": "157200175",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "612 Main Street",
+      "city": "Delano",
+      "state": "CA",
+      "zipCode": "93215",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.76413,
+        "lng": -119.24448
+      }
+    },
+    "contact": {
+      "phone": "(661) 721-3220",
+      "websiteUrl": "https://www.dadddelano.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "ACES aims to help individuals with extreme physical challenges gain physical control, improve health and strength, and increase their ability to participate in life activities through a peaceful, safe, and motivating environment with meaningful growth experiences, including a 'Participation Based Mobility' program.",
+      "minimumAge": 18,
+      "yearEstablished": 1976,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Social Development",
+        "Physical Conditioning/Mobility Enhancement"
+      ],
+      "parentOrganization": "Delano Association For The Developmentally Disabled",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Physical Challenges"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "ACES is an adult day program in Delano, CA, focusing on mobility, strength, and physical control for those with extreme physical challenges.",
+        "It operates under the Delano Association for the Developmentally Disabled, a nonprofit founded by parents in the 1960s.",
+        "The program emphasizes \"Participation Based Mobility\" and client self-determination, offering a peaceful, motivating environment."
+      ]
+    },
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS BAKERSFIELD SOUTHWEST ADULT DAY PRO",
+    "streetName": "Social Vocational Services, Inc. - Bakersfield New Horizon",
+    "ccldLicenseNumber": "157200632",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4705 New Horizon Blvd  Ste",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93313",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.314095,
+        "lng": -119.05485
+      }
+    },
+    "contact": {
+      "phone": "(661) 241-6758",
+      "websiteUrl": "https://socialvocationalservices.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program offers opportunities for individuals with developmental and intellectual disabilities to experience a wide range of activities promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization. It aims to empower participants to build professionalism, interpersonal skills, and gain independence through supported employment opportunities.",
+      "minimumAge": 18,
+      "yearEstablished": 1977,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Expression",
+        "Life Skills Training",
+        "Community Integration",
+        "Recreational Activities",
+        "Work Experience"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Social Vocational Services, Inc. supports adults with developmental disabilities since 1977.",
+        "Bakersfield New Horizon offers adult day programs and supported employment services.",
+        "The program is CARF accredited for its community employment services."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PATHWAYS",
+    "streetName": "PATHWAYS",
+    "ccldLicenseNumber": "157200680",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1401 Poso Avenue",
+      "city": "Wasco",
+      "state": "CA",
+      "zipCode": "93280",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.587013,
+        "lng": -119.34165
+      }
+    },
+    "contact": {
+      "phone": "(661) 758-5331",
+      "websiteUrl": "https://cso-svd.org/pathways/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program offers training to develop communication, self-help, social, cognitive, and leisure skills, and provides limited vocational opportunities for clients who choose to work.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Community Support Options, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Pathways Adult Development Center in Wasco offers training in communication, self-help, social, cognitive, and leisure skills.",
+        "This licensed program supports adults with intellectual and developmental disabilities, with a staff-to-client ratio of one to four."
+      ]
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MERCIE'S DAY PROGRAM",
+    "streetName": "MERCIE'S DAY PROGRAM",
+    "ccldLicenseNumber": "157200749",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2700 K Street",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93301",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.38392,
+        "lng": -119.01754
+      }
+    },
+    "contact": {
+      "phone": "(661) 323-5585",
+      "websiteUrl": "https://merciesinc.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 49,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Mercie's Day Program is a behavior management day program for individuals with developmental disabilities, with a goal to conduct training in a fully integrated, natural setting. The program offers vocational training and money management training to develop self-worth and self-confidence.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Commercial Kitchen",
+        "Conference Room",
+        "Recreation Hall",
+        "Vocational Workshop",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Money Management Training",
+        "Community Outings",
+        "Recreational Activities",
+        "Life Skills Training",
+        "Arts and Crafts"
+      ],
+      "parentOrganization": "Mercie's Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Behavioral Challenges"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Mercie's Day Program in Bakersfield supports adults with developmental disabilities.",
+        "It offers vocational training, community outings, and social activities.",
+        "The program is licensed for 49 participants and focuses on behavior management."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "RIVERSIDE RANCH  ADULT OUTPATIENT SERVI",
+    "streetName": "RIVERSIDE RANCH ADULT OUTPATIENT SERVI",
+    "ccldLicenseNumber": "157200752",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "18200 Highway 178",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93306",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.4364578,
+        "lng": -118.8018847
+      }
+    },
+    "contact": {
+      "phone": "(661) 871-9697",
+      "websiteUrl": "https://asctreatmentgroup.com/kern-county/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 15,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program offers outpatient services and enrichment programs for adults with severe mental illness and developmental disabilities, providing structured activities and support for recovery.",
+      "minimumAge": 18,
+      "maximumAge": 59,
+      "languagesSupported": [
+        "English",
+        "Spanish",
+        "Vietnamese",
+        "Tagalog",
+        "ASL"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "ASC Treatment Group",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Severe Mental Illness"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Riverside Ranch offers whole-person mental health care for severe mental illness, including dual diagnoses and hearing impairments.",
+        "Programs include substance use counseling, horticulture, art, music, and psychiatric support.",
+        "It provides non-medical care, meals, and activities like pet therapy and community outings."
+      ]
+    },
+    "completenessScore": 85,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KERN ADULT PROGRAM  INC.",
+    "streetName": "Kern Adult Program, Inc.",
+    "ccldLicenseNumber": "157200963",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2900 Eye St.",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93301",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.38584,
+        "lng": -119.019966
+      }
+    },
+    "contact": {
+      "phone": "(661) 323-4700",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Kern Adult Program, Inc. provides structured daytime activities, supervision, and support services for adults with disabilities. The program focuses on health monitoring, therapeutic, social, and recreational programming, and aims to increase participants' community access, skills, and independence.",
+      "minimumAge": 18,
+      "yearEstablished": 1995,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Programming",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Life Skills Training",
+        "Community Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Kern Adult Program, Inc. is a licensed adult day program in Bakersfield, CA, established in 1995.",
+        "It offers structured daytime activities, meals, and personal care for adults, including those with dementia or disabilities.",
+        "The program emphasizes a person-centered approach, focusing on community access and communication for nonverbal individuals."
+      ]
+    },
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SAILS RIDGECREST ADULT DAY PROGRAM",
+    "streetName": "Sails Ridgecrest Adult Day Program",
+    "ccldLicenseNumber": "157202415",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "126 S China Lake Blvd",
+      "city": "Ridgecrest",
+      "state": "CA",
+      "zipCode": "93555",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.62222336,
+        "lng": -117.6698926
+      }
+    },
+    "contact": {
+      "phone": "(760) 371-2214",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This Adult Day Program provides structured daytime activities, supervision, and support services for adults with developmental disabilities who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Art",
+        "Singing",
+        "Age-Appropriate Games",
+        "Social Work",
+        "Dietary Counseling"
+      ],
+      "parentOrganization": "Supportive Adult Independent Living Services (SAILS)",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Mon-Fri: 9:00 AM–6:00 PM, Sat-Sun: 10:00 AM–4:00 PM",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Sails Ridgecrest Adult Day Program offers licensed daytime care for adults in Ridgecrest, CA.",
+        "It provides structured activities, health monitoring, and personal care for older adults and those with disabilities.",
+        "The program supports individuals needing daily structure and offers respite for caregivers."
+      ]
+    },
+    "completenessScore": 85,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS BAKERSFIELD ADULT DAY PROGRAM",
+    "streetName": "SVS BAKERSFIELD ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "157202789",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3601 Union Ave",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93305",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.392998,
+        "lng": -119.00287
+      }
+    },
+    "contact": {
+      "phone": "(661) 323-0533",
+      "websiteUrl": "https://socialvocationalservices.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Social Vocational Services (SVS) connects individuals with developmental disabilities to employers in community settings and offers a wide variety of services. The program aims to promote independence, self-advocacy, community integration, self-discovery, career exploration, and socialization in the community.",
+      "minimumAge": 18,
+      "yearEstablished": 1977,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Community Inclusion",
+        "Career Exploration",
+        "Supported Employment",
+        "Life Skills Training",
+        "Social and Recreational Programming",
+        "Therapeutic Activities",
+        "Personal Care Assistance"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc. (SVS)",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Social Vocational Services (SVS) has served individuals with developmental and intellectual disabilities since 1977.",
+        "SVS Bakersfield New Horizon is CARF accredited for employment supports and job development.",
+        "SVS Bakersfield offers Adult Day Programs and Supported Employment services."
+      ]
+    },
+    "completenessScore": 75,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "N.A.P.D. MELANIE BELL-KENNEMER ADULT EN",
+    "streetName": "N.A.P.D. Melanie Bell-Kennemer Adult Enrich Ctr.",
+    "ccldLicenseNumber": "157203233",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3720 N. Sillect Ave.",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93308",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.391834,
+        "lng": -119.03617
+      }
+    },
+    "contact": {
+      "phone": "(661) 324-9854",
+      "websiteUrl": "https://www.napd-bak.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 210,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This Adult Enrichment Center provides quality caring and compassionate services to adults with intellectual and developmental disabilities, empowering them to live more productive, rewarding, and independent lives through a creative learning environment, community outings, and a variety of motivating activities.",
+      "minimumAge": 18,
+      "yearEstablished": 1973,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Yoga",
+        "Cooking",
+        "Community Outings",
+        "Life Skills Training",
+        "Adaptive Sports"
+      ],
+      "parentOrganization": "New Advances for People with Disabilities (NAPD)",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–2:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "N.A.P.D. Melanie Bell-Kennemer Adult Enrich Ctr. is a licensed Adult Day Program in Bakersfield, CA.",
+        "It provides structured daytime activities, health monitoring, meals, and therapeutic programming.",
+        "A June 2024 annual inspection by CCLD found no deficiencies."
+      ]
+    },
+    "completenessScore": 91,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES BAKERSFIELD",
+    "streetName": "COLE VOCATIONAL SERVICES BAKERSFIELD",
+    "ccldLicenseNumber": "157203245",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7500 District St Ste B",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93313",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.313152,
+        "lng": -119.08565
+      }
+    },
+    "contact": {
+      "phone": "(661) 834-9300",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Cole Vocational Services Bakersfield is a center-based program providing vocational services, structured daytime activities, supervision, and support services for adults with developmental disabilities. The program supports individuals, including many who are non-mobile and use wheelchairs, offering health monitoring, therapeutic activities, social and recreational programming, meals, snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Activities",
+        "Therapeutic Activities",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "parentOrganization": "National Mentor Holding, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Cole Vocational Services Bakersfield is a licensed adult day program for individuals with developmental disabilities.",
+        "The program provides vocational services and supports approximately 91 consumers with a 3:1 staff-to-consumer ratio."
+      ]
+    },
+    "completenessScore": 86,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MOUNTAIN PATHWAYS",
+    "streetName": "MOUNTAIN PATHWAYS",
+    "ccldLicenseNumber": "157203492",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "311 West F Street",
+      "city": "Tehachapi",
+      "state": "CA",
+      "zipCode": "93561",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.131477,
+        "lng": -118.45118
+      }
+    },
+    "contact": {
+      "phone": "(661) 823-7302",
+      "websiteUrl": "https://cso-svd.org/mountain-pathways/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Mountain Pathways offers adults with intellectual/developmental disabilities the opportunity to develop cognitive, self-help, social, and leisure skills in Tehachapi and surrounding communities.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "parentOrganization": "Community Support Options, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–3:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Tehachapi and surrounding communities",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Mountain Pathways is a licensed Adult Day Program in Tehachapi, CA.",
+        "It supports adults with intellectual/developmental disabilities.",
+        "The program fosters cognitive, self-help, social, and leisure skill development."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NEW PATHWAYS",
+    "streetName": "NEW PATHWAYS",
+    "ccldLicenseNumber": "157203969",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1107 Olive Dr.",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93308",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.412285,
+        "lng": -119.04294
+      }
+    },
+    "contact": {
+      "phone": "(661) 615-6480",
+      "websiteUrl": "https://www.cso-svd.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "New Pathways is a Behavior Management Day Program that offers community integration and work opportunities, as well as site-based activities, for adults with developmental disabilities.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Community Integration",
+        "Work Opportunities",
+        "Site-based Activities",
+        "Social Activities",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "Community Support Options (CSO)",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy",
+        "Epilepsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "New Pathways is a Behavior Management Day Program in Bakersfield.",
+        "It offers community integration, work opportunities, and site-based activities.",
+        "The program operates Monday-Friday, 9 AM-3 PM, with a 1:3 staff-to-client ratio."
+      ]
+    },
+    "completenessScore": 88,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
     "legalLicenseName": "PATHPOINT",
-    "streetName": "PATHPOINT",
+    "streetName": "PathPoint",
     "ccldLicenseNumber": "157204153",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -817,17 +1143,50 @@
     },
     "contact": {
       "phone": "(661) 617-6170",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.pathpoint.org"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "PathPoint supports individuals with developmental disabilities, mental health diagnoses, and young adults by strengthening workplace abilities, building life skills, and developing meaningful relationships. The program offers a variety of employment services to help individuals overcome barriers to employment, secure jobs, and receive the necessary training and support to maintain employment.",
       "minimumAge": 18,
+      "yearEstablished": 2007,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Adult Employment",
+        "Adult Independent Living",
+        "Individual Supported Employment",
+        "Personal, Vocational, Social Adjustment",
+        "Vocational Assessment Services",
+        "Paid Internship Program",
+        "Student Work Experience",
+        "Adult Work Experience",
+        "Project SEARCH",
+        "Community Integration Services",
+        "Workshops (communication, interviewing, job search, reflection)"
+      ],
+      "parentOrganization": "PathPoint",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Mental Health Diagnoses"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -839,9 +1198,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "PathPoint, established in 1964, supports adults with developmental disabilities and mental health diagnoses.",
+        "They offer employment, life skills, and community integration services in Bakersfield.",
+        "The City of Bakersfield recognized PathPoint as Outstanding Volunteer of Year 2018."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 98,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -864,17 +1227,31 @@
     },
     "contact": {
       "phone": "(661) 721-3220",
-      "websiteUrl": ""
+      "websiteUrl": "https://dadddelano.org"
     },
     "facilityDetails": {
       "licensedCapacity": 50,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Life Skills and Vocational Center helps individuals acquire, maintain, and increase skills for full participation in community life. It specializes in community employment, offering opportunities and support for clients to achieve meaningful lives through work and personal growth.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Adult Education",
+        "Social Recreation",
+        "Employment Support"
+      ],
+      "parentOrganization": "Delano Association for the Developmentally Disabled",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -886,9 +1263,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Life Skills & Vocational Center empowers individuals with developmental disabilities through employment and community integration.",
+        "Founded by parents in 1976, it offers vocational training and adult development services in Delano."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 88,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -910,18 +1290,47 @@
       }
     },
     "contact": {
-      "phone": "(661) 327-0188",
-      "websiteUrl": ""
+      "phone": "(661) 477-9910",
+      "websiteUrl": "https://www.napd-bak.org"
     },
     "facilityDetails": {
       "licensedCapacity": 250,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Center for Creative Achievement provides various classes, vocational placement, and warm water therapy in a community-based setting for adults with intellectual and developmental disabilities. It offers a fun, active, and social environment, encouraging self-advocacy, independence, and creative expression through person-centered planning.",
       "minimumAge": 18,
+      "yearEstablished": 2016,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish",
+        "American Sign Language"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Vocational Workshop",
+        "Multipurpose/Theater with Stage",
+        "Warm Water Therapy"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Drama",
+        "Life Skills Training",
+        "Community Outings",
+        "Sports",
+        "Cooking",
+        "Education Technology",
+        "PenPals"
+      ],
+      "parentOrganization": "New Advances for People with Disabilities",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–2:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -929,19 +1338,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "NAPD Center for Creative Achievement serves adults 18+ with intellectual/developmental disabilities.",
+        "The licensed program offers diverse activities including art, music, cooking, and vocational placement.",
+        "It focuses on person-centered planning to empower clients for productive, independent lives."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "COLE VOCATIONAL SERVICES BAKERSFIELD 2",
-    "streetName": "COLE VOCATIONAL SERVICES BAKERSFIELD 2",
+    "streetName": "California MENTOR Bakersfield - Day and Vocational Services",
     "ccldLicenseNumber": "157208810",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -958,17 +1372,42 @@
     },
     "contact": {
       "phone": "(661) 834-8700",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.sevita.com/locations/california-mentor-bakersfield-day-and-vocational-services-5101-ming-avenue"
     },
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This program offers structured, activity-based day programs and employment services for adults with intellectual and developmental disabilities in a supportive community center setting. Participants receive support for daily needs, building skills for greater independence, making new friends, and engaging in community activities.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Commercial Kitchen",
+        "Vocational Workshop",
+        "Computer Lab",
+        "Transportation"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social activities",
+        "Recreational programming",
+        "Therapeutic activities",
+        "Community integration",
+        "Vocational training",
+        "Job coaching",
+        "Behavioral services",
+        "Advocacy services"
+      ],
+      "parentOrganization": "Sevita",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -980,9 +1419,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "California MENTOR Bakersfield supports adults with intellectual and developmental disabilities.",
+        "The program offers day and vocational services to foster independence.",
+        "Part of Sevita, it has served individuals with disabilities since 1981."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1004,18 +1447,30 @@
       }
     },
     "contact": {
-      "phone": "(559) 443-7119",
-      "websiteUrl": ""
+      "phone": "(661) 463-7553",
+      "websiteUrl": "https://socialvocationalservices.org/locations/central-ca/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Social Vocational Services (SVS) connects individuals with developmental disabilities to employers in community settings and offers a variety of services to meet diverse needs and interests.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Community Inclusion",
+        "Employment Services",
+        "Supported and Independent Living"
+      ],
+      "parentOrganization": "Social Vocational Services (SVS)",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1027,9 +1482,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "SVS Delano supports adults with intellectual and developmental disabilities through various programs.",
+        "Programs include community inclusion, employment services, and supported living options.",
+        "The Delano location opened in 2021, expanding SVS's reach in Central California."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 72,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -1052,17 +1511,34 @@
     },
     "contact": {
       "phone": "(661) 431-1466",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.autism-vac.org"
     },
     "facilityDetails": {
       "licensedCapacity": 16,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Valley Achievement Center offers a range of programs for adults with autism and developmental disabilities, including a Behavioral Management Day Program, Tailored Day Service, Supported Employment, and a Paid Internship program. These programs aim to help adults learn skills to become more independent, focusing on improving functional, social, and daily living skills, as well as developing self-advocacy and enhancing employability.",
       "minimumAge": 18,
+      "yearEstablished": 1998,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Outings"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1070,19 +1546,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Bakersfield and surrounding Kern County communities",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Valley Achievement Center supports adults with autism & developmental disabilities.",
+        "Programs include adult day, supported employment, and independent living services.",
+        "Established in 1998, it focuses on lifelong learning and life skills."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NEW ADVANCES FOR PEOPLE WITH DISABILITI",
-    "streetName": "NEW ADVANCES FOR PEOPLE WITH DISABILITI",
+    "streetName": "New Advances for People with Disabilities",
     "ccldLicenseNumber": "157209259",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1099,17 +1580,36 @@
     },
     "contact": {
       "phone": "(661) 395-1361",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.napd-bak.org"
     },
     "facilityDetails": {
       "licensedCapacity": 138,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "New Advances for People with Disabilities (NAPD) provides quality services to accommodate the diverse needs of clients with intellectual and/or developmental disabilities, offering programs, advocacy, and skills to empower them to live more productive, rewarding, and independent lives and become more fully integrated within the community.",
       "minimumAge": 18,
+      "yearEstablished": 1979,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1121,15 +1621,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "New Advances for People with Disabilities serves adults with intellectual/developmental disabilities, empowering them for productive, integrated lives.",
+        "Programs include community day, creative achievement, and adult enrichment; referral by Kern Regional Center is required."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 94,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "BAKERSFIELD ARC",
-    "streetName": "BAKERSFIELD ARC",
+    "streetName": "Bakersfield ARC",
     "ccldLicenseNumber": "157209298",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1146,17 +1649,40 @@
     },
     "contact": {
       "phone": "(661) 834-2272",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.bakersfieldarc.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 12,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Bakersfield ARC provides essential job training, employment, and support services for adults with intellectual and developmental disabilities, focusing on community integration, independent living, and vocational skills development.",
       "minimumAge": 18,
+      "yearEstablished": 1949,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Job Training",
+        "Employment Support",
+        "Community Integration",
+        "Social Skills Training",
+        "Recreational Activities",
+        "Volunteer Opportunities"
+      ],
+      "parentOrganization": "The Arc",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1164,19 +1690,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Kern County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Bakersfield ARC supports adults with intellectual and developmental disabilities through vocational training and community integration.",
+        "Established in 1949, it offers programs like \"Access Now\" for independent living and skill development."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 99,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "AMFC DAY PROGRAM INC",
-    "streetName": "AMFC DAY PROGRAM INC",
+    "streetName": "AMFC Day Program",
     "ccldLicenseNumber": "157209310",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1185,25 +1715,37 @@
       "city": "California Ci",
       "state": "CA",
       "zipCode": "93505",
-      "county": "Kern",
+      "county": "Kern County",
       "coordinates": {
         "lat": 35.12601404,
         "lng": -117.9884595
       }
     },
     "contact": {
-      "phone": "(661) 717-7628",
-      "websiteUrl": ""
+      "phone": "(661) 717-7033",
+      "websiteUrl": "https://www.amfcservices.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 20,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The AMFC day program is a community-based program designed to provide support and offer various activities for individuals with developmental disabilities, helping them develop crucial skills for daily life, including self-care, self-advocacy, and community integration.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Allison Morgan Family & Community Services",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1215,15 +1757,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "AMFC Day Program supports individuals with developmental disabilities, focusing on life skills, self-advocacy, and community integration.",
+        "Founded over 20 years ago, AMFC is a licensed adult day program vendored through Kern and Alta California Regional Centers."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 87,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ASHRAM  INC",
-    "streetName": "ASHRAM  INC",
+    "streetName": "ASHRAM INC",
     "ccldLicenseNumber": "157209380",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1232,25 +1777,40 @@
       "city": "Bakersfield",
       "state": "CA",
       "zipCode": "93313",
-      "county": "Kern",
+      "county": "Kern County",
       "coordinates": {
         "lat": 35.31317748,
         "lng": -119.08539
       }
     },
     "contact": {
-      "phone": "(661) 282-8428",
+      "phone": "(818) 531-2626",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 210,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "ASHRAM INC is a licensed adult day program that provides structured daytime activities, supervision, and support services for adults with disabilities. The program aims to help participants stay mentally and physically active, reduce isolation, and offers services such as health monitoring, therapeutic activities, social and recreational programming, meals, and personal care assistance.",
       "minimumAge": 18,
+      "yearEstablished": 2023,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Therapeutic Activities",
+        "Social and Recreational Programming"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1262,15 +1822,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "ASHRAM INC is a licensed adult day program in Bakersfield, CA.",
+        "It offers Community Based Adult Services and is listed by Kaiser Permanente."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 76,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "TRANSITION TRAINING PROGRAM  LLC",
-    "streetName": "TRANSITION TRAINING PROGRAM  LLC",
+    "streetName": "Transition Training Program, LLC",
     "ccldLicenseNumber": "157209382",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1279,25 +1842,30 @@
       "city": "Bakersfield",
       "state": "CA",
       "zipCode": "93301",
-      "county": "Kern",
+      "county": "Kern County",
       "coordinates": {
         "lat": 35.3867536,
         "lng": -119.0086676
       }
     },
     "contact": {
-      "phone": "(661) 599-2882",
+      "phone": "(661) 493-2023",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Adult Day Programs provide structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, medication management, and in some cases, physical therapy, occupational therapy, and nursing services.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1309,15 +1877,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Transition Training Program, LLC offers socialization and community integration training.",
+        "It serves individuals in Bakersfield, CA, as listed by the Kern Regional Center."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 65,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "ALBRAY MAXWELL",
-    "streetName": "ALBRAY MAXWELL",
+    "streetName": "The Albray Maxwell Center",
     "ccldLicenseNumber": "157209423",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1326,25 +1897,38 @@
       "city": "Bakersfield",
       "state": "CA",
       "zipCode": "93301",
-      "county": "Kern",
+      "county": "Kern County",
       "coordinates": {
         "lat": 35.3761655,
         "lng": -119.0056365
       }
     },
     "contact": {
-      "phone": "(661) 342-1914",
-      "websiteUrl": ""
+      "phone": "(661) 558-4369",
+      "websiteUrl": "https://www.albraymaxwell.com"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Albray Maxwell Center plans and facilitates group activities and workshops to promote skill-building, peer connections, and personal development for individuals with special needs. The center organizes and accompanies participants to recreational activities, appointments, and community events, aiming to encourage participation and collaboration to create a supportive community environment.",
       "minimumAge": 18,
+      "yearEstablished": 2023,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Skill-building workshops",
+        "Peer connection activities",
+        "Personal development activities",
+        "Recreational activities",
+        "Community events",
+        "Individualized support"
+      ],
+      "hoursOfOperation": "8:00am–6:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1356,15 +1940,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Albray Maxwell Center offers skill-building, peer connections, and personal development for adults with special needs.",
+        "They provide peer support, individualized assessments, and community integration for adults with disabilities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 78,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "AMFC DAY PROGRAM II",
-    "streetName": "AMFC DAY PROGRAM II",
+    "streetName": "AMFC Day Program",
     "ccldLicenseNumber": "157209613",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1373,25 +1960,40 @@
       "city": "Ridgecrest",
       "state": "CA",
       "zipCode": "93555",
-      "county": "Kern",
+      "county": "Kern County",
       "coordinates": {
         "lat": 35.65168239,
         "lng": -117.6886957
       }
     },
     "contact": {
-      "phone": "(661) 717-7628",
-      "websiteUrl": ""
+      "phone": "(760) 463-0776",
+      "websiteUrl": "https://www.amfcservices.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 40,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The AMFC day program is a community-based program that is designed to provide support and offer various activities for individuals with disabilities. Its main purpose is to help these individuals develop crucial skills for daily life, including self-care, self-advocacy, and community integration.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Social Activities",
+        "Group Exercises",
+        "Educational Workshops",
+        "Community Outings",
+        "Volunteering Opportunities",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Allison Morgan Family & Community Services",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1403,9 +2005,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "AMFC Day Program in Ridgecrest supports individuals with developmental disabilities.",
+        "It focuses on developing life skills, community integration, and social connections.",
+        "Founded over 20 years ago, the program offers activities for physical and mental growth."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 79,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

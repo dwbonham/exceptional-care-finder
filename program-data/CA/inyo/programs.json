@@ -18,17 +18,37 @@
     },
     "contact": {
       "phone": "(760) 873-8668",
-      "websiteUrl": ""
+      "websiteUrl": "http://imahstars.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Inyo-Mono Association for the Handicapped provides comprehensive programming designed to support adults with disabilities across multiple life domains, including vocational training, social activities, personal development workshops, and recreational events. The program prioritizes the voices, choices, and dignity of the people it serves, fostering independence and meaningful engagement.",
       "minimumAge": 18,
+      "yearEstablished": 1972,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop",
+        "Thrift Store"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Social Activities",
+        "Personal Development Workshops",
+        "Recreational Activities",
+        "Life Skills Training",
+        "Arts Programs",
+        "Sports and Fitness Activities",
+        "Cultural Events"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "11:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -36,13 +56,17 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Inyo and Mono Counties",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Inyo-Mono Association for the Handicapped (IMAH) has served adults with developmental disabilities since 1972.",
+        "IMAH offers programs like a sheltered workshop, thrift store, transportation, and social integration."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

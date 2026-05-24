@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "KONOCTI INSTRUCTIONAL SERVICES - CLEARL",
-    "streetName": "KONOCTI INSTRUCTIONAL SERVICES - CLEARL",
+    "streetName": "Konocti Instructional Services - Clearlake",
     "ccldLicenseNumber": "176800009",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,35 @@
     },
     "contact": {
       "phone": "(707) 994-1560",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.peopleservices.org/kis-clearlake"
     },
     "facilityDetails": {
       "licensedCapacity": 79,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Konocti Instructional Services - Clearlake offers person-centered activities tailored to individual needs, encouraging friendships, self-expression, and skill development for independence, self-confidence, and creativity. The program also provides entrepreneurial skill-building opportunities in areas like a café, coffee shop, and art, focusing on practical skills for employment and community interaction.",
       "minimumAge": 18,
+      "yearEstablished": 1981,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Art Studio",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "People Services, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -36,13 +54,14 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Lake County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
+    "completenessScore": 81,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
