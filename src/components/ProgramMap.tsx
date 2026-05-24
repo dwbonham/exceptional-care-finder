@@ -7,26 +7,25 @@ import type { ProgramData } from '../types';
 
 const PIN_BLUE = '#2563eb';
 
-// Clean teardrop pin — white circle on brand blue, number label inside.
-function makePin(label: string) {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="30" height="38" viewBox="0 0 30 38">
-    <filter id="pf${label}" x="-60%" y="-40%" width="220%" height="200%">
-      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="rgba(0,0,0,0.18)"/>
+// Plain teardrop pin — solid blue with a small white dot. No number label;
+// the popup on click provides all the context needed.
+const PIN_ICON = (() => {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="32" viewBox="0 0 24 32">
+    <filter id="pinf" x="-60%" y="-40%" width="220%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.2)"/>
     </filter>
-    <path d="M15 2C8.373 2 3 7.373 3 14c0 9.2 12 22 12 22S27 23.2 27 14C27 7.373 21.627 2 15 2z"
-          fill="${PIN_BLUE}" filter="url(#pf${label})"/>
-    <circle cx="15" cy="13.5" r="7.5" fill="white" opacity="0.96"/>
-    <text x="15" y="17.5" text-anchor="middle" font-size="9" font-weight="700"
-          font-family="-apple-system,BlinkMacSystemFont,Inter,sans-serif" fill="${PIN_BLUE}">${label}</text>
+    <path d="M12 1C6.477 1 2 5.477 2 11c0 7.5 10 20 10 20S22 18.5 22 11C22 5.477 17.523 1 12 1z"
+          fill="${PIN_BLUE}" filter="url(#pinf)"/>
+    <circle cx="12" cy="11" r="4" fill="white" opacity="0.9"/>
   </svg>`;
   return L.divIcon({
     html: svg,
     className: '',
-    iconSize: [30, 38],
-    iconAnchor: [15, 38],
-    popupAnchor: [0, -40],
+    iconSize: [24, 32],
+    iconAnchor: [12, 32],
+    popupAnchor: [0, -34],
   });
-}
+})();
 
 // Custom cluster bubble — single blue circle to match brand, replaces the
 // default yellow/green MarkerCluster.Default.css styling.
@@ -51,18 +50,16 @@ function ClusterLayer({ programs }: { programs: ProgramData[] }) {
       iconCreateFunction: clusterIcon,
     });
 
-    programs.forEach((program, i) => {
+    programs.forEach((program) => {
       if (!program.location.coordinates) return;
       const { lat, lng } = program.location.coordinates;
-      const icon = makePin(String(i + 1));
       const fullAddress = `${program.location.street}, ${program.location.city}, ${program.location.state} ${program.location.zipCode}`;
       const directionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(fullAddress)}`;
 
-      const marker = L.marker([lat, lng], { icon });
+      const marker = L.marker([lat, lng], { icon: PIN_ICON });
       marker.bindPopup(`
         <div style="font-family:-apple-system,BlinkMacSystemFont,Inter,sans-serif;padding:4px 2px">
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
-            <span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:${PIN_BLUE};color:white;font-size:11px;font-weight:700;flex-shrink:0">${i + 1}</span>
+          <div style="margin-bottom:8px">
             <strong style="font-size:13px;color:#0f172a;line-height:1.3">${program.streetName}</strong>
           </div>
           <span style="display:inline-block;padding:2px 8px;border-radius:999px;background:#dbeafe;color:#1d4ed8;font-size:11px;font-weight:600;margin-bottom:10px">${program.facilityDetails.decryptedProgramType}</span>
@@ -164,11 +161,9 @@ export default function ProgramMap({ programs }: Props) {
           {mapped.slice(0, 8).map((program, i) => (
             <span key={i} className="flex items-center gap-1.5 text-xs text-slate-500">
               <span
-                className="inline-flex items-center justify-center w-4 h-4 rounded-full text-white text-[9px] font-bold shrink-0"
+                className="w-2 h-2 rounded-full shrink-0"
                 style={{ background: PIN_BLUE }}
-              >
-                {i + 1}
-              </span>
+              />
               {program.streetName}
             </span>
           ))}
