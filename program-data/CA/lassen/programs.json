@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "NORTH VALLEY SERVICES",
-    "streetName": "NORTH VALLEY SERVICES",
+    "streetName": "North Valley Services",
     "ccldLicenseNumber": "185001662",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,41 @@
     },
     "contact": {
       "phone": "(530) 257-3217",
-      "websiteUrl": ""
+      "websiteUrl": "http://www.northvalleyservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "North Valley Services provides structured daytime activities, supervision, and support services for adults with developmental disabilities. The program offers self-help skills, vocational training, social interaction, and behavioral support, including activities focused on academics, sign language, culinary, and household skills.",
       "minimumAge": 18,
+      "yearEstablished": 1967,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Interaction",
+        "Therapeutic Activities",
+        "Recreational Programming",
+        "Academics",
+        "Sign Language",
+        "Culinary Skills",
+        "Household Skills"
+      ],
+      "parentOrganization": "North Valley Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,15 +64,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "North Valley Services is a CARF-accredited adult day program for persons with disabilities.",
+        "Established in 1967, it offers structured activities, health monitoring, and therapeutic programming."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 99,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "LASSEN LIFE SKILLS INC.",
-    "streetName": "LASSEN LIFE SKILLS INC.",
+    "streetName": "Lassen Life Skills Inc.",
     "ccldLicenseNumber": "185002760",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -70,12 +97,31 @@
     "facilityDetails": {
       "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "A community-based program that serves adults with developmental disabilities. The major components of the program are integrated work, self-advocacy, and community socialization. It also offers help with budgeting, planning, grocery shopping, and teaches skills for independent living in the community.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop",
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Socialization Activities",
+        "Health Monitoring",
+        "Therapeutic Programming"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -83,13 +129,17 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local area, including outlying areas",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Lassen Life Skills Inc. is a licensed adult day program for adults with developmental disabilities.",
+        "It offers integrated work, self-advocacy, community socialization, and family respite."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 81,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

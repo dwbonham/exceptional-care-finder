@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "KINGS REHABILITATION CENTER  INC.",
-    "streetName": "KINGS REHABILITATION CENTER  INC.",
+    "streetName": "Kings Rehabilitation Center",
     "ccldLicenseNumber": "160403663",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,42 @@
     },
     "contact": {
       "phone": "(559) 582-9234",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.kingsrehab.com"
     },
     "facilityDetails": {
       "licensedCapacity": 100,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Kings Rehabilitation Center empowers adults with intellectual and developmental disabilities by providing innovative programs and training in vocational, life, and functional skills to help them achieve their highest potential and personal and vocational goals.",
       "minimumAge": 18,
+      "yearEstablished": 1965,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Social Skills Training",
+        "Recreation and Leisure Skills Development",
+        "Academic Support",
+        "Physical Fitness",
+        "Self-Advocacy",
+        "Safety Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -36,13 +61,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Kings Rehabilitation Center empowers adults with intellectual disabilities through vocational and life skills training.",
+        "Established in 1965 by parents, it is a 503(c)(3) nonprofit offering employment opportunities.",
+        "The program provides behavior management and community integration with supportive staff ratios."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -65,17 +95,34 @@
     },
     "contact": {
       "phone": "(559) 924-4419",
-      "websiteUrl": ""
+      "websiteUrl": "https://kccoa.net/"
     },
     "facilityDetails": {
       "licensedCapacity": 15,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Lemoore Adult Day Care Center, also known as Generations, provides a supportive environment for frail and/or disabled older adults, offering social activities, arts & crafts, and music therapy. It aims to provide respite care for caregivers by offering care away from home for a few hours a week.",
       "minimumAge": 18,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Transportation Available"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Social Activities"
+      ],
+      "parentOrganization": "Kings County Commission on Aging Council",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00 AM–5:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Older Adults",
+        "Adults with disabilities",
+        "Individuals with dementia"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -83,19 +130,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Kings County, including the neighborhoods of Laton and Riverdale",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Lemoore Adult Day, run by Kings County Commission on Aging, supports frail/disabled older adults and offers caregiver respite.",
+        "The program provides social activities, arts & crafts, and music therapy for Kings County residents 60+."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "EMPLOY AMERICA #3",
-    "streetName": "EMPLOY AMERICA #3",
+    "streetName": "Employ America #3",
     "ccldLicenseNumber": "167206283",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -117,12 +169,29 @@
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Employ America #3 is a licensed adult day program that provides structured daytime activities, supervision, and support services for adults with developmental disabilities who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, medication management, and in some cases, physical therapy, occupational therapy, and nursing services.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Community Inclusion",
+        "Career Exploration",
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Social Vocational Services",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -134,15 +203,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Employ America #3 is a licensed Adult Day Program in Hanford, CA, with a capacity for 60 participants.",
+        "It supports adults with intellectual and developmental disabilities, focusing on employment and vocational services."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 70,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "KINGS REHABILITATION CENTER  INC.-DTAC",
-    "streetName": "KINGS REHABILITATION CENTER  INC.-DTAC",
+    "streetName": "Kings Rehabilitation Center",
     "ccldLicenseNumber": "167206688",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -158,18 +230,43 @@
       }
     },
     "contact": {
-      "phone": "(559) 583-5051",
-      "websiteUrl": ""
+      "phone": "(559) 582-9234",
+      "websiteUrl": "https://www.kingsrehab.com"
     },
     "facilityDetails": {
       "licensedCapacity": 120,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Kings Rehabilitation Center (KRC) empowers adults with intellectual disabilities to achieve their highest potential by providing a range of innovative programs and training in vocational, life, and functional skills, including community integration, social skills, and job placement.",
       "minimumAge": 18,
+      "yearEstablished": 1965,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Community Integration",
+        "Social Skills Training",
+        "Recreation and Leisure Skills Development",
+        "Academic Support",
+        "Physical Fitness",
+        "Self-Advocacy",
+        "Safety Skills Training",
+        "Vocational Training",
+        "Life Skills Training",
+        "Job Skill Development",
+        "Job Readiness Skills",
+        "Job Placement Services"
+      ],
+      "parentOrganization": "Kings Rehabilitation Center, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -181,9 +278,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Kings Rehabilitation Center empowers adults with intellectual disabilities.",
+        "They offer vocational, life, and functional skills training.",
+        "Established in 1965, it is a non-profit providing job skill development."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 99,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
