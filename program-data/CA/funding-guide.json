@@ -159,6 +159,18 @@
   ],
   "faqs": [
     {
+      "question": "How does funding work?",
+      "answer": "Programs in this directory are licensed by California and funded by your Regional Center. Families pay nothing out of pocket — the Regional Center pays the program directly using state funds."
+    },
+    {
+      "question": "Do you get to choose the program?",
+      "answer": "Yes. Your Regional Center gives you a list of authorized programs in your area, and you pick the one that fits. They cannot assign you to a specific program — the choice is yours."
+    },
+    {
+      "question": "What is a Service Coordinator?",
+      "answer": "Every Regional Center client is assigned a Service Coordinator — a person at the RC who is your guide through the whole system. They help build your IPP, authorize services, and can tell you which programs are currently accepting new participants."
+    },
+    {
       "question": "What is an IPP?",
       "answer": "The Individual Program Plan (IPP) is a person-centered contract between you and your Regional Center. To have a day program 100% state-funded, the program must be explicitly approved in your IPP."
     },
@@ -170,7 +182,7 @@
     },
     {
       "question": "How to Start",
-      "answer": "You must establish eligibility with your local Regional Center through an intake assessment before touring programs for state coverage. Select your zip code above to find and contact your Regional Center directly."
+      "answer": "You must establish eligibility with your local Regional Center through an intake assessment before touring programs for state coverage. Select your county above to find and contact your Regional Center directly."
     }
   ]
 }
