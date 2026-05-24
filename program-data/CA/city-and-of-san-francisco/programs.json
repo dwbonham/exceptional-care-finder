@@ -1,27 +1,27 @@
 [
   {
-    "legalLicenseName": "NORTH VALLEY SERVICES - ADULT DAY SUPPO",
-    "streetName": "NORTH VALLEY SERVICES - ADULT DAY SUPPO",
-    "ccldLicenseNumber": "115000591",
+    "legalLicenseName": "OPENHOUSE+ON LOK COMMUNITY DAY SERVICES",
+    "streetName": "OPENHOUSE+ON LOK COMMUNITY DAY SERVICES",
+    "ccldLicenseNumber": "385601087",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "923 E South St",
-      "city": "Orland",
+      "street": "75 Laguna Street",
+      "city": "San Francisco",
       "state": "CA",
-      "zipCode": "95963",
-      "county": "Glenn",
+      "zipCode": "94102",
+      "county": "City and of San Francisco",
       "coordinates": {
-        "lat": 39.744358,
-        "lng": -122.18738
+        "lat": 37.77151745,
+        "lng": -122.4253171
       }
     },
     "contact": {
-      "phone": "(530) 865-5631",
+      "phone": "(628) 208-8947",
       "websiteUrl": ""
     },
     "facilityDetails": {
-      "licensedCapacity": 50,
+      "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
