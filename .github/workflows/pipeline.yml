@@ -3,7 +3,7 @@ name: Weekly Data Pipeline
 on:
   schedule:
     - cron: '0 14 * * 1'   # Monday 6 am PT
-    - cron: '0 14 * * 2-7' # Tue-Sun 6 am PT catch-up
+    - cron: '0 14 * * 0,2-6' # Tue-Sun 6 am PT catch-up
   workflow_dispatch:
     inputs:
       enrich_counties:
