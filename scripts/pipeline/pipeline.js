@@ -353,7 +353,8 @@ function _buildBareEnrichResult() {
 // ─── Helper: write approved program to county JSON file ──────────────────────
 
 function _writeApprovedProgram(record) {
-  const county = record.location.county.toLowerCase().replace(/\s+/g, '-');
+  const rawCounty = record.location.county.replace(/ County$/i, '').trim();
+  const county = rawCounty.toLowerCase().replace(/\s+/g, '-');
   const dir = join(PROGRAM_DATA, record.location.state, county);
   const file = join(dir, 'programs.json');
 

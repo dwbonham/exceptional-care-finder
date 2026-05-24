@@ -1972,5 +1972,193 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-05-23",
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIFETIME ADULT DAY CARE",
+    "streetName": "LIFETIME ADULT DAY CARE",
+    "ccldLicenseNumber": "365530280",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9229 Utica Ave #140",
+      "city": "Rancho Cucamo",
+      "state": "CA",
+      "zipCode": "91730",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.08548854,
+        "lng": -117.5714555
+      }
+    },
+    "contact": {
+      "phone": "(909) 609-9049",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CROSSROADS ADULT DAY CARE CENTER",
+    "streetName": "CROSSROADS ADULT DAY CARE CENTER",
+    "ccldLicenseNumber": "365530366",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "11130 White Birch Dr.",
+      "city": "Rancho Cucamo",
+      "state": "CA",
+      "zipCode": "91730",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.10259869,
+        "lng": -117.5612481
+      }
+    },
+    "contact": {
+      "phone": "(909) 481-9663",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 110,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PADUA VILLAGE DAY PROGRAM",
+    "streetName": "PADUA VILLAGE DAY PROGRAM",
+    "ccldLicenseNumber": "365530401",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "22200 Highway 18 Bldg A",
+      "city": "Apple Valley",
+      "state": "CA",
+      "zipCode": "92307",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.50083934,
+        "lng": -117.1797592
+      }
+    },
+    "contact": {
+      "phone": "(760) 247-7711",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MOUNTAIN OF PROMISE  INC",
+    "streetName": "MOUNTAIN OF PROMISE  INC",
+    "ccldLicenseNumber": "365530448",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1381 Manzanita Way",
+      "city": "Deer Lodge Pa",
+      "state": "CA",
+      "zipCode": "92352",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.27498246,
+        "lng": -117.2120284
+      }
+    },
+    "contact": {
+      "phone": "(909) 337-0219",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 10,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   }
 ]

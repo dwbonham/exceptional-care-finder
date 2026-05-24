@@ -1,27 +1,27 @@
 [
   {
-    "legalLicenseName": "OPENHOUSE+ON LOK COMMUNITY DAY SERVICES",
-    "streetName": "OPENHOUSE+ON LOK COMMUNITY DAY SERVICES",
-    "ccldLicenseNumber": "385601087",
+    "legalLicenseName": "MARIPOSA DAY PROGRAM",
+    "streetName": "MARIPOSA DAY PROGRAM",
+    "ccldLicenseNumber": "227209564",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "75 Laguna Street",
-      "city": "San Francisco",
+      "street": "4302 Ashworth Rd",
+      "city": "Mariposa",
       "state": "CA",
-      "zipCode": "94102",
-      "county": "City and of San Francisco",
+      "zipCode": "95338",
+      "county": "Mariposa",
       "coordinates": {
-        "lat": 37.77151745,
-        "lng": -122.4253171
+        "lat": 37.41942509,
+        "lng": -119.9104333
       }
     },
     "contact": {
-      "phone": "(628) 208-8947",
+      "phone": "(559) 759-5060",
       "websiteUrl": ""
     },
     "facilityDetails": {
-      "licensedCapacity": 60,
+      "licensedCapacity": 25,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,

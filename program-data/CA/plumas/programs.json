@@ -1,27 +1,27 @@
 [
   {
-    "legalLicenseName": "MOBILE WORK GROUP",
-    "streetName": "MOBILE WORK GROUP",
-    "ccldLicenseNumber": "445202902",
+    "legalLicenseName": "PLUMAS RURAL SERVICES-ALIVE",
+    "streetName": "PLUMAS RURAL SERVICES-ALIVE",
+    "ccldLicenseNumber": "325920383",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
     "location": {
-      "street": "1062 South Green Valley Rd",
-      "city": "Watsonville",
+      "street": "455 West Main Street",
+      "city": "Quincy",
       "state": "CA",
-      "zipCode": "95076",
-      "county": "Santa Cruz County",
+      "zipCode": "95971",
+      "county": "Plumas",
       "coordinates": {
-        "lat": 36.91763907,
-        "lng": -121.7841623
+        "lat": 39.93676623,
+        "lng": -120.9469913
       }
     },
     "contact": {
-      "phone": "(831) 728-0321",
+      "phone": "(530) 283-0111",
       "websiteUrl": ""
     },
     "facilityDetails": {
-      "licensedCapacity": 28,
+      "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,

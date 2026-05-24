@@ -144,7 +144,7 @@ export function normalizeCcldRecord(attrs) {
     city: String(attrs.RES_CITY ?? '').trim(),
     state: String(attrs.RES_STATE ?? 'CA').trim(),
     zipCode: String(attrs.RES_ZIP_CODE ?? '').trim(),
-    county: String(attrs.COUNTY ?? '').trim(),
+    county: _normalizeCounty(String(attrs.COUNTY ?? '').trim()),
     phone: _formatPhone(attrs.FAC_PHONE_NBR),
     capacity: attrs.CAPACITY != null ? Number(attrs.CAPACITY) : null,
     lat: _parseCoord(attrs.FAC_LATITUDE),
@@ -153,6 +153,12 @@ export function normalizeCcldRecord(attrs) {
 }
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
+
+function _normalizeCounty(county) {
+  if (!county) return county;
+  if (county.toLowerCase().includes('city and')) return 'San Francisco';
+  return county.replace(/ County$/i, '').trim();
+}
 
 // FAC_PHONE_NBR is stored as Double in ArcGIS, so 10-digit numbers arrive as floats.
 // Round to integer before converting to string to strip any floating-point drift.

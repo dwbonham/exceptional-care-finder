@@ -1361,5 +1361,240 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-05-23",
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "TINS ADULT DAY PROGRAM",
+    "streetName": "TINS ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "19201296",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "33131 Alvarado Niles Rd",
+      "city": "Union City",
+      "state": "CA",
+      "zipCode": "94587",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.59308384,
+        "lng": -122.0430587
+      }
+    },
+    "contact": {
+      "phone": "(650) 580-5111",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FCSN L.E.A.D. ADULT TRAINING PROGRAM",
+    "streetName": "FCSN L.E.A.D. ADULT TRAINING PROGRAM",
+    "ccldLicenseNumber": "19201359",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "42080 Osgood Rd Suite 101",
+      "city": "Fremont",
+      "state": "CA",
+      "zipCode": "94539",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.52831544,
+        "lng": -121.9510423
+      }
+    },
+    "contact": {
+      "phone": "(510) 739-6900",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FCSN ADAPTIVE SKILLS TRAINING",
+    "streetName": "FCSN ADAPTIVE SKILLS TRAINING",
+    "ccldLicenseNumber": "19201428",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2190 Peralta Blvd.",
+      "city": "Fremont",
+      "state": "CA",
+      "zipCode": "94536",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.56234759,
+        "lng": -121.9893955
+      }
+    },
+    "contact": {
+      "phone": "(510) 739-6900",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPTIMUM LEARNING CENTER",
+    "streetName": "OPTIMUM LEARNING CENTER",
+    "ccldLicenseNumber": "19201507",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1233 Quarry Lane Ste 145",
+      "city": "Pleasanton",
+      "state": "CA",
+      "zipCode": "94566",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.67319821,
+        "lng": -121.8656157
+      }
+    },
+    "contact": {
+      "phone": "(916) 743-9164",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GOLDEN HOUSE ADC",
+    "streetName": "GOLDEN HOUSE ADC",
+    "ccldLicenseNumber": "19201629",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "730 Central Ave",
+      "city": "Alameda",
+      "state": "CA",
+      "zipCode": "94501",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.77137654,
+        "lng": -122.275494
+      }
+    },
+    "contact": {
+      "phone": "(510) 453-5560",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 21,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   }
 ]

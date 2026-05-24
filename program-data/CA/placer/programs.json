@@ -609,5 +609,52 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-05-23",
     "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "STUDIO 700 FOR THE ARTS",
+    "streetName": "STUDIO 700 FOR THE ARTS",
+    "ccldLicenseNumber": "345920205",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "522 Vernon Street",
+      "city": "Roseville",
+      "state": "CA",
+      "zipCode": "95678",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.74259411,
+        "lng": -121.2923309
+      }
+    },
+    "contact": {
+      "phone": "(916) 781-6911",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 76,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-23",
+    "dataSourceNotes": "Pipeline import 2026-05-23. Geocode: ccld."
   }
 ]
