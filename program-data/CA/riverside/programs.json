@@ -924,72 +924,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "SOL MENTAL WELLNESS",
-    "streetName": "Sol Women's Treatment",
-    "ccldLicenseNumber": "331881576",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4175 Brockton Ave",
-      "city": "Riverside",
-      "state": "CA",
-      "zipCode": "92501",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.98484023,
-        "lng": -117.3787164
-      }
-    },
-    "contact": {
-      "phone": "(951) 972-5085",
-      "websiteUrl": "https://solwomenstreatment.com/"
-    },
-    "facilityDetails": {
-      "licensedCapacity": 25,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "Sol Women's Treatment is an intensive outpatient treatment program serving Riverside, CA for women in need of mental health support and life skills services. Their treatment approach combines holistic wellness, evidence-based therapies, and life skills training to support women who want to get back to their best self.",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "facilityFeatures": [
-        "Relaxation Room"
-      ],
-      "activitiesOffered": [
-        "Mindfulness Meditation",
-        "CBT Group Therapy",
-        "Restorative Activity Hour",
-        "Yoga",
-        "Breathwork",
-        "Soundbath",
-        "Art Therapy",
-        "Music Therapy",
-        "Life Skills Training"
-      ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–1:30pm",
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": [
-        "Sol Women's Treatment provides all-female, trauma-informed care for mental health and substance use disorders.",
-        "This Riverside facility offers PHP, IOP, and outpatient programs, and is a CDSS licensed facility."
-      ]
-    },
-    "completenessScore": 85,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "ABILITIES UNLIMITED INC",
     "streetName": "ABILITIES UNLIMITED INC",
     "ccldLicenseNumber": "331881777",
@@ -1175,57 +1109,6 @@
       ]
     },
     "completenessScore": 78,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNLIMITED QUEST INC EDGEMONT",
-    "streetName": "UNLIMITED QUEST INC EDGEMONT",
-    "ccldLicenseNumber": "336402685",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "23900 Allesandro Blvd Ste A",
-      "city": "Moreno Valley",
-      "state": "CA",
-      "zipCode": "92553",
-      "county": "Riverside",
-      "coordinates": {
-        "lat": 33.917282,
-        "lng": -117.245865
-      }
-    },
-    "contact": {
-      "phone": "(951) 653-0054",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "This program is believed to be out of business as of April 2024.",
-      "minimumAge": 18,
-      "yearEstablished": 1998,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": [
-        "UNLIMITED QUEST INC EDGEMONT is a licensed Adult Day Program in Moreno Valley, CA.",
-        "It offers structured daytime activities, health monitoring, meals, and therapeutic programming."
-      ]
-    },
-    "completenessScore": 46,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
