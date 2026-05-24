@@ -10,7 +10,7 @@
       "city": "Pine Grove",
       "state": "CA",
       "zipCode": "95665",
-      "county": "Amador County",
+      "county": "Amador",
       "coordinates": {
         "lat": 38.41370364,
         "lng": -120.6615352
@@ -57,7 +57,7 @@
       "city": "Jackson",
       "state": "CA",
       "zipCode": "95642",
-      "county": "Amador County",
+      "county": "Amador",
       "coordinates": {
         "lat": 38.34163088,
         "lng": -120.7657275

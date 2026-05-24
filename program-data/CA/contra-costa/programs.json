@@ -1655,7 +1655,7 @@
       "city": "El Sobrante",
       "state": "CA",
       "zipCode": "94803",
-      "county": "Contra Costa County",
+      "county": "Contra Costa",
       "coordinates": {
         "lat": 37.96530903,
         "lng": -122.3127566
@@ -1702,7 +1702,7 @@
       "city": "Brentwood",
       "state": "CA",
       "zipCode": "94513",
-      "county": "Contra Costa County",
+      "county": "Contra Costa",
       "coordinates": {
         "lat": 37.94676473,
         "lng": -121.698807
@@ -1749,7 +1749,7 @@
       "city": "Concord",
       "state": "CA",
       "zipCode": "94520",
-      "county": "Contra Costa County",
+      "county": "Contra Costa",
       "coordinates": {
         "lat": 37.98394563,
         "lng": -122.0485038
@@ -1796,7 +1796,7 @@
       "city": "Concord",
       "state": "CA",
       "zipCode": "94520",
-      "county": "Contra Costa County",
+      "county": "Contra Costa",
       "coordinates": {
         "lat": 37.97831329,
         "lng": -122.0542551

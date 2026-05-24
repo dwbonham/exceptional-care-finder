@@ -1749,7 +1749,7 @@
       "city": "Campbell",
       "state": "CA",
       "zipCode": "95008",
-      "county": "Santa Clara County",
+      "county": "Santa Clara",
       "coordinates": {
         "lat": 37.29330957,
         "lng": -121.9653294
@@ -1796,7 +1796,7 @@
       "city": "Santa Clara",
       "state": "CA",
       "zipCode": "95054",
-      "county": "Santa Clara County",
+      "county": "Santa Clara",
       "coordinates": {
         "lat": 37.397709,
         "lng": -121.984972
@@ -1843,7 +1843,7 @@
       "city": "San Jose",
       "state": "CA",
       "zipCode": "95119",
-      "county": "Santa Clara County",
+      "county": "Santa Clara",
       "coordinates": {
         "lat": 37.22953134,
         "lng": -121.7746207

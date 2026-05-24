@@ -1232,7 +1232,7 @@
       "city": "Fresno",
       "state": "CA",
       "zipCode": "93727",
-      "county": "Fresno County",
+      "county": "Fresno",
       "coordinates": {
         "lat": 36.77223481,
         "lng": -119.7317345
@@ -1279,7 +1279,7 @@
       "city": "Fresno",
       "state": "CA",
       "zipCode": "93720",
-      "county": "Fresno County",
+      "county": "Fresno",
       "coordinates": {
         "lat": 36.87146438,
         "lng": -119.7632232
@@ -1326,7 +1326,7 @@
       "city": "Clovis",
       "state": "CA",
       "zipCode": "93612",
-      "county": "Fresno County",
+      "county": "Fresno",
       "coordinates": {
         "lat": 36.79398684,
         "lng": -119.7112571

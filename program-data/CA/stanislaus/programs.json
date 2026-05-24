@@ -292,7 +292,7 @@
       "city": "Modesto",
       "state": "CA",
       "zipCode": "95356",
-      "county": "Stanislaus County",
+      "county": "Stanislaus",
       "coordinates": {
         "lat": 37.72460277,
         "lng": -121.0687597
@@ -339,7 +339,7 @@
       "city": "Turlock",
       "state": "CA",
       "zipCode": "95380",
-      "county": "Stanislaus County",
+      "county": "Stanislaus",
       "coordinates": {
         "lat": 37.49067733,
         "lng": -120.8465453
@@ -386,7 +386,7 @@
       "city": "Modesto",
       "state": "CA",
       "zipCode": "95380",
-      "county": "Stanislaus County",
+      "county": "Stanislaus",
       "coordinates": {
         "lat": 37.64737725,
         "lng": -121.0105809
@@ -433,7 +433,7 @@
       "city": "Modesto",
       "state": "CA",
       "zipCode": "95358",
-      "county": "Stanislaus County",
+      "county": "Stanislaus",
       "coordinates": {
         "lat": 37.66039045,
         "lng": -121.0360737

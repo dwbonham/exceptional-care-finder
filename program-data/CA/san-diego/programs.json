@@ -292,7 +292,7 @@
       "city": "San Marcos",
       "state": "CA",
       "zipCode": "92069",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 33.15184421,
         "lng": -117.1974378
@@ -339,7 +339,7 @@
       "city": "San Marcos",
       "state": "CA",
       "zipCode": "92069",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 33.19455894,
         "lng": -117.1457624
@@ -386,7 +386,7 @@
       "city": "Fallbrook",
       "state": "CA",
       "zipCode": "92028",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 33.37535155,
         "lng": -117.2514595
@@ -433,7 +433,7 @@
       "city": "Escondido",
       "state": "CA",
       "zipCode": "92025",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 33.12530051,
         "lng": -117.0790348
@@ -480,7 +480,7 @@
       "city": "Fallbrook",
       "state": "CA",
       "zipCode": "92028",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 33.38216131,
         "lng": -117.2291184
@@ -2501,7 +2501,7 @@
       "city": "El Cajon",
       "state": "CA",
       "zipCode": "92020",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 32.79494154,
         "lng": -116.9734635
@@ -2736,7 +2736,7 @@
       "city": "Chula Vista",
       "state": "CA",
       "zipCode": "91910",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 32.63657563,
         "lng": -117.0780453
@@ -2783,7 +2783,7 @@
       "city": "San Diego",
       "state": "CA",
       "zipCode": "92126",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 32.89229689,
         "lng": -117.1384275
@@ -2877,7 +2877,7 @@
       "city": "Carlsbad",
       "state": "CA",
       "zipCode": "92008",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 33.13608244,
         "lng": -117.2743255
@@ -2924,7 +2924,7 @@
       "city": "Carlsbad",
       "state": "CA",
       "zipCode": "92008",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 33.16102558,
         "lng": -117.3490252
@@ -2971,7 +2971,7 @@
       "city": "El Cajon",
       "state": "CA",
       "zipCode": "92020",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 32.79272395,
         "lng": -116.9534595
@@ -3018,7 +3018,7 @@
       "city": "La Mesa",
       "state": "CA",
       "zipCode": "91942",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 32.75647376,
         "lng": -117.03895
@@ -3065,7 +3065,7 @@
       "city": "Ramona",
       "state": "CA",
       "zipCode": "92065",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 33.04645932,
         "lng": -116.8562069
@@ -3112,7 +3112,7 @@
       "city": "La Mesa",
       "state": "CA",
       "zipCode": "91942",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 32.76806605,
         "lng": -117.0296913
@@ -3159,7 +3159,7 @@
       "city": "Bonita",
       "state": "CA",
       "zipCode": "91902",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 32.65887183,
         "lng": -117.0528144
@@ -3206,7 +3206,7 @@
       "city": "La Mesa",
       "state": "CA",
       "zipCode": "91942",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 32.77986493,
         "lng": -117.0329138
@@ -3253,7 +3253,7 @@
       "city": "San Diego",
       "state": "CA",
       "zipCode": "92104",
-      "county": "San Diego County",
+      "county": "San Diego",
       "coordinates": {
         "lat": 32.75593564,
         "lng": -117.1302261

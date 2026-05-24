@@ -1185,7 +1185,7 @@
       "city": "Anaheim",
       "state": "CA",
       "zipCode": "92804",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.80320496,
         "lng": -117.9481186
@@ -1232,7 +1232,7 @@
       "city": "Irvine",
       "state": "CA",
       "zipCode": "92618",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.66262692,
         "lng": -117.7544824
@@ -1279,7 +1279,7 @@
       "city": "Buena Park",
       "state": "CA",
       "zipCode": "90620",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.82087907,
         "lng": -118.0108173
@@ -1326,7 +1326,7 @@
       "city": "Anaheim",
       "state": "CA",
       "zipCode": "92805",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.84073595,
         "lng": -117.8912696
@@ -1373,7 +1373,7 @@
       "city": "Santa Ana",
       "state": "CA",
       "zipCode": "92705",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.710283,
         "lng": -117.84699
@@ -1420,7 +1420,7 @@
       "city": "San Juan Capi",
       "state": "CA",
       "zipCode": "92675",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.50545787,
         "lng": -117.6563236
@@ -1467,7 +1467,7 @@
       "city": "Laguna Hills",
       "state": "CA",
       "zipCode": "92653",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.62552435,
         "lng": -117.7238939
@@ -1514,7 +1514,7 @@
       "city": "Buena Park",
       "state": "CA",
       "zipCode": "90620",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.83934817,
         "lng": -118.018351
@@ -1561,7 +1561,7 @@
       "city": "Anaheim",
       "state": "CA",
       "zipCode": "92804",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.81785211,
         "lng": -117.9542236

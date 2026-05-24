@@ -950,7 +950,7 @@
       "city": "Vacaville",
       "state": "CA",
       "zipCode": "95688",
-      "county": "Solano County",
+      "county": "Solano",
       "coordinates": {
         "lat": 38.39032708,
         "lng": -121.9379147
@@ -997,7 +997,7 @@
       "city": "Suisun City",
       "state": "CA",
       "zipCode": "94585",
-      "county": "Solano County",
+      "county": "Solano",
       "coordinates": {
         "lat": 38.24197294,
         "lng": -122.0399009
@@ -1044,7 +1044,7 @@
       "city": "Fairfield",
       "state": "CA",
       "zipCode": "94534",
-      "county": "Solano County",
+      "county": "Solano",
       "coordinates": {
         "lat": 38.23068778,
         "lng": -122.1261455
@@ -1091,7 +1091,7 @@
       "city": "Fairfield",
       "state": "CA",
       "zipCode": "94534",
-      "county": "Solano County",
+      "county": "Solano",
       "coordinates": {
         "lat": 38.21632832,
         "lng": -122.1450436
@@ -1138,7 +1138,7 @@
       "city": "Fairfield",
       "state": "CA",
       "zipCode": "94534",
-      "county": "Solano County",
+      "county": "Solano",
       "coordinates": {
         "lat": 38.26627753,
         "lng": -122.063982
@@ -1185,7 +1185,7 @@
       "city": "Fairfield",
       "state": "CA",
       "zipCode": "94533",
-      "county": "Solano County",
+      "county": "Solano",
       "coordinates": {
         "lat": 38.27536779,
         "lng": -122.0340195

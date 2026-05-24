@@ -2407,7 +2407,7 @@
       "city": "West Hollywoo",
       "state": "CA",
       "zipCode": "90046",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.090722,
         "lng": -118.3340473
@@ -2501,7 +2501,7 @@
       "city": "Burbank",
       "state": "CA",
       "zipCode": "91506",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.17271757,
         "lng": -118.332432
@@ -2548,7 +2548,7 @@
       "city": "Northridge",
       "state": "CA",
       "zipCode": "91325",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.23921687,
         "lng": -118.5024689
@@ -2595,7 +2595,7 @@
       "city": "Northridge",
       "state": "CA",
       "zipCode": "91324",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.23870692,
         "lng": -118.5623498
@@ -3300,7 +3300,7 @@
       "city": "Redondo Beach",
       "state": "CA",
       "zipCode": "90278",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.8583277,
         "lng": -118.3591873
@@ -3347,7 +3347,7 @@
       "city": "Los Angeles",
       "state": "CA",
       "zipCode": "90008",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.00888336,
         "lng": -118.3389334
@@ -3394,7 +3394,7 @@
       "city": "Torrance",
       "state": "CA",
       "zipCode": "90505",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.8222784,
         "lng": -118.3305467
@@ -3441,7 +3441,7 @@
       "city": "Hawthorne",
       "state": "CA",
       "zipCode": "90250",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.90433617,
         "lng": -118.3528185
@@ -3488,7 +3488,7 @@
       "city": "Inglewood",
       "state": "CA",
       "zipCode": "90301",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.95873032,
         "lng": -118.3603368
@@ -3535,7 +3535,7 @@
       "city": "Long Beach",
       "state": "CA",
       "zipCode": "90807",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.84236262,
         "lng": -118.1847439
@@ -3582,7 +3582,7 @@
       "city": "Los Angeles",
       "state": "CA",
       "zipCode": "90018",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.02556606,
         "lng": -118.3299485
@@ -3629,7 +3629,7 @@
       "city": "Torrance",
       "state": "CA",
       "zipCode": "90505",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.80327615,
         "lng": -118.3473357
@@ -3676,7 +3676,7 @@
       "city": "Santa Monica",
       "state": "CA",
       "zipCode": "90403",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.02814274,
         "lng": -118.4873129
@@ -6496,7 +6496,7 @@
       "city": "Redondo Beach",
       "state": "CA",
       "zipCode": "90278",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.88193696,
         "lng": -118.370049
@@ -8329,7 +8329,7 @@
       "city": "Huntington Pa",
       "state": "CA",
       "zipCode": "90255",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.97344254,
         "lng": -118.2180443
@@ -8376,7 +8376,7 @@
       "city": "Santa Fe Spri",
       "state": "CA",
       "zipCode": "90670",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.9598533,
         "lng": -118.0526309
@@ -8423,7 +8423,7 @@
       "city": "Covina",
       "state": "CA",
       "zipCode": "91723",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.0790613,
         "lng": -117.884475
@@ -8470,7 +8470,7 @@
       "city": "Huntington Pa",
       "state": "CA",
       "zipCode": "90255",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.99084,
         "lng": -118.225258
@@ -8517,7 +8517,7 @@
       "city": "Paramount",
       "state": "CA",
       "zipCode": "90723",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.89086853,
         "lng": -118.1587485
@@ -8564,7 +8564,7 @@
       "city": "La Puente",
       "state": "CA",
       "zipCode": "91746",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.04631927,
         "lng": -118.0022254
@@ -8611,7 +8611,7 @@
       "city": "Glendora",
       "state": "CA",
       "zipCode": "91740",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.12890447,
         "lng": -117.8432634
@@ -8658,7 +8658,7 @@
       "city": "Paramount",
       "state": "CA",
       "zipCode": "90723",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 33.889563,
         "lng": -118.158714
@@ -8705,7 +8705,7 @@
       "city": "West Covina",
       "state": "CA",
       "zipCode": "91790",
-      "county": "Los Angeles County",
+      "county": "Los Angeles",
       "coordinates": {
         "lat": 34.06735207,
         "lng": -117.9254787

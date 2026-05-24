@@ -1091,7 +1091,7 @@
       "city": "Thousand Oaks",
       "state": "CA",
       "zipCode": "91361",
-      "county": "Ventura County",
+      "county": "Ventura",
       "coordinates": {
         "lat": 34.17112793,
         "lng": -118.8464594
@@ -1138,7 +1138,7 @@
       "city": "Oxnard",
       "state": "CA",
       "zipCode": "93036",
-      "county": "Ventura County",
+      "county": "Ventura",
       "coordinates": {
         "lat": 34.22016421,
         "lng": -119.1485134

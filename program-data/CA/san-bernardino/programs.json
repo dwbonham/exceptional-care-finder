@@ -433,7 +433,7 @@
       "city": "Rancho Cucamo",
       "state": "CA",
       "zipCode": "91730",
-      "county": "San Bernardino County",
+      "county": "San Bernardino",
       "coordinates": {
         "lat": 34.08548854,
         "lng": -117.5714555
@@ -480,7 +480,7 @@
       "city": "Rancho Cucamo",
       "state": "CA",
       "zipCode": "91730",
-      "county": "San Bernardino County",
+      "county": "San Bernardino",
       "coordinates": {
         "lat": 34.10259869,
         "lng": -117.5612481
@@ -527,7 +527,7 @@
       "city": "Apple Valley",
       "state": "CA",
       "zipCode": "92307",
-      "county": "San Bernardino County",
+      "county": "San Bernardino",
       "coordinates": {
         "lat": 34.50083934,
         "lng": -117.1797592
@@ -574,7 +574,7 @@
       "city": "Deer Lodge Pa",
       "state": "CA",
       "zipCode": "92352",
-      "county": "San Bernardino County",
+      "county": "San Bernardino",
       "coordinates": {
         "lat": 34.27498246,
         "lng": -117.2120284

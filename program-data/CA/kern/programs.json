@@ -1185,7 +1185,7 @@
       "city": "California Ci",
       "state": "CA",
       "zipCode": "93505",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.12601404,
         "lng": -117.9884595
@@ -1232,7 +1232,7 @@
       "city": "Bakersfield",
       "state": "CA",
       "zipCode": "93313",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.31317748,
         "lng": -119.08539
@@ -1279,7 +1279,7 @@
       "city": "Bakersfield",
       "state": "CA",
       "zipCode": "93301",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.3867536,
         "lng": -119.0086676
@@ -1326,7 +1326,7 @@
       "city": "Bakersfield",
       "state": "CA",
       "zipCode": "93301",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.3761655,
         "lng": -119.0056365
@@ -1373,7 +1373,7 @@
       "city": "Ridgecrest",
       "state": "CA",
       "zipCode": "93555",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.65168239,
         "lng": -117.6886957

@@ -604,7 +604,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95973",
-      "county": "Butte County",
+      "county": "Butte",
       "coordinates": {
         "lat": 39.76470667,
         "lng": -121.8190548
@@ -666,7 +666,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95973",
-      "county": "Butte County",
+      "county": "Butte",
       "coordinates": {
         "lat": 39.77361234,
         "lng": -121.8782292
@@ -743,7 +743,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95928",
-      "county": "Butte County",
+      "county": "Butte",
       "coordinates": {
         "lat": 39.71217997,
         "lng": -121.7893819
@@ -808,7 +808,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95973",
-      "county": "Butte County",
+      "county": "Butte",
       "coordinates": {
         "lat": 39.7709055,
         "lng": -121.8427448
@@ -858,7 +858,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95926",
-      "county": "Butte County",
+      "county": "Butte",
       "coordinates": {
         "lat": 39.7608641,
         "lng": -121.8424779
@@ -923,7 +923,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95926",
-      "county": "Butte County",
+      "county": "Butte",
       "coordinates": {
         "lat": 39.76088891,
         "lng": -121.8413936
@@ -991,7 +991,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95928",
-      "county": "Butte County",
+      "county": "Butte",
       "coordinates": {
         "lat": 39.72429101,
         "lng": -121.8175345
@@ -1063,7 +1063,7 @@
       "city": "Chico",
       "state": "CA",
       "zipCode": "95926",
-      "county": "Butte County",
+      "county": "Butte",
       "coordinates": {
         "lat": 39.7608817,
         "lng": -121.8419679
@@ -1130,7 +1130,7 @@
       "city": "Oroville",
       "state": "CA",
       "zipCode": "95966",
-      "county": "Butte County",
+      "county": "Butte",
       "coordinates": {
         "lat": 39.50150942,
         "lng": -121.5513175

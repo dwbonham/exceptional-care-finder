@@ -1373,7 +1373,7 @@
       "city": "Union City",
       "state": "CA",
       "zipCode": "94587",
-      "county": "Alameda County",
+      "county": "Alameda",
       "coordinates": {
         "lat": 37.59308384,
         "lng": -122.0430587
@@ -1420,7 +1420,7 @@
       "city": "Fremont",
       "state": "CA",
       "zipCode": "94539",
-      "county": "Alameda County",
+      "county": "Alameda",
       "coordinates": {
         "lat": 37.52831544,
         "lng": -121.9510423
@@ -1467,7 +1467,7 @@
       "city": "Fremont",
       "state": "CA",
       "zipCode": "94536",
-      "county": "Alameda County",
+      "county": "Alameda",
       "coordinates": {
         "lat": 37.56234759,
         "lng": -121.9893955
@@ -1514,7 +1514,7 @@
       "city": "Pleasanton",
       "state": "CA",
       "zipCode": "94566",
-      "county": "Alameda County",
+      "county": "Alameda",
       "coordinates": {
         "lat": 37.67319821,
         "lng": -121.8656157
@@ -1561,7 +1561,7 @@
       "city": "Alameda",
       "state": "CA",
       "zipCode": "94501",
-      "county": "Alameda County",
+      "county": "Alameda",
       "coordinates": {
         "lat": 37.77137654,
         "lng": -122.275494

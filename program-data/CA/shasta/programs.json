@@ -621,7 +621,7 @@
       "city": "Redding",
       "state": "CA",
       "zipCode": "96002",
-      "county": "Shasta County",
+      "county": "Shasta",
       "coordinates": {
         "lat": 40.56921944,
         "lng": -122.3693984
@@ -668,7 +668,7 @@
       "city": "Redding",
       "state": "CA",
       "zipCode": "96003",
-      "county": "Shasta County",
+      "county": "Shasta",
       "coordinates": {
         "lat": 40.6091739,
         "lng": -122.380155
@@ -715,7 +715,7 @@
       "city": "Redding",
       "state": "CA",
       "zipCode": "96002",
-      "county": "Shasta County",
+      "county": "Shasta",
       "coordinates": {
         "lat": 40.56753093,
         "lng": -122.3691502

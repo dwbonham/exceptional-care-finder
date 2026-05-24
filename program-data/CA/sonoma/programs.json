@@ -715,7 +715,7 @@
       "city": "Rohnert Park",
       "state": "CA",
       "zipCode": "94928",
-      "county": "Sonoma County",
+      "county": "Sonoma",
       "coordinates": {
         "lat": 38.35033636,
         "lng": -122.7096169
@@ -762,7 +762,7 @@
       "city": "Sonoma",
       "state": "CA",
       "zipCode": "95476",
-      "county": "Sonoma County",
+      "county": "Sonoma",
       "coordinates": {
         "lat": 38.29303037,
         "lng": -122.4688329
@@ -809,7 +809,7 @@
       "city": "Rohnert Park",
       "state": "CA",
       "zipCode": "94928",
-      "county": "Sonoma County",
+      "county": "Sonoma",
       "coordinates": {
         "lat": 38.34052953,
         "lng": -122.6991251
@@ -856,7 +856,7 @@
       "city": "Rohnert Park",
       "state": "CA",
       "zipCode": "94928",
-      "county": "Sonoma County",
+      "county": "Sonoma",
       "coordinates": {
         "lat": 38.35441099,
         "lng": -122.7221296

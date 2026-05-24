@@ -480,7 +480,7 @@
       "city": "Elk Grove",
       "state": "CA",
       "zipCode": "95624",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.40150141,
         "lng": -121.356819
@@ -527,7 +527,7 @@
       "city": "Sacramento",
       "state": "CA",
       "zipCode": "95818",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.54411688,
         "lng": -121.4898215
@@ -574,7 +574,7 @@
       "city": "Rancho Cordov",
       "state": "CA",
       "zipCode": "95670",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.59264796,
         "lng": -121.2727782
@@ -621,7 +621,7 @@
       "city": "Gold River",
       "state": "CA",
       "zipCode": "95670",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.623086,
         "lng": -121.266531
@@ -668,7 +668,7 @@
       "city": "Sacramento",
       "state": "CA",
       "zipCode": "95815",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.59478772,
         "lng": -121.4624159
@@ -715,7 +715,7 @@
       "city": "Sacramento",
       "state": "CA",
       "zipCode": "95823",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.475342,
         "lng": -121.4475075
@@ -762,7 +762,7 @@
       "city": "Sacramento",
       "state": "CA",
       "zipCode": "95831",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.491542,
         "lng": -121.519098
@@ -809,7 +809,7 @@
       "city": "Sacramento",
       "state": "CA",
       "zipCode": "95821",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.62886458,
         "lng": -121.4013604
@@ -856,7 +856,7 @@
       "city": "Rancho Cordov",
       "state": "CA",
       "zipCode": "95742",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.59677128,
         "lng": -121.2655715
@@ -1044,7 +1044,7 @@
       "city": "North Highlan",
       "state": "CA",
       "zipCode": "95660",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.656881,
         "lng": -121.3823295
@@ -1091,7 +1091,7 @@
       "city": "Folsom",
       "state": "CA",
       "zipCode": "95630",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.66578205,
         "lng": -121.135658
@@ -1138,7 +1138,7 @@
       "city": "Fair Oaks",
       "state": "CA",
       "zipCode": "95628",
-      "county": "Sacramento County",
+      "county": "Sacramento",
       "coordinates": {
         "lat": 38.63936413,
         "lng": -121.2757074

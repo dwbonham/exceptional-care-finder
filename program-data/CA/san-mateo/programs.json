@@ -527,7 +527,7 @@
       "city": "South San Fra",
       "state": "CA",
       "zipCode": "94080",
-      "county": "San Mateo County",
+      "county": "San Mateo",
       "coordinates": {
         "lat": 37.6503503,
         "lng": -122.4031735
@@ -574,7 +574,7 @@
       "city": "San Mateo",
       "state": "CA",
       "zipCode": "94403",
-      "county": "San Mateo County",
+      "county": "San Mateo",
       "coordinates": {
         "lat": 37.5431627,
         "lng": -122.3107448
@@ -621,7 +621,7 @@
       "city": "South San Fra",
       "state": "CA",
       "zipCode": "94080",
-      "county": "San Mateo County",
+      "county": "San Mateo",
       "coordinates": {
         "lat": 37.63966055,
         "lng": -122.4022905
@@ -668,7 +668,7 @@
       "city": "San Mateo",
       "state": "CA",
       "zipCode": "94403",
-      "county": "San Mateo County",
+      "county": "San Mateo",
       "coordinates": {
         "lat": 37.54910907,
         "lng": -122.3108704

@@ -527,7 +527,7 @@
       "city": "Stockton",
       "state": "CA",
       "zipCode": "95210",
-      "county": "San Joaquin County",
+      "county": "San Joaquin",
       "coordinates": {
         "lat": 38.01628337,
         "lng": -121.2995748
@@ -574,7 +574,7 @@
       "city": "Manteca",
       "state": "CA",
       "zipCode": "95337",
-      "county": "San Joaquin County",
+      "county": "San Joaquin",
       "coordinates": {
         "lat": 37.797309,
         "lng": -121.2579177
@@ -621,7 +621,7 @@
       "city": "Stockton",
       "state": "CA",
       "zipCode": "95210",
-      "county": "San Joaquin County",
+      "county": "San Joaquin",
       "coordinates": {
         "lat": 38.02097565,
         "lng": -121.283401
@@ -668,7 +668,7 @@
       "city": "Stockton",
       "state": "CA",
       "zipCode": "95202",
-      "county": "San Joaquin County",
+      "county": "San Joaquin",
       "coordinates": {
         "lat": 37.95089309,
         "lng": -121.282493
@@ -715,7 +715,7 @@
       "city": "Lodi",
       "state": "CA",
       "zipCode": "95242",
-      "county": "San Joaquin County",
+      "county": "San Joaquin",
       "coordinates": {
         "lat": 38.12468984,
         "lng": -121.3067425

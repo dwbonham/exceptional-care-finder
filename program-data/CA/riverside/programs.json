@@ -912,7 +912,7 @@
       "city": "Moreno Valley",
       "state": "CA",
       "zipCode": "92557",
-      "county": "Riverside County",
+      "county": "Riverside",
       "coordinates": {
         "lat": 33.91145938,
         "lng": -117.2684762
@@ -981,7 +981,7 @@
       "city": "Riverside",
       "state": "CA",
       "zipCode": "92501",
-      "county": "Riverside County",
+      "county": "Riverside",
       "coordinates": {
         "lat": 33.98484023,
         "lng": -117.3787164
@@ -1047,7 +1047,7 @@
       "city": "Hemet",
       "state": "CA",
       "zipCode": "92545",
-      "county": "Riverside County",
+      "county": "Riverside",
       "coordinates": {
         "lat": 33.74574783,
         "lng": -117.0141066
