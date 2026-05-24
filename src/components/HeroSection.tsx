@@ -1,12 +1,9 @@
-import { useState } from 'react';
-
 interface Props {
   selectedState: string;
   selectedCounty: string;
 }
 
 export default function HeroSection({ selectedState, selectedCounty }: Props) {
-  const [zip, setZip] = useState('');
 
   const locationLabel =
     selectedCounty && selectedState
@@ -59,33 +56,10 @@ export default function HeroSection({ selectedState, selectedCounty }: Props) {
         </h1>
 
         {/* Subheadline */}
-        <p className="text-lg sm:text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto mb-10">
+        <p className="text-lg sm:text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto mb-8">
           Find state-funded day programs and vocational training for your loved ones.
           Real programs, real reviews, right in your community.
         </p>
-
-        {/* Zip code search bar (visual prototype) */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-xl mx-auto">
-          <div className="relative flex-1 w-full">
-            <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-lg">
-              📍
-            </span>
-            <input
-              type="text"
-              placeholder="Enter your ZIP code (e.g. 92880)"
-              value={zip}
-              onChange={(e) => setZip(e.target.value)}
-              maxLength={5}
-              className="w-full pl-11 pr-4 py-4 rounded-xl text-slate-800 text-base font-medium bg-white shadow-lg border border-white/60 focus:outline-none focus:ring-2 focus:ring-blue-300 placeholder:text-slate-400"
-            />
-          </div>
-          <button
-            type="button"
-            className="w-full sm:w-auto px-8 py-4 bg-blue-700 hover:bg-blue-800 active:bg-blue-900 text-white font-semibold text-base rounded-xl shadow-lg transition-colors duration-150 cursor-pointer whitespace-nowrap"
-          >
-            Search Programs
-          </button>
-        </div>
 
         {/* Trust indicators */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-blue-200 text-sm">
