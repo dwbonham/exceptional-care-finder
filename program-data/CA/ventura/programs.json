@@ -1,99 +1,5 @@
 [
   {
-    "legalLicenseName": "PATHPOINT",
-    "streetName": "PATHPOINT",
-    "ccldLicenseNumber": "197606198",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1463 E Los Angeles Ave",
-      "city": "Simi Valley",
-      "state": "CA",
-      "zipCode": "93065",
-      "county": "Ventura",
-      "coordinates": {
-        "lat": 34.271732,
-        "lng": -118.76603
-      }
-    },
-    "contact": {
-      "phone": "(805) 520-8744",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ARC VENTURA (ARCADE)",
-    "streetName": "ARC VENTURA (ARCADE)",
-    "ccldLicenseNumber": "197606385",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "295 S. Arcade Drive",
-      "city": "Ventura",
-      "state": "CA",
-      "zipCode": "93003",
-      "county": "Ventura",
-      "coordinates": {
-        "lat": 34.272392,
-        "lng": -119.26544
-      }
-    },
-    "contact": {
-      "phone": "(805) 652-0541",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "CAMARILLO HEALTH CARE DISTRICT",
     "streetName": "CAMARILLO HEALTH CARE DISTRICT",
     "ccldLicenseNumber": "561704034",
@@ -1171,6 +1077,141 @@
       "parentReviews": []
     },
     "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PATHPOINT",
+    "streetName": "PATHPOINT",
+    "ccldLicenseNumber": "197606198",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1463 E Los Angeles Ave",
+      "city": "Simi Valley",
+      "state": "CA",
+      "zipCode": "93065",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.271732,
+        "lng": -118.76603
+      }
+    },
+    "contact": {
+      "phone": "(805) 520-8744",
+      "websiteUrl": "https://pathpoint.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "PathPoint supports individuals with disabilities and mental health diagnoses by strengthening workplace abilities, building life skills, and developing meaningful relationships through structured daytime activities and support services.",
+      "minimumAge": 18,
+      "yearEstablished": 1985,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "PathPoint",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "PathPoint, established in 1964, supports adults with disabilities and mental health diagnoses in Simi Valley.",
+        "The program is accredited by CARF, demonstrating a commitment to high-quality rehabilitation services."
+      ]
+    },
+    "completenessScore": 91,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC VENTURA (ARCADE)",
+    "streetName": "The Arc of Ventura County - Arcade Program",
+    "ccldLicenseNumber": "197606385",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "295 S. Arcade Drive",
+      "city": "Ventura",
+      "state": "CA",
+      "zipCode": "93003",
+      "county": "Ventura",
+      "coordinates": {
+        "lat": 34.272392,
+        "lng": -119.26544
+      }
+    },
+    "contact": {
+      "phone": "(805) 652-0541",
+      "websiteUrl": "https://arcvc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Arc of Ventura County's Arcade Program provides person-centered services and meaningful activities for individuals with intellectual and developmental disabilities, focusing on community integration, skill development for employment, education, health, wellness, creative expression, and daily living skills.",
+      "minimumAge": 18,
+      "yearEstablished": 1954,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Workshop",
+        "Community Integration"
+      ],
+      "parentOrganization": "The Arc of Ventura County",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Arc of Ventura County's Arcade Program is an Adult Day Program in Ventura, CA.",
+        "It serves adults with disabilities or dementia, offering structured activities, health monitoring, and therapeutic programming.",
+        "The program has a licensed capacity of 100 participants."
+      ]
+    },
+    "completenessScore": 98,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

@@ -10,7 +10,7 @@
       "city": "Mariposa",
       "state": "CA",
       "zipCode": "95338",
-      "county": "Mariposa",
+      "county": "Mariposa County",
       "coordinates": {
         "lat": 37.41942509,
         "lng": -119.9104333
@@ -42,7 +42,7 @@
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
+    "completenessScore": 23,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
