@@ -1942,5 +1942,76 @@
     "completenessScore": 79,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KERN ADULT PROGRAM  INC.",
+    "streetName": "Kern Adult Program, Inc.",
+    "ccldLicenseNumber": "157200963",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2900 Eye St.",
+      "city": "Bakersfield",
+      "state": "CA",
+      "zipCode": "93301",
+      "county": "Kern",
+      "coordinates": {
+        "lat": 35.38584,
+        "lng": -119.019966
+      }
+    },
+    "contact": {
+      "phone": "(661) 323-4700",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Kern Adult Program, Inc. provides structured daytime activities, supervision, and support services for adults with disabilities. The program focuses on health monitoring, therapeutic, social, and recreational programming, and aims to increase participants' community access, skills, and independence.",
+      "minimumAge": 18,
+      "yearEstablished": 1995,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Programming",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Life Skills Training",
+        "Community Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Kern Adult Program, Inc. is a licensed adult day program in Bakersfield, CA, established in 1995.",
+        "It offers structured daytime activities, meals, and personal care for adults, including those with dementia or disabilities.",
+        "The program emphasizes a person-centered approach, focusing on community access and communication for nonverbal individuals."
+      ]
+    },
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
 ]
