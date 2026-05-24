@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { allPrograms } from '../data/programs';
 
 function A({ href, children }: { href: string; children: ReactNode }) {
   return (
@@ -102,9 +103,11 @@ const NOT_ITEMS: NotItem[] = [
   {
     label: 'States and counties not yet covered',
     detail:
-      'The site currently covers California only, within two counties. Counties and states not yet in the database will show no results.',
+      'The site currently covers California only. Counties and states not yet in the database will show no results.',
   },
 ];
+
+const countyCount = new Set(allPrograms.map((p) => p.location.county)).size;
 
 export default function AboutPage() {
   return (
@@ -204,7 +207,7 @@ export default function AboutPage() {
               <div className="bg-slate-50 rounded-xl p-4">
                 <div className="font-semibold text-slate-700 mb-1">Geographic coverage</div>
                 <div>
-                  Currently: Riverside County and Alameda County, California. Expanding to all CA
+                  Currently covers {countyCount} of 58 California counties. Expanding to all CA
                   counties via an automated weekly pipeline.
                 </div>
               </div>
