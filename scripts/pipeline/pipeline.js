@@ -243,17 +243,36 @@ if (toScore.length) {
 
 // ── Phase 5: Gemini backfill enrichment ──────────────────────────────────────
 // Runs after new-program phases. Enriches up to 20 CCLD-only programs per day,
-// improving their site cards automatically until all 957 are fully enriched.
+// improving their site cards automatically until all programs are fully enriched.
 // Skipped on SKIP_ENRICHMENT runs (the bulk-import itself) and when quota is gone.
+//
+// Env vars (optional):
+//   ENRICH_COUNTIES=butte,riverside  — only process programs in these counties
+//   WITH_SENTIMENT=1                 — include sentiment step (2 API calls/program vs 1)
 if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
-  const toBackfill = getNotGeminiEnriched(state);
+  const countyFilter = process.env.ENRICH_COUNTIES
+    ? new Set(process.env.ENRICH_COUNTIES.toLowerCase().split(',').map(c => c.trim()))
+    : null;
+
+  const allUnenriched = getNotGeminiEnriched(state, countyFilter ? 999999 : undefined);
+  const toBackfill = countyFilter
+    ? allUnenriched.filter(licNum => {
+        const county = (state.programs[licNum]?.ccldRecord?.county ?? '').toLowerCase();
+        return [...countyFilter].some(c => county.includes(c));
+      })
+    : allUnenriched;
+
+  const skipSentiment = !['1', 'true', 'yes'].includes((process.env.WITH_SENTIMENT ?? '').toLowerCase());
+
   if (toBackfill.length) {
-    console.log(`\nGemini backfill: enriching ${toBackfill.length} queued program(s)…`);
+    const modeNote = countyFilter ? `counties: ${[...countyFilter].join(', ')}` : 'all queued';
+    const sentNote = skipSentiment ? 'no sentiment' : 'with sentiment';
+    console.log(`\nGemini backfill: enriching ${toBackfill.length} program(s) (${modeNote}, ${sentNote})…`);
     const backfillGateResults = [];
     for (const licNum of toBackfill) {
       const { ccldRecord, geocodeResult } = state.programs[licNum];
       try {
-        const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment: true });
+        const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment });
         const gateResult = evaluate(ccldRecord, enrichResult, geocodeResult);
         if (gateResult.decision !== DECISION.SKIP_REVOKED) {
           _writeApprovedProgram(gateResult.record);

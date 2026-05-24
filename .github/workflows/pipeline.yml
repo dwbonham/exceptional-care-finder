@@ -4,7 +4,17 @@ on:
   schedule:
     - cron: '0 14 * * 1'    # Monday 6 am PT (14:00 UTC) — weekly run (CCLD diff + enrichment)
     - cron: '0 14 * * 2-7'  # Tue–Sun 6 am PT — daily catch-up enrichment (20 programs/day)
-  workflow_dispatch:          # manual trigger for testing / one-off runs
+  workflow_dispatch:
+    inputs:
+      enrich_counties:
+        description: 'Comma-separated counties to enrich (e.g. butte,riverside). Leave blank for normal 20/day backfill.'
+        required: false
+        default: ''
+      with_sentiment:
+        description: 'Include sentiment research (2 API calls/program instead of 1)'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -50,6 +60,8 @@ jobs:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
           GOOGLE_SHEET_ID: ${{ vars.SHEET_ID }}
           GOOGLE_SERVICE_ACCOUNT_PATH: /tmp/sa.json
+          ENRICH_COUNTIES: ${{ inputs.enrich_counties }}
+          WITH_SENTIMENT: ${{ inputs.with_sentiment }}
         run: bun run pipeline
 
       - name: Configure git identity
