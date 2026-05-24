@@ -264,10 +264,11 @@ if (toScore.length) {
   }
   save(state);
 
-  // Mirror all programs to Sheets in one batch call (avoids per-row rate limits)
+  // Upsert all programs to Sheets — updates existing rows if present, appends if new.
+  // Keeps the sheet idempotent if Phase 4 ever re-runs the same programs.
   if (approvedGateResults.length > 0) {
     console.log(`  Syncing ${approvedGateResults.length} rows to Google Sheets…`);
-    await appendProgramRows(approvedGateResults, sheetsConfig);
+    await upsertProgramRows(approvedGateResults, sheetsConfig);
   }
   console.log(`  ${approved} auto-approved | ${needsReview} flagged for review | all mirrored to Sheets`);
 }
