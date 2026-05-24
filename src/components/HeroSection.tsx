@@ -58,7 +58,7 @@ export default function HeroSection({ selectedState, selectedCounty }: Props) {
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto mb-8">
           Find state-funded day programs and vocational training for your loved ones.
-          Real programs, real reviews, right in your community.
+          Real programs, right in your community.
         </p>
 
         {/* Trust indicators */}
@@ -67,10 +67,7 @@ export default function HeroSection({ selectedState, selectedCounty }: Props) {
             <span>🛡️</span> State-Verified Providers
           </span>
           <span className="flex items-center gap-1.5">
-            <span>✨</span> AI-Powered Summaries
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span>💬</span> Real Parent Reviews
+            <span>📋</span> Service Summaries
           </span>
         </div>
       </div>
