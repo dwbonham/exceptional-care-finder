@@ -3,12 +3,21 @@ import { getFundingGuide } from '../data/funding-guides';
 
 type Tab = 'guide' | 'centers' | 'glossary';
 
-export default function StateRegulatoryGuide() {
+interface Props {
+  selectedCounty?: string;
+  selectedLaZip?: string;
+}
+
+export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip }: Props = {}) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const [activeTab, setActiveTab] = useState<Tab>('guide');
 
   const guide = getFundingGuide('CA');
   if (!guide) return null;
+
+  const filteredGuide = getFundingGuide('CA', selectedLaZip || undefined, selectedCounty || undefined);
+  const agenciesToShow = filteredGuide?.localAgencies ?? guide.localAgencies;
+  const isLaNoZip = selectedCounty === 'Los Angeles' && !selectedLaZip;
 
   return (
     <div className="bg-white border border-stone-200 rounded-2xl shadow-sm overflow-hidden flex flex-col min-h-0">
@@ -126,8 +135,13 @@ export default function StateRegulatoryGuide() {
             <p className="text-xs text-slate-500 leading-relaxed mb-4">
               Regional Centers are nonprofit organizations contracted by the state to coordinate services for people with developmental disabilities. Contact yours to begin eligibility intake.
             </p>
+            {isLaNoZip && (
+              <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mb-4 leading-relaxed">
+                LA County has 6 Regional Centers. Enter your ZIP code in the filter above to see only yours.
+              </p>
+            )}
             <div className="space-y-4">
-              {guide.localAgencies.map((agency, i) => (
+              {agenciesToShow.map((agency, i) => (
                 <div key={i} className="text-sm">
                   <p className="font-semibold text-slate-700">{agency.name}</p>
                   {agency.note && (
