@@ -307,8 +307,8 @@
         "Personal Care Assistance",
         "Medication Management"
       ],
-      "daysOfOperation": "Monday\u2013Sunday",
-      "hoursOfOperation": "Monday\u2013Friday: 9:00 AM\u20136:00 PM, Saturday\u2013Sunday: 10:00 AM\u20134:00 PM",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00 AM–6:00 PM, Saturday–Sunday: 10:00 AM–4:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Adults with disabilities"
@@ -371,7 +371,7 @@
         "Self-Advocacy"
       ],
       "parentOrganization": "Central Valley Training Center, Inc.",
-      "daysOfOperation": "Monday\u2013Friday",
+      "daysOfOperation": "Monday–Friday",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -503,8 +503,8 @@
         "Community Outings"
       ],
       "parentOrganization": "Pathway To Choices, Inc.",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "Monday 8:30am\u201311:30am, Tuesday\u2013Friday 8:30am\u20131:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "Monday 8:30am–11:30am, Tuesday–Friday 8:30am–1:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -580,8 +580,8 @@
         "Community Outings"
       ],
       "parentOrganization": "Pathway to Choices, Inc.",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "M 8:30 AM\u201311:30 AM, T-F 8:30 AM\u20131:00 PM",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "M 8:30 AM–11:30 AM, T-F 8:30 AM–1:00 PM",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -653,8 +653,8 @@
         "Medication Management"
       ],
       "parentOrganization": "City of Sacramento Youth, Parks, & Community Enrichment",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "7:30am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Older Adults with Dementia",
@@ -725,8 +725,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "NorCal Services for Deaf & Hard of Hearing",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "Monday\u2013Thursday 9:00am\u20133:00pm, Friday 9:00am\u201312:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "Monday–Thursday 9:00am–3:00pm, Friday 9:00am–12:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -772,7 +772,7 @@
     },
     "contact": {
       "phone": "(916) 667-3167",
-      "websiteUrl": "https://www.koelschcommunities.com/senior-living/california/elk-grove/the-gardens-at-laguna-springs/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 15,
@@ -809,7 +809,7 @@
     "qualitativeInsights": {
       "parentReviews": [
         "The Gardens at Laguna Springs is a licensed memory care program in Elk Grove, specializing in Alzheimer's and dementia.",
-        "It offers 24/7 licensed nursing care and utilizes Humanitude\u00ae techniques for a purpose-filled living program."
+        "It offers 24/7 licensed nursing care and utilizes Humanitude® techniques for a purpose-filled living program."
       ]
     },
     "completenessScore": 78,
@@ -835,7 +835,7 @@
     },
     "contact": {
       "phone": "(916) 667-9481",
-      "websiteUrl": "https://newhopedayprogram.org/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 30,
@@ -854,8 +854,8 @@
         "Music Therapy",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20132:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–2:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -929,8 +929,8 @@
         "Self-Advocacy",
         "Montessori Education"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1003,8 +1003,8 @@
         "Community Outings"
       ],
       "parentOrganization": "UCP of Sacramento and Northern California",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–5:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1073,8 +1073,8 @@
         "Music Therapy",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1255,7 +1255,7 @@
     },
     "contact": {
       "phone": "(916) 393-9682",
-      "websiteUrl": "https://www.providingbridges.com/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 100,
@@ -1351,8 +1351,8 @@
         "Community Access",
         "Vocational Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20132:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–2:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1426,8 +1426,8 @@
         "Medication Management",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00 AM\u20136:00 PM",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1505,8 +1505,8 @@
         "Self-Advocacy Skills"
       ],
       "parentOrganization": "PRIDE Industries",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -1551,7 +1551,7 @@
     },
     "contact": {
       "phone": "(916) 365-1698",
-      "websiteUrl": "https://odysseylifecenter.org"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 30,
@@ -1571,8 +1571,8 @@
         "Music Therapy",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20133:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism"
@@ -1618,7 +1618,7 @@
     },
     "contact": {
       "phone": "(916) 928-0220",
-      "websiteUrl": "https://www.rescarecommunityliving.com/locations/california/sacramento/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 43,
@@ -1647,8 +1647,8 @@
         "Community Outings"
       ],
       "parentOrganization": "ResCare Community Living",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00 AM\u20136:00 PM",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1730,8 +1730,8 @@
         "Self-advocacy on the job"
       ],
       "parentOrganization": "Social Vocational Services",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "7:00am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:00am–4:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1808,8 +1808,8 @@
         "Reminiscing"
       ],
       "parentOrganization": "Daycation for Seniors",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20135:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:30pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -1876,8 +1876,8 @@
         "Gardening"
       ],
       "parentOrganization": "City of Sacramento",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "7:30am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Older Adults with Dementia",
@@ -1950,7 +1950,7 @@
         "Volunteering Opportunities",
         "Vocational Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
+      "daysOfOperation": "Monday–Friday",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -2138,8 +2138,8 @@
         "Self-Advocacy"
       ],
       "parentOrganization": "Easterseals",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–5:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -2213,8 +2213,8 @@
         "Behavior Intervention",
         "Reading and Math Skills"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities",
@@ -2288,8 +2288,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "City of Sacramento Youth, Parks, & Community Enrichment",
-      "daysOfOperation": "Monday\u2013Thursday",
-      "hoursOfOperation": "9:00am\u20132:00pm",
+      "daysOfOperation": "Monday–Thursday",
+      "hoursOfOperation": "9:00am–2:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Dementia",
@@ -2574,8 +2574,8 @@
         "Personal care assistance",
         "Medication management"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00 AM\u20136:00 PM",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -2761,7 +2761,7 @@
     },
     "contact": {
       "phone": "(916) 993-4191",
-      "websiteUrl": "https://www.aimhigherinc.org/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 45,
@@ -2795,8 +2795,8 @@
         "Performing Arts"
       ],
       "parentOrganization": "Aim Higher Inc.",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -2861,8 +2861,8 @@
         "Life Skills Training",
         "Social and Recreational Activities"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -3108,7 +3108,7 @@
     },
     "contact": {
       "phone": "(916) 627-1704",
-      "websiteUrl": "https://www.visionsinmotionadp.com/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 48,
@@ -3136,8 +3136,8 @@
         "Zumba",
         "Yoga"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -3213,7 +3213,7 @@
         "Community Outings"
       ],
       "parentOrganization": "UCP of Sacramento and Northern California",
-      "daysOfOperation": "Monday\u2013Friday",
+      "daysOfOperation": "Monday–Friday",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -3272,8 +3272,8 @@
       "languagesSupported": [
         "English"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -3342,8 +3342,8 @@
         "Therapeutic Programming",
         "Karaoke"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20133:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–3:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -3415,8 +3415,8 @@
         "Social Outings"
       ],
       "parentOrganization": "Revere Court of Sacramento",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20135:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–5:30pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {

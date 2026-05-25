@@ -50,6 +50,16 @@ export async function enrichProgram(ccldRecord, apiKey, options = {}) {
   const enrichJson = _extractJson(enrichRaw);
   const enrichData = _normalizeEnrichment(enrichJson, ccldRecord);
 
+  // Validate the website URL — null it out if the page is unreachable (4xx/5xx/timeout).
+  // Prevents dead links from reaching the site. Note: servers that return 200 for missing
+  // pages (soft 404s) are not caught here — those require a content check.
+  if (enrichData.websiteUrl) {
+    const alive = await checkUrl(enrichData.websiteUrl);
+    if (!alive) {
+      enrichData.websiteUrl = null;
+    }
+  }
+
   if (options.skipSentiment) {
     return { ...enrichData, sentimentBullets: [], sentimentFlagged: false };
   }
@@ -61,6 +71,52 @@ export async function enrichProgram(ccldRecord, apiKey, options = {}) {
   const sentimentData = _normalizeSentiment(sentimentJson);
 
   return { ...enrichData, ...sentimentData };
+}
+
+/**
+ * Check whether a URL is reachable. Returns true if the server responds with a
+ * 2xx or 3xx status, false on 4xx/5xx or network error. Tries HEAD first (fast),
+ * falls back to GET if the server rejects HEAD. Timeout: 6 seconds per attempt.
+ *
+ * Exported so the URL-audit script can reuse this without duplicating logic.
+ *
+ * @param {string} url
+ * @returns {Promise<boolean>}
+ */
+export async function checkUrl(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 6000);
+  try {
+    const res = await fetch(url, {
+      method: 'HEAD',
+      redirect: 'follow',
+      signal: controller.signal,
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ExceptionalCareFinder/1.0)' },
+    });
+    clearTimeout(timer);
+    // Some servers return 405 Method Not Allowed for HEAD — fall back to GET
+    if (res.status === 405) {
+      const controller2 = new AbortController();
+      const timer2 = setTimeout(() => controller2.abort(), 6000);
+      try {
+        const res2 = await fetch(url, {
+          method: 'GET',
+          redirect: 'follow',
+          signal: controller2.signal,
+          headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ExceptionalCareFinder/1.0)' },
+        });
+        clearTimeout(timer2);
+        return res2.status < 400;
+      } catch {
+        clearTimeout(timer2);
+        return false;
+      }
+    }
+    return res.status < 400;
+  } catch {
+    clearTimeout(timer);
+    return false;
+  }
 }
 
 /**

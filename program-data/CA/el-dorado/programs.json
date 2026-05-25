@@ -39,8 +39,8 @@
         "Self-advocacy classes",
         "Supported Employment"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -105,8 +105,8 @@
         "Arts & Expression"
       ],
       "parentOrganization": "Empower Academy LLC",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -219,8 +219,8 @@
         "Arts and Crafts",
         "Music Therapy"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "7:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -263,7 +263,7 @@
     },
     "contact": {
       "phone": "(530) 672-9462",
-      "websiteUrl": "https://www.opportunity-acres.com/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 40,
@@ -286,8 +286,8 @@
         "Animal-Assisted Activities",
         "Vocational Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20132:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–2:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",

@@ -1,0 +1,68 @@
+name: Audit Website URLs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.x'
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Audit website URLs
+        run: bun scripts/pipeline/audit-website-urls.js
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit cleared URLs
+        id: commit
+        run: |
+          git add program-data/
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "All URLs alive — no changes."
+            exit 0
+          fi
+          CLEARED=$(git diff --staged | grep -c '"websiteUrl": ""' || true)
+          git checkout -B pipeline/url-audit
+          git commit -m "data: clear ${CLEARED} dead website URL(s) found by URL audit"
+          git push -f origin pipeline/url-audit
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open PR
+        if: steps.commit.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          OPEN=$(gh pr list --head pipeline/url-audit --state open --json number --jq length)
+          if [ "$OPEN" != "0" ]; then
+            echo "PR already open."
+            exit 0
+          fi
+          gh pr create \
+            --base main \
+            --head pipeline/url-audit \
+            --title "Data: clear dead website URLs (URL audit)" \
+            --body "## URL Audit Results
+
+          Opened automatically by the URL audit workflow.
+
+          **Before merging:**
+          - [ ] Review cleared URLs — check if any look like false positives (server was temporarily down)
+          - [ ] Programs with cleared URLs will show no website link until re-enriched
+
+          Merge to publish."

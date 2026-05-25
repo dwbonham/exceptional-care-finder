@@ -977,8 +977,8 @@
         "Community Integration"
       ],
       "parentOrganization": "OPARC",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1044,8 +1044,8 @@
         "Personal care assistance",
         "Medication management"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -1159,7 +1159,7 @@
     },
     "contact": {
       "phone": "(909) 548-0290",
-      "websiteUrl": "https://www.sevitahealth.com/locations/california-mentor-chino/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 30,
@@ -1182,8 +1182,8 @@
         "Vocational Training"
       ],
       "parentOrganization": "Sevita/California MENTOR",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20132:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -1253,8 +1253,8 @@
         "Medication Assistance",
         "Caregiver Support"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20133:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:00pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -1494,7 +1494,7 @@
     },
     "contact": {
       "phone": "(909) 364-1677",
-      "websiteUrl": "https://www.expressworkforcefoundation.org/lifetime-day-program-irc"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 30,
@@ -1702,8 +1702,8 @@
         "Social Activities"
       ],
       "parentOrganization": "Anthesis",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "7:30am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–4:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1776,8 +1776,8 @@
         "Music Therapy",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20134:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1843,8 +1843,8 @@
         "Life Skills Training",
         "Community Integration"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20133:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism Spectrum Disorder",
@@ -1912,8 +1912,8 @@
         "Recreational Activities"
       ],
       "parentOrganization": "OPARC",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20134:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -2054,8 +2054,8 @@
         "Social and Recreational Activities"
       ],
       "parentOrganization": "Sevita",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -2126,8 +2126,8 @@
         "Recreational Activities"
       ],
       "parentOrganization": "OPARC",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -2185,7 +2185,7 @@
       "languagesSupported": [
         "English"
       ],
-      "daysOfOperation": "Monday\u2013Sunday",
+      "daysOfOperation": "Monday–Sunday",
       "hoursOfOperation": "Mon-Fri: 9:00 AM - 6:00 PM, Sat-Sun: 10:00 AM - 4:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
@@ -2305,8 +2305,8 @@
         "Community Outings"
       ],
       "parentOrganization": "Anthesis",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -2379,7 +2379,7 @@
         "Therapeutic Activities"
       ],
       "parentOrganization": "California MENTOR / Sevita",
-      "daysOfOperation": "Monday\u2013Friday",
+      "daysOfOperation": "Monday–Friday",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -2447,7 +2447,7 @@
         "Medication Management"
       ],
       "parentOrganization": "Social Vocational Services, Inc.",
-      "daysOfOperation": "Monday\u2013Sunday",
+      "daysOfOperation": "Monday–Sunday",
       "hoursOfOperation": "Mon-Fri: 9:00 AM - 6:00 PM, Sat-Sun: 10:00 AM - 4:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
@@ -2620,8 +2620,8 @@
       "languagesSupported": [
         "English"
       ],
-      "daysOfOperation": "Monday\u2013Saturday",
-      "hoursOfOperation": "8:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Saturday",
+      "hoursOfOperation": "8:00am–5:00pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {

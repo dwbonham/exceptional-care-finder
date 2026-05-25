@@ -185,8 +185,8 @@
         "Field Trips"
       ],
       "parentOrganization": "City of Buena Park",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -256,8 +256,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "The Learning Light Foundation Inc.",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -302,7 +302,7 @@
     },
     "contact": {
       "phone": "(949) 581-3800",
-      "websiteUrl": "https://www.moochurch.org/adult-day-program"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 40,
@@ -326,8 +326,8 @@
         "Exercise"
       ],
       "parentOrganization": "Mount of Olives Church",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Early-stage dementia",
@@ -525,8 +525,8 @@
         "Personal Care Assistance",
         "Medication Management"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -593,8 +593,8 @@
         "Life Skills Training",
         "Community Integration"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -641,7 +641,7 @@
     },
     "contact": {
       "phone": "(714) 771-8300",
-      "websiteUrl": "https://www.vocationalinnovations.com/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 75,
@@ -661,8 +661,8 @@
         "Paid Employment",
         "Self-Advocacy"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20132:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -707,7 +707,7 @@
     },
     "contact": {
       "phone": "(949) 548-0744",
-      "websiteUrl": "https://www.pcvservices.com/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 75,
@@ -869,8 +869,8 @@
         "Social and Recreational Programming"
       ],
       "parentOrganization": "Vocational Innovations",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00 AM\u20132:00 PM",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00 AM–2:00 PM",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -987,8 +987,8 @@
         "Life Skills Training",
         "Social Activities"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1055,8 +1055,8 @@
         "Personal Care Assistance",
         "Medication Management"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1194,8 +1194,8 @@
         "Music Therapy",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20135pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–5pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -1238,7 +1238,7 @@
     },
     "contact": {
       "phone": "(714) 672-0343",
-      "websiteUrl": "https://www.easterseals.com/southerncal/our-programs/adult-services/senior-day-services-brea.html"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 40,
@@ -1259,7 +1259,7 @@
         "Socialization"
       ],
       "parentOrganization": "Easterseals Southern California",
-      "daysOfOperation": "Monday\u2013Friday",
+      "daysOfOperation": "Monday–Friday",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Memory Loss",
@@ -1327,8 +1327,8 @@
         "Arts and Crafts",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "7:30am\u20133:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–3:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1463,8 +1463,8 @@
         "Vocational Training",
         "Community Integration"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "7:30am\u20134:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–4:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1719,7 +1719,7 @@
     },
     "contact": {
       "phone": "(949) 229-1057",
-      "websiteUrl": "http://www.seniorsocialmv.com"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 60,
@@ -1772,7 +1772,7 @@
     },
     "contact": {
       "phone": "(949) 368-4220",
-      "websiteUrl": "https://vocationalinnovations.com/"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 90,
@@ -1794,8 +1794,8 @@
         "Vocational Training/Employment Support"
       ],
       "parentOrganization": "Vocational Innovations",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20132:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -1997,8 +1997,8 @@
         "Social Skills Training",
         "Vocational Workshop"
       ],
-      "daysOfOperation": "Monday\u2013Saturday",
-      "hoursOfOperation": "8:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Saturday",
+      "hoursOfOperation": "8:00am–5:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -2065,8 +2065,8 @@
         "Social Skills Training",
         "Community Safety Awareness"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "7:30am\u20134:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–4:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
