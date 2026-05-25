@@ -27,7 +27,7 @@ export default function ProgramCard({ program }: Props) {
           {program.streetName}
         </h2>
         <p className="text-sm text-slate-500">
-          Registered Legal Entity:{' '}
+          Licensed as:{' '}
           <span className="font-medium text-slate-600">{program.legalLicenseName}</span>
         </p>
 
@@ -137,12 +137,15 @@ export default function ProgramCard({ program }: Props) {
           <div className="flex flex-wrap gap-2 mb-3">
             {fundingMechanics.coveringAgencies.map((agency) => (
               <span key={agency} className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
-                <span className="font-semibold text-slate-700">Agency:</span>
+                <span className="font-semibold text-slate-700">Regional Center:</span>
                 {agency}
               </span>
             ))}
-            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-emerald-50 border border-emerald-200 text-xs text-emerald-700">
-              <span className="font-semibold">Required Doc:</span>
+            <span
+              className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-emerald-50 border border-emerald-200 text-xs text-emerald-700"
+              title="Individual Program Plan — the authorized plan your Regional Center writes with you. This service must be listed in your IPP before funding is approved."
+            >
+              <span className="font-semibold">Requires:</span>
               {fundingMechanics.requiredFundingDocument}
             </span>
             {fundingMechanics.transportationAvailability && (
@@ -222,9 +225,9 @@ export default function ProgramCard({ program }: Props) {
             aria-expanded={reviewsOpen}
           >
             <span className="text-sm font-semibold text-slate-700 flex items-center gap-2">
-              <span>💬</span> Additional Info
+              <span>💬</span> Community Reputation
               <span className="text-xs font-normal text-slate-400">
-                ({qualitativeInsights.parentReviews.length})
+                · {qualitativeInsights.parentReviews.length} note{qualitativeInsights.parentReviews.length !== 1 ? 's' : ''} from public sources
               </span>
             </span>
             <span

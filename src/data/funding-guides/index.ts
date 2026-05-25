@@ -29,7 +29,9 @@ export function getFundingGuide(state: string, zip?: string, county?: string): F
       if (!a.county) return false;
       return a.county.split(',').map((c) => c.trim()).includes(county);
     });
-    if (countyMatch.length > 0) return { ...guide, localAgencies: countyMatch };
+    // Return empty rather than all agencies when county provided but not mapped —
+    // callers show a "contact DDS" fallback instead of a misleading full list.
+    return { ...guide, localAgencies: countyMatch };
   }
 
   return guide;

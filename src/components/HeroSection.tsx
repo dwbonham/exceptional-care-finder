@@ -65,8 +65,8 @@ export default function HeroSection({ selectedState, selectedCounty }: Props) {
 
         {/* Trust indicators */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-blue-200 text-sm">
-          <span className="flex items-center gap-1.5">
-            <span>🛡️</span> CCLD-Licensed Providers
+          <span className="flex items-center gap-1.5" title="Community Care Licensing Division — California's state agency that licenses and inspects all Adult Day Programs">
+            <span>🛡️</span> State-Licensed Providers (CCLD)
           </span>
           <span className="flex items-center gap-1.5">
             <span>💰</span> No Cost to Families

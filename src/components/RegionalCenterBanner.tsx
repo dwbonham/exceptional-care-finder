@@ -21,7 +21,23 @@ export default function RegionalCenterBanner({ selectedState, selectedCounty, se
   const allLaGuide = laZipNotFound ? getFundingGuide(selectedState, undefined, selectedCounty) : null;
   const displayGuide = laZipNotFound ? allLaGuide : guide;
 
-  if (!displayGuide || displayGuide.localAgencies.length === 0) return null;
+  // County selected but no RC mapped — show DDS contact rather than nothing
+  if (!displayGuide || displayGuide.localAgencies.length === 0) {
+    if (selectedCounty && !laMode) {
+      return (
+        <div className="mb-8 rounded-2xl border border-amber-200 bg-amber-50 px-6 py-4">
+          <p className="text-sm font-semibold text-amber-700 mb-1">Regional Center Contact</p>
+          <p className="text-sm text-amber-600 leading-relaxed">
+            We don't have a Regional Center mapped for {selectedCounty} County yet.
+            Call California DDS at{' '}
+            <a href="tel:8334210061" className="underline font-semibold">(833) 421-0061</a>
+            {' '}to find your local center.
+          </p>
+        </div>
+      );
+    }
+    return null;
+  }
 
   const narrowed = laMode && selectedLaZip.length === 5 && !laZipNotFound && displayGuide.localAgencies.length < 7;
 
@@ -31,7 +47,7 @@ export default function RegionalCenterBanner({ selectedState, selectedCounty, se
         {narrowed
           ? 'Your Local Regional Center · First point of contact for funding'
           : laMode
-            ? 'Los Angeles County Regional Centers · 6 centers serve different communities'
+            ? 'Los Angeles County Regional Centers · 7 centers serve different communities'
             : 'Your Local Regional Center · First point of contact for funding'}
       </p>
 

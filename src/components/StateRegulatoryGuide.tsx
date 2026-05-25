@@ -141,7 +141,7 @@ export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip }: 
             </p>
             {isLaNoZip && (
               <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mb-4 leading-relaxed">
-                LA County has 7 Regional Centers. Enter your ZIP code in the filter above to see only yours.
+                LA County has 7 Regional Centers serving different areas. Enter your ZIP code above to narrow to yours.
               </p>
             )}
             {isLaZipNotFound && (

@@ -10,11 +10,11 @@
       "note": "Serves Sacramento, Placer, El Dorado, Yolo, Nevada, Sierra, and Plumas counties"
     },
     {
-      "county": "Butte, Glenn, Lassen, Modoc, Shasta, Siskiyou, Tehama, Trinity",
+      "county": "Butte, Glenn, Lassen, Modoc, Shasta, Siskiyou, Sutter, Tehama, Trinity, Yuba",
       "name": "Far Northern Regional Center",
       "phone": "(530) 222-4791",
       "websiteUrl": "https://www.fnrc.org",
-      "note": "Serves Butte, Glenn, Lassen, Modoc, Shasta, Siskiyou, Tehama, and Trinity counties"
+      "note": "Serves Butte, Glenn, Lassen, Modoc, Shasta, Siskiyou, Sutter, Tehama, Trinity, and Yuba counties"
     },
     {
       "county": "Del Norte, Humboldt, Lake, Mendocino, Trinity",
@@ -24,11 +24,11 @@
       "note": "Serves Del Norte, Humboldt, Lake, Mendocino, and Trinity counties"
     },
     {
-      "county": "Napa, Solano",
+      "county": "Napa, Solano, Sonoma",
       "name": "North Bay Regional Center",
       "phone": "(707) 256-1100",
       "websiteUrl": "https://www.nbrc.net",
-      "note": "Serves Napa and Solano counties. Also has offices in Fairfield and Napa"
+      "note": "Serves Napa, Solano, and Sonoma counties. Also has offices in Fairfield and Napa"
     },
     {
       "county": "San Francisco, Marin, San Mateo",
@@ -45,11 +45,11 @@
       "note": "Serves Alameda and Contra Costa counties"
     },
     {
-      "county": "Amador, Calaveras, San Joaquin, Stanislaus, Tuolumne",
+      "county": "Amador, Calaveras, Merced, San Joaquin, Stanislaus, Tuolumne",
       "name": "Valley Mountain Regional Center",
       "phone": "(209) 473-0951",
       "websiteUrl": "https://www.vmrc.net",
-      "note": "Serves Amador, Calaveras, San Joaquin, Stanislaus, and Tuolumne counties"
+      "note": "Serves Amador, Calaveras, Merced, San Joaquin, Stanislaus, and Tuolumne counties"
     },
     {
       "county": "Santa Clara, Santa Cruz, San Benito, Monterey",
@@ -59,11 +59,11 @@
       "note": "Serves Santa Clara, Santa Cruz, San Benito, and Monterey counties. Headquarters in Campbell"
     },
     {
-      "county": "Fresno, Kings, Madera, Tulare",
+      "county": "Fresno, Kings, Madera, Mariposa, Tulare",
       "name": "Central Valley Regional Center",
       "phone": "(559) 276-4300",
       "websiteUrl": "https://www.cvrc.org",
-      "note": "Serves Fresno, Kings, Madera, and Tulare counties"
+      "note": "Serves Fresno, Kings, Madera, Mariposa, and Tulare counties"
     },
     {
       "county": "Inyo, Kern, Mono",
