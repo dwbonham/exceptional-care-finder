@@ -200,8 +200,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "DADD",
-      "daysOfOperation": "Monday–Thursday",
-      "hoursOfOperation": "8:00am–3:30pm",
+      "daysOfOperation": "Monday\u2013Thursday",
+      "hoursOfOperation": "8:00am\u20133:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -268,7 +268,7 @@
         "Outdoor Activities (biking, farm animals)"
       ],
       "parentOrganization": "Kern County Autism Center",
-      "daysOfOperation": "Monday–Friday",
+      "daysOfOperation": "Monday\u2013Friday",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -298,7 +298,7 @@
   },
   {
     "legalLicenseName": "ACES",
-    "streetName": "Center for Activity – Control – Empowerment & Strength (ACES)",
+    "streetName": "Center for Activity \u2013 Control \u2013 Empowerment & Strength (ACES)",
     "ccldLicenseNumber": "157200175",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -337,8 +337,8 @@
         "Physical Conditioning/Mobility Enhancement"
       ],
       "parentOrganization": "Delano Association For The Developmentally Disabled",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–3:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20133:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -409,8 +409,8 @@
         "Work Experience"
       ],
       "parentOrganization": "Social Vocational Services, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -474,8 +474,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "Community Support Options, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–3:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20133:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -617,8 +617,8 @@
         "Life Skills Training",
         "Community Activities"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -688,8 +688,8 @@
         "Dietary Counseling"
       ],
       "parentOrganization": "Supportive Adult Independent Living Services (SAILS)",
-      "daysOfOperation": "Monday–Sunday",
-      "hoursOfOperation": "Mon-Fri: 9:00 AM–6:00 PM, Sat-Sun: 10:00 AM–4:00 PM",
+      "daysOfOperation": "Monday\u2013Sunday",
+      "hoursOfOperation": "Mon-Fri: 9:00 AM\u20136:00 PM, Sat-Sun: 10:00 AM\u20134:00 PM",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -825,8 +825,8 @@
         "Adaptive Sports"
       ],
       "parentOrganization": "New Advances for People with Disabilities (NAPD)",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–2:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20132:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities",
@@ -895,8 +895,8 @@
         "Medication Management"
       ],
       "parentOrganization": "National Mentor Holding, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–2:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20132:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -954,8 +954,8 @@
         "English"
       ],
       "parentOrganization": "Community Support Options, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00 AM–3:00 PM",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00 AM\u20133:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1021,8 +1021,8 @@
         "Recreational Activities"
       ],
       "parentOrganization": "Community Support Options (CSO)",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–3:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20133:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1107,7 +1107,7 @@
         "Workshops (communication, interviewing, job search, reflection)"
       ],
       "parentOrganization": "PathPoint",
-      "daysOfOperation": "Monday–Friday",
+      "daysOfOperation": "Monday\u2013Friday",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1174,8 +1174,8 @@
         "Employment Support"
       ],
       "parentOrganization": "Delano Association for the Developmentally Disabled",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–3:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20133:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -1251,8 +1251,8 @@
         "PenPals"
       ],
       "parentOrganization": "New Advances for People with Disabilities",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–2:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20132:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1328,8 +1328,8 @@
         "Advocacy services"
       ],
       "parentOrganization": "Sevita",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20132:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1458,8 +1458,8 @@
         "Life Skills Training",
         "Community Outings"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1530,8 +1530,8 @@
         "Music Therapy",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1603,8 +1603,8 @@
         "Volunteer Opportunities"
       ],
       "parentOrganization": "The Arc",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1643,7 +1643,7 @@
       "city": "California Ci",
       "state": "CA",
       "zipCode": "93505",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.12601404,
         "lng": -117.9884595
@@ -1705,7 +1705,7 @@
       "city": "Bakersfield",
       "state": "CA",
       "zipCode": "93313",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.31317748,
         "lng": -119.08539
@@ -1731,8 +1731,8 @@
         "Therapeutic Activities",
         "Social and Recreational Programming"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1770,7 +1770,7 @@
       "city": "Bakersfield",
       "state": "CA",
       "zipCode": "93301",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.3867536,
         "lng": -119.0086676
@@ -1788,8 +1788,8 @@
       "languagesSupported": [
         "English"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -1825,7 +1825,7 @@
       "city": "Bakersfield",
       "state": "CA",
       "zipCode": "93301",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.3761655,
         "lng": -119.0056365
@@ -1852,7 +1852,7 @@
         "Community events",
         "Individualized support"
       ],
-      "hoursOfOperation": "8:00am–6:30pm",
+      "hoursOfOperation": "8:00am\u20136:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -1888,7 +1888,7 @@
       "city": "Ridgecrest",
       "state": "CA",
       "zipCode": "93555",
-      "county": "Kern County",
+      "county": "Kern",
       "coordinates": {
         "lat": 35.65168239,
         "lng": -117.6886957
@@ -1987,8 +1987,8 @@
         "Life Skills Training",
         "Community Activities"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"

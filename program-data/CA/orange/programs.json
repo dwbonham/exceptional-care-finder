@@ -185,8 +185,8 @@
         "Field Trips"
       ],
       "parentOrganization": "City of Buena Park",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:30am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:30am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -256,8 +256,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "The Learning Light Foundation Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -326,8 +326,8 @@
         "Exercise"
       ],
       "parentOrganization": "Mount of Olives Church",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Early-stage dementia",
@@ -525,8 +525,8 @@
         "Personal Care Assistance",
         "Medication Management"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -593,8 +593,8 @@
         "Life Skills Training",
         "Community Integration"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20134:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -661,8 +661,8 @@
         "Paid Employment",
         "Self-Advocacy"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20132:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -869,8 +869,8 @@
         "Social and Recreational Programming"
       ],
       "parentOrganization": "Vocational Innovations",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00 AM–2:00 PM",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00 AM\u20132:00 PM",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -987,8 +987,8 @@
         "Life Skills Training",
         "Social Activities"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20134:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1055,8 +1055,8 @@
         "Personal Care Assistance",
         "Medication Management"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1194,8 +1194,8 @@
         "Music Therapy",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:30am–5pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:30am\u20135pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -1259,7 +1259,7 @@
         "Socialization"
       ],
       "parentOrganization": "Easterseals Southern California",
-      "daysOfOperation": "Monday–Friday",
+      "daysOfOperation": "Monday\u2013Friday",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Memory Loss",
@@ -1327,8 +1327,8 @@
         "Arts and Crafts",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "7:30am–3:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "7:30am\u20133:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1463,8 +1463,8 @@
         "Vocational Training",
         "Community Integration"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "7:30am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "7:30am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1764,7 +1764,7 @@
       "city": "Anaheim",
       "state": "CA",
       "zipCode": "92804",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.80320496,
         "lng": -117.9481186
@@ -1794,8 +1794,8 @@
         "Vocational Training/Employment Support"
       ],
       "parentOrganization": "Vocational Innovations",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20132:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -1833,7 +1833,7 @@
       "city": "Irvine",
       "state": "CA",
       "zipCode": "92618",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.66262692,
         "lng": -117.7544824
@@ -1905,7 +1905,7 @@
       "city": "Buena Park",
       "state": "CA",
       "zipCode": "90620",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.82087907,
         "lng": -118.0108173
@@ -1973,7 +1973,7 @@
       "city": "Anaheim",
       "state": "CA",
       "zipCode": "92805",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.84073595,
         "lng": -117.8912696
@@ -1997,8 +1997,8 @@
         "Social Skills Training",
         "Vocational Workshop"
       ],
-      "daysOfOperation": "Monday–Saturday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Saturday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -2036,7 +2036,7 @@
       "city": "Santa Ana",
       "state": "CA",
       "zipCode": "92705",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.710283,
         "lng": -117.84699
@@ -2065,8 +2065,8 @@
         "Social Skills Training",
         "Community Safety Awareness"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "7:30am–4:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "7:30am\u20134:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -2105,7 +2105,7 @@
       "city": "Laguna Hills",
       "state": "CA",
       "zipCode": "92653",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.62552435,
         "lng": -117.7238939
@@ -2171,7 +2171,7 @@
       "city": "Buena Park",
       "state": "CA",
       "zipCode": "90620",
-      "county": "Orange County",
+      "county": "Orange",
       "coordinates": {
         "lat": 33.83934817,
         "lng": -118.018351

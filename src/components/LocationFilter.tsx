@@ -11,7 +11,7 @@ interface Props {
 }
 
 const SELECT_CLASS =
-  'w-full appearance-none bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 pr-9 text-sm font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-blue-400 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed';
+  'w-full appearance-none bg-[#EFF4FA] border border-[#1E3A5F]/15 rounded-xl px-4 py-2.5 pr-9 text-sm font-ui font-medium text-[#1E3A5F] focus:outline-none focus:ring-2 focus:ring-[#1E3A5F]/25 focus:border-[#1E3A5F] cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed';
 
 function Chevron() {
   return (
@@ -47,7 +47,7 @@ export default function LocationFilter({
   }
 
   return (
-    <div className="bg-white border-b border-slate-200 shadow-sm sticky top-0 z-20">
+    <div className="bg-white border-b border-stone-200 shadow-sm sticky top-0 z-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex flex-col sm:flex-row sm:items-center gap-3">
 
@@ -56,7 +56,7 @@ export default function LocationFilter({
 
             {/* Location group */}
             <div className="flex gap-2 flex-1">
-              <div className="flex items-center px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm font-semibold text-slate-600 whitespace-nowrap shrink-0">
+              <div className="flex items-center px-4 py-2.5 bg-[#1E3A5F] rounded-xl text-sm font-ui font-semibold text-white whitespace-nowrap shrink-0">
                 California
               </div>
 
@@ -119,8 +119,8 @@ export default function LocationFilter({
                 Clear all
               </button>
             )}
-            <span className="text-sm text-slate-400 whitespace-nowrap">
-              <span className="font-semibold text-slate-700">{totalResults}</span>{' '}
+            <span className="font-ui text-sm text-stone-400 whitespace-nowrap">
+              <span className="font-semibold text-[#C2410C]">{totalResults}</span>{' '}
               {totalResults === 1 ? 'program' : 'programs'}
             </span>
           </div>

@@ -111,7 +111,7 @@ const countyCount = new Set(allPrograms.map((p) => p.location.county)).size;
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-[#FAF7F2]">
       {/* Page header */}
       <div
         className="relative overflow-hidden"
@@ -127,8 +127,8 @@ export default function AboutPage() {
             <span className="text-yellow-300 text-sm">✦</span>
             <span className="text-white/90 text-sm font-medium tracking-wide">About This Site</span>
           </div>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-4">
-            California Adult Day Program Finder
+          <h1 className="font-display text-4xl sm:text-5xl font-semibold text-white leading-tight mb-4">
+            California <em className="italic">Adult Day Program Finder</em>
           </h1>
           <p className="text-lg text-blue-100 leading-relaxed max-w-xl mx-auto">
             A searchable directory of state-licensed Adult Day Programs for adults with developmental disabilities — built for families navigating the Regional Center system.

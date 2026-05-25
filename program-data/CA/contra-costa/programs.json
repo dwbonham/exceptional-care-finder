@@ -28,7 +28,7 @@
       "yearEstablished": 1982,
       "languagesSupported": [
         "English",
-        "Español"
+        "Espa\u00f1ol"
       ],
       "facilityFeatures": [
         "Wheelchair Accessible",
@@ -39,8 +39,8 @@
         "Life Skills Training",
         "Field Trips"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "10:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "10:00am\u20134:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -110,8 +110,8 @@
         "Vocational Training"
       ],
       "parentOrganization": "Vistability",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–3:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20133:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities",
@@ -253,8 +253,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "Community Integrated Work Program, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -381,8 +381,8 @@
       "languagesSupported": [
         "English"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00 AM\u20136:00 PM",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -434,8 +434,8 @@
       "languagesSupported": [
         "English"
       ],
-      "daysOfOperation": "Monday–Sunday",
-      "hoursOfOperation": "Monday–Friday: 9:00am–6:00pm, Saturday–Sunday: 10:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Sunday",
+      "hoursOfOperation": "Monday\u2013Friday: 9:00am\u20136:00pm, Saturday\u2013Sunday: 10:00am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -504,8 +504,8 @@
         "Vocational Program"
       ],
       "parentOrganization": "Vistability",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:30am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:30am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -576,8 +576,8 @@
         "Vocational Program"
       ],
       "parentOrganization": "VistAbility",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–3:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20133:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -648,8 +648,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "Pathway to Choices, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–1:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20131:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -712,8 +712,8 @@
         "Therapeutic activities",
         "Social and recreational programming"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00 AM\u20136:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Adults with disabilities"
@@ -845,8 +845,8 @@
         "Music Therapy",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20134:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -918,8 +918,8 @@
         "Therapeutic Programming"
       ],
       "parentOrganization": "Futures Explored",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -989,8 +989,8 @@
         "Life Skills Training",
         "Academic Instruction (reading, writing, math)"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1061,8 +1061,8 @@
         "Social Activities",
         "Recreational Activities"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–3:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20133:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -1135,7 +1135,7 @@
         "Community Integration"
       ],
       "parentOrganization": "Sevita",
-      "daysOfOperation": "Monday–Friday",
+      "daysOfOperation": "Monday\u2013Friday",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1215,8 +1215,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "Social Vocational Services, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–3:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20133:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -1360,8 +1360,8 @@
         "Support Groups"
       ],
       "parentOrganization": "Mission-Hope Day Program",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00 AM\u20136:00 PM",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1429,8 +1429,8 @@
         "Indoor Sports",
         "Community Outings"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities",
@@ -1502,8 +1502,8 @@
         "Recreational Activities"
       ],
       "parentOrganization": "Social Vocational Services",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–3:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20133:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1567,8 +1567,8 @@
         "Arts and Crafts"
       ],
       "parentOrganization": "Community Integrated Support Services",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities"
@@ -1634,8 +1634,8 @@
         "Meals and Snacks"
       ],
       "parentOrganization": "Aim High (Concord, CA)",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -1702,8 +1702,8 @@
         "Fitness Activities",
         "Recreational Activities"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20132:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1774,8 +1774,8 @@
         "Community Integration",
         "Recreational Activities"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–3:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20133:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -1841,8 +1841,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "VistAbility",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–3:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20133:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1994,8 +1994,8 @@
         "Fitness Activities",
         "Recreational Activities"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20132:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -2070,8 +2070,8 @@
         "Dance Classes"
       ],
       "parentOrganization": "Las Trampas, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:30am–4:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:30am\u20134:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -2139,8 +2139,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "Futures Explored",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–3:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20133:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities"
@@ -2214,8 +2214,8 @@
         "Social Activities",
         "Community Integration"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -2253,7 +2253,7 @@
       "city": "El Sobrante",
       "state": "CA",
       "zipCode": "94803",
-      "county": "Contra Costa County",
+      "county": "Contra Costa",
       "coordinates": {
         "lat": 37.96530903,
         "lng": -122.3127566
@@ -2287,8 +2287,8 @@
         "Social Engagement Opportunities",
         "Therapeutic Interventions"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -2327,7 +2327,7 @@
       "city": "Brentwood",
       "state": "CA",
       "zipCode": "94513",
-      "county": "Contra Costa County",
+      "county": "Contra Costa",
       "coordinates": {
         "lat": 37.94676473,
         "lng": -121.698807
@@ -2351,8 +2351,8 @@
         "Community Integration",
         "Social Engagement"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20132:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -2389,7 +2389,7 @@
       "city": "Concord",
       "state": "CA",
       "zipCode": "94520",
-      "county": "Contra Costa County",
+      "county": "Contra Costa",
       "coordinates": {
         "lat": 37.98394563,
         "lng": -122.0485038
@@ -2409,8 +2409,8 @@
         "English"
       ],
       "parentOrganization": "Open House Center",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "7:30am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "7:30am\u20134:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -2449,7 +2449,7 @@
       "city": "Concord",
       "state": "CA",
       "zipCode": "94520",
-      "county": "Contra Costa County",
+      "county": "Contra Costa",
       "coordinates": {
         "lat": 37.97831329,
         "lng": -122.0542551
@@ -2481,8 +2481,8 @@
         "Employment Support",
         "Vocational Training (Film/Media)"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–3:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20133:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",

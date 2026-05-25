@@ -41,8 +41,8 @@
         "Community Integration"
       ],
       "parentOrganization": "Social Vocational Services, Inc. (SVS)",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -80,7 +80,7 @@
       "city": "Madera",
       "state": "CA",
       "zipCode": "93637",
-      "county": "Madera County",
+      "county": "Madera",
       "coordinates": {
         "lat": 36.974646,
         "lng": -120.0800603
@@ -113,8 +113,8 @@
         "Recreational Activities"
       ],
       "parentOrganization": "Social Vocational Services",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "7:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "7:00am\u20134:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -149,7 +149,7 @@
       "city": "Madera",
       "state": "CA",
       "zipCode": "93638",
-      "county": "Madera County",
+      "county": "Madera",
       "coordinates": {
         "lat": 36.988453,
         "lng": -120.0747452
@@ -183,8 +183,8 @@
         "Community Integration"
       ],
       "parentOrganization": "The Arc of Fresno and Madera Counties",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–4:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20134:30pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",

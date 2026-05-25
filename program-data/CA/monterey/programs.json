@@ -45,8 +45,8 @@
         "Gardening",
         "Pre-vocational Experience"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -182,8 +182,8 @@
         "Advocacy"
       ],
       "parentOrganization": "Gateway Center of Monterey County, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Intellectual Disabilities",
@@ -251,8 +251,8 @@
         "Socialization"
       ],
       "parentOrganization": "Social Vocational Services, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00 AM\u20136:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -333,7 +333,7 @@
         "Health and Well-being"
       ],
       "parentOrganization": "Social Vocational Services, Inc.",
-      "daysOfOperation": "Monday–Friday",
+      "daysOfOperation": "Monday\u2013Friday",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -396,8 +396,8 @@
         "Life Skills Training",
         "Vocational Skills Training"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20132:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -466,8 +466,8 @@
         "Functional Education",
         "Pre-Vocational Skills"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00AM–2:00PM",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00AM\u20132:00PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities",
@@ -508,7 +508,7 @@
       "city": "Salinas",
       "state": "CA",
       "zipCode": "93906",
-      "county": "Monterey County",
+      "county": "Monterey",
       "coordinates": {
         "lat": 36.69020468,
         "lng": -121.6524506
@@ -533,8 +533,8 @@
         "Self-Advocacy Skills",
         "Social and Recreational Activities"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20132:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",

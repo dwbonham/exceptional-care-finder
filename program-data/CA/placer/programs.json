@@ -131,8 +131,8 @@
         "Self-Advocacy",
         "Community Integration"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00AM–3:00PM",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00AM\u20133:00PM",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -194,8 +194,8 @@
         "Community Integration",
         "Behavior Management"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20132:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities",
@@ -327,7 +327,7 @@
         "Arts and Crafts",
         "Life Skills Training"
       ],
-      "daysOfOperation": "Monday–Friday",
+      "daysOfOperation": "Monday\u2013Friday",
       "hoursOfOperation": "9:00 AM - 6:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
@@ -462,8 +462,8 @@
         "Physical Activities"
       ],
       "parentOrganization": "Aim Higher Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:30am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:30am\u20135:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -523,7 +523,7 @@
         "Social Activities",
         "Therapeutic Activities"
       ],
-      "daysOfOperation": "Monday–Friday",
+      "daysOfOperation": "Monday\u2013Friday",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -592,8 +592,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "Reach Adult Development, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–2:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20132:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -657,7 +657,7 @@
         "Communication Skills Training"
       ],
       "parentOrganization": "Adult Day Experiences, Inc.",
-      "daysOfOperation": "Monday–Sunday",
+      "daysOfOperation": "Monday\u2013Sunday",
       "hoursOfOperation": "Mon-Fri: 9:00 AM - 6:00 PM Sat-Sun: 10:00 AM - 4:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
@@ -809,7 +809,7 @@
       "city": "Roseville",
       "state": "CA",
       "zipCode": "95678",
-      "county": "Placer County",
+      "county": "Placer",
       "coordinates": {
         "lat": 38.74259411,
         "lng": -121.2923309
@@ -838,8 +838,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "The Arc of Placer County",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "7:30am–3:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "7:30am\u20133:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",

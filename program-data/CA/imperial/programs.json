@@ -36,8 +36,8 @@
         "Camps"
       ],
       "parentOrganization": "Easterseals Southern California",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–4:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20134:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -179,8 +179,8 @@
         "Community Integration Activities"
       ],
       "parentOrganization": "The Arc Imperial Valley",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -220,7 +220,7 @@
       "city": "El Centro",
       "state": "CA",
       "zipCode": "92243",
-      "county": "Imperial County",
+      "county": "Imperial",
       "coordinates": {
         "lat": 32.79284673,
         "lng": -115.5574722

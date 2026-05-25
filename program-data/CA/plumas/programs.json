@@ -10,7 +10,7 @@
       "city": "Quincy",
       "state": "CA",
       "zipCode": "95971",
-      "county": "Plumas County",
+      "county": "Plumas",
       "coordinates": {
         "lat": 39.93676623,
         "lng": -120.9469913
@@ -42,8 +42,8 @@
         "Health & Exercise Programs"
       ],
       "parentOrganization": "Plumas Rural Services",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities",

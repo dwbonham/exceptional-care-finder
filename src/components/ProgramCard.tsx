@@ -19,11 +19,11 @@ export default function ProgramCard({ program }: Props) {
   const fullAddress = `${location.street}, ${location.city}, ${location.state} ${location.zipCode}`;
 
   return (
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-200 border border-slate-100 overflow-hidden flex flex-col">
+    <div className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-200 border border-stone-100 border-l-4 border-l-[#C2410C] overflow-hidden flex flex-col">
 
       {/* Card header */}
       <div className="px-6 pt-6 pb-4 border-b border-slate-100">
-        <h2 className="text-xl font-bold text-slate-900 leading-snug mb-1">
+        <h2 className="font-display text-xl font-semibold text-[#1C1917] leading-snug mb-1">
           {program.streetName}
         </h2>
         <p className="text-sm text-slate-500">
@@ -191,7 +191,7 @@ export default function ProgramCard({ program }: Props) {
         <div className="mt-auto flex gap-3">
           <button
             onClick={() => setMapOpen(true)}
-            className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 border border-blue-200 text-blue-600 hover:bg-blue-50 active:bg-blue-100 font-semibold text-sm rounded-xl transition-colors duration-150 cursor-pointer"
+            className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 border border-[#C2410C]/25 text-[#C2410C] hover:bg-[#FEF2EE] active:bg-[#FDE8E0] font-ui font-semibold text-sm rounded-xl transition-colors duration-150 cursor-pointer"
           >
             🗺️ View on Map
           </button>
@@ -200,7 +200,7 @@ export default function ProgramCard({ program }: Props) {
               href={contact.websiteUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold text-sm rounded-xl transition-colors duration-150 shadow-sm"
+              className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 bg-[#C2410C] hover:bg-[#A33509] active:bg-[#8A2E07] text-white font-ui font-semibold text-sm rounded-xl transition-colors duration-150 shadow-sm"
             >
               Website <span className="text-xs opacity-80">↗</span>
             </a>
@@ -243,7 +243,7 @@ export default function ProgramCard({ program }: Props) {
                     key={i}
                     className="flex items-start gap-2.5 text-sm text-slate-600 leading-relaxed"
                   >
-                    <span className="mt-0.5 text-blue-400 shrink-0">•</span>
+                    <span className="mt-0.5 text-[#C2410C] shrink-0">•</span>
                     <span>{review}</span>
                   </li>
                 ))}

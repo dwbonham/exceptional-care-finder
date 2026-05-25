@@ -28,7 +28,9 @@ function normalizeCounty(raw) {
   if (!raw) return raw;
   const s = raw.trim();
   if (s.toLowerCase().includes('city and')) return 'San Francisco';
-  return s.replace(/ County$/i, '').trim();
+  const stripped = s.replace(/ County$/i, '').trim();
+  // Title-case to fix all-caps CCLD values (e.g. "SAN BERNARDINO" → "San Bernardino")
+  return stripped.toLowerCase().replace(/\b([a-z])/g, c => c.toUpperCase());
 }
 
 // ─── Deduplication helpers ────────────────────────────────────────────────────

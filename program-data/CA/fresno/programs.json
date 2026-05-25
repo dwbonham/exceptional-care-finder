@@ -735,7 +735,7 @@
         "Community Integration Activities",
         "Self-Advocacy"
       ],
-      "daysOfOperation": "Monday–Friday",
+      "daysOfOperation": "Monday\u2013Friday",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -808,8 +808,8 @@
         "Recreational Activities"
       ],
       "parentOrganization": "Social Vocational Services",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -879,8 +879,8 @@
         "Education"
       ],
       "parentOrganization": "Central Valley Training Center, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–6:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00am\u20136:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -945,8 +945,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "The Arc of Fresno and Madera Counties",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "9:00 AM\u20136:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1022,8 +1022,8 @@
         "Recreational Activities"
       ],
       "parentOrganization": "Social Vocational Services, Inc.",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1092,8 +1092,8 @@
         "Occupational Therapy",
         "Nursing Services"
       ],
-      "daysOfOperation": "Monday–Friday, 9:00 AM–6:00 PM; Saturday–Sunday, 10:00 AM–4:00 PM",
-      "hoursOfOperation": "9:00 AM–6:00 PM (Mon-Fri), 10:00 AM–4:00 PM (Sat-Sun)",
+      "daysOfOperation": "Monday\u2013Friday, 9:00 AM\u20136:00 PM; Saturday\u2013Sunday, 10:00 AM\u20134:00 PM",
+      "hoursOfOperation": "9:00 AM\u20136:00 PM (Mon-Fri), 10:00 AM\u20134:00 PM (Sat-Sun)",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -1222,8 +1222,8 @@
         "Career Exploration"
       ],
       "parentOrganization": "Social Vocational Services",
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:00am–5:00pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:00am\u20135:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -1337,7 +1337,7 @@
       "city": "Fresno",
       "state": "CA",
       "zipCode": "93720",
-      "county": "Fresno County",
+      "county": "Fresno",
       "coordinates": {
         "lat": 36.87146438,
         "lng": -119.7632232
@@ -1416,7 +1416,7 @@
       "city": "Clovis",
       "state": "CA",
       "zipCode": "93612",
-      "county": "Fresno County",
+      "county": "Fresno",
       "coordinates": {
         "lat": 36.79398684,
         "lng": -119.7112571
@@ -1449,8 +1449,8 @@
         "Athletics",
         "Instructional Cooking"
       ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "8:30am–4:30pm",
+      "daysOfOperation": "Monday\u2013Friday",
+      "hoursOfOperation": "8:30am\u20134:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Intellectual Disabilities",

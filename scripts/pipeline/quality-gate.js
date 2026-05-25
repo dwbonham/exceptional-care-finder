@@ -113,7 +113,7 @@ export function buildProgramRecord(ccldRecord, enrichResult, geocodeResult, comp
       city:    _titleCase(ccldRecord.city),
       state:   ccldRecord.state,
       zipCode: ccldRecord.zipCode,
-      county:  ccldRecord.county,
+      county:  _normalizeCounty(ccldRecord.county),
       ...(geocodeResult?.lat != null && geocodeResult?.lng != null
         ? { coordinates: { lat: geocodeResult.lat, lng: geocodeResult.lng } }
         : {}),
@@ -169,6 +169,14 @@ export function buildProgramRecord(ccldRecord, enrichResult, geocodeResult, comp
 }
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
+
+// Normalize a raw CCLD county value: handle garbled SF name, strip " County" suffix, title-case.
+// Applied in buildProgramRecord so it corrects stale checkpoint values and all-caps CCLD output.
+function _normalizeCounty(county) {
+  if (!county) return county;
+  if (county.toLowerCase().includes('city and')) return 'San Francisco';
+  return _titleCase(county.replace(/ County$/i, '').trim());
+}
 
 // CCLD exports addresses and city names in all-caps ("4635 BROADWAY", "SAN BERNARDINO").
 // Title-case them for display ("4635 Broadway", "San Bernardino").

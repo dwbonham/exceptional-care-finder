@@ -8,19 +8,16 @@ export default function StateRegulatoryGuide() {
   if (!guide) return null;
 
   return (
-    <div className="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden flex flex-col min-h-0">
+    <div className="bg-white border border-stone-200 rounded-2xl shadow-sm overflow-hidden flex flex-col min-h-0">
       {/* Header — fixed */}
-      <div
-        className="px-6 py-5 shrink-0"
-        style={{ background: 'linear-gradient(135deg, #1e40af 0%, #2563eb 100%)' }}
-      >
+      <div className="px-6 py-5 shrink-0 bg-[#1E3A5F]">
         <div className="flex items-center gap-2 mb-1">
           <span className="text-lg" aria-hidden="true">📋</span>
-          <span className="text-xs font-semibold text-blue-200 uppercase tracking-widest">
+          <span className="text-xs font-ui font-semibold text-blue-200 uppercase tracking-widest">
             State Guide · CA
           </span>
         </div>
-        <h2 className="text-base font-bold text-white leading-snug">{guide.title}</h2>
+        <h2 className="font-display text-base font-semibold text-white leading-snug">{guide.title}</h2>
       </div>
 
       {/* Scrollable body */}
@@ -34,7 +31,7 @@ export default function StateRegulatoryGuide() {
                 className="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-slate-50 transition-colors duration-150 cursor-pointer"
                 aria-expanded={openIndex === i}
               >
-                <span className="text-sm font-semibold text-slate-700 pr-4">{faq.question}</span>
+                <span className="font-ui text-sm font-semibold text-[#1E3A5F] pr-4">{faq.question}</span>
                 <span
                   className={`text-slate-400 text-sm shrink-0 transition-transform duration-200 ${
                     openIndex === i ? 'rotate-180' : ''
@@ -54,7 +51,7 @@ export default function StateRegulatoryGuide() {
                       href={faq.sourceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                      className="inline-flex items-center gap-1.5 text-xs font-medium text-[#C2410C] hover:text-[#A33509] hover:underline"
                     >
                       <span aria-hidden="true">📄</span>
                       {faq.sourceLabel ?? 'Official Source'}
@@ -84,7 +81,7 @@ export default function StateRegulatoryGuide() {
                     <div className="flex flex-wrap gap-x-4 gap-y-1 mt-1.5">
                       <a
                         href={`tel:${agency.phone}`}
-                        className="text-xs text-blue-600 hover:underline"
+                        className="text-xs text-[#C2410C] hover:underline"
                       >
                         {agency.phone}
                       </a>
@@ -92,7 +89,7 @@ export default function StateRegulatoryGuide() {
                         href={agency.websiteUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-xs text-blue-600 hover:underline"
+                        className="text-xs text-[#C2410C] hover:underline"
                       >
                         Website ↗
                       </a>

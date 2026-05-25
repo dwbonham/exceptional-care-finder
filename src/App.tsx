@@ -23,20 +23,20 @@ export default function App() {
   const filtered = filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType);
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-[#FAF7F2]">
       {/* Top nav */}
-      <nav className="bg-white border-b border-slate-200 sticky top-0 z-50">
+      <nav className="bg-white border-b border-stone-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-11">
-          <span className="font-semibold text-slate-700 text-sm">California Adult Day Program Finder</span>
+          <span className="font-ui font-semibold text-[#1E3A5F] text-sm tracking-wide">California Adult Day Program Finder</span>
           <div className="flex gap-1">
             {(['finder', 'about'] as const).map((v) => (
               <button
                 key={v}
                 onClick={() => setView(v)}
-                className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-colors cursor-pointer ${
+                className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-colors cursor-pointer font-ui ${
                   view === v
-                    ? 'bg-blue-50 text-blue-700'
-                    : 'text-slate-500 hover:text-slate-700 hover:bg-slate-50'
+                    ? 'bg-[#FEF2EE] text-[#C2410C]'
+                    : 'text-stone-500 hover:text-stone-700 hover:bg-stone-50'
                 }`}
               >
                 {v === 'finder' ? 'Find Programs' : 'About'}
@@ -95,12 +95,12 @@ export default function App() {
         </div>
       </main>
 
-      <footer className="border-t border-slate-200 bg-white mt-16">
-        <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-400">
-          <span>© {new Date().getFullYear()} California Adult Day Program Finder</span>
-          <span className="flex items-center gap-1.5">
-            <span className="text-violet-500">✨</span>
-            AI-assisted program summaries. Always verify directly with providers.
+      <footer className="border-t border-stone-200 bg-[#1E3A5F] mt-16">
+        <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <span className="font-display italic text-white/80 text-base">Exceptional Care Finder</span>
+          <span className="font-ui text-sm text-white/50 flex items-center gap-1.5">
+            <span className="text-amber-300">✨</span>
+            AI-assisted summaries. Always verify directly with providers.
           </span>
         </div>
       </footer>
