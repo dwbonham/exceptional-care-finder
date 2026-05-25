@@ -40,36 +40,81 @@ GitHub Actions (weekly cron — Monday 6am PT + catch-up Tue–Sun)
         │
         ▼
 1. CCLD Ingest
-   Downloads the CA Community Care Licensing (CCLD) database from
-   the state's public data portal. Filters to "Adult Day Program"
-   license type only — a critical distinction from "Adult Day Health
-   Care," which is a different program with different funding and
-   a different population.
+   Data source: CA Community Care Licensing (CCLD) ArcGIS FeatureServer
+   Portal: https://gis.data.chhs.ca.gov
+   Dataset: CKAN ID 3c2fc34a-8517-4938-b3ee-992af04cd6b7
+   API: services.arcgis.com/.../CDSS_CCL_Facilities/FeatureServer/0/query
+
+   Fetches all records where TYPE = 775 ("Adult Day Care"). This filter
+   is critical — type 775 is a broad CCLD category that includes
+   DDS-funded DD programs, senior/dementia ADHC programs, and mental
+   health IOPs. The Gemini servesDDPopulation field (Step 2) is the
+   second filter that removes non-DD programs before they reach the site.
+
    Diffs the new download against the checkpoint using CCLD License
-   Number as the primary key. Only new or changed programs advance.
+   Number as the primary key. Only new or status-changed programs
+   advance to enrichment. Revoked programs are removed immediately.
         │
         ▼
 2. Gemini API — Program Enrichment
-   For each new program, calls Gemini with Google Search grounding
-   to research: display name, website, phone, hours, languages,
-   facility features, population focus, and parent organization.
-   Returns structured JSON mapped directly to the data schema.
+   Model: gemini-2.5-flash | Temp: 0.1 | Tool: Google Search grounding
+
+   Prompt identifies the program as serving adults with developmental
+   disabilities funded by California Regional Centers. Passes the
+   legal name, address, county, license number, and licensed capacity.
+
+   Returns structured JSON:
+   {
+     streetName, phone, websiteUrl, parentOrganization, yearEstablished,
+     daysOfOperation, hoursOfOperation,
+     languagesSupported: [],
+     facilityFeatures: ["Wheelchair Accessible", "Sensory Room", ...],
+     activitiesOffered: ["Music Therapy", "Life Skills Training", ...],
+     selfDeterminationAccepted: "Yes|No|Unknown",
+     populationSpecialization: ["Autism", "Down Syndrome", ...],
+     maximumAge, programFocus,
+     acceptsPrivatePay: "Yes|No|Unknown",
+     transportationServiceArea,
+     webPresenceFound: true/false,
+     servesDDPopulation: "Yes|No|Unknown"
+   }
+
+   servesDDPopulation is the population filter: "No" removes the program
+   entirely. "Unknown" passes through (publish what we know). This catches
+   senior dementia centers and mental health IOPs that share the type 775
+   license code but are the wrong program type for this directory.
         │
         ▼
 3. Gemini API — Community Sentiment (manual runs only)
-   Second Gemini call per program (only when WITH_SENTIMENT=1).
-   Searches public web sources: program sites, news, state agency
-   pages, parent forums. Yelp and Google Reviews explicitly excluded
-   (ToS prohibits automated republication).
-   Returns up to 3 AI-written factual sentences about the program.
-   Programs with fewer than 2 discoverable sources are flagged rather
-   than published with fabricated content.
+   Model: gemini-2.5-flash | Temp: 0.1 | Tool: Google Search grounding
+   Only runs when WITH_SENTIMENT=1 (manual workflow dispatch).
+
+   Prompt passes the program name, city/county, website, and license
+   number. Instructs Gemini to search: program's official website,
+   local news, state agency pages, nonprofit directories, and parent
+   advocacy forums. Yelp, Google Maps, and review aggregators are
+   explicitly excluded — their ToS prohibits automated republication.
+
+   Returns structured JSON:
+   {
+     "bullets": ["Sentence 1.", "Sentence 2.", "Sentence 3."],
+     "sourcesFound": 2,
+     "flaggedForReview": false
+   }
+
+   Each sentence must be under 150 characters and convey something
+   useful: program specialty, population focus, history, accreditation,
+   or community involvement. flaggedForReview is set to true (and
+   bullets to []) if fewer than 2 credible public sources are found —
+   preventing fabricated content from reaching the site.
         │
         ▼
 4. Auto-Geocoding
    Converts each program's street address to lat/lng using the
-   Google Maps Geocoding API. Stored in the program record for
-   the map view.
+   Google Maps Geocoding API. Uses CCLD's built-in FAC_LATITUDE /
+   FAC_LONGITUDE fields first — a Google Maps API call is only made
+   when those are missing or outside California bounds. Stored in the
+   program record for the map view.
         │
         ▼
 5. Quality Gate
