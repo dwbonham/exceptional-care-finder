@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 
 export interface ProgramSearchItem {
   ccldLicenseNumber: string;
@@ -40,19 +41,17 @@ function ProgramSearchBox({
   selectedId,
   onSelect,
   onClear,
-  disabled,
 }: {
   items: ProgramSearchItem[];
   selectedId: string;
   onSelect: (id: string) => void;
   onClear: () => void;
-  disabled: boolean;
 }) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [cursor, setCursor] = useState(-1);
+  const [anchorRect, setAnchorRect] = useState<DOMRect | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
 
   const q = query.toLowerCase();
   const results = q.length < 1 ? [] : items
@@ -63,6 +62,14 @@ function ProgramSearchBox({
     )
     .slice(0, 10);
 
+  // Recalculate dropdown anchor position whenever it opens
+  useEffect(() => {
+    if (open && containerRef.current) {
+      setAnchorRect(containerRef.current.getBoundingClientRect());
+    }
+  }, [open]);
+
+  // Close on outside click
   useEffect(() => {
     function handleClick(e: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
@@ -90,11 +97,14 @@ function ProgramSearchBox({
     }
   }
 
+  const showResults = open && anchorRect && results.length > 0;
+  const showEmpty = open && anchorRect && query.length >= 1 && results.length === 0;
+
   if (selectedId) {
     const found = items.find(i => i.ccldLicenseNumber === selectedId);
     return (
       <div className="flex items-center gap-2 bg-[#FEF2EE] border border-[#C2410C]/25 rounded-xl px-3 py-2.5 text-sm font-ui">
-        <span className="text-[#C2410C] shrink-0">🔍</span>
+        <span className="text-[#C2410C] shrink-0 text-xs">🔍</span>
         <span className="font-medium text-[#1E3A5F] truncate flex-1 min-w-0">
           {found?.displayName ?? 'Selected program'}
         </span>
@@ -112,48 +122,57 @@ function ProgramSearchBox({
   return (
     <div ref={containerRef} className="relative flex-1">
       <div className="relative">
-        <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">🔍</span>
+        <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs">🔍</span>
         <input
-          ref={inputRef}
           type="text"
           placeholder="Search by program or org name…"
           value={query}
-          disabled={disabled}
           onChange={e => { setQuery(e.target.value); setOpen(true); setCursor(-1); }}
           onFocus={() => { if (query) setOpen(true); }}
           onKeyDown={handleKeyDown}
-          className="w-full bg-[#EFF4FA] border border-[#1E3A5F]/15 rounded-xl pl-9 pr-4 py-2.5 text-sm font-ui font-medium text-[#1E3A5F] placeholder:text-slate-400 placeholder:font-normal focus:outline-none focus:ring-2 focus:ring-[#1E3A5F]/25 focus:border-[#1E3A5F] disabled:opacity-40 disabled:cursor-not-allowed"
+          className="w-full bg-[#EFF4FA] border border-[#1E3A5F]/15 rounded-xl pl-8 pr-4 py-2.5 text-sm font-ui font-medium text-[#1E3A5F] placeholder:text-slate-400 placeholder:font-normal focus:outline-none focus:ring-2 focus:ring-[#1E3A5F]/25 focus:border-[#1E3A5F]"
         />
       </div>
 
-      {open && results.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-lg z-50 max-h-72 overflow-y-auto">
-          {results.map((item, i) => {
-            const showLegal = item.legalName !== item.displayName;
-            return (
-              <button
-                key={item.ccldLicenseNumber}
-                onMouseDown={e => { e.preventDefault(); onSelect(item.ccldLicenseNumber); setQuery(''); setOpen(false); }}
-                onMouseEnter={() => setCursor(i)}
-                className={`w-full text-left px-4 py-2.5 cursor-pointer transition-colors ${
-                  cursor === i ? 'bg-[#EFF4FA]' : 'hover:bg-slate-50'
-                }`}
-              >
-                <div className="font-medium text-sm text-[#1E3A5F] truncate">{item.displayName}</div>
-                <div className="text-xs text-slate-400 mt-0.5">
-                  {item.city}, {item.county} County
-                  {showLegal && <span className="ml-1.5 text-slate-300">· {item.legalName}</span>}
+      {(showResults || showEmpty) && anchorRect && createPortal(
+        <div
+          style={{
+            position: 'fixed',
+            top: anchorRect.bottom + 4,
+            left: anchorRect.left,
+            width: anchorRect.width,
+            zIndex: 9999,
+          }}
+          className="bg-white border border-slate-200 rounded-xl shadow-xl max-h-72 overflow-y-auto"
+        >
+          {showResults
+            ? results.map((item, i) => {
+                const showLegal = item.legalName !== item.displayName;
+                return (
+                  <button
+                    key={item.ccldLicenseNumber}
+                    onMouseDown={e => { e.preventDefault(); onSelect(item.ccldLicenseNumber); setQuery(''); setOpen(false); }}
+                    onMouseEnter={() => setCursor(i)}
+                    className={`w-full text-left px-4 py-2.5 cursor-pointer transition-colors ${
+                      cursor === i ? 'bg-[#EFF4FA]' : 'hover:bg-slate-50'
+                    }`}
+                  >
+                    <div className="font-medium text-sm text-[#1E3A5F] truncate">{item.displayName}</div>
+                    <div className="text-xs text-slate-400 mt-0.5">
+                      {item.city}, {item.county} County
+                      {showLegal && <span className="ml-1.5 text-slate-300">· {item.legalName}</span>}
+                    </div>
+                  </button>
+                );
+              })
+            : (
+                <div className="px-4 py-3 text-sm text-slate-400">
+                  No programs found for "{query}"
                 </div>
-              </button>
-            );
-          })}
-        </div>
-      )}
-
-      {open && query.length >= 1 && results.length === 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-lg z-50 px-4 py-3 text-sm text-slate-400">
-          No programs found for "{query}"
-        </div>
+              )
+          }
+        </div>,
+        document.body
       )}
     </div>
   );
@@ -202,7 +221,6 @@ export default function LocationFilter({
               selectedId={selectedProgramId}
               onSelect={onProgramSelect}
               onClear={onProgramClear}
-              disabled={false}
             />
           </div>
 
