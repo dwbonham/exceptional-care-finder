@@ -73,6 +73,8 @@ if (state.currentRunId && !hasPendingWork(state)) {
     state = completeRun(state);
     save(state);
     console.log('No pending work — pipeline complete for this run.');
+    console.log('\nUpdating County Summary tab…');
+    await syncCountySummary({ spreadsheetId: cfg.sheetId, serviceAccount: cfg.serviceAccount });
     process.exit(0);
   }
   // Backfill needed — fall through to Phase 5 (Phase 1 is skipped since currentRunId is set)
@@ -145,6 +147,8 @@ if (!state.currentRunId) {
     save(state);
     if (!pendingBackfill) {
       console.log('Nothing to do — site is up to date.');
+      console.log('\nUpdating County Summary tab…');
+      await syncCountySummary({ spreadsheetId: cfg.sheetId, serviceAccount: cfg.serviceAccount });
       process.exit(0);
     }
     console.log(`No new programs. Continuing to Gemini backfill enrichment.`);
