@@ -127,7 +127,7 @@ function ProgramSearchBox({
       </div>
 
       {open && results.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-lg z-30 overflow-hidden">
+        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-lg z-50 max-h-72 overflow-y-auto">
           {results.map((item, i) => {
             const showLegal = item.legalName !== item.displayName;
             return (
@@ -151,7 +151,7 @@ function ProgramSearchBox({
       )}
 
       {open && query.length >= 1 && results.length === 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-lg z-30 px-4 py-3 text-sm text-slate-400">
+        <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-lg z-50 px-4 py-3 text-sm text-slate-400">
           No programs found for "{query}"
         </div>
       )}
