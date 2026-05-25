@@ -33,13 +33,15 @@ export function filterPrograms(
   programs: ProgramData[],
   selectedState: string,
   selectedCounty: string,
-  selectedCareType: string
+  selectedCareType: string,
+  selectedLaZip?: string
 ): ProgramData[] {
   return programs
     .filter((p) => {
       if (selectedState && p.location.state !== selectedState) return false;
       if (selectedCounty && normalizeCounty(p.location.county) !== selectedCounty) return false;
       if (selectedCareType && p.facilityDetails.decryptedProgramType !== selectedCareType) return false;
+      if (selectedLaZip && p.location.zipCode !== selectedLaZip) return false;
       return true;
     })
     .sort((a, b) => rankScore(b) - rankScore(a));
