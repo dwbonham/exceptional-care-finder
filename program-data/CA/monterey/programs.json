@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "GATEWAY CENTER OF MONTEREY   INC.",
-    "streetName": "GATEWAY CENTER OF MONTEREY   INC.",
+    "streetName": "Gateway Center of Monterey County",
     "ccldLicenseNumber": "270702591",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,42 @@
     },
     "contact": {
       "phone": "(831) 372-8002",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.gatewaycenter.org"
     },
     "facilityDetails": {
       "licensedCapacity": 90,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Gateway Center of Monterey County empowers adults with developmental disabilities to live full, meaningful lives through compassionate residential care, life skills training, and community integration programs. Their day programs are designed to develop and enhance skills for adults with developmental disabilities to achieve a high quality of life.",
       "minimumAge": 18,
+      "yearEstablished": 1954,
       "languagesSupported": [
-        "English"
+        "English",
+        "Portuguese"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Life Skills Training",
+        "Community Integration",
+        "Recreational Activities",
+        "Gardening",
+        "Pre-vocational Experience"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -36,19 +61,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Monterey County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Gateway Center empowers adults with developmental disabilities through residential and day programs.",
+        "Since 1954, it has offered life skills training and community integration in Monterey County.",
+        "Programs focus on individualized, person-centered plans for dignity and independence."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SOLEDAD SVS",
-    "streetName": "SOLEDAD SVS",
+    "streetName": "Social Vocational Services, Inc. - Soledad",
     "ccldLicenseNumber": "275200905",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -65,17 +95,23 @@
     },
     "contact": {
       "phone": "(831) 678-9431",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.svsinc.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Social Vocational Services, Inc. - Soledad offers Adult Day Programs, Supported Employment, and Independent Living Services for individuals with developmental disabilities. The program focuses on community inclusion, skill development, and achieving personal goals.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -87,9 +123,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Social Vocational Services (SVS) in Soledad supports adults with developmental disabilities.",
+        "It offers community inclusion, employment, and supported living services.",
+        "SVS is a non-profit organization founded in 1977."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 64,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -112,17 +152,45 @@
     },
     "contact": {
       "phone": "(831) 422-3999",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.gatewaycenter.org"
     },
     "facilityDetails": {
       "licensedCapacity": 21,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Gateway Center Senior Day Program is a specialized adult day healthcare service designed to support seniors and individuals with disabilities in Monterey County, California. The program offers a safe, engaging, and supportive environment where participants can socialize, receive medical care, and participate in therapeutic activities while giving caregivers much-needed respite.",
       "minimumAge": 18,
+      "yearEstablished": 2003,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "On-site Nursing Supervision",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Group Exercises",
+        "Games",
+        "Memory-enhancing Activities",
+        "Cognitive Stimulation",
+        "Celebrations",
+        "Themed Events",
+        "Intergenerational Programs",
+        "Advocacy"
+      ],
+      "parentOrganization": "Gateway Center of Monterey County, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -130,19 +198,25 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Salinas and surrounding areas in Monterey County",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The Salinas Senior Day Program supports seniors with intellectual and developmental disabilities.",
+        "It offers social, recreational, and self-help skill development activities.",
+        "The program is part of Gateway Center of Monterey County, a non-profit organization."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SOCIAL VOCATIONAL SERVICES SALINAS #2",
-    "streetName": "SOCIAL VOCATIONAL SERVICES SALINAS #2",
+    "streetName": "Social Vocational Services, Salinas #2",
     "ccldLicenseNumber": "275201799",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -158,18 +232,33 @@
       }
     },
     "contact": {
-      "phone": "(831) 751-9145",
-      "websiteUrl": ""
+      "phone": "(831) 245-0311",
+      "websiteUrl": "https://socialvocationalservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 90,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Social Vocational Services (SVS) offers a wide range of personalized services for adults with developmental and intellectual disabilities, focusing on community inclusion, career exploration, employment, and independent/supported living services to promote independence, self-advocacy, and socialization.",
       "minimumAge": 18,
+      "yearEstablished": 1977,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Career Exploration",
+        "Socialization"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -181,15 +270,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Social Vocational Services, Salinas #2 is an Adult Day Program for adults with developmental disabilities.",
+        "It offers structured daytime activities, health monitoring, meals, and therapeutic programming.",
+        "The program has a licensed capacity of 90 individuals and provides community inclusion opportunities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 91,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "SVS MARINA ADULT DAY PROGRAM",
-    "streetName": "SVS MARINA ADULT DAY PROGRAM",
+    "streetName": "Social Vocational Services, Inc. - Marina",
     "ccldLicenseNumber": "275202077",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -206,17 +299,47 @@
     },
     "contact": {
       "phone": "(831) 582-2961",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.svsinc.org"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Offers opportunities for adults with developmental disabilities to engage in a wide range of activities promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization.",
       "minimumAge": 18,
+      "yearEstablished": 1977,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Expression",
+        "Life Skills Training",
+        "Community Integration",
+        "Career Exploration",
+        "Physical Fitness",
+        "Social Interaction",
+        "Recreational Activities",
+        "Cooking",
+        "Gardening",
+        "Work Experience",
+        "Volunteer Activities",
+        "Self-Advocacy",
+        "Health and Well-being"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -224,13 +347,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local to program, provided by Regional Centers",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Social Vocational Services, Inc. - Marina is a non-profit offering adult day programs.",
+        "It supports individuals with developmental disabilities in Monterey County.",
+        "The program is associated with the San Andreas Regional Center."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 91,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -252,18 +380,30 @@
       }
     },
     "contact": {
-      "phone": "(916) 203-6246",
+      "phone": "(831) 262-3092",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 90,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "New Perspectives, Inc. is an Adult Development Program serving individuals with Intellectual and Developmental Disabled Adults. The curriculum focuses on challenging individuals to reach their highest potential, emphasizing self-advocacy, independence, human rights, and community access. The program aims to provide a safe environment for participants to express their needs and wants in the least restrictive way possible.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -275,15 +415,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "New Perspectives Inc. is an Adult Development Program for individuals with intellectual and developmental disabilities.",
+        "It focuses on self-advocacy, independence, and community integration for its participants."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 73,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NEW PERSPECTIVES  INC.",
-    "streetName": "NEW PERSPECTIVES  INC.",
+    "streetName": "NEW PERSPECTIVES INC.",
     "ccldLicenseNumber": "277209309",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -305,12 +448,33 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "New Perspectives, Inc. is an Adult Development Program serving individuals with Intellectual and Developmental Disabled Adults. The curriculum focuses on challenging individuals to reach their highest potential, emphasizing self-advocacy, independence, human rights, and community access. The program aims to provide a safe environment for participants to express their needs and wants, and helps adults with disabilities develop life skills, job opportunities, and job training to prepare them for the outside world.",
       "minimumAge": 18,
+      "yearEstablished": 2023,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Dance",
+        "Fitness",
+        "Functional Education",
+        "Pre-Vocational Skills"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00AM–2:00PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Behavioral Disorders",
+        "Dual Diagnosis"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -318,19 +482,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Greenfield and surrounding areas",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "New Perspectives Inc. serves adults with intellectual and developmental disabilities.",
+        "The Greenfield center offers life skills, job training, and creative classes for up to 30 students.",
+        "It is a non-profit partner of the San Andreas Regional Center, focusing on independence and community access."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 84,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NEW PERSPECTIVES  INC.",
-    "streetName": "NEW PERSPECTIVES  INC.",
+    "streetName": "New Perspectives, Inc.",
     "ccldLicenseNumber": "277209686",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -339,7 +508,7 @@
       "city": "Salinas",
       "state": "CA",
       "zipCode": "93906",
-      "county": "Monterey",
+      "county": "Monterey County",
       "coordinates": {
         "lat": 36.69020468,
         "lng": -121.6524506
@@ -352,12 +521,26 @@
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "New Perspectives, Inc. is an Adult Development Program serving individuals with intellectual and developmental disabilities. The program focuses on fostering self-advocacy, independence, and community integration through life skills training, pre-vocational skills, and behavioral modification management.",
       "minimumAge": 18,
+      "yearEstablished": 2022,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Pre-Vocational Skills",
+        "Self-Advocacy Skills",
+        "Social and Recreational Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -369,9 +552,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "New Perspectives, Inc. is a licensed adult day program serving adults with intellectual and developmental disabilities.",
+        "The program focuses on life skills, vocational training, and community integration.",
+        "They recently opened a new center in Greenfield, expanding services in Monterey County."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 76,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

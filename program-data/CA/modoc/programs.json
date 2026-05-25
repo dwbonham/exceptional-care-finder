@@ -23,12 +23,26 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Modoc Work Activity Center provides structured daytime activities, training, and support services for developmentally disabled adults in Modoc County, including transportation, to promote independence and community engagement.",
       "minimumAge": 18,
+      "yearEstablished": 1976,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social and Recreational Programming",
+        "Therapeutic Activities",
+        "Vocational Workshop"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:15am–4:15pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -36,13 +50,18 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Modoc County",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Modoc Work Activity Center provides training and services for developmentally disabled adults in Modoc County.",
+        "Established in 1976, it is a licensed adult day program offering structured activities and transportation.",
+        "The program has a licensed capacity of 30, including respite care services."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 76,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

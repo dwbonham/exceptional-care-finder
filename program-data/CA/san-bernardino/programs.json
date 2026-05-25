@@ -1,52 +1,5 @@
 [
   {
-    "legalLicenseName": "OPARC ADULT DEVELOPMENTAL CENTER-MONTE",
-    "streetName": "OPARC ADULT DEVELOPMENTAL CENTER-MONTE",
-    "ccldLicenseNumber": "360910501",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9160 Monte Vista Ave.",
-      "city": "Montclair",
-      "state": "CA",
-      "zipCode": "91763",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.08768,
-        "lng": -117.69826
-      }
-    },
-    "contact": {
-      "phone": "(909) 621-3884",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 66,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "COLE VOCATIONAL SERVICES CUCAMONGA",
     "streetName": "COLE VOCATIONAL SERVICES CUCAMONGA",
     "ccldLicenseNumber": "361800122",
@@ -69,429 +22,6 @@
     },
     "facilityDetails": {
       "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "FIRST STEP INDEPENDENT LIVING INC",
-    "streetName": "FIRST STEP INDEPENDENT LIVING INC",
-    "ccldLicenseNumber": "361800141",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3654 Highland Ave Ste 17",
-      "city": "Highland",
-      "state": "CA",
-      "zipCode": "92346",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.135788,
-        "lng": -117.20826
-      }
-    },
-    "contact": {
-      "phone": "(909) 483-2505",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DESERT ARC",
-    "streetName": "DESERT ARC",
-    "ccldLicenseNumber": "361880666",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "56315 29 Palms Hwy",
-      "city": "Yucca Valley",
-      "state": "CA",
-      "zipCode": "92284",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.120644,
-        "lng": -116.436104
-      }
-    },
-    "contact": {
-      "phone": "(760) 346-1611",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COLE VOCATIONAL SERVICES - CHINO",
-    "streetName": "COLE VOCATIONAL SERVICES - CHINO",
-    "ccldLicenseNumber": "361880780",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "13110 & 13124 9th St",
-      "city": "Chino",
-      "state": "CA",
-      "zipCode": "91710",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.01489309,
-        "lng": -117.6880633
-      }
-    },
-    "contact": {
-      "phone": "(909) 483-2505",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DIGNITY ADULT DAY CARE",
-    "streetName": "DIGNITY ADULT DAY CARE",
-    "ccldLicenseNumber": "361880781",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4110 Holt Blvd  Unit B",
-      "city": "Montclair",
-      "state": "CA",
-      "zipCode": "91763",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.063244,
-        "lng": -117.7158
-      }
-    },
-    "contact": {
-      "phone": "(818) 599-8998",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SPOELSTRA LLC DBA VOICE - REDLAND",
-    "streetName": "SPOELSTRA LLC DBA VOICE - REDLAND",
-    "ccldLicenseNumber": "361881188",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "461 Tennessee St Ste R.",
-      "city": "Redland",
-      "state": "CA",
-      "zipCode": "92373",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.05851901,
-        "lng": -117.2000975
-      }
-    },
-    "contact": {
-      "phone": "(909) 792-2430",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SPOELSTRA LLC - VOICE LOMA LINDA",
-    "streetName": "SPOELSTRA LLC - VOICE LOMA LINDA",
-    "ccldLicenseNumber": "361881189",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "24733 Redlands Blvd",
-      "city": "Loma Linda",
-      "state": "CA",
-      "zipCode": "92354",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.06300274,
-        "lng": -117.2654608
-      }
-    },
-    "contact": {
-      "phone": "(909) 792-2430",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SUMMERFIELD OF REDLANDS",
-    "streetName": "SUMMERFIELD OF REDLANDS",
-    "ccldLicenseNumber": "365530038",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1319 Brookside Avenue",
-      "city": "Redlands",
-      "state": "CA",
-      "zipCode": "92373",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.046153,
-        "lng": -117.202226
-      }
-    },
-    "contact": {
-      "phone": "(509) 793-9500",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "LIFETIME ADULT DAY CARE",
-    "streetName": "LIFETIME ADULT DAY CARE",
-    "ccldLicenseNumber": "365530280",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9229 Utica Ave #140",
-      "city": "Rancho Cucamo",
-      "state": "CA",
-      "zipCode": "91730",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.08548854,
-        "lng": -117.5714555
-      }
-    },
-    "contact": {
-      "phone": "(909) 609-9049",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CROSSROADS ADULT DAY CARE CENTER",
-    "streetName": "CROSSROADS ADULT DAY CARE CENTER",
-    "ccldLicenseNumber": "365530366",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "11130 White Birch Dr.",
-      "city": "Rancho Cucamo",
-      "state": "CA",
-      "zipCode": "91730",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.10259869,
-        "lng": -117.5612481
-      }
-    },
-    "contact": {
-      "phone": "(909) 481-9663",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 110,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -564,288 +94,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "MOUNTAIN OF PROMISE  INC",
-    "streetName": "MOUNTAIN OF PROMISE  INC",
-    "ccldLicenseNumber": "365530448",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1381 Manzanita Way",
-      "city": "Deer Lodge Pa",
-      "state": "CA",
-      "zipCode": "92352",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.27498246,
-        "lng": -117.2120284
-      }
-    },
-    "contact": {
-      "phone": "(909) 337-0219",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 10,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ANTHESIS ADULT DEVELOPMENT CENTER",
-    "streetName": "ANTHESIS ADULT DEVELOPMENT CENTER",
-    "ccldLicenseNumber": "366400103",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "10550 Ramona Suite A & B",
-      "city": "Montclair",
-      "state": "CA",
-      "zipCode": "91763",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.062405,
-        "lng": -117.707016
-      }
-    },
-    "contact": {
-      "phone": "(909) 399-0617",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 72,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT BASIC LEARNING ENVIRONMENT  INC.",
-    "streetName": "ADULT BASIC LEARNING ENVIRONMENT  INC.",
-    "ccldLicenseNumber": "366400732",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1910 Orangetree Lane Suite",
-      "city": "Redlands",
-      "state": "CA",
-      "zipCode": "92374",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.06784,
-        "lng": -117.21862
-      }
-    },
-    "contact": {
-      "phone": "(909) 335-3030",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "BARSTOW EMPLOYMENT SPECIALIZED TRAINING",
-    "streetName": "BARSTOW EMPLOYMENT SPECIALIZED TRAINING",
-    "ccldLicenseNumber": "366401845",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "120 Cal Avenue",
-      "city": "Barstow",
-      "state": "CA",
-      "zipCode": "92311",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.88976,
-        "lng": -116.9989
-      }
-    },
-    "contact": {
-      "phone": "(760) 628-0111",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 48,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "OPARC ADULT DEVELOPMENT CENTER-MONTCLAI",
-    "streetName": "OPARC ADULT DEVELOPMENT CENTER-MONTCLAI",
-    "ccldLicenseNumber": "366401946",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4650 Arrow Hwy. Suite G15-2",
-      "city": "Montclair",
-      "state": "CA",
-      "zipCode": "91763",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.09257,
-        "lng": -117.70309
-      }
-    },
-    "contact": {
-      "phone": "(909) 625-0213",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 70,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "FIRST STEP INDEPENDENT LIVING PROGRAM",
-    "streetName": "FIRST STEP INDEPENDENT LIVING PROGRAM",
-    "ccldLicenseNumber": "366402043",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8880 Benson Ave #103/105/10",
-      "city": "Montclair",
-      "state": "CA",
-      "zipCode": "91763",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.09273,
-        "lng": -117.68093
-      }
-    },
-    "contact": {
-      "phone": "(909) 949-1780",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "FIRST STEP INDEPENDENT LIVING PROGRAM",
     "streetName": "FIRST STEP INDEPENDENT LIVING PROGRAM",
     "ccldLicenseNumber": "366402048",
@@ -864,429 +112,6 @@
     },
     "contact": {
       "phone": "(909) 888-3101",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COLE VOCATIONAL SERVICES VICTORVILLE",
-    "streetName": "COLE VOCATIONAL SERVICES VICTORVILLE",
-    "ccldLicenseNumber": "366402294",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "16519 Victor St",
-      "city": "Victorville",
-      "state": "CA",
-      "zipCode": "92392",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.521732,
-        "lng": -117.303505
-      }
-    },
-    "contact": {
-      "phone": "(760) 962-9111",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "OPARC SUMMIT SERVICES",
-    "streetName": "OPARC SUMMIT SERVICES",
-    "ccldLicenseNumber": "366402422",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "436 South Sultana",
-      "city": "Upland",
-      "state": "CA",
-      "zipCode": "91786",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.08849,
-        "lng": -117.646164
-      }
-    },
-    "contact": {
-      "phone": "(909) 920-5204",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "INLAND ADULT DEVELOPMENTAL CENTER",
-    "streetName": "INLAND ADULT DEVELOPMENTAL CENTER",
-    "ccldLicenseNumber": "366402567",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "10221-B Trademark Street",
-      "city": "Rancho Cucamo",
-      "state": "CA",
-      "zipCode": "91730",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.08058,
-        "lng": -117.58146
-      }
-    },
-    "contact": {
-      "phone": "(909) 483-1310",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNLIMITED QUEST INC V",
-    "streetName": "UNLIMITED QUEST INC V",
-    "ccldLicenseNumber": "366402684",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "118 Foothill Blvd #A1/A2/A3",
-      "city": "Rialto",
-      "state": "CA",
-      "zipCode": "92376",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.106777,
-        "lng": -117.37075
-      }
-    },
-    "contact": {
-      "phone": "(909) 873-8319",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ANTHESIS SENIOR ADULT CENTER (RASS)",
-    "streetName": "ANTHESIS SENIOR ADULT CENTER (RASS)",
-    "ccldLicenseNumber": "366402794",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4669 Holt Blvd.",
-      "city": "Montclair",
-      "state": "CA",
-      "zipCode": "91763",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.063168,
-        "lng": -117.703476
-      }
-    },
-    "contact": {
-      "phone": "(909) 399-3449",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 44,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COLE VOCATIONAL SERVICES BIG BEAR",
-    "streetName": "COLE VOCATIONAL SERVICES BIG BEAR",
-    "ccldLicenseNumber": "366403248",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "40627 Big Bear Blvd",
-      "city": "Big Bear Lake",
-      "state": "CA",
-      "zipCode": "92315",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.243702,
-        "lng": -116.914
-      }
-    },
-    "contact": {
-      "phone": "(909) 878-2272",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "S.V.S. VICTORVILLE ADULT DAY CARE FACIL",
-    "streetName": "S.V.S. VICTORVILLE ADULT DAY CARE FACIL",
-    "ccldLicenseNumber": "366403943",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "15387 Cholame Road",
-      "city": "Victorville",
-      "state": "CA",
-      "zipCode": "92392",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.50214,
-        "lng": -117.32845
-      }
-    },
-    "contact": {
-      "phone": "(760) 955-7535",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "INNOVATIVE BUSINESS PARTNERSHIPS  INC.",
-    "streetName": "INNOVATIVE BUSINESS PARTNERSHIPS  INC.",
-    "ccldLicenseNumber": "366405698",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "17191 Jasmine Street",
-      "city": "Victorville",
-      "state": "CA",
-      "zipCode": "92307",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.47491,
-        "lng": -117.287155
-      }
-    },
-    "contact": {
-      "phone": "(760) 243-1400",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNLIMITED QUEST INC",
-    "streetName": "UNLIMITED QUEST INC",
-    "ccldLicenseNumber": "366408345",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "250 S Date St",
-      "city": "Rialto",
-      "state": "CA",
-      "zipCode": "92376",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.09794,
-        "lng": -117.36791
-      }
-    },
-    "contact": {
-      "phone": "(909) 421-8753",
       "websiteUrl": ""
     },
     "facilityDetails": {
@@ -1338,53 +163,6 @@
     },
     "facilityDetails": {
       "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "LIFETIME ADULT DAY CARE",
-    "streetName": "LIFETIME ADULT DAY CARE",
-    "ccldLicenseNumber": "366409888",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "10871 Central Ave",
-      "city": "Ontario",
-      "state": "CA",
-      "zipCode": "91762",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.056637,
-        "lng": -117.68937
-      }
-    },
-    "contact": {
-      "phone": "(909) 364-1676",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -2160,5 +938,1709 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPARC ADULT DEVELOPMENTAL CENTER-MONTE",
+    "streetName": "OPARC Adult Developmental Center - Monte Vista",
+    "ccldLicenseNumber": "360910501",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9160 Monte Vista Ave.",
+      "city": "Montclair",
+      "state": "CA",
+      "zipCode": "91763",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.08768,
+        "lng": -117.69826
+      }
+    },
+    "contact": {
+      "phone": "(909) 621-3884",
+      "websiteUrl": "https://www.oparc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 66,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "OPARC's Adult Day Program offers licensed, individualized support for adults with intellectual and developmental disabilities. Participants choose activities aligned with their interests and goals, building confidence, independence, and meaningful connections in a safe, supportive environment.",
+      "minimumAge": 18,
+      "yearEstablished": 1990,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Independent Living Skills Training",
+        "Vocational Training",
+        "Recreational Activities",
+        "Social Skills Training",
+        "Community Integration"
+      ],
+      "parentOrganization": "OPARC",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "OPARC's Monte Vista center specializes in care for adults with severe physical and medical disabilities.",
+        "As a CARF-accredited nonprofit since 1950, OPARC provides individualized day programs and employment services."
+      ]
+    },
+    "completenessScore": 98,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FIRST STEP INDEPENDENT LIVING INC",
+    "streetName": "FIRST STEP INDEPENDENT LIVING INC",
+    "ccldLicenseNumber": "361800141",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3654 Highland Ave Ste 17",
+      "city": "Highland",
+      "state": "CA",
+      "zipCode": "92346",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.135788,
+        "lng": -117.20826
+      }
+    },
+    "contact": {
+      "phone": "(909) 864-6792",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "First Step Independent Living Inc is a licensed adult day program in Highland, California, providing structured daytime activities, supervision, and support services. The program focuses on health monitoring, therapeutic activities, social and recreational programming, meals, snacks, and personal care assistance for adults needing daily assistance.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured daytime activities",
+        "Supervision",
+        "Health monitoring",
+        "Therapeutic activities",
+        "Social and recreational programming",
+        "Meals and snacks",
+        "Personal care assistance",
+        "Medication management"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "First Step Independent Living Inc. is a licensed Adult Day Program in Highland, CA.",
+        "It offers structured daytime activities, health monitoring, and social programming for seniors.",
+        "The program provides support for adults with disabilities and respite for caregivers."
+      ]
+    },
+    "completenessScore": 73,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DESERT ARC",
+    "streetName": "Desert Arc",
+    "ccldLicenseNumber": "361880666",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "56315 29 Palms Hwy",
+      "city": "Yucca Valley",
+      "state": "CA",
+      "zipCode": "92284",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.120644,
+        "lng": -116.436104
+      }
+    },
+    "contact": {
+      "phone": "(760) 228-1860",
+      "websiteUrl": "https://www.desertarc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Adult Day Program provides a nurturing environment that enhances the lives of individuals who require support. Activities are designed to promote individual goals both on site and in the community, offering opportunities to enhance independence with activities of daily living, promote social growth, and include pre-vocational training, volunteerism, arts & leisure exploration, and self-advocacy skill building.",
+      "minimumAge": 18,
+      "yearEstablished": 1959,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Self-advocacy skill building",
+        "Volunteerism"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Cerebral Palsy",
+        "Epilepsy",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Riverside County and the Morongo Basin of San Bernardino County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Desert Arc, founded in 1959, supports adults with intellectual and developmental disabilities.",
+        "Programs include adult day centers, employment training, and supported living services."
+      ]
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES - CHINO",
+    "streetName": "COLE VOCATIONAL SERVICES - CHINO",
+    "ccldLicenseNumber": "361880780",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "13110 & 13124 9th St",
+      "city": "Chino",
+      "state": "CA",
+      "zipCode": "91710",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.01489309,
+        "lng": -117.6880633
+      }
+    },
+    "contact": {
+      "phone": "(909) 548-0290",
+      "websiteUrl": "https://www.sevitahealth.com/locations/california-mentor-chino/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Cole Vocational Services offers structured, activity-based day programs that provide individuals with intellectual and developmental disabilities the chance to achieve goals, become independent and be active in their community. The program also focuses on building skills for greater independence, social skills, and supporting competitive integrated employment.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Art Center",
+        "Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Community Integration",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Sevita/California MENTOR",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities",
+        "Autism"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "California MENTOR's Chino program supports adults (21+) with disabilities to live independently.",
+        "Offers structured, activity-based day programs focusing on skill-building and community integration.",
+        "Provides support for daily needs, social skills, nursing, and behavioral services."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DIGNITY ADULT DAY CARE",
+    "streetName": "Dignity Adult Day Health Care Center",
+    "ccldLicenseNumber": "361880781",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4110 Holt Blvd  Unit B",
+      "city": "Montclair",
+      "state": "CA",
+      "zipCode": "91763",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.063244,
+        "lng": -117.7158
+      }
+    },
+    "contact": {
+      "phone": "(909) 447-1313",
+      "websiteUrl": "https://dignityadhcc.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Dignity Adult Day Health Care Center provides protective supervised care and socialization for adults with physical and/or mental impairments, offering skilled nursing, social services, and rehabilitative therapies to help them safely remain at home and delay or prevent institutionalization.",
+      "minimumAge": 18,
+      "yearEstablished": 2019,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Recreational and Social Activities",
+        "Cognitive Stimulation",
+        "Group Exercise",
+        "Physical Therapy",
+        "Occupational Therapy",
+        "Speech Therapy",
+        "Nutritional Counseling",
+        "Health Monitoring",
+        "Medication Assistance",
+        "Caregiver Support"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Dignity ADHCC is state-licensed and certified, serving older adults and adults with disabilities.",
+        "They offer skilled nursing, therapies, social services, and two hot meals daily."
+      ]
+    },
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SPOELSTRA LLC DBA VOICE - REDLAND",
+    "streetName": "Voice - Redlands",
+    "ccldLicenseNumber": "361881188",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "461 Tennessee St Ste R.",
+      "city": "Redland",
+      "state": "CA",
+      "zipCode": "92373",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.05851901,
+        "lng": -117.2000975
+      }
+    },
+    "contact": {
+      "phone": "(909) 335-0840",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This adult day program provides structured daytime activities, supervision, and support services for adults with disabilities who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals, and medical attention.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "parentOrganization": "Spoelstra LLC",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Voice - Redlands is a licensed adult day program offering structured activities and support for adults.",
+        "It provides health monitoring, meals, and therapeutic programming for up to 60 participants."
+      ]
+    },
+    "completenessScore": 62,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SPOELSTRA LLC - VOICE LOMA LINDA",
+    "streetName": "Voice Loma Linda",
+    "ccldLicenseNumber": "361881189",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "24733 Redlands Blvd",
+      "city": "Loma Linda",
+      "state": "CA",
+      "zipCode": "92354",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.06300274,
+        "lng": -117.2654608
+      }
+    },
+    "contact": {
+      "phone": "(909) 796-2656",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Provides structured daytime activities, supervision, and support services for adults who need assistance during the day, including health monitoring, therapeutic activities, social and recreational programming, meals, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Meals",
+        "Therapeutic Programming",
+        "Social and Recreational Programming",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "parentOrganization": "SPOELSTRA LLC",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Voice Loma Linda is a licensed Adult Day Program in California with a capacity for 90 participants.",
+        "It offers structured daytime activities, meals, health monitoring, and therapeutic programming for older adults."
+      ]
+    },
+    "completenessScore": 62,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SUMMERFIELD OF REDLANDS",
+    "streetName": "SUMMERFIELD OF REDLANDS",
+    "ccldLicenseNumber": "365530038",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1319 Brookside Avenue",
+      "city": "Redlands",
+      "state": "CA",
+      "zipCode": "92373",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.046153,
+        "lng": -117.202226
+      }
+    },
+    "contact": {
+      "phone": "(909) 793-9500",
+      "websiteUrl": "https://www.summerfieldredlands.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Summerfield of Redlands offers a Senior Day Program providing structured daytime activities, supervision, and support services primarily for older adults, including those with memory-related challenges, offering engagement opportunities and personal care assistance.",
+      "minimumAge": 18,
+      "yearEstablished": 2020,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Beauty Salon",
+        "Library",
+        "Wellness Center"
+      ],
+      "activitiesOffered": [
+        "Social Activities",
+        "Educational Activities",
+        "Cognitive Activities",
+        "Music Programs"
+      ],
+      "parentOrganization": "SNH CAL TENANT LLC; NORTHSTAR SNR LVG MGT LLC",
+      "selfDeterminationAccepted": "No"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Summerfield of Redlands offers assisted living, memory care, and a day stay program for older adults.",
+        "They specialize in memory care, providing 24/7 personal care and engaging activities.",
+        "The program is private pay, accepting long-term insurance and Veterans Benefits."
+      ]
+    },
+    "completenessScore": 88,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIFETIME ADULT DAY CARE",
+    "streetName": "Lifetime Adult Day Program",
+    "ccldLicenseNumber": "365530280",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9229 Utica Ave #140",
+      "city": "Rancho Cucamo",
+      "state": "CA",
+      "zipCode": "91730",
+      "county": "San Bernardino County",
+      "coordinates": {
+        "lat": 34.08548854,
+        "lng": -117.5714555
+      }
+    },
+    "contact": {
+      "phone": "(909) 364-1677",
+      "websiteUrl": "https://www.expressworkforcefoundation.org/lifetime-day-program-irc"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Empowering individuals with disabilities to achieve independence, inclusion, and growth every day.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Theatre/Performing Arts"
+      ],
+      "parentOrganization": "Express Workforce Foundation",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Lifetime Adult Day Program empowers adults with disabilities for independence and growth.",
+        "It offers vocational training, including hydroponic farming and culinary education.",
+        "The program is a licensed adult day program in Rancho Cucamonga, California."
+      ]
+    },
+    "completenessScore": 66,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CROSSROADS ADULT DAY CARE CENTER",
+    "streetName": "Crossroads Adult Day Care Center",
+    "ccldLicenseNumber": "365530366",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "11130 White Birch Dr.",
+      "city": "Rancho Cucamo",
+      "state": "CA",
+      "zipCode": "91730",
+      "county": "San Bernardino County",
+      "coordinates": {
+        "lat": 34.10259869,
+        "lng": -117.5612481
+      }
+    },
+    "contact": {
+      "phone": "(909) 481-9663",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 110,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Crossroads Adult Day Care Center provides structured daytime activities, supervision, and support services for adults with developmental disabilities. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals, snacks, personal care assistance, and medication management, aiming to support individuals who need assistance during the day but return home in the evening.",
+      "minimumAge": 18,
+      "yearEstablished": 2015,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Functional Living Skills",
+        "Self-Care Skills",
+        "Sensory Stimulation",
+        "Music Therapy",
+        "Recreation",
+        "Socialization"
+      ],
+      "parentOrganization": "Crossroads Of Choice, Inc.",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Crossroads Adult Day Care Center in Rancho Cucamonga offers structured daytime activities and health monitoring.",
+        "It is a licensed adult day program with a capacity of 110, serving adults with dementia or disabilities."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MOUNTAIN OF PROMISE  INC",
+    "streetName": "Mountain of Promise",
+    "ccldLicenseNumber": "365530448",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1381 Manzanita Way",
+      "city": "Deer Lodge Pa",
+      "state": "CA",
+      "zipCode": "92352",
+      "county": "San Bernardino County",
+      "coordinates": {
+        "lat": 34.27498246,
+        "lng": -117.2120284
+      }
+    },
+    "contact": {
+      "phone": "(909) 337-0219",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 10,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This Adult Day Program provides structured daytime activities, supervision, and support services for adults with developmental disabilities, aiming to foster independence, promote social engagement, and enhance overall well-being.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 39,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ANTHESIS ADULT DEVELOPMENT CENTER",
+    "streetName": "ANTHESIS ADULT DEVELOPMENT CENTER",
+    "ccldLicenseNumber": "366400103",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "10550 Ramona Suite A & B",
+      "city": "Montclair",
+      "state": "CA",
+      "zipCode": "91763",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.062405,
+        "lng": -117.707016
+      }
+    },
+    "contact": {
+      "phone": "(909) 624-3555",
+      "websiteUrl": "https://www.anthesis.us"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 72,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Anthesis's Adult Development Center provides a caring environment that enhances the lives of adults with intellectual and developmental disabilities through community integration, enrichment programs, and a wide variety of social activities. The program aims to develop skills and confidence for independent and inclusive lives, including opportunities for employment and community participation.",
+      "minimumAge": 18,
+      "yearEstablished": 1966,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Social Activities"
+      ],
+      "parentOrganization": "Anthesis",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Eastern Los Angeles County and Western San Bernardino County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Anthesis supports adults with disabilities through employment and community integration.",
+        "Founded in 1966, Anthesis has over 50 years of experience serving the Inland Empire.",
+        "The program is accredited by CARF for employment services and licensed by Community Care Licensing."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT BASIC LEARNING ENVIRONMENT  INC.",
+    "streetName": "Adult Basic Learning Environment, Inc.",
+    "ccldLicenseNumber": "366400732",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1910 Orangetree Lane Suite",
+      "city": "Redlands",
+      "state": "CA",
+      "zipCode": "92374",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.06784,
+        "lng": -117.21862
+      }
+    },
+    "contact": {
+      "phone": "(909) 335-3022",
+      "websiteUrl": "https://www.ableinc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Our primary responsibility is to provide a safe, secure and healthy environment for those clients in need of our programs and services, and to provide them with opportunities that will enable them to reach their maximum potential in life.",
+      "minimumAge": 18,
+      "yearEstablished": 1988,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Adult Basic Learning Environment, Inc. has served people with disabilities since 1988.",
+        "It provides ethical behavior services using applied behavior analysis to maximize independence.",
+        "Programs offer life skills training, community integration, and therapeutic activities for adults."
+      ]
+    },
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BARSTOW EMPLOYMENT SPECIALIZED TRAINING",
+    "streetName": "B.E.S.T. Opportunities",
+    "ccldLicenseNumber": "366401845",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "120 Cal Avenue",
+      "city": "Barstow",
+      "state": "CA",
+      "zipCode": "92311",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.88976,
+        "lng": -116.9989
+      }
+    },
+    "contact": {
+      "phone": "(760) 256-1030",
+      "websiteUrl": "https://bestopportunities.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 48,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "B.E.S.T. Opportunities promotes the independence and integration of adults with developmental disabilities into the community. They assist participants in learning life skills, gaining independence, and connecting with their community, offering social opportunities, interactive activities, and supported employment options.",
+      "minimumAge": 18,
+      "yearEstablished": 1981,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Community Integration"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism Spectrum Disorder",
+        "Down Syndrome",
+        "Developmental Delay",
+        "Cerebral Palsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "B.E.S.T. Opportunities has served adults with developmental disabilities in Barstow since 1981.",
+        "The program is CARF International Accredited, ensuring high standards of service quality.",
+        "It promotes independence and community integration for adults with developmental disabilities."
+      ]
+    },
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPARC ADULT DEVELOPMENT CENTER-MONTCLAI",
+    "streetName": "OPARC ADULT DEVELOPMENT CENTER-MONTCLAI",
+    "ccldLicenseNumber": "366401946",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4650 Arrow Hwy. Suite G15-2",
+      "city": "Montclair",
+      "state": "CA",
+      "zipCode": "91763",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.09257,
+        "lng": -117.70309
+      }
+    },
+    "contact": {
+      "phone": "(909) 625-0213",
+      "websiteUrl": "https://www.oparc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 70,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Oparc's Adult Day Program offers licensed, individualized support for adults with intellectual and developmental disabilities, focusing on building confidence, independence, and meaningful connections through chosen activities and community engagement.",
+      "minimumAge": 18,
+      "yearEstablished": 1950,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "OPARC",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Inland Empire and Los Angeles County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "OPARC empowers adults with intellectual and developmental disabilities through day programs, training, and employment.",
+        "Established in 1950, OPARC is a licensed non-profit with CARF Gold Seal accreditation.",
+        "They offer a \"Caregiver Corner\" with resources for parents and caregivers."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FIRST STEP INDEPENDENT LIVING PROGRAM",
+    "streetName": "First Step Independent Living Program, Inc.",
+    "ccldLicenseNumber": "366402043",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8880 Benson Ave #103/105/10",
+      "city": "Montclair",
+      "state": "CA",
+      "zipCode": "91763",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.09273,
+        "lng": -117.68093
+      }
+    },
+    "contact": {
+      "phone": "(951) 888-3298",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides structured daytime activities, supervision, and support services for adults with disabilities, focusing on social, recreational, and therapeutic programming to promote independence.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Social Activities",
+        "Recreational Programming",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "parentOrganization": "Sevita / California MENTOR",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "First Step Independent Living Program, Inc. is an adult day program in Montclair, CA, serving seniors and adults with disabilities.",
+        "It offers structured daytime activities, supervision, meals, and personal care assistance."
+      ]
+    },
+    "completenessScore": 74,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES VICTORVILLE",
+    "streetName": "COLE VOCATIONAL SERVICES VICTORVILLE",
+    "ccldLicenseNumber": "366402294",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "16519 Victor St",
+      "city": "Victorville",
+      "state": "CA",
+      "zipCode": "92392",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.521732,
+        "lng": -117.303505
+      }
+    },
+    "contact": {
+      "phone": "(760) 962-9111",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Cole Vocational Services offers structured, activity-based day programs that help adults with developmental disabilities achieve goals, build life skills, gain employment, and become more independent and active in the community.",
+      "minimumAge": 18,
+      "yearEstablished": 1998,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social and Recreational Activities"
+      ],
+      "parentOrganization": "Sevita",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local area around Victorville",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Cole Vocational Services Victorville is a licensed adult day program with a 120-person capacity, offering structured activities and health monitoring.",
+        "It serves adults with disabilities, dementia, or those recovering from illness, promoting independence and community integration."
+      ]
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPARC SUMMIT SERVICES",
+    "streetName": "Oparc Summit Services",
+    "ccldLicenseNumber": "366402422",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "436 South Sultana",
+      "city": "Upland",
+      "state": "CA",
+      "zipCode": "91786",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.08849,
+        "lng": -117.646164
+      }
+    },
+    "contact": {
+      "phone": "(909) 920-5204",
+      "websiteUrl": "https://www.oparc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "OPARC Summit Services provides specialized support and training to adults with developmental and behavioral challenges, focusing on learning social skills, reducing behavioral incidents, and developing the capacity to work in and enjoy the local community. The program offers individualized support to help participants build confidence, independence, and meaningful connections in a safe, supportive environment.",
+      "minimumAge": 18,
+      "yearEstablished": 1950,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Skills Training",
+        "Community Engagement",
+        "Job Training",
+        "Recreational Activities"
+      ],
+      "parentOrganization": "OPARC",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Oparc Summit Services offers licensed adult day programs for individuals with intellectual and developmental disabilities.",
+        "The program provides behavioral support, life skills training, and community engagement to foster independence.",
+        "Oparc is CARF accredited and has empowered adults with disabilities in the Inland Empire for decades."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "INLAND ADULT DEVELOPMENTAL CENTER",
+    "streetName": "INLAND ADULT DEVELOPMENTAL CENTER",
+    "ccldLicenseNumber": "366402567",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "10221-B Trademark Street",
+      "city": "Rancho Cucamo",
+      "state": "CA",
+      "zipCode": "91730",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.08058,
+        "lng": -117.58146
+      }
+    },
+    "contact": {
+      "phone": "(909) 483-1310",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Inland Adult Developmental Center is a licensed adult day program that provides structured daytime activities, supervision, and support services for adults with developmental disabilities who need assistance during the day but return to their homes or family caregivers in the evening.",
+      "minimumAge": 18,
+      "yearEstablished": 1999,
+      "languagesSupported": [
+        "English"
+      ],
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Mon-Fri: 9:00 AM - 6:00 PM, Sat-Sun: 10:00 AM - 4:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Inland Adult Developmental Center is an adult day program in Rancho Cucamonga, CA.",
+        "It offers structured activities, health monitoring, meals, and therapeutic programming for up to 45 adults."
+      ]
+    },
+    "completenessScore": 68,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNLIMITED QUEST INC V",
+    "streetName": "UNLIMITED QUEST INC V",
+    "ccldLicenseNumber": "366402684",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "118 Foothill Blvd #A1/A2/A3",
+      "city": "Rialto",
+      "state": "CA",
+      "zipCode": "92376",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.106777,
+        "lng": -117.37075
+      }
+    },
+    "contact": {
+      "phone": "(909) 873-8319",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "yearEstablished": 1998,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "UNLIMITED QUEST INC V is an adult day program in Rialto, CA.",
+        "It offers professional care, social activities, and enrichment for older adults and individuals with disabilities."
+      ]
+    },
+    "completenessScore": 36,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ANTHESIS SENIOR ADULT CENTER (RASS)",
+    "streetName": "Anthesis Senior Adult Center (RASS)",
+    "ccldLicenseNumber": "366402794",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4669 Holt Blvd.",
+      "city": "Montclair",
+      "state": "CA",
+      "zipCode": "91763",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.063168,
+        "lng": -117.703476
+      }
+    },
+    "contact": {
+      "phone": "(909) 399-3449",
+      "websiteUrl": "https://www.anthesis.us/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 44,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Round About Senior Services (RASS) supports aging and retired individuals with intellectual and developmental disabilities, helping them maintain physical, emotional, and social well-being. The program provides structured daytime activities, supervision, and support services to promote engagement, independence, and quality of life for older participants.",
+      "minimumAge": 18,
+      "yearEstablished": 1966,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Social Engagement",
+        "Community Outings"
+      ],
+      "parentOrganization": "Anthesis",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Anthesis's RASS program supports aging individuals (50+) with intellectual/developmental disabilities.",
+        "It offers physical wellness, social engagement, and intellectual stimulation.",
+        "Anthesis is a licensed non-profit with over 50 years of service to adults with disabilities."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES BIG BEAR",
+    "streetName": "Cole Vocational Services Big Bear",
+    "ccldLicenseNumber": "366403248",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "40627 Big Bear Blvd",
+      "city": "Big Bear Lake",
+      "state": "CA",
+      "zipCode": "92315",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.243702,
+        "lng": -116.914
+      }
+    },
+    "contact": {
+      "phone": "(909) 878-2272",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Cole Vocational Services Big Bear offers structured, activity-based day programs for adults with intellectual and developmental disabilities. The program provides supervision, support services, and opportunities to build life skills, gain employment, and achieve greater independence through community integration.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social and Recreational Programming",
+        "Community Integration",
+        "Vocational Training",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Health Monitoring",
+        "Therapeutic Activities"
+      ],
+      "parentOrganization": "California MENTOR / Sevita",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Cole Vocational Services Big Bear is a licensed adult day program for adults with intellectual and developmental disabilities.",
+        "The program offers structured activities, health monitoring, and community integration with a person-centered approach."
+      ]
+    },
+    "completenessScore": 85,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "S.V.S. VICTORVILLE ADULT DAY CARE FACIL",
+    "streetName": "S.V.S. Victorville Adult Day Care Facility",
+    "ccldLicenseNumber": "366403943",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "15387 Cholame Road",
+      "city": "Victorville",
+      "state": "CA",
+      "zipCode": "92392",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.50214,
+        "lng": -117.32845
+      }
+    },
+    "contact": {
+      "phone": "(760) 955-7535",
+      "websiteUrl": "https://www.svsinc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides structured daytime activities, supervision, and support services for adults with developmental disabilities who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, medication management, and employment services.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social and Recreational Programming",
+        "Health Monitoring",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Mon-Fri: 9:00 AM - 6:00 PM, Sat-Sun: 10:00 AM - 4:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "S.V.S. Victorville is a licensed adult day program for individuals with intellectual and developmental disabilities.",
+        "Established in 1977, it offers community inclusion, employment, and independent living services."
+      ]
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "INNOVATIVE BUSINESS PARTNERSHIPS  INC.",
+    "streetName": "INNOVATIVE BUSINESS PARTNERSHIPS INC.",
+    "ccldLicenseNumber": "366405698",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "17191 Jasmine Street",
+      "city": "Victorville",
+      "state": "CA",
+      "zipCode": "92307",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.47491,
+        "lng": -117.287155
+      }
+    },
+    "contact": {
+      "phone": "(760) 243-1400",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Innovative Business Partnerships, Inc. provides structured daytime activities, supervision, and support services for adults with developmental disabilities and others who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Health Monitoring",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Innovative Business Partnerships Inc. operates as an Adult Development Center.",
+        "It is a Provider Group 1 for the Inland Regional Center, serving individuals with developmental disabilities.",
+        "The program offers structured daytime activities, supervision, and support services for adults."
+      ]
+    },
+    "completenessScore": 57,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNLIMITED QUEST INC",
+    "streetName": "UNLIMITED QUEST INC",
+    "ccldLicenseNumber": "366408345",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "250 S Date St",
+      "city": "Rialto",
+      "state": "CA",
+      "zipCode": "92376",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.09794,
+        "lng": -117.36791
+      }
+    },
+    "contact": {
+      "phone": "(909) 421-8753",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "UNLIMITED QUEST INC is an adult day program in Rialto, CA, providing structured daytime activities, supervision, and support services for adults with developmental disabilities. Services typically include social activities, meals, health monitoring, therapeutic activities, and recreational programming.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "UNLIMITED QUEST INC was a licensed Adult Day Program in Rialto, CA, serving adults needing daytime supervision.",
+        "The program is believed to be out of business, according to recent information."
+      ]
+    },
+    "completenessScore": 49,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIFETIME ADULT DAY CARE",
+    "streetName": "LIFETIME ADULT DAY CARE",
+    "ccldLicenseNumber": "366409888",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "10871 Central Ave",
+      "city": "Ontario",
+      "state": "CA",
+      "zipCode": "91762",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.056637,
+        "lng": -117.68937
+      }
+    },
+    "contact": {
+      "phone": "(909) 364-1676",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "LIFETIME ADULT DAY CARE offers a safe and supportive environment with compassionate staff and engaging activities for adults. These community-based programs provide assistance with personal care, activities of daily living, and/or supervision.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "daysOfOperation": "Monday–Saturday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "LIFETIME ADULT DAY CARE is a licensed adult day program in Ontario, CA, regulated by the California Department of Social Services.",
+        "The program is licensed to serve up to 30 participants."
+      ]
+    },
+    "completenessScore": 59,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   }
 ]

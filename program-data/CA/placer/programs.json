@@ -1,287 +1,5 @@
 [
   {
-    "legalLicenseName": "ADULT VOCATIONAL SERVICES INC",
-    "streetName": "ADULT VOCATIONAL SERVICES INC",
-    "ccldLicenseNumber": "312700054",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3845 Atherton Rd #7",
-      "city": "Rocklin",
-      "state": "CA",
-      "zipCode": "95765",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.81433598,
-        "lng": -121.296268
-      }
-    },
-    "contact": {
-      "phone": "(916) 203-6246",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PRIME ADULT DEVELOPMENT INC",
-    "streetName": "PRIME ADULT DEVELOPMENT INC",
-    "ccldLicenseNumber": "312700815",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "5935 Pacific Street",
-      "city": "Rocklin",
-      "state": "CA",
-      "zipCode": "95765",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.78073,
-        "lng": -121.243004
-      }
-    },
-    "contact": {
-      "phone": "(916) 740-5577",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT ACHIEVEMENT CENTER",
-    "streetName": "ADULT ACHIEVEMENT CENTER",
-    "ccldLicenseNumber": "315002910",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3217 Professional Dr",
-      "city": "Auburn",
-      "state": "CA",
-      "zipCode": "95602",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.942564,
-        "lng": -121.100905
-      }
-    },
-    "contact": {
-      "phone": "(530) 878-8912",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 69,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "IMAGINE FUNCTIONAL LIVING SKILLS PROGRA",
-    "streetName": "IMAGINE FUNCTIONAL LIVING SKILLS PROGRA",
-    "ccldLicenseNumber": "315002944",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "11960 Heritage Oak Pl. Ste",
-      "city": "Auburn",
-      "state": "CA",
-      "zipCode": "95603",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.940879,
-        "lng": -121.098842
-      }
-    },
-    "contact": {
-      "phone": "(530) 537-2364",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ROSEVILLE ADULT CENTER",
-    "streetName": "ROSEVILLE ADULT CENTER",
-    "ccldLicenseNumber": "317000989",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "531 Vernon Street",
-      "city": "Roseville",
-      "state": "CA",
-      "zipCode": "95678",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.74686,
-        "lng": -121.28676
-      }
-    },
-    "contact": {
-      "phone": "(916) 783-5700",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "AIM HIGHER INC. DBA ED DAVID",
-    "streetName": "AIM HIGHER INC. DBA ED DAVID",
-    "ccldLicenseNumber": "317003286",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1132 Smith Lane",
-      "city": "Roseville",
-      "state": "CA",
-      "zipCode": "95661",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.738564,
-        "lng": -121.27413
-      }
-    },
-    "contact": {
-      "phone": "(916) 783-4688",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 136,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "DREAM THEATRE INC.",
     "streetName": "DREAM THEATRE INC.",
     "ccldLicenseNumber": "317004468",
@@ -304,194 +22,6 @@
     },
     "facilityDetails": {
       "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT DAY EXPERIENCES (ADE)",
-    "streetName": "ADULT DAY EXPERIENCES (ADE)",
-    "ccldLicenseNumber": "317004491",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2510 Warren Drive  Suite A",
-      "city": "Rocklin",
-      "state": "CA",
-      "zipCode": "95677",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.79635,
-        "lng": -121.21626
-      }
-    },
-    "contact": {
-      "phone": "(916) 632-2332",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "REACH ADULT DEVELOPMENT SITE #5",
-    "streetName": "REACH ADULT DEVELOPMENT SITE #5",
-    "ccldLicenseNumber": "317004560",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9980 Niblick Dr",
-      "city": "Roseville",
-      "state": "CA",
-      "zipCode": "95678",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.79196,
-        "lng": -121.31192
-      }
-    },
-    "contact": {
-      "phone": "(916) 203-6246",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT DAY EXPERIENCES TOO",
-    "streetName": "ADULT DAY EXPERIENCES TOO",
-    "ccldLicenseNumber": "317005272",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2520 Warren Drive  Ste B",
-      "city": "Rocklin",
-      "state": "CA",
-      "zipCode": "95677",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.79637,
-        "lng": -121.216286
-      }
-    },
-    "contact": {
-      "phone": "(916) 251-7250",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "REACH ADULT DEVELOPMENT SITE #4",
-    "streetName": "REACH ADULT DEVELOPMENT SITE #4",
-    "ccldLicenseNumber": "317005526",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1140 Sunset Blvd Ste 145",
-      "city": "Rocklin",
-      "state": "CA",
-      "zipCode": "95765",
-      "county": "Placer",
-      "coordinates": {
-        "lat": 38.81731,
-        "lng": -121.31264
-      }
-    },
-    "contact": {
-      "phone": "(916) 203-6246",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -564,6 +94,664 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
+    "legalLicenseName": "ADULT VOCATIONAL SERVICES INC",
+    "streetName": "Adult Vocational Services",
+    "ccldLicenseNumber": "312700054",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3845 Atherton Rd #7",
+      "city": "Rocklin",
+      "state": "CA",
+      "zipCode": "95765",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.81433598,
+        "lng": -121.296268
+      }
+    },
+    "contact": {
+      "phone": "(916) 204-5726",
+      "websiteUrl": "https://adultvocationalservices.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Adult Vocational Service Inc.'s (AVS) is a Day Program serving individuals age 22 and beyond who are eligible for services through Alta California Regional Center. AVS will provide support and training within the areas of pre-vocational and vocational skills training, functional life skills, self-advocacy, and community integration in the least restrictive environment while maximizing opportunities for inclusion within the community.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Skills Training",
+        "Self-Advocacy",
+        "Community Integration"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00AM–3:00PM",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Placer County and its surrounding areas",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Adult Vocational Services is a licensed day program in Rocklin, CA, serving adults 22+ eligible through Alta California Regional Center.",
+        "It offers vocational, life skills, self-advocacy, and community integration training."
+      ]
+    },
+    "completenessScore": 98,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PRIME ADULT DEVELOPMENT INC",
+    "streetName": "Prime Adult Development Day Program",
+    "ccldLicenseNumber": "312700815",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "5935 Pacific Street",
+      "city": "Rocklin",
+      "state": "CA",
+      "zipCode": "95765",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.78073,
+        "lng": -121.243004
+      }
+    },
+    "contact": {
+      "phone": "(916) 740-5577",
+      "websiteUrl": "https://primeadultdevelopment.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Prime Adult Development Day Program is a behavior management adult day program for adults with intellectual and developmental disabilities aged 22 and beyond who are eligible for services through the Alta California Regional Center. The program is committed to nurturing self-advocacy, fostering vocational abilities, enhancing daily living skills, and cultivating social integration.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Self-Advocacy",
+        "Vocational Training",
+        "Self-Help Skills",
+        "Community Integration",
+        "Behavior Management"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Prime Adult Development serves adults 21+ with intellectual/developmental disabilities.",
+        "The program focuses on behavior management, vocational skills, and social integration.",
+        "It is licensed for 30 clients and works with Alta California Regional Center."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT ACHIEVEMENT CENTER",
+    "streetName": "Adult Achievement Center",
+    "ccldLicenseNumber": "315002910",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3217 Professional Dr",
+      "city": "Auburn",
+      "state": "CA",
+      "zipCode": "95602",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.942564,
+        "lng": -121.100905
+      }
+    },
+    "contact": {
+      "phone": "(530) 537-2647",
+      "websiteUrl": "https://www.placerarc.org/services/adult-achievement-center/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 69,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "An adult day program, the Adult Achievement Center (AAC) serves clients looking to be active members of their community. Clients at AAC achieve personal goals by participating in a life skills curriculum including vocational training, daily living practices, health and fitness, cognitive growth, and mobility training, enabling them to be more independent and contributing citizens.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Health and Fitness",
+        "Cognitive Growth",
+        "Mobility Training",
+        "Community Integration",
+        "Self-advocacy"
+      ],
+      "parentOrganization": "The Arc of Placer County",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Adult Achievement Center empowers adults with intellectual and developmental disabilities through life skills and vocational training.",
+        "Part of The Arc of Placer County, it has served the community since 1964, fostering independence and community engagement."
+      ]
+    },
+    "completenessScore": 87,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "IMAGINE FUNCTIONAL LIVING SKILLS PROGRA",
+    "streetName": "Imagine Functional Living Skills Program",
+    "ccldLicenseNumber": "315002944",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "11960 Heritage Oak Pl. Ste",
+      "city": "Auburn",
+      "state": "CA",
+      "zipCode": "95603",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.940879,
+        "lng": -121.098842
+      }
+    },
+    "contact": {
+      "phone": "(530) 537-2364",
+      "websiteUrl": "https://imagineflsp.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Imagine Functional Living Skills Program empowers individuals on their journey toward independence and fulfillment by providing personalized support in vocational skills, daily living skills, personal life development, and community engagement. The program utilizes the N2Y Unique Curriculum to help clients with intellectual disabilities realize their full potential and cultivate self-sufficiency.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM - 6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Imagine Functional Living Skills Program empowers adults with intellectual disabilities towards independence.",
+        "The program utilizes the N2Y Unique Curriculum and offers vocational and daily living skills."
+      ]
+    },
+    "completenessScore": 91,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ROSEVILLE ADULT CENTER",
+    "streetName": "Roseville Adult Center",
+    "ccldLicenseNumber": "317000989",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "531 Vernon Street",
+      "city": "Roseville",
+      "state": "CA",
+      "zipCode": "95678",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.74686,
+        "lng": -121.28676
+      }
+    },
+    "contact": {
+      "phone": "(916) 783-5700",
+      "websiteUrl": "https://placerarc.org/services/roseville-adult-center/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Roseville Adult Center (RAC) is a dynamic, civic-oriented adult day program that helps clients advance in personal growth and thrive as active community members. Its curriculum includes vocational training, daily living practices, health and fitness, cognitive growth, and mobility training to foster independence and community engagement.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training"
+      ],
+      "parentOrganization": "The Arc of Placer County",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Roseville Adult Center is a civic-oriented day program for adults with intellectual and developmental disabilities.",
+        "It offers vocational training, daily living skills, and community involvement opportunities like volunteering.",
+        "The program is part of The Arc of Placer County, a 501(c)(3) nonprofit established in the 1960s."
+      ]
+    },
+    "completenessScore": 87,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AIM HIGHER INC. DBA ED DAVID",
+    "streetName": "Aim Higher Inc.",
+    "ccldLicenseNumber": "317003286",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1132 Smith Lane",
+      "city": "Roseville",
+      "state": "CA",
+      "zipCode": "95661",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.738564,
+        "lng": -121.27413
+      }
+    },
+    "contact": {
+      "phone": "(916) 783-4688",
+      "websiteUrl": "https://aimhigherinc.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 136,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "AIM HIGHER Adult Development Center serves adults with developmental disabilities at all levels of the ability spectrum, providing high-quality care and curriculum delivery in an environment that fosters esteem and worth. Their \"Fabulous Five\" program strengthens skills in life skills, education, community access, vocational training, and arts & expression through interactive on-site and off-site learning activities.",
+      "minimumAge": 18,
+      "yearEstablished": 2006,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Educational Activities",
+        "Physical Activities"
+      ],
+      "parentOrganization": "Aim Higher Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Aim Higher Inc. serves adults with developmental disabilities, focusing on life skills, education, community access, and artistic expression.",
+        "The Roseville program, established in 2005, is known for its Special Olympics teams and community events."
+      ]
+    },
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT DAY EXPERIENCES (ADE)",
+    "streetName": "Adult Day Experiences",
+    "ccldLicenseNumber": "317004491",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2510 Warren Drive  Suite A",
+      "city": "Rocklin",
+      "state": "CA",
+      "zipCode": "95677",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.79635,
+        "lng": -121.21626
+      }
+    },
+    "contact": {
+      "phone": "(916) 632-2332",
+      "websiteUrl": "https://www.adexperiences.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Adult Day Experiences (ADE) is dedicated to supporting adults with developmental disabilities in building greater independence through a center-based social/recreational program with a strong emphasis on communication. The program offers strategies for improving speech, language, communication, social skills, and problem-solving during daily planned activities.",
+      "minimumAge": 18,
+      "yearEstablished": 2010,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Activities",
+        "Therapeutic Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Adult Day Experiences, Inc. began in 2008, founded by an SLP and SLP-A.",
+        "It emphasizes communication and self-advocacy for adults with intellectual and/or developmental disabilities (IDD)."
+      ]
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REACH ADULT DEVELOPMENT SITE #5",
+    "streetName": "REACH ADULT DEVELOPMENT SITE #5",
+    "ccldLicenseNumber": "317004560",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9980 Niblick Dr",
+      "city": "Roseville",
+      "state": "CA",
+      "zipCode": "95678",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.79196,
+        "lng": -121.31192
+      }
+    },
+    "contact": {
+      "phone": "(916) 212-6476",
+      "websiteUrl": "https://reachadultdevelopment.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Reach Adult Development, Inc. is a Behavior Management Adult Day Program serving individuals with intellectual and developmental disabilities aged 22 and beyond who are eligible for services through Alta California Regional Center. The program provides a structured environment with a variety of activities tailored to individuals with intellectual and developmental disabilities, emphasizing community integration, social interaction, physical exercise, and creative expression.",
+      "minimumAge": 18,
+      "yearEstablished": 2001,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Reach Adult Development, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "REACH Adult Development Site #5 is a licensed behavior management adult day program.",
+        "It serves adults 22+ with intellectual/developmental disabilities, eligible via Alta California Regional Center.",
+        "The Roseville site accommodates up to 45 clients with varied indoor/outdoor activities."
+      ]
+    },
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT DAY EXPERIENCES TOO",
+    "streetName": "ADULT DAY EXPERIENCES TOO",
+    "ccldLicenseNumber": "317005272",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2520 Warren Drive  Ste B",
+      "city": "Rocklin",
+      "state": "CA",
+      "zipCode": "95677",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.79637,
+        "lng": -121.216286
+      }
+    },
+    "contact": {
+      "phone": "(916) 251-7250",
+      "websiteUrl": "https://www.adexperiences.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The program focuses on supporting individuals with intellectual and developmental disabilities in developing strong, effective communication skills, believing it is the foundation of independence. It is a center-based social/recreational program designed to challenge individuals daily and celebrate their accomplishments.",
+      "minimumAge": 18,
+      "yearEstablished": 2010,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Skills Training",
+        "Communication Skills Training"
+      ],
+      "parentOrganization": "Adult Day Experiences, Inc.",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Mon-Fri: 9:00 AM - 6:00 PM Sat-Sun: 10:00 AM - 4:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Adult Day Experiences Too supports adults with developmental disabilities, emphasizing communication and self-advocacy.",
+        "This licensed Rocklin program offers a stimulating, person-centered environment with a 30-person capacity."
+      ]
+    },
+    "completenessScore": 91,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REACH ADULT DEVELOPMENT SITE #4",
+    "streetName": "REACH ADULT DEVELOPMENT SITE #4",
+    "ccldLicenseNumber": "317005526",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1140 Sunset Blvd Ste 145",
+      "city": "Rocklin",
+      "state": "CA",
+      "zipCode": "95765",
+      "county": "Placer",
+      "coordinates": {
+        "lat": 38.81731,
+        "lng": -121.31264
+      }
+    },
+    "contact": {
+      "phone": "(916) 760-0636",
+      "websiteUrl": "https://reachadultdevelopment.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "REACH Adult Development Site #4 is a Behavior Management Adult Day Program serving individuals with intellectual and developmental disabilities aged 22 and beyond who are eligible for services through Alta California Regional Center. The program provides structured daily support through community integration, enrichment activities, and skill development.",
+      "minimumAge": 18,
+      "yearEstablished": 2001,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Group Activities",
+        "Community Integration",
+        "Skill Development"
+      ],
+      "parentOrganization": "Reach Adult Development, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "REACH ADULT DEVELOPMENT SITE #4 is a Behavior Management Adult Day Program for adults 22+ with intellectual/developmental disabilities.",
+        "The Rocklin site offers activity, computer, and art rooms, serving up to 30 clients with a 1:3 staff ratio.",
+        "It focuses on community integration, located near local amenities like a Starbucks and bowling alley."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
     "legalLicenseName": "ABLE",
     "streetName": "ABLE",
     "ccldLicenseNumber": "317005948",
@@ -606,13 +794,13 @@
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 23,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "STUDIO 700 FOR THE ARTS",
-    "streetName": "STUDIO 700 FOR THE ARTS",
+    "streetName": "Studio 700 Center for the Arts",
     "ccldLicenseNumber": "345920205",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -621,7 +809,7 @@
       "city": "Roseville",
       "state": "CA",
       "zipCode": "95678",
-      "county": "Placer",
+      "county": "Placer County",
       "coordinates": {
         "lat": 38.74259411,
         "lng": -121.2923309
@@ -629,17 +817,35 @@
     },
     "contact": {
       "phone": "(916) 781-6911",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.placerarc.org/services/studio-700-center-for-the-arts/"
     },
     "facilityDetails": {
       "licensedCapacity": 76,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Studio 700 Center for the Arts is an adult day program where clients are working artists. It provides an art environment for participants to advance fine motor skills, personal interactions, following direction, and time management, with the ultimate goal of creating and selling art.",
       "minimumAge": 18,
+      "yearEstablished": 1960,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "The Arc of Placer County",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–3:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -651,10 +857,14 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Studio 700 Center for the Arts supports adults with intellectual and developmental disabilities through creative expression.",
+        "Artists engage in various art forms, develop life skills, and can sell their work to the public.",
+        "It is an adult day program of The Arc of Placer County, a 501(c)(3) nonprofit established in the early 1960s."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   }
 ]

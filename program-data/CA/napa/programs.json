@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "NAPA VALLEY SUPPORT SERVICES - NAPA",
-    "streetName": "NAPA VALLEY SUPPORT SERVICES - NAPA",
+    "streetName": "Napa Valley Support Services - Imperial Way",
     "ccldLicenseNumber": "280109485",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,34 @@
     },
     "contact": {
       "phone": "(707) 253-0400",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.napavalleysupportservices.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 121,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Napa Valley Support Services enhances and supports quality of life for individuals with developmental disabilities through a person-centered approach to self-discovery, artistic expression, community engagement, employment, and education. The Imperial Way program specifically focuses on supporting individuals to maximize their personal and vocational potential, with a strong emphasis on community participation and employment.",
       "minimumAge": 18,
+      "yearEstablished": 1956,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Napa Valley Support Services",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,15 +57,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Napa Valley Support Services' Imperial Way program has supported individuals with developmental disabilities since 1956.",
+        "The Imperial Way program focuses on employment training, with 70% of participants working in the community.",
+        "Imperial Way offers education, living skills, recreation, and social development for adults with disabilities."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 90,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "NAPA VALLEY SUPPORT SERVICES - BROWN ST",
-    "streetName": "NAPA VALLEY SUPPORT SERVICES - BROWN ST",
+    "streetName": "Brown Street Gallery",
     "ccldLicenseNumber": "286801359",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -65,17 +86,35 @@
     },
     "contact": {
       "phone": "(707) 255-8523",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.napavalleysupportservices.org/programs/brown-street-gallery/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Brown Street Gallery is a small, art-focused day program for individuals with developmental disabilities, where participants can earn income through the sale of their creative work. The program also supports individuals in increasing their independence and utilizing community services.",
       "minimumAge": 18,
+      "yearEstablished": 1972,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Art Studio/Gallery"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Earned Income through Art Sales",
+        "Community Integration"
+      ],
+      "parentOrganization": "Napa Valley Support Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–1:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -87,15 +126,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Brown Street Gallery is an art-focused day program for up to 30 adults with developmental disabilities.",
+        "Artists in the program can earn income through the sale of their creative expressions at regular art shows."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 99,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
     "legalLicenseName": "UNITED CEREBRAL PALSY OF THE NORTH BAY",
-    "streetName": "UNITED CEREBRAL PALSY OF THE NORTH BAY",
+    "streetName": "WineBev Services",
     "ccldLicenseNumber": "286803252",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -111,18 +153,35 @@
       }
     },
     "contact": {
-      "phone": "(707) 603-0010",
-      "websiteUrl": ""
+      "phone": "(707) 766-9990",
+      "websiteUrl": "https://ucpnb.org"
     },
     "facilityDetails": {
       "licensedCapacity": 180,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "WineBev Services is a social enterprise, employment and education program located in Napa County for adults ages 18 and over with developmental disabilities.",
       "minimumAge": 18,
+      "yearEstablished": 1981,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training"
+      ],
+      "parentOrganization": "United Cerebral Palsy of the North Bay",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy",
+        "Epilepsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -134,9 +193,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "WineBev Services is a licensed Adult Day Program in Napa for adults with developmental disabilities.",
+        "It offers employment training and paid work in the wine and beverage industry."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 83,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
@@ -159,17 +221,34 @@
     },
     "contact": {
       "phone": "(510) 692-1804",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.abrightfuture.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "A Bright Future Academy offers engaging and enriching activities, including life skills training, community outings, creative arts, music, and wellness activities, to promote confidence, connection, and personal growth for adults with developmental disabilities.",
       "minimumAge": 18,
+      "yearEstablished": 2012,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Community Outings"
+      ],
+      "parentOrganization": "A Bright Future, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy",
+        "Epilepsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -181,9 +260,12 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "A Bright Future Academy in American Canyon supports adults with intellectual and developmental disabilities.",
+        "It offers personalized Independent Living and Supported Living programs across Solano, Sonoma, and Napa counties."
+      ]
     },
-    "completenessScore": 0,
+    "completenessScore": 98,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

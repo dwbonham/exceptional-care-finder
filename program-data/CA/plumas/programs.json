@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "PLUMAS RURAL SERVICES-ALIVE",
-    "streetName": "PLUMAS RURAL SERVICES-ALIVE",
+    "streetName": "Plumas Rural Services - ALIVE Program",
     "ccldLicenseNumber": "325920383",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -10,7 +10,7 @@
       "city": "Quincy",
       "state": "CA",
       "zipCode": "95971",
-      "county": "Plumas",
+      "county": "Plumas County",
       "coordinates": {
         "lat": 39.93676623,
         "lng": -120.9469913
@@ -18,17 +18,38 @@
     },
     "contact": {
       "phone": "(530) 283-0111",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.plumasruralservices.org/alive"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The ALIVE Program provides day services, independent living, job development and job coaching services to adults with intellectual, developmental, and physical disabilities, fostering community integration and self-advocacy.",
       "minimumAge": 18,
+      "yearEstablished": 1980,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Skills Training",
+        "Community Integration",
+        "Self-Advocacy",
+        "Recreational Outings",
+        "Health & Exercise Programs"
+      ],
+      "parentOrganization": "Plumas Rural Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Physical Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,10 +61,13 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "The ALIVE Program supports adults with intellectual, developmental, and physical disabilities.",
+        "It offers day services, independent living skills, job development, and community integration."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   }
 ]
