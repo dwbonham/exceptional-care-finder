@@ -17,18 +17,31 @@
       }
     },
     "contact": {
-      "phone": "(417) 619-0713",
-      "websiteUrl": ""
+      "phone": "(530) 563-5153",
+      "websiteUrl": "https://www.tahoeability.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Tahoe Ability Program is designed to create community inclusion, foster independence, and promote progress for people with developmental disabilities within their community. They emphasize person-centered planning and community integration, offering social recreation and opportunities for employment and volunteering.",
       "minimumAge": 18,
+      "yearEstablished": 2021,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Social Recreation",
+        "Outdoor Activities"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -36,19 +49,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Truckee and North Tahoe",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Tahoe Ability Program supports adults with developmental disabilities through community inclusion and independence.",
+        "They use Person-Centered Planning and partner with Alta California Regional Center.",
+        "The program offers adaptive sports and arts through partnerships with local organizations."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 85,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "ELEVATION TRUCKEE",
-    "streetName": "ELEVATION TRUCKEE",
+    "streetName": "Elevation Truckee",
     "ccldLicenseNumber": "292701043",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -64,18 +82,37 @@
       }
     },
     "contact": {
-      "phone": "(530) 386-0890",
-      "websiteUrl": ""
+      "phone": "(530) 536-3140",
+      "websiteUrl": "https://www.truckeeelevation.com"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Elevation Truckee is a community-based Adult Day Program for adults with developmental disabilities, focusing on elevated community interaction and integration, self-expression, functional living skills, and vocational training.",
       "minimumAge": 18,
+      "yearEstablished": 2020,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -87,15 +124,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Elevation Truckee is a non-profit Adult Day Program for adults 18+ with developmental disabilities in the Truckee/Tahoe area.",
+        "They offer a community-based day program, Independent Living Services, and a Paid Internship Program."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "NEIGHBORHOOD CENTER OF THE ARTS",
-    "streetName": "NEIGHBORHOOD CENTER OF THE ARTS",
+    "streetName": "Neighborhood Center of the Arts",
     "ccldLicenseNumber": "297000435",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -112,17 +152,34 @@
     },
     "contact": {
       "phone": "(530) 272-7287",
-      "websiteUrl": ""
+      "websiteUrl": "https://neighborhoodcenterofthearts.org"
     },
     "facilityDetails": {
       "licensedCapacity": 75,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Neighborhood Center of the Arts provides studio instruction, art materials, social support, and life skills training for adults with developmental disabilities, offering opportunities to create, exhibit, and sell their artwork for income and community integration.",
       "minimumAge": 18,
+      "yearEstablished": 1984,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–2:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -134,11 +191,14 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Neighborhood Center of the Arts offers arts-based training and education for adults with developmental disabilities.",
+        "This 501(c)(3) nonprofit helps artists sell their work and fosters community integration through exhibitions and field trips."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "ALL-STAR PROGRAMS",
@@ -164,12 +224,15 @@
     "facilityDetails": {
       "licensedCapacity": 24,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This facility is listed as an Assisted Living Home serving adults under 60 with developmental disabilities, mental health conditions, or physical disabilities who do not require skilled nursing care.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -181,15 +244,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "ALL-STAR PROGRAMS is an Adult Residential Facility in Smartsville, CA, serving adults with developmental disabilities.",
+        "It provides 24-hour non-medical care and supervision for individuals aged 18-59.",
+        "The program is vendored by Alta California Regional Center, supporting community-based services."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 49,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "HELPING HANDS CAREGIVER RESOURCE",
-    "streetName": "HELPING HANDS CAREGIVER RESOURCE",
+    "streetName": "Helping Hands Adult Day Program",
     "ccldLicenseNumber": "297004181",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -206,17 +273,34 @@
     },
     "contact": {
       "phone": "(530) 432-2540",
-      "websiteUrl": ""
+      "websiteUrl": "https://nchelpinghands.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Helping Hands Adult Day Program provides a safe, nurturing environment for dependent adults aged 18 and older, offering socialization opportunities, peer relationships, group and individual exercise, nutritious meals and snacks, counseling, support, and medication assistance. It also features a specialized Dementia Care Program for individuals with early-onset Alzheimer's disease or other cognitive impairments.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Bingo",
+        "Daily Exercise Classes",
+        "Indoor/Outdoor Crafts",
+        "Therapy Dogs"
+      ],
+      "daysOfOperation": "Monday, Tuesday, Thursday, Friday",
+      "hoursOfOperation": "9:00am–4:00pm (M, Tu, F), 8:00am–3:00pm (Th)",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Dementia"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -224,14 +308,19 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Nevada County",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Helping Hands Adult Day Program is licensed by CA DSS and is an Alta Regional Center vendor.",
+        "They offer a nurturing environment with specialized dementia care and caregiver respite."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   }
 ]
