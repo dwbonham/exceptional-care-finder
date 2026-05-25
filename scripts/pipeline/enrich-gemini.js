@@ -74,6 +74,27 @@ export async function enrichProgram(ccldRecord, apiKey, options = {}) {
 }
 
 /**
+ * Add sentiment bullets to a program that was already enriched without them.
+ * Makes one Gemini call (sentiment step only) and merges the result into the
+ * existing enrichResult. Use this in Phase 6 instead of re-running the full
+ * two-call enrichment — preserves existing high-quality enrichment data.
+ *
+ * @param {import('./ingest-ccld.js').CcldRecord} ccldRecord
+ * @param {EnrichmentResult} existingEnrichResult — previously enriched data
+ * @param {string} apiKey
+ * @param {{ model?: string }} [options]
+ * @returns {Promise<EnrichmentResult>}
+ */
+export async function enrichSentimentOnly(ccldRecord, existingEnrichResult, apiKey, options = {}) {
+  const model = options.model ?? DEFAULT_MODEL;
+  const sentimentPrompt = _buildSentimentPrompt(ccldRecord, existingEnrichResult);
+  const sentimentRaw = await _callGemini(sentimentPrompt, apiKey, model);
+  const sentimentJson = _extractJson(sentimentRaw);
+  const sentimentData = _normalizeSentiment(sentimentJson);
+  return { ...existingEnrichResult, ...sentimentData };
+}
+
+/**
  * Check whether a URL is reachable. Returns true if the server responds with a
  * 2xx or 3xx status, false on 4xx/5xx or network error. Tries HEAD first (fast),
  * falls back to GET if the server rejects HEAD. Timeout: 6 seconds per attempt.

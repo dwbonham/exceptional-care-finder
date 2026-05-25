@@ -21,9 +21,10 @@ import {
   hasPendingWork, getPendingEnrichment, getPendingGeocode,
   getPendingQualityGate, completeRun, summary, STATUS,
   getNotGeminiEnriched, markGeminiEnriched,
+  getNotSentimentEnriched, markSentimentEnriched,
 } from './checkpoint.js';
 import { fetchAdultDayPrograms, diffWithCheckpoint } from './ingest-ccld.js';
-import { enrichProgram, RateLimitError } from './enrich-gemini.js';
+import { enrichProgram, enrichSentimentOnly, RateLimitError } from './enrich-gemini.js';
 import { resolveCoordinates, GeocodingError } from './geocode.js';
 import { evaluate, DECISION } from './quality-gate.js';
 import { appendProgramRow, appendProgramRows, upsertProgramRows, syncFundingGuides, syncRegionalCenters, syncCountySummary } from './sheets-writer.js';
@@ -69,7 +70,9 @@ function _matchesCountyFilter(county) {
 // Then check whether Gemini backfill is still needed before exiting.
 if (state.currentRunId && !hasPendingWork(state)) {
   const pendingBackfill = !process.env.SKIP_ENRICHMENT && getNotGeminiEnriched(state, 1).length > 0;
-  if (!pendingBackfill) {
+  const pendingSentiment = !skipSentiment && enrichCounties &&
+    getNotSentimentEnriched(state, { countyFilter: enrichCounties, limit: 1 }).length > 0;
+  if (!pendingBackfill && !pendingSentiment) {
     state = completeRun(state);
     save(state);
     console.log('No pending work — pipeline complete for this run.');
@@ -77,7 +80,7 @@ if (state.currentRunId && !hasPendingWork(state)) {
     await syncCountySummary({ spreadsheetId: cfg.sheetId, serviceAccount: cfg.serviceAccount });
     process.exit(0);
   }
-  // Backfill needed — fall through to Phase 5 (Phase 1 is skipped since currentRunId is set)
+  // Backfill or sentiment work needed — fall through (Phase 1 skipped since currentRunId is set)
 }
 
 // Catch-up path: re-queue any failed programs so they're retried this run.
@@ -143,16 +146,19 @@ if (!state.currentRunId) {
 
   if (newCount === 0 && resetCount === 0) {
     const pendingBackfill = !process.env.SKIP_ENRICHMENT && getNotGeminiEnriched(state, 1).length > 0;
+    const pendingSentiment = !skipSentiment && enrichCounties &&
+      getNotSentimentEnriched(state, { countyFilter: enrichCounties, limit: 1 }).length > 0;
     state = completeRun(state); // always clear the empty run immediately
     save(state);
-    if (!pendingBackfill) {
+    if (!pendingBackfill && !pendingSentiment) {
       console.log('Nothing to do — site is up to date.');
       console.log('\nUpdating County Summary tab…');
       await syncCountySummary({ spreadsheetId: cfg.sheetId, serviceAccount: cfg.serviceAccount });
       process.exit(0);
     }
-    console.log(`No new programs. Continuing to Gemini backfill enrichment.`);
-    // Fall through — Phases 2–4 have nothing, Phase 5 will run backfill
+    const what = [pendingBackfill && 'Gemini backfill', pendingSentiment && 'sentiment backfill'].filter(Boolean).join(' + ');
+    console.log(`No new programs from CCLD. Continuing to ${what}.`);
+    // Fall through — Phases 2–4 have nothing, Phase 5/6 will run backfill
   } else {
     save(state);
   }
@@ -198,7 +204,7 @@ if (toEnrich.length) {
       const ccldRecord = state.programs[licNum].ccldRecord;
       try {
         const enrichResult = await enrichProgram(ccldRecord, cfg.geminiKey, { skipSentiment });
-        state = updateStatus(state, licNum, STATUS.PENDING_GEOCODE, { enrichResult, geminiEnriched: true });
+        state = updateStatus(state, licNum, STATUS.PENDING_GEOCODE, { enrichResult, geminiEnriched: true, sentimentEnriched: !skipSentiment });
         process.stdout.write('.');
       } catch (e) {
         if (e instanceof RateLimitError) {
@@ -321,7 +327,7 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
             _writeApprovedProgram(gateResult.record);
             backfillGateResults.push(gateResult);
           }
-          state = markGeminiEnriched(state, licNum, { enrichResult });
+          state = markGeminiEnriched(state, licNum, { enrichResult, sentimentEnriched: !skipSentiment });
         }
         process.stdout.write('.');
       } catch (e) {
@@ -345,6 +351,59 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
     }
     const remaining = getNotGeminiEnriched(state, 999999).length;
     console.log(`  Backfill: ${remaining} programs still queued for enrichment`);
+  }
+}
+
+// ── Phase 6: Sentiment backfill ──────────────────────────────────────────────
+// Adds sentiment bullets to programs already Gemini-enriched but missing them.
+// One Gemini call per program (sentiment step only) — preserves existing enrichment
+// data instead of re-running the full two-call enrichment.
+//
+// Only runs when WITH_SENTIMENT is set and ENRICH_COUNTIES is specified, so
+// automated daily runs are never affected. Triggered by manual workflow dispatch
+// with both flags set, targeting specific counties that lack sentiment coverage.
+if (!skipSentiment && !enrichmentRateLimited && enrichCounties) {
+  const toSentiment = getNotSentimentEnriched(state, { countyFilter: enrichCounties });
+
+  if (toSentiment.length) {
+    console.log(`\nSentiment backfill: ${toSentiment.length} program(s) (counties: ${[...enrichCounties].join(', ')})…`);
+    const sentimentGateResults = [];
+
+    for (const licNum of toSentiment) {
+      const { ccldRecord, enrichResult, geocodeResult } = state.programs[licNum];
+      if (!ccldRecord || !enrichResult) {
+        console.error(`\nSentiment backfill: missing data for ${licNum} — skipping`);
+        continue;
+      }
+      try {
+        const mergedEnrich = await enrichSentimentOnly(ccldRecord, enrichResult, cfg.geminiKey);
+        const gateResult = evaluate(ccldRecord, mergedEnrich, geocodeResult);
+        if (gateResult.decision !== DECISION.SKIP_REVOKED && gateResult.decision !== DECISION.SKIP_WRONG_POPULATION) {
+          _writeApprovedProgram(gateResult.record);
+          sentimentGateResults.push(gateResult);
+        }
+        state = markSentimentEnriched(state, licNum);
+        process.stdout.write('.');
+      } catch (e) {
+        if (e instanceof RateLimitError) {
+          enrichmentRateLimited = true;
+          console.log(`\nGemini quota reached during sentiment backfill — resuming tomorrow.`);
+          break;
+        }
+        console.error(`\nSentiment backfill error for ${licNum}: ${e.message}`);
+        process.stdout.write('!');
+      }
+      save(state);
+    }
+    console.log();
+
+    if (sentimentGateResults.length > 0) {
+      const sheetsConfig = { spreadsheetId: cfg.sheetId, sheetName: 'Programs', serviceAccount: cfg.serviceAccount };
+      console.log(`  Upserting ${sentimentGateResults.length} sentiment-enriched rows in Google Sheets…`);
+      await upsertProgramRows(sentimentGateResults, sheetsConfig);
+    }
+    const remaining = getNotSentimentEnriched(state, { countyFilter: enrichCounties }).length;
+    console.log(`  Sentiment backfill: ${remaining} programs still need sentiment in these counties`);
   }
 }
 

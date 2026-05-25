@@ -210,6 +210,11 @@ let callCount = 0;
 const originalFetch = globalThis.fetch;
 
 globalThis.fetch = async (url, opts) => {
+  // checkUrl() calls non-Gemini URLs for website validation — return a plain 200
+  if (!url.includes('generativelanguage.googleapis.com')) {
+    return { ok: true, status: 200, text: async () => '' };
+  }
+
   callCount++;
   const body = JSON.parse(opts.body);
   const promptText = body.contents[0].parts[0].text;

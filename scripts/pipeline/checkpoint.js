@@ -228,14 +228,60 @@ export function getNotGeminiEnriched(state, limit = 20) {
 /**
  * After a successful Gemini backfill call, replace the bare enrichResult
  * with the Gemini-fetched one and mark the program as enriched.
+ * Pass sentimentEnriched=true when the enrichment included the sentiment step.
  */
-export function markGeminiEnriched(state, licNum, { enrichResult }) {
+export function markGeminiEnriched(state, licNum, { enrichResult, sentimentEnriched = false }) {
   const prog = state.programs[licNum];
   return {
     ...state,
     programs: {
       ...state.programs,
-      [licNum]: { ...prog, geminiEnriched: true, enrichResult },
+      [licNum]: { ...prog, geminiEnriched: true, sentimentEnriched, enrichResult },
+    },
+  };
+}
+
+/**
+ * Get programs that have been Gemini-enriched but are still missing sentiment bullets.
+ * Used by Phase 6 sentiment backfill when WITH_SENTIMENT is enabled.
+ *
+ * Excludes programs where sentimentEnriched=true OR where the stored enrichResult
+ * already has sentiment bullets (handles pre-flag checkpoint entries gracefully).
+ * Excludes programs not yet Gemini-enriched — Phase 5 handles those.
+ *
+ * @param {object} state
+ * @param {{ countyFilter?: Set<string>, limit?: number }} options
+ * @returns {string[]} license numbers
+ */
+export function getNotSentimentEnriched(state, { countyFilter = null, limit = 999999 } = {}) {
+  return Object.entries(state.programs)
+    .filter(([, prog]) => {
+      if (prog.status !== STATUS.APPROVED) return false;
+      if (!prog.geminiEnriched) return false; // Phase 5 handles these
+      if (prog.sentimentEnriched === true) return false;
+      if (prog.enrichResult?.sentimentBullets?.length > 0) return false; // already has sentiment
+      if (!prog.ccldRecord) return false;
+      if (countyFilter) {
+        const county = (prog.ccldRecord.county ?? '').toLowerCase();
+        return [...countyFilter].some(c => county.includes(c));
+      }
+      return true;
+    })
+    .slice(0, limit)
+    .map(([num]) => num);
+}
+
+/**
+ * Mark a program as having received sentiment enrichment.
+ * Called after a successful Phase 6 sentiment-only enrichment.
+ */
+export function markSentimentEnriched(state, licNum) {
+  const prog = state.programs[licNum];
+  return {
+    ...state,
+    programs: {
+      ...state.programs,
+      [licNum]: { ...prog, sentimentEnriched: true },
     },
   };
 }
