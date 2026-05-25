@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import HeroSection from './components/HeroSection';
-import LocationFilter from './components/LocationFilter';
+import LocationFilter, { type ProgramSearchItem } from './components/LocationFilter';
 import ProgramMap from './components/ProgramMap';
 import ProgramGrid from './components/ProgramGrid';
 import StateRegulatoryGuide from './components/StateRegulatoryGuide';
@@ -13,14 +13,30 @@ import './index.css';
 const stateMap = extractStateMap(allPrograms);
 const careTypes = extractCareTypes(allPrograms);
 
+const searchItems: ProgramSearchItem[] = allPrograms
+  .filter(p => !!p.ccldLicenseNumber)
+  .map(p => ({
+    ccldLicenseNumber: p.ccldLicenseNumber!,
+    displayName: p.streetName || p.legalLicenseName,
+    legalName: p.legalLicenseName,
+    city: p.location.city,
+    county: p.location.county,
+  }));
+
 export default function App() {
   const selectedState = 'CA';
   const [selectedCounty, setSelectedCounty] = useState('');
   const [selectedLaZip, setSelectedLaZip] = useState('');
   const [selectedCareType, setSelectedCareType] = useState('');
+  const [selectedProgramId, setSelectedProgramId] = useState('');
   const [view, setView] = useState<'finder' | 'about'>('finder');
 
-  const filtered = filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType);
+  const filtered = useMemo(() => {
+    if (selectedProgramId) {
+      return allPrograms.filter(p => p.ccldLicenseNumber === selectedProgramId);
+    }
+    return filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType);
+  }, [selectedProgramId, selectedCounty, selectedCareType]);
 
   return (
     <div className="min-h-screen bg-[#FAF7F2]">
@@ -65,6 +81,10 @@ export default function App() {
         onLaZipChange={setSelectedLaZip}
         onCareTypeChange={setSelectedCareType}
         totalResults={filtered.length}
+        searchItems={searchItems}
+        selectedProgramId={selectedProgramId}
+        onProgramSelect={setSelectedProgramId}
+        onProgramClear={() => setSelectedProgramId('')}
       />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">

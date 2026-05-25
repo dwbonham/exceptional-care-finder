@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import type { ReactNode } from 'react';
 import { allPrograms } from '../data/programs';
 
@@ -107,9 +108,61 @@ const NOT_ITEMS: NotItem[] = [
   },
 ];
 
+const TOC_SECTIONS = [
+  { id: 'who-its-for',    emoji: '🎯', label: "Who It's For"         },
+  { id: 'whats-included', emoji: '✅', label: 'What\'s Included'      },
+  { id: 'whats-not',      emoji: '⚠️', label: 'What\'s Not Included' },
+  { id: 'limitations',    emoji: '📊', label: 'Data Limitations'      },
+  { id: 'data-sources',   emoji: '🔗', label: 'Data Sources'          },
+  { id: 'medical',        emoji: '🏥', label: 'Medical Support'       },
+  { id: 'feedback',       emoji: '💬', label: 'Feedback'              },
+];
+
 const countyCount = new Set(allPrograms.map((p) => p.location.county)).size;
 
+function TocLinks({ activeId, onNavigate }: { activeId: string; onNavigate: (id: string) => void }) {
+  return (
+    <nav className="space-y-0.5">
+      {TOC_SECTIONS.map(({ id, emoji, label }) => (
+        <button
+          key={id}
+          onClick={() => onNavigate(id)}
+          className={`w-full text-left flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors cursor-pointer ${
+            activeId === id
+              ? 'bg-[#FEF2EE] text-[#C2410C] font-semibold'
+              : 'text-slate-500 hover:text-slate-800 hover:bg-slate-100'
+          }`}
+        >
+          <span className="text-base leading-none">{emoji}</span>
+          <span className="leading-snug">{label}</span>
+        </button>
+      ))}
+    </nav>
+  );
+}
+
 export default function AboutPage() {
+  const [activeId, setActiveId] = useState(TOC_SECTIONS[0].id);
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  useEffect(() => {
+    function onScroll() {
+      const found = [...TOC_SECTIONS].reverse().find(({ id }) => {
+        const el = document.getElementById(id);
+        if (!el) return false;
+        return el.getBoundingClientRect().top <= window.innerHeight * 0.35;
+      });
+      if (found) setActiveId(found.id);
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  function navigateTo(id: string) {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setMobileOpen(false);
+  }
+
   return (
     <div className="min-h-screen bg-[#FAF7F2]">
       {/* Page header */}
@@ -136,279 +189,309 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="max-w-3xl mx-auto px-6 py-12 space-y-10">
+      <div className="max-w-5xl mx-auto px-6 py-12">
+        <div className="flex gap-10 xl:gap-14 items-start">
 
-        {/* Who benefits most */}
-        <section className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-          <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-            <span className="text-xl">🎯</span>
-            <h2 className="text-lg font-bold text-slate-800">Who This Site Is For</h2>
-          </div>
-          <div className="px-6 py-5 space-y-4 text-slate-600 text-sm leading-relaxed">
-            <p>
-              This site is built for{' '}
-              <strong className="text-slate-800">
-                parents and caregivers of adults with intellectual and developmental disabilities (IDD)
-              </strong>{' '}
-              who are eligible for services under California's{' '}
-              <A href="https://www.dds.ca.gov/services/lanterman-act/">Lanterman Act</A>.
+          {/* Desktop sidebar ToC */}
+          <aside className="hidden lg:block w-48 xl:w-52 shrink-0 sticky top-24 self-start">
+            <p className="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3 px-3">
+              On this page
             </p>
-            <p>You'll get the most out of this site if your family member:</p>
-            <ul className="space-y-2 ml-1">
-              {[
-                'Has a qualifying diagnosis — Autism, Cerebral Palsy, Intellectual Disability, Epilepsy, or a closely related condition',
-                'Has a disability that began before age 18',
-                'Is already enrolled with a Regional Center, or is beginning the eligibility process',
-                'Needs a structured daytime program (skills training, vocational, behavioral, social)',
-                'Relies on Regional Center funding (IPP) to pay for services',
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2">
-                  <span className="text-blue-500 mt-0.5 shrink-0">✓</span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
+            <TocLinks activeId={activeId} onNavigate={navigateTo} />
+          </aside>
 
-        {/* What IS in the database */}
-        <section className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-          <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-            <span className="text-xl">✅</span>
-            <h2 className="text-lg font-bold text-slate-800">What's in This Database</h2>
-          </div>
-          <div className="px-6 py-5 space-y-4 text-slate-600 text-sm leading-relaxed">
-            <div className="grid sm:grid-cols-2 gap-3">
-              <div className="bg-slate-50 rounded-xl p-4">
-                <div className="font-semibold text-slate-700 mb-1">Program type</div>
-                <div>
-                  Adult Day Programs licensed by{' '}
-                  <A href="https://www.cdss.ca.gov/inforesources/community-care-licensing">
-                    CA Community Care Licensing (CCLD)
-                  </A>{' '}
-                  — the state agency that regulates non-medical day programs for adults with
-                  developmental disabilities.
+          {/* Main content */}
+          <div className="flex-1 min-w-0 space-y-10">
+
+            {/* Mobile "On this page" collapsible */}
+            <div className="lg:hidden bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+              <button
+                onClick={() => setMobileOpen(o => !o)}
+                className="w-full flex items-center justify-between px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors cursor-pointer"
+              >
+                <span>On this page</span>
+                <span className={`text-slate-400 text-xs transition-transform duration-200 ${mobileOpen ? 'rotate-180' : ''}`}>▾</span>
+              </button>
+              {mobileOpen && (
+                <div className="border-t border-slate-100 px-3 pb-3 pt-2">
+                  <TocLinks activeId={activeId} onNavigate={navigateTo} />
                 </div>
-              </div>
-              <div className="bg-slate-50 rounded-xl p-4">
-                <div className="font-semibold text-slate-700 mb-1">License status</div>
-                <div>
-                  Active licenses only. Programs with revoked or inactive licenses are excluded.
-                </div>
-              </div>
-              <div className="bg-slate-50 rounded-xl p-4">
-                <div className="font-semibold text-slate-700 mb-1">Funding path</div>
-                <div>
-                  Programs that accept{' '}
-                  <A href="https://www.dds.ca.gov/rc/">Regional Center</A> /{' '}
-                  <A href="https://www.dds.ca.gov/">DDS</A> funding via an Individual Program Plan
-                  (IPP). All programs shown are state-funded for eligible clients.
-                </div>
-              </div>
-              <div className="bg-slate-50 rounded-xl p-4">
-                <div className="font-semibold text-slate-700 mb-1">Geographic coverage</div>
-                <div>
-                  Currently covers {countyCount} of 58 California counties. Expanding to all CA
-                  counties via an automated weekly pipeline.
-                </div>
-              </div>
+              )}
             </div>
-            <p className="text-slate-500 text-xs pt-1">
-              Program data is sourced from the{' '}
-              <A href="https://data.chhs.ca.gov/dataset/ccl-facilities">
-                California CCLD licensing database
-              </A>{' '}
-              and enriched with AI-assisted research from public web sources. Data is updated on a
-              weekly automated schedule.
-            </p>
-          </div>
-        </section>
 
-        {/* What is NOT in the database */}
-        <section className="bg-white rounded-2xl border border-red-100 shadow-sm overflow-hidden">
-          <div className="px-6 py-4 border-b border-red-100 flex items-center gap-3" style={{ background: '#fef2f2' }}>
-            <span className="text-xl">⚠️</span>
-            <h2 className="text-lg font-bold text-slate-800">What's NOT in This Database</h2>
-          </div>
-          <div className="px-6 py-5 space-y-4 text-sm leading-relaxed">
-            <p className="text-slate-500">
-              Understanding what this site <em>doesn't</em> cover is just as important as knowing
-              what it does. The gaps below are intentional — they represent different funding
-              systems, different licensing agencies, or populations this site isn't designed to
-              serve.
-            </p>
-            <div className="space-y-3">
-              {NOT_ITEMS.map(({ label, detail }) => (
-                <details key={label} className="group border border-slate-100 rounded-xl overflow-hidden">
-                  <summary className="flex items-center gap-3 px-4 py-3 cursor-pointer bg-slate-50 hover:bg-slate-100 transition-colors list-none">
-                    <span className="text-red-400 shrink-0">✕</span>
-                    <span className="font-medium text-slate-700 text-sm">{label}</span>
-                    <span className="ml-auto text-slate-400 text-xs group-open:rotate-180 transition-transform">▾</span>
-                  </summary>
-                  <div className="px-4 py-3 text-slate-500 text-sm leading-relaxed border-t border-slate-100">
-                    {detail}
+            {/* Who benefits most */}
+            <section id="who-its-for" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
+              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
+                <span className="text-xl">🎯</span>
+                <h2 className="text-lg font-bold text-slate-800">Who This Site Is For</h2>
+              </div>
+              <div className="px-6 py-5 space-y-4 text-slate-600 text-sm leading-relaxed">
+                <p>
+                  This site is built for{' '}
+                  <strong className="text-slate-800">
+                    parents and caregivers of adults with intellectual and developmental disabilities (IDD)
+                  </strong>{' '}
+                  who are eligible for services under California's{' '}
+                  <A href="https://www.dds.ca.gov/services/lanterman-act/">Lanterman Act</A>.
+                </p>
+                <p>You'll get the most out of this site if your family member:</p>
+                <ul className="space-y-2 ml-1">
+                  {[
+                    'Has a qualifying diagnosis — Autism, Cerebral Palsy, Intellectual Disability, Epilepsy, or a closely related condition',
+                    'Has a disability that began before age 18',
+                    'Is already enrolled with a Regional Center, or is beginning the eligibility process',
+                    'Needs a structured daytime program (skills training, vocational, behavioral, social)',
+                    'Relies on Regional Center funding (IPP) to pay for services',
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-2">
+                      <span className="text-blue-500 mt-0.5 shrink-0">✓</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+
+            {/* What IS in the database */}
+            <section id="whats-included" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
+              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
+                <span className="text-xl">✅</span>
+                <h2 className="text-lg font-bold text-slate-800">What's in This Database</h2>
+              </div>
+              <div className="px-6 py-5 space-y-4 text-slate-600 text-sm leading-relaxed">
+                <div className="grid sm:grid-cols-2 gap-3">
+                  <div className="bg-slate-50 rounded-xl p-4">
+                    <div className="font-semibold text-slate-700 mb-1">Program type</div>
+                    <div>
+                      Adult Day Programs licensed by{' '}
+                      <A href="https://www.cdss.ca.gov/inforesources/community-care-licensing">
+                        CA Community Care Licensing (CCLD)
+                      </A>{' '}
+                      — the state agency that regulates non-medical day programs for adults with
+                      developmental disabilities.
+                    </div>
                   </div>
-                </details>
-              ))}
-            </div>
-          </div>
-        </section>
+                  <div className="bg-slate-50 rounded-xl p-4">
+                    <div className="font-semibold text-slate-700 mb-1">License status</div>
+                    <div>
+                      Active licenses only. Programs with revoked or inactive licenses are excluded.
+                    </div>
+                  </div>
+                  <div className="bg-slate-50 rounded-xl p-4">
+                    <div className="font-semibold text-slate-700 mb-1">Funding path</div>
+                    <div>
+                      Programs that accept{' '}
+                      <A href="https://www.dds.ca.gov/rc/">Regional Center</A> /{' '}
+                      <A href="https://www.dds.ca.gov/">DDS</A> funding via an Individual Program Plan
+                      (IPP). All programs shown are state-funded for eligible clients.
+                    </div>
+                  </div>
+                  <div className="bg-slate-50 rounded-xl p-4">
+                    <div className="font-semibold text-slate-700 mb-1">Geographic coverage</div>
+                    <div>
+                      Currently covers {countyCount} of 58 California counties. Expanding to all CA
+                      counties via an automated weekly pipeline.
+                    </div>
+                  </div>
+                </div>
+                <p className="text-slate-500 text-xs pt-1">
+                  Program data is sourced from the{' '}
+                  <A href="https://data.chhs.ca.gov/dataset/ccl-facilities">
+                    California CCLD licensing database
+                  </A>{' '}
+                  and enriched with AI-assisted research from public web sources. Data is updated on a
+                  weekly automated schedule.
+                </p>
+              </div>
+            </section>
 
-        {/* Known data limitations */}
-        <section className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-          <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-            <span className="text-xl">📊</span>
-            <h2 className="text-lg font-bold text-slate-800">Known Data Limitations</h2>
-          </div>
-          <div className="px-6 py-5 text-sm leading-relaxed">
-            <div className="space-y-3">
-              {[
-                {
-                  label: 'Capacity is licensed capacity, not current enrollment',
-                  detail: 'The number shown is the maximum the state license allows — not how many spots are open today. Always call the program to ask about current availability and waitlists.',
-                },
-                {
-                  label: 'Vendor IDs and transportation are not yet verified',
-                  detail: 'Vendor IDs (the code your RC uses to authorize payment) and transportation availability are placeholders for some programs. Contact your Regional Center service coordinator to confirm current vendor status.',
-                },
-                {
-                  label: 'AI-generated summaries are based on public web information',
-                  detail: 'Program descriptions and parent review bullets are generated by AI from publicly available sources — program websites, news articles, parent forums. They are not verified by the programs themselves. Always speak directly with a program before making placement decisions.',
-                },
-                {
-                  label: 'Contact info may lag real-world changes',
-                  detail: 'Phone numbers and addresses come from the state licensing database, updated weekly. Programs can change phone numbers or move without immediately updating their state license. Call before visiting.',
-                },
-              ].map(({ label, detail }) => (
-                <div key={label} className="flex gap-3 py-3 border-b border-slate-50 last:border-0">
-                  <span className="text-amber-400 shrink-0 mt-0.5">!</span>
+            {/* What is NOT in the database */}
+            <section id="whats-not" className="bg-white rounded-2xl border border-red-100 shadow-sm overflow-hidden scroll-mt-24">
+              <div className="px-6 py-4 border-b border-red-100 flex items-center gap-3" style={{ background: '#fef2f2' }}>
+                <span className="text-xl">⚠️</span>
+                <h2 className="text-lg font-bold text-slate-800">What's NOT in This Database</h2>
+              </div>
+              <div className="px-6 py-5 space-y-4 text-sm leading-relaxed">
+                <p className="text-slate-500">
+                  Understanding what this site <em>doesn't</em> cover is just as important as knowing
+                  what it does. The gaps below are intentional — they represent different funding
+                  systems, different licensing agencies, or populations this site isn't designed to
+                  serve.
+                </p>
+                <div className="space-y-3">
+                  {NOT_ITEMS.map(({ label, detail }) => (
+                    <details key={label} className="group border border-slate-100 rounded-xl overflow-hidden">
+                      <summary className="flex items-center gap-3 px-4 py-3 cursor-pointer bg-slate-50 hover:bg-slate-100 transition-colors list-none">
+                        <span className="text-red-400 shrink-0">✕</span>
+                        <span className="font-medium text-slate-700 text-sm">{label}</span>
+                        <span className="ml-auto text-slate-400 text-xs group-open:rotate-180 transition-transform">▾</span>
+                      </summary>
+                      <div className="px-4 py-3 text-slate-500 text-sm leading-relaxed border-t border-slate-100">
+                        {detail}
+                      </div>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            </section>
+
+            {/* Known data limitations */}
+            <section id="limitations" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
+              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
+                <span className="text-xl">📊</span>
+                <h2 className="text-lg font-bold text-slate-800">Known Data Limitations</h2>
+              </div>
+              <div className="px-6 py-5 text-sm leading-relaxed">
+                <div className="space-y-3">
+                  {[
+                    {
+                      label: 'Capacity is licensed capacity, not current enrollment',
+                      detail: 'The number shown is the maximum the state license allows — not how many spots are open today. Always call the program to ask about current availability and waitlists.',
+                    },
+                    {
+                      label: 'Vendor IDs and transportation are not yet verified',
+                      detail: 'Vendor IDs (the code your RC uses to authorize payment) and transportation availability are placeholders for some programs. Contact your Regional Center service coordinator to confirm current vendor status.',
+                    },
+                    {
+                      label: 'AI-generated summaries are based on public web information',
+                      detail: 'Program descriptions and parent review bullets are generated by AI from publicly available sources — program websites, news articles, parent forums. They are not verified by the programs themselves. Always speak directly with a program before making placement decisions.',
+                    },
+                    {
+                      label: 'Contact info may lag real-world changes',
+                      detail: 'Phone numbers and addresses come from the state licensing database, updated weekly. Programs can change phone numbers or move without immediately updating their state license. Call before visiting.',
+                    },
+                  ].map(({ label, detail }) => (
+                    <div key={label} className="flex gap-3 py-3 border-b border-slate-50 last:border-0">
+                      <span className="text-amber-400 shrink-0 mt-0.5">!</span>
+                      <div>
+                        <div className="font-medium text-slate-700 mb-0.5">{label}</div>
+                        <div className="text-slate-500">{detail}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+
+            {/* Data sources */}
+            <section id="data-sources" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
+              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
+                <span className="text-xl">🔗</span>
+                <h2 className="text-lg font-bold text-slate-800">Data Sources</h2>
+              </div>
+              <div className="px-6 py-5 text-sm leading-relaxed">
+                <div className="space-y-3">
+                  <div className="bg-slate-50 rounded-xl p-4">
+                    <div className="flex items-start justify-between gap-3 mb-1">
+                      <div className="font-semibold text-slate-700">
+                        <A href="https://www.cdss.ca.gov/inforesources/community-care-licensing">
+                          CA Community Care Licensing Division (CCLD)
+                        </A>
+                      </div>
+                      <span className="text-xs text-blue-600 bg-blue-50 rounded-full px-2 py-0.5 shrink-0">Weekly automated pull</span>
+                    </div>
+                    <div className="text-slate-500">
+                      Primary data source. Provides program names, addresses, phone numbers, licensed
+                      capacity, and license status for all Adult Day Programs in California. Raw dataset
+                      available on the{' '}
+                      <A href="https://data.chhs.ca.gov/dataset/ccl-facilities">CHHS Open Data Portal</A>.
+                      Facility-level search available at the{' '}
+                      <A href="https://www.ccld.dss.ca.gov/carefacilitysearch/">CCLD Facility Search</A>.
+                    </div>
+                  </div>
+                  <div className="bg-slate-50 rounded-xl p-4">
+                    <div className="flex items-start justify-between gap-3 mb-1">
+                      <div className="font-semibold text-slate-700">
+                        <A href="https://ai.google.dev/">Google Gemini AI</A> (web enrichment)
+                      </div>
+                      <span className="text-xs text-blue-600 bg-blue-50 rounded-full px-2 py-0.5 shrink-0">Run once per new program</span>
+                    </div>
+                    <div className="text-slate-500">
+                      Enriches raw CCLD records with display names, website URLs, hours of operation,
+                      languages, program focus descriptions, and parent review summaries sourced from
+                      public web pages. Searches public program websites, news, and parent forums only
+                      — not Yelp or Google Reviews.
+                    </div>
+                  </div>
+                  <div className="bg-slate-50 rounded-xl p-4">
+                    <div className="flex items-start justify-between gap-3 mb-1">
+                      <div className="font-semibold text-slate-700">
+                        <A href="https://developers.google.com/maps/documentation/geocoding/">
+                          Google Maps Geocoding API
+                        </A>
+                      </div>
+                      <span className="text-xs text-blue-600 bg-blue-50 rounded-full px-2 py-0.5 shrink-0">Run once per new program</span>
+                    </div>
+                    <div className="text-slate-500">
+                      Converts street addresses to map coordinates for the map view.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Medical support callout */}
+            <section id="medical" className="rounded-2xl border border-blue-200 overflow-hidden scroll-mt-24" style={{ background: 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)' }}>
+              <div className="px-6 py-5">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl shrink-0">🏥</span>
                   <div>
-                    <div className="font-medium text-slate-700 mb-0.5">{label}</div>
-                    <div className="text-slate-500">{detail}</div>
+                    <h2 className="text-base font-bold text-blue-900 mb-2">
+                      Does Your Loved One Need Medical Support During the Day?
+                    </h2>
+                    <p className="text-blue-800 text-sm leading-relaxed mb-3">
+                      If your family member requires tube feeding, wound care, IV medications, or
+                      on-site nursing oversight, the programs on this site are not designed for that
+                      level of care. These are non-medical day programs.
+                    </p>
+                    <p className="text-blue-800 text-sm leading-relaxed">
+                      <strong>What to do:</strong> Contact your{' '}
+                      <A href="https://www.dds.ca.gov/rc/">Regional Center</A> service coordinator and
+                      ask specifically about{' '}
+                      <A href="https://www.aging.ca.gov/Providers_and_Partners/Community-Based_Adult_Services/CBAS_Providers/">
+                        CBAS (Community-Based Adult Services)
+                      </A>{' '}
+                      centers — California's medical adult day program model. Your RC can authorize and
+                      fund a CBAS placement through your IPP if medically warranted.
+                    </p>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-        </section>
+              </div>
+            </section>
 
-        {/* Data sources */}
-        <section className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-          <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-            <span className="text-xl">🔗</span>
-            <h2 className="text-lg font-bold text-slate-800">Data Sources</h2>
-          </div>
-          <div className="px-6 py-5 text-sm leading-relaxed">
-            <div className="space-y-3">
-              <div className="bg-slate-50 rounded-xl p-4">
-                <div className="flex items-start justify-between gap-3 mb-1">
-                  <div className="font-semibold text-slate-700">
-                    <A href="https://www.cdss.ca.gov/inforesources/community-care-licensing">
-                      CA Community Care Licensing Division (CCLD)
-                    </A>
-                  </div>
-                  <span className="text-xs text-blue-600 bg-blue-50 rounded-full px-2 py-0.5 shrink-0">Weekly automated pull</span>
-                </div>
-                <div className="text-slate-500">
-                  Primary data source. Provides program names, addresses, phone numbers, licensed
-                  capacity, and license status for all Adult Day Programs in California. Raw dataset
-                  available on the{' '}
-                  <A href="https://data.chhs.ca.gov/dataset/ccl-facilities">CHHS Open Data Portal</A>.
-                  Facility-level search available at the{' '}
-                  <A href="https://www.ccld.dss.ca.gov/carefacilitysearch/">CCLD Facility Search</A>.
-                </div>
+            {/* Feedback */}
+            <section id="feedback" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
+              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
+                <span className="text-xl">💬</span>
+                <h2 className="text-lg font-bold text-slate-800">Missing a Program? Found an Error?</h2>
               </div>
-              <div className="bg-slate-50 rounded-xl p-4">
-                <div className="flex items-start justify-between gap-3 mb-1">
-                  <div className="font-semibold text-slate-700">
-                    <A href="https://ai.google.dev/">Google Gemini AI</A> (web enrichment)
-                  </div>
-                  <span className="text-xs text-blue-600 bg-blue-50 rounded-full px-2 py-0.5 shrink-0">Run once per new program</span>
-                </div>
-                <div className="text-slate-500">
-                  Enriches raw CCLD records with display names, website URLs, hours of operation,
-                  languages, program focus descriptions, and parent review summaries sourced from
-                  public web pages. Searches public program websites, news, and parent forums only
-                  — not Yelp or Google Reviews.
-                </div>
-              </div>
-              <div className="bg-slate-50 rounded-xl p-4">
-                <div className="flex items-start justify-between gap-3 mb-1">
-                  <div className="font-semibold text-slate-700">
-                    <A href="https://developers.google.com/maps/documentation/geocoding/">
-                      Google Maps Geocoding API
-                    </A>
-                  </div>
-                  <span className="text-xs text-blue-600 bg-blue-50 rounded-full px-2 py-0.5 shrink-0">Run once per new program</span>
-                </div>
-                <div className="text-slate-500">
-                  Converts street addresses to map coordinates for the map view.
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Medical support callout */}
-        <section className="rounded-2xl border border-blue-200 overflow-hidden" style={{ background: 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)' }}>
-          <div className="px-6 py-5">
-            <div className="flex items-start gap-3">
-              <span className="text-2xl shrink-0">🏥</span>
-              <div>
-                <h2 className="text-base font-bold text-blue-900 mb-2">
-                  Does Your Loved One Need Medical Support During the Day?
-                </h2>
-                <p className="text-blue-800 text-sm leading-relaxed mb-3">
-                  If your family member requires tube feeding, wound care, IV medications, or
-                  on-site nursing oversight, the programs on this site are not designed for that
-                  level of care. These are non-medical day programs.
+              <div className="px-6 py-5 text-sm leading-relaxed text-slate-600 space-y-2">
+                <p>
+                  If you know of an active, RC-vendored Adult Day Program that doesn't appear here, or
+                  if you spot incorrect information about a listed program, please reach out. Programs
+                  are added automatically from the state licensing database, but enrichment data
+                  (names, websites, summaries) can contain errors.
                 </p>
-                <p className="text-blue-800 text-sm leading-relaxed">
-                  <strong>What to do:</strong> Contact your{' '}
-                  <A href="https://www.dds.ca.gov/rc/">Regional Center</A> service coordinator and
-                  ask specifically about{' '}
-                  <A href="https://www.aging.ca.gov/Providers_and_Partners/Community-Based_Adult_Services/CBAS_Providers/">
-                    CBAS (Community-Based Adult Services)
-                  </A>{' '}
-                  centers — California's medical adult day program model. Your RC can authorize and
-                  fund a CBAS placement through your IPP if medically warranted.
+                <p>
+                  Submit an issue or correction via{' '}
+                  <A href="https://github.com/dwbonham/exceptional-care-finder/issues">
+                    GitHub Issues
+                  </A>.
                 </p>
               </div>
+            </section>
+
+            {/* Disclaimer */}
+            <div className="text-center text-xs text-slate-400 leading-relaxed pb-4">
+              This site is an independent resource and is not affiliated with the{' '}
+              <A href="https://www.dds.ca.gov/">California Department of Developmental Services</A>,
+              any Regional Center, or any program listed. Information is provided for informational
+              purposes only and does not constitute legal, medical, or financial advice. Always verify
+              program details directly before making placement decisions.
             </div>
-          </div>
-        </section>
 
-        {/* Feedback */}
-        <section className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-          <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-            <span className="text-xl">💬</span>
-            <h2 className="text-lg font-bold text-slate-800">Missing a Program? Found an Error?</h2>
           </div>
-          <div className="px-6 py-5 text-sm leading-relaxed text-slate-600 space-y-2">
-            <p>
-              If you know of an active, RC-vendored Adult Day Program that doesn't appear here, or
-              if you spot incorrect information about a listed program, please reach out. Programs
-              are added automatically from the state licensing database, but enrichment data
-              (names, websites, summaries) can contain errors.
-            </p>
-            <p>
-              Submit an issue or correction via{' '}
-              <A href="https://github.com/dwbonham/exceptional-care-finder/issues">
-                GitHub Issues
-              </A>.
-            </p>
-          </div>
-        </section>
-
-        {/* Disclaimer */}
-        <div className="text-center text-xs text-slate-400 leading-relaxed pb-4">
-          This site is an independent resource and is not affiliated with the{' '}
-          <A href="https://www.dds.ca.gov/">California Department of Developmental Services</A>,
-          any Regional Center, or any program listed. Information is provided for informational
-          purposes only and does not constitute legal, medical, or financial advice. Always verify
-          program details directly before making placement decisions.
         </div>
-
       </div>
     </div>
   );
