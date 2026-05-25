@@ -19,17 +19,15 @@ export default function HeroSection({ selectedState, selectedCounty }: Props) {
     <div
       className="relative overflow-hidden"
       style={{
-        background: 'linear-gradient(135deg, #1d4ed8 0%, #2563eb 40%, #3b82f6 75%, #60a5fa 100%)',
+        backgroundImage: 'url(/hero-bg.jpeg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center 30%',
       }}
     >
-      {/* Decorative background circles */}
+      {/* Blue gradient overlay — keeps photo subtle and text readable */}
       <div
-        className="absolute -top-24 -right-24 w-96 h-96 rounded-full opacity-10"
-        style={{ background: 'rgba(255,255,255,0.3)' }}
-      />
-      <div
-        className="absolute -bottom-16 -left-16 w-72 h-72 rounded-full opacity-10"
-        style={{ background: 'rgba(255,255,255,0.2)' }}
+        className="absolute inset-0"
+        style={{ background: 'linear-gradient(135deg, rgba(29,78,216,0.88) 0%, rgba(37,99,235,0.85) 40%, rgba(59,130,246,0.82) 75%, rgba(96,165,250,0.80) 100%)' }}
       />
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-20 text-center">
