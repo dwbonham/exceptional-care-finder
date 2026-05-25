@@ -68,12 +68,13 @@ export default function ProgramCard({ program }: Props) {
       {/* Card body */}
       <div className="px-6 py-4 flex-1 flex flex-col gap-4">
 
-        {/* AI-Powered Summary — only shown when content exists */}
+        {/* Program Summary — only shown when content exists */}
         {facilityDetails.programFocus && (
           <div className="bg-blue-50 rounded-xl p-4 border border-blue-100">
-            <p className="text-xs font-semibold text-violet-600 uppercase tracking-widest mb-1.5 flex items-center gap-1">
-              ✨ <span>AI-Powered Summary</span>
+            <p className="text-xs font-semibold text-violet-600 uppercase tracking-widest mb-1 flex items-center gap-1">
+              ✨ <span>Program Summary</span>
             </p>
+            <p className="text-xs text-slate-400 mb-2">Summarized from the program's public website and CCLD license record using Gemini.</p>
             <p className="text-sm text-slate-700 leading-relaxed">{facilityDetails.programFocus}</p>
           </div>
         )}
@@ -221,7 +222,7 @@ export default function ProgramCard({ program }: Props) {
             aria-expanded={reviewsOpen}
           >
             <span className="text-sm font-semibold text-slate-700 flex items-center gap-2">
-              <span>💬</span> AI-Aggregated Community Sentiment
+              <span>💬</span> Additional Info
               <span className="text-xs font-normal text-slate-400">
                 ({qualitativeInsights.parentReviews.length})
               </span>
@@ -248,6 +249,9 @@ export default function ProgramCard({ program }: Props) {
                   </li>
                 ))}
               </ul>
+              <p className="text-xs text-slate-400 mt-3 pt-3 border-t border-slate-200 leading-relaxed">
+                Gathered by Gemini from public web sources — organizational websites, news articles, and nonprofit filings. Review platforms (Yelp, Google Reviews) are excluded per their terms of service.
+              </p>
             </div>
           )}
         </div>
