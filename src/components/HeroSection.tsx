@@ -27,7 +27,7 @@ export default function HeroSection({ selectedState, selectedCounty }: Props) {
       {/* Blue gradient overlay — keeps photo subtle and text readable */}
       <div
         className="absolute inset-0"
-        style={{ background: 'linear-gradient(135deg, rgba(29,78,216,0.75) 0%, rgba(37,99,235,0.72) 40%, rgba(59,130,246,0.68) 75%, rgba(96,165,250,0.65) 100%)' }}
+        style={{ background: 'rgba(0,0,0,0.45)' }}
       />
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-20 text-center">

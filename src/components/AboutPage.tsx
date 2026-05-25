@@ -121,7 +121,7 @@ export default function AboutPage() {
           backgroundPosition: 'center 40%',
         }}
       >
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(29,78,216,0.75) 0%, rgba(37,99,235,0.72) 40%, rgba(59,130,246,0.68) 75%, rgba(96,165,250,0.65) 100%)' }} />
+        <div className="absolute inset-0" style={{ background: 'rgba(0,0,0,0.45)' }} />
         <div className="relative z-10 max-w-3xl mx-auto px-6 py-16 text-center">
           <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-1.5 mb-5">
             <span className="text-yellow-300 text-sm">✦</span>
