@@ -107,6 +107,17 @@ GitHub Actions (weekly cron — Monday 6am PT + catch-up Tue–Sun)
    or community involvement. flaggedForReview is set to true (and
    bullets to []) if fewer than 2 credible public sources are found —
    preventing fabricated content from reaching the site.
+
+   In practice, the primary source is the program's own website when
+   one exists. The next most common source is the parent organization's
+   site — a significant share of CA adult day programs are operated by
+   regional nonprofits (Easterseals, Sevita, BrightSpring, UCP
+   affiliates) that maintain individual program pages under their own
+   domain. State vendor lists, 211 social services databases, and
+   occasional local news round out the source pool. Parent forums are
+   listed in the prompt but rarely surface for individual programs.
+   Source URLs are not stored — only the output sentences are saved to
+   the program record.
         │
         ▼
 4. Auto-Geocoding
