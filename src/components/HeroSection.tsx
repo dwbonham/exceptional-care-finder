@@ -1,9 +1,12 @@
+import { allPrograms } from '../data/programs';
+
 interface Props {
   selectedState: string;
   selectedCounty: string;
 }
 
 export default function HeroSection({ selectedState, selectedCounty }: Props) {
+  const programCount = allPrograms.length;
 
   const locationLabel =
     selectedCounty && selectedState
@@ -35,8 +38,8 @@ export default function HeroSection({ selectedState, selectedCounty }: Props) {
           <span className="text-yellow-300 text-sm">✦</span>
           <span className="text-white/90 text-sm font-medium tracking-wide">
             {locationLabel
-              ? `${locationLabel} · State-Funded Programs`
-              : 'Nationwide · State-Funded Programs'}
+              ? `${locationLabel} · Regional Center Funded`
+              : 'California · Regional Center Funded'}
           </span>
         </div>
 
@@ -57,17 +60,21 @@ export default function HeroSection({ selectedState, selectedCounty }: Props) {
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto mb-8">
-          Find state-funded day programs and vocational training for your loved ones.
-          Real programs, right in your community.
+          Find day programs for adults with autism, Down syndrome, cerebral palsy, and
+          intellectual disabilities — funded through California's Regional Center system
+          at no cost to your family.
         </p>
 
         {/* Trust indicators */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-blue-200 text-sm">
           <span className="flex items-center gap-1.5">
-            <span>🛡️</span> State-Verified Providers
+            <span>🛡️</span> CCLD-Licensed Providers
           </span>
           <span className="flex items-center gap-1.5">
-            <span>📋</span> Service Summaries
+            <span>💰</span> No Cost to Families
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span>📍</span> {programCount.toLocaleString()} Programs Statewide
           </span>
         </div>
       </div>
