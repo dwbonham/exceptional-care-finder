@@ -94,6 +94,7 @@ export interface FundingGuideFaq {
 export interface GlossaryTerm {
   term: string;
   definition: string;
+  category?: string;
 }
 
 export interface FundingGuide {
@@ -102,4 +103,5 @@ export interface FundingGuide {
   localAgencies: LocalAgencyContact[];
   faqs: FundingGuideFaq[];
   glossary?: GlossaryTerm[];
+  careTypeDefinitions?: GlossaryTerm[];
 }

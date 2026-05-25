@@ -207,6 +207,28 @@
       "definition": "The identification number the Regional Center assigns to an approved service provider. A program must have an active vendor ID with your specific RC before they can receive payment for your services — even if they serve clients from other RCs."
     }
   ],
+  "careTypeDefinitions": [
+    {
+      "term": "Adult Day Program",
+      "definition": "A structured daytime program for adults who need support during the day but return home evenings and weekends. Includes social and recreational activities, meals, health monitoring, personal care assistance, and skill-building. The most common program type in this directory.",
+      "category": "Program Types"
+    },
+    {
+      "term": "Adult Development Center",
+      "definition": "A center-based program focused on developing functional skills for greater independence — communication, self-care, daily living tasks, and community integration. Often serves individuals with more significant support needs who benefit from structured skill instruction alongside day activities.",
+      "category": "Program Types"
+    },
+    {
+      "term": "Adult Development Center (Vocational)",
+      "definition": "An Adult Development Center with a specific emphasis on work readiness and employment. Programs include vocational training, job skills practice, supported work environments, and assistance with competitive job placement. A good fit for individuals working toward or maintaining paid employment.",
+      "category": "Program Types"
+    },
+    {
+      "term": "Behavior Management Program",
+      "definition": "A specialized program for adults with significant behavioral support needs. Staff are trained in behavior intervention and work with each participant's behavior support plan. These programs often have higher staffing ratios and coordinate closely with behavior specialists and Regional Center teams.",
+      "category": "Program Types"
+    }
+  ],
   "faqs": [
     {
       "question": "How does funding work?",
