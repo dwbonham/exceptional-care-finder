@@ -1,6 +1,6 @@
 # Exceptional Care Finder
 
-A free, public web directory helping families find state-funded day programs for adults with developmental disabilities. Currently covers Riverside County, CA — expanding to all of California via a fully automated weekly data pipeline.
+A free, public web directory helping families find state-funded Adult Day Programs for adults with developmental disabilities. Covers **53 of 58 California counties** (~935 active programs) via a fully automated weekly data pipeline.
 
 **Live site:** https://dwbonham.github.io/exceptional-care-finder/
 
@@ -8,9 +8,9 @@ A free, public web directory helping families find state-funded day programs for
 
 ## The Problem This Solves
 
-Parents of adults with autism, cerebral palsy, intellectual disabilities, and epilepsy are entitled to free, state-funded day programs through California's Regional Center system — but finding those programs is surprisingly hard. The state licensing database lists thousands of facilities but provides no search, no map, and no way to filter by funding type. Families end up calling programs one by one, often not knowing which ones accept their funding source or how to start the process.
+Parents of adults with autism, cerebral palsy, intellectual disabilities, and epilepsy are entitled to free, state-funded day programs through California's Regional Center system — but finding those programs is surprisingly hard. The state licensing database lists ~969 facilities but provides no search, no map, and no way to filter by funding type or population served. Families end up calling programs one by one, often not knowing which ones accept their funding source or how to start the process.
 
-This project takes that raw state licensing data and turns it into a searchable, filterable, family-friendly directory — with clear funding information, AI-summarized community feedback, and a map — all for free.
+This project takes that raw state licensing data and turns it into a searchable, filterable, family-friendly directory — with clear funding information, population-specific filtering, AI-researched program summaries, and a map — all for free.
 
 ---
 
@@ -19,106 +19,115 @@ This project takes that raw state licensing data and turns it into a searchable,
 Families use the site to:
 
 - **Find licensed programs** near them, filtered by state, county, and care type
-- **Understand funding** — which programs are eligible for 100% state coverage through their Regional Center, what documents they need, and who administers payments
-- **Read AI-aggregated community sentiment** pulled from public web sources (program websites, news, parent forums)
-- **Get everything in one place** — contact info, program focus, licensed capacity, languages supported, facility features, and a map with directions
+- **Filter by who the program serves** — population specialization badges (Autism, Down Syndrome, etc.) appear on every enriched card
+- **Understand the funding system** — how Regional Centers work, what an IPP is, how to get started
+- **See schedule and logistics** — hours, days, transportation area, languages supported
+- **Read AI-researched program summaries** sourced from public web pages, news, and parent forums
+- **Contact programs directly** — phone, website, and map directions on every card
 
-The site is a React single-page application deployed on GitHub Pages. It updates automatically every time the underlying data changes — no manual publishing step required.
+The site is a React SPA deployed on GitHub Pages. It updates automatically every time the pipeline merges a PR — no manual publishing step.
 
 ---
 
 ## The Automated Data Pipeline
 
-Expanding to all of California (~500–1,000 programs across 21 regional centers) required building a fully automated pipeline rather than entering programs by hand. The pipeline runs on a weekly schedule with no human involvement for programs that meet the quality bar.
+Expanding to all of California (~969 programs) required a fully automated pipeline rather than manual data entry. The pipeline runs on a weekly schedule with no human involvement for programs that meet the quality bar.
 
 ### Pipeline Flow
 
 ```
-GitHub Actions (weekly cron — Monday 6am PT)
+GitHub Actions (weekly cron — Monday 6am PT + catch-up Tue–Sun)
         │
         ▼
 1. CCLD Ingest
-   Downloads the California Community Care Licensing (CCLD) database
-   from the state's public data portal (data.chhs.ca.gov).
-   Filters to "Adult Day Program" license type only — this is a critical
-   distinction from "Adult Day Health Care," which is a different program
-   with different funding that serves a different population.
-   Diffs new download against the current registry using CCLD License Number
-   as the primary key — only new or changed programs move forward.
-        │ New / changed programs found
-        ▼
-2. Gemini API — Program Enrichment
-   For each new program, calls Gemini with Google Search grounding to
-   research: display name, phone number, website, hours, languages
-   supported, facility features, and parent organization.
-   Returns structured JSON that maps directly to the data schema.
+   Downloads the CA Community Care Licensing (CCLD) database from
+   the state's public data portal. Filters to "Adult Day Program"
+   license type only — a critical distinction from "Adult Day Health
+   Care," which is a different program with different funding and
+   a different population.
+   Diffs the new download against the checkpoint using CCLD License
+   Number as the primary key. Only new or changed programs advance.
         │
         ▼
-3. Gemini API — Community Sentiment Research
-   Second Gemini call per program, again with Google Search grounding.
-   Searches public web sources only: program websites, news articles,
-   state agency pages, and parent forums.
-   Yelp and Google Reviews are explicitly excluded (ToS prohibits
-   automated access and republication).
-   Returns up to 3 AI-written sentiment bullets.
-   Programs with no discoverable web presence are flagged for manual
-   review rather than published with empty sentiment.
+2. Gemini API — Program Enrichment
+   For each new program, calls Gemini with Google Search grounding
+   to research: display name, website, phone, hours, languages,
+   facility features, population focus, and parent organization.
+   Returns structured JSON mapped directly to the data schema.
+        │
+        ▼
+3. Gemini API — Community Sentiment (manual runs only)
+   Second Gemini call per program (only when WITH_SENTIMENT=1).
+   Searches public web sources: program sites, news, state agency
+   pages, parent forums. Yelp and Google Reviews explicitly excluded
+   (ToS prohibits automated republication).
+   Returns up to 3 AI-written factual sentences about the program.
+   Programs with fewer than 2 discoverable sources are flagged rather
+   than published with fabricated content.
         │
         ▼
 4. Auto-Geocoding
-   Converts each program's street address to latitude/longitude
-   coordinates using the Google Maps Geocoding API. Coordinates are
-   stored in the program record and used by the map on the site.
+   Converts each program's street address to lat/lng using the
+   Google Maps Geocoding API. Stored in the program record for
+   the map view.
         │
         ▼
 5. Quality Gate
    Each program is scored on completeness (0–100%) across all fields.
-   Score ≥ 80% AND at least 1 sentiment bullet → auto-approved, moves
-   directly to publish.
-   Score below threshold → written to the Google Sheets staging layer
-   as "Needs Review" for a quick human check before publishing.
-        │ Approved records
-        ▼
-6. Google Sheets — Staging and Audit Layer
-   The pipeline also reads Google Sheets for any rows Doug has manually
-   marked "Approved" from a prior review session. These are folded into
-   the same publish batch.
-   Separately, ALL programs (not just flagged ones) are mirrored to the
-   Sheet as a full audit view — useful for data quality queries like
-   "show me every LA County program with no phone number."
+   Score ≥ 80% AND ≥ 1 sentiment bullet → auto-approved.
+   Below threshold → written to Google Sheets as "Needs Review."
         │
         ▼
-7. Commit and Open a Pull Request
-   Approved records are written to the program-data/ JSON files,
-   committed to the pipeline/weekly-update branch, and a GitHub PR is
-   opened for review. Merging the PR triggers the existing deploy
-   workflow — the site updates automatically.
+6. Google Sheets — Full Mirror + County Summary
+   ALL programs (not just flagged ones) are upserted to a Google
+   Sheet via CCLD License Number lookup. This mirrors the full
+   dataset for audit queries: "show every LA County program missing
+   a phone number," "which counties have < 50% enrichment," etc.
+   A County Summary tab is rebuilt on every run with per-county
+   enrichment stats.
+        │
+        ▼
+7. Commit + Pull Request
+   Approved records are written to program-data/ JSON files,
+   committed to pipeline/weekly-update, and a PR is opened.
+   Merging triggers the deploy workflow — site updates automatically.
 ```
 
 ### Resumption Logic
 
-The free tier of the Gemini API allows 1,500 requests per day. A full first-run import of all CA programs (500–1,000) takes more than one day. The pipeline uses a checkpoint file (persisted via GitHub Actions cache) to track which CCLD license numbers have already been enriched. Catch-up cron jobs run Tuesday–Friday — each run picks up where the previous one stopped. Once enrichment is complete, weekly runs process only 5–20 new programs and stay well within the daily limit.
+The pipeline uses a checkpoint file (persisted via GitHub Actions cache) to track which CCLD license numbers have already been enriched. Catch-up cron jobs run Tuesday–Sunday — each run picks up where the previous one stopped. A Gemini rate limit (429) or service unavailability (503) both trigger an early exit that saves the checkpoint before stopping, so no work is lost.
+
+At ~25 programs per automated run (Gemini quota), the initial CA import took several weeks of daily runs. Weekly ongoing runs process only 5–20 new programs and stay well within limits.
 
 ---
 
 ## Key Design Decisions
 
-These are the choices that had real tradeoffs — the kind of decisions that come up in engineering conversations.
+These are the choices that had real tradeoffs.
 
-**Quality gate at 80% completeness, not 100%**
-A strict 100% threshold would flag most programs for review because some fields (like `hoursOfOperation`) are genuinely hard to find online. 80% catches programs with real data gaps while auto-approving the majority. The result: a small, meaningful review queue rather than a large noisy one.
+**Upsert over append for Google Sheets writes**
+The original implementation used `values.append`, which always adds new rows. When the pipeline re-ran on the same dataset (after a quota pause, or during a backfill), it created duplicate rows — one CCLD-only row from Phase 4 and one enriched row from Phase 5 for the same program. The fix was `upsertProgramRows`: on each write, read column F to build a license-number-to-row-index map, then update existing rows in place and only append truly new ones. This made both phases fully idempotent and eliminated ~1,000 duplicate rows from the initial import.
+
+**503 treated as an early exit, not a warning**
+When Gemini returns 503 (service unavailable), the original code logged an error and continued. This meant a pipeline run during a Gemini outage would log an error for every one of the ~500 queued programs, burn all GitHub Actions minutes, and produce zero enrichment. The fix: treat 503 identically to 429 (rate limit) — throw `RateLimitError`, save the checkpoint, and exit. The next scheduled run retries cleanly.
+
+**Sentiment excluded from automated daily runs**
+The automated cron doesn't pass `WITH_SENTIMENT`, so the second Gemini call (which finds factual sentences from public sources) is skipped. This keeps automated runs fast and cheap. The tradeoff: programs enriched by the automated run have no sentiment bullets unless manually re-enriched. For large new counties, a manual workflow dispatch with sentiment checked is used. Programs are marked done in the checkpoint after enrichment, so they won't be re-processed automatically — sentiment is a one-time, manual-trigger operation for bulk imports.
+
+**Quality gate at 80%, not 100%**
+A 100% threshold would flag most programs because some fields (like `hoursOfOperation`) are genuinely hard to find for small programs with no web presence. 80% catches real data gaps while auto-approving the majority. Result: a small, meaningful review queue rather than a large noisy one.
 
 **Google Sheets as a full mirror, not just an exceptions layer**
-The original plan was to only write flagged programs to Sheets. After thinking through how the data would be used, the decision was made to mirror everything. This turns the Sheet into an audit dashboard: you can pivot by county, filter by completeness score, find all programs missing a phone number, or track enrichment status across the whole dataset — without touching JSON files.
+Originally the plan was to only write flagged programs to Sheets. The final design mirrors the entire dataset. This turns the Sheet into an audit dashboard — pivot by county, filter by completeness score, find programs missing phone numbers — without touching JSON files. The County Summary tab (rebuilt on every run) gives a quick per-county view of enrichment progress.
 
-**Inactive licenses stay on the site; Revoked licenses are filtered out**
-California programs sometimes go temporarily inactive during license renewals. Filtering them out entirely would cause good programs to disappear for weeks at a time. The approach: Inactive programs show an amber warning banner ("Verify availability before visiting"). Revoked licenses are filtered out of results entirely — those programs have been shut down.
+**CCLD License Number as the dedup key**
+Program names and addresses change (rebrands, moves). The CCLD License Number is a stable, state-assigned identifier. Using it as the primary key means a renamed program is correctly treated as an update, not a new program.
 
-**CCLD License Number as the deduplication key**
-Program names and addresses can change (a program moves, a parent org rebrands). The CCLD License Number is a stable, state-assigned identifier that never changes for a given facility. Using it as the primary key means the pipeline correctly identifies a renamed program as an update rather than a new program.
+**Program cards only show fields with content**
+AI summary boxes are hidden when no `programFocus` exists (743 of ~935 programs are still unenriched). Population specialization, hours, days, and parent organization only render when the data is present. No empty boxes or placeholder text — a card with no enrichment shows only what the state database provides.
 
 **Weekly PR review, not direct-to-main**
-The pipeline commits to a branch and opens a PR rather than pushing directly to main. This keeps a human in the loop for a fast sanity check (2 minutes to scan the diff) and makes rollback trivial — close the PR. Direct-to-main can be enabled once trust in the pipeline is established.
+The pipeline commits to a branch and opens a PR rather than pushing directly to main. This keeps a human in the loop for a 2-minute sanity check and makes rollback trivial. Direct-to-main can be enabled once trust is established.
 
 ---
 
@@ -127,15 +136,15 @@ The pipeline commits to a branch and opens a PR rather than pushing directly to 
 | Skill | Where it shows up |
 |-------|-------------------|
 | **Data pipeline design** | Multi-stage ETL: ingest → enrich → geocode → quality gate → write |
-| **API integration** | Gemini (with Google Search grounding), Google Maps Geocoding, Google Sheets |
+| **API integration** | Gemini (Google Search grounding), Google Maps Geocoding, Google Sheets |
 | **Data quality engineering** | Completeness scoring, deduplication, quality gate with tiered routing |
-| **Idempotent / resumable systems** | Checkpoint file design for multi-day first-run across API rate limits |
-| **Automation and scheduling** | GitHub Actions cron, branch-and-PR deploy pattern, catch-up runs |
-| **Schema design** | TypeScript interfaces supporting multi-RC programs (one program, multiple Regional Centers) |
-| **Testing** | 85 unit tests covering CCLD type filter, dedup/diff logic, quality gate scoring, checkpoint idempotency |
+| **Idempotent / resumable systems** | Checkpoint + upsert pattern for multi-day runs across quota limits |
+| **Ops tooling** | County Summary tab, full-mirror Sheets audit layer, graceful quota handling |
+| **Automation and scheduling** | GitHub Actions cron, catch-up runs, branch-and-PR deploy pattern |
+| **Schema design** | TypeScript interfaces; all new fields optional so existing JSON stays valid |
 | **Frontend development** | React + TypeScript SPA, Leaflet map, filter state management |
 | **CI/CD** | GitHub Actions deploy pipeline; zero-touch publishing on merge |
-| **Working with public datasets** | California CCLD open data portal, CKAN-based CSV download, license type filtering |
+| **Working with public datasets** | California CCLD open data portal, CKAN-based CSV, license type filtering |
 
 ---
 
@@ -143,15 +152,11 @@ The pipeline commits to a branch and opens a PR rather than pushing directly to 
 
 | Component | Status |
 |-----------|--------|
-| React app (Riverside County, 4 programs) | Live at https://dwbonham.github.io/exceptional-care-finder/ |
-| TypeScript schema (pipeline-ready fields) | Complete |
-| Pipeline modules (ingest, enrich, geocode, quality gate, sheets) | Complete — 85 tests passing |
-| GitHub Actions workflow | Complete |
-| API keys configured (Gemini, Google Maps, Google Sheets) | Complete |
-| Google Sheet workbook | Created and shared with service account |
-| First pipeline run | Pending T1 (bootstrap CCLD license numbers for 4 existing programs) |
-
-**Before the first live run:** Manually look up the CCLD License Numbers for the 4 existing Riverside programs at ccld.dss.ca.gov and add them to the pipeline checkpoint file. This prevents the pipeline from treating them as new programs on the first run.
+| React app | Live — ~935 programs, 53 CA counties |
+| Automated pipeline | Running — weekly cron + manual dispatch for large counties |
+| LA County enrichment | In progress (manual run with sentiment) |
+| Google Sheets mirror | Live — County Summary tab updated on every run |
+| GitHub Actions workflow | Complete — deploy + pipeline both configured |
 
 ---
 
@@ -160,15 +165,15 @@ The pipeline commits to a branch and opens a PR rather than pushing directly to 
 | Tool / API | Purpose |
 |------------|---------|
 | **React + TypeScript** | Web app framework with strict type safety |
-| **Tailwind CSS** | Visual styling |
+| **Tailwind CSS v4** | Utility-first styling; no config file |
 | **Leaflet / OpenStreetMap** | Interactive map — no API key required |
 | **Vite + Bun** | Build tooling and package management |
 | **GitHub Pages** | Free static site hosting |
 | **GitHub Actions** | Weekly pipeline cron + automatic site deploy on merge |
-| **CCLD Open Data Portal** | California licensing database — primary data source, updated by the state |
-| **Gemini API (Google AI Studio)** | Web enrichment and community sentiment research; free tier (1,500 req/day) |
-| **Google Maps Geocoding API** | Address → lat/lng coordinates; free up to 200/month |
-| **Google Sheets API** | Full-dataset mirror and manual review staging layer |
+| **CCLD Open Data Portal** | California licensing database — primary data source |
+| **Gemini 2.5 Flash (Google AI)** | Web enrichment and sentiment research; ~25 programs/day on free tier |
+| **Google Maps Geocoding API** | Address → lat/lng coordinates |
+| **Google Sheets API** | Full-dataset mirror, audit layer, County Summary tab |
 
 ---
 
@@ -178,34 +183,26 @@ The pipeline commits to a branch and opens a PR rather than pushing directly to 
 exceptional-care-finder/
 │
 ├── README.md                    ← You are here
-├── CLAUDE.md                    ← Full technical architecture (loaded by Claude Code)
-├── TODOS.md                     ← Deferred work items with context and dependencies
+├── CLAUDE.md                    ← Technical architecture for Claude Code sessions
+├── TODOS.md                     ← Deferred work items with context
 │
-├── program-data/                ← All program data lives here (not in src/)
+├── program-data/                ← All program data (not in src/)
 │   └── CA/
-│       ├── funding-guide.json   ← CA regulations, FAQs, Regional Center contacts
-│       └── riverside/
-│           └── programs.json    ← Riverside County listings (4 programs)
+│       ├── funding-guide.json   ← RC contacts, FAQs, parent education content
+│       └── [county]/            ← One folder per county; auto-discovered
+│           └── programs.json
 │
 ├── scripts/pipeline/            ← Automated pipeline modules
-│   ├── pipeline.js              ← Orchestrator — runs the full pipeline end to end
-│   ├── ingest-ccld.js           ← CCLD download, filter, and diff
-│   ├── enrich-gemini.js         ← Gemini enrichment + sentiment research
+│   ├── pipeline.js              ← Orchestrator
+│   ├── ingest-ccld.js           ← CCLD download, filter, diff
+│   ├── enrich-gemini.js         ← Gemini enrichment + sentiment
 │   ├── geocode.js               ← Google Maps geocoding
 │   ├── quality-gate.js          ← Completeness scoring and routing
-│   ├── sheets-writer.js         ← Google Sheets append and full-mirror sync
-│   └── checkpoint.js            ← Idempotent state tracking across runs
+│   ├── sheets-writer.js         ← Sheets upsert, County Summary sync
+│   └── checkpoint.js            ← Idempotent state tracking
 │
-├── data-entry-templates/        ← Schema templates for manual data entry
-│
-└── src/                         ← React app source code (managed by Claude Code)
-    ├── components/              ← UI components (map, cards, filters, sidebar)
+└── src/                         ← React app source
+    ├── components/              ← UI components
     ├── data/                    ← Auto-discovers program-data/ via import.meta.glob
     └── types/index.ts           ← TypeScript interfaces for all data structures
 ```
-
----
-
-## Starting a New Claude Code Session
-
-Claude Code reads `CLAUDE.md` automatically at the start of every session — all project context and architecture decisions are pre-loaded. Open the project folder and describe what you want to work on.

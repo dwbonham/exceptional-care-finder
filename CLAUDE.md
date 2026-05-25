@@ -2,7 +2,7 @@
 
 ## What This Project Is
 
-A React SPA helping parents of adults with developmental disabilities find state-funded day programs. Currently covers Riverside County, CA. Expanding to all of CA via an automated weekly pipeline.
+A React SPA helping parents of adults with developmental disabilities find state-funded Adult Day Programs in California. Covers 53 of 58 CA counties (LA county manual enrichment in progress). ~935 active programs in the database.
 
 **Owner:** Doug Bonham (non-technical; works with Claude Code for all code changes)
 **Live URL:** https://dwbonham.github.io/exceptional-care-finder/
@@ -34,7 +34,7 @@ exceptional-care-finder/
 │
 ├── .github/workflows/
 │   ├── deploy.yml                   ← Builds + publishes to GitHub Pages on push to main
-│   └── pipeline.yml                 ← Weekly data pipeline cron
+│   └── pipeline.yml                 ← Weekly data pipeline cron + manual dispatch
 │
 └── src/
     ├── App.tsx                      ← Root; owns all filter state
@@ -45,26 +45,15 @@ exceptional-care-finder/
         ├── LocationFilter.tsx       ← Sticky filter bar: State → County + Care Type
         ├── ProgramMap.tsx           ← Leaflet map; collapsible; auto-fits bounds
         ├── MapModal.tsx             ← Per-card map modal via ReactDOM.createPortal
-        ├── ProgramCard.tsx          ← Program card with accordions
+        ├── ProgramCard.tsx          ← Program card; conditionally renders enriched fields
         ├── ProgramGrid.tsx          ← Grid of ProgramCards
-        └── StateRegulatoryGuide.tsx ← Sidebar: FAQs + RC contact
+        ├── AboutPage.tsx            ← About page; county count derived dynamically
+        └── StateRegulatoryGuide.tsx ← Sidebar: FAQs + RC contacts
 
 program-data/                        ← ALL EDITABLE DATA LIVES HERE
 └── CA/
-    ├── funding-guide.json
-    └── riverside/
-        └── programs.json            ← 4 Riverside County programs
-
-scripts/pipeline/                    ← Automated data pipeline (Phase 2 — complete)
-├── pipeline.js                      ← Orchestrator
-├── ingest-ccld.js                   ← CCLD download + diff
-├── enrich-gemini.js                 ← Gemini enrichment + sentiment
-├── geocode.js                       ← Google Maps geocoding
-├── quality-gate.js                  ← Completeness scoring + routing
-├── checkpoint.js                    ← Idempotent state across rate-limit pauses
-└── sheets-writer.js                 ← Google Sheets sync
-
-data-entry-templates/                ← Schema templates for manual data entry
+    ├── funding-guide.json           ← RC contacts, FAQs, parent education content
+    └── [county]/programs.json       ← One folder per county; auto-discovered by import.meta.glob
 ```
 
 ---
@@ -72,7 +61,7 @@ data-entry-templates/                ← Schema templates for manual data entry
 ## Data Architecture
 
 ### Adding a new county
-1. Create `program-data/[STATE]/[county]/programs.json`
+1. Create `program-data/CA/[county]/programs.json`
 2. `src/data/programs/index.ts` uses `import.meta.glob` — new counties are auto-discovered, no code change needed
 
 ### Adding a new state
@@ -89,59 +78,60 @@ data-entry-templates/                ← Schema templates for manual data entry
 - `location` — street, city, state, zipCode, county, coordinates (lat/lng)
 - `contact` — phone, websiteUrl
 - `facilityDetails` — licensedCapacity, decryptedProgramType, programFocus, minimumAge?, maximumAge?, languagesSupported?, facilityFeatures?, parentOrganization?, daysOfOperation?, hoursOfOperation?, selfDeterminationAccepted?, populationSpecialization?
-- `fundingMechanics` — vendorIds?: {rc, id}[], coveringAgencies: string[], authorizedServiceCodes: string[], transportationAvailability?, requiredFundingDocument, financialCoverageNote
+- `fundingMechanics` — vendorIds?, coveringAgencies, authorizedServiceCodes, transportationAvailability?, requiredFundingDocument, financialCoverageNote
 - `qualitativeInsights` — parentReviews: string[]
 - `completenessScore?`, `lastVerifiedDate?`, `dataSourceNotes?` — pipeline metadata
 
-**FundingGuide** key fields:
-- `state`, `title`
-- `localAgencies[]` — county, name, phone, websiteUrl, note?
-- `faqs[]` — question, answer, sourceUrl?, sourceLabel?
-
 ### Fields intentionally NOT in schema
-- **Availability / waitlist status** — too volatile
-- **Current enrollment numbers** — use `licensedCapacity` with "Licensed Capacity" label instead
+- **Availability / waitlist status** — too volatile; always changes
+- **Current enrollment** — use `licensedCapacity` with "Licensed Capacity" label instead
 
 ---
 
 ## Key Decisions
 
+**Frontend**
 - **Leaflet over Google Maps** — OpenStreetMap requires no API key; Google Maps embed only supports single-location without one
 - **Custom SVG pins** — Leaflet's default icons break in Vite builds; replaced with inline SVG `L.divIcon`
 - **`ReactDOM.createPortal` for map modals** — ProgramCard has `overflow:hidden`; portal to `document.body` prevents clipping
 - **All new schema fields are optional (`?`)** — existing JSON stays valid when fields are added
-- **`import.meta.glob` for data discovery** — `src/data/programs/index.ts` auto-discovers all `program-data/**/programs.json`; no import needed for new counties
+- **`import.meta.glob` for data discovery** — auto-discovers all `program-data/**/programs.json`; no import needed for new counties
+- **County count in About page is dynamic** — derived from `allPrograms` at build time; never goes stale
+
+**Pipeline**
+- **CCLD filter: `FacilityType == '775 Adult Day Program'` ONLY** — "Adult Day Health Care" is a different program, different funding, wrong audience
+- **CCLD License Number as dedup key** — program names and addresses change; license numbers don't
+- **Upsert over append for Sheets writes** — both Phase 4 (quality gate) and Phase 5 (backfill) use `upsertProgramRows`, which reads column F to find existing rows and updates in place. Pure append caused duplicate rows when the pipeline re-ran.
+- **503 = early exit like 429** — when Gemini returns 503, throw `RateLimitError` and save checkpoint. Previously treated as non-fatal; pipeline would log an error for every queued program and exit burning the entire run for zero enrichment.
+- **Google Sheets as full mirror, not exceptions-only** — ALL programs mirrored to Sheets (not just flagged ones); enables audit queries like "all LA County programs missing a phone number"
+- **County Summary tab auto-rebuilt on every run** — `syncCountySummary()` called at end of every pipeline run; gives a per-county view of enrichment progress without touching JSON files
+- **Sentiment excluded from automated daily runs** — automated cron passes no `WITH_SENTIMENT` flag (defaults off). Manual workflow dispatch with sentiment checked is used for bulk enrichment of new counties. Programs enriched without sentiment are marked done in checkpoint and won't be re-enriched automatically.
+- **Quality gate: completeness ≥ 80% + ≥ 1 sentiment bullet → auto-approve** — below threshold → "Needs Review" in Sheets
+- **Sentiment sources: public web only** — Yelp and Google Reviews excluded (ToS prohibits republication)
 
 ---
 
-## Pipeline (Phase 2 — Built, Ready to Run)
+## Pipeline Operation
 
-Weekly cron (Monday 6am PT) + catch-up crons Tue–Fri. All API keys are stored as GitHub Actions secrets.
+**Automated:** Weekly cron Monday 6am PT + catch-up crons Tue–Sun. No county filter, no sentiment. Processes ~25 programs per run (Gemini quota limit), resumes from checkpoint.
 
-**Flow:** CCLD ingest → Gemini enrichment → geocode → quality gate → Google Sheets sync → commit to `pipeline/weekly-update` branch → open PR
+**Manual enrichment (for new large counties):** Trigger workflow dispatch with `enrich_counties` (comma-separated) and `with_sentiment=true`. Merge the resulting PR when the run completes.
 
-**Critical constraints:**
-- CCLD filter: `FacilityType == '775 Adult Day Program'` ONLY — "Adult Day Health Care" is a different program, different funding, wrong audience
-- Quality gate: completeness ≥ 80% AND ≥ 1 sentiment bullet → auto-approve; below threshold → write to Sheets as "Needs Review"
-- Gemini: free tier 1,500 req/day; `checkpoint.js` tracks enriched license numbers so the pipeline resumes across days without re-processing
-- Sentiment sources: public web only — program sites, news, state agency pages, parent forums. Yelp and Google Reviews are explicitly excluded (ToS)
-- Google Sheets: full mirror of ALL programs (not just flagged ones) for audit/query use; GitHub JSON is the deploy source of truth
+**Flow:** CCLD ingest → Gemini enrichment → geocode → quality gate → Google Sheets upsert + County Summary sync → commit to `pipeline/weekly-update` branch → open PR → merge to publish
 
-**Before first run:** Complete TODOS.md T1 — add CCLD license numbers for 4 existing Riverside programs to bootstrap checkpoint.
+**Checkpoint:** `scripts/pipeline/checkpoint.json` persisted via GitHub Actions cache (`pipeline-checkpoint-` key). Tracks enriched license numbers so runs resume without re-processing. Local runs and Actions runs use separate checkpoint files.
 
-**Known placeholders in current data:**
-- `vendorIds` — `"TBD"` on all 4 Riverside programs
-- `transportationAvailability` — `"Contact Regional Center"` placeholder
-- `coordinates` — manually set; will be auto-geocoded by pipeline
+**Current state:** 53/58 counties complete. LA county (largest — ~200 programs) pending manual enrichment run with sentiment. Remaining 4 counties will be picked up by automated runs.
 
 ---
 
 ## Current Status
 
-- Site live with 4 Riverside County programs
-- Pipeline code complete — 85 tests passing
-- API keys, Google Sheet, and GitHub Actions workflow all configured
-- Pending: T1 (bootstrap CCLD license numbers) before first live pipeline run
+- ~935 active programs across 53 CA counties
+- Pipeline running in production; merging PRs weekly
+- LA County pending manual enrichment (largest county, needs sentiment checked)
+- Google Sheets County Summary tab tracks per-county enrichment progress
+- About page county count is dynamic (auto-updates as pipeline adds counties)
 
 ---
 
