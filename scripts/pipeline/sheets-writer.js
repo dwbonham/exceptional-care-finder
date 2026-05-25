@@ -45,6 +45,7 @@ export const REGIONAL_CENTER_HEADERS = [
 
 export const COUNTY_SUMMARY_HEADERS = [
   'County', 'Total Programs', 'Enriched', 'Pending Gemini', 'Enrichment %',
+  'With Sentiment', 'Sentiment %',
   'Last CCLD Refresh', 'Last Gemini Run', 'Summary Updated',
 ];
 
@@ -94,7 +95,7 @@ export async function syncCountySummary(config) {
     const ccldVerified = (row[C_CCLD_VERIFIED]?? '').trim();
 
     if (!countyMap.has(county)) {
-      countyMap.set(county, { total: 0, enriched: 0, pending: 0, lastCcld: '', lastGemini: '' });
+      countyMap.set(county, { total: 0, enriched: 0, pending: 0, withSentiment: 0, lastCcld: '', lastGemini: '' });
     }
     const c = countyMap.get(county);
     c.total++;
@@ -106,15 +107,17 @@ export async function syncCountySummary(config) {
     } else {
       c.pending++;
     }
+    if (sentiment) c.withSentiment++;
     if (ccldVerified > c.lastCcld) c.lastCcld = ccldVerified;
   }
 
   const today = new Date().toISOString().slice(0, 10);
   const summaryRows = [COUNTY_SUMMARY_HEADERS];
-  for (const [county, { total, enriched, pending, lastCcld, lastGemini }] of
+  for (const [county, { total, enriched, pending, withSentiment, lastCcld, lastGemini }] of
     [...countyMap.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
-    const pct = total > 0 ? `${Math.round((enriched / total) * 100)}%` : '0%';
-    summaryRows.push([county, total, enriched, pending, pct, lastCcld, lastGemini, today]);
+    const pct         = total > 0 ? `${Math.round((enriched      / total) * 100)}%` : '0%';
+    const sentimentPct = total > 0 ? `${Math.round((withSentiment / total) * 100)}%` : '0%';
+    summaryRows.push([county, total, enriched, pending, pct, withSentiment, sentimentPct, lastCcld, lastGemini, today]);
   }
 
   const sheetName = 'County Summary';
