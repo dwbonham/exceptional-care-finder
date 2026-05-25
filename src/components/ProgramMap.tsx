@@ -92,9 +92,10 @@ function ClusterLayer({ programs }: { programs: ProgramData[] }) {
 
 interface Props {
   programs: ProgramData[];
+  compact?: boolean;
 }
 
-export default function ProgramMap({ programs }: Props) {
+export default function ProgramMap({ programs, compact = false }: Props) {
   const [collapsed, setCollapsed] = useState(false);
 
   const mapped = useMemo(
@@ -140,7 +141,7 @@ export default function ProgramMap({ programs }: Props) {
         center={center}
         zoom={12}
         scrollWheelZoom
-        style={{ height: '380px', width: '100%' }}
+        style={{ height: compact ? '220px' : '380px', width: '100%' }}
         dragging={true}
         touchZoom={true}
       >
@@ -155,8 +156,8 @@ export default function ProgramMap({ programs }: Props) {
       </MapContainer>
       )}
 
-      {/* Legend — hidden when collapsed, capped at 8 visible entries */}
-      {!collapsed && (
+      {/* Legend — hidden when collapsed or in compact widget mode */}
+      {!collapsed && !compact && (
         <div className="px-5 py-2.5 bg-slate-50 border-t border-slate-100 flex flex-wrap gap-x-4 gap-y-1.5 items-center">
           {mapped.slice(0, 8).map((program, i) => (
             <span key={i} className="flex items-center gap-1.5 text-xs text-slate-500">

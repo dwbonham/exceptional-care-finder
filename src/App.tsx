@@ -88,10 +88,6 @@ export default function App() {
       />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <div className="mb-8">
-          <ProgramMap programs={filtered} />
-        </div>
-
         <RegionalCenterBanner
           selectedState={selectedState}
           selectedCounty={selectedCounty}
@@ -105,7 +101,8 @@ export default function App() {
             </div>
           </aside>
 
-          <div className="flex-1 min-w-0">
+          <div className="flex-1 min-w-0 flex flex-col gap-6">
+            <ProgramMap programs={filtered} compact />
             <ProgramGrid
               programs={filtered}
               selectedState={selectedState}
