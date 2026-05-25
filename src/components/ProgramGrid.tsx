@@ -8,9 +8,11 @@ interface Props {
   programs: ProgramData[];
   selectedState: string;
   selectedCounty: string;
+  totalFiltered?: number;
+  mapFilterActive?: boolean;
 }
 
-export default function ProgramGrid({ programs, selectedState, selectedCounty }: Props) {
+export default function ProgramGrid({ programs, selectedState, selectedCounty, totalFiltered, mapFilterActive }: Props) {
   const [showAll, setShowAll] = useState(false);
 
   if (programs.length === 0) {
@@ -19,12 +21,16 @@ export default function ProgramGrid({ programs, selectedState, selectedCounty }:
       <div className="text-center py-20 text-slate-400">
         <p className="text-5xl mb-4">{hasFilter ? '🗺️' : '🔍'}</p>
         <p className="text-xl font-semibold text-slate-500">
-          {hasFilter ? 'No programs found for this location.' : 'No programs loaded yet.'}
+          {mapFilterActive
+            ? 'No programs in this map area.'
+            : hasFilter ? 'No programs found for this location.' : 'No programs loaded yet.'}
         </p>
         <p className="text-sm mt-2">
-          {hasFilter
-            ? 'Try selecting a different state or county.'
-            : 'Program data will appear here once populated.'}
+          {mapFilterActive
+            ? 'Zoom out or pan the map to see programs.'
+            : hasFilter
+              ? 'Try selecting a different state or county.'
+              : 'Program data will appear here once populated.'}
         </p>
       </div>
     );
@@ -40,6 +46,11 @@ export default function ProgramGrid({ programs, selectedState, selectedCounty }:
         <p className="text-sm text-slate-500">
           Showing <span className="font-semibold text-slate-700">{visible.length}</span> of{' '}
           <span className="font-semibold text-slate-700">{programs.length}</span> programs
+          {mapFilterActive && totalFiltered !== undefined && totalFiltered > programs.length && (
+            <span className="ml-2 text-xs font-medium text-[#C2410C]">
+              · map view ({totalFiltered} total in filter)
+            </span>
+          )}
         </p>
       </div>
 

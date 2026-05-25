@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'react';
-import { MapContainer, TileLayer, useMap } from 'react-leaflet';
+import { useEffect, useMemo } from 'react';
+import { MapContainer, TileLayer, useMap, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
@@ -37,6 +37,17 @@ function clusterIcon(clusterGroup: any) {
     iconSize: [36, 36],
     iconAnchor: [18, 18],
   });
+}
+
+function BoundsTracker({ onBoundsChange }: { onBoundsChange: (b: L.LatLngBounds) => void }) {
+  const map = useMapEvents({
+    moveend: () => onBoundsChange(map.getBounds()),
+    zoomend: () => onBoundsChange(map.getBounds()),
+  });
+  useEffect(() => {
+    onBoundsChange(map.getBounds());
+  }, [map]);
+  return null;
 }
 
 // Manages the marker cluster group imperatively — cleaner than trying to wrap Leaflet
@@ -93,10 +104,12 @@ function ClusterLayer({ programs }: { programs: ProgramData[] }) {
 interface Props {
   programs: ProgramData[];
   compact?: boolean;
+  collapsed: boolean;
+  onCollapsedChange: (c: boolean) => void;
+  onBoundsChange?: (b: L.LatLngBounds) => void;
 }
 
-export default function ProgramMap({ programs, compact = false }: Props) {
-  const [collapsed, setCollapsed] = useState(false);
+export default function ProgramMap({ programs, compact = false, collapsed, onCollapsedChange, onBoundsChange }: Props) {
 
   const mapped = useMemo(
     () => programs.filter((p) => p.location.coordinates),
@@ -128,7 +141,7 @@ export default function ProgramMap({ programs, compact = false }: Props) {
           </div>
         </div>
         <button
-          onClick={() => setCollapsed((c) => !c)}
+          onClick={() => onCollapsedChange(!collapsed)}
           className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-slate-500 hover:text-slate-700 border border-slate-200 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors duration-150 cursor-pointer"
         >
           {collapsed ? '🗺️ Show Map' : '✕ Hide Map'}
@@ -153,6 +166,7 @@ export default function ProgramMap({ programs, compact = false }: Props) {
         />
 
         <ClusterLayer programs={mapped} />
+        {onBoundsChange && <BoundsTracker onBoundsChange={onBoundsChange} />}
       </MapContainer>
       )}
 

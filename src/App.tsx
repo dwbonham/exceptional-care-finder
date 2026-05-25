@@ -1,4 +1,8 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
+
+interface MapBounds {
+  contains(point: [number, number]): boolean;
+}
 import HeroSection from './components/HeroSection';
 import LocationFilter, { type ProgramSearchItem } from './components/LocationFilter';
 import ProgramMap from './components/ProgramMap';
@@ -30,6 +34,8 @@ export default function App() {
   const [selectedCareType, setSelectedCareType] = useState('');
   const [selectedProgramId, setSelectedProgramId] = useState('');
   const [view, setView] = useState<'finder' | 'about'>('finder');
+  const [mapCollapsed, setMapCollapsed] = useState(false);
+  const [mapBounds, setMapBounds] = useState<MapBounds | null>(null);
 
   const filtered = useMemo(() => {
     if (selectedProgramId) {
@@ -37,6 +43,21 @@ export default function App() {
     }
     return filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType);
   }, [selectedProgramId, selectedCounty, selectedCareType]);
+
+  // Reset map bounds when the county/care-type filter changes so the new county
+  // shows all its programs immediately (map re-fits and fires a fresh bounds update).
+  useEffect(() => {
+    setMapBounds(null);
+  }, [selectedCounty, selectedLaZip, selectedCareType, selectedProgramId]);
+
+  const listPrograms = useMemo(() => {
+    if (!mapBounds || mapCollapsed) return filtered;
+    return filtered.filter(p => {
+      if (!p.location.coordinates) return true;
+      const { lat, lng } = p.location.coordinates;
+      return mapBounds.contains([lat, lng]);
+    });
+  }, [filtered, mapBounds, mapCollapsed]);
 
   return (
     <div className="min-h-screen bg-[#FAF7F2]">
@@ -102,9 +123,17 @@ export default function App() {
           </aside>
 
           <div className="flex-1 min-w-0 flex flex-col gap-6">
-            <ProgramMap programs={filtered} compact />
-            <ProgramGrid
+            <ProgramMap
               programs={filtered}
+              compact
+              collapsed={mapCollapsed}
+              onCollapsedChange={setMapCollapsed}
+              onBoundsChange={setMapBounds}
+            />
+            <ProgramGrid
+              programs={listPrograms}
+              totalFiltered={filtered.length}
+              mapFilterActive={!mapCollapsed && !!mapBounds && listPrograms.length < filtered.length}
               selectedState={selectedState}
               selectedCounty={selectedCounty}
             />
