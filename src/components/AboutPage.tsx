@@ -116,11 +116,12 @@ export default function AboutPage() {
       <div
         className="relative overflow-hidden"
         style={{
-          background: 'linear-gradient(135deg, #1d4ed8 0%, #2563eb 40%, #3b82f6 75%, #60a5fa 100%)',
+          backgroundImage: `url(${import.meta.env.BASE_URL}about-bg.jpeg)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 40%',
         }}
       >
-        <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full opacity-10" style={{ background: 'rgba(255,255,255,0.3)' }} />
-        <div className="absolute -bottom-16 -left-16 w-72 h-72 rounded-full opacity-10" style={{ background: 'rgba(255,255,255,0.2)' }} />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(29,78,216,0.75) 0%, rgba(37,99,235,0.72) 40%, rgba(59,130,246,0.68) 75%, rgba(96,165,250,0.65) 100%)' }} />
         <div className="relative z-10 max-w-3xl mx-auto px-6 py-16 text-center">
           <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-1.5 mb-5">
             <span className="text-yellow-300 text-sm">✦</span>
