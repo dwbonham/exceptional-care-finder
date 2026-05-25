@@ -235,335 +235,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "UNLIMITED QUEST INC ONTARIO",
-    "streetName": "UNLIMITED QUEST INC ONTARIO",
-    "ccldLicenseNumber": "366413137",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1005 N Begonia Ave",
-      "city": "Ontario",
-      "state": "CA",
-      "zipCode": "91762",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.07626,
-        "lng": -117.67181
-      }
-    },
-    "contact": {
-      "phone": "(909) 983-7437",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "OPARC ADC-RANCHO CUCAMONGA",
-    "streetName": "OPARC ADC-RANCHO CUCAMONGA",
-    "ccldLicenseNumber": "366413170",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8333 Rochester Avenue  #112",
-      "city": "Rancho Cucamo",
-      "state": "CA",
-      "zipCode": "91730",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.102726,
-        "lng": -117.54571
-      }
-    },
-    "contact": {
-      "phone": "(909) 948-5592",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "IN-ROADS DAY PROGRAM",
-    "streetName": "IN-ROADS DAY PROGRAM",
-    "ccldLicenseNumber": "366424415",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "851 S. Mt. Vernon  #1 2 3",
-      "city": "Colton",
-      "state": "CA",
-      "zipCode": "92324",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.05656,
-        "lng": -117.3092
-      }
-    },
-    "contact": {
-      "phone": "(909) 783-7520",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "IN-ROADS CREATIVE PROGRAMS 2",
-    "streetName": "IN-ROADS CREATIVE PROGRAMS 2",
-    "ccldLicenseNumber": "366424416",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9057 Arrow Route  #120/#130",
-      "city": "Rancho Cucamo",
-      "state": "CA",
-      "zipCode": "91730",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.099346,
-        "lng": -117.60862
-      }
-    },
-    "contact": {
-      "phone": "(909) 989-9944",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "KAISER ADULT BEHAVIORAL CENTER VICTORVI",
-    "streetName": "KAISER ADULT BEHAVIORAL CENTER VICTORVI",
-    "ccldLicenseNumber": "366424644",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "13901 Amargosa Rd Ste 103",
-      "city": "Victorville",
-      "state": "CA",
-      "zipCode": "92392",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.50339,
-        "lng": -117.33011
-      }
-    },
-    "contact": {
-      "phone": "(760) 962-1900",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "YUCAIPA ADULT DAY CENTER",
-    "streetName": "YUCAIPA ADULT DAY CENTER",
-    "ccldLicenseNumber": "366425506",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "12980 2nd Street",
-      "city": "Yucaipa",
-      "state": "CA",
-      "zipCode": "92399",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.01776,
-        "lng": -117.0432
-      }
-    },
-    "contact": {
-      "phone": "(909) 790-4012",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 49,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COLE VOCATIONAL SERVICES ONTARIO BMP",
-    "streetName": "COLE VOCATIONAL SERVICES ONTARIO BMP",
-    "ccldLicenseNumber": "366425616",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3311 Shelby St",
-      "city": "Ontario",
-      "state": "CA",
-      "zipCode": "91764",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.070156,
-        "lng": -117.57761
-      }
-    },
-    "contact": {
-      "phone": "(909) 483-0067",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "PLUM LANE LEARNING CENTER",
     "streetName": "PLUM LANE LEARNING CENTER",
     "ccldLicenseNumber": "366425634",
@@ -2640,6 +2311,494 @@
       ]
     },
     "completenessScore": 59,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNLIMITED QUEST INC ONTARIO",
+    "streetName": "UNLIMITED QUEST INC ONTARIO",
+    "ccldLicenseNumber": "366413137",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1005 N Begonia Ave",
+      "city": "Ontario",
+      "state": "CA",
+      "zipCode": "91762",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.07626,
+        "lng": -117.67181
+      }
+    },
+    "contact": {
+      "phone": "(909) 983-7437",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Unlimited Quest Inc Ontario provides structured daytime activities, supervision, and support services for adults with developmental disabilities. The program offers health monitoring, therapeutic activities, social and recreational programming, meals, and personal care assistance.",
+      "minimumAge": 18,
+      "yearEstablished": 2007,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Social Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Unlimited Quest Inc Ontario is a licensed adult day program with a capacity of 45, offering structured activities and health monitoring.",
+        "The program serves adults with disabilities, older adults with dementia, and those recovering from illness or injury.",
+        "Established in May 2007, it has been serving the Ontario, CA community for 19 years."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPARC ADC-RANCHO CUCAMONGA",
+    "streetName": "OPARC Adult Day Program - Rancho Cucamonga",
+    "ccldLicenseNumber": "366413170",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8333 Rochester Avenue  #112",
+      "city": "Rancho Cucamo",
+      "state": "CA",
+      "zipCode": "91730",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.102726,
+        "lng": -117.54571
+      }
+    },
+    "contact": {
+      "phone": "(909) 948-5592",
+      "websiteUrl": "https://www.oparc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "OPARC's Adult Day Program offers licensed, individualized support for adults with intellectual and developmental disabilities, focusing on building skills, confidence, independence, and meaningful connections in a safe, supportive environment through participant-chosen activities.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Structured Environment",
+        "Supportive Environment",
+        "Community Integration Focus",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Skills Training",
+        "Communication Skills Training",
+        "Recreational Activities",
+        "Community Outings",
+        "Vocational Training",
+        "Volunteer Opportunities",
+        "Employment Support"
+      ],
+      "parentOrganization": "OPARC",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Inland Empire, San Gabriel Valley and Pomona Valley",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "OPARC provides licensed, individualized support for adults with intellectual and developmental disabilities.",
+        "Programs foster independence, social skills, and community connection in a supportive environment.",
+        "A Medically Fragile Day Program is available for those with significant medical needs."
+      ]
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "IN-ROADS DAY PROGRAM",
+    "streetName": "IN-ROADS DAY PROGRAM",
+    "ccldLicenseNumber": "366424415",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "851 S. Mt. Vernon  #1 2 3",
+      "city": "Colton",
+      "state": "CA",
+      "zipCode": "92324",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.05656,
+        "lng": -117.3092
+      }
+    },
+    "contact": {
+      "phone": "(909) 783-7520",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "In-Roads Creative Programs, Inc. provides an adult community/site-based program specifically designed for adults who are developmentally delayed and have medical challenges, aiming to provide opportunities for employment and socialization. A Licensed Vocational Nurse is on site during program hours to assist consumers with medical needs.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Career Development",
+        "Pre-Employment Training",
+        "Interviewing Techniques",
+        "Activity Management",
+        "Life Skills Training",
+        "Personal Self Development",
+        "Community Awareness",
+        "Mobility Training",
+        "Arts and Crafts",
+        "Music"
+      ],
+      "parentOrganization": "In-Roads Creative Programs, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "This program supports adults with developmental delays and medical challenges, with an LVN on-site for medical needs.",
+        "It offers career development, pre-employment training, and life enrichment coaching for employment opportunities."
+      ]
+    },
+    "completenessScore": 86,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "IN-ROADS CREATIVE PROGRAMS 2",
+    "streetName": "Rancho Cucamonga – Day Program",
+    "ccldLicenseNumber": "366424416",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9057 Arrow Route  #120/#130",
+      "city": "Rancho Cucamo",
+      "state": "CA",
+      "zipCode": "91730",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.099346,
+        "lng": -117.60862
+      }
+    },
+    "contact": {
+      "phone": "(909) 989-9944",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This adult day program provides structured daytime activities, supervision, and support services for adults with developmental disabilities and medical challenges. It focuses on fostering growth and achievement, improving communication and social skills, and offering opportunities for employment and socialization through various programs including behavior management, community integration, and creative arts.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Behavior Management",
+        "Socialization",
+        "Recreational Activities",
+        "Health Monitoring",
+        "Personal Care Assistance",
+        "Meal Services",
+        "Pre-Vocational Skills"
+      ],
+      "parentOrganization": "In-Roads Creative Programs, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 75,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "KAISER ADULT BEHAVIORAL CENTER VICTORVI",
+    "streetName": "People's Care Kaiser Adult Behavioral Center (KABC) Victorville",
+    "ccldLicenseNumber": "366424644",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "13901 Amargosa Rd Ste 103",
+      "city": "Victorville",
+      "state": "CA",
+      "zipCode": "92392",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.50339,
+        "lng": -117.33011
+      }
+    },
+    "contact": {
+      "phone": "(626) 216-5288",
+      "websiteUrl": "https://www.peoplescare.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "People's Care Kaiser Adult Behavioral Center (KABC) Victorville provides support services and programs for adults with intellectual and developmental disabilities. The program offers structured daytime activities, supervision, and support services, including health monitoring, therapeutic activities, social and recreational programming, meals, snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "ABA Therapy",
+        "Adult Employment",
+        "Adult Independent Living",
+        "Parent Training",
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "parentOrganization": "People's Care",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Intellectual Disability",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "People's Care KABC Victorville supports adults with intellectual/developmental disabilities.",
+        "It offers behavioral health services for children and teens with autism.",
+        "This licensed adult day program in Victorville has a capacity of 60 individuals."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "YUCAIPA ADULT DAY CENTER",
+    "streetName": "YUCAIPA ADULT DAY CENTER",
+    "ccldLicenseNumber": "366425506",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "12980 2nd Street",
+      "city": "Yucaipa",
+      "state": "CA",
+      "zipCode": "92399",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.01776,
+        "lng": -117.0432
+      }
+    },
+    "contact": {
+      "phone": "(909) 790-4012",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 49,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Yucaipa Adult Day Center provides health care, therapies, and social services for frail elderly and younger physically or mentally impaired adults, aiming to restore or maintain self-care capacity and prevent institutionalization. It also serves Inland Regional Center clients with intellectual disabilities, promoting personal independence and well-being in a community-based setting.",
+      "minimumAge": 18,
+      "yearEstablished": 1994,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Nursing services with RN on site",
+        "Physical Therapy",
+        "Occupational Therapy",
+        "Speech Therapy",
+        "Meals",
+        "Transportation"
+      ],
+      "activitiesOffered": [
+        "Socialization",
+        "Recreational Activities",
+        "Entertainment"
+      ],
+      "parentOrganization": "JonBec Care Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "This program serves Inland Regional Center clients with intellectual disabilities.",
+        "It offers a community-based day program with nursing, therapies, and transportation.",
+        "The Yucaipa Adult Day Center has been licensed since opening in April 1994."
+      ]
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES ONTARIO BMP",
+    "streetName": "COLE VOCATIONAL SERVICES ONTARIO BMP",
+    "ccldLicenseNumber": "366425616",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3311 Shelby St",
+      "city": "Ontario",
+      "state": "CA",
+      "zipCode": "91764",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.070156,
+        "lng": -117.57761
+      }
+    },
+    "contact": {
+      "phone": "(909) 483-0067",
+      "websiteUrl": "https://www.sevitahealth.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Cole Vocational Services offers structured, activity-based day programs that give individuals the chance to achieve goals, become independent and be active in the community. The program provides vocational services, structured daytime activities, supervision, and support services for adults with developmental disabilities.",
+      "minimumAge": 18,
+      "yearEstablished": 2012,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Support"
+      ],
+      "parentOrganization": "Sevita",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Cole Vocational Services Ontario BMP offers structured day programs for adults with developmental disabilities.",
+        "Part of Sevita, it provides person-centered plans, community integration, and vocational skill building."
+      ]
+    },
+    "completenessScore": 100,
     "lastVerifiedDate": "2026-05-25",
     "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   }
