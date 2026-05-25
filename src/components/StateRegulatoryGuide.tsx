@@ -16,8 +16,12 @@ export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip }: 
   if (!guide) return null;
 
   const filteredGuide = getFundingGuide('CA', selectedLaZip || undefined, selectedCounty || undefined);
-  const agenciesToShow = filteredGuide?.localAgencies ?? guide.localAgencies;
   const isLaNoZip = selectedCounty === 'Los Angeles' && !selectedLaZip;
+  const isLaZipNotFound = selectedCounty === 'Los Angeles' && !!selectedLaZip && filteredGuide?.localAgencies.length === 0;
+  const laFallbackGuide = isLaZipNotFound ? getFundingGuide('CA', undefined, 'Los Angeles') : null;
+  const agenciesToShow = isLaZipNotFound
+    ? (laFallbackGuide?.localAgencies ?? guide.localAgencies)
+    : (filteredGuide?.localAgencies ?? guide.localAgencies);
 
   return (
     <div className="bg-white border border-stone-200 rounded-2xl shadow-sm overflow-hidden flex flex-col min-h-0">
@@ -137,7 +141,12 @@ export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip }: 
             </p>
             {isLaNoZip && (
               <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mb-4 leading-relaxed">
-                LA County has 6 Regional Centers. Enter your ZIP code in the filter above to see only yours.
+                LA County has 7 Regional Centers. Enter your ZIP code in the filter above to see only yours.
+              </p>
+            )}
+            {isLaZipNotFound && (
+              <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mb-4 leading-relaxed">
+                ZIP {selectedLaZip} isn't in our coverage map yet. Call DDS at (833) 421-0061 to confirm which center serves you.
               </p>
             )}
             <div className="space-y-4">

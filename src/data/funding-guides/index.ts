@@ -13,9 +13,14 @@ export function getFundingGuide(state: string, zip?: string, county?: string): F
   if (!guide) return null;
 
   if (zip && zip.length === 5) {
-    // ZIP-specific match (handles LA County multi-RC case)
     const zipMatch = guide.localAgencies.filter((a) => a.zipCodes?.includes(zip));
     if (zipMatch.length > 0) return { ...guide, localAgencies: zipMatch };
+    // Zip was given but not found — if this guide has zip-mapped agencies, return
+    // empty rather than falling through to county match. Callers detect [] to show
+    // a "zip not in our database" message instead of silently showing all agencies.
+    if (guide.localAgencies.some((a) => a.zipCodes && a.zipCodes.length > 0)) {
+      return { ...guide, localAgencies: [] };
+    }
   }
 
   if (county) {

@@ -14,10 +14,16 @@ export default function RegionalCenterBanner({ selectedState, selectedCounty, se
   if (!selectedState || !selectedCounty) return null;
 
   const guide = getFundingGuide(selectedState, selectedLaZip || undefined, selectedCounty);
-  if (!guide || guide.localAgencies.length === 0) return null;
-
   const laMode = isLaCounty(selectedState, selectedCounty);
-  const narrowed = laMode && selectedLaZip.length === 5 && guide.localAgencies.length < 7;
+  const laZipNotFound = laMode && selectedLaZip.length === 5 && guide?.localAgencies.length === 0;
+
+  // When zip not found, fall back to showing all LA agencies with a warning
+  const allLaGuide = laZipNotFound ? getFundingGuide(selectedState, undefined, selectedCounty) : null;
+  const displayGuide = laZipNotFound ? allLaGuide : guide;
+
+  if (!displayGuide || displayGuide.localAgencies.length === 0) return null;
+
+  const narrowed = laMode && selectedLaZip.length === 5 && !laZipNotFound && displayGuide.localAgencies.length < 7;
 
   return (
     <div className="mb-8 rounded-2xl border border-blue-200 bg-blue-50 px-6 py-5">
@@ -36,8 +42,15 @@ export default function RegionalCenterBanner({ selectedState, selectedCounty, se
         </p>
       )}
 
+      {/* ZIP entered but not in our database */}
+      {laZipNotFound && (
+        <p className="text-sm text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mb-3 mt-2 leading-relaxed">
+          ZIP {selectedLaZip} isn't in our coverage map yet. Showing all LA Regional Centers — call DDS at (833) 421-0061 to confirm which serves you.
+        </p>
+      )}
+
       <div className="flex flex-col gap-4 mt-3">
-        {guide.localAgencies.map((agency, i) => (
+        {displayGuide.localAgencies.map((agency, i) => (
           <div key={i} className="flex flex-col sm:flex-row sm:items-start sm:gap-6">
             <div className="flex-1">
               <p className="text-base font-bold text-slate-900">{agency.name}</p>
@@ -66,7 +79,7 @@ export default function RegionalCenterBanner({ selectedState, selectedCounty, se
       </div>
 
       <p className="text-xs text-slate-500 mt-4 leading-relaxed">
-        {laMode && !narrowed
+        {laMode && (!narrowed || laZipNotFound)
           ? 'LA County Regional Center assignment is based on your city of residence. Call DDS at (833) 421-0061 to confirm your assigned center.'
           : 'The Regional Center manages eligibility, approves your IPP, and coordinates state funding — call them before touring any programs.'}
       </p>
