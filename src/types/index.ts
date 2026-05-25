@@ -91,9 +91,15 @@ export interface FundingGuideFaq {
   sourceLabel?: string;
 }
 
+export interface GlossaryTerm {
+  term: string;
+  definition: string;
+}
+
 export interface FundingGuide {
   state: string;
   title: string;
   localAgencies: LocalAgencyContact[];
   faqs: FundingGuideFaq[];
+  glossary?: GlossaryTerm[];
 }

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { getFundingGuide } from '../data/funding-guides';
 
-type Tab = 'guide' | 'centers';
+type Tab = 'guide' | 'centers' | 'glossary';
 
 export default function StateRegulatoryGuide() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -24,8 +24,8 @@ export default function StateRegulatoryGuide() {
 
         {/* Tab strip */}
         <div className="flex -mx-6 px-6" role="tablist">
-          {(['guide', 'centers'] as Tab[]).map((tab) => {
-            const label = tab === 'guide' ? 'State Guide' : 'Regional Centers';
+          {(['guide', 'centers', 'glossary'] as Tab[]).map((tab) => {
+            const label = tab === 'guide' ? 'State Guide' : tab === 'centers' ? 'Regional Centers' : 'Glossary';
             const isActive = activeTab === tab;
             return (
               <button
@@ -48,7 +48,21 @@ export default function StateRegulatoryGuide() {
 
       {/* Scrollable body */}
       <div className="overflow-y-auto flex-1 min-h-0">
-        {activeTab === 'guide' ? (
+        {activeTab === 'glossary' ? (
+          <div className="px-5 py-4">
+            <p className="text-xs text-slate-500 leading-relaxed mb-4">
+              Key terms you'll encounter when navigating Regional Center services and Adult Day Programs.
+            </p>
+            <dl className="space-y-4">
+              {(guide.glossary ?? []).map((item) => (
+                <div key={item.term}>
+                  <dt className="text-sm font-semibold text-[#1E3A5F] font-ui">{item.term}</dt>
+                  <dd className="text-sm text-slate-600 leading-relaxed mt-0.5">{item.definition}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        ) : activeTab === 'guide' ? (
           <div className="divide-y divide-slate-100">
             {guide.faqs.map((faq, i) => (
               <div key={i}>

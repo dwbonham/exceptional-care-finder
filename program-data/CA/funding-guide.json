@@ -157,6 +157,56 @@
       "zipCodes": ["90401","90402","90403","90404","90405","90209","90210","90211","90212","90213","90230","90232","90234","90265","90025","90064","90272","90291","90292","90049","90077","90046","90048","90069"]
     }
   ],
+  "glossary": [
+    {
+      "term": "CCLD",
+      "definition": "Community Care Licensing Division — the state agency that licenses and inspects Adult Day Programs. A valid CCLD license is required for a program to receive Regional Center funding."
+    },
+    {
+      "term": "Community Day Services (CDS)",
+      "definition": "The Regional Center funding category that covers Adult Day Programs. Your IPP must explicitly authorize CDS before a program can bill your RC for your attendance."
+    },
+    {
+      "term": "DDS",
+      "definition": "Department of Developmental Services — the state agency that funds and oversees the 21 Regional Centers in California. Sets policy and rates; families interact with their RC, not DDS directly."
+    },
+    {
+      "term": "Individual Budget",
+      "definition": "The annual dollar amount allocated to a participant under the Self-Determination Program. You control how it is spent across approved services — unused funds do not roll over."
+    },
+    {
+      "term": "IPP",
+      "definition": "Individual Program Plan — the legally binding, person-centered plan co-written by you and your Regional Center. Every service you receive must be explicitly listed and authorized in the IPP before it can be funded."
+    },
+    {
+      "term": "Lanterman Act",
+      "definition": "California law (1969) that guarantees community services and supports for people with developmental disabilities as a matter of right — not charity. It is the legal foundation for all Regional Center services."
+    },
+    {
+      "term": "Licensed Capacity",
+      "definition": "The maximum number of participants a facility is legally authorized to serve at one time. Programs cannot accept more participants than their licensed capacity even if space is physically available."
+    },
+    {
+      "term": "Regional Center (RC)",
+      "definition": "One of 21 nonprofit agencies contracted by the state to coordinate and fund services for people with developmental disabilities. Your RC does intake, writes your IPP, authorizes services, and pays vendors directly — families pay nothing out of pocket."
+    },
+    {
+      "term": "Self-Determination Program (SDP)",
+      "definition": "An alternative to traditional RC services where you receive a fixed annual budget and hire your own providers rather than using RC-approved vendors. Requires more self-management but gives greater flexibility and choice."
+    },
+    {
+      "term": "Service Code",
+      "definition": "A billing code (e.g., 751, 752) that defines exactly which type of service is authorized in your IPP. A program can only bill your RC for service codes listed in your IPP — even if the program offers other services."
+    },
+    {
+      "term": "Service Coordinator",
+      "definition": "Your assigned guide at the Regional Center. They help you build and update your IPP, authorize services, connect you with providers, and are your primary contact for all RC matters. Every RC client has one."
+    },
+    {
+      "term": "Vendor ID",
+      "definition": "The identification number the Regional Center assigns to an approved service provider. A program must have an active vendor ID with your specific RC before they can receive payment for your services — even if they serve clients from other RCs."
+    }
+  ],
   "faqs": [
     {
       "question": "How does funding work?",
