@@ -273,15 +273,16 @@ export function getNotSentimentEnriched(state, { countyFilter = null, limit = 99
 
 /**
  * Mark a program as having received sentiment enrichment.
- * Called after a successful Phase 6 sentiment-only enrichment.
+ * Pass the merged enrichResult (existing enrichment + sentiment bullets) so the
+ * checkpoint stays in sync with what was written to JSON and Sheets.
  */
-export function markSentimentEnriched(state, licNum) {
+export function markSentimentEnriched(state, licNum, enrichResult) {
   const prog = state.programs[licNum];
   return {
     ...state,
     programs: {
       ...state.programs,
-      [licNum]: { ...prog, sentimentEnriched: true },
+      [licNum]: { ...prog, sentimentEnriched: true, ...(enrichResult ? { enrichResult } : {}) },
     },
   };
 }

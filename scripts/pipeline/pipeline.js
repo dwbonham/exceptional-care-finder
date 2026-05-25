@@ -383,7 +383,7 @@ if (!skipSentiment && !enrichmentRateLimited && enrichCounties) {
           _writeApprovedProgram(gateResult.record);
           sentimentGateResults.push(gateResult);
         }
-        state = markSentimentEnriched(state, licNum);
+        state = markSentimentEnriched(state, licNum, mergedEnrich);
         process.stdout.write('.');
       } catch (e) {
         if (e instanceof RateLimitError) {

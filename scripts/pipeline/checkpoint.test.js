@@ -15,6 +15,8 @@ import {
   getPendingEnrichment,
   getNotGeminiEnriched,
   markGeminiEnriched,
+  getNotSentimentEnriched,
+  markSentimentEnriched,
   summary,
 } from './checkpoint.js';
 
@@ -166,6 +168,74 @@ const pending = updateStatus(completed, 'pend1', STATUS.PENDING_ENRICHMENT, {
   ccldRecord: { dummy: 1 }, geminiEnriched: false
 });
 assert('PENDING_ENRICHMENT programs not in backfill queue', getNotGeminiEnriched(pending).length === 0);
+
+// ─── getNotSentimentEnriched() + markSentimentEnriched() ─────────────────────
+// Build a clean base with two programs that have full ccldRecord (including county)
+// so county filter tests work correctly.
+let sentimentBase = {
+  schemaVersion: 1,
+  createdAt: new Date().toISOString(),
+  lastUpdated: new Date().toISOString(),
+  currentRunId: null,
+  programs: {},
+  runs: [],
+};
+sentimentBase = updateStatus(sentimentBase, 'snt111', STATUS.APPROVED, {
+  ccldRecord: { county: 'Riverside', legalLicenseName: 'A' },
+  geminiEnriched: true,
+  sentimentEnriched: false,
+  enrichResult: { streetName: 'A', sentimentBullets: [] },
+  geocodeResult: { lat: 33.9, lng: -117.3, source: 'google' },
+});
+sentimentBase = updateStatus(sentimentBase, 'snt222', STATUS.APPROVED, {
+  ccldRecord: { county: 'Riverside', legalLicenseName: 'B' },
+  geminiEnriched: true,
+  sentimentEnriched: true,
+  enrichResult: { streetName: 'B', sentimentBullets: ['Great program'] },
+  geocodeResult: { lat: 33.9, lng: -117.3, source: 'google' },
+});
+sentimentBase = updateStatus(sentimentBase, 'snt333', STATUS.APPROVED, {
+  ccldRecord: { county: 'Los Angeles', legalLicenseName: 'C' },
+  geminiEnriched: true,
+  sentimentEnriched: false,
+  enrichResult: { streetName: 'C', sentimentBullets: [] },
+  geocodeResult: { lat: 34.0, lng: -118.2, source: 'google' },
+});
+
+assert('getNotSentimentEnriched returns programs missing sentiment', getNotSentimentEnriched(sentimentBase).length === 2);
+assert('getNotSentimentEnriched excludes already-sentiment-enriched', !getNotSentimentEnriched(sentimentBase).includes('snt222'));
+assert('getNotSentimentEnriched includes snt111', getNotSentimentEnriched(sentimentBase).includes('snt111'));
+assert('getNotSentimentEnriched includes snt333', getNotSentimentEnriched(sentimentBase).includes('snt333'));
+
+// County filter — exact match (no hyphen)
+const filteredRiverside = getNotSentimentEnriched(sentimentBase, { countyFilter: new Set(['riverside']) });
+assert('county filter matches programs in county', filteredRiverside.length === 1);
+assert('county filter returns correct program', filteredRiverside[0] === 'snt111');
+
+// County filter — hyphen normalization (folder name vs CCLD name)
+const filteredLA = getNotSentimentEnriched(sentimentBase, { countyFilter: new Set(['los-angeles']) });
+assert('county filter hyphen-normalizes to match CCLD county name', filteredLA.length === 1);
+assert('county filter with hyphen returns correct program', filteredLA[0] === 'snt333');
+
+const filteredNoMatch = getNotSentimentEnriched(sentimentBase, { countyFilter: new Set(['san-diego']) });
+assert('county filter excludes non-matching programs', filteredNoMatch.length === 0);
+
+// markSentimentEnriched stores the merged enrichResult in checkpoint
+const mergedEnrich = { streetName: 'A', sentimentBullets: ['Staff is wonderful'] };
+const afterSentiment = markSentimentEnriched(sentimentBase, 'snt111', mergedEnrich);
+assert('sentimentEnriched set to true', afterSentiment.programs['snt111'].sentimentEnriched === true);
+assert('merged enrichResult stored in checkpoint', afterSentiment.programs['snt111'].enrichResult.sentimentBullets[0] === 'Staff is wonderful');
+assert('other programs unaffected by markSentimentEnriched', afterSentiment.programs['snt333'].sentimentEnriched === false);
+
+// Programs with existing sentimentBullets in enrichResult are excluded even without sentimentEnriched flag
+const withBullets = updateStatus(sentimentBase, 'snt111', STATUS.APPROVED, {
+  ccldRecord: { county: 'Riverside', legalLicenseName: 'A' },
+  geminiEnriched: true,
+  sentimentEnriched: false,
+  enrichResult: { streetName: 'A', sentimentBullets: ['Already has this'] },
+  geocodeResult: { lat: 33.9, lng: -117.3, source: 'google' },
+});
+assert('programs with existing bullets excluded from sentiment queue', !getNotSentimentEnriched(withBullets).includes('snt111'));
 
 // ─── Cleanup ──────────────────────────────────────────────────────────────────
 if (existsSync(CHECKPOINT_FILE)) unlinkSync(CHECKPOINT_FILE);
