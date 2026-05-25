@@ -36,6 +36,11 @@ export default function ProgramCard({ program }: Props) {
           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-blue-100 text-blue-700">
             {facilityDetails.decryptedProgramType}
           </span>
+          {facilityDetails.selfDeterminationAccepted === 'Yes' && (
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-700 border border-emerald-200">
+              ✓ Self-Determination
+            </span>
+          )}
           {facilityDetails.licensedCapacity && (
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-200 text-slate-500 bg-slate-50">
               Licensed Capacity: {facilityDetails.licensedCapacity}
@@ -47,18 +52,46 @@ export default function ProgramCard({ program }: Props) {
             </span>
           )}
         </div>
+
+        {/* Population specialization — who this program is designed for */}
+        {facilityDetails.populationSpecialization && facilityDetails.populationSpecialization.length > 0 && (
+          <div className="mt-2 flex flex-wrap gap-2">
+            {facilityDetails.populationSpecialization.map((pop) => (
+              <span key={pop} className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-violet-100 text-violet-700 border border-violet-200">
+                {pop}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Card body */}
       <div className="px-6 py-4 flex-1 flex flex-col gap-4">
 
-        {/* AI-Powered Summary */}
-        <div className="bg-blue-50 rounded-xl p-4 border border-blue-100">
-          <p className="text-xs font-semibold text-violet-600 uppercase tracking-widest mb-1.5 flex items-center gap-1">
-            ✨ <span>AI-Powered Summary</span>
-          </p>
-          <p className="text-sm text-slate-700 leading-relaxed">{facilityDetails.programFocus}</p>
-        </div>
+        {/* AI-Powered Summary — only shown when content exists */}
+        {facilityDetails.programFocus && (
+          <div className="bg-blue-50 rounded-xl p-4 border border-blue-100">
+            <p className="text-xs font-semibold text-violet-600 uppercase tracking-widest mb-1.5 flex items-center gap-1">
+              ✨ <span>AI-Powered Summary</span>
+            </p>
+            <p className="text-sm text-slate-700 leading-relaxed">{facilityDetails.programFocus}</p>
+          </div>
+        )}
+
+        {/* Schedule and organization */}
+        {(facilityDetails.daysOfOperation || facilityDetails.hoursOfOperation || facilityDetails.parentOrganization) && (
+          <div className="flex flex-wrap gap-x-5 gap-y-1 text-sm text-slate-600">
+            {facilityDetails.daysOfOperation && (
+              <span><span className="font-semibold text-slate-700">Days:</span> {facilityDetails.daysOfOperation}</span>
+            )}
+            {facilityDetails.hoursOfOperation && (
+              <span><span className="font-semibold text-slate-700">Hours:</span> {facilityDetails.hoursOfOperation}</span>
+            )}
+            {facilityDetails.parentOrganization && (
+              <span><span className="font-semibold text-slate-700">Part of:</span> {facilityDetails.parentOrganization}</span>
+            )}
+          </div>
+        )}
 
         {/* Facility details — age, languages, features */}
         {(facilityDetails.minimumAge != null || facilityDetails.languagesSupported?.length || facilityDetails.facilityFeatures?.length) && (
