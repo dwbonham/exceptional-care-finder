@@ -263,7 +263,7 @@ export function getNotSentimentEnriched(state, { countyFilter = null, limit = 99
       if (!prog.ccldRecord) return false;
       if (countyFilter) {
         const county = (prog.ccldRecord.county ?? '').toLowerCase();
-        return [...countyFilter].some(c => county.includes(c));
+        return [...countyFilter].some(c => county.includes(c.replace(/-/g, ' ')));
       }
       return true;
     })

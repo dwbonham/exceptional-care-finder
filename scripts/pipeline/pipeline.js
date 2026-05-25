@@ -63,7 +63,7 @@ const skipSentiment = !['1', 'true', 'yes'].includes((process.env.WITH_SENTIMENT
 
 function _matchesCountyFilter(county) {
   if (!enrichCounties) return true;
-  return [...enrichCounties].some(c => (county ?? '').toLowerCase().includes(c));
+  return [...enrichCounties].some(c => (county ?? '').toLowerCase().includes(c.replace(/-/g, ' ')));
 }
 
 // Catch-up cron: if all new programs are processed, close the run.
