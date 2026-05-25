@@ -239,6 +239,7 @@ if (toGeocode.length) {
       if (e instanceof GeocodingError && (e.status === 'OVER_QUERY_LIMIT' || e.status === 'OVER_DAILY_LIMIT')) {
         save(state);
         console.log(`\nGeocoding quota reached — checkpoint saved.`);
+        await syncCountySummary({ spreadsheetId: cfg.sheetId, serviceAccount: cfg.serviceAccount });
         process.exit(0);
       }
       state = updateStatus(state, licNum, STATUS.GEOCODE_FAILED, { geocodeError: e.message });
