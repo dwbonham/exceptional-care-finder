@@ -41,7 +41,7 @@ export default function App() {
     if (selectedProgramId) {
       return allPrograms.filter(p => p.ccldLicenseNumber === selectedProgramId);
     }
-    return filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType, selectedLaZip || undefined);
+    return filterPrograms(allPrograms, selectedState, selectedCounty, selectedCareType);
   }, [selectedProgramId, selectedCounty, selectedCareType, selectedLaZip]);
 
   // Reset map bounds when the county/care-type filter changes so the new county
