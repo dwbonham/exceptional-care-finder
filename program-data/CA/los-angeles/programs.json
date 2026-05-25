@@ -188,899 +188,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "MERCI SCHOOL",
-    "streetName": "MERCI SCHOOL",
-    "ccldLicenseNumber": "191502401",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "525 And 527 North Chandler",
-      "city": "Monterey Park",
-      "state": "CA",
-      "zipCode": "91754",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.06766294,
-        "lng": -118.1321685
-      }
-    },
-    "contact": {
-      "phone": "(626) 289-8817",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 145,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DAY TRAINING ACTIVITY CENTER",
-    "streetName": "DAY TRAINING ACTIVITY CENTER",
-    "ccldLicenseNumber": "191570094",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9555 Washburn Rd.",
-      "city": "Downey",
-      "state": "CA",
-      "zipCode": "90242",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 33.92433,
-        "lng": -118.11751
-      }
-    },
-    "contact": {
-      "phone": "(562) 803-3391",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 65,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DELHAVEN FAIRGROVE DAY LEARNING CENTER",
-    "streetName": "DELHAVEN FAIRGROVE DAY LEARNING CENTER",
-    "ccldLicenseNumber": "191570600",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "15145 Fairgrove Ave.",
-      "city": "La Puente",
-      "state": "CA",
-      "zipCode": "91744",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.04405,
-        "lng": -117.95212
-      }
-    },
-    "contact": {
-      "phone": "(626) 917-9789",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DELHAVEN SOUTH ACTIVITY CENTER",
-    "streetName": "DELHAVEN SOUTH ACTIVITY CENTER",
-    "ccldLicenseNumber": "191592625",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "15135 Fairgrove Ave.",
-      "city": "La Puente",
-      "state": "CA",
-      "zipCode": "91744",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.04414,
-        "lng": -117.95224
-      }
-    },
-    "contact": {
-      "phone": "(626) 917-9789",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT BASIC LEARNING ENVIRONMENT  INC.",
-    "streetName": "ADULT BASIC LEARNING ENVIRONMENT  INC.",
-    "ccldLicenseNumber": "191592637",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "452 W. Badillo St.",
-      "city": "Covina",
-      "state": "CA",
-      "zipCode": "91723",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.08631,
-        "lng": -117.89796
-      }
-    },
-    "contact": {
-      "phone": "(626) 858-5267",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CLIMB WORK ACTIVITY CENTER",
-    "streetName": "CLIMB WORK ACTIVITY CENTER",
-    "ccldLicenseNumber": "191592837",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "161 Sierra Madre Blvd",
-      "city": "Sierra Madre",
-      "state": "CA",
-      "zipCode": "91024",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.161877,
-        "lng": -118.05599
-      }
-    },
-    "contact": {
-      "phone": "(626) 355-1447",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CLIMB WORK ACTIVITY CENTER-ALHAMBRA",
-    "streetName": "CLIMB WORK ACTIVITY CENTER-ALHAMBRA",
-    "ccldLicenseNumber": "191593365",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2300 West Main St.",
-      "city": "Alhambra",
-      "state": "CA",
-      "zipCode": "91801",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.093403,
-        "lng": -118.148254
-      }
-    },
-    "contact": {
-      "phone": "(626) 289-5321",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "HUMAN SERVICES ASSOCIATION",
-    "streetName": "HUMAN SERVICES ASSOCIATION",
-    "ccldLicenseNumber": "191593367",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6800 Florence Ave.",
-      "city": "Bell Gardens",
-      "state": "CA",
-      "zipCode": "90201",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 33.96089,
-        "lng": -118.14448
-      }
-    },
-    "contact": {
-      "phone": "(562) 806-5400",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CASA COLINA TLC/POST ACUTE BRAIN INJURY",
-    "streetName": "CASA COLINA TLC/POST ACUTE BRAIN INJURY",
-    "ccldLicenseNumber": "191593695",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "255 East Bonita",
-      "city": "Pomona",
-      "state": "CA",
-      "zipCode": "91769",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.09630062,
-        "lng": -117.7456377
-      }
-    },
-    "contact": {
-      "phone": "(909) 596-0955",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 24,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ABILITYFIRST LONG BEACH CENTER ADULT DA",
-    "streetName": "ABILITYFIRST LONG BEACH CENTER ADULT DA",
-    "ccldLicenseNumber": "191600097",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3770 E Willow St",
-      "city": "Long Beach",
-      "state": "CA",
-      "zipCode": "90815",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 33.804306,
-        "lng": -118.148865
-      }
-    },
-    "contact": {
-      "phone": "(562) 426-6161",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT DEVELOPMENT CENTER - HERMOSA BEAC",
-    "streetName": "ADULT DEVELOPMENT CENTER - HERMOSA BEAC",
-    "ccldLicenseNumber": "191600461",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "710 Pier Ave.",
-      "city": "Hermosa Beach",
-      "state": "CA",
-      "zipCode": "90254",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 33.864826,
-        "lng": -118.394135
-      }
-    },
-    "contact": {
-      "phone": "(310) 318-9343",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 52,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "GARDENA SENIOR CITIZENS DAY CARE CENTER",
-    "streetName": "GARDENA SENIOR CITIZENS DAY CARE CENTER",
-    "ccldLicenseNumber": "191601265",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "14517 So. Crenshaw Blvd.",
-      "city": "Gardena",
-      "state": "CA",
-      "zipCode": "90249",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 33.899788,
-        "lng": -118.326515
-      }
-    },
-    "contact": {
-      "phone": "(310) 217-9550",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "HARRY A MIER CENTER",
-    "streetName": "HARRY A MIER CENTER",
-    "ccldLicenseNumber": "191601509",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8090 Crenshaw Blvd",
-      "city": "Inglewood",
-      "state": "CA",
-      "zipCode": "90305",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 33.965584,
-        "lng": -118.33078
-      }
-    },
-    "contact": {
-      "phone": "(323) 753-3101",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 27,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "OPICA ADULT DAY PROGRAM & COUNSELING CE",
-    "streetName": "OPICA ADULT DAY PROGRAM & COUNSELING CE",
-    "ccldLicenseNumber": "191603551",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "11759 Missouri Avenue",
-      "city": "Los Angeles",
-      "state": "CA",
-      "zipCode": "90025",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.037365,
-        "lng": -118.45354
-      }
-    },
-    "contact": {
-      "phone": "(310) 478-0226",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADVOCACY FOR RESPECT AND CHOICE-LONG BE",
-    "streetName": "ADVOCACY FOR RESPECT AND CHOICE-LONG BE",
-    "ccldLicenseNumber": "191604283",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4519 East Stearns Street",
-      "city": "Long Beach",
-      "state": "CA",
-      "zipCode": "90815",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 33.796066,
-        "lng": -118.1403
-      }
-    },
-    "contact": {
-      "phone": "(562) 597-4396",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT DEVELOPMENT CENTER-GARDENA",
-    "streetName": "ADULT DEVELOPMENT CENTER-GARDENA",
-    "ccldLicenseNumber": "191670621",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "13515 So. Vermont Ave.",
-      "city": "Gardena",
-      "state": "CA",
-      "zipCode": "90247",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 33.908535,
-        "lng": -118.291916
-      }
-    },
-    "contact": {
-      "phone": "(310) 532-6271",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 77,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "WILLING WORKERS  INCORPORATED",
-    "streetName": "WILLING WORKERS  INCORPORATED",
-    "ccldLicenseNumber": "191800884",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4813 W Washington Blvd",
-      "city": "Los Angeles",
-      "state": "CA",
-      "zipCode": "90016",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.03983,
-        "lng": -118.3441
-      }
-    },
-    "contact": {
-      "phone": "(323) 937-5950",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 240,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ANNE SIPPI CLINIC",
-    "streetName": "ANNE SIPPI CLINIC",
-    "ccldLicenseNumber": "191890446",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2457 Endicott St.",
-      "city": "Los Angeles",
-      "state": "CA",
-      "zipCode": "90032",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.075455,
-        "lng": -118.172066
-      }
-    },
-    "contact": {
-      "phone": "(213) 221-5177",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 5,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "L.A.R.C. INDUSTRIES",
-    "streetName": "L.A.R.C. INDUSTRIES",
-    "ccldLicenseNumber": "197600225",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "26639 Valley Ctr. Dr.  #105",
-      "city": "Santa Clarita",
-      "state": "CA",
-      "zipCode": "91351",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.421864,
-        "lng": -118.50498
-      }
-    },
-    "contact": {
-      "phone": "(661) 254-1946",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 65,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "ACTIVITIES FOR RETARDED CHILDREN AND AD",
     "streetName": "ACTIVITIES FOR RETARDED CHILDREN AND AD",
     "ccldLicenseNumber": "197600306",
@@ -8834,5 +7941,1055 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MERCI SCHOOL",
+    "streetName": "MERCI School",
+    "ccldLicenseNumber": "191502401",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "525 And 527 North Chandler",
+      "city": "Monterey Park",
+      "state": "CA",
+      "zipCode": "91754",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.06766294,
+        "lng": -118.1321685
+      }
+    },
+    "contact": {
+      "phone": "(626) 289-8817",
+      "websiteUrl": "https://www.merci.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 145,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "MERCI School's PASS Program provides tailored support for adults with developmental disabilities, focusing on building independent living and socialization skills through self-care, community navigation, leisure, and daily living activities.",
+      "minimumAge": 18,
+      "yearEstablished": 1955,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Engagement"
+      ],
+      "parentOrganization": "MERCI Organization",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Los Angeles County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DAY TRAINING ACTIVITY CENTER",
+    "streetName": "Day Training Activity Center",
+    "ccldLicenseNumber": "191570094",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9555 Washburn Rd.",
+      "city": "Downey",
+      "state": "CA",
+      "zipCode": "90242",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 33.92433,
+        "lng": -118.11751
+      }
+    },
+    "contact": {
+      "phone": "(562) 803-3391",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 65,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The program empowers individuals with intellectual and developmental disabilities to build person-centered life skills, access opportunity, and belong through day habilitation, vocational training, independent living skills, and supported employment, focusing on skill development in self-help, motor skills, language, academics, pre-vocational, leisure, and community awareness.",
+      "minimumAge": 18,
+      "yearEstablished": 1956,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Vocational Training",
+        "Supported Employment"
+      ],
+      "parentOrganization": "The Arc Los Angeles & Orange Counties",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Artesia, Bell, Bellflower, Bell Gardens, Cerritos, Cudahy, Downey, Huntington Park, La Mirada, Lynwood, Maywood, Norwalk, Paramount, Pico Rivera, Santa Fe Springs and South Gate",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 86,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DELHAVEN FAIRGROVE DAY LEARNING CENTER",
+    "streetName": "DELHAVEN FAIRGROVE DAY LEARNING CENTER",
+    "ccldLicenseNumber": "191570600",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "15145 Fairgrove Ave.",
+      "city": "La Puente",
+      "state": "CA",
+      "zipCode": "91744",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.04405,
+        "lng": -117.95212
+      }
+    },
+    "contact": {
+      "phone": "(626) 917-9789",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The program offers self-help training, independent training, cognitive training, community integration, and social skills training. Participants are also involved in volunteer work, employment, social activities, school, community classes, and vocational workshops.",
+      "minimumAge": 18,
+      "yearEstablished": 1972,
+      "languagesSupported": [
+        "English",
+        "Chinese (Simplified)",
+        "French",
+        "Italian",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Self-help training",
+        "Independent training",
+        "Cognitive training",
+        "Community integration",
+        "Social skills training",
+        "Volunteer work",
+        "Employment",
+        "Social activities",
+        "Educational classes",
+        "Workplace skills training"
+      ],
+      "parentOrganization": "Delhaven Community Center",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 82,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DELHAVEN SOUTH ACTIVITY CENTER",
+    "streetName": "DELHAVEN SOUTH ACTIVITY CENTER",
+    "ccldLicenseNumber": "191592625",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "15135 Fairgrove Ave.",
+      "city": "La Puente",
+      "state": "CA",
+      "zipCode": "91744",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.04414,
+        "lng": -117.95224
+      }
+    },
+    "contact": {
+      "phone": "(626) 917-9789",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Delhaven South Activity Center, part of the Delhaven Community Center, provides state-licensed adult day programs for individuals with intellectual and developmental disabilities. The program offers recreational facilities and workshops designed to teach work, social, reading, and mobilization skills, aiming to maximize the potential of mentally challenged adults.",
+      "minimumAge": 18,
+      "yearEstablished": 1972,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Funseekers Travel Club",
+        "Summer Mountain Camp",
+        "Happy Timers Saturday Program",
+        "Lake Tahoe Caravan",
+        "Weekend Round Up Overnighter's (Respit Care)",
+        "Arts and Crafts",
+        "Music Therapy",
+        "Art Therapy",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Delhaven Community Center",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 55,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT BASIC LEARNING ENVIRONMENT  INC.",
+    "streetName": "ADULT BASIC LEARNING ENVIRONMENT INC.",
+    "ccldLicenseNumber": "191592637",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "452 W. Badillo St.",
+      "city": "Covina",
+      "state": "CA",
+      "zipCode": "91723",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.08631,
+        "lng": -117.89796
+      }
+    },
+    "contact": {
+      "phone": "(626) 966-2857",
+      "websiteUrl": "https://www.able-inc.net/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The program's primary responsibility is to provide a safe, secure, and healthy environment for clients, offering opportunities to reach their maximum potential in life. It focuses on Person Centered Thinking and Planning to meet the needs and desires of the clients.",
+      "minimumAge": 18,
+      "yearEstablished": 1988,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Community Integration Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CLIMB WORK ACTIVITY CENTER",
+    "streetName": "CLIMB WORK ACTIVITY CENTER",
+    "ccldLicenseNumber": "191592837",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "161 Sierra Madre Blvd",
+      "city": "Sierra Madre",
+      "state": "CA",
+      "zipCode": "91024",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.161877,
+        "lng": -118.05599
+      }
+    },
+    "contact": {
+      "phone": "(626) 355-1447",
+      "websiteUrl": "https://climb-inc.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "CLIMB's Sierra Madre facility is a licensed day program and pre-vocational program that serves adults with developmental disabilities and blindness. It focuses on community integration, vocational training, behavior support, and mobility training to promote independence.",
+      "minimumAge": 18,
+      "yearEstablished": 1977,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Community Integration",
+        "Life Skills Training",
+        "Behavior Support",
+        "Mobility Training",
+        "Recreational Activities",
+        "Volunteer Opportunities"
+      ],
+      "parentOrganization": "CLIMB Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Visual Impairment"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local community in Sierra Madre and surrounding areas",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 88,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CLIMB WORK ACTIVITY CENTER-ALHAMBRA",
+    "streetName": "CLIMB WORK ACTIVITY CENTER-ALHAMBRA",
+    "ccldLicenseNumber": "191593365",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2300 West Main St.",
+      "city": "Alhambra",
+      "state": "CA",
+      "zipCode": "91801",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.093403,
+        "lng": -118.148254
+      }
+    },
+    "contact": {
+      "phone": "(626) 289-5321",
+      "websiteUrl": "https://climb-inc.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "CLIMB Transition Services offers behavior support, vocational training, and mobility training. The day program at the Alhambra Work Activity Center stresses independent living skills, recreational, and social development with a focus on community integration and vocational training.",
+      "minimumAge": 18,
+      "yearEstablished": 1977,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop",
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Structured daytime activities",
+        "Therapeutic activities",
+        "Social and recreational programming",
+        "Personal care assistance",
+        "Medication management",
+        "Independent living skills training",
+        "Vocational training",
+        "Mobility training",
+        "Behavior support",
+        "Community integration",
+        "Piecework assembly and packaging",
+        "Shredding business employment opportunities"
+      ],
+      "parentOrganization": "CLIMB, INC.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–5:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Blindness",
+        "Multi-Handicapped"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CASA COLINA TLC/POST ACUTE BRAIN INJURY",
+    "streetName": "Casa Colina Transitional Living Center (TLC) / Post-Acute Brain Injury Program",
+    "ccldLicenseNumber": "191593695",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "255 East Bonita",
+      "city": "Pomona",
+      "state": "CA",
+      "zipCode": "91769",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.09630062,
+        "lng": -117.7456377
+      }
+    },
+    "contact": {
+      "phone": "(909) 596-7733",
+      "websiteUrl": "https://www.casacolina.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 24,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Transitional Living Center (TLC) offers day treatment services for individuals with neurological injury or illness, focusing on intensive individual and group therapy sessions to improve physical and cognitive functions, social skills, and facilitate reintegration into the home and community.",
+      "minimumAge": 18,
+      "yearEstablished": 1936,
+      "languagesSupported": [
+        "English",
+        "Other languages via interpreter services"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Adaptive Driving",
+        "Aquatic Therapy",
+        "Athletics and Sports Rehabilitation",
+        "Outdoor Adventures and Wheelchair Sports",
+        "Community Integration Activities"
+      ],
+      "parentOrganization": "Casa Colina Hospital and Centers for Healthcare",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Acquired Brain Injury"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Local area",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 93,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ABILITYFIRST LONG BEACH CENTER ADULT DA",
+    "streetName": "AbilityFirst Long Beach Center Adult Day Program",
+    "ccldLicenseNumber": "191600097",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3770 E Willow St",
+      "city": "Long Beach",
+      "state": "CA",
+      "zipCode": "90815",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 33.804306,
+        "lng": -118.148865
+      }
+    },
+    "contact": {
+      "phone": "(562) 426-6161",
+      "websiteUrl": "https://www.abilityfirst.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The ExploreAbility Adult Day Program is a primarily site-based program for adults age 18 and older that teaches life skills and fosters personal and social development through diverse activities with ongoing supervision and personal care. It blends on-site learning with active community involvement, empowering participants to achieve personal goals through volunteering and inclusive local activities, with a focus on skill development, community integration, and employment readiness.",
+      "minimumAge": 18,
+      "yearEstablished": 1966,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Aquatics/Pool"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Socialization",
+        "Community Integration",
+        "Vocational Training/Employment Support",
+        "Recreational Activities",
+        "Aquatics"
+      ],
+      "parentOrganization": "AbilityFirst",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–6:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy",
+        "Physical Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Long Beach, Lakewood, Signal Hill, Torrance, Seal Beach, Carson, Bellflower, Los Alamitos",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT DEVELOPMENT CENTER - HERMOSA BEAC",
+    "streetName": "Adult Development Center - Hermosa Beach",
+    "ccldLicenseNumber": "191600461",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "710 Pier Ave.",
+      "city": "Hermosa Beach",
+      "state": "CA",
+      "zipCode": "90254",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 33.864826,
+        "lng": -118.394135
+      }
+    },
+    "contact": {
+      "phone": "(310) 318-9343",
+      "websiteUrl": "http://www.arcsobay.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 52,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Adult Development Center in Hermosa Beach is a community-based program that helps adults with developmental disabilities learn skills necessary for self-care, community integration, and self-advocacy. Programs focus on basic life skills, academics, motor development, pre-vocational training, and recreation.",
+      "minimumAge": 18,
+      "yearEstablished": 1959,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Recreational Programs",
+        "Life Skills Training",
+        "Self-Advocacy",
+        "Grooming",
+        "Mobility",
+        "Safety",
+        "Academics",
+        "Personal Identification",
+        "Special Education",
+        "Motor Development",
+        "Pre-Vocational Training",
+        "Community Integration"
+      ],
+      "parentOrganization": "The Arc South Bay",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities",
+        "Autism",
+        "Down Syndrome"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "South Bay area",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 88,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HARRY A MIER CENTER",
+    "streetName": "AbilityFirst Joan & Harry A. Mier Center",
+    "ccldLicenseNumber": "191601509",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8090 Crenshaw Blvd",
+      "city": "Inglewood",
+      "state": "CA",
+      "zipCode": "90305",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 33.965584,
+        "lng": -118.33078
+      }
+    },
+    "contact": {
+      "phone": "(323) 753-3101",
+      "websiteUrl": "https://www.abilityfirst.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 27,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This center provides person-centered, interest-based activities to help participants achieve personal goals in communication, socialization, basic life skills, and healthy living. The ExploreAbility program focuses on adult day and community integration, helping adults explore and identify what is important to them, develop skills, and engage in their communities through volunteering and various activities.",
+      "minimumAge": 18,
+      "yearEstablished": 1976,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Community Aquatics"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Communication Skills",
+        "Socialization",
+        "Healthy Living",
+        "Community Integration",
+        "Recreational Activities",
+        "Volunteering"
+      ],
+      "parentOrganization": "AbilityFirst",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "South Los Angeles area, including Inglewood, Hawthorne, Gardena, Los Angeles, South Bay, Westchester, Torrance, and Lennox",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADVOCACY FOR RESPECT AND CHOICE-LONG BE",
+    "streetName": "Advocacy for Respect and Choice - Long Beach",
+    "ccldLicenseNumber": "191604283",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4519 East Stearns Street",
+      "city": "Long Beach",
+      "state": "CA",
+      "zipCode": "90815",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 33.796066,
+        "lng": -118.1403
+      }
+    },
+    "contact": {
+      "phone": "(562) 597-4396",
+      "websiteUrl": "https://www.hillsideenterprises.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Advocacy for Respect and Choice - Long Beach provides services to adults with developmental and intellectual disabilities, focusing on activities of daily living, vocational training, employment development, and job retention. The program emphasizes individual abilities to promote competence, self-sufficiency, and community integration.",
+      "minimumAge": 18,
+      "yearEstablished": 1951,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Employment Support",
+        "Community Integration",
+        "Social Activities",
+        "Recreational Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 87,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT DEVELOPMENT CENTER-GARDENA",
+    "streetName": "Adult Development Center - Gardena",
+    "ccldLicenseNumber": "191670621",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "13515 So. Vermont Ave.",
+      "city": "Gardena",
+      "state": "CA",
+      "zipCode": "90247",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 33.908535,
+        "lng": -118.291916
+      }
+    },
+    "contact": {
+      "phone": "(310) 532-6271",
+      "websiteUrl": "https://www.arc-southbay.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 77,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The agency provides recreational programs and services for people with developmental disabilities who live in the South Bay area. Services include Leisure Activities/Recreation, Special Education, Independent Living Skills Instruction, and Prevocational Training for individuals with profound and severe intellectual disabilities.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Leisure Activities/Recreation",
+        "Special Education",
+        "Independent Living Skills Instruction",
+        "Prevocational Training"
+      ],
+      "parentOrganization": "The Arc South Bay",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "WILLING WORKERS  INCORPORATED",
+    "streetName": "Willing Workers, Inc.",
+    "ccldLicenseNumber": "191800884",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4813 W Washington Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90016",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.03983,
+        "lng": -118.3441
+      }
+    },
+    "contact": {
+      "phone": "(323) 937-5950",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 240,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Empowering adults with developmental delays to lead fulfilling lives at Willing Workers. The program provides tailored educational programs, job training, community engagement activities, and supportive living services to enhance skills and foster independence.",
+      "minimumAge": 18,
+      "yearEstablished": 1970,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 74,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "L.A.R.C. INDUSTRIES",
+    "streetName": "L.A.R.C. Industries",
+    "ccldLicenseNumber": "197600225",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "26639 Valley Ctr. Dr.  #105",
+      "city": "Santa Clarita",
+      "state": "CA",
+      "zipCode": "91351",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.421864,
+        "lng": -118.50498
+      }
+    },
+    "contact": {
+      "phone": "(661) 296-8636",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 65,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "L.A.R.C. Industries offers a Day Training Activity Center (DTAC) which is a vocational program focused on equipping participants with essential workforce skills and personalized training for successful employment. The Adult Developmental Center (ADC) provides personalized care in a supportive environment, emphasizing intellectual, physical, emotional, and social development through adaptive physical activities, language development, and socialization via community outings and on-site events.",
+      "minimumAge": 18,
+      "yearEstablished": 1959,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Indoor Swimming Pool",
+        "Outdoor Space (Park)",
+        "Gymnasium",
+        "Movie Room",
+        "Music Room",
+        "Recreation Room",
+        "Computer Lab",
+        "Vocational Workshop (Woodshop, Janitorial Training, Contract Piecework)"
+      ],
+      "activitiesOffered": [
+        "Vocational Training",
+        "Workforce Skills Development",
+        "Physical Fitness",
+        "Language Development",
+        "Socialization",
+        "Community Outings",
+        "Self-Care Skills",
+        "Daily Living Skills",
+        "Sensory Stimulation",
+        "Fine and Gross Motor Activities",
+        "Academic Skills",
+        "Positive Behavioral Approaches",
+        "Independent Living Skills",
+        "Recreation and Leisure Skills",
+        "Travel Club",
+        "Bowling",
+        "Special Olympics",
+        "Swimming",
+        "Walking",
+        "Bike Riding",
+        "Karaoke",
+        "Bingo",
+        "Arts and Crafts",
+        "Dances"
+      ],
+      "parentOrganization": "L.A.R.C. Foundation",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 71,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   }
 ]
