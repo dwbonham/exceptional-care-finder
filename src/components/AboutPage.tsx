@@ -109,13 +109,13 @@ const NOT_ITEMS: NotItem[] = [
 ];
 
 const TOC_SECTIONS = [
-  { id: 'who-its-for',    emoji: '🎯', label: "Who It's For"         },
-  { id: 'whats-included', emoji: '✅', label: 'What\'s Included'      },
-  { id: 'whats-not',      emoji: '⚠️', label: 'What\'s Not Included' },
-  { id: 'limitations',    emoji: '📊', label: 'Data Limitations'      },
-  { id: 'data-sources',   emoji: '🔗', label: 'Data Sources'          },
-  { id: 'medical',        emoji: '🏥', label: 'Medical Support'       },
-  { id: 'feedback',       emoji: '💬', label: 'Feedback'              },
+  { id: 'who-its-for',    label: "Who It's For"        },
+  { id: 'whats-included', label: 'What\'s Included'    },
+  { id: 'whats-not',      label: 'What\'s Not Included'},
+  { id: 'limitations',    label: 'Data Limitations'    },
+  { id: 'data-sources',   label: 'Data Sources'        },
+  { id: 'medical',        label: 'Medical Support'     },
+  { id: 'feedback',       label: 'Feedback'            },
 ];
 
 const countyCount = new Set(allPrograms.map((p) => p.location.county)).size;
@@ -123,18 +123,17 @@ const countyCount = new Set(allPrograms.map((p) => p.location.county)).size;
 function TocLinks({ activeId, onNavigate }: { activeId: string; onNavigate: (id: string) => void }) {
   return (
     <nav className="space-y-0.5">
-      {TOC_SECTIONS.map(({ id, emoji, label }) => (
+      {TOC_SECTIONS.map(({ id, label }) => (
         <button
           key={id}
           onClick={() => onNavigate(id)}
-          className={`w-full text-left flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors cursor-pointer ${
+          className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors cursor-pointer border-l-2 ${
             activeId === id
-              ? 'bg-[#FEF2EE] text-[#C2410C] font-semibold'
-              : 'text-slate-500 hover:text-slate-800 hover:bg-slate-100'
+              ? 'border-[#C2410C] bg-[#FEF2EE] text-[#C2410C] font-semibold'
+              : 'border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-50'
           }`}
         >
-          <span className="text-base leading-none">{emoji}</span>
-          <span className="leading-snug">{label}</span>
+          {label}
         </button>
       ))}
     </nav>
@@ -221,8 +220,7 @@ export default function AboutPage() {
 
             {/* Who benefits most */}
             <section id="who-its-for" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
-              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-                <span className="text-xl">🎯</span>
+              <div className="px-6 py-4 border-b border-slate-100">
                 <h2 className="text-lg font-bold text-slate-800">Who This Site Is For</h2>
               </div>
               <div className="px-6 py-5 space-y-4 text-slate-600 text-sm leading-relaxed">
@@ -254,8 +252,7 @@ export default function AboutPage() {
 
             {/* What IS in the database */}
             <section id="whats-included" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
-              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-                <span className="text-xl">✅</span>
+              <div className="px-6 py-4 border-b border-slate-100">
                 <h2 className="text-lg font-bold text-slate-800">What's in This Database</h2>
               </div>
               <div className="px-6 py-5 space-y-4 text-slate-600 text-sm leading-relaxed">
@@ -307,8 +304,7 @@ export default function AboutPage() {
 
             {/* What is NOT in the database */}
             <section id="whats-not" className="bg-white rounded-2xl border border-red-100 shadow-sm overflow-hidden scroll-mt-24">
-              <div className="px-6 py-4 border-b border-red-100 flex items-center gap-3" style={{ background: '#fef2f2' }}>
-                <span className="text-xl">⚠️</span>
+              <div className="px-6 py-4 border-b border-red-100" style={{ background: '#fef2f2' }}>
                 <h2 className="text-lg font-bold text-slate-800">What's NOT in This Database</h2>
               </div>
               <div className="px-6 py-5 space-y-4 text-sm leading-relaxed">
@@ -337,8 +333,7 @@ export default function AboutPage() {
 
             {/* Known data limitations */}
             <section id="limitations" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
-              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-                <span className="text-xl">📊</span>
+              <div className="px-6 py-4 border-b border-slate-100">
                 <h2 className="text-lg font-bold text-slate-800">Known Data Limitations</h2>
               </div>
               <div className="px-6 py-5 text-sm leading-relaxed">
@@ -375,8 +370,7 @@ export default function AboutPage() {
 
             {/* Data sources */}
             <section id="data-sources" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
-              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-                <span className="text-xl">🔗</span>
+              <div className="px-6 py-4 border-b border-slate-100">
                 <h2 className="text-lg font-bold text-slate-800">Data Sources</h2>
               </div>
               <div className="px-6 py-5 text-sm leading-relaxed">
@@ -433,9 +427,7 @@ export default function AboutPage() {
             {/* Medical support callout */}
             <section id="medical" className="rounded-2xl border border-blue-200 overflow-hidden scroll-mt-24" style={{ background: 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)' }}>
               <div className="px-6 py-5">
-                <div className="flex items-start gap-3">
-                  <span className="text-2xl shrink-0">🏥</span>
-                  <div>
+                <div>
                     <h2 className="text-base font-bold text-blue-900 mb-2">
                       Does Your Loved One Need Medical Support During the Day?
                     </h2>
@@ -454,15 +446,13 @@ export default function AboutPage() {
                       centers — California's medical adult day program model. Your RC can authorize and
                       fund a CBAS placement through your IPP if medically warranted.
                     </p>
-                  </div>
                 </div>
               </div>
             </section>
 
             {/* Feedback */}
             <section id="feedback" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-24">
-              <div className="px-6 py-4 border-b border-slate-100 flex items-center gap-3">
-                <span className="text-xl">💬</span>
+              <div className="px-6 py-4 border-b border-slate-100">
                 <h2 className="text-lg font-bold text-slate-800">Missing a Program? Found an Error?</h2>
               </div>
               <div className="px-6 py-5 text-sm leading-relaxed text-slate-600 space-y-2">
