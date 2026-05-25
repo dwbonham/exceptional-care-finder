@@ -122,15 +122,15 @@ export default function AboutPage() {
         }}
       >
         <div className="absolute inset-0" style={{ background: 'rgba(0,0,0,0.45)' }} />
-        <div className="relative z-10 max-w-3xl mx-auto px-6 py-16 text-center">
+        <div className="relative z-10 max-w-4xl mx-auto px-6 py-20 text-center">
           <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/25 rounded-full px-4 py-1.5 mb-5">
             <span className="text-yellow-300 text-sm">✦</span>
             <span className="text-white/90 text-sm font-medium tracking-wide">About This Site</span>
           </div>
-          <h1 className="font-display text-4xl sm:text-5xl font-semibold text-white leading-tight mb-4">
-            California <em className="italic">Adult Day Program Finder</em>
+          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold text-white leading-tight mb-5">
+            California <em className="italic text-blue-200">Adult Day Program Finder</em>
           </h1>
-          <p className="text-lg text-blue-100 leading-relaxed max-w-xl mx-auto">
+          <p className="text-lg sm:text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto">
             A searchable directory of state-licensed Adult Day Programs for adults with developmental disabilities — built for families navigating the Regional Center system.
           </p>
         </div>
