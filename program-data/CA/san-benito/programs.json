@@ -1,7 +1,7 @@
 [
   {
     "legalLicenseName": "SVS HOLLISTER ADULT DAY PROGRAM",
-    "streetName": "SVS HOLLISTER ADULT DAY PROGRAM",
+    "streetName": "SVS Hollister Adult Day Program",
     "ccldLicenseNumber": "355201492",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -18,17 +18,38 @@
     },
     "contact": {
       "phone": "(831) 638-0103",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.socialvocationalservices.org"
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "SVS Hollister Adult Day Program offers individualized programs for adults with developmental and intellectual disabilities, focusing on community inclusion, career exploration, supported employment, and independent living. The program provides structured daytime activities, supervision, and support services for participants.",
       "minimumAge": 18,
+      "yearEstablished": 1977,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Arts",
+        "Cooking",
+        "Computer technology",
+        "Gardening",
+        "Work experience",
+        "Volunteer activities",
+        "Physical fitness",
+        "Music expression",
+        "Self-advocacy",
+        "Health and well being",
+        "Community integration",
+        "Social interaction",
+        "Recreational activities"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -40,10 +61,14 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "SVS Hollister Adult Day Program supports adults with developmental/intellectual disabilities.",
+        "It offers individualized programs focusing on community inclusion, career exploration, and supported employment.",
+        "The program aims to promote independence, self-advocacy, and community integration."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 75,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   }
 ]

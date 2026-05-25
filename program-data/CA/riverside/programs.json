@@ -2204,16 +2204,22 @@
     },
     "contact": {
       "phone": "(951) 688-8593",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.teamcorpint.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 80,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Provides adult day care services including social activities, meals, and general supervision for adults.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
+      "activitiesOffered": [
+        "Social Activities",
+        "Meals",
+        "Supervision"
+      ],
+      "parentOrganization": "T.E.A.M Group",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -2228,8 +2234,8 @@
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 56,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   }
 ]

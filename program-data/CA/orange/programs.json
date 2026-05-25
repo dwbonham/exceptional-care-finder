@@ -1,334 +1,5 @@
 [
   {
-    "legalLicenseName": "BUENA PARK SENIOR DAY CARE CENTER",
-    "streetName": "BUENA PARK SENIOR DAY CARE CENTER",
-    "ccldLicenseNumber": "300605516",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8150 Knott Avenue",
-      "city": "Buena Park",
-      "state": "CA",
-      "zipCode": "90620",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.84493,
-        "lng": -118.01099
-      }
-    },
-    "contact": {
-      "phone": "(714) 826-3163",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 20,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "LEARNING LIGHT FOUNDATION ADULT DEVEL.",
-    "streetName": "LEARNING LIGHT FOUNDATION ADULT DEVEL.",
-    "ccldLicenseNumber": "300605585",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1212 E. Lincoln Avenue",
-      "city": "Anaheim",
-      "state": "CA",
-      "zipCode": "92805",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.838398,
-        "lng": -117.90126
-      }
-    },
-    "contact": {
-      "phone": "(714) 533-2314",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MT OF OLIVES ADULT DAY CARE CENTER",
-    "streetName": "MT OF OLIVES ADULT DAY CARE CENTER",
-    "ccldLicenseNumber": "306000147",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "24772 Chrisanta Drive",
-      "city": "Mission Viejo",
-      "state": "CA",
-      "zipCode": "92691",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.60376,
-        "lng": -117.67352
-      }
-    },
-    "contact": {
-      "phone": "(949) 581-3800",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "HIGH HOPES HEAD INJURY PROGRAM",
-    "streetName": "HIGH HOPES HEAD INJURY PROGRAM",
-    "ccldLicenseNumber": "306000959",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2953 & 2961 Edinger Ave.",
-      "city": "Tustin",
-      "state": "CA",
-      "zipCode": "92780",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.70790601,
-        "lng": -117.807172
-      }
-    },
-    "contact": {
-      "phone": "(949) 733-0044",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "REAL CHALLENGES  INC.",
-    "streetName": "REAL CHALLENGES  INC.",
-    "ccldLicenseNumber": "306001198",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3584 Enterprise",
-      "city": "Anaheim",
-      "state": "CA",
-      "zipCode": "92807",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.859997,
-        "lng": -117.84073
-      }
-    },
-    "contact": {
-      "phone": "(714) 238-9215",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 71,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "EMPOWER COMMUNITY DAY PROGRAM",
-    "streetName": "EMPOWER COMMUNITY DAY PROGRAM",
-    "ccldLicenseNumber": "306001666",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8381 Katella Ave. Ste C D",
-      "city": "Stanton",
-      "state": "CA",
-      "zipCode": "90680",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.80298,
-        "lng": -117.98582
-      }
-    },
-    "contact": {
-      "phone": "(310) 902-2562",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 72,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VOCATIONAL VISIONS",
-    "streetName": "VOCATIONAL VISIONS",
-    "ccldLicenseNumber": "306001736",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "23612 Alambre",
-      "city": "Mission Viejo",
-      "state": "CA",
-      "zipCode": "92691",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.62003,
-        "lng": -117.67678
-      }
-    },
-    "contact": {
-      "phone": "(949) 837-7280",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 160,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "ENCORE PROGRAM",
     "streetName": "ENCORE PROGRAM",
     "ccldLicenseNumber": "306002980",
@@ -351,1040 +22,6 @@
     },
     "facilityDetails": {
       "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VOCATIONAL INNOVATIONS - ORANGE",
-    "streetName": "VOCATIONAL INNOVATIONS - ORANGE",
-    "ccldLicenseNumber": "306004005",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1524 E. Mayfair Avenue",
-      "city": "Orange",
-      "state": "CA",
-      "zipCode": "92867",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.799095,
-        "lng": -117.83764
-      }
-    },
-    "contact": {
-      "phone": "(714) 771-8300",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PROGRESSIVE COMMUNITY & VOCATIONAL SERV",
-    "streetName": "PROGRESSIVE COMMUNITY & VOCATIONAL SERV",
-    "ccldLicenseNumber": "306004361",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2034 Placentia Avenue",
-      "city": "Costa Mesa",
-      "state": "CA",
-      "zipCode": "92627",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.648315,
-        "lng": -117.93205
-      }
-    },
-    "contact": {
-      "phone": "(949) 548-0744",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "HELPING HANDS ADULT DAY CARE PROGRAM",
-    "streetName": "HELPING HANDS ADULT DAY CARE PROGRAM",
-    "ccldLicenseNumber": "306004529",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3330 E Miraloma Ave",
-      "city": "Anaheim",
-      "state": "CA",
-      "zipCode": "92806",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.86035,
-        "lng": -117.85078
-      }
-    },
-    "contact": {
-      "phone": "(714) 678-1794",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VOCATIONAL INNOVATIONS - ANAHEIM",
-    "streetName": "VOCATIONAL INNOVATIONS - ANAHEIM",
-    "ccldLicenseNumber": "306004534",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2557 Woodland Drive  W.",
-      "city": "Anaheim",
-      "state": "CA",
-      "zipCode": "92801",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.849346,
-        "lng": -117.97473
-      }
-    },
-    "contact": {
-      "phone": "(714) 527-4888",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CARE MERIDIAN",
-    "streetName": "CARE MERIDIAN",
-    "ccldLicenseNumber": "306004785",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "7732 Santiago Canyon Road",
-      "city": "Orange",
-      "state": "CA",
-      "zipCode": "92869",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.81333,
-        "lng": -117.77205
-      }
-    },
-    "contact": {
-      "phone": "(714) 771-5276",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 20,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VOCATIONAL VISIONS",
-    "streetName": "VOCATIONAL VISIONS",
-    "ccldLicenseNumber": "306005250",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "26041 Pala",
-      "city": "Mission Viejo",
-      "state": "CA",
-      "zipCode": "92691",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.619743,
-        "lng": -117.67741
-      }
-    },
-    "contact": {
-      "phone": "(949) 837-7280",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ALTERNATIVE RESOURCE DAY PROGRAM",
-    "streetName": "ALTERNATIVE RESOURCE DAY PROGRAM",
-    "ccldLicenseNumber": "306005285",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "7165 Katella Ave",
-      "city": "Stanton",
-      "state": "CA",
-      "zipCode": "90680",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.80294,
-        "lng": -118.009834
-      }
-    },
-    "contact": {
-      "phone": "(714) 488-2493",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 76,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MY DAY COUNTS - TRAINING ACTIVITY PROGR",
-    "streetName": "MY DAY COUNTS - TRAINING ACTIVITY PROGR",
-    "ccldLicenseNumber": "306005466",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "227 W. Carl Karcher Way",
-      "city": "Anaheim",
-      "state": "CA",
-      "zipCode": "92801",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.850826,
-        "lng": -117.92284
-      }
-    },
-    "contact": {
-      "phone": "(714) 744-5301",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 200,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "BARN LIFE",
-    "streetName": "BARN LIFE",
-    "ccldLicenseNumber": "306005512",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "126 E 16th St",
-      "city": "Costa Mesa",
-      "state": "CA",
-      "zipCode": "92627",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.6337,
-        "lng": -117.92305
-      }
-    },
-    "contact": {
-      "phone": "(714) 357-9988",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "EASTERSEALS SENIOR DAY CARE",
-    "streetName": "EASTERSEALS SENIOR DAY CARE",
-    "ccldLicenseNumber": "306005774",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3100 E Birch St",
-      "city": "Brea",
-      "state": "CA",
-      "zipCode": "92821",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.918335,
-        "lng": -117.85272
-      }
-    },
-    "contact": {
-      "phone": "(714) 672-0343",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "NO LIMITS LEARNING CENTER",
-    "streetName": "NO LIMITS LEARNING CENTER",
-    "ccldLicenseNumber": "306005816",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "925 W. Lambert Rd. Unit C",
-      "city": "Brea",
-      "state": "CA",
-      "zipCode": "92821",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.92465755,
-        "lng": -117.91238
-      }
-    },
-    "contact": {
-      "phone": "(714) 674-0368",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 150,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PACIFIC SOLSTICE INTEGRATIVE CLINIC",
-    "streetName": "PACIFIC SOLSTICE INTEGRATIVE CLINIC",
-    "ccldLicenseNumber": "306005875",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "26732 Crown Valley Pkwy #44",
-      "city": "Mission Viejo",
-      "state": "CA",
-      "zipCode": "92691",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.56354747,
-        "lng": -117.6652505
-      }
-    },
-    "contact": {
-      "phone": "(949) 402-9520",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "REIMAGINE NETWORK",
-    "streetName": "REIMAGINE NETWORK",
-    "ccldLicenseNumber": "306005964",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1601 East Saint Andrew Plac",
-      "city": "Santa Ana",
-      "state": "CA",
-      "zipCode": "92705",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.72291666,
-        "lng": -117.8481685
-      }
-    },
-    "contact": {
-      "phone": "(714) 633-7400",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "EASTERSEALS ADULT DAY SERVICES",
-    "streetName": "EASTERSEALS ADULT DAY SERVICES",
-    "ccldLicenseNumber": "306006002",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1570 E 17th Street",
-      "city": "Santa Ana",
-      "state": "CA",
-      "zipCode": "92705",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.75988899,
-        "lng": -117.846198
-      }
-    },
-    "contact": {
-      "phone": "(714) 672-0870",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DREAMS OF AMERICA",
-    "streetName": "DREAMS OF AMERICA",
-    "ccldLicenseNumber": "306006099",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "14 Goodyear Suite 110",
-      "city": "Irvine",
-      "state": "CA",
-      "zipCode": "92618",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.649764,
-        "lng": -117.710042
-      }
-    },
-    "contact": {
-      "phone": "(949) 500-7067",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 140,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DREAMS OF AMERICA",
-    "streetName": "DREAMS OF AMERICA",
-    "ccldLicenseNumber": "306006213",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "18 Goodyear Ste 115",
-      "city": "Irvine",
-      "state": "CA",
-      "zipCode": "92618",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.650515,
-        "lng": -117.709382
-      }
-    },
-    "contact": {
-      "phone": "(949) 398-7067",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 140,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SENIOR SOCIAL CLUB OF MISSION VIEJO",
-    "streetName": "SENIOR SOCIAL CLUB OF MISSION VIEJO",
-    "ccldLicenseNumber": "306006298",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "24041 Marguerite Pkwy",
-      "city": "Mission Viejo",
-      "state": "CA",
-      "zipCode": "92692",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.614196,
-        "lng": -117.654309
-      }
-    },
-    "contact": {
-      "phone": "(858) 722-9583",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VOCATIONAL INNOVATIONS GARDEN GROVE",
-    "streetName": "VOCATIONAL INNOVATIONS GARDEN GROVE",
-    "ccldLicenseNumber": "306006361",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9776 Katella",
-      "city": "Anaheim",
-      "state": "CA",
-      "zipCode": "92804",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.80320496,
-        "lng": -117.9481186
-      }
-    },
-    "contact": {
-      "phone": "(714) 771-8300",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DREAMS OF AMERICA",
-    "streetName": "DREAMS OF AMERICA",
-    "ccldLicenseNumber": "306006398",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8929 Irvine Center Dr.",
-      "city": "Irvine",
-      "state": "CA",
-      "zipCode": "92618",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.66262692,
-        "lng": -117.7544824
-      }
-    },
-    "contact": {
-      "phone": "(949) 398-7698",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 70,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DISCOVERY DAY PROGRAM LLC",
-    "streetName": "DISCOVERY DAY PROGRAM LLC",
-    "ccldLicenseNumber": "306006399",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8900 Knott Ave.",
-      "city": "Buena Park",
-      "state": "CA",
-      "zipCode": "90620",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.82087907,
-        "lng": -118.0108173
-      }
-    },
-    "contact": {
-      "phone": "(714) 952-9349",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT ENRICHMENT CENTER - ANAHEIM",
-    "streetName": "ADULT ENRICHMENT CENTER - ANAHEIM",
-    "ccldLicenseNumber": "306006457",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1901 E Center St.",
-      "city": "Anaheim",
-      "state": "CA",
-      "zipCode": "92805",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.84073595,
-        "lng": -117.8912696
-      }
-    },
-    "contact": {
-      "phone": "(714) 576-2688",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT ENRICHMENT CENTER",
-    "streetName": "ADULT ENRICHMENT CENTER",
-    "ccldLicenseNumber": "306006458",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1813 E Dyer Rd. #411",
-      "city": "Santa Ana",
-      "state": "CA",
-      "zipCode": "92705",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.710283,
-        "lng": -117.84699
-      }
-    },
-    "contact": {
-      "phone": "(714) 576-2688",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 121,
       "decryptedProgramType": "Adult Day Program",
       "programFocus": "",
       "minimumAge": 18,
@@ -1457,100 +94,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "OC BRIDGES II  LLC",
-    "streetName": "OC BRIDGES II  LLC",
-    "ccldLicenseNumber": "306006634",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "23265 S Pointe Dr",
-      "city": "Laguna Hills",
-      "state": "CA",
-      "zipCode": "92653",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.62552435,
-        "lng": -117.7238939
-      }
-    },
-    "contact": {
-      "phone": "(949) 234-8250",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VOICE BUENA PARK",
-    "streetName": "VOICE BUENA PARK",
-    "ccldLicenseNumber": "306006734",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6575 Crescent Ave",
-      "city": "Buena Park",
-      "state": "CA",
-      "zipCode": "90620",
-      "county": "Orange",
-      "coordinates": {
-        "lat": 33.83934817,
-        "lng": -118.018351
-      }
-    },
-    "contact": {
-      "phone": "(714) 886-2036",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "SOMANG SOCIETY ADSP",
     "streetName": "SOMANG SOCIETY ADSP",
     "ccldLicenseNumber": "306006877",
@@ -1594,6 +137,2073 @@
       "parentReviews": []
     },
     "completenessScore": 0,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BUENA PARK SENIOR DAY CARE CENTER",
+    "streetName": "BUENA PARK SENIOR DAY CARE CENTER",
+    "ccldLicenseNumber": "300605516",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8150 Knott Avenue",
+      "city": "Buena Park",
+      "state": "CA",
+      "zipCode": "90620",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.84493,
+        "lng": -118.01099
+      }
+    },
+    "contact": {
+      "phone": "(714) 826-3163",
+      "websiteUrl": "https://www.buenapark.com/city_departments/community_services/seniors___adults_50_plus/index.php"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program aims to enhance functionality and independence, prevent premature institutionalization, and provide caregiver respite through structured daytime activities, supervision, and support services for adults who need assistance during the day.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Physical Activity",
+        "Socialization",
+        "Field Trips"
+      ],
+      "parentOrganization": "City of Buena Park",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Seniors"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Anaheim, Buena Park, Cypress, Fullerton, La Palma, Stanton",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Buena Park Senior Day Care Center serves adults 60+ with minor mental or physical impairments.",
+        "It offers diverse programs, including social activities, health screenings, and caregiver respite.",
+        "This is a licensed adult day program with a capacity of 10 participants."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LEARNING LIGHT FOUNDATION ADULT DEVEL.",
+    "streetName": "The Learning Light Foundation Adult Devel. Program",
+    "ccldLicenseNumber": "300605585",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1212 E. Lincoln Avenue",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92805",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.838398,
+        "lng": -117.90126
+      }
+    },
+    "contact": {
+      "phone": "(714) 533-2311",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides structured daytime activities, supervision, and support services for adults with developmental disabilities, aiming to promote their education to their highest potential. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, medication management, and in some cases, physical therapy, occupational therapy, and nursing services.",
+      "minimumAge": 18,
+      "yearEstablished": 1969,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Programming",
+        "Social and Recreational Programming",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "The Learning Light Foundation Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Learning Light Foundation Adult Devel. Program is a licensed adult day program in Anaheim, CA, with a capacity of 40.",
+        "Established in 1964, it serves adults with physical and/or emotional handicaps, promoting their highest potential.",
+        "The program offers structured daytime activities, health monitoring, and therapeutic programming."
+      ]
+    },
+    "completenessScore": 89,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MT OF OLIVES ADULT DAY CARE CENTER",
+    "streetName": "Mount of Olives Adult Day Program",
+    "ccldLicenseNumber": "306000147",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "24772 Chrisanta Drive",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "zipCode": "92691",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.60376,
+        "lng": -117.67352
+      }
+    },
+    "contact": {
+      "phone": "(949) 581-3800",
+      "websiteUrl": "https://www.moochurch.org/adult-day-program"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Adult Day Program is a social care-model day care program for seniors with early-stage dementia, Alzheimer's, Parkinson's, and other forms of mild cognitive impairment, aiming to keep participants performing daily activities independently and engaging at the highest social level possible.",
+      "minimumAge": 18,
+      "yearEstablished": 1987,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Pet Therapy",
+        "Horticulture Therapy",
+        "Intergenerational Therapy",
+        "Exercise"
+      ],
+      "parentOrganization": "Mount of Olives Church",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Early-stage dementia",
+        "Alzheimer's disease",
+        "Parkinson's disease",
+        "Mild cognitive impairment"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Mount of Olives Adult Day Program offers a social/spiritual care model for seniors with early-stage dementia and cognitive impairment.",
+        "The program has served the Mission Viejo and South Orange County community for over 30 years.",
+        "They host a Dementia Caregiver Education Series in collaboration with Alzheimer's Orange County."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HIGH HOPES HEAD INJURY PROGRAM",
+    "streetName": "High Hopes Head Injury Program",
+    "ccldLicenseNumber": "306000959",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2953 & 2961 Edinger Ave.",
+      "city": "Tustin",
+      "state": "CA",
+      "zipCode": "92780",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.70790601,
+        "lng": -117.807172
+      }
+    },
+    "contact": {
+      "phone": "(949) 733-0044",
+      "websiteUrl": "https://highhopes.ws/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "High Hopes is a non-profit organization dedicated to providing comprehensive rehabilitation services for individuals who have endured traumatic brain injuries, strokes, and multiple sclerosis, aiming for maximum independence within the community.",
+      "minimumAge": 18,
+      "yearEstablished": 1975,
+      "languagesSupported": [
+        "Arabic",
+        "Chinese (Simplified)",
+        "English",
+        "French",
+        "German",
+        "Italian",
+        "Japanese",
+        "Korean",
+        "Persian",
+        "Portuguese",
+        "Russian",
+        "Spanish",
+        "Vietnamese"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "selfDeterminationAccepted": "Yes"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "High Hopes Head Injury Program, established in 1975, specializes in rehabilitation for brain injuries, strokes, and MS.",
+        "This Tustin-based non-profit offers comprehensive cognitive, physical, and vocational therapies.",
+        "It is a State of California licensed adult day program with a capacity of 120 individuals."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REAL CHALLENGES  INC.",
+    "streetName": "REAL CHALLENGES INC.",
+    "ccldLicenseNumber": "306001198",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3584 Enterprise",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92807",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.859997,
+        "lng": -117.84073
+      }
+    },
+    "contact": {
+      "phone": "(714) 238-9215",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 71,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Provides adult day care services, including social activities and meals.",
+      "minimumAge": 18,
+      "yearEstablished": 2000,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Real Challenges Inc. trains consumers in mass production, crafts, education, and recreation.",
+        "It operates as an adult day care center offering social activities, meals, and supervision."
+      ]
+    },
+    "completenessScore": 46,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EMPOWER COMMUNITY DAY PROGRAM",
+    "streetName": "EMPOWER COMMUNITY DAY PROGRAM",
+    "ccldLicenseNumber": "306001666",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8381 Katella Ave. Ste C D",
+      "city": "Stanton",
+      "state": "CA",
+      "zipCode": "90680",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.80298,
+        "lng": -117.98582
+      }
+    },
+    "contact": {
+      "phone": "(714) 229-0262",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 72,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides structured daytime activities, supervision, and support services for adults with developmental disabilities. It aims to offer professional care, socialization, and enrichment opportunities in a community-based group setting, promoting a high quality of life for participants and their families.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Socialization",
+        "Recreational Activities",
+        "Therapeutic Activities",
+        "Health Monitoring",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Serves adults with disabilities, dementia, or those recovering from illness, offering daytime supervision.",
+        "Provides structured daytime activities, health monitoring, meals, and therapeutic programming."
+      ]
+    },
+    "completenessScore": 81,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOCATIONAL VISIONS",
+    "streetName": "VOCATIONAL VISIONS",
+    "ccldLicenseNumber": "306001736",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "23612 Alambre",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "zipCode": "92691",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.62003,
+        "lng": -117.67678
+      }
+    },
+    "contact": {
+      "phone": "(949) 837-7280",
+      "websiteUrl": "https://www.vocationalvisions.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 160,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Vocational Visions enhances the community by developing the talents of adults with intellectual/developmental disabilities, creating pathways to employment, life-long learning, and social inclusion.",
+      "minimumAge": 18,
+      "yearEstablished": 1974,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Community Integration"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Vocational Visions provides vocational and life skills training to adults with intellectual/developmental disabilities.",
+        "Established in 1974, it offers diverse programs and promotes community integration for adults with disabilities.",
+        "The 501(c)(3) nonprofit is partially funded by Regional Center of Orange County and CA Dept. of Rehabilitation."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOCATIONAL INNOVATIONS - ORANGE",
+    "streetName": "VOCATIONAL INNOVATIONS - ORANGE",
+    "ccldLicenseNumber": "306004005",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1524 E. Mayfair Avenue",
+      "city": "Orange",
+      "state": "CA",
+      "zipCode": "92867",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.799095,
+        "lng": -117.83764
+      }
+    },
+    "contact": {
+      "phone": "(714) 771-8300",
+      "websiteUrl": "https://www.vocationalinnovations.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Vocational Innovations is a site-based behavior management day program dedicated to enhancing the lives of adults with developmental disabilities by delivering personalized support, fostering growth, and ensuring full access to community opportunities. The program offers enriching community outings and on-site activities designed to promote personal growth and social engagement.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Behavior Management",
+        "Community Integration",
+        "Paid Employment",
+        "Self-Advocacy"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Orange County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Vocational Innovations Orange supports adults with developmental disabilities through behavior management and skill-building.",
+        "The program offers community outings, on-site activities, and vocational services, operating M-F, 8 AM-2 PM."
+      ]
+    },
+    "completenessScore": 91,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PROGRESSIVE COMMUNITY & VOCATIONAL SERV",
+    "streetName": "Progressive Community and Vocational Services, LLC",
+    "ccldLicenseNumber": "306004361",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2034 Placentia Avenue",
+      "city": "Costa Mesa",
+      "state": "CA",
+      "zipCode": "92627",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.648315,
+        "lng": -117.93205
+      }
+    },
+    "contact": {
+      "phone": "(949) 548-0744",
+      "websiteUrl": "https://www.pcvservices.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "PC&VS serves adults who wish to be fully employed, partially employed, or remain active in their communities. The program focuses on empowerment, self-advocacy, and community integration, striving to increase opportunities and develop positive self-concepts for individuals with varying disabilities.",
+      "minimumAge": 18,
+      "yearEstablished": 2012,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Community Integration",
+        "Cultural Activities",
+        "Life Skills Training",
+        "Social Skills Development",
+        "Language Development",
+        "Behavioral Support"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Progressive Community and Vocational Services supports adults with developmental disabilities.",
+        "The program focuses on empowerment, self-advocacy, and community integration.",
+        "It offers day training and behavior support for adults aged 18 and older."
+      ]
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "HELPING HANDS ADULT DAY CARE PROGRAM",
+    "streetName": "HELPING HANDS ADULT DAY CARE PROGRAM",
+    "ccldLicenseNumber": "306004529",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3330 E Miraloma Ave",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92806",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.86035,
+        "lng": -117.85078
+      }
+    },
+    "contact": {
+      "phone": "(714) 678-1794",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Helping Hands Adult Day Care provides a safe and secure care and learning environment for developmentally disabled participants who require additional care and basic skills to help them adjust and function successfully at home and in the community. The program focuses on teaching participants how to be productive, physically active, socially engaging, and exploring pre-vocational and vocational opportunities.",
+      "minimumAge": 18,
+      "yearEstablished": 2013,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Socialization",
+        "Vocational Training"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Helping Hands Adult Day Care is a 501(c)(3) nonprofit in Anaheim, established in 2013.",
+        "It supports developmentally disabled adults with daily care, socialization, and pre-vocational training."
+      ]
+    },
+    "completenessScore": 68,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOCATIONAL INNOVATIONS - ANAHEIM",
+    "streetName": "VOCATIONAL INNOVATIONS - ANAHEIM",
+    "ccldLicenseNumber": "306004534",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2557 Woodland Drive  W.",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92801",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.849346,
+        "lng": -117.97473
+      }
+    },
+    "contact": {
+      "phone": "(714) 527-4888",
+      "websiteUrl": "https://www.vocinnovations.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Vocational Innovations of Anaheim is a site-based day program for adults with developmental disabilities who display challenging maladaptive behaviors. The program provides individualized support plans using Applied Behavior Analysis techniques to increase pro-social behaviors and decrease maladaptive behaviors, promoting independence through self-empowerment, pre-vocational/vocational skills, and community integration.",
+      "minimumAge": 18,
+      "yearEstablished": 2013,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "ADL Assistance",
+        "Self-Advocacy",
+        "Behavior Management",
+        "Community Integration",
+        "Paid Employment",
+        "Social and Recreational Programming"
+      ],
+      "parentOrganization": "Vocational Innovations",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00 AM–2:00 PM",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Orange and Los Angeles Counties",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Vocational Innovations - Anaheim supports adults with developmental disabilities and challenging behaviors.",
+        "The program offers behavior management, skill-building, community integration, and employment support.",
+        "It is funded by the Regional Center of Orange County and adheres to Title 17 and 22 regulations."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CARE MERIDIAN",
+    "streetName": "CARE MERIDIAN",
+    "ccldLicenseNumber": "306004785",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7732 Santiago Canyon Road",
+      "city": "Orange",
+      "state": "CA",
+      "zipCode": "92869",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.81333,
+        "lng": -117.77205
+      }
+    },
+    "contact": {
+      "phone": "(714) 771-5276",
+      "websiteUrl": "https://caremeridian.com/locations/california/orange-county/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 20,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "parentOrganization": "NeuroRestorative (part of Sevita)",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Care Meridian in Orange, CA, offers an adult day program specializing in brain, spinal cord, and neurological injury rehabilitation.",
+        "The program has been CARF accredited since 1992, demonstrating a commitment to quality health and human services.",
+        "It holds California CCLD license 306004785 for Adult Day Care services."
+      ]
+    },
+    "completenessScore": 48,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOCATIONAL VISIONS",
+    "streetName": "VOCATIONAL VISIONS",
+    "ccldLicenseNumber": "306005250",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "26041 Pala",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "zipCode": "92691",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.619743,
+        "lng": -117.67741
+      }
+    },
+    "contact": {
+      "phone": "(949) 837-7280",
+      "websiteUrl": "https://www.vocationalvisions.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Vocational Visions enhances the community by developing the talents of adults with intellectual/developmental disabilities. They create pathways to employment, life-long learning, and social inclusion.",
+      "minimumAge": 18,
+      "yearEstablished": 1975,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Vocational Visions empowers adults with intellectual/developmental disabilities through vocational and life skills training.",
+        "Established in 1974, this 501(c)(3) non-profit holds a GuideStar Platinum rating and serves over 400 individuals.",
+        "Programs include Supported Employment, Medical Day Services, and community-based Adult Development."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ALTERNATIVE RESOURCE DAY PROGRAM",
+    "streetName": "Alternative Resource Day Program",
+    "ccldLicenseNumber": "306005285",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7165 Katella Ave",
+      "city": "Stanton",
+      "state": "CA",
+      "zipCode": "90680",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.80294,
+        "lng": -118.009834
+      }
+    },
+    "contact": {
+      "phone": "(714) 488-2493",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 76,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Alternative Resource Day Program provides structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Programming",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Alternative Resource Day Program in Stanton, CA, serves adults with dementia, disabilities, or those recovering from illness.",
+        "It is a licensed adult day program with a capacity of 76, licensed by the California Department of Social Services.",
+        "The program offers structured activities, health monitoring, meals, and therapeutic programming."
+      ]
+    },
+    "completenessScore": 73,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MY DAY COUNTS - TRAINING ACTIVITY PROGR",
+    "streetName": "My Day Counts",
+    "ccldLicenseNumber": "306005466",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "227 W. Carl Karcher Way",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92801",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.850826,
+        "lng": -117.92284
+      }
+    },
+    "contact": {
+      "phone": "(714) 744-5301",
+      "websiteUrl": "https://mydaycounts.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 200,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "My Day Counts is a non-profit organization that supports individuals with intellectual and other developmental disabilities by providing vocational training, job placement, community integration, life skills training, and educational support to empower them for success in life and work.",
+      "minimumAge": 18,
+      "yearEstablished": 1951,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Educational Support"
+      ],
+      "parentOrganization": "Orange County Adult Achievement Center",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "For program participants within their service area (Orange County)",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "My Day Counts, established in 1951, supports adults with intellectual and developmental disabilities.",
+        "They offer programs like life skills training, community employment, and independent living support.",
+        "The program is accredited by CARF International for its employment services."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BARN LIFE",
+    "streetName": "Barn Life Recovery",
+    "ccldLicenseNumber": "306005512",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "126 E 16th St",
+      "city": "Costa Mesa",
+      "state": "CA",
+      "zipCode": "92627",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.6337,
+        "lng": -117.92305
+      }
+    },
+    "contact": {
+      "phone": "(714) 597-6850",
+      "websiteUrl": "https://barnliferecovery.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Barn Life Recovery offers mental health and substance abuse treatment programs, including Partial Hospitalization (PHP) and Intensive Outpatient (IOP), utilizing a holistic approach with evidence-based therapies and Eastern healing traditions.",
+      "minimumAge": 18,
+      "yearEstablished": 2018,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–5pm",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Barn Life Recovery is California's first licensed facility for mental illness and co-occurring disorders.",
+        "It offers a holistic approach, blending Eastern healing traditions with modern therapies.",
+        "The program hosts Orange County's only on-site NAMI Peer Support Group."
+      ]
+    },
+    "completenessScore": 92,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EASTERSEALS SENIOR DAY CARE",
+    "streetName": "Senior Day Services - Brea",
+    "ccldLicenseNumber": "306005774",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3100 E Birch St",
+      "city": "Brea",
+      "state": "CA",
+      "zipCode": "92821",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.918335,
+        "lng": -117.85272
+      }
+    },
+    "contact": {
+      "phone": "(714) 672-0343",
+      "websiteUrl": "https://www.easterseals.com/southerncal/our-programs/adult-services/senior-day-services-brea.html"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Easterseals Southern California's Senior Day Services in Brea provides a vibrant, engaging environment where seniors enjoy physical and mental stimulation, meaningful social connections, and wellness-focused activities that enrich daily life, offering support for individuals with memory loss or physical disabilities.",
+      "minimumAge": 18,
+      "maximumAge": 60,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Art projects",
+        "Exercise programs",
+        "Memory Sharing Groups",
+        "Pet therapy",
+        "Musical entertainers",
+        "Community outings",
+        "Socialization"
+      ],
+      "parentOrganization": "Easterseals Southern California",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Memory Loss",
+        "Physical Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Senior Day Services - Brea supports seniors 60+ with memory loss or physical disabilities.",
+        "The program fosters intergenerational connections with an on-site preschool.",
+        "It is a licensed adult day program in Brea, CA, with a capacity of 30 participants."
+      ]
+    },
+    "completenessScore": 89,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NO LIMITS LEARNING CENTER",
+    "streetName": "NO LIMITS LEARNING CENTER",
+    "ccldLicenseNumber": "306005816",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "925 W. Lambert Rd. Unit C",
+      "city": "Brea",
+      "state": "CA",
+      "zipCode": "92821",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.92465755,
+        "lng": -117.91238
+      }
+    },
+    "contact": {
+      "phone": "(714) 674-0368",
+      "websiteUrl": "https://www.nolimitslc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 150,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "No Limits Learning Center is a site-based program for adults with developmental disabilities focusing on continued education, responsibility, and integration into society, aiming to provide educational opportunities and promote a happy, healthy, and independent life for its participants.",
+      "minimumAge": 18,
+      "maximumAge": 59,
+      "yearEstablished": 2012,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Sensory Room",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "No Limits Learning Center serves adults 18+ with developmental disabilities, focusing on education and life skills.",
+        "This licensed Brea program offers year-round classes, health/fitness, and community outings.",
+        "Founded in 2015, it provides a 1:4 staff-to-student ratio and volunteer opportunities."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PACIFIC SOLSTICE INTEGRATIVE CLINIC",
+    "streetName": "Pacific Solstice Integrative Clinic",
+    "ccldLicenseNumber": "306005875",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "26732 Crown Valley Pkwy #44",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "zipCode": "92691",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.56354747,
+        "lng": -117.6652505
+      }
+    },
+    "contact": {
+      "phone": "(949) 200-7929",
+      "websiteUrl": "https://www.pacificsolstice.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Solstice Pacific provides comprehensive, neuroscience-driven care designed to stabilize patients, restore hope, and build long-term independence. The organization offers multiple levels of care and treats a wide range of mental health and co-occurring conditions through a unified, family-centered model.",
+      "minimumAge": 18,
+      "yearEstablished": 2015,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "1-on-1 Counseling",
+        "Acceptance and Commitment Therapy (ACT)",
+        "Acupuncture",
+        "Art Therapy",
+        "Family Therapy",
+        "Dialectical Behavioral Therapy (DBT)",
+        "Cognitive Behavioral Therapy (CBT)"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Pacific Solstice offers an integrative neuroscience approach to mental health, treating underlying causes with family involvement.",
+        "It is a certified Community Mental Health Center, accredited by The Joint Commission and CA Dept. of Health."
+      ]
+    },
+    "completenessScore": 74,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REIMAGINE NETWORK",
+    "streetName": "Reimagine Network",
+    "ccldLicenseNumber": "306005964",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1601 East Saint Andrew Plac",
+      "city": "Santa Ana",
+      "state": "CA",
+      "zipCode": "92705",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.72291666,
+        "lng": -117.8481685
+      }
+    },
+    "contact": {
+      "phone": "(714) 633-7400",
+      "websiteUrl": "https://reimagineoc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Reimagine Network offers comprehensive programs for adults with developmental disabilities, focusing on lifelong growth, continued learning, and health and wellness. They provide campus and community-based learning experiences, including life skills, social skills, academic education, and vocational training, to foster greater independence and personal enrichment.",
+      "minimumAge": 18,
+      "yearEstablished": 1950,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Adapted Fitness Center",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Health and Wellness",
+        "Vocational Training",
+        "Community Integration"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Reimagine Network, established in 1950, provides comprehensive habilitative and rehabilitative services for individuals with disabilities.",
+        "Their Santa Ana campus features a state-of-the-art facility with a wheelchair-accessible gym, computer lab, and clinical services.",
+        "The program offers lifelong learning, workforce development, and health & wellness for adults and children with disabilities."
+      ]
+    },
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EASTERSEALS ADULT DAY SERVICES",
+    "streetName": "Adult Day Services | Santa Ana - 17th Street",
+    "ccldLicenseNumber": "306006002",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1570 E 17th Street",
+      "city": "Santa Ana",
+      "state": "CA",
+      "zipCode": "92705",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.75988899,
+        "lng": -117.846198
+      }
+    },
+    "contact": {
+      "phone": "(714) 672-0866",
+      "websiteUrl": "https://www.easterseals.com/southerncal/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "At Easterseals, our Adult Day Services are designed to enrich the lives of individuals with disabilities by offering hands-on experiences that promote personal growth, community involvement, and skill development. These services empower individuals with developmental, physical, cognitive, or multiple disabilities to take part in their communities, fostering independence and enhancing both social and daily living skills.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Community Engagement",
+        "Health Care",
+        "Personal Care",
+        "Community Safety Awareness",
+        "Use of Public Transportation",
+        "Money Management",
+        "Accessing Community Resources",
+        "Self-Advocacy",
+        "Social Skills",
+        "Health and Wellness",
+        "Access to Technology"
+      ],
+      "parentOrganization": "Easterseals Southern California",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Easterseals Santa Ana provides Adult Day Services for individuals 18+ to foster independence and community skills.",
+        "The program emphasizes personal growth, skill development, and community involvement for adults with disabilities."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DREAMS OF AMERICA",
+    "streetName": "Dreams of America",
+    "ccldLicenseNumber": "306006099",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "14 Goodyear Suite 110",
+      "city": "Irvine",
+      "state": "CA",
+      "zipCode": "92618",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.649764,
+        "lng": -117.710042
+      }
+    },
+    "contact": {
+      "phone": "(949) 398-7698",
+      "websiteUrl": "https://dreamsofamerica.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 140,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Dreams of America is an award-winning community day program that provides community-based activities, vocational training, life skills development, arts, recreation, and social engagement for adults with developmental disabilities, aiming to guide them toward employment and increased independence.",
+      "minimumAge": 18,
+      "yearEstablished": 2015,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Orange County",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Dreams of America, established 2015, is an award-winning Irvine adult day program for developmental disabilities.",
+        "It offers vocational training, life skills, and community activities with a 1:4 staff ratio.",
+        "The program is a proud vendor of the Regional Center of Orange County, covering tuition for clients."
+      ]
+    },
+    "completenessScore": 89,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DREAMS OF AMERICA",
+    "streetName": "Dreams of America",
+    "ccldLicenseNumber": "306006213",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "18 Goodyear Ste 115",
+      "city": "Irvine",
+      "state": "CA",
+      "zipCode": "92618",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.650515,
+        "lng": -117.709382
+      }
+    },
+    "contact": {
+      "phone": "(949) 398-7698",
+      "websiteUrl": "https://dreamsofamerica.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 140,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Dreams of America provides community-based activities, vocational training, life skills development, arts, recreation, and social engagement in a warm, inclusive environment. The program aims to guide participants toward employment by supporting their skill acquisition.",
+      "minimumAge": 18,
+      "yearEstablished": 2015,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Physical exercise and fitness",
+        "Safety awareness training",
+        "Field trips and community outings",
+        "Volunteer work"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Orange County",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Dreams of America is an award-winning Irvine program for adults with developmental disabilities, established in 2015.",
+        "The program focuses on vocational training, life skills, and community integration with a 1:4 staff ratio.",
+        "It is a Regional Center vendor, offering community-based activities and supporting employment goals."
+      ]
+    },
+    "completenessScore": 89,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SENIOR SOCIAL CLUB OF MISSION VIEJO",
+    "streetName": "SENIOR SOCIAL CLUB",
+    "ccldLicenseNumber": "306006298",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "24041 Marguerite Pkwy",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "zipCode": "92692",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.614196,
+        "lng": -117.654309
+      }
+    },
+    "contact": {
+      "phone": "(949) 229-1057",
+      "websiteUrl": "http://www.seniorsocialmv.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "SENIOR SOCIAL CLUB is a licensed community based adult day program that provides daily services to the elderly and adults. Our Programs are individualized for each participant based on their needs and plan of care.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Senior Social Club is a licensed adult day program for elderly and adults, offering individualized programs.",
+        "The program specializes in senior socialization, care, and growth within a community-based setting."
+      ]
+    },
+    "completenessScore": 61,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOCATIONAL INNOVATIONS GARDEN GROVE",
+    "streetName": "Vocational Innovations Garden Grove",
+    "ccldLicenseNumber": "306006361",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9776 Katella",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92804",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.80320496,
+        "lng": -117.9481186
+      }
+    },
+    "contact": {
+      "phone": "(949) 368-4220",
+      "websiteUrl": "https://vocationalinnovations.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Vocational Innovations is a site-based behavior management day program dedicated to enhancing the lives of adults with developmental disabilities, offering enriching community outings and on-site activities to promote personal growth and social engagement.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Social and Recreational Activities",
+        "Behavior Management",
+        "Self-Advocacy",
+        "Vocational Training/Employment Support"
+      ],
+      "parentOrganization": "Vocational Innovations",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Orange County and Los Angeles County",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Vocational Innovations Garden Grove is a licensed adult day program for adults with developmental disabilities.",
+        "It focuses on behavior management, skill-building, community engagement, and vocational growth.",
+        "The program operates Monday-Friday, 8 AM-2 PM, and provides transportation services."
+      ]
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DREAMS OF AMERICA",
+    "streetName": "DREAMS OF AMERICA",
+    "ccldLicenseNumber": "306006398",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8929 Irvine Center Dr.",
+      "city": "Irvine",
+      "state": "CA",
+      "zipCode": "92618",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.66262692,
+        "lng": -117.7544824
+      }
+    },
+    "contact": {
+      "phone": "(949) 398-7698",
+      "websiteUrl": "https://dreamsofamerica.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 70,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Dreams of America aims to create a supportive, educational environment that bridges the gap between school and home, fostering individual growth. The program focuses on inspiring participants to develop vital life skills, increase independence through volunteer work and instructive activities, and ultimately guide them towards employment.",
+      "minimumAge": 18,
+      "yearEstablished": 2015,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Classes",
+        "Life Skills Training",
+        "Volunteer Work",
+        "Physical Exercise",
+        "Community Outings",
+        "Mobility Training"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Orange County, Tustin, Newport Beach, Lake Forest, CA",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Dreams of America serves adults with developmental disabilities, focusing on life skills, vocational training, and community integration.",
+        "This award-winning program maintains a 1:4 staff ratio and offers free transportation via ACCESS/OCTA.",
+        "It is a Regional Center vendor, covering tuition for eligible clients under California's Lanterman Act."
+      ]
+    },
+    "completenessScore": 89,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DISCOVERY DAY PROGRAM LLC",
+    "streetName": "Discovery Day Program",
+    "ccldLicenseNumber": "306006399",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8900 Knott Ave.",
+      "city": "Buena Park",
+      "state": "CA",
+      "zipCode": "90620",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.82087907,
+        "lng": -118.0108173
+      }
+    },
+    "contact": {
+      "phone": "(714) 892-0754",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Discovery Day Program LLC provides structured daytime activities, supervision, and support services for adults with developmental disabilities. The program focuses on health monitoring, therapeutic and recreational programming, and daily living skills to enhance functionality and independence.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Functional Living Skills",
+        "Self-Care Skills",
+        "Sensory Stimulation",
+        "Music Therapy",
+        "Recreation",
+        "Socialization"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Discovery LLC is a licensed adult day program in Buena Park, CA.",
+        "It serves physically challenged adults over 18 with structured activities.",
+        "The program offers health monitoring, therapeutic activities, and meals."
+      ]
+    },
+    "completenessScore": 57,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT ENRICHMENT CENTER - ANAHEIM",
+    "streetName": "Adult Enrichment Center",
+    "ccldLicenseNumber": "306006457",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1901 E Center St.",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92805",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.84073595,
+        "lng": -117.8912696
+      }
+    },
+    "contact": {
+      "phone": "(714) 576-2688",
+      "websiteUrl": "https://www.auaec.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Adult Enrichment Center (AEC) is a forward-thinking adult day program focused on utilizing evidence-based practices, rooted in ABA, to support neuro-diverse populations in the community. Their model prioritizes creating person-centered, person-driven curriculums that empower individuals to realize their highest potential, focusing on life skills acquisition training, socialization therapies, pragmatic speech development, health and wellness, job preparedness, and integrated employment.",
+      "minimumAge": 18,
+      "yearEstablished": 2015,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Skills Training",
+        "Vocational Workshop"
+      ],
+      "daysOfOperation": "Monday–Saturday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Adult Enrichment Center supports neuro-diverse adults with person-centered programs rooted in ABA practices.",
+        "This licensed Anaheim adult day program has a 121-person capacity, offering life skills and therapeutic activities."
+      ]
+    },
+    "completenessScore": 86,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT ENRICHMENT CENTER",
+    "streetName": "Adult Enrichment Center",
+    "ccldLicenseNumber": "306006458",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1813 E Dyer Rd. #411",
+      "city": "Santa Ana",
+      "state": "CA",
+      "zipCode": "92705",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.710283,
+        "lng": -117.84699
+      }
+    },
+    "contact": {
+      "phone": "(714) 576-2688",
+      "websiteUrl": "https://www.auaec.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 121,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Adult Enrichment Center (AEC) is a forward-thinking adult day program focused on utilizing evidence-based practices, rooted in ABA, to support neuro-diverse populations in the community. Their model prioritizes creating person-centered, person-driven curriculums that empower individuals to realize their highest potential.",
+      "minimumAge": 18,
+      "yearEstablished": 2015,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Socialization Therapies",
+        "Pragmatic Speech Development",
+        "Health and Wellness",
+        "Job Preparedness",
+        "Integrated Employment",
+        "Social Skills Training",
+        "Community Safety Awareness"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–4:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Adult Enrichment Center supports neuro-diverse adults with person-centered, ABA-rooted programs.",
+        "Curriculum includes life skills, socialization, job preparedness, and health/wellness training.",
+        "Founded in 2015, it partners with the Regional Center of Orange County."
+      ]
+    },
+    "completenessScore": 93,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OC BRIDGES II  LLC",
+    "streetName": "OC Bridges",
+    "ccldLicenseNumber": "306006634",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "23265 S Pointe Dr",
+      "city": "Laguna Hills",
+      "state": "CA",
+      "zipCode": "92653",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.62552435,
+        "lng": -117.7238939
+      }
+    },
+    "contact": {
+      "phone": "(949) 234-8250",
+      "websiteUrl": "https://www.ocbridges.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "OC Bridges is an individualized Adult Day Program focused on providing support, training, and vocational opportunities for adults with developmental disabilities. The program aims to help each member become an active member within their community and to ultimately live a life of purpose.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Vocational Training"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Orange County (concentrated from Irvine to San Clemente)",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "OC Bridges supports adults with developmental disabilities through vocational training, self-help skills, and community integration.",
+        "The program is 100% funded by the OC Regional Center and maintains a 1:2 staff-to-student ratio.",
+        "Licensed by California CCLD (306006634), it fosters community involvement via partnerships like a sewing program."
+      ]
+    },
+    "completenessScore": 86,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOICE BUENA PARK",
+    "streetName": "VOICE BUENA PARK",
+    "ccldLicenseNumber": "306006734",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6575 Crescent Ave",
+      "city": "Buena Park",
+      "state": "CA",
+      "zipCode": "90620",
+      "county": "Orange County",
+      "coordinates": {
+        "lat": 33.83934817,
+        "lng": -118.018351
+      }
+    },
+    "contact": {
+      "phone": "(714) 886-2036",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 15,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }

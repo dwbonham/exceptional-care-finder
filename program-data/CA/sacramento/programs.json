@@ -1,851 +1,5 @@
 [
   {
-    "legalLicenseName": "ELK GROVE ADULT COMMUNITY TRAINING  INC",
-    "streetName": "ELK GROVE ADULT COMMUNITY TRAINING  INC",
-    "ccldLicenseNumber": "340300556",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8810 Elk Grove Blvd.",
-      "city": "Elk Grove",
-      "state": "CA",
-      "zipCode": "95624",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.408985,
-        "lng": -121.375595
-      }
-    },
-    "contact": {
-      "phone": "(916) 685-7666",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 160,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ACE-IT II",
-    "streetName": "ACE-IT II",
-    "ccldLicenseNumber": "340312462",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8089 Madison Ave  Suite 4",
-      "city": "Citrus Height",
-      "state": "CA",
-      "zipCode": "95610",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.664036,
-        "lng": -121.26339
-      }
-    },
-    "contact": {
-      "phone": "(916) 962-2766",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ST ANTHONY ADULT TRAINING PROGRAM 2",
-    "streetName": "ST ANTHONY ADULT TRAINING PROGRAM 2",
-    "ccldLicenseNumber": "342700116",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "7171 Bowling Drive Suite 40",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95823",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.496593,
-        "lng": -121.455475
-      }
-    },
-    "contact": {
-      "phone": "(916) 424-6306",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER - BMP",
-    "streetName": "CENTRAL VALLEY TRAINING CENTER - BMP",
-    "ccldLicenseNumber": "342700241",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "10370 Old Placerville Rd #1",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95827",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.567333,
-        "lng": -121.30707
-      }
-    },
-    "contact": {
-      "phone": "(916) 619-8441",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "A FAMILY AFFAIR CONNECTION",
-    "streetName": "A FAMILY AFFAIR CONNECTION",
-    "ccldLicenseNumber": "342700382",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3132 Auburn Blvd",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95821",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.634033,
-        "lng": -121.39103
-      }
-    },
-    "contact": {
-      "phone": "(916) 919-4590",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PATHWAY TO CHOICES SAC BMP",
-    "streetName": "PATHWAY TO CHOICES SAC BMP",
-    "ccldLicenseNumber": "342700394",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "7723 Old Auburn Rd",
-      "city": "Citrus Height",
-      "state": "CA",
-      "zipCode": "95610",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.6997,
-        "lng": -121.27995
-      }
-    },
-    "contact": {
-      "phone": "(916) 735-5968",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PATHWAY TO CHOICES SAC ADP",
-    "streetName": "PATHWAY TO CHOICES SAC ADP",
-    "ccldLicenseNumber": "342700442",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2420 Butano Dr",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95825",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.608646,
-        "lng": -121.37867
-      }
-    },
-    "contact": {
-      "phone": "(916) 285-5324",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CITY OF SACRAMENTO-TRIPLE-R ADULT DAY-S",
-    "streetName": "CITY OF SACRAMENTO-TRIPLE-R ADULT DAY-S",
-    "ccldLicenseNumber": "342700576",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "5962 S Land Park Dr",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95822",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.519554,
-        "lng": -121.512314
-      }
-    },
-    "contact": {
-      "phone": "(916) 808-1591",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "EXCEL  PROGRAM OF NORCAL SERVICES FOR D",
-    "streetName": "EXCEL  PROGRAM OF NORCAL SERVICES FOR D",
-    "ccldLicenseNumber": "342700657",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4044 N. Freeway Blvd",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95834",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.63876,
-        "lng": -121.49598
-      }
-    },
-    "contact": {
-      "phone": "(916) 349-7500",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 24,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "GARDENS AT LAGUNA SPRINGS MEMORY CARE A",
-    "streetName": "GARDENS AT LAGUNA SPRINGS MEMORY CARE A",
-    "ccldLicenseNumber": "342700881",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9750 Laguna Springs Drive",
-      "city": "Elk Grove",
-      "state": "CA",
-      "zipCode": "95757",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.40316118,
-        "lng": -121.3955939
-      }
-    },
-    "contact": {
-      "phone": "(916) 209-0735",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 15,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "NEW HOPE DAY PROGRAM",
-    "streetName": "NEW HOPE DAY PROGRAM",
-    "ccldLicenseNumber": "342701331",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9701 Dino Dr Suite 170",
-      "city": "Elk Grove",
-      "state": "CA",
-      "zipCode": "95624",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.40150141,
-        "lng": -121.356819
-      }
-    },
-    "contact": {
-      "phone": "(916) 230-4087",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNIQUE ABILITIES MONTESSORI ADULT DAY P",
-    "streetName": "UNIQUE ABILITIES MONTESSORI ADULT DAY P",
-    "ccldLicenseNumber": "342701358",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2400 22nd Street",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95818",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.54411688,
-        "lng": -121.4898215
-      }
-    },
-    "contact": {
-      "phone": "(916) 498-9700",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UCP ODYSSEY",
-    "streetName": "UCP ODYSSEY",
-    "ccldLicenseNumber": "342701373",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3164 Gold Camp Dr Ste 250",
-      "city": "Rancho Cordov",
-      "state": "CA",
-      "zipCode": "95670",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.59264796,
-        "lng": -121.2727782
-      }
-    },
-    "contact": {
-      "phone": "(916) 565-7700",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "REACH ADULT DEVELOPMENT INC.",
-    "streetName": "REACH ADULT DEVELOPMENT INC.",
-    "ccldLicenseNumber": "342701459",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2489 Sunrise Blvd.",
-      "city": "Gold River",
-      "state": "CA",
-      "zipCode": "95670",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.623086,
-        "lng": -121.266531
-      }
-    },
-    "contact": {
-      "phone": "(916) 212-6476",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DISCOVERING OPTIONS",
-    "streetName": "DISCOVERING OPTIONS",
-    "ccldLicenseNumber": "342701467",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "191 Lathrop Way Ste. D",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95815",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.59478772,
-        "lng": -121.4624159
-      }
-    },
-    "contact": {
-      "phone": "(916) 806-1175",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "EMPOWER ACADEMY",
-    "streetName": "EMPOWER ACADEMY",
-    "ccldLicenseNumber": "342701503",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4667 Mack Rd",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95823",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.475342,
-        "lng": -121.4475075
-      }
-    },
-    "contact": {
-      "phone": "(916) 835-2933",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "A FAMILY AFFAIR BRIDGES INC",
-    "streetName": "A FAMILY AFFAIR BRIDGES INC",
-    "ccldLicenseNumber": "342701521",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "7395 Greenhaven Drive",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95831",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.491542,
-        "lng": -121.519098
-      }
-    },
-    "contact": {
-      "phone": "(916) 919-4590",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "AIM HIGHER INC.",
-    "streetName": "AIM HIGHER INC.",
-    "ccldLicenseNumber": "342701595",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3470 Fulton Ave",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95821",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.62886458,
-        "lng": -121.4013604
-      }
-    },
-    "contact": {
-      "phone": "(916) 599-5200",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "PAGE DAY PROGRAM",
     "streetName": "PAGE DAY PROGRAM",
     "ccldLicenseNumber": "342701782",
@@ -864,617 +18,6 @@
     },
     "contact": {
       "phone": "(916) 582-2553",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COMPREHENSIVE SKILLS TRAINING CENTER  L",
-    "streetName": "COMPREHENSIVE SKILLS TRAINING CENTER  L",
-    "ccldLicenseNumber": "342790074",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6520 44th Street  Ste. 306",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95823",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.50738,
-        "lng": -121.455414
-      }
-    },
-    "contact": {
-      "phone": "(916) 308-3578",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 50,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PRIDE INDUSTRIES",
-    "streetName": "PRIDE INDUSTRIES",
-    "ccldLicenseNumber": "345002789",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1174 National Drive #30",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95834",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.644399,
-        "lng": -121.487576
-      }
-    },
-    "contact": {
-      "phone": "(916) 334-5420",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ODYSSEY LIFE CENTER",
-    "streetName": "ODYSSEY LIFE CENTER",
-    "ccldLicenseNumber": "345002804",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "283 Iron Point Rd Unit A",
-      "city": "Folsom",
-      "state": "CA",
-      "zipCode": "95630",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.64210635,
-        "lng": -121.1885986
-      }
-    },
-    "contact": {
-      "phone": "(916) 988-0260",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "RCCA COMMUNITY ACCESS PROGRAM",
-    "streetName": "RCCA COMMUNITY ACCESS PROGRAM",
-    "ccldLicenseNumber": "345002915",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "4980 Watt Avenue Suite C/D",
-      "city": "North Highlan",
-      "state": "CA",
-      "zipCode": "95660",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.656881,
-        "lng": -121.3823295
-      }
-    },
-    "contact": {
-      "phone": "(530) 933-1590",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 43,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS FOLSOM INCLUSION CENTER",
-    "streetName": "SVS FOLSOM INCLUSION CENTER",
-    "ccldLicenseNumber": "345920298",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "771 Oak Ave Parkway Suite 1",
-      "city": "Folsom",
-      "state": "CA",
-      "zipCode": "95630",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.66578205,
-        "lng": -121.135658
-      }
-    },
-    "contact": {
-      "phone": "(916) 603-2126",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DAYCATION FOR SENIORS FAIR OAKS",
-    "streetName": "DAYCATION FOR SENIORS FAIR OAKS",
-    "ccldLicenseNumber": "345920362",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9807 Fair Oaks Blvd",
-      "city": "Fair Oaks",
-      "state": "CA",
-      "zipCode": "95628",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.63936413,
-        "lng": -121.2757074
-      }
-    },
-    "contact": {
-      "phone": "(916) 534-8799",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "TRIPLE \"\"\"\"R\"\"\"\" ADULT DAY PROGRAM",
-    "streetName": "TRIPLE \"\"\"\"R\"\"\"\" ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "347000576",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "915 27th Street",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95816",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.575176,
-        "lng": -121.47012
-      }
-    },
-    "contact": {
-      "phone": "(916) 264-5462",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 35,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ELK GROVE ADULT COMMUNITY TRAINING INC.",
-    "streetName": "ELK GROVE ADULT COMMUNITY TRAINING INC.",
-    "ccldLicenseNumber": "347001442",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "9510 Elk Grove Florin Rd. #",
-      "city": "Elk Grove",
-      "state": "CA",
-      "zipCode": "95624",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.413383,
-        "lng": -121.37157
-      }
-    },
-    "contact": {
-      "phone": "(916) 685-7666",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ELK GROVE ADULT COMMUNITY TRAINING/GALT",
-    "streetName": "ELK GROVE ADULT COMMUNITY TRAINING/GALT",
-    "ccldLicenseNumber": "347001851",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1067 C Street  Suite 116",
-      "city": "Galt",
-      "state": "CA",
-      "zipCode": "95632",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.253147,
-        "lng": -121.29646
-      }
-    },
-    "contact": {
-      "phone": "(916) 685-7666",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 61,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "REESE ALAN WILSON CENTER  INC. II",
-    "streetName": "REESE ALAN WILSON CENTER  INC. II",
-    "ccldLicenseNumber": "347001994",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3340 Marysville Blvd.",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95838",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.629284,
-        "lng": -121.43157
-      }
-    },
-    "contact": {
-      "phone": "(916) 437-3555",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 140,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "EASTER SEAL SOCIETY OF SUPERIOR CA (FIL",
-    "streetName": "EASTER SEAL SOCIETY OF SUPERIOR CA (FIL",
-    "ccldLicenseNumber": "347003493",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2617 Alta Arden Expy Ste A",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95825",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.59987,
-        "lng": -121.40109
-      }
-    },
-    "contact": {
-      "phone": "(916) 979-6747",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "MILIEU CENTER  THE",
-    "streetName": "MILIEU CENTER  THE",
-    "ccldLicenseNumber": "347003808",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3951 Performance Drive",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95834",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.639412,
-        "lng": -121.4635
-      }
-    },
-    "contact": {
-      "phone": "(916) 779-2009",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 100,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CITY OF SACRAMENTO TRIPLE R ADULT DAY N",
-    "streetName": "CITY OF SACRAMENTO TRIPLE R ADULT DAY N",
-    "ccldLicenseNumber": "347003964",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "700 Southgate Road",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95815",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.603207,
-        "lng": -121.45214
-      }
-    },
-    "contact": {
-      "phone": "(916) 808-6475",
       "websiteUrl": ""
     },
     "facilityDetails": {
@@ -1551,147 +94,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "REACH ADULT DEVELOPMENT SITE #3",
-    "streetName": "REACH ADULT DEVELOPMENT SITE #3",
-    "ccldLicenseNumber": "347004234",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2204 Kausen Dr Ste 120",
-      "city": "Elk Grove",
-      "state": "CA",
-      "zipCode": "95758",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.428303,
-        "lng": -121.482864
-      }
-    },
-    "contact": {
-      "phone": "(916) 203-6246",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "A FAMILY AFFAIR CONNECTION",
-    "streetName": "A FAMILY AFFAIR CONNECTION",
-    "ccldLicenseNumber": "347004235",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3521 Broadway",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95817",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.551273,
-        "lng": -121.46824
-      }
-    },
-    "contact": {
-      "phone": "(916) 456-2451",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "A FAMILY AFFAIR CONNECTION",
-    "streetName": "A FAMILY AFFAIR CONNECTION",
-    "ccldLicenseNumber": "347004236",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3525 Broadway",
-      "city": "Sacramento",
-      "state": "CA",
-      "zipCode": "95817",
-      "county": "Sacramento",
-      "coordinates": {
-        "lat": 38.551235,
-        "lng": -121.4682
-      }
-    },
-    "contact": {
-      "phone": "(916) 919-4590",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "AIM HIGHER INC.",
     "streetName": "AIM HIGHER INC.",
     "ccldLicenseNumber": "347004282",
@@ -1739,6 +141,2404 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
+    "legalLicenseName": "ELK GROVE ADULT COMMUNITY TRAINING  INC",
+    "streetName": "Elk Grove Adult Community Training",
+    "ccldLicenseNumber": "340300556",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8810 Elk Grove Blvd.",
+      "city": "Elk Grove",
+      "state": "CA",
+      "zipCode": "95624",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.408985,
+        "lng": -121.375595
+      }
+    },
+    "contact": {
+      "phone": "(916) 685-7666",
+      "websiteUrl": "https://egact.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 160,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Elk Grove Adult Community Training (EGACT) is a non-profit organization that provides education and training for adults with developmental disabilities, focusing on communication and social skills, and community interaction through volunteering. Its mission is to provide opportunities for individual choice in community and employment environments, ensuring equality, dignity, and fulfillment of rights for all participants.",
+      "minimumAge": 18,
+      "yearEstablished": 1972,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Education and Training",
+        "Communication and Social Skills Training",
+        "Community Volunteering"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Elk Grove Adult Community Training (EGACT) is a non-profit providing education and training for adults with developmental disabilities.",
+        "Established in 1972, EGACT offers community-based programs and was recognized by the City of Elk Grove for helping adults with severe disabilities."
+      ]
+    },
+    "completenessScore": 70,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ACE-IT II",
+    "streetName": "ACE IT II Program",
+    "ccldLicenseNumber": "340312462",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8089 Madison Ave  Suite 4",
+      "city": "Citrus Height",
+      "state": "CA",
+      "zipCode": "95610",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.664036,
+        "lng": -121.26339
+      }
+    },
+    "contact": {
+      "phone": "(916) 962-2766",
+      "websiteUrl": "https://www.easterseals.com/superior-ca"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The ACE IT II program provides opportunities to challenge, encourage, and integrate individuals with disabilities into the community. It offers a dynamic, creative environment with person-centered planning, focusing on community access, volunteer opportunities, domestic skills, socialization, and an educational and art curriculum.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Community Integration",
+        "Socialization"
+      ],
+      "parentOrganization": "Easterseals Superior California",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Sacramento and surrounding counties",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The ACE IT II Program provides adult day services for individuals with developmental or physical disabilities.",
+        "It focuses on community integration, life skills, socialization, and educational activities.",
+        "Participants enjoy person-centered activities like shopping, cooking, and art to foster independence."
+      ]
+    },
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ST ANTHONY ADULT TRAINING PROGRAM 2",
+    "streetName": "ST ANTHONY ADULT TRAINING PROGRAM 2",
+    "ccldLicenseNumber": "342700116",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7171 Bowling Drive Suite 40",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95823",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.496593,
+        "lng": -121.455475
+      }
+    },
+    "contact": {
+      "phone": "(916) 476-5713",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "St. Anthony Adult Training Program 2 provides structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00 AM–6:00 PM, Saturday–Sunday: 10:00 AM–4:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Adults with disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "St. Anthony Adult Training Program 2 is a licensed adult day program in Sacramento, CA.",
+        "It offers structured daytime activities, health monitoring, and therapeutic programming.",
+        "The program serves adults needing supervision, including those with dementia or disabilities."
+      ]
+    },
+    "completenessScore": 73,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTRAL VALLEY TRAINING CENTER - BMP",
+    "streetName": "CENTRAL VALLEY TRAINING CENTER - BMP",
+    "ccldLicenseNumber": "342700241",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "10370 Old Placerville Rd #1",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95827",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.567333,
+        "lng": -121.30707
+      }
+    },
+    "contact": {
+      "phone": "(916) 619-8441",
+      "websiteUrl": "https://www.cvtcinc.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides services to intellectually and/or developmentally disabled individuals, particularly those with challenging behaviors, with a focus on person-centered planning and community integration. It was designed to help individuals transition out of Developmental Centers and offers vocational opportunities.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Behavior Support",
+        "Community Integration",
+        "Vocational Training",
+        "Life Skills Training",
+        "Self-Advocacy"
+      ],
+      "parentOrganization": "Central Valley Training Center, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Founded in 1982, this program specializes in behavioral management for individuals with intellectual and developmental disabilities.",
+        "It offers person-centered planning, vocational training, and community integration services."
+      ]
+    },
+    "completenessScore": 87,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "A FAMILY AFFAIR CONNECTION",
+    "streetName": "A FAMILY AFFAIR CONNECTION",
+    "ccldLicenseNumber": "342700382",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3132 Auburn Blvd",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95821",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.634033,
+        "lng": -121.39103
+      }
+    },
+    "contact": {
+      "phone": "(916) 456-2451",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "A licensed adult day program providing structured daytime activities, supervision, and support services for adults who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured daytime activities",
+        "Health monitoring",
+        "Therapeutic activities",
+        "Social and recreational programming",
+        "Meals and snacks",
+        "Personal care assistance",
+        "Medication management"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Adults with disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "A Family Affair Connection is a licensed adult day program in Sacramento, offering structured activities and support for adults with disabilities or dementia.",
+        "The program focuses on acquiring functional skills, community integration, and social-emotional development for participants."
+      ]
+    },
+    "completenessScore": 57,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PATHWAY TO CHOICES SAC BMP",
+    "streetName": "Pathway To Choices - Citrus Heights",
+    "ccldLicenseNumber": "342700394",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7723 Old Auburn Rd",
+      "city": "Citrus Height",
+      "state": "CA",
+      "zipCode": "95610",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.6997,
+        "lng": -121.27995
+      }
+    },
+    "contact": {
+      "phone": "(916) 735-5968",
+      "websiteUrl": "https://www.pathwaytochoices.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Pathway To Choices provides day programs for adults with developmental disabilities, behavioral challenges, and/or concurrent mental illnesses, offering a stimulating and individualized program to expand knowledge and competence for active participation in meaningful activities. The Citrus Heights location specifically provides curated Behavior Management Plans for all clients.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Games",
+        "Exercise",
+        "Educational Activities",
+        "Community Outings"
+      ],
+      "parentOrganization": "Pathway To Choices, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "Monday 8:30am–11:30am, Tuesday–Friday 8:30am–1:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Behavioral Challenges"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Greater Sacramento Area",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Pathway To Choices in Citrus Heights supports adults with developmental disabilities and behavioral challenges.",
+        "The program offers themed classrooms, community outings, and individualized behavior plans."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PATHWAY TO CHOICES SAC ADP",
+    "streetName": "Pathway To Choices",
+    "ccldLicenseNumber": "342700442",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2420 Butano Dr",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95825",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.608646,
+        "lng": -121.37867
+      }
+    },
+    "contact": {
+      "phone": "(916) 285-5324",
+      "websiteUrl": "https://www.pathwaytochoices.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The mission of Pathway To Choices is to provide adults with developmental disabilities, behavioral challenges, and/or concurrent mental illnesses with a stimulating and individualized program that will expand upon and strengthen their base of knowledge and competence for active and effective participation in a broad range of activities that they find meaningful.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Exercise machines"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Watching movies",
+        "Playing games",
+        "Educational activities",
+        "Gardening",
+        "Sports",
+        "Community Outings"
+      ],
+      "parentOrganization": "Pathway to Choices, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "M 8:30 AM–11:30 AM, T-F 8:30 AM–1:00 PM",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Behavioral Challenges",
+        "Concurrent Mental Illnesses"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 93,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CITY OF SACRAMENTO-TRIPLE-R ADULT DAY-S",
+    "streetName": "City of Sacramento Triple-R Adult Day Program - South Land Park",
+    "ccldLicenseNumber": "342700576",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "5962 S Land Park Dr",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95822",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.519554,
+        "lng": -121.512314
+      }
+    },
+    "contact": {
+      "phone": "(916) 808-1591",
+      "websiteUrl": "https://www.cityofsacramento.gov/ypce/Older_Adult_Services/Triple-R_Adult_Day_Centers"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides social and recreational activities, supervision, and support for older adults aged 50 and over with mild to severe memory issues, including dementia and Alzheimer's disease. It aims to offer respite for family caregivers.",
+      "minimumAge": 18,
+      "yearEstablished": 1992,
+      "languagesSupported": [
+        "English",
+        "Several Asian languages"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Socializing",
+        "Reminiscing",
+        "Games",
+        "Crafts",
+        "Music",
+        "Exercise",
+        "Therapeutic Activities",
+        "Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "parentOrganization": "City of Sacramento Youth, Parks, & Community Enrichment",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Older Adults with Dementia",
+        "Alzheimer's Disease"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Triple-R Adult Day Program serves older adults aged 50+ with mild to severe memory loss, including dementia or Alzheimer's Disease.",
+        "It offers full-day and half-day programs with activities like games, crafts, music, exercise, and personal care assistance.",
+        "This City of Sacramento program is licensed by the State of California, with staff fluent in several Asian languages."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EXCEL  PROGRAM OF NORCAL SERVICES FOR D",
+    "streetName": "EXCEL Day Program for Deaf+ Adults",
+    "ccldLicenseNumber": "342700657",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4044 N. Freeway Blvd",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95834",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.63876,
+        "lng": -121.49598
+      }
+    },
+    "contact": {
+      "phone": "(916) 349-7500",
+      "websiteUrl": "https://www.norcalcenter.org/excel/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 24,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "A program for Deaf+ adults that provides ongoing opportunities for participants to connect with their peers, learn new skills, and explore their community. It focuses on developing self-expressive skills, independence, and life skills through hands-on learning, using American Sign Language (ASL).",
+      "minimumAge": 18,
+      "yearEstablished": 1977,
+      "languagesSupported": [
+        "English",
+        "American Sign Language"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "NorCal Services for Deaf & Hard of Hearing",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "Monday–Thursday 9:00am–3:00pm, Friday 9:00am–12:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Deaf/Hard of Hearing/DeafBlind"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "EXCEL Day Program supports Deaf, Hard of Hearing, and Deafblind adults in Sacramento, focusing on independence and community integration.",
+        "Run by NorCal Services, it offers skill-building in ASL, self-advocacy, computer use, and pre-employment training."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GARDENS AT LAGUNA SPRINGS MEMORY CARE A",
+    "streetName": "The Gardens at Laguna Springs Memory Care",
+    "ccldLicenseNumber": "342700881",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9750 Laguna Springs Drive",
+      "city": "Elk Grove",
+      "state": "CA",
+      "zipCode": "95757",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.40316118,
+        "lng": -121.3955939
+      }
+    },
+    "contact": {
+      "phone": "(916) 667-3167",
+      "websiteUrl": "https://www.koelschcommunities.com/senior-living/california/elk-grove/the-gardens-at-laguna-springs/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 15,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This facility provides specialized memory care services for individuals experiencing Alzheimer's, dementia, and other forms of memory loss, offering a personalized care model, engaging activities, and 24/7 nursing support in a purpose-built community.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Movie Room"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Koelsch Senior Communities",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Gardens at Laguna Springs is a licensed memory care program in Elk Grove, specializing in Alzheimer's and dementia.",
+        "It offers 24/7 licensed nursing care and utilizes Humanitude® techniques for a purpose-filled living program."
+      ]
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NEW HOPE DAY PROGRAM",
+    "streetName": "New Hope Day Program",
+    "ccldLicenseNumber": "342701331",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9701 Dino Dr Suite 170",
+      "city": "Elk Grove",
+      "state": "CA",
+      "zipCode": "95624",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.40150141,
+        "lng": -121.356819
+      }
+    },
+    "contact": {
+      "phone": "(916) 667-9481",
+      "websiteUrl": "https://newhopedayprogram.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "New Hope Day Program empowers individuals with developmental disabilities to live meaningfully and independently, focusing on enhancing independence, fostering meaningful connections, and personal growth. The program aims to provide a 'Second Chance' for individuals with developmental disabilities and behavior support needs to attain independence and grow in natural settings.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Self-Advocacy",
+        "Behavior Management",
+        "Community Integration",
+        "Self-Care",
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–2:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Sacramento County",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "New Hope Day Program in Elk Grove, CA, serves individuals with intellectual and developmental disabilities, focusing on behavior support needs.",
+        "The program offers site-based adult day services five days a week with a 1:3 staff-to-participant ratio.",
+        "It is a licensed Adult Day Program by California's CCLD, with a current license valid until January 2026."
+      ]
+    },
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNIQUE ABILITIES MONTESSORI ADULT DAY P",
+    "streetName": "Unique Abilities Montessori Adult Day Program",
+    "ccldLicenseNumber": "342701358",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2400 22nd Street",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95818",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.54411688,
+        "lng": -121.4898215
+      }
+    },
+    "contact": {
+      "phone": "(916) 498-9700",
+      "websiteUrl": "https://uniqueabilities.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Unique Abilities Montessori Adult Day Program aims to foster independence and self-reliance by sparking natural curiosity and providing tools, guidance, and opportunities for personal growth in a supportive environment. The program emphasizes learning through the five senses and offers training in life skills, self-advocacy, and workforce development.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Art Studio",
+        "Music Studio",
+        "Library"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Life Skills Training",
+        "Community Integration",
+        "Workforce Development",
+        "Self-Advocacy",
+        "Montessori Education"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Unique Abilities is a licensed Montessori Adult Day Program in Sacramento, focusing on individualized growth.",
+        "The program emphasizes life skills, community integration, creative arts, and workforce development.",
+        "They partner with regional centers and state agencies for career development opportunities."
+      ]
+    },
+    "completenessScore": 98,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UCP ODYSSEY",
+    "streetName": "UCP - Odyssey Adult Day Program",
+    "ccldLicenseNumber": "342701373",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3164 Gold Camp Dr Ste 250",
+      "city": "Rancho Cordov",
+      "state": "CA",
+      "zipCode": "95670",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.59264796,
+        "lng": -121.2727782
+      }
+    },
+    "contact": {
+      "phone": "(916) 504-3050",
+      "websiteUrl": "https://ucpsacto.org/programs-services/adult-programs/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "UCP's Odyssey Adult Day Program aims to increase independent living skills and reduce isolation for adults with developmental disabilities. Participants engage in daily living skills, communication, and person-centered planning, along with activities like computer skills, practical math, reading, functional living skills, and self-advocacy, including community outings.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Daily Living Skills Training",
+        "Verbal and Non-Verbal Communication Skills",
+        "Person-Centered Planning",
+        "Computer Skills Instruction",
+        "Practical Math",
+        "Reading Skills",
+        "Functional Living Skills",
+        "Self-Advocacy Training",
+        "Community Outings"
+      ],
+      "parentOrganization": "UCP of Sacramento and Northern California",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Epilepsy",
+        "Intellectual Disability",
+        "Down Syndrome",
+        "Cerebral Palsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "UCP's Odyssey Adult Day Program supports adults with developmental disabilities in Rancho Cordova, CA.",
+        "It fosters independent living skills, communication, and community engagement through diverse activities."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REACH ADULT DEVELOPMENT INC.",
+    "streetName": "REACH ADULT DEVELOPMENT INC.",
+    "ccldLicenseNumber": "342701459",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2489 Sunrise Blvd.",
+      "city": "Gold River",
+      "state": "CA",
+      "zipCode": "95670",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.623086,
+        "lng": -121.266531
+      }
+    },
+    "contact": {
+      "phone": "(916) 212-6476",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "REACH ADULT DEVELOPMENT INC. is a Behavior Management Adult Day Program serving individuals with intellectual and developmental disabilities aged 22 and beyond who are eligible for services through Alta California Regional Center. The program provides structured daytime activities, supervision, and support services, including health monitoring, therapeutic activities, social and recreational programming, meals, snacks, and personal care assistance.",
+      "minimumAge": 18,
+      "yearEstablished": 2001,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "REACH ADULT DEVELOPMENT INC. offers behavior management for adults 22+ with intellectual and developmental disabilities.",
+        "This licensed adult day program serves Gold River and the greater Sacramento area."
+      ]
+    },
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DISCOVERING OPTIONS",
+    "streetName": "DISCOVERING OPTIONS",
+    "ccldLicenseNumber": "342701467",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "191 Lathrop Way Ste. D",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95815",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.59478772,
+        "lng": -121.4624159
+      }
+    },
+    "contact": {
+      "phone": "(916) 806-1175",
+      "websiteUrl": "https://www.ucpsacto.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "UCP's Adult Day Program aims to increase independent living skills and reduce feelings of isolation for developmentally disabled adults. Participants work on daily living skills, verbal and non-verbal communication, person-centered planning, and becoming valued members of their community.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social and Recreational Activities",
+        "Community Integration",
+        "Health Monitoring",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Computer Skills Instruction"
+      ],
+      "parentOrganization": "UCP of Sacramento and Northern California",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability",
+        "Cerebral Palsy",
+        "Epilepsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Discovering Options is an Adult Day Program by UCP Sacramento for adults with developmental disabilities.",
+        "It fosters independent living skills, communication, and community engagement through varied activities.",
+        "The program has a licensed capacity of 75 participants."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EMPOWER ACADEMY",
+    "streetName": "EMPOWER ACADEMY",
+    "ccldLicenseNumber": "342701503",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4667 Mack Rd",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95823",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.475342,
+        "lng": -121.4475075
+      }
+    },
+    "contact": {
+      "phone": "(916) 906-2203",
+      "websiteUrl": "https://www.empoweracademy.us/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Empower Academy's mission is to empower adults with developmental disabilities by providing compassionate, personalized support and innovative programs that promote self-advocacy, enhancing their quality of life through engaging, supportive, and inclusive activities that promote physical, mental, and social well-being.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Community Integration",
+        "Functional Education"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Empower Academy serves adults with developmental disabilities, offering high-quality care and a curriculum fostering esteem and worth.",
+        "Programs include Functional Education, Arts & Expression, and Community Access for holistic development."
+      ]
+    },
+    "completenessScore": 75,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "A FAMILY AFFAIR BRIDGES INC",
+    "streetName": "A Family Affair Bridges",
+    "ccldLicenseNumber": "342701521",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7395 Greenhaven Drive",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95831",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.491542,
+        "lng": -121.519098
+      }
+    },
+    "contact": {
+      "phone": "(916) 393-9682",
+      "websiteUrl": "https://www.providingbridges.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "A Family Affair Bridges offers an adult program designed to aid adults and elderly individuals with mental, emotional, and physical disabilities, focusing on the acquisition and maintenance of functional skills to achieve full participation in their community. The program promotes client choices and assists them in achieving their desired potential while living with dignity as contributing members of society.",
+      "minimumAge": 18,
+      "yearEstablished": 2006,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Basic Computer Navigation",
+        "Physical Exercise",
+        "Health & Hygiene",
+        "Photography",
+        "Community Integration",
+        "Behavioral Programs",
+        "Social and Recreational Programming"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "A Family Affair Bridges is a nonprofit adult day program for adults and elderly with mental, emotional, and physical disabilities.",
+        "The program focuses on functional skills, community participation, and social-emotional development.",
+        "It employs behavioral intervention techniques and has a licensed capacity of 100 individuals."
+      ]
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AIM HIGHER INC.",
+    "streetName": "AIM HIGHER INC.",
+    "ccldLicenseNumber": "342701595",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3470 Fulton Ave",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95821",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.62886458,
+        "lng": -121.4013604
+      }
+    },
+    "contact": {
+      "phone": "(800) 783-3895",
+      "websiteUrl": "https://www.aimhigherinc.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "AIM HIGHER provides a curriculum-based program focusing on five core components: Life Skills, Education, Community Access, Vocational Training, and Arts & Expression, designed to enhance the lives of adults with developmental disabilities.",
+      "minimumAge": 18,
+      "yearEstablished": 2006,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Functional Education",
+        "Community Access",
+        "Vocational Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–2:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "AIM HIGHER INC. serves adults with developmental disabilities, focusing on life skills, education, community access, vocational training, and arts.",
+        "The Sacramento program, established in 2013, offers Arts, Culture & Expression and Health & Wellness programs."
+      ]
+    },
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMPREHENSIVE SKILLS TRAINING CENTER  L",
+    "streetName": "Comprehensive Skills Training Center, LLC.",
+    "ccldLicenseNumber": "342790074",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6520 44th Street  Ste. 306",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95823",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.50738,
+        "lng": -121.455414
+      }
+    },
+    "contact": {
+      "phone": "(916) 391-9100",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Comprehensive Skills Training Center, LLC. is a licensed adult day program serving Sacramento, California. It provides structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Social and Recreational Programming",
+        "Meals and Snacks",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Comprehensive Skills Training Center, LLC is a licensed Adult Day Program in Sacramento, CA, with a capacity of 50 participants.",
+        "It offers structured daytime activities, health monitoring, therapeutic programming, and meals for adults with disabilities or dementia."
+      ]
+    },
+    "completenessScore": 81,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PRIDE INDUSTRIES",
+    "streetName": "PRIDE Industries",
+    "ccldLicenseNumber": "345002789",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1174 National Drive #30",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95834",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.644399,
+        "lng": -121.487576
+      }
+    },
+    "contact": {
+      "phone": "(916) 334-5415",
+      "websiteUrl": "https://www.prideindustries.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "PRIDE Industries provides employment programs and services, including vocational training, job placement, and independent living skills education, for adults with developmental and intellectual disabilities to help them achieve meaningful careers and greater independence.",
+      "minimumAge": 18,
+      "yearEstablished": 1966,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Employment Coaching",
+        "Job Preparation",
+        "Job Placement",
+        "Life Skills Training",
+        "Vocational Training",
+        "Skills Assessment",
+        "Workplace Readiness Preparation",
+        "Interview Skill Development",
+        "Resume Building Assistance",
+        "Job Coaching",
+        "Help Submitting Job Applications",
+        "Independent Living Skills Education",
+        "Self-Care Skills",
+        "Self-Advocacy Skills"
+      ],
+      "parentOrganization": "PRIDE Industries",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Founded in 1966 by parents, PRIDE Industries empowers adults with disabilities through employment.",
+        "The program offers vocational training and employment support, holding CARF accreditation for employment services."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ODYSSEY LIFE CENTER",
+    "streetName": "Odyssey Life Center",
+    "ccldLicenseNumber": "345002804",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "283 Iron Point Rd Unit A",
+      "city": "Folsom",
+      "state": "CA",
+      "zipCode": "95630",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.64210635,
+        "lng": -121.1885986
+      }
+    },
+    "contact": {
+      "phone": "(916) 365-1698",
+      "websiteUrl": "https://odysseylifecenter.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Odyssey Life Center provides a caring, supportive, learning environment for individuals with Autism Spectrum Disorder, promoting independence, community integration, and choice.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Odyssey Life Center serves adults with autism and developmental disabilities in the Sacramento area.",
+        "It is a California-licensed adult day program offering individualized social recreation.",
+        "The program provides a 1:3 staff-to-client ratio and caregiver support."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "RCCA COMMUNITY ACCESS PROGRAM",
+    "streetName": "RCCA Community Access Program",
+    "ccldLicenseNumber": "345002915",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "4980 Watt Avenue Suite C/D",
+      "city": "North Highlan",
+      "state": "CA",
+      "zipCode": "95660",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.656881,
+        "lng": -121.3823295
+      }
+    },
+    "contact": {
+      "phone": "(916) 928-0220",
+      "websiteUrl": "https://www.rescarecommunityliving.com/locations/california/sacramento/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 43,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides structured daytime activities, supervision, and support services for adults with intellectual and developmental disabilities, focusing on goal-based plans with an emphasis on real community activities and helping individuals function at the highest level possible while ensuring their safety and protection.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Social Activities",
+        "Meals and Snacks",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Recreational Programming",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Physical Therapy",
+        "Occupational Therapy",
+        "Nursing Services",
+        "Community Integration Activities",
+        "Individualized Pre-Vocational Skills",
+        "Community Outings"
+      ],
+      "parentOrganization": "ResCare Community Living",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "RCCA Community Access Program offers day habilitation for individuals with intellectual and developmental disabilities.",
+        "The program provides structured activities, health monitoring, meals, and therapeutic programming."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS FOLSOM INCLUSION CENTER",
+    "streetName": "SVS FOLSOM INCLUSION CENTER",
+    "ccldLicenseNumber": "345920298",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "771 Oak Ave Parkway Suite 1",
+      "city": "Folsom",
+      "state": "CA",
+      "zipCode": "95630",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.66578205,
+        "lng": -121.135658
+      }
+    },
+    "contact": {
+      "phone": "(916) 603-2126",
+      "websiteUrl": "https://www.socialvocationalservices.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "SVS Folsom Inclusion Center, part of Social Vocational Services, offers Community Inclusion and Career Exploration services for adults with developmental and intellectual disabilities. The program focuses on promoting independence, self-advocacy, community integration, self-discovery, and socialization through a wide range of activities, including life skills training, vocational exploration, and community engagement. They also provide support for job readiness and employment.",
+      "minimumAge": 18,
+      "yearEstablished": 1977,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Computer technology",
+        "Gardening",
+        "Work experience",
+        "Volunteer activities",
+        "Physical fitness",
+        "Self-advocacy",
+        "Health and well-being",
+        "Community integration",
+        "Social interaction",
+        "Recreational activities",
+        "Resume writing",
+        "Professional communication",
+        "Grooming and proper work attire",
+        "Interviewing skills",
+        "Self-advocacy on the job"
+      ],
+      "parentOrganization": "Social Vocational Services",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:00am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Within program's service area",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "SVS Folsom Inclusion Center supports adults with developmental disabilities through community integration.",
+        "The program offers diverse activities like arts, cooking, and career exploration to foster independence.",
+        "As a non-profit, it provides individualized services for social, vocational, and residential goals."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DAYCATION FOR SENIORS FAIR OAKS",
+    "streetName": "Daycation for Seniors Fair Oaks",
+    "ccldLicenseNumber": "345920362",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9807 Fair Oaks Blvd",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "zipCode": "95628",
+      "county": "Sacramento County",
+      "coordinates": {
+        "lat": 38.63936413,
+        "lng": -121.2757074
+      }
+    },
+    "contact": {
+      "phone": "(925) 899-2659",
+      "websiteUrl": "https://www.daycationfairoaks.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Daycation for Seniors Fair Oaks is a senior social daycare center providing compassionate care and supervision for seniors with memory loss, Alzheimer's, dementia, and other cognitive challenges. The program focuses on cognitive stimulation, social engagement, and creative expression through a variety of enriching activities and nutritious meals, offering respite for caregivers.",
+      "minimumAge": 18,
+      "yearEstablished": 2026,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Activity Rooms",
+        "Kitchenette",
+        "Comfort Animals"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Games",
+        "Exercise",
+        "Socialization",
+        "Meals",
+        "Birthday and Holiday Celebrations",
+        "Pet Therapy",
+        "Reminiscing"
+      ],
+      "parentOrganization": "Daycation for Seniors",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:30pm",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Daycation for Seniors Fair Oaks specializes in care for seniors with Alzheimer's or dementia, offering structured activities.",
+        "The program aims to enhance seniors' lives through social activities and provide respite for caregivers."
+      ]
+    },
+    "completenessScore": 97,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "TRIPLE \"\"\"\"R\"\"\"\" ADULT DAY PROGRAM",
+    "streetName": "Triple-R Adult Day Program",
+    "ccldLicenseNumber": "347000576",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "915 27th Street",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95816",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.575176,
+        "lng": -121.47012
+      }
+    },
+    "contact": {
+      "phone": "(916) 808-8375",
+      "websiteUrl": "https://www.tripler.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 35,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Triple-R is committed to providing a safe and enriching environment that promotes independence, dignity, and respect for people with memory loss or frailty and supports family caregivers through respite, education and counseling. It offers full-day and half-day programs for older adults with dementia or Alzheimer's Disease.",
+      "minimumAge": 18,
+      "yearEstablished": 1992,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Exercise",
+        "Socialization",
+        "Games",
+        "Cooking",
+        "Gardening"
+      ],
+      "parentOrganization": "City of Sacramento",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:30am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Older Adults with Dementia",
+        "Older Adults with Alzheimer's Disease",
+        "Older Adults with Memory Loss",
+        "Older Adults with Frailty"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Triple-R is a California-licensed adult day program for older adults with dementia or Alzheimer's disease.",
+        "It offers full-day and half-day social programs with activities like crafts, music, and exercise.",
+        "Run by the City of Sacramento, some centers provide intergenerational activities."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ELK GROVE ADULT COMMUNITY TRAINING INC.",
+    "streetName": "Elk Grove Adult Community Training, Inc. Act II",
+    "ccldLicenseNumber": "347001442",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "9510 Elk Grove Florin Rd. #",
+      "city": "Elk Grove",
+      "state": "CA",
+      "zipCode": "95624",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.413383,
+        "lng": -121.37157
+      }
+    },
+    "contact": {
+      "phone": "(916) 685-7666",
+      "websiteUrl": "https://egact.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Elk Grove Adult Community Training, Inc. (EGACT) is a non-profit organization that provides education and training for adults with developmental disabilities. They offer communication and social skills training, interact with the community through volunteering, and treat everyone with equality and dignity. The program aims to provide opportunities for individual choice in community and employment environments.",
+      "minimumAge": 18,
+      "yearEstablished": 1972,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Programming",
+        "Social and Recreational Programming",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Communication Skills Training",
+        "Social Skills Training",
+        "Community Integration",
+        "Volunteering Opportunities",
+        "Vocational Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Elk Grove Adult Community Training, Inc. (EGACT) is a nonprofit established in 1972.",
+        "It provides education and training for adults with developmental disabilities.",
+        "Programs foster individual choice in community and employment, including social skills and volunteering."
+      ]
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ELK GROVE ADULT COMMUNITY TRAINING/GALT",
+    "streetName": "ELK GROVE ADULT COMMUNITY TRAINING/GALT",
+    "ccldLicenseNumber": "347001851",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1067 C Street  Suite 116",
+      "city": "Galt",
+      "state": "CA",
+      "zipCode": "95632",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.253147,
+        "lng": -121.29646
+      }
+    },
+    "contact": {
+      "phone": "(916) 685-7666",
+      "websiteUrl": "https://www.egact.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 61,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Elk Grove Adult Community Training provides education and training for adults with developmental disabilities, offering opportunities for individual choice in community and employment environments. Services typically include structured daytime activities, health monitoring, meals, and therapeutic programming.",
+      "minimumAge": 18,
+      "yearEstablished": 1972,
+      "languagesSupported": [
+        "English"
+      ],
+      "parentOrganization": "Elk Grove Adult Community Training, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Elk Grove Adult Community Training (EGACT) is a non-profit offering education and training for adults with developmental disabilities.",
+        "Established in 1972, EGACT provides community-based programs focusing on individual choice and employment skills.",
+        "The program serves over 165 clients, fostering communication, social skills, and community involvement."
+      ]
+    },
+    "completenessScore": 67,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REESE ALAN WILSON CENTER  INC. II",
+    "streetName": "REESE ALAN WILSON CENTER INC. II",
+    "ccldLicenseNumber": "347001994",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3340 Marysville Blvd.",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95838",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.629284,
+        "lng": -121.43157
+      }
+    },
+    "contact": {
+      "phone": "(916) 437-3555",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 140,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Reese Alan Wilson Center, Inc. II is a licensed adult day program in Sacramento, California, offering structured daytime activities, health monitoring, meals, and therapeutic programming to meet the needs of developmentally disabled adults.",
+      "minimumAge": 18,
+      "yearEstablished": 2000,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Social and Recreational Programming",
+        "Therapeutic Activities"
+      ],
+      "parentOrganization": "Reese Alan Wilson Center",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Reese Alan Wilson Center Inc. II is an adult day program serving developmentally disabled adults in Sacramento.",
+        "It offers structured daytime activities and support services with a licensed capacity of 140 participants."
+      ]
+    },
+    "completenessScore": 65,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EASTER SEAL SOCIETY OF SUPERIOR CA (FIL",
+    "streetName": "Easterseals Superior California, FILS Program",
+    "ccldLicenseNumber": "347003493",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2617 Alta Arden Expy Ste A",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95825",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.59987,
+        "lng": -121.40109
+      }
+    },
+    "contact": {
+      "phone": "(916) 979-6747",
+      "websiteUrl": "https://www.easterseals.com/superior-ca/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Easterseals offers community-based Adult Day Programs, including the FILS program, for adults with developmental disabilities in the greater Sacramento area. These person-centered programs promote independence through age-appropriate activities focused on personal goals, including self-advocacy, community safety, health and wellness, time and money management, vocational training, creative arts, social interactions, and community integration.",
+      "minimumAge": 18,
+      "yearEstablished": 1992,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Self-Advocacy"
+      ],
+      "parentOrganization": "Easterseals",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Sacramento and surrounding counties",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The FILS program offers person-centered adult day services for individuals 18+ with developmental or physical disabilities.",
+        "It focuses on community integration, life skills, creative expression, and vocational training."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "MILIEU CENTER  THE",
+    "streetName": "The Milieu Center",
+    "ccldLicenseNumber": "347003808",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3951 Performance Drive",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95834",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.639412,
+        "lng": -121.4635
+      }
+    },
+    "contact": {
+      "phone": "(916) 779-2009",
+      "websiteUrl": "https://www.milieucenter.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 100,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Milieu Center is a day treatment program for adults ages 18-59 who are dually-diagnosed with a mental illness and intellectual disability. The program promotes normalization and a least restrictive environment by teaching skills needed to successfully reside in the community and work in an area of personal choice.",
+      "minimumAge": 18,
+      "maximumAge": 59,
+      "yearEstablished": 2007,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Recreation Therapy",
+        "Behavior Intervention",
+        "Reading and Math Skills"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Mental Illness"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Milieu Center is a day treatment program for adults 18-59 with dual diagnoses of mental illness and intellectual disability.",
+        "It promotes independence through daily groups focusing on life skills, vocational training, and community integration."
+      ]
+    },
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CITY OF SACRAMENTO TRIPLE R ADULT DAY N",
+    "streetName": "Triple R Adult Day Program - Club Refresh at Woodlake School",
+    "ccldLicenseNumber": "347003964",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "700 Southgate Road",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95815",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.603207,
+        "lng": -121.45214
+      }
+    },
+    "contact": {
+      "phone": "(916) 808-6475",
+      "websiteUrl": "http://www.cityofsacramento.org/ParksandRec/Recreation/older-adult-services/Programs/TripleR/Location-Hours/Woodlake-Location"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Triple-R is an adult day social program for older adults with dementia or Alzheimer's Disease. It offers full-day and half-day programs designed for persons with memory loss, confusion and/or frailty, providing activities like socializing, reminiscing, games, crafts, music, and exercise, along with personal care assistance.",
+      "minimumAge": 18,
+      "yearEstablished": 1992,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Exercise",
+        "Socialization",
+        "Reminiscing",
+        "Games",
+        "Cooking",
+        "Gardening",
+        "Woodwork",
+        "Sports",
+        "Word Puzzles",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "City of Sacramento Youth, Parks, & Community Enrichment",
+      "daysOfOperation": "Monday–Thursday",
+      "hoursOfOperation": "9:00am–2:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Dementia",
+        "Alzheimer's Disease"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Triple R Adult Day Program at Woodlake School is a state-licensed program for older adults with dementia or Alzheimer's.",
+        "It offers social day programs providing respite for caregivers and promoting independence through engaging activities.",
+        "Located at Woodlake Elementary, it provides unique intergenerational opportunities with activities like games, crafts, and music."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "REACH ADULT DEVELOPMENT SITE #3",
+    "streetName": "Reach Adult Development Site #3",
+    "ccldLicenseNumber": "347004234",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2204 Kausen Dr Ste 120",
+      "city": "Elk Grove",
+      "state": "CA",
+      "zipCode": "95758",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.428303,
+        "lng": -121.482864
+      }
+    },
+    "contact": {
+      "phone": "(916) 760-0636",
+      "websiteUrl": "https://reachdayprogram.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Reach Adult Development, Inc. is a Behavior Management Adult Day Program serving individuals with intellectual and developmental disabilities aged 22 and beyond who are eligible for services through Alta California Regional Center. The program focuses on providing daily support and social engagement to promote independence and enhance overall well-being.",
+      "minimumAge": 18,
+      "yearEstablished": 2001,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Commercial Kitchen",
+        "Exercise Room",
+        "Media Room",
+        "Classrooms"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Exercise",
+        "Social Activities",
+        "Life Skills Training"
+      ],
+      "parentOrganization": "Reach Adult Development, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Reach Adult Development Site #3 offers a Behavior Management Adult Day Program for adults 22+ with intellectual and developmental disabilities.",
+        "Located in Elk Grove, this newly remodeled site serves up to 45 clients with classrooms, a kitchen, and an exercise room."
+      ]
+    },
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "A FAMILY AFFAIR CONNECTION",
+    "streetName": "A Family Affair Connection",
+    "ccldLicenseNumber": "347004235",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3521 Broadway",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95817",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.551273,
+        "lng": -121.46824
+      }
+    },
+    "contact": {
+      "phone": "(916) 456-2451",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "A Family Affair Connection provides structured daytime activities, supervision, and support services for adults with disabilities and elderly individuals who need assistance during the day. The program aims to help participants acquire and maintain functional skills to attain a full life and achieve full participation in their community.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop",
+        "Computer Lab",
+        "Performing Arts Stage",
+        "Activities of Daily Living Training Area"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Basic Computer Navigation",
+        "Physical Exercise",
+        "Behavioral Programs",
+        "Community Integration",
+        "Health & Hygiene",
+        "Social and Recreational Programming"
+      ],
+      "parentOrganization": "A Family Affair Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Adults with disabilities",
+        "Elderly individuals with mental, emotional, and physical disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "A Family Affair Connection is a licensed adult day program in Sacramento, CA.",
+        "It supports adults and seniors with mental, emotional, or physical disabilities.",
+        "The program focuses on functional skills, community integration, and social-emotional growth."
+      ]
+    },
+    "completenessScore": 70,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "A FAMILY AFFAIR CONNECTION",
+    "streetName": "A FAMILY AFFAIR CONNECTION",
+    "ccldLicenseNumber": "347004236",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "3525 Broadway",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95817",
+      "county": "Sacramento",
+      "coordinates": {
+        "lat": 38.551235,
+        "lng": -121.4682
+      }
+    },
+    "contact": {
+      "phone": "(916) 454-1401",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "A Family Affair Connection provides structured daytime activities, supervision, and support services for adults with disabilities, focusing on the acquisition and maintenance of functional skills to achieve full participation in their community.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Community Integration",
+        "Basic Computer Navigation",
+        "Physical Exercise",
+        "Health & Hygiene"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "A Family Affair Connection is a licensed adult day program in Sacramento, CA.",
+        "It serves adults and elderly individuals, focusing on behavioral intervention and community integration.",
+        "CEO Carolyn Mitchell has over 35 years of dedication to individuals with developmental delays."
+      ]
+    },
+    "completenessScore": 65,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
     "legalLicenseName": "ST. ANTHONY ADULT TRAINING PROGRAM",
     "streetName": "ST. ANTHONY ADULT TRAINING PROGRAM",
     "ccldLicenseNumber": "347005091",
@@ -1756,17 +2556,26 @@
       }
     },
     "contact": {
-      "phone": "(916) 505-9247",
+      "phone": "(916) 424-6306",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 60,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "St. Anthony Adult Training Program is a licensed adult day program that provides structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
+      "activitiesOffered": [
+        "Therapeutic activities",
+        "Social and recreational programming",
+        "Meals and snacks",
+        "Personal care assistance",
+        "Medication management"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -1779,11 +2588,14 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "St. Anthony Adult Training Program offers structured daytime activities, health monitoring, and therapeutic programming.",
+        "It serves adults needing supervision during the day, including those with dementia or disabilities."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 67,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "DDSO-PARKWAY",
@@ -1804,17 +2616,36 @@
     },
     "contact": {
       "phone": "(916) 456-5166",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.ddso.org"
     },
     "facilityDetails": {
       "licensedCapacity": 150,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "DDSO enriches the quality of life for persons with intellectual and developmental disabilities by fostering individual growth, creativity, and community involvement through innovative strategies and artistic expression. They offer programs that provide opportunities for independence, job training, employment, physical education, visual and performing arts, life skill building, social interaction, and active participation in the community.",
       "minimumAge": 18,
+      "yearEstablished": 1975,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Theatre"
+      ],
+      "parentOrganization": "Developmental Disabilities Service Organization",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy",
+        "Epilepsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1826,15 +2657,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "DDSO-PARKWAY serves adults with intellectual and developmental disabilities, fostering growth through arts and community.",
+        "Founded over 40 years ago, DDSO enriches lives via innovative artistic strategies and community involvement."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 90,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "SAC ADP DBA AIM HIGHER-ACE PROGRAM (D1-",
-    "streetName": "SAC ADP DBA AIM HIGHER-ACE PROGRAM (D1-",
+    "streetName": "AIM HIGHER-ACE PROGRAM",
     "ccldLicenseNumber": "347005181",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1851,17 +2685,43 @@
     },
     "contact": {
       "phone": "(916) 993-4191",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.aimhigherinc.com"
     },
     "facilityDetails": {
       "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "AIM HIGHER Adult Development Center serves adults with developmental disabilities, aiming to provide high-quality care and curriculum in an environment that fosters esteem and worth. The program focuses on enhancing life skills, broadening education, increasing community access, supporting employment goals, and artistic expression through its 'Fabulous Five Components'.",
       "minimumAge": 18,
+      "yearEstablished": 2013,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Full size gym",
+        "Cafeteria",
+        "Fitness Center",
+        "Smart boards",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Functional Education",
+        "Community Access",
+        "Zumba",
+        "Performing Arts"
+      ],
+      "parentOrganization": "Aim Higher Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1873,15 +2733,18 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "AIM HIGHER-ACE Program serves adults with developmental disabilities, offering Arts, Culture & Expression and Health & Wellness programs.",
+        "The program provides individualized planning with a 1:1 staff ratio and has a licensed capacity of 90 participants."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 83,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "SAC ADP DBA AIM HIGHER-HEALTH AND WELLN",
-    "streetName": "SAC ADP DBA AIM HIGHER-HEALTH AND WELLN",
+    "streetName": "AIM HIGHER-HEALTH AND WELLN",
     "ccldLicenseNumber": "347005182",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -1898,17 +2761,48 @@
     },
     "contact": {
       "phone": "(916) 993-4191",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.aimhigherinc.org/"
     },
     "facilityDetails": {
       "licensedCapacity": 45,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Aim Higher Sacramento offers two main programs: Arts, Culture & Expression (ACE) and Health & Wellness (HW). The programs focus on providing a welcoming and comfortable environment that promotes learning, working, and socializing, helping participants gain skills to live life on their terms through engaging activities and a focus on health and wellness.",
       "minimumAge": 18,
+      "yearEstablished": 2013,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Full size gym",
+        "Cafeteria",
+        "Fitness Center",
+        "Smart boards",
+        "Multimedia Center",
+        "Commercial Kitchen",
+        "Laundry Facility",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Functional Education",
+        "Community Access",
+        "Vocational Training",
+        "Zumba",
+        "Performing Arts"
+      ],
+      "parentOrganization": "Aim Higher Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1920,11 +2814,15 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "AIM HIGHER-HEALTH AND WELLN in Sacramento supports adults with developmental disabilities through diverse programs.",
+        "Established in 2013, it offers an upscale environment with a gym, vocational training, and community integration.",
+        "The licensed adult day program provides functional education, life skills, and arts, offering respite for caregivers."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "BETTER HORIZONS DAY PROGRAM",
@@ -1944,18 +2842,31 @@
       }
     },
     "contact": {
-      "phone": "(916) 624-8700",
+      "phone": "(916) 254-1741",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Better Horizons Day Program provides structured daytime activities, supervision, and support services for adults with disabilities who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
+      "yearEstablished": 2012,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social and Recreational Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -1969,9 +2880,9 @@
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 74,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "SAN JUAN ADULT GROWTH EXPERIENCE",
@@ -1991,18 +2902,37 @@
       }
     },
     "contact": {
-      "phone": "(916) 565-7700",
-      "websiteUrl": ""
+      "phone": "(916) 548-3198",
+      "websiteUrl": "https://www.ucpsacto.org/programs-services/adult-day-programs/adult-day-program-locations/"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "UCP's Adult Day Program aims to increase independent living skills and reduce feelings of isolation for developmentally disabled adults. Participants work on daily living skills, verbal and non-verbal communication, person-centered planning, and becoming valued members of their community.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Computer Skills",
+        "Practical Math and Reading",
+        "Self-advocacy",
+        "Social and recreational programming",
+        "Therapeutic programming"
+      ],
+      "parentOrganization": "UCP of Sacramento and Northern California",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability",
+        "Cerebral Palsy",
+        "Epilepsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -2014,15 +2944,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "San Juan Adult Growth Experience offers structured daytime activities for adults with cognitive disabilities.",
+        "The program focuses on increasing independent living skills and community engagement.",
+        "Activities include computer skills, practical math, reading, and self-advocacy."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "EMPOWERING OPPORTUNITIES FOR SUCCESS",
-    "streetName": "EMPOWERING OPPORTUNITIES FOR SUCCESS",
+    "streetName": "Empowering Opportunities for Success",
     "ccldLicenseNumber": "347005231",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -2038,18 +2972,36 @@
       }
     },
     "contact": {
-      "phone": "(916) 565-7700",
-      "websiteUrl": ""
+      "phone": "(916) 548-3198",
+      "websiteUrl": "https://www.ucpsacto.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "UCP's Adult Day Program, Empowering Opportunities for Success, aims to increase independent living skills and reduce feelings of isolation for developmentally disabled adults. Participants work on daily living skills, verbal and non-verbal communication, person-centered planning, and becoming valued members of their community.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Computer Lab",
+        "Outdoor Space"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Computer Skills Training",
+        "Literacy and Math Skills",
+        "Self-Advocacy Training"
+      ],
+      "parentOrganization": "UCP of Sacramento and Northern California",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Epilepsy",
+        "Cerebral Palsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -2057,19 +3009,23 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Sacramento region",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Empowering Opportunities for Success, part of UCP Sacramento, serves adults with significant cognitive and physical disabilities.",
+        "The program aims to boost independent living skills, communication, and community engagement through various activities."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 87,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "PATHWAYS TO SUCCESS FOR SENIORS",
-    "streetName": "PATHWAYS TO SUCCESS FOR SENIORS",
+    "streetName": "Pathways to Success for Seniors",
     "ccldLicenseNumber": "347005232",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -2085,18 +3041,32 @@
       }
     },
     "contact": {
-      "phone": "(916) 567-7700",
-      "websiteUrl": ""
+      "phone": "(916) 548-3198",
+      "websiteUrl": "https://www.ucpsacto.org"
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "UCP's Adult Day Program, which includes Pathways to Success for Seniors, works with adults with significant cognitive disabilities to increase their independent living skills, reduce feelings of isolation, and become valued members of their community. Participants work on daily living skills, verbal and non-verbal communication, and person-centered planning.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Computer Lab"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration"
+      ],
+      "parentOrganization": "UCP of Sacramento and Northern California",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -2104,19 +3074,24 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Sacramento, Yolo, El Dorado, Placer, and Nevada counties",
+      "acceptsPrivatePay": "No",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Pathways to Success for Seniors is an Adult Day Program by UCP of Sacramento, serving individuals with developmental disabilities.",
+        "Located in Sacramento, CA, it aims to improve independence and quality of life for its participants."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "VISIONS IN MOTION ADULT DAY PROGRAM  IN",
-    "streetName": "VISIONS IN MOTION ADULT DAY PROGRAM  IN",
+    "streetName": "Visions in Motion ADP",
     "ccldLicenseNumber": "347005635",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -2133,17 +3108,42 @@
     },
     "contact": {
       "phone": "(916) 627-1704",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.visionsinmotionadp.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 48,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Visions In Motion (VIM) is an adult day program for persons affected by developmental delays, providing experiences that enhance overall health, self-worth, and self-esteem. The program encourages personal growth with a focus on communication, education, recreation, fitness, health, and wellness, tailored for each individual client.",
       "minimumAge": 18,
+      "maximumAge": 70,
+      "yearEstablished": 2016,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Group Fitness",
+        "Community Outings",
+        "Cooking",
+        "Zumba",
+        "Yoga"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -2155,11 +3155,15 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Visions in Motion ADP serves adults aged 18-70 with developmental delays, focusing on health, well-being, and independent living skills.",
+        "The program offers individualized services, prevocational training, and community integration with a 1:4 staff-to-client ratio.",
+        "Co-owners were inspired by their sons with developmental disabilities, fostering a supportive environment."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "SOUTH AREA ADULT GROWTH EXPERIENCE",
@@ -2179,18 +3183,44 @@
       }
     },
     "contact": {
-      "phone": "(916) 283-8305",
-      "websiteUrl": ""
+      "phone": "(916) 561-0956",
+      "websiteUrl": "https://www.ucpsacto.org/programs-services/adult-day-programs/adult-day-program-locations/"
     },
     "facilityDetails": {
       "licensedCapacity": 59,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "UCP's Adult Day Program gives developmentally disabled adults the chance to increase their independent living skills and reduce their feelings of isolation. Adults who participate in UCP adult day program work on daily living skills, verbal and non-verbal communication, person-centered planning and becoming valued members of their community.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Computer Skills",
+        "Practical Math and Reading",
+        "Self-Advocacy",
+        "Verbal and Non-Verbal Communication",
+        "Person-Centered Planning",
+        "Physical Exercise",
+        "Community Outings"
+      ],
+      "parentOrganization": "UCP of Sacramento and Northern California",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -2198,15 +3228,19 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Unknown",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Part of UCP of Sacramento, this program serves adults with developmental disabilities.",
+        "It fosters independence through activities like computer skills, functional living, and community outings."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 95,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "ZENCAR SERVICES INC",
@@ -2232,12 +3266,20 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Zencar Services Inc. is a licensed adult day program providing structured daytime activities, supervision, and support services for adults with disabilities. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management.",
       "minimumAge": 18,
+      "yearEstablished": 2008,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -2249,15 +3291,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "ZENCAR SERVICES INC is a licensed adult day program in Elk Grove, CA.",
+        "It was established as a General Corporation in California on January 2, 2008.",
+        "The program offers structured daytime activities, health monitoring, and therapeutic programming."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 75,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "LOCAL AMBASSADORS INC",
-    "streetName": "LOCAL AMBASSADORS INC",
+    "streetName": "Local Ambassadors Inc",
     "ccldLicenseNumber": "347005712",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -2279,12 +3325,29 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Local Ambassadors Inc. is an adult day program that provides structured daytime activities, supervision, and support services for adults with developmental disabilities. The program focuses on promoting independence and enhancing the lives of participants through various activities, social engagement, and pre-employment skills training.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Exercise",
+        "Volunteer Work",
+        "Social Engagement",
+        "Therapeutic Programming",
+        "Karaoke"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–3:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -2296,15 +3359,19 @@
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Local Ambassadors Inc. is a licensed Folsom adult day program.",
+        "It offers structured activities, health monitoring, meals, and therapeutic programming.",
+        "The program supports pre-employment skills and volunteer work for adults with developmental disabilities."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 88,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   },
   {
     "legalLicenseName": "REVERE COURT DAY CLUB",
-    "streetName": "REVERE COURT DAY CLUB",
+    "streetName": "Revere Court Day Club",
     "ccldLicenseNumber": "347005740",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -2321,16 +3388,35 @@
     },
     "contact": {
       "phone": "(916) 392-3510",
-      "websiteUrl": ""
+      "websiteUrl": "https://www.reverecourt.com/"
     },
     "facilityDetails": {
       "licensedCapacity": 25,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "The Revere Court Day Club is a specialized social day program for people with Alzheimer's and related forms of dementia, providing meals, snacks, assistance with special diets and medications, supervision, and a therapeutic activities program.",
       "minimumAge": 18,
+      "yearEstablished": 1999,
       "languagesSupported": [
-        "English"
+        "English",
+        "Spanish"
       ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Exercise",
+        "Gardening",
+        "Cooking",
+        "Social Outings"
+      ],
+      "parentOrganization": "Revere Court of Sacramento",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–5:30pm",
       "selfDeterminationAccepted": "Unknown"
     },
     "fundingMechanics": {
@@ -2339,14 +3425,19 @@
       "vendorIds": [],
       "authorizedServiceCodes": [],
       "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
       "requiredFundingDocument": "IPP (Individual Program Plan)",
       "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
     },
     "qualitativeInsights": {
-      "parentReviews": []
+      "parentReviews": [
+        "Revere Court Day Club specializes in care for adults with Alzheimer's and related dementias.",
+        "The program offers therapeutic activities, meals, supervision, and caregiver support groups.",
+        "Providing memory care since 1999, it is Music & Memory Certified and involved with Artisan Mind."
+      ]
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+    "completenessScore": 97,
+    "lastVerifiedDate": "2026-05-25",
+    "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
   }
 ]

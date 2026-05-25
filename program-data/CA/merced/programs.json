@@ -1,99 +1,5 @@
 [
   {
-    "legalLicenseName": "LOYD'S LIBERTY HOMES  INC.",
-    "streetName": "LOYD'S LIBERTY HOMES  INC.",
-    "ccldLicenseNumber": "247203533",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1503 West Main Street",
-      "city": "Merced",
-      "state": "CA",
-      "zipCode": "95340",
-      "county": "Merced",
-      "coordinates": {
-        "lat": 37.307014,
-        "lng": -120.49856
-      }
-    },
-    "contact": {
-      "phone": "(209) 725-7997",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "DAYOUT ADP MERCED",
-    "streetName": "DAYOUT ADP MERCED",
-    "ccldLicenseNumber": "247204002",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1460 Merced Ave.",
-      "city": "Merced",
-      "state": "CA",
-      "zipCode": "95340",
-      "county": "Merced",
-      "coordinates": {
-        "lat": 37.29155,
-        "lng": -120.458595
-      }
-    },
-    "contact": {
-      "phone": "(209) 388-9175",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 10,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "KINGS VIEW WORK EXPERIENCE CENTER",
     "streetName": "KINGS VIEW WORK EXPERIENCE CENTER",
     "ccldLicenseNumber": "240403819",
@@ -383,6 +289,126 @@
       ]
     },
     "completenessScore": 91,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LOYD'S LIBERTY HOMES  INC.",
+    "streetName": "LOYD'S LIBERTY HOMES INC.",
+    "ccldLicenseNumber": "247203533",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1503 West Main Street",
+      "city": "Merced",
+      "state": "CA",
+      "zipCode": "95340",
+      "county": "Merced",
+      "coordinates": {
+        "lat": 37.307014,
+        "lng": -120.49856
+      }
+    },
+    "contact": {
+      "phone": "(209) 725-7997",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This Adult Day Program provides structured daytime activities, supervision, and support services for adults who need assistance during the day. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals, snacks, personal care assistance, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Social Activities",
+        "Recreational Activities",
+        "Therapeutic Activities"
+      ],
+      "parentOrganization": "Loyd's Liberty Homes, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Loyd's Liberty Homes Inc. is a licensed adult day program in Merced, CA.",
+        "It serves adults needing daytime supervision, including those with dementia or disabilities."
+      ]
+    },
+    "completenessScore": 78,
+    "lastVerifiedDate": "2026-05-24",
+    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "DAYOUT ADP MERCED",
+    "streetName": "DAYOUT Merced",
+    "ccldLicenseNumber": "247204002",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1460 Merced Ave.",
+      "city": "Merced",
+      "state": "CA",
+      "zipCode": "95340",
+      "county": "Merced",
+      "coordinates": {
+        "lat": 37.29155,
+        "lng": -120.458595
+      }
+    },
+    "contact": {
+      "phone": "(209) 388-9175",
+      "websiteUrl": "https://dayout-merced.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 10,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "DAYOUT Merced is an Adult Day Health Care Center that provides preventative medical, social, and therapeutic services to adults living with disabilities. The program focuses on helping participants maintain independence in the community by offering nursing, therapy, hot meals, social services, and respite for caregivers.",
+      "minimumAge": 18,
+      "yearEstablished": 1997,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Enriching Activities"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "95340, 95341, 95343, 95344, 95348",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "DAYOUT Merced is a licensed Adult Day Health Care Center operating since 1997, offering care for those with chronic conditions.",
+        "The program provides nursing, therapy, meals, activities, and transportation, supporting independence and caregiver respite."
+      ]
+    },
+    "completenessScore": 84,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   }
