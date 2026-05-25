@@ -9,6 +9,20 @@
 
 import { readFileSync } from 'fs';
 import { createSign } from 'crypto';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const fundingGuide = JSON.parse(
+  readFileSync(join(__dirname, '../../program-data/CA/funding-guide.json'), 'utf8')
+);
+
+// Build a map from RC name → zip array for quick lookup
+const zipsByRcName = Object.fromEntries(
+  fundingGuide.localAgencies
+    .filter(a => a.zipCodes && a.zipCodes.length > 0)
+    .map(a => [a.name, a.zipCodes])
+);
 
 const SHEET_ID   = process.env.GOOGLE_SHEET_ID;
 const SA_PATH    = process.env.GOOGLE_SERVICE_ACCOUNT_PATH;
@@ -246,10 +260,10 @@ const REGIONAL_CENTERS = [
     notes:        '',
   },
 
-  // ── Los Angeles County (6 RCs) ───────────────────────────────────────────
-  // LA County is divided by city of residence, not zip code.
-  // Zip-to-RC routing requires a city lookup or zip-to-city mapping.
-  // The "Zip Routing Note" column is a placeholder for that future logic.
+  // ── Los Angeles County (7 RCs) ───────────────────────────────────────────
+  // Zip codes sourced from program-data/CA/funding-guide.json (authoritative).
+  // Boundaries follow LA County health districts; some boundary zips may
+  // straddle two RCs — call DDS (833) 421-0061 to confirm.
   {
     state:        'CA',
     name:         'Frank D. Lanterman Regional Center',
@@ -259,9 +273,9 @@ const REGIONAL_CENTERS = [
     counties:     '',
     partialCounty: 'Los Angeles',
     cities:       'Alhambra, Arcadia, Burbank, Duarte, El Monte, Glendale, La Cañada Flintridge, Monrovia, Montebello, Monterey Park, Pasadena, Rosemead, San Gabriel, San Marino, Sierra Madre, Temple City',
-    zipNote:      'Zip routing TBD — determined by city of residence',
+    zipNote:      (zipsByRcName['Frank D. Lanterman Regional Center'] ?? []).join(', '),
     address:      '3303 Wilshire Boulevard, Suite 700, Los Angeles, CA 90010',
-    verify:       'verify',
+    verify:       '',
     notes:        'Serves central/northeast corridor of LA County',
   },
   {
@@ -273,7 +287,7 @@ const REGIONAL_CENTERS = [
     counties:     '',
     partialCounty: 'Los Angeles',
     cities:       'Agoura Hills, Burbank (partial), Calabasas, Canoga Park, Chatsworth, Encino, Granada Hills, Lancaster, Northridge, Palmdale, Reseda, San Fernando, Sylmar, Tarzana, Van Nuys, West Hills, Westlake Village, Woodland Hills',
-    zipNote:      'Zip routing TBD — includes San Fernando Valley and Antelope Valley',
+    zipNote:      (zipsByRcName['North Los Angeles County Regional Center'] ?? []).join(', '),
     address:      '9200 Oakdale Avenue, Chatsworth, CA 91311',
     verify:       '',
     notes:        'Serves San Fernando Valley and Antelope Valley communities',
@@ -286,11 +300,11 @@ const REGIONAL_CENTERS = [
     website:      'https://www.elarc.org',
     counties:     '',
     partialCounty: 'Los Angeles',
-    cities:       'Azusa, Baldwin Park, Bell, Bell Gardens, Boyle Heights, Commerce, Compton (partial), Covina, Diamond Bar, Downey, East Los Angeles, El Monte (partial), Hacienda Heights, Irwindale, La Puente, La Verne, Maywood, Montclair, Pico Rivera, Pomona (partial), Rowland Heights, San Dimas, South El Monte, Walnut, West Covina, Whittier',
-    zipNote:      'Zip routing TBD — serves East LA and eastern San Gabriel Valley',
+    cities:       'Azusa, Baldwin Park, Bell, Bell Gardens, Boyle Heights, Commerce, East Los Angeles, Hacienda Heights, Irwindale, La Puente, Maywood, Pico Rivera, Rowland Heights, South El Monte, Walnut, Whittier',
+    zipNote:      (zipsByRcName['Eastern Los Angeles Regional Center'] ?? []).join(', '),
     address:      '1000 South Fremont Avenue, Building A-9, Alhambra, CA 91803',
-    verify:       'verify',
-    notes:        'Boundary with Lanterman RC and San Gabriel/Pomona RC needs verification',
+    verify:       '',
+    notes:        '',
   },
   {
     state:        'CA',
@@ -300,11 +314,11 @@ const REGIONAL_CENTERS = [
     website:      'https://www.sgprc.org',
     counties:     '',
     partialCounty: 'Los Angeles',
-    cities:       'Claremont, Glendora (partial), Industry, La Verne (partial), Ontario (partial), Pomona (partial), San Dimas (partial), South Pomona area',
-    zipNote:      'Zip routing TBD — serves far eastern edge of LA County / Pomona Valley',
+    cities:       'Altadena, Arcadia (partial), Claremont, Duarte, El Monte, Glendora, Hacienda Heights, La Puente, Monrovia, Pomona, Rowland Heights, Sierra Madre, Walnut, West Covina',
+    zipNote:      (zipsByRcName['San Gabriel/Pomona Valley Regional Center'] ?? []).join(', '),
     address:      '75 Rancho Santa Anita Drive, Suite A, Arcadia, CA 91006',
-    verify:       'verify',
-    notes:        'Boundary with Eastern LA RC is approximate; verify by city',
+    verify:       '',
+    notes:        '',
   },
   {
     state:        'CA',
@@ -314,11 +328,11 @@ const REGIONAL_CENTERS = [
     website:      'https://www.sclarc.org',
     counties:     '',
     partialCounty: 'Los Angeles',
-    cities:       'Athens, Compton (partial), Crenshaw, Florence, Gardena (partial), Hawthorne (partial), Hyde Park, Inglewood (partial), Leimert Park, Lynwood, South Central LA, Vernon, Watts',
-    zipNote:      'Zip routing TBD — serves south-central corridor of LA County',
+    cities:       'Athens, Bell, Compton, Crenshaw, Cudahy, Florence, Hyde Park, Leimert Park, Lynwood, Maywood, South Central LA, South Gate, Vernon, Watts',
+    zipNote:      (zipsByRcName['South Central Los Angeles Regional Center'] ?? []).join(', '),
     address:      '650 West Adams Boulevard, Los Angeles, CA 90007',
-    verify:       'verify',
-    notes:        'Boundary with Harbor RC (south) and Westside RC (west) needs verification',
+    verify:       '',
+    notes:        '',
   },
   {
     state:        'CA',
@@ -328,8 +342,8 @@ const REGIONAL_CENTERS = [
     website:      'https://www.harborrc.org',
     counties:     '',
     partialCounty: 'Los Angeles',
-    cities:       'Carson, El Segundo, Gardena (partial), Hawthorne (partial), Hermosa Beach, Lawndale, Lomita, Long Beach, Manhattan Beach, Palos Verdes Estates, Rancho Palos Verdes, Redondo Beach, Rolling Hills, Rolling Hills Estates, San Pedro, Torrance, Wilmington',
-    zipNote:      'Zip routing TBD — serves South Bay and Harbor area of LA County',
+    cities:       'Artesia, Bellflower, Carson, Cerritos, El Segundo, Gardena, Hawthorne, Hermosa Beach, Lakewood, Lawndale, Lomita, Long Beach, Manhattan Beach, Norwalk, Palos Verdes Estates, Rancho Palos Verdes, Redondo Beach, Rolling Hills, San Pedro, Signal Hill, Torrance, Wilmington',
+    zipNote:      (zipsByRcName['Harbor Regional Center'] ?? []).join(', '),
     address:      '21231 Hawthorne Boulevard, Torrance, CA 90503',
     verify:       '',
     notes:        'Serves the South Bay peninsula and Harbor communities',
@@ -342,8 +356,8 @@ const REGIONAL_CENTERS = [
     website:      'https://www.westsiderc.org',
     counties:     '',
     partialCounty: 'Los Angeles',
-    cities:       'Bel-Air, Beverly Hills, Brentwood, Century City, Culver City, Malibu, Marina del Rey, Pacific Palisades, Playa del Rey, Santa Monica, Venice, West Hollywood, West Los Angeles, Westwood',
-    zipNote:      'Zip routing TBD — serves west and coastal communities of LA County',
+    cities:       'Bel-Air, Beverly Hills, Brentwood, Century City, Culver City, Inglewood, Malibu, Marina del Rey, Pacific Palisades, Playa del Rey, Santa Monica, Venice, West Hollywood, West Los Angeles, Westwood',
+    zipNote:      (zipsByRcName['Westside Regional Center'] ?? []).join(', '),
     address:      '11600 Wilshire Boulevard, Suite 800, Los Angeles, CA 90025',
     verify:       '',
     notes:        'Serves the coastal and west side communities of LA County',
