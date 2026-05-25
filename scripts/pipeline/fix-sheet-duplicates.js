@@ -221,6 +221,13 @@ async function run() {
   if (dupesRemoved === 0 && countiesFixed === 0) {
     console.log('\nPrograms tab already clean — no changes needed.');
   } else {
+    // Safety guard: if we somehow ended up with far fewer rows than we started with,
+    // something went wrong in grouping — abort before wiping the sheet.
+    if (dedupedRows.length < Math.min(dataRows.length * 0.5, dataRows.length - 5)) {
+      console.error(`\nAborted: expected ~${dataRows.length} rows after dedup but only have ${dedupedRows.length}. Sheet unchanged.`);
+      process.exit(1);
+    }
+
     console.log('\nClearing Programs tab…');
     await clearSheet(spreadsheetId, sheetName, token);
 
@@ -232,9 +239,6 @@ async function run() {
   console.log('\nRebuilding County Summary tab…');
   await syncCountySummary({ spreadsheetId, serviceAccount });
   console.log('County Summary updated.');
-
-  console.log('\nNext step: run Phase 5 backfill enrichment:');
-  console.log('  ENRICH_COUNTIES=<county> bun scripts/pipeline/pipeline.js');
 }
 
 run().catch(err => {
