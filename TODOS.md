@@ -135,6 +135,30 @@ CARD STRUCTURE (when enriched fields present):
 
 ---
 
+## T8 — Phase 7: Rolling re-enrichment for data freshness
+
+**What:** Add a Phase 7 to the pipeline that re-enriches existing programs on a rolling basis — oldest `lastVerifiedDate` first — using whatever Gemini quota remains after higher-priority work (new programs, backfill, sentiment).
+
+**Why:** Gemini-sourced fields (phone, website URL, hours, days of operation, sentiment bullets) are frozen at enrichment time and never refreshed. At ~25 programs/day with ~935 total, the full directory cycles in ~37 days automatically at zero cost within the free Gemini quota.
+
+**Priority queue (lowest to highest):**
+1. Phase 7 — re-enrich stale programs (oldest `lastVerifiedDate` first)
+2. Phase 6 — sentiment backfill
+3. Phase 5 — Gemini backfill for unenriched programs
+4. Phase 2 — new CCLD programs (always first)
+
+**Implementation notes:**
+- Add `getStalestEnrichments(state, { olderThanDays = 90, limit = 20 })` to `checkpoint.js` — returns programs with oldest `lastVerifiedDate`, excluding programs already queued in higher phases
+- Phase 7 runs only when Phases 2/5/6 have nothing left to process
+- Re-enrichment resets `geminiEnriched` and `sentimentEnriched` flags so the program flows through normal enrichment again
+- `lastVerifiedDate` in the JSON output drives the staleness check
+
+**Context:** Don't build until county backfill is complete and the automated pipeline has been running in steady state for a few weeks. Human: ~30min / CC: ~45min.
+
+**Depends on:** All counties fully enriched with sentiment (Phases 5/6 backlog cleared).
+
+---
+
 ## T7 — Add aria-hidden to all decorative emoji in ProgramCard and RegionalCenterBanner
 
 **What:** Add `aria-hidden="true"` to every decorative `<span>` wrapper around emoji in `ProgramCard.tsx` and `RegionalCenterBanner.tsx`.
