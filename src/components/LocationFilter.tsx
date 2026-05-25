@@ -62,11 +62,17 @@ function ProgramSearchBox({
     )
     .slice(0, 10);
 
-  // Recalculate dropdown anchor position whenever it opens
+  // Keep anchor rect in sync: recalculate on open and on any scroll while open
   useEffect(() => {
-    if (open && containerRef.current) {
-      setAnchorRect(containerRef.current.getBoundingClientRect());
+    function updateRect() {
+      if (containerRef.current) {
+        setAnchorRect(containerRef.current.getBoundingClientRect());
+      }
     }
+    updateRect();
+    if (!open) return;
+    window.addEventListener('scroll', updateRect, { passive: true });
+    return () => window.removeEventListener('scroll', updateRect);
   }, [open]);
 
   // Close on outside click
