@@ -135,6 +135,22 @@ program-data/                        ← ALL EDITABLE DATA LIVES HERE
 
 ---
 
+## Documentation Maintenance
+
+After any commit that changes pipeline behavior, schema, UI features, or operational decisions, update the relevant sections **in the same commit** — not as a separate pass later.
+
+| What changed | Update these |
+|---|---|
+| Pipeline logic, quota handling, new phases | CLAUDE.md → Key Decisions + Pipeline Operation + Current Status |
+| New fields in schema | CLAUDE.md → Current schema section |
+| Coverage, program count, county status | CLAUDE.md → Current Status; README → Current Status table |
+| Architectural tradeoff worth explaining | README → Key Design Decisions |
+| New UI feature | CLAUDE.md → Key Decisions (Frontend) |
+
+The goal: a new Claude Code session started tomorrow should have a fully accurate picture without needing a manual doc update pass.
+
+---
+
 ## Skill Routing
 
 - Product ideas/brainstorming → `/office-hours`
