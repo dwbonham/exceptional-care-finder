@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       enrich_counties:
-        description: 'Counties to enrich (e.g. butte,riverside). Blank = normal 20/day backfill.'
+        description: 'Counties to enrich (e.g. butte,riverside). Blank = all queued counties.'
         required: false
         type: string
         default: ''

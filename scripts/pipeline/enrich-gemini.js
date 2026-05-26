@@ -7,9 +7,9 @@
 //   from public web sources (program website, news, state agency pages).
 //   Explicitly skips Yelp and Google Reviews (ToS prohibits republishing).
 //
-// Rate limits (Gemini free tier): ~1,500 req/day, ~15 RPM.
-// Two API calls per program → ~750 programs/day max.
-// The first CA import (~969 programs) spans 2 days; weekly runs (5–20) fit easily.
+// Rate limits (gemini-2.5-flash free tier): 20 req/day (RPD).
+// Two API calls per program (enrich + sentiment) → 10 programs/day max on free tier.
+// Upgrade to pay-as-you-go in Google AI Studio to remove the RPD cap.
 // On a 429, this module throws RateLimitError so the orchestrator can save the
 // checkpoint and stop the run gracefully.
 
