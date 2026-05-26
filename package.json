@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "export-csv": "bun scripts/export-csv.js",
-    "pipeline": "bun scripts/pipeline/pipeline.js"
+    "pipeline": "bun scripts/pipeline/pipeline.js",
+    "ccld-import": "bun scripts/pipeline/ccld-import.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",

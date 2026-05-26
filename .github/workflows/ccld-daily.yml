@@ -1,0 +1,63 @@
+name: Daily CCLD Import
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # 6am PT daily
+  workflow_dispatch: {}
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.x'
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Restore pipeline checkpoint
+        uses: actions/cache@v4
+        with:
+          path: scripts/pipeline/checkpoint.json
+          key: pipeline-checkpoint-${{ github.run_id }}
+          restore-keys: |
+            pipeline-checkpoint-
+
+      - name: Write service account credentials
+        run: |
+          echo '${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}' > /tmp/sa.json
+
+      - name: Run CCLD import
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          GOOGLE_SHEET_ID: ${{ vars.SHEET_ID }}
+          GOOGLE_SERVICE_ACCOUNT_PATH: /tmp/sa.json
+        run: bun run ccld-import
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and publish
+        run: |
+          git add program-data/
+          if git diff --staged --quiet; then
+            echo "No program data changes to commit."
+            exit 0
+          fi
+          COUNTY_FILES=$(git diff --staged --name-only | grep -c 'programs\.json' || true)
+          git commit -m "ccld: $(date -u '+%Y-%m-%d') — ${COUNTY_FILES} county file(s) updated"
+          git push origin main

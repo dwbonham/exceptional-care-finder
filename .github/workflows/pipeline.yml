@@ -1,9 +1,8 @@
-name: Weekly Data Pipeline
+name: Gemini Enrichment Pipeline
 
 on:
   schedule:
-    - cron: '0 14 * * 1'   # Monday 6 am PT
-    - cron: '0 14 * * 0,2-6' # Tue-Sun 6 am PT catch-up
+    - cron: '0 15 * * *'  # 7am PT daily — catch-up after ccld-daily at 6am
   workflow_dispatch:
     inputs:
       enrich_counties:
@@ -16,6 +15,10 @@ on:
         required: false
         type: boolean
         default: false
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
 
 permissions:
   contents: write
