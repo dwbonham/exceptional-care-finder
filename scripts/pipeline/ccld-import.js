@@ -313,25 +313,6 @@ function _removeRevokedProgram(ccldRecord) {
   }
 }
 
-// ─── Helper: update licenseStatus on a published program when CCLD status changes ─
-// Updates the JSON file in-place so families see the Inactive badge immediately.
-// Returns true if the program was found in our JSON files, false if not yet published.
-
-function _updateProgramLicenseStatus(ccldRecord, newStatus) {
-  const rawCounty = (ccldRecord.county ?? '').replace(/ County$/i, '').trim();
-  const county = rawCounty.toLowerCase().replace(/\s+/g, '-');
-  const file = join(PROGRAM_DATA, ccldRecord.state ?? 'CA', county, 'programs.json');
-
-  if (!existsSync(file)) return false;
-  const existing = JSON.parse(readFileSync(file, 'utf8'));
-  const idx = existing.findIndex(p => p.ccldLicenseNumber === ccldRecord.ccldLicenseNumber);
-  if (idx === -1) return false;
-
-  existing[idx] = { ...existing[idx], licenseStatus: newStatus };
-  writeFileSync(file, JSON.stringify(existing, null, 2) + '\n');
-  return true;
-}
-
 // ─── Helper: write approved program to county JSON file ──────────────────────
 
 function _writeApprovedProgram(record) {

@@ -37,7 +37,8 @@ exceptional-care-finder/
 │   ├── ccld-daily.yml               ← Daily 6am PT: CCLD import (free, auto-commits to main)
 │   ├── pipeline.yml                 ← Daily 7am PT: Gemini enrichment (quota-limited, opens PR)
 │   ├── bulk-import.yml              ← One-time manual: populate a fresh environment from CCLD
-│   └── audit-urls.yml               ← Manual: audit URLs in program data
+│   ├── audit-urls.yml               ← Manual: audit URLs in program data
+│   └── fix-sheet-county.yml         ← Manual: dedup + normalize county names in Programs sheet
 │
 └── src/
     ├── App.tsx                      ← Root; owns all filter state

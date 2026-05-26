@@ -73,10 +73,7 @@ CARD STRUCTURE (when enriched fields present):
 - `selfDeterminationAccepted`: green pill "✓ Self-Determination" (Yes), amber "? Self-Det" (Unknown), hide entirely (No — not a negative signal worth showing)
 - All emoji in the knockout row must have `aria-hidden="true"` on their wrapper `<span>`
 
-**Inactive badge:**
-- When `licenseStatus === 'Inactive'`: full-width amber-50/amber-200 banner above the card header
-- Text: "⚠️ License currently inactive — call to verify availability before visiting"
-- When `licenseStatus === 'Revoked'`: filtered out in `filterPrograms()`, never shown on site
+**Note on licenseStatus:** Both `Inactive` and `Revoked` programs are removed from JSON files by the pipeline and will never appear on site. The `licenseStatus` field in the schema exists in case this policy changes, but no badge is needed for the current implementation.
 
 **Context:** The 4 existing Riverside programs don't have these fields yet (they predate the pipeline). Adding the UI now would display nothing. Wait until at least a few enriched programs exist to verify the display looks correct. Human: ~2hrs / CC: ~20min.
 
@@ -168,3 +165,29 @@ CARD STRUCTURE (when enriched fields present):
 **Context:** Quick pass, ~20min with CC. Every `<span>📍</span>` → `<span aria-hidden="true">📍</span>`. Human: ~15min / CC: ~5min.
 
 **Depends on:** Nothing — can ship anytime.
+
+---
+
+## T9 — Pipeline integration test suite
+
+**What:** Write integration tests for the key pipeline state transitions, covering every env-var mode:
+
+- `ccld-import.js` paths:
+  - New program → geocoded via CCLD coords → approved → written to JSON + Sheet
+  - New program → CCLD coords missing → geocoded via Maps API
+  - New program → geocode failure → `GEOCODE_FAILED` in checkpoint; retried next run
+  - Status change Active→Inactive → program removed from JSON (no intermediate write)
+  - No CCLD changes → early exit → County Summary still synced
+
+- `pipeline.js` paths:
+  - `IS_MANUAL_DISPATCH=false`, `ENRICH_COUNTIES` unset → capped at `AUTO_BACKFILL_CAP`
+  - `IS_MANUAL_DISPATCH=true`, `ENRICH_COUNTIES` unset → full backlog processed
+  - `ENRICH_COUNTIES=butte` → only Butte County programs enriched, others deferred
+  - `SKIP_WRONG_POPULATION` → program removed from JSON, Sheet row updated to "Needs Review"
+  - Gemini 429 → checkpoint saved, run exits cleanly
+
+**Why:** Every bug found in the May 2026 audit rounds was introduced by new code and only caught during a dedicated human audit pass — never at write time. Tests enforce "the comment matches the code" automatically. Most of the bugs were in env-var gated paths that are never exercised during local development.
+
+**Context:** Use `bun test` (already configured). Mock the external APIs (Gemini, Maps, Sheets) using Bun's built-in mock system. The checkpoint module is pure and easy to test directly. Human: ~0 / CC: ~1hr.
+
+**Depends on:** Nothing — can start now. Should be the next pipeline task before any further pipeline changes.
