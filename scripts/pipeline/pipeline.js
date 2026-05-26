@@ -59,10 +59,13 @@ const today = new Date().toISOString().slice(0, 10);
 // ENRICH_COUNTIES=butte,riverside limits Gemini calls to specific counties;
 // non-matching programs get CCLD-only data now and Gemini enrichment later via Phase 5.
 // WITH_SENTIMENT=1 enables the second sentiment API call (default off).
+// IS_MANUAL_DISPATCH=true (set by pipeline.yml for workflow_dispatch events) bypasses
+// AUTO_BACKFILL_CAP so a manual run always processes the full backlog.
 const enrichCounties = process.env.ENRICH_COUNTIES
   ? new Set(process.env.ENRICH_COUNTIES.toLowerCase().split(',').map(c => c.trim()))
   : null;
 const skipSentiment = !['1', 'true', 'yes'].includes((process.env.WITH_SENTIMENT ?? '').toLowerCase());
+const isManualDispatch = process.env.IS_MANUAL_DISPATCH === 'true';
 
 // QC counters — accumulated across all phases, printed in the summary box.
 let enrichedCount = 0;
@@ -220,6 +223,7 @@ if (toScore.length) {
   if (approvedGateResults.length > 0) {
     console.log(`  Syncing ${approvedGateResults.length} rows to Google Sheets…`);
     await upsertProgramRows(approvedGateResults, sheetsConfig);
+    sheetsRowsTotal += approvedGateResults.length;
   }
   console.log(`  ${approved} auto-approved | ${needsReview} flagged for review | all mirrored to Sheets`);
 }
@@ -233,18 +237,24 @@ if (toScore.length) {
 //   ENRICH_COUNTIES=butte,riverside  — only process programs in these counties
 //   WITH_SENTIMENT=1                 — include sentiment step (2 API calls/program vs 1)
 // Automatic cron runs (no ENRICH_COUNTIES) are capped at 100 programs to
-// preserve quota for manual dispatches. Manual runs pass ENRICH_COUNTIES and
-// are unlimited — RateLimitError is the real stopping point.
+// preserve quota for manual dispatches. Manual workflow dispatches are unlimited
+// regardless of ENRICH_COUNTIES — RateLimitError is the real stopping point.
 const AUTO_BACKFILL_CAP = 100;
 
 if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
   const allUnenriched = getNotGeminiEnriched(state);
   const toBackfill = enrichCounties
     ? allUnenriched.filter(licNum => _matchesCountyFilter(state.programs[licNum]?.ccldRecord?.county))
-    : allUnenriched.slice(0, AUTO_BACKFILL_CAP);
+    : isManualDispatch
+      ? allUnenriched
+      : allUnenriched.slice(0, AUTO_BACKFILL_CAP);
 
   if (toBackfill.length) {
-    const modeNote = enrichCounties ? `counties: ${[...enrichCounties].join(', ')}` : `auto (capped at ${AUTO_BACKFILL_CAP})`;
+    const modeNote = enrichCounties
+      ? `counties: ${[...enrichCounties].join(', ')}`
+      : isManualDispatch
+        ? `manual dispatch (no cap — ${allUnenriched.length} total queued)`
+        : `auto (capped at ${AUTO_BACKFILL_CAP})`;
     const sentNote = skipSentiment ? 'no sentiment' : 'with sentiment';
     console.log(`\nGemini backfill: enriching ${toBackfill.length} program(s) (${modeNote}, ${sentNote})…`);
     const backfillGateResults = [];

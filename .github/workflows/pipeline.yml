@@ -63,6 +63,7 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_PATH: /tmp/sa.json
           ENRICH_COUNTIES: ${{ inputs.enrich_counties || '' }}
           WITH_SENTIMENT: ${{ inputs.with_sentiment || '' }}
+          IS_MANUAL_DISPATCH: ${{ github.event_name == 'workflow_dispatch' }}
         run: bun run pipeline
 
       - name: Configure git identity
