@@ -304,7 +304,7 @@ if (toScore.length) {
 //   ENRICH_COUNTIES=butte,riverside  — only process programs in these counties
 //   WITH_SENTIMENT=1                 — include sentiment step (2 API calls/program vs 1)
 if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
-  const allUnenriched = getNotGeminiEnriched(state, enrichCounties ? 999999 : undefined);
+  const allUnenriched = getNotGeminiEnriched(state);
   const toBackfill = enrichCounties
     ? allUnenriched.filter(licNum => _matchesCountyFilter(state.programs[licNum]?.ccldRecord?.county))
     : allUnenriched;

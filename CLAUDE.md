@@ -113,7 +113,7 @@ program-data/                        ← ALL EDITABLE DATA LIVES HERE
 
 ## Pipeline Operation
 
-**Automated:** Weekly cron Monday 6am PT + catch-up crons Tue–Sun. No county filter, no sentiment. Processes ~25 programs per run (Gemini quota limit), resumes from checkpoint.
+**Automated:** Weekly cron Monday 6am PT + catch-up crons Tue–Sun. No county filter, no sentiment. Processes as many programs as Gemini quota allows per run (stops on RateLimitError), resumes from checkpoint.
 
 **Manual enrichment (for new large counties):** Trigger workflow dispatch with `enrich_counties` (comma-separated) and `with_sentiment=true`. Merge the resulting PR when the run completes.
 

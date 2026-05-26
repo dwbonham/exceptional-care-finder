@@ -211,10 +211,10 @@ export function getPendingQualityGate(state) {
 /**
  * Get approved programs that were imported without Gemini enrichment
  * (SKIP_ENRICHMENT bulk import) and are waiting for backfill enrichment.
- * Returns up to `limit` license numbers — the daily Gemini quota determines
- * how many actually get processed.
+ * Returns up to `limit` license numbers — Gemini RateLimitError is the
+ * real stopping point; no artificial cap by default.
  */
-export function getNotGeminiEnriched(state, limit = 20) {
+export function getNotGeminiEnriched(state, limit = 999999) {
   return Object.entries(state.programs)
     .filter(([, prog]) =>
       prog.status === STATUS.APPROVED &&
