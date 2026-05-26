@@ -334,7 +334,7 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
       } catch (e) {
         if (e instanceof RateLimitError) {
           enrichmentRateLimited = true;
-          console.log(`\nGemini quota reached during backfill — resuming tomorrow.`);
+          console.log(`\nGemini quota reached during backfill — resuming tomorrow.\nAPI said: ${e.message}`);
           break;
         }
         // Non-quota error: log and continue; will retry tomorrow
@@ -388,7 +388,7 @@ if (!skipSentiment && !enrichmentRateLimited && enrichCounties) {
       } catch (e) {
         if (e instanceof RateLimitError) {
           enrichmentRateLimited = true;
-          console.log(`\nGemini quota reached during sentiment backfill — resuming tomorrow.`);
+          console.log(`\nGemini quota reached during sentiment backfill — resuming tomorrow.\nAPI said: ${e.message}`);
           break;
         }
         console.error(`\nSentiment backfill error for ${licNum}: ${e.message}`);
