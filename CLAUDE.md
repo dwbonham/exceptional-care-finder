@@ -76,7 +76,7 @@ program-data/                        ← ALL EDITABLE DATA LIVES HERE
 
 **ProgramData** key fields:
 - `ccldLicenseNumber` — state-assigned ID; pipeline deduplication key
-- `licenseStatus: 'Active' | 'Inactive' | 'Revoked'` — Inactive shows warning badge; Revoked filtered out
+- `licenseStatus: 'Active' | 'Inactive' | 'Revoked'` — only Active programs appear on the site; both Inactive and Revoked are removed from the JSON files when detected
 - `legalLicenseName`, `streetName` (display name)
 - `location` — street, city, state, zipCode, county, coordinates (lat/lng)
 - `contact` — phone, websiteUrl

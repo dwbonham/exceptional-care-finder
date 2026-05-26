@@ -98,16 +98,15 @@ for (const r of revokedPrograms) {
   state = updateStatus(state, r.ccldLicenseNumber, STATUS.SKIPPED_REVOKED, { ccldLicenseStatus: r.licenseStatus });
 }
 
-// Handle status changes on known programs — update JSON badge and checkpoint
+// Handle status changes on known programs — remove non-Active programs from site
 for (const { record, oldStatus, newStatus } of statusChanges) {
   console.log(`  ⚠ Status change: ${record.legalLicenseName} (${record.ccldLicenseNumber}) ${oldStatus} → ${newStatus}`);
-  const updated = _updateProgramLicenseStatus(record, newStatus);
-  if (updated) {
-    console.log(`    Updated JSON file: licenseStatus → ${newStatus}`);
-    affectedCounties.add((record.county ?? '').toLowerCase().replace(/\s+/g, '-'));
-  }
   if (newStatus !== 'Active') {
+    // Program went Inactive — remove from site entirely (same behavior as Revoked).
+    // Both Inactive and Revoked are excluded; the 'Inactive' licenseStatus value in the
+    // schema exists for future use but is not currently shown as a badge on the site.
     _removeRevokedProgram(record);
+    affectedCounties.add((record.county ?? '').toLowerCase().replace(/\s+/g, '-'));
   }
   state = updateStatus(state, record.ccldLicenseNumber, STATUS.SKIPPED_REVOKED, { ccldLicenseStatus: newStatus });
 }

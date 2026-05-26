@@ -27,7 +27,7 @@ import {
 } from './checkpoint.js';
 import { enrichProgram, enrichSentimentOnly, RateLimitError } from './enrich-gemini.js';
 import { resolveCoordinates, GeocodingError } from './geocode.js';
-import { evaluate, DECISION } from './quality-gate.js';
+import { evaluate, DECISION, buildProgramRecord } from './quality-gate.js';
 import { upsertProgramRows, syncCountySummary } from './sheets-writer.js';
 
 const ROOT = join(import.meta.dir, '..', '..');
@@ -258,6 +258,7 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
     const sentNote = skipSentiment ? 'no sentiment' : 'with sentiment';
     console.log(`\nGemini backfill: enriching ${toBackfill.length} program(s) (${modeNote}, ${sentNote})…`);
     const backfillGateResults = [];
+    const backfillSheetsConfig = { spreadsheetId: cfg.sheetId, sheetName: 'Programs', serviceAccount: cfg.serviceAccount };
     for (const licNum of toBackfill) {
       const { ccldRecord, geocodeResult } = state.programs[licNum];
       try {
@@ -267,6 +268,15 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
           state = updateStatus(state, licNum, STATUS.SKIPPED_WRONG_POPULATION, { skipReason: gateResult.reasons[0] });
           console.log(`\n  ⚠ Backfill wrong population: ${ccldRecord.legalLicenseName} (${licNum}) — removed from directory`);
           _removeWrongPopulationProgram(ccldRecord);
+          // Update the Sheet row from "Approved / Live" to "Needs Review / Not Published"
+          // so the sheet stays in sync with what's actually on the website.
+          const excludedRecord = buildProgramRecord(ccldRecord, enrichResult, geocodeResult, 0);
+          await upsertProgramRows([{
+            decision: 'needs_review',
+            completenessScore: 0,
+            reasons: ['Excluded: Gemini determined this program does not primarily serve the Lanterman Act (DD) population'],
+            record: excludedRecord,
+          }], backfillSheetsConfig).catch(e => console.error(`  Sheet update failed for excluded program ${licNum}: ${e.message}`));
         } else {
           if (gateResult.decision === DECISION.APPROVED) {
             _writeApprovedProgram(gateResult.record);
@@ -291,12 +301,11 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
       }
       save(state);
     }
-    // Upsert enriched rows into Sheets — updates existing rows written by Phase 4
+    // Upsert enriched rows into Sheets — updates existing rows written by ccld-import
     // instead of appending duplicates. New rows (not yet in sheet) are appended.
     if (backfillGateResults.length > 0) {
-      const sheetsConfig = { spreadsheetId: cfg.sheetId, sheetName: 'Programs', serviceAccount: cfg.serviceAccount };
       console.log(`\n  Upserting ${backfillGateResults.length} backfilled rows in Google Sheets…`);
-      await upsertProgramRows(backfillGateResults, sheetsConfig);
+      await upsertProgramRows(backfillGateResults, backfillSheetsConfig);
       sheetsRowsTotal += backfillGateResults.length;
     }
     const remaining = getNotGeminiEnriched(state, 999999).length;

@@ -1,14 +1,14 @@
 #!/usr/bin/env bun
 // Checkpoint module — persistent pipeline state across interrupted runs.
 //
-// WHY: Gemini free tier caps at 1,500 req/day. The first CA import processes
-// 500–1,000 programs over 2 days. Without a checkpoint, a crash or rate-limit
-// pause means re-processing everything from scratch and burning through the quota.
+// WHY: Gemini quota limits mean a large import (500–1,000 programs) takes multiple
+// days. Without a checkpoint, a crash or rate-limit pause means re-processing
+// everything from scratch and burning quota.
 //
-// State is stored in checkpoint.json next to this file. The pipeline reads it
-// at startup, works through pending programs, and saves after each stage.
-// The Tuesday–Friday catch-up crons call hasPendingWork() and exit early if
-// there's nothing left from the previous day's run.
+// State is stored in checkpoint.json next to this file. Both pipelines (ccld-import
+// and pipeline.js) read/write this file and share it via GitHub Actions cache
+// (key prefix: pipeline-checkpoint-). Each script saves after every program so a
+// crash at any point is recoverable.
 
 import { readFileSync, writeFileSync, existsSync, renameSync } from 'fs';
 import { join } from 'path';
