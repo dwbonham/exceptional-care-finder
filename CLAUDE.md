@@ -34,7 +34,10 @@ exceptional-care-finder/
 │
 ├── .github/workflows/
 │   ├── deploy.yml                   ← Builds + publishes to GitHub Pages on push to main
-│   └── pipeline.yml                 ← Weekly data pipeline cron + manual dispatch
+│   ├── ccld-daily.yml               ← Daily 6am PT: CCLD import (free, auto-commits to main)
+│   ├── pipeline.yml                 ← Daily 7am PT: Gemini enrichment (quota-limited, opens PR)
+│   ├── bulk-import.yml              ← One-time manual: populate a fresh environment from CCLD
+│   └── audit-urls.yml               ← Manual: audit URLs in program data
 │
 └── src/
     ├── App.tsx                      ← Root; owns all filter state
@@ -104,7 +107,12 @@ program-data/                        ← ALL EDITABLE DATA LIVES HERE
 - **Upsert over append for Sheets writes** — both Phase 4 (quality gate) and Phase 5 (backfill) use `upsertProgramRows`, which reads column F to find existing rows and updates in place. Pure append caused duplicate rows when the pipeline re-ran.
 - **503 = early exit like 429** — when Gemini returns 503, throw `RateLimitError` and save checkpoint. Previously treated as non-fatal; pipeline would log an error for every queued program and exit burning the entire run for zero enrichment.
 - **Google Sheets as full mirror, not exceptions-only** — ALL programs mirrored to Sheets (not just flagged ones); enables audit queries like "all LA County programs missing a phone number"
-- **County Summary tab auto-rebuilt on every run** — `syncCountySummary()` called at end of every pipeline run, including no-op runs where CCLD has no new programs. Two early-exit paths (catch-up cron + "nothing new from CCLD") each call it before `process.exit(0)` so the tab stays current even in steady state.
+- **Two separate pipelines** — CCLD import (`ccld-import.js`) runs daily at 6am PT and handles all ingest/geocode/publish steps for free. Gemini enrichment (`pipeline.js`) runs at 7am PT (1 hour later) and handles AI enrichment only. Separation avoids Gemini quota hitting CCLD ingest.
+- **Both pipelines share `pipeline-checkpoint-` cache key** — they read/write consistent state. The 1-hour gap + concurrency group (`group: pipeline, cancel-in-progress: false`) ensures CCLD always completes before Gemini starts.
+- **AUTO_BACKFILL_CAP = 100 for automated Gemini runs** — automated cron is capped so manual workflow dispatches always have quota available. Dispatches with `enrich_counties` set bypass the cap entirely.
+- **County Summary tab auto-rebuilt on every run** — `syncCountySummary()` called at end of every pipeline run, including no-op runs where CCLD has no new programs.
+- **County name normalization in Sheets** — `_normalizeCountySummary()` strips " County" suffix and title-cases the name before grouping. Prevents "Butte" and "Butte County" from appearing as separate rows.
+- **429/503 = early exit with detail logging** — when Gemini returns RateLimitError, checkpoint is saved and the error body logged (`API said: ...`) so the exact limit type (RPD vs RPM) is visible in the run log.
 - **Sentiment excluded from automated daily runs** — automated cron passes no `WITH_SENTIMENT` flag (defaults off). Manual workflow dispatch with sentiment checked is used for bulk enrichment of new counties. Programs enriched without sentiment are marked done in checkpoint and won't be re-enriched automatically.
 - **Quality gate: completeness ≥ 80% + ≥ 1 sentiment bullet → auto-approve** — below threshold → "Needs Review" in Sheets
 - **Sentiment sources: public web only** — Yelp and Google Reviews excluded (ToS prohibits republication)
@@ -113,15 +121,28 @@ program-data/                        ← ALL EDITABLE DATA LIVES HERE
 
 ## Pipeline Operation
 
-**Automated:** Weekly cron Monday 6am PT + catch-up crons Tue–Sun. No county filter, no sentiment. Processes as many programs as Gemini quota allows per run (stops on RateLimitError), resumes from checkpoint.
+### Two-workflow architecture
 
-**Manual enrichment (for new large counties):** Trigger workflow dispatch with `enrich_counties` (comma-separated) and `with_sentiment=true`. Merge the resulting PR when the run completes.
+**Workflow 1 — Daily CCLD Import (`ccld-daily.yml`, 6am PT)**
+- Script: `scripts/pipeline/ccld-import.js`
+- Free: no Gemini API key required
+- What it does: fetch CCLD → diff (new/revoked/status changes) → geocode → quality gate → write JSON files → upsert to Google Sheets Programs tab → sync County Summary tab
+- New programs are tagged `geminiEnriched: false` — Gemini pipeline picks them up automatically
+- Commits directly to `main` (no PR); site deploys automatically
 
-**Flow:** CCLD ingest → Gemini enrichment → geocode → quality gate → Google Sheets upsert + County Summary sync → commit to `pipeline/weekly-update` branch → open PR → merge to publish
+**Workflow 2 — Daily Gemini Enrichment (`pipeline.yml`, 7am PT)**
+- Script: `scripts/pipeline/pipeline.js`
+- Requires: `GEMINI_API_KEY`, `GOOGLE_MAPS_API_KEY`, `GOOGLE_SHEET_ID`, service account credentials
+- What it does: backfill Gemini enrichment on programs tagged `geminiEnriched: false`, optionally add sentiment research
+- Automated runs: capped at 100 programs/run (`AUTO_BACKFILL_CAP`) to preserve quota for manual dispatches
+- Manual dispatch with `enrich_counties` set: bypasses cap, runs until quota exhausted or all done
+- Commits to `pipeline/weekly-update` branch and opens a PR for review before publishing
 
-**Checkpoint:** `scripts/pipeline/checkpoint.json` persisted via GitHub Actions cache (`pipeline-checkpoint-` key). Tracks enriched license numbers so runs resume without re-processing. Local runs and Actions runs use separate checkpoint files.
+**Manual enrichment (for new large counties):** Trigger `pipeline.yml` workflow dispatch with `enrich_counties` (comma-separated, e.g. `los-angeles`) and `with_sentiment=true`. Merge the resulting PR when the run completes.
 
-**Current state:** 53/58 counties complete. LA county (largest — ~200 programs) pending manual enrichment run with sentiment. Remaining 4 counties will be picked up by automated runs.
+**Checkpoint:** `scripts/pipeline/checkpoint.json` persisted via GitHub Actions cache (`pipeline-checkpoint-` key). Both workflows share this cache. Local runs and Actions runs use separate checkpoint files.
+
+**Current state:** 53/58 counties complete. LA county (~184 programs) pending manual enrichment run with sentiment. Remaining 4 counties will be picked up by automated runs.
 
 ---
 
