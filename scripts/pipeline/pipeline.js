@@ -303,14 +303,19 @@ if (toScore.length) {
 // Env vars (optional):
 //   ENRICH_COUNTIES=butte,riverside  — only process programs in these counties
 //   WITH_SENTIMENT=1                 — include sentiment step (2 API calls/program vs 1)
+// Automatic cron runs (no ENRICH_COUNTIES) are capped at 100 programs to
+// preserve quota for manual dispatches. Manual runs pass ENRICH_COUNTIES and
+// are unlimited — RateLimitError is the real stopping point.
+const AUTO_BACKFILL_CAP = 100;
+
 if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
   const allUnenriched = getNotGeminiEnriched(state);
   const toBackfill = enrichCounties
     ? allUnenriched.filter(licNum => _matchesCountyFilter(state.programs[licNum]?.ccldRecord?.county))
-    : allUnenriched;
+    : allUnenriched.slice(0, AUTO_BACKFILL_CAP);
 
   if (toBackfill.length) {
-    const modeNote = enrichCounties ? `counties: ${[...enrichCounties].join(', ')}` : 'all queued';
+    const modeNote = enrichCounties ? `counties: ${[...enrichCounties].join(', ')}` : `auto (capped at ${AUTO_BACKFILL_CAP})`;
     const sentNote = skipSentiment ? 'no sentiment' : 'with sentiment';
     console.log(`\nGemini backfill: enriching ${toBackfill.length} program(s) (${modeNote}, ${sentNote})…`);
     const backfillGateResults = [];
