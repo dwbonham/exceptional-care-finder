@@ -15,7 +15,7 @@
 // This script commits directly to main (no PR). The Gemini pipeline still uses
 // the PR workflow for enriched programs.
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
+import { readFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 import {
@@ -26,6 +26,7 @@ import { fetchAdultDayPrograms, diffWithCheckpoint } from './ingest-ccld.js';
 import { resolveCoordinates, GeocodingError } from './geocode.js';
 import { evaluate, DECISION } from './quality-gate.js';
 import { upsertProgramRows, syncFundingGuides, syncRegionalCenters, syncCountySummary } from './sheets-writer.js';
+import { writeApprovedProgram, removeProgram } from './program-files.js';
 
 const ROOT = join(import.meta.dir, '..', '..');
 const PROGRAM_DATA = join(ROOT, 'program-data');
@@ -105,7 +106,7 @@ for (const { record, oldStatus, newStatus } of statusChanges) {
     // Program went Inactive — remove from site entirely (same behavior as Revoked).
     // Both Inactive and Revoked are excluded; the 'Inactive' licenseStatus value in the
     // schema exists for future use but is not currently shown as a badge on the site.
-    _removeRevokedProgram(record);
+    removeProgram(record);
     affectedCounties.add((record.county ?? '').toLowerCase().replace(/\s+/g, '-'));
   }
   state = updateStatus(state, record.ccldLicenseNumber, STATUS.SKIPPED_REVOKED, { ccldLicenseStatus: newStatus });
@@ -194,7 +195,7 @@ if (toScore.length) {
     // in the bare enrichResult. Phase 5 (Gemini) handles this case later.
 
     if (gateResult.decision === DECISION.APPROVED) {
-      _writeApprovedProgram(gateResult.record);
+      writeApprovedProgram(gateResult.record);
       state = updateStatus(state, licNum, STATUS.APPROVED);
       approvedResults.push(gateResult);
       publishedCount++;
@@ -295,39 +296,3 @@ function _buildBareEnrichResult() {
   };
 }
 
-// ─── Helper: remove a revoked/inactive program from its county JSON file ─────
-// Called during Phase 1 when a known program goes inactive or revoked.
-// Similar to _removeWrongPopulationProgram in pipeline.js.
-
-function _removeRevokedProgram(ccldRecord) {
-  const rawCounty = (ccldRecord.county ?? '').replace(/ County$/i, '').trim();
-  const county = rawCounty.toLowerCase().replace(/\s+/g, '-');
-  const file = join(PROGRAM_DATA, ccldRecord.state ?? 'CA', county, 'programs.json');
-
-  if (!existsSync(file)) return;
-  const existing = JSON.parse(readFileSync(file, 'utf8'));
-  const filtered = existing.filter(p => p.ccldLicenseNumber !== ccldRecord.ccldLicenseNumber);
-  if (filtered.length < existing.length) {
-    writeFileSync(file, JSON.stringify(filtered, null, 2) + '\n');
-    console.log(`    Removed from JSON: ${ccldRecord.legalLicenseName} (${ccldRecord.ccldLicenseNumber})`);
-  }
-}
-
-// ─── Helper: write approved program to county JSON file ──────────────────────
-
-function _writeApprovedProgram(record) {
-  const rawCounty = record.location.county.replace(/ County$/i, '').trim();
-  const county = rawCounty.toLowerCase().replace(/\s+/g, '-');
-  const dir = join(PROGRAM_DATA, record.location.state, county);
-  const file = join(dir, 'programs.json');
-
-  mkdirSync(dir, { recursive: true });
-
-  const existing = existsSync(file)
-    ? JSON.parse(readFileSync(file, 'utf8'))
-    : [];
-
-  // Deduplicate by ccldLicenseNumber (replace if already present from a previous run)
-  const filtered = existing.filter(p => p.ccldLicenseNumber !== record.ccldLicenseNumber);
-  writeFileSync(file, JSON.stringify([...filtered, record], null, 2) + '\n');
-}

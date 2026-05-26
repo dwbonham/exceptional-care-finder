@@ -168,26 +168,15 @@ CARD STRUCTURE (when enriched fields present):
 
 ---
 
-## T9 — Pipeline integration test suite
+## T9 — Pipeline integration test suite ✓ DONE
 
-**What:** Write integration tests for the key pipeline state transitions, covering every env-var mode:
+**Shipped May 2026.** `scripts/pipeline/pipeline-integration.test.js` covers:
+- `selectBackfillQueue`: cron cap, manual dispatch, county filter, county+manual, already-enriched exclusion
+- `writeApprovedProgram`: creates file, deduplicates (upsert), county name normalization
+- `removeProgram`: removes by license number, no-op when absent, no-op when file missing
+- `diffWithCheckpoint + startRun`: new/revoked/status-change detection, known programs not overwritten
+- Status change Active→Inactive → `removeProgram` integration
+- `SKIP_WRONG_POPULATION` → `removeProgram` integration
+- Full approved flow: evaluate → write → read-back verification
 
-- `ccld-import.js` paths:
-  - New program → geocoded via CCLD coords → approved → written to JSON + Sheet
-  - New program → CCLD coords missing → geocoded via Maps API
-  - New program → geocode failure → `GEOCODE_FAILED` in checkpoint; retried next run
-  - Status change Active→Inactive → program removed from JSON (no intermediate write)
-  - No CCLD changes → early exit → County Summary still synced
-
-- `pipeline.js` paths:
-  - `IS_MANUAL_DISPATCH=false`, `ENRICH_COUNTIES` unset → capped at `AUTO_BACKFILL_CAP`
-  - `IS_MANUAL_DISPATCH=true`, `ENRICH_COUNTIES` unset → full backlog processed
-  - `ENRICH_COUNTIES=butte` → only Butte County programs enriched, others deferred
-  - `SKIP_WRONG_POPULATION` → program removed from JSON, Sheet row updated to "Needs Review"
-  - Gemini 429 → checkpoint saved, run exits cleanly
-
-**Why:** Every bug found in the May 2026 audit rounds was introduced by new code and only caught during a dedicated human audit pass — never at write time. Tests enforce "the comment matches the code" automatically. Most of the bugs were in env-var gated paths that are never exercised during local development.
-
-**Context:** Use `bun test` (already configured). Mock the external APIs (Gemini, Maps, Sheets) using Bun's built-in mock system. The checkpoint module is pure and easy to test directly. Human: ~0 / CC: ~1hr.
-
-**Depends on:** Nothing — can start now. Should be the next pipeline task before any further pipeline changes.
+Runs on every push to main and every PR via `.github/workflows/test.yml`. Run locally: `bun run test`.

@@ -1,0 +1,26 @@
+name: Pipeline Tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/pipeline/**'
+      - 'package.json'
+  pull_request:
+    paths:
+      - 'scripts/pipeline/**'
+      - 'package.json'
+
+jobs:
+  test:
+    name: Run pipeline tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Run tests
+        run: bun run test

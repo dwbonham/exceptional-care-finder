@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "export-csv": "bun scripts/export-csv.js",
     "pipeline": "bun scripts/pipeline/pipeline.js",
-    "ccld-import": "bun scripts/pipeline/ccld-import.js"
+    "ccld-import": "bun scripts/pipeline/ccld-import.js",
+    "test": "bun scripts/pipeline/run-tests.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",

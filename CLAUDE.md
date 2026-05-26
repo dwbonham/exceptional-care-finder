@@ -38,7 +38,8 @@ exceptional-care-finder/
 │   ├── pipeline.yml                 ← Daily 7am PT: Gemini enrichment (quota-limited, opens PR)
 │   ├── bulk-import.yml              ← One-time manual: populate a fresh environment from CCLD
 │   ├── audit-urls.yml               ← Manual: audit URLs in program data
-│   └── fix-sheet-county.yml         ← Manual: dedup + normalize county names in Programs sheet
+│   ├── fix-sheet-county.yml         ← Manual: dedup + normalize county names in Programs sheet
+│   └── test.yml                     ← Runs pipeline tests on every push/PR to main
 │
 └── src/
     ├── App.tsx                      ← Root; owns all filter state
@@ -110,7 +111,8 @@ program-data/                        ← ALL EDITABLE DATA LIVES HERE
 - **Google Sheets as full mirror, not exceptions-only** — ALL programs mirrored to Sheets (not just flagged ones); enables audit queries like "all LA County programs missing a phone number"
 - **Two separate pipelines** — CCLD import (`ccld-import.js`) runs daily at 6am PT and handles all ingest/geocode/publish steps for free. Gemini enrichment (`pipeline.js`) runs at 7am PT (1 hour later) and handles AI enrichment only. Separation avoids Gemini quota hitting CCLD ingest.
 - **Both pipelines share `pipeline-checkpoint-` cache key** — they read/write consistent state. The 1-hour gap + concurrency group (`group: pipeline, cancel-in-progress: false`) ensures CCLD always completes before Gemini starts.
-- **AUTO_BACKFILL_CAP = 100 for automated Gemini runs** — automated cron is capped so manual workflow dispatches always have quota available. Dispatches with `enrich_counties` set bypass the cap entirely.
+- **AUTO_BACKFILL_CAP = 100 for automated Gemini runs** — automated cron is capped so manual workflow dispatches always have quota available. Dispatches with `enrich_counties` set bypass the cap entirely. The selection logic lives in `selectBackfillQueue()` in `checkpoint.js` so it's unit-testable.
+- **`program-files.js` is the single source of truth for JSON write/remove** — both `ccld-import.js` and `pipeline.js` import `writeApprovedProgram` and `removeProgram` from this module. No duplicate file I/O logic; tests only need to cover one place.
 - **County Summary tab auto-rebuilt on every run** — `syncCountySummary()` called at end of every pipeline run, including no-op runs where CCLD has no new programs.
 - **County name normalization in Sheets** — `_normalizeCountySummary()` strips " County" suffix and title-cases the name before grouping. Prevents "Butte" and "Butte County" from appearing as separate rows.
 - **429/503 = early exit with detail logging** — when Gemini returns RateLimitError, checkpoint is saved and the error body logged (`API said: ...`) so the exact limit type (RPD vs RPM) is visible in the run log.

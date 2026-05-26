@@ -272,6 +272,26 @@ export function getNotSentimentEnriched(state, { countyFilter = null, limit = 99
 }
 
 /**
+ * Select the queue of programs to Gemini-enrich in Phase 5.
+ * Extracts the cap/county/manual-dispatch logic so it can be unit-tested.
+ *
+ * @param {object} state
+ * @param {{ enrichCounties?: Set<string>|null, isManualDispatch?: boolean, cap?: number }} opts
+ * @returns {string[]} license numbers
+ */
+export function selectBackfillQueue(state, { enrichCounties = null, isManualDispatch = false, cap = 100 } = {}) {
+  const allUnenriched = getNotGeminiEnriched(state);
+  if (enrichCounties) {
+    return allUnenriched.filter(licNum => {
+      const county = (state.programs[licNum]?.ccldRecord?.county ?? '').toLowerCase();
+      return [...enrichCounties].some(c => county.includes(c.replace(/-/g, ' ')));
+    });
+  }
+  if (isManualDispatch) return allUnenriched;
+  return allUnenriched.slice(0, cap);
+}
+
+/**
  * Mark a program as having received sentiment enrichment.
  * Pass the merged enrichResult (existing enrichment + sentiment bullets) so the
  * checkpoint stays in sync with what was written to JSON and Sheets.

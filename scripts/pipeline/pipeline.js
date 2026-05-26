@@ -15,8 +15,8 @@
 // The script is idempotent: re-run after a rate-limit pause and it resumes from
 // where it left off.
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
-import { join } from 'path';
+import { readFileSync } from 'fs';
+
 
 import {
   load, save, updateStatus, resetFailed,
@@ -24,14 +24,14 @@ import {
   getPendingQualityGate, completeRun, summary, STATUS,
   getNotGeminiEnriched, markGeminiEnriched,
   getNotSentimentEnriched, markSentimentEnriched,
+  selectBackfillQueue,
 } from './checkpoint.js';
+import { writeApprovedProgram, removeProgram } from './program-files.js';
 import { enrichProgram, enrichSentimentOnly, RateLimitError } from './enrich-gemini.js';
 import { resolveCoordinates, GeocodingError } from './geocode.js';
 import { evaluate, DECISION, buildProgramRecord } from './quality-gate.js';
 import { upsertProgramRows, syncCountySummary } from './sheets-writer.js';
 
-const ROOT = join(import.meta.dir, '..', '..');
-const PROGRAM_DATA = join(ROOT, 'program-data');
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
@@ -207,7 +207,7 @@ if (toScore.length) {
     }
 
     if (gateResult.decision === DECISION.APPROVED) {
-      _writeApprovedProgram(gateResult.record);
+      writeApprovedProgram(gateResult.record);
       state = updateStatus(state, licNum, STATUS.APPROVED);
       approved++;
     } else {
@@ -242,18 +242,14 @@ if (toScore.length) {
 const AUTO_BACKFILL_CAP = 100;
 
 if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
-  const allUnenriched = getNotGeminiEnriched(state);
-  const toBackfill = enrichCounties
-    ? allUnenriched.filter(licNum => _matchesCountyFilter(state.programs[licNum]?.ccldRecord?.county))
-    : isManualDispatch
-      ? allUnenriched
-      : allUnenriched.slice(0, AUTO_BACKFILL_CAP);
+  const toBackfill = selectBackfillQueue(state, { enrichCounties, isManualDispatch, cap: AUTO_BACKFILL_CAP });
 
   if (toBackfill.length) {
+    const allQueuedCount = getNotGeminiEnriched(state).length;
     const modeNote = enrichCounties
       ? `counties: ${[...enrichCounties].join(', ')}`
       : isManualDispatch
-        ? `manual dispatch (no cap — ${allUnenriched.length} total queued)`
+        ? `manual dispatch (no cap — ${allQueuedCount} total queued)`
         : `auto (capped at ${AUTO_BACKFILL_CAP})`;
     const sentNote = skipSentiment ? 'no sentiment' : 'with sentiment';
     console.log(`\nGemini backfill: enriching ${toBackfill.length} program(s) (${modeNote}, ${sentNote})…`);
@@ -267,7 +263,7 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
         if (gateResult.decision === DECISION.SKIP_WRONG_POPULATION) {
           state = updateStatus(state, licNum, STATUS.SKIPPED_WRONG_POPULATION, { skipReason: gateResult.reasons[0] });
           console.log(`\n  ⚠ Backfill wrong population: ${ccldRecord.legalLicenseName} (${licNum}) — removed from directory`);
-          _removeWrongPopulationProgram(ccldRecord);
+          removeProgram(ccldRecord);
           // Update the Sheet row from "Approved / Live" to "Needs Review / Not Published"
           // so the sheet stays in sync with what's actually on the website.
           const excludedRecord = buildProgramRecord(ccldRecord, enrichResult, geocodeResult, 0);
@@ -279,7 +275,7 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
           }], backfillSheetsConfig).catch(e => console.error(`  Sheet update failed for excluded program ${licNum}: ${e.message}`));
         } else {
           if (gateResult.decision === DECISION.APPROVED) {
-            _writeApprovedProgram(gateResult.record);
+            writeApprovedProgram(gateResult.record);
             backfillGateResults.push(gateResult);
           }
           state = markGeminiEnriched(state, licNum, { enrichResult, sentimentEnriched: !skipSentiment });
@@ -338,7 +334,7 @@ if (!skipSentiment && !enrichmentRateLimited && enrichCounties) {
         const mergedEnrich = await enrichSentimentOnly(ccldRecord, enrichResult, cfg.geminiKey);
         const gateResult = evaluate(ccldRecord, mergedEnrich, geocodeResult);
         if (gateResult.decision !== DECISION.SKIP_REVOKED && gateResult.decision !== DECISION.SKIP_WRONG_POPULATION) {
-          _writeApprovedProgram(gateResult.record);
+          writeApprovedProgram(gateResult.record);
           sentimentGateResults.push(gateResult);
         }
         state = markSentimentEnriched(state, licNum, mergedEnrich);
@@ -448,38 +444,3 @@ function _buildBareEnrichResult() {
   };
 }
 
-// ─── Helper: remove a wrong-population program from its county JSON file ─────
-// Called during Phase 5 backfill when Gemini determines a previously-written
-// CCLD-only record doesn't serve the Lanterman Act population.
-
-function _removeWrongPopulationProgram(ccldRecord) {
-  const rawCounty = (ccldRecord.county ?? '').replace(/ County$/i, '').trim();
-  const county = rawCounty.toLowerCase().replace(/\s+/g, '-');
-  const file = join(PROGRAM_DATA, ccldRecord.state ?? 'CA', county, 'programs.json');
-
-  if (!existsSync(file)) return;
-  const existing = JSON.parse(readFileSync(file, 'utf8'));
-  const filtered = existing.filter(p => p.ccldLicenseNumber !== ccldRecord.ccldLicenseNumber);
-  if (filtered.length < existing.length) {
-    writeFileSync(file, JSON.stringify(filtered, null, 2) + '\n');
-  }
-}
-
-// ─── Helper: write approved program to county JSON file ──────────────────────
-
-function _writeApprovedProgram(record) {
-  const rawCounty = record.location.county.replace(/ County$/i, '').trim();
-  const county = rawCounty.toLowerCase().replace(/\s+/g, '-');
-  const dir = join(PROGRAM_DATA, record.location.state, county);
-  const file = join(dir, 'programs.json');
-
-  mkdirSync(dir, { recursive: true });
-
-  const existing = existsSync(file)
-    ? JSON.parse(readFileSync(file, 'utf8'))
-    : [];
-
-  // Deduplicate by ccldLicenseNumber (replace if already present from a previous run)
-  const filtered = existing.filter(p => p.ccldLicenseNumber !== record.ccldLicenseNumber);
-  writeFileSync(file, JSON.stringify([...filtered, record], null, 2) + '\n');
-}
