@@ -1,16 +1,21 @@
-name: Bulk Import (CCLD only, no Gemini)
+name: One-Time Bulk CCLD Import
 
-# One-time workflow to import all CA Adult Day Programs using only
-# CCLD data — no Gemini enrichment. Run this once to populate the full site.
-# After merging the resulting PR, the weekly pipeline will automatically
-# enrich 20 programs/day via Gemini until all cards are fully filled out.
+# Run this once when setting up a brand-new environment to populate all
+# CA Adult Day Programs from CCLD in one shot. Under normal operation,
+# ccld-daily.yml handles new programs automatically every day at 6am PT.
+#
+# This workflow commits directly to main (same as ccld-daily).
+# After it runs, the Gemini Enrichment Pipeline enriches programs automatically.
 
 on:
-  workflow_dispatch:   # manual trigger only
+  workflow_dispatch: {}
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   run:
@@ -39,54 +44,25 @@ jobs:
       - name: Write service account credentials
         run: echo '${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}' > /tmp/sa.json
 
-      - name: Run bulk import (CCLD only)
+      - name: Run CCLD bulk import
         env:
-          SKIP_ENRICHMENT: 'true'
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
           GOOGLE_SHEET_ID: ${{ vars.SHEET_ID }}
           GOOGLE_SERVICE_ACCOUNT_PATH: /tmp/sa.json
-        run: bun run pipeline
+        run: bun run ccld-import
 
       - name: Configure git identity
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and open PR
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Commit and publish
         run: |
           git add program-data/
           if git diff --staged --quiet; then
-            echo "No new programs written — nothing to commit."
+            echo "No program data changes to commit."
             exit 0
           fi
-
-          COUNTY_COUNT=$(git diff --staged --name-only | grep -c 'programs\.json' || true)
-          PROGRAM_COUNT=$(git diff --staged --unified=0 | grep '^+' | grep -c '"ccldLicenseNumber"' || true)
-
-          git checkout -B pipeline/bulk-import
-          git commit -m "pipeline: bulk import — ${PROGRAM_COUNT} programs across ${COUNTY_COUNT} counties (CCLD data, Gemini backfill pending)"
-          git push -f origin pipeline/bulk-import
-
-          cat > /tmp/pr-body.md << 'PREOF'
-          ## Bulk Import — All CA Adult Day Programs
-
-          Adds all active Adult Day Programs from the CA state licensing database.
-          Cards show basic CCLD data (name, address, phone, map). Gemini will
-          automatically enrich 20 programs per day after this merges.
-
-          **Before merging:**
-          - [ ] Program count looks right (~800-1,000 programs)
-          - [ ] Spot-check a few entries — name, address, county look correct
-          - [ ] Map shows programs spread across CA counties
-
-          After merging, the weekly pipeline handles Gemini enrichment automatically.
-          PREOF
-
-          gh pr create \
-            --base main \
-            --head pipeline/bulk-import \
-            --title "Bulk import: ${PROGRAM_COUNT} CA Adult Day Programs (CCLD data)" \
-            --body-file /tmp/pr-body.md
+          COUNTY_FILES=$(git diff --staged --name-only | grep -c 'programs\.json' || true)
+          git commit -m "ccld: bulk import — ${COUNTY_FILES} county file(s) updated"
+          git push origin main

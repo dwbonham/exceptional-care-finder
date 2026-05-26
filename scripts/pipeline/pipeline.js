@@ -225,9 +225,9 @@ if (toScore.length) {
 }
 
 // ── Phase 5: Gemini backfill enrichment ──────────────────────────────────────
-// Runs after new-program phases. Enriches up to 20 CCLD-only programs per day,
-// improving their site cards automatically until all programs are fully enriched.
-// Skipped on SKIP_ENRICHMENT runs (the bulk-import itself) and when quota is gone.
+// Enriches CCLD-only programs already published to the site by ccld-daily.
+// Auto runs (no ENRICH_COUNTIES): capped at AUTO_BACKFILL_CAP to preserve quota for
+// manual dispatches. Manual runs: unlimited — RateLimitError is the real stop.
 //
 // Env vars (optional):
 //   ENRICH_COUNTIES=butte,riverside  — only process programs in these counties

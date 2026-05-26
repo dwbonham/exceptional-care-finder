@@ -86,7 +86,7 @@ export async function syncCountySummary(config) {
 
   const countyMap = new Map();
   for (const row of rows) {
-    const county       = (row[C_COUNTY]       ?? '').trim() || '(unknown)';
+    const county       = _normalizeCountySummary((row[C_COUNTY] ?? '').trim()) || '(unknown)';
     const completeness = parseFloat(row[C_COMPLETENESS]) || 0;
     const website      = (row[C_WEBSITE]      ?? '').trim();
     const phone        = (row[C_PHONE]        ?? '').trim();
@@ -510,6 +510,16 @@ function _signJwt(serviceAccount) {
 }
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
+
+// Normalize county names when reading back from the sheet so "Butte County" and
+// "Butte" merge into one row in the County Summary. Strips " County" suffix,
+// handles the garbled SF name, and title-cases so capitalization variants unify.
+function _normalizeCountySummary(county) {
+  if (!county) return county;
+  if (county.toLowerCase().includes('city and')) return 'San Francisco';
+  const stripped = county.replace(/ County$/i, '').trim();
+  return stripped.replace(/\b\w/g, c => c.toUpperCase());
+}
 
 function _join(arr) {
   if (!Array.isArray(arr) || arr.length === 0) return '';

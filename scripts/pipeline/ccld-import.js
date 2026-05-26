@@ -20,7 +20,7 @@ import { join } from 'path';
 
 import {
   load, save, startRun, updateStatus, resetFailed,
-  getPendingGeocode, getPendingQualityGate, completeRun, summary, STATUS,
+  getPendingGeocode, getPendingQualityGate, completeRun, STATUS,
 } from './checkpoint.js';
 import { fetchAdultDayPrograms, diffWithCheckpoint } from './ingest-ccld.js';
 import { resolveCoordinates, GeocodingError } from './geocode.js';
@@ -64,6 +64,14 @@ let publishedCount = 0;
 let sheetsRows = 0;
 const affectedCounties = new Set();
 
+// Reset any previously failed geocodes so they're retried this run.
+const { state: s0, resetCount: failResetCount } = resetFailed(state);
+state = s0;
+if (failResetCount > 0) {
+  console.log(`Retrying ${failResetCount} previously failed geocodes`);
+  save(state);
+}
+
 // ── Phase 0: Funding guide sync ───────────────────────────────────────────────
 const fundingGuides = _loadAllFundingGuides();
 if (fundingGuides.length > 0) {
@@ -106,12 +114,6 @@ for (const { record, oldStatus, newStatus } of statusChanges) {
 
 // Early exit if nothing new
 if (newCount === 0 && revokedCount === 0 && statusChangeCount === 0) {
-  // Reset any lingering failed programs so the Gemini pipeline can retry them
-  const { state: s, resetCount } = resetFailed(state);
-  state = s;
-  if (resetCount > 0) {
-    save(state);
-  }
   console.log('No changes from CCLD today.');
   console.log('\nUpdating County Summary tab…');
   await syncCountySummary(sheetsBase);
