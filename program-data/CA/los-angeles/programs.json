@@ -188,899 +188,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "ACTIVITIES FOR RETARDED CHILDREN AND AD",
-    "streetName": "ACTIVITIES FOR RETARDED CHILDREN AND AD",
-    "ccldLicenseNumber": "197600306",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6456 Whitsett Ave.",
-      "city": "North Hollywo",
-      "state": "CA",
-      "zipCode": "91606",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.188,
-        "lng": -118.40524
-      }
-    },
-    "contact": {
-      "phone": "(818) 762-4365",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 36,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "BCR \"\"\"\"A PLACE TO GROW\"\"\"\"",
-    "streetName": "BCR \"\"\"\"A PLACE TO GROW\"\"\"\"",
-    "ccldLicenseNumber": "197601136",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "230 E. Amherst Dr.",
-      "city": "Burbank",
-      "state": "CA",
-      "zipCode": "91504",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.19035,
-        "lng": -118.320724
-      }
-    },
-    "contact": {
-      "phone": "(818) 843-4907",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT BASIC LEARNING ENVIRONMENT   INC",
-    "streetName": "ADULT BASIC LEARNING ENVIRONMENT   INC",
-    "ccldLicenseNumber": "197601249",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "204 N. Victory Blvd.",
-      "city": "Burbank",
-      "state": "CA",
-      "zipCode": "91502",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.17497,
-        "lng": -118.31718
-      }
-    },
-    "contact": {
-      "phone": "(818) 842-4933",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PATHPOINT",
-    "streetName": "PATHPOINT",
-    "ccldLicenseNumber": "197602666",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "348 E Avenue K 4 Ste B",
-      "city": "Lancaster",
-      "state": "CA",
-      "zipCode": "93535",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.67134,
-        "lng": -118.12472
-      }
-    },
-    "contact": {
-      "phone": "(661) 723-7484",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "LIFE SKILLS TREATMENT PROGRAM",
-    "streetName": "LIFE SKILLS TREATMENT PROGRAM",
-    "ccldLicenseNumber": "197602842",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "215 Macneil Street",
-      "city": "San Fernando",
-      "state": "CA",
-      "zipCode": "91340",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.284428,
-        "lng": -118.437965
-      }
-    },
-    "contact": {
-      "phone": "(818) 898-1926",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ADULT BASIC LEARNING ENVIRONMENT  INC.",
-    "streetName": "ADULT BASIC LEARNING ENVIRONMENT  INC.",
-    "ccldLicenseNumber": "197603293",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "320 West Colorado Blvd.",
-      "city": "Glendale",
-      "state": "CA",
-      "zipCode": "91202",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.14567082,
-        "lng": -118.1567707
-      }
-    },
-    "contact": {
-      "phone": "(818) 550-8400",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "VALLEY VILLAGE ADULT DAY CARE - SUNLAND",
-    "streetName": "VALLEY VILLAGE ADULT DAY CARE - SUNLAND",
-    "ccldLicenseNumber": "197603303",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8727 Fenwick Street",
-      "city": "Sunland",
-      "state": "CA",
-      "zipCode": "91040",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.261425,
-        "lng": -118.32325
-      }
-    },
-    "contact": {
-      "phone": "(818) 446-0366",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 80,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COMMUNITY ASSISTANCE PROGRAM FOR SENIOR",
-    "streetName": "COMMUNITY ASSISTANCE PROGRAM FOR SENIOR",
-    "ccldLicenseNumber": "197603374",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3740 E. Sierra Madre Blvd.",
-      "city": "Pasadena",
-      "state": "CA",
-      "zipCode": "91107",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.16173,
-        "lng": -118.072296
-      }
-    },
-    "contact": {
-      "phone": "(626) 351-5427",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 26,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ENRICHMENT AND SOCIAL OPPORT. FOR LIFE",
-    "streetName": "ENRICHMENT AND SOCIAL OPPORT. FOR LIFE",
-    "ccldLicenseNumber": "197606308",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "7711 Jellico Avenue",
-      "city": "Northridge",
-      "state": "CA",
-      "zipCode": "91325",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.21039,
-        "lng": -118.51742
-      }
-    },
-    "contact": {
-      "phone": "(818) 881-4427",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 14,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COMMUNITY INTEGRATION ADC",
-    "streetName": "COMMUNITY INTEGRATION ADC",
-    "ccldLicenseNumber": "197606348",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "10100 Balboa Bl.",
-      "city": "Granada Hills",
-      "state": "CA",
-      "zipCode": "91343",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.25418,
-        "lng": -118.50236
-      }
-    },
-    "contact": {
-      "phone": "(818) 772-1155",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PARTNERS FOR POTENTIAL  INC.",
-    "streetName": "PARTNERS FOR POTENTIAL  INC.",
-    "ccldLicenseNumber": "197606451",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6255 Van Nuys Boulevard",
-      "city": "Van Nuys",
-      "state": "CA",
-      "zipCode": "91401",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.183968,
-        "lng": -118.44872
-      }
-    },
-    "contact": {
-      "phone": "(818) 997-0819",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "LARC NEW DAY ACTIVITY CENTER",
-    "streetName": "LARC NEW DAY ACTIVITY CENTER",
-    "ccldLicenseNumber": "197606612",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "29890 1/2 Bouquet Canyon Ro",
-      "city": "Saugus",
-      "state": "CA",
-      "zipCode": "91390",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.4808372,
-        "lng": -118.4660915
-      }
-    },
-    "contact": {
-      "phone": "(661) 296-8636",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 25,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PROJECT INDEPENDENCE",
-    "streetName": "PROJECT INDEPENDENCE",
-    "ccldLicenseNumber": "197606814",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "43439 Copeland Circle",
-      "city": "Lancaster",
-      "state": "CA",
-      "zipCode": "93535",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.671745,
-        "lng": -118.1257
-      }
-    },
-    "contact": {
-      "phone": "(661) 948-8402",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 102,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CREATIVE MINDS ADP  INC.",
-    "streetName": "CREATIVE MINDS ADP  INC.",
-    "ccldLicenseNumber": "197607404",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "6045 Woodman Street",
-      "city": "Van Nuys",
-      "state": "CA",
-      "zipCode": "91401",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.180267,
-        "lng": -118.43125
-      }
-    },
-    "contact": {
-      "phone": "(818) 521-6532",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 105,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS - PALMDALE ADULT DAY PROGRAM",
-    "streetName": "SVS - PALMDALE ADULT DAY PROGRAM",
-    "ccldLicenseNumber": "197607610",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "38420 5th Street West Ste A",
-      "city": "Palmdale",
-      "state": "CA",
-      "zipCode": "93551",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.580387,
-        "lng": -118.1385
-      }
-    },
-    "contact": {
-      "phone": "(661) 274-4840",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "PACOIMA ADC",
-    "streetName": "PACOIMA ADC",
-    "ccldLicenseNumber": "197608215",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "13117 Van Nuys Blvd",
-      "city": "Pacoima",
-      "state": "CA",
-      "zipCode": "91331",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.268215,
-        "lng": -118.4192
-      }
-    },
-    "contact": {
-      "phone": "(818) 434-0004",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 90,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "E-SOL",
-    "streetName": "E-SOL",
-    "ccldLicenseNumber": "197608406",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "7144 Balboa Avenue",
-      "city": "Van Nuys",
-      "state": "CA",
-      "zipCode": "91406",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.200542,
-        "lng": -118.501114
-      }
-    },
-    "contact": {
-      "phone": "(818) 881-4427",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 49,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS VAN NUYS",
-    "streetName": "SVS VAN NUYS",
-    "ccldLicenseNumber": "197608442",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "14547 Erwin Street",
-      "city": "Van Nuys",
-      "state": "CA",
-      "zipCode": "91411",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.183643,
-        "lng": -118.44975
-      }
-    },
-    "contact": {
-      "phone": "(818) 849-3021",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNIVERSAL DAY PROGRAM 2",
-    "streetName": "UNIVERSAL DAY PROGRAM 2",
-    "ccldLicenseNumber": "197608493",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8847 Lankershim Bl.",
-      "city": "Sun Valley",
-      "state": "CA",
-      "zipCode": "91352",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.229866,
-        "lng": -118.38777
-      }
-    },
-    "contact": {
-      "phone": "(818) 482-0971",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 128,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "PARADISE ADULT DAY TREATMENT CENTER  IN",
     "streetName": "PARADISE ADULT DAY TREATMENT CENTER  IN",
     "ccldLicenseNumber": "197608646",
@@ -8991,5 +8098,1163 @@
     "completenessScore": 71,
     "lastVerifiedDate": "2026-05-25",
     "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ACTIVITIES FOR RETARDED CHILDREN AND AD",
+    "streetName": "Activities, Recreation, & Care for Individuals with Developmental Disabilities",
+    "ccldLicenseNumber": "197600306",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6456 Whitsett Ave.",
+      "city": "North Hollywo",
+      "state": "CA",
+      "zipCode": "91606",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.188,
+        "lng": -118.40524
+      }
+    },
+    "contact": {
+      "phone": "(818) 762-4365",
+      "websiteUrl": "https://arc-cares.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 36,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Activities, Recreation, and Care (ARC) provides resources, programs, education, and an environment to support the independence and inclusion of people with intellectual and developmental disabilities. Their Adult Day Program offers center-based and community-integrated opportunities to foster social relationships, cultivate individual talents, and develop life and independent living skills.",
+      "minimumAge": 18,
+      "yearEstablished": 1969,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "BCR \"\"\"\"A PLACE TO GROW\"\"\"\"",
+    "streetName": "Bridging Community Resources",
+    "ccldLicenseNumber": "197601136",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "230 E. Amherst Dr.",
+      "city": "Burbank",
+      "state": "CA",
+      "zipCode": "91504",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.19035,
+        "lng": -118.320724
+      }
+    },
+    "contact": {
+      "phone": "(818) 843-4907",
+      "websiteUrl": "https://mybcr.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This structured adult developmental program is dedicated to enhancing the lives of adults with developmental disabilities. The program fosters independence through community integration training, self-advocacy, safety, personal health and hygiene, nutrition, physical fitness, and emergency procedures.",
+      "minimumAge": 18,
+      "yearEstablished": 1963,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Self-Advocacy Training",
+        "Physical Fitness",
+        "Socialization Skills",
+        "Volunteerism",
+        "Employment Skills Training"
+      ],
+      "parentOrganization": "Bridging Community Resources",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy",
+        "Epilepsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT BASIC LEARNING ENVIRONMENT   INC",
+    "streetName": "ADULT BASIC LEARNING ENVIRONMENT INC",
+    "ccldLicenseNumber": "197601249",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "204 N. Victory Blvd.",
+      "city": "Burbank",
+      "state": "CA",
+      "zipCode": "91502",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.17497,
+        "lng": -118.31718
+      }
+    },
+    "contact": {
+      "phone": "(818) 842-4933",
+      "websiteUrl": "https://www.able-inc.net/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Adult Basic Learning Environment, Inc. provides a safe, secure, and healthy environment for clients, offering opportunities to reach their maximum potential in life. The program offers structured daytime activities, health monitoring, meals, therapeutic programming, and community integration training.",
+      "minimumAge": 18,
+      "yearEstablished": 1988,
+      "languagesSupported": [
+        "English"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 62,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PATHPOINT",
+    "streetName": "PATHPOINT Community Access Project (CAP) - Lancaster",
+    "ccldLicenseNumber": "197602666",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "348 E Avenue K 4 Ste B",
+      "city": "Lancaster",
+      "state": "CA",
+      "zipCode": "93535",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.67134,
+        "lng": -118.12472
+      }
+    },
+    "contact": {
+      "phone": "(661) 723-7484",
+      "websiteUrl": "https://www.pathpoint.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Community Access Project (CAP) in Lancaster is a licensed adult day program that provides skills training and support for adults with physical and developmental disabilities. It offers a curriculum including art, music, cooking, gardening, and life skills training to promote independent living and community integration.",
+      "minimumAge": 18,
+      "yearEstablished": 1964,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration"
+      ],
+      "parentOrganization": "PathPoint",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–2:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Physical Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 96,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LIFE SKILLS TREATMENT PROGRAM",
+    "streetName": "Life Skills Program",
+    "ccldLicenseNumber": "197602842",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "215 Macneil Street",
+      "city": "San Fernando",
+      "state": "CA",
+      "zipCode": "91340",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.284428,
+        "lng": -118.437965
+      }
+    },
+    "contact": {
+      "phone": "(818) 898-1926",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Life Skills is a Community Integration program that provides meaningful volunteer work for developmentally disabled individuals in the City of San Fernando. Their goal is to create partnerships with local businesses and government entities for onsite work, focusing on job success through positive social interaction.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music",
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Within San Fernando",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 71,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ADULT BASIC LEARNING ENVIRONMENT  INC.",
+    "streetName": "Adult Basic Learning Environment, Inc.",
+    "ccldLicenseNumber": "197603293",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "320 West Colorado Blvd.",
+      "city": "Glendale",
+      "state": "CA",
+      "zipCode": "91202",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.14567082,
+        "lng": -118.1567707
+      }
+    },
+    "contact": {
+      "phone": "(818) 550-8400",
+      "websiteUrl": "https://able-inc.net"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Adult Basic Learning Environment, Inc. aims to provide a safe, secure, and healthy environment for clients, offering programs and services that enable them to reach their maximum potential. The program provides structured daytime activities, supervision, and support services for adults with disabilities who return to their homes or family caregivers in the evening.",
+      "minimumAge": 18,
+      "yearEstablished": 1988,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Meals",
+        "Therapeutic Programming",
+        "Community Integration Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 76,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VALLEY VILLAGE ADULT DAY CARE - SUNLAND",
+    "streetName": "VALLEY VILLAGE ADULT DAY CARE - SUNLAND",
+    "ccldLicenseNumber": "197603303",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8727 Fenwick Street",
+      "city": "Sunland",
+      "state": "CA",
+      "zipCode": "91040",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.261425,
+        "lng": -118.32325
+      }
+    },
+    "contact": {
+      "phone": "(818) 587-9450",
+      "websiteUrl": "http://www.ValleyVillage.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 80,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides structured daytime services and individualized health and therapeutic support for adults with developmental disabilities, focusing on building life skills, improving health and well-being, increasing independence, and community participation, especially for those requiring ongoing medical oversight.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English",
+        "Sign Language"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Sensory Room",
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Physical Fitness",
+        "Speech Therapy",
+        "Occupational Therapy",
+        "Social Activities"
+      ],
+      "parentOrganization": "Momentum Valley Village",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "San Fernando Valley and Los Angeles County, including Calabasas, Canoga Park, Chatsworth, Encino, Northridge, Reseda, Sepulveda, Sunland, Sylmar, Tarzana, and Van Nuys",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 90,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ENRICHMENT AND SOCIAL OPPORT. FOR LIFE",
+    "streetName": "Enrichment and Social Opportunities for Life Skills",
+    "ccldLicenseNumber": "197606308",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7711 Jellico Avenue",
+      "city": "Northridge",
+      "state": "CA",
+      "zipCode": "91325",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.21039,
+        "lng": -118.51742
+      }
+    },
+    "contact": {
+      "phone": "(818) 881-4427",
+      "websiteUrl": "https://www.esolnpo.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 14,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "E-SOL is a nonprofit corporation committed to improving the quality of life for adults with developmental disabilities. The program aims to provide services that teach and prepare participants with skills to function at their optimum level, focusing on activities that enhance character, increase physical strength and stamina, and build healthy self-esteem.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Tutoring",
+        "Life Skills Training"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 57,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COMMUNITY INTEGRATION ADC",
+    "streetName": "Community Integration Services, Inc.",
+    "ccldLicenseNumber": "197606348",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "10100 Balboa Bl.",
+      "city": "Granada Hills",
+      "state": "CA",
+      "zipCode": "91343",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.25418,
+        "lng": -118.50236
+      }
+    },
+    "contact": {
+      "phone": "(818) 772-1155",
+      "websiteUrl": "http://cisadp.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Community Integration Services, Inc. offers a multi-program environment promoting preventive health, diversity, and community membership for people with aging challenges and disabilities, including preventive health programs, lifelong learning classes, social recreational opportunities, family respite, health education, care coordination, and Independent Living Skills training. They are dedicated to improving the lives of individuals with disabilities by providing personalized services to support clients in achieving their goals and leading fulfilling lives, including daily living skills, behavioral support, and job placement/training assistance.",
+      "minimumAge": 18,
+      "yearEstablished": 2005,
+      "languagesSupported": [
+        "English",
+        "Spanish",
+        "Korean",
+        "Vietnamese"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Preventive Health programs",
+        "Lifelong Learning classes",
+        "Social Recreational opportunities",
+        "Family respite",
+        "Health education",
+        "Care coordination",
+        "Independent Living Skills training",
+        "Daily living skills (cooking, cleaning, personal hygiene)",
+        "Behavioral support",
+        "Job placement or training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:30pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "San Fernando Valley",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 91,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PARTNERS FOR POTENTIAL  INC.",
+    "streetName": "Partners for Potential",
+    "ccldLicenseNumber": "197606451",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6255 Van Nuys Boulevard",
+      "city": "Van Nuys",
+      "state": "CA",
+      "zipCode": "91401",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.183968,
+        "lng": -118.44872
+      }
+    },
+    "contact": {
+      "phone": "(818) 997-0819",
+      "websiteUrl": "https://www.partnersforpotential.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Partners for Potential provides training, education, and general assistance to multicultural adults with developmental disabilities, including those with intellectual challenges, autism, cerebral palsy, and seizure disorders. The program focuses on developing skills, knowledge, and attitudes for a productive and meaningful life through community-based activities, life skills training, and employment support, offered with bilingual instructors and door-to-door transportation.",
+      "minimumAge": 18,
+      "yearEstablished": 1982,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Intellectual Disabilities",
+        "Cerebral Palsy",
+        "Seizure Disorders"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "Los Angeles and Orange Counties",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 71,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "LARC NEW DAY ACTIVITY CENTER",
+    "streetName": "LARC NEW DAY ACTIVITY CENTER",
+    "ccldLicenseNumber": "197606612",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "29890 1/2 Bouquet Canyon Ro",
+      "city": "Saugus",
+      "state": "CA",
+      "zipCode": "91390",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.4808372,
+        "lng": -118.4660915
+      }
+    },
+    "contact": {
+      "phone": "(661) 296-8636",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 25,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "L.A.R.C. Foundation offers a Day Training Activity Center (DTAC) for vocational training and an Adult Developmental Center (ADC) providing personalized care and engaging activities to support individuals with developmental disabilities in achieving their full potential and independent living.",
+      "minimumAge": 18,
+      "yearEstablished": 1959,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Vocational Workshop",
+        "Multipurpose Room",
+        "Auditorium"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Social Activities",
+        "Game Nights",
+        "Movie Screenings",
+        "Community Engagement Activities",
+        "Gardening"
+      ],
+      "parentOrganization": "L.A.R.C. Foundation",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 79,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PROJECT INDEPENDENCE",
+    "streetName": "PROJECT INDEPENDENCE",
+    "ccldLicenseNumber": "197606814",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "43439 Copeland Circle",
+      "city": "Lancaster",
+      "state": "CA",
+      "zipCode": "93535",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.671745,
+        "lng": -118.1257
+      }
+    },
+    "contact": {
+      "phone": "(661) 948-8402",
+      "websiteUrl": "https://www.deserthaven.org/community-integration-services"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 102,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Project Independence is a Day Training Activity Center that assists participants with developmental disabilities to gain greater self-determination and increased independence. The program offers a variety of services designed to maximize knowledge, skills, capabilities, and experiences in areas such as self-care, daily living skills, self-advocacy, interpersonal and social skills, vocational skills, and community integration.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Community Integration",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Desert Haven Enterprises",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 77,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CREATIVE MINDS ADP  INC.",
+    "streetName": "Creative Minds ADP",
+    "ccldLicenseNumber": "197607404",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "6045 Woodman Street",
+      "city": "Van Nuys",
+      "state": "CA",
+      "zipCode": "91401",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.180267,
+        "lng": -118.43125
+      }
+    },
+    "contact": {
+      "phone": "(818) 780-1641",
+      "websiteUrl": "https://creativemindsadp.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 105,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Creative Minds ADP Inc. is a leading provider of life skills and community-based programs for individuals with developmental disabilities, fostering independence, enhancing quality of life, and promoting social inclusion and self-sufficiency.",
+      "minimumAge": 18,
+      "yearEstablished": 2007,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Community Outings"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 91,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS - PALMDALE ADULT DAY PROGRAM",
+    "streetName": "SVS - Palmdale Adult Day Program",
+    "ccldLicenseNumber": "197607610",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "38420 5th Street West Ste A",
+      "city": "Palmdale",
+      "state": "CA",
+      "zipCode": "93551",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.580387,
+        "lng": -118.1385
+      }
+    },
+    "contact": {
+      "phone": "(661) 274-4840",
+      "websiteUrl": "https://www.svsinc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program offers opportunities for individuals with developmental disabilities to experience a wide range of activities aimed at promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization in the community. It connects individuals with developmental disabilities to employers in community settings and provides a variety of services to meet diverse needs and interests.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts",
+        "Cooking",
+        "Computer technology",
+        "Gardening",
+        "Work experience",
+        "Volunteer activities",
+        "Physical fitness",
+        "Music expression",
+        "Self-advocacy",
+        "Health and well being",
+        "Community integration",
+        "Social interaction",
+        "Recreational activities",
+        "Life Skills Training",
+        "Money Management"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 73,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "PACOIMA ADC",
+    "streetName": "Pacoima Adult Day Care",
+    "ccldLicenseNumber": "197608215",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "13117 Van Nuys Blvd",
+      "city": "Pacoima",
+      "state": "CA",
+      "zipCode": "91331",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.268215,
+        "lng": -118.4192
+      }
+    },
+    "contact": {
+      "phone": "(818) 686-8100",
+      "websiteUrl": "https://pacoimaadc.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Pacoima Adult Day Care provides a supportive program for developmentally disabled adults, focusing on nutrition, academics, independent skills, exercise, and community integration. The program aims to help consumers improve weight and fitness management, acquire daily living skills, and obtain social developmental skills for community integration.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Commercial Kitchen"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Fitness, Weight Loss & Maintenance",
+        "Math & English Skills",
+        "Community Outings",
+        "Life Skills Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 81,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "E-SOL",
+    "streetName": "E-Sol (Enrichment & Social Opportunities For Life Skills)",
+    "ccldLicenseNumber": "197608406",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7144 Balboa Avenue",
+      "city": "Van Nuys",
+      "state": "CA",
+      "zipCode": "91406",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.200542,
+        "lng": -118.501114
+      }
+    },
+    "contact": {
+      "phone": "(818) 881-4427",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 49,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "E-Sol (Enrichment & Social Opportunities For Life Skills) provides quality care to special needs adults, enriching their skills and social opportunities through personalized care, tutoring, arts and crafts, structured daytime activities, supervision, and support services, including health monitoring, therapeutic activities, social and recreational programming, meals and snacks, and personal care assistance.",
+      "minimumAge": 18,
+      "yearEstablished": 2000,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Tutoring",
+        "Social and Recreational Programming",
+        "Health Monitoring",
+        "Therapeutic Activities",
+        "Life Skills Training",
+        "Personal Care Assistance"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 73,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS VAN NUYS",
+    "streetName": "SVS VAN NUYS",
+    "ccldLicenseNumber": "197608442",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "14547 Erwin Street",
+      "city": "Van Nuys",
+      "state": "CA",
+      "zipCode": "91411",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.183643,
+        "lng": -118.44975
+      }
+    },
+    "contact": {
+      "phone": "(818) 849-3021",
+      "websiteUrl": "https://www.svsinc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Social Vocational Services (SVS) connects individuals with developmental disabilities to employers in community settings and offers a wide variety of services. The program aims to promote independence, self-advocacy, community integration, self-discovery, career exploration, and socialization in the community.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc. (SVS)",
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "East and West San Fernando Valley, Calabasas, Canoga Park, Chatsworth, Encino, Northridge, Reseda, Sepulveda, Sunland, Sylmar, Tarzana, Van Nuys",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 85,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNIVERSAL DAY PROGRAM 2",
+    "streetName": "UNIVERSAL DAY PROGRAM 2",
+    "ccldLicenseNumber": "197608493",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8847 Lankershim Bl.",
+      "city": "Sun Valley",
+      "state": "CA",
+      "zipCode": "91352",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.229866,
+        "lng": -118.38777
+      }
+    },
+    "contact": {
+      "phone": "(747) 223-2350",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 128,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program serves adults with developmental disabilities, focusing on their safety and well-being within a day program setting.",
+      "minimumAge": 18,
+      "yearEstablished": 2014,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 42,
+    "lastVerifiedDate": "2026-05-26",
+    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
   }
 ]
