@@ -10,6 +10,7 @@ import ProgramGrid from './components/ProgramGrid';
 import StateRegulatoryGuide from './components/StateRegulatoryGuide';
 import RegionalCenterBanner from './components/RegionalCenterBanner';
 import AboutPage from './components/AboutPage';
+import ParentGuidePage from './components/ParentGuidePage';
 import { allPrograms } from './data/programs';
 import { extractStateMap, extractCareTypes, filterPrograms } from './utils/programUtils';
 import './index.css';
@@ -33,7 +34,7 @@ export default function App() {
   const [selectedLaZip, setSelectedLaZip] = useState('');
   const [selectedCareType, setSelectedCareType] = useState('');
   const [selectedProgramId, setSelectedProgramId] = useState('');
-  const [view, setView] = useState<'finder' | 'about'>('finder');
+  const [view, setView] = useState<'finder' | 'about' | 'guide'>('finder');
   const [mapCollapsed, setMapCollapsed] = useState(false);
   const [mapBounds, setMapBounds] = useState<MapBounds | null>(null);
 
@@ -66,7 +67,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-11">
           <span className="font-ui font-semibold text-[#1E3A5F] text-sm tracking-wide">California Adult Day Program Finder</span>
           <div className="flex gap-1">
-            {(['finder', 'about'] as const).map((v) => (
+            {(['finder', 'guide', 'about'] as const).map((v) => (
               <button
                 key={v}
                 onClick={() => setView(v)}
@@ -76,7 +77,7 @@ export default function App() {
                     : 'text-stone-500 hover:text-stone-700 hover:bg-stone-50'
                 }`}
               >
-                {v === 'finder' ? 'Find Programs' : 'About'}
+                {v === 'finder' ? 'Find Programs' : v === 'guide' ? 'Parent Guide' : 'About'}
               </button>
             ))}
           </div>
@@ -85,6 +86,8 @@ export default function App() {
 
       {view === 'about' ? (
         <AboutPage />
+      ) : view === 'guide' ? (
+        <ParentGuidePage onNavigateToFinder={() => setView('finder')} />
       ) : (
         <>
       <HeroSection
@@ -118,7 +121,11 @@ export default function App() {
         <div className="flex flex-col lg:flex-row gap-8">
           <aside className="lg:w-80 xl:w-96 shrink-0">
             <div className="lg:sticky lg:top-24 flex flex-col max-h-[calc(100vh-8rem)]">
-              <StateRegulatoryGuide selectedCounty={selectedCounty} selectedLaZip={selectedLaZip} />
+              <StateRegulatoryGuide
+                selectedCounty={selectedCounty}
+                selectedLaZip={selectedLaZip}
+                onNavigateToGuide={() => setView('guide')}
+              />
             </div>
           </aside>
 
