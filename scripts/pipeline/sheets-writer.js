@@ -36,7 +36,7 @@ export const HEADERS = [
 ];
 
 export const FUNDING_GUIDE_HEADERS = [
-  'State', 'Question', 'Answer', 'Source URL', 'Source Label',
+  'State', 'Section', 'Type', 'Heading', 'Content', 'Source Label', 'Source URL',
 ];
 
 export const REGIONAL_CENTER_HEADERS = [
@@ -127,32 +127,59 @@ export async function syncCountySummary(config) {
 }
 
 /**
- * Overwrite the Funding Guides tab with all FAQs from every state guide.
- * Clears the tab first so stale rows never accumulate.
+ * Overwrite the Enrollment Guide tab with all sections from every state guide.
+ * Flattens the structured block content into one row per content item so the
+ * sheet is human-readable and editable. Clears the tab first so stale rows
+ * never accumulate.
  *
- * @param {Array<{ state: string, faqs: Array<{ question, answer, sourceUrl?, sourceLabel? }> }>} guides
+ * Columns: State | Section | Type | Heading | Content | Source Label | Source URL
+ * Types: paragraph, note, bullet, step, question, resource, source
+ *
+ * @param {Array<{ state: string, enrollmentGuide: Array<import('../../src/types').EnrollmentSection> }>} guides
  * @param {{ spreadsheetId: string, serviceAccount: object }} config
  */
 export async function syncFundingGuides(guides, config) {
   const { spreadsheetId, serviceAccount } = config;
   const token = await _getAccessToken(serviceAccount);
-  const sheetName = 'Funding Guides';
+  const sheetName = 'Enrollment Guide';
 
   await _ensureTab(spreadsheetId, sheetName, token);
   await _clearSheet(spreadsheetId, sheetName, token);
 
   const rows = [FUNDING_GUIDE_HEADERS];
+
   for (const guide of guides) {
-    for (const faq of guide.faqs ?? []) {
-      rows.push([
-        guide.state ?? '',
-        faq.question ?? '',
-        faq.answer ?? '',
-        faq.sourceUrl ?? '',
-        faq.sourceLabel ?? '',
-      ]);
+    for (const section of guide.enrollmentGuide ?? []) {
+      for (const block of section.blocks ?? []) {
+        if (block.type === 'paragraph' || block.type === 'note') {
+          rows.push([guide.state, section.title, block.type, '', block.text ?? '', '', '']);
+        } else if (block.type === 'bullets' || block.type === 'steps') {
+          const items = block.items ?? [];
+          const rowType = block.type === 'bullets' ? 'bullet' : 'step';
+          for (let i = 0; i < items.length; i++) {
+            rows.push([guide.state, section.title, rowType, i === 0 ? (block.heading ?? '') : '', items[i], '', '']);
+          }
+        } else if (block.type === 'questions') {
+          for (const group of block.groups ?? []) {
+            for (let i = 0; i < group.questions.length; i++) {
+              rows.push([guide.state, section.title, 'question', i === 0 ? group.heading : '', group.questions[i], '', '']);
+            }
+          }
+        } else if (block.type === 'resources') {
+          for (const resource of block.items ?? []) {
+            rows.push([guide.state, section.title, 'resource', '', resource.label ?? '', '', resource.url ?? '']);
+          }
+        }
+      }
+      // Section-level source citations
+      for (const src of section.sources ?? []) {
+        if (src.url) {
+          rows.push([guide.state, section.title, 'source', '', '', src.label ?? '', src.url]);
+        }
+      }
     }
   }
+
   return _appendRows(spreadsheetId, sheetName, rows, token);
 }
 
