@@ -229,36 +229,256 @@
       "category": "Program Types"
     }
   ],
-  "faqs": [
+  "enrollmentGuide": [
     {
-      "question": "How does funding work?",
-      "answer": "Programs in this directory are licensed by California and funded by your Regional Center. Families pay nothing out of pocket — the Regional Center pays the program directly using state funds."
+      "title": "How the System Works",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "California pays for Adult Day Programs through a network of 21 nonprofit organizations called Regional Centers. The Regional Center acts as your guide through the entire process — they assess whether your family member qualifies, build a service plan together with you, and pay the program directly on your behalf."
+        },
+        {
+          "type": "paragraph",
+          "text": "These services are completely free to your family. There is no bill, no income limit, and no cost regardless of what your family earns or has saved. The California Department of Developmental Services states that services are available \"regardless of age or income.\""
+        }
+      ],
+      "sources": [
+        { "label": "CA Dept. of Developmental Services — Eligibility", "url": "https://www.dds.ca.gov/general/eligibility/" }
+      ]
     },
     {
-      "question": "Do you get to choose the program?",
-      "answer": "Yes. Your Regional Center gives you a list of authorized programs in your area, and you pick the one that fits. They cannot assign you to a specific program — the choice is yours."
+      "title": "Who Qualifies",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Funding is available under a California law called the Lanterman Act — passed in 1969, it guarantees community services and support as a legal right, not charity. To qualify, the disability must have begun before age 18."
+        },
+        {
+          "type": "paragraph",
+          "text": "Qualifying conditions include: Autism, Cerebral Palsy, Intellectual Disability (including Down syndrome), and Epilepsy. California law also covers other conditions closely related to intellectual disability that require similar care and support."
+        },
+        {
+          "type": "note",
+          "text": "Not sure if your family member qualifies? Contact your local Regional Center and ask for a free eligibility assessment. There is no cost to apply, and the Regional Center will evaluate your family member at no charge."
+        }
+      ],
+      "sources": [
+        { "label": "CA Dept. of Developmental Services — Eligibility", "url": "https://www.dds.ca.gov/general/eligibility/" },
+        { "label": "Disability Rights CA — What is the Lanterman Act?", "url": "https://rula.disabilityrightsca.org/rula-book/chapter-1-the-lanterman-act/what-is-the-lanterman-act/" }
+      ]
     },
     {
-      "question": "What is a Service Coordinator?",
-      "answer": "Every Regional Center client is assigned a Service Coordinator — a person at the RC who is your guide through the whole system. They help build your IPP, authorize services, and can tell you which programs are currently accepting new participants."
+      "title": "Before You Call: What to Gather",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "You do not need everything on this list before making first contact — but having more records available speeds up the process. If records are missing or outdated, the Regional Center is required by law to conduct its own evaluations at no cost to you. Ask for this if you need it."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Diagnosis records — from a doctor, neurologist, or licensed psychologist documenting a qualifying condition",
+            "Psychological or developmental evaluations — especially those that include assessments of how your family member manages daily tasks and independent living",
+            "School records — old education plans (called IEPs, or Individualized Education Programs), special education assessments, or any documentation of disability during school years",
+            "Medical records from treating doctors",
+            "Anything showing the disability existed before age 18 — this is a legal requirement even when applying as an adult"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "No income or asset test: Regional Center services are available regardless of your family's income or savings. You will never be asked about finances to determine eligibility."
+        }
+      ],
+      "sources": [
+        { "label": "Disability Rights CA — How Do I Apply?", "url": "https://rula.disabilityrightsca.org/rula-book/chapter-2-eligibility-for-regional-center-services/how-do-i-apply-for-regional-center-services/" }
+      ]
     },
     {
-      "question": "What is an IPP?",
-      "answer": "The Individual Program Plan (IPP) is a person-centered contract between you and your Regional Center. To have a day program 100% state-funded, the program must be explicitly approved in your IPP."
+      "title": "The Process: Step by Step",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here is what to expect after you contact your Regional Center. The full process from first call to an approved service plan typically takes several weeks to a few months."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Contact your Regional Center and ask to start the eligibility intake process. Use the Regional Centers tab in this guide to find yours, or call the state helpline at (833) 421-0061.",
+            "Initial intake meeting — the Regional Center must complete this within 15 working days of your request (California Welfare and Institutions Code Section 4642). A coordinator will review your family member's history, collect records, and have you sign forms allowing them to contact doctors and schools directly.",
+            "Eligibility decision — the Regional Center has 120 days after intake to decide if your family member qualifies. In urgent situations involving health or safety risk, they must decide within 60 days. Write down your exact intake date — this starts the legal clock.",
+            "If approved: your first service plan — called an Individual Program Plan, or IPP — must be completed within 60 days of the eligibility decision (California Welfare and Institutions Code Section 4646).",
+            "Tour programs in your area. Your Regional Center will give you a list of approved programs. Visit a few and choose the one that feels like the best fit.",
+            "Your Service Coordinator adds your chosen program to your service plan. The Regional Center then pays the program directly — your family pays nothing."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "If denied: The Regional Center must give you a written decision explaining their reasons and your rights to appeal. See the \"Your Rights\" section below."
+        }
+      ],
+      "sources": [
+        { "label": "CA Dept. of Developmental Services — Eligibility", "url": "https://www.dds.ca.gov/general/eligibility/" },
+        { "label": "Disability Rights CA — How Long Does the RC Take?", "url": "https://rula.disabilityrightsca.org/rula-book/chapter-2-eligibility-for-regional-center-services/how-long-does-the-regional-center-take-to-process-my-application/" }
+      ]
     },
     {
-      "question": "Who is Eligible?",
-      "answer": "Under the Lanterman Act, funding is available for individuals whose disability originated before age 18. Named qualifying diagnoses include Autism, Cerebral Palsy, Intellectual Disability (including Down syndrome), and Epilepsy.\n\nCalifornia law also covers other conditions closely related to intellectual disability — if you are unsure whether your family member qualifies, contact your Regional Center for an eligibility assessment.",
-      "sourceUrl": "https://www.dds.ca.gov/services/lanterman-act/",
-      "sourceLabel": "CA Dept. of Developmental Services — Lanterman Act"
+      "title": "Your Service Plan (the IPP)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Once your family member is found eligible, you and the Regional Center write a plan together called an Individual Program Plan — known as an IPP. This is a legally binding document that lists every service your family member is authorized to receive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Every service must be written into the plan before the Regional Center can pay for it — even if a coordinator mentioned it verbally. If it is not in the document, it does not exist legally. Get every agreement in writing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Your plan is typically reviewed at a meeting with your Service Coordinator every year. California law (Welfare and Institutions Code Section 4646.5) requires a full review at least once every three years. You can also request a review at any time — the Regional Center must complete it within 30 days of your request, or within 7 days if there is a health or safety concern."
+        },
+        {
+          "type": "bullets",
+          "heading": "Your rights at a service plan meeting:",
+          "items": [
+            "Bring anyone with you — a family member, friend, or advocate",
+            "Ask that a decision-maker attend — someone with authority to approve services on the spot, not just take notes",
+            "Request a draft of the plan before the meeting so you can review it in advance",
+            "Record the meeting — you have the legal right to do this with 24 hours advance notice",
+            "Request an interpreter — the Regional Center must provide one in your language at no cost"
+          ]
+        }
+      ],
+      "sources": [
+        { "label": "CA Dept. of Developmental Services — Service Plans (IPP)", "url": "https://www.dds.ca.gov/rc/ipp/" },
+        { "label": "Disability Rights CA — IPP Planning Guide", "url": "https://www.disabilityrightsca.org/publications/individualized-program-plan-ipp-planning-guide" }
+      ]
     },
     {
-      "question": "How to Start",
-      "answer": "Step 1: Contact your local Regional Center and request an eligibility intake assessment — this is free and required before any services can be funded.\n\nStep 2: Once eligible, work with your assigned Service Coordinator to build your IPP (Individual Program Plan) and get Community Day Services authorized.\n\nStep 3: Tour programs in your area.\n\nStep 4: Choose a program and have your Service Coordinator add it to your IPP.\n\nThe process typically takes several weeks to a few months. Use the Regional Centers tab in this guide to find your local RC."
+      "title": "Choosing a Program",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "You choose the program — the Regional Center cannot assign one to you. Your Service Coordinator will give you a list of programs in your area that are approved to receive Regional Center funding. You visit the programs that interest you, choose the one that feels right, and your Service Coordinator adds it to your service plan. The Regional Center then pays the program directly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Start early — some programs have waitlists. Ask your Service Coordinator which programs currently have openings, and ask to be added to multiple waitlists at the same time. There is no rule against this."
+        },
+        {
+          "type": "paragraph",
+          "text": "Programs in a different county are possible, but involve extra steps. The program needs to be approved to work with your Regional Center, and daily travel across county lines five days a week is a real practical consideration. Ask your Service Coordinator what is feasible for your situation before visiting programs outside your county."
+        }
+      ],
+      "sources": [
+        { "label": "CA Dept. of Developmental Services — Day Programs", "url": "https://www.dds.ca.gov/general/eligibility/support-services/day-program/" }
+      ]
     },
     {
-      "question": "Can I attend a program in a different county?",
-      "answer": "Yes, but there are two hurdles.\n\nFirst, the program must be vendored with your Regional Center — programs typically vendor with the RC that covers their county, not yours. Your Service Coordinator can tell you which out-of-county programs your RC already works with, or request a new vendor relationship, though that is not guaranteed.\n\nSecond, transportation: day programs run five days a week, so crossing county lines daily is a real practical and cost consideration. Ask your Service Coordinator what is feasible for your situation before touring programs outside your county."
+      "title": "Questions to Ask Your Service Coordinator",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Every Regional Center client is assigned a Service Coordinator — a person at the Regional Center who is your main guide through the whole system. They help write your service plan, authorize services, and connect you with programs. Here are useful questions to bring to your first meetings:"
+        },
+        {
+          "type": "questions",
+          "groups": [
+            {
+              "heading": "About the eligibility process:",
+              "questions": [
+                "What date are you recording as my intake date?",
+                "What additional records do you still need from me, and by when?",
+                "Can the Regional Center conduct its own evaluation if I do not have recent documentation?",
+                "When will I receive the eligibility decision in writing?"
+              ]
+            },
+            {
+              "heading": "About day programs:",
+              "questions": [
+                "Can you give me a list of all approved Adult Day Programs in our area?",
+                "Which of those programs currently have openings?",
+                "Which have waitlists, and how long are they typically?",
+                "How many hours per day or week can be authorized?"
+              ]
+            },
+            {
+              "heading": "About transportation:",
+              "questions": [
+                "Does the Regional Center fund transportation to and from the day program?",
+                "Are there distance limits on what transportation they will cover?"
+              ]
+            },
+            {
+              "heading": "About your service plan:",
+              "questions": [
+                "Can you send me a draft of the service plan before our meeting so I can review it?",
+                "Can I bring a family member or advocate to the planning meeting?",
+                "If we disagree with a decision, how do we formally appeal?"
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "title": "Your Rights and How to Appeal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "You can appeal any Regional Center decision you disagree with — including denial of eligibility, denial of a service, or any change to services your family member already receives."
+        },
+        {
+          "type": "paragraph",
+          "text": "Written notice is required. Any time the Regional Center makes a decision about services, they must give you a written Notice of Action explaining their decision and your rights. If a coordinator tells you \"no\" verbally but never sends a written notice, ask for one in writing. You cannot begin a formal appeal without it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Protecting services you already have: If the Regional Center plans to reduce or stop a service your family member is currently receiving, you have 30 days from the written notice to file an appeal if you want that service to continue while your appeal is reviewed. After 30 days, the service stops on the date listed in the notice. You still have up to 60 days total to file an appeal — you just lose the protection of keeping the service running in the meantime."
+        },
+        {
+          "type": "steps",
+          "heading": "The appeals process:",
+          "items": [
+            "File your appeal — the Regional Center, the state Department of Developmental Services (DDS), or Disability Rights California can help you with the form",
+            "An informal meeting is offered — a chance to resolve the disagreement before a formal hearing",
+            "Optional mediation — a neutral person helps both sides reach an agreement",
+            "Fair Hearing — a formal hearing before a judge, held within 50 days of your appeal request. Either side can ask for more time for good reason, and choosing mediation first may push the hearing later.",
+            "A written decision from the judge within 10 working days of the hearing"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Free help is available. Disability Rights California runs a program called the Office of Clients' Rights Advocacy (OCRA) — funded by the state specifically to help Regional Center clients. Every one of the 21 Regional Centers has a Clients' Rights Advocate available to you at no cost. You do not need to hire a lawyer. Call OCRA at (800) 390-7032 (Northern California) or (866) 833-6712 (Southern California)."
+        }
+      ],
+      "sources": [
+        { "label": "Disability Rights CA — Appeal Process & Timeline", "url": "https://rula.disabilityrightsca.org/rula-book/chapter-10-appeals-and-complaints-disagreements-with-regional-centers-developmental-centers-or-service-providers/1-1-what-is-the-appeal-process-and-my-timeline-to-appeal/" },
+        { "label": "CA Dept. of Developmental Services — Fair Hearings", "url": "https://www.dds.ca.gov/general/appeals-complaints-comments/fair-hearings-complaint-process/" }
+      ]
+    },
+    {
+      "title": "Official Resources",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These are verified official and advocacy resources for California families navigating the Regional Center system:"
+        },
+        {
+          "type": "resources",
+          "items": [
+            { "label": "Find Your Regional Center (by county)", "url": "https://www.dds.ca.gov/rc/lookup-rcs-by-county/" },
+            { "label": "CA Dept. of Developmental Services — Eligibility Overview", "url": "https://www.dds.ca.gov/general/eligibility/" },
+            { "label": "CA Dept. of Developmental Services — Day Programs", "url": "https://www.dds.ca.gov/general/eligibility/support-services/day-program/" },
+            { "label": "CA Dept. of Developmental Services — Service Plans (IPP)", "url": "https://www.dds.ca.gov/rc/ipp/" },
+            { "label": "CA Dept. of Developmental Services — Appeals & Fair Hearings", "url": "https://www.dds.ca.gov/general/appeals-complaints-comments/fair-hearings-complaint-process/" },
+            { "label": "RULA — Rights Under the Lanterman Act (free guide, available in 7 languages)", "url": "https://rula.disabilityrightsca.org/" },
+            { "label": "Disability Rights CA — IPP Planning Guide", "url": "https://www.disabilityrightsca.org/publications/individualized-program-plan-ipp-planning-guide" },
+            { "label": "Disability Rights CA — Appeals & Hearings Toolkit", "url": "https://www.disabilityrightsca.org/resources/regional-center/regional-center-appeals-and-hearings-toolkit" }
+          ]
+        }
+      ],
+      "sources": []
     }
   ]
 }

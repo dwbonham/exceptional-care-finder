@@ -2,4 +2,4 @@
 // All data now lives in src/data/funding-guides/
 // All types now live in src/types/index.ts
 export { getFundingGuide } from './funding-guides';
-export type { FundingGuide, FundingGuideFaq, LocalAgencyContact } from '../types';
+export type { FundingGuide, EnrollmentSection, EnrollmentBlock, LocalAgencyContact } from '../types';

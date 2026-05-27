@@ -84,11 +84,23 @@ export interface LocalAgencyContact {
   note?: string;
 }
 
-export interface FundingGuideFaq {
-  question: string;
-  answer: string;
-  sourceUrl?: string;
-  sourceLabel?: string;
+export interface EnrollmentSource {
+  label: string;
+  url: string;
+}
+
+export interface EnrollmentBlock {
+  type: 'paragraph' | 'bullets' | 'steps' | 'note' | 'questions' | 'resources';
+  text?: string;
+  heading?: string;
+  items?: string[] | EnrollmentSource[];
+  groups?: Array<{ heading: string; questions: string[] }>;
+}
+
+export interface EnrollmentSection {
+  title: string;
+  blocks: EnrollmentBlock[];
+  sources?: EnrollmentSource[];
 }
 
 export interface GlossaryTerm {
@@ -101,7 +113,7 @@ export interface FundingGuide {
   state: string;
   title: string;
   localAgencies: LocalAgencyContact[];
-  faqs: FundingGuideFaq[];
+  enrollmentGuide: EnrollmentSection[];
   glossary?: GlossaryTerm[];
   careTypeDefinitions?: GlossaryTerm[];
 }

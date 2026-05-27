@@ -1,16 +1,21 @@
 import { useState } from 'react';
 import { getFundingGuide } from '../data/funding-guides';
+import type { EnrollmentBlock, EnrollmentSource } from '../types';
 
-type Tab = 'guide' | 'centers' | 'glossary';
+type Tab = 'enrollment' | 'centers' | 'glossary';
 
 interface Props {
   selectedCounty?: string;
   selectedLaZip?: string;
 }
 
+function isSourceArray(items: EnrollmentBlock['items']): items is EnrollmentSource[] {
+  return Array.isArray(items) && items.length > 0 && typeof (items[0] as EnrollmentSource).url === 'string';
+}
+
 export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip }: Props = {}) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
-  const [activeTab, setActiveTab] = useState<Tab>('guide');
+  const [activeTab, setActiveTab] = useState<Tab>('enrollment');
 
   const guide = getFundingGuide('CA');
   if (!guide) return null;
@@ -37,8 +42,8 @@ export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip }: 
 
         {/* Tab strip */}
         <div className="flex -mx-6 px-6" role="tablist">
-          {(['guide', 'centers', 'glossary'] as Tab[]).map((tab) => {
-            const label = tab === 'guide' ? 'State Guide' : tab === 'centers' ? 'Regional Centers' : 'Glossary';
+          {(['enrollment', 'centers', 'glossary'] as Tab[]).map((tab) => {
+            const label = tab === 'enrollment' ? 'Get Started' : tab === 'centers' ? 'Regional Centers' : 'Glossary';
             const isActive = activeTab === tab;
             return (
               <button
@@ -61,7 +66,129 @@ export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip }: 
 
       {/* Scrollable body */}
       <div className="overflow-y-auto flex-1 min-h-0">
-        {activeTab === 'glossary' ? (
+        {activeTab === 'enrollment' ? (
+          <div className="divide-y divide-slate-100">
+            {guide.enrollmentGuide.map((section, i) => (
+              <div key={i}>
+                <button
+                  onClick={() => setOpenIndex(openIndex === i ? null : i)}
+                  className="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-slate-50 transition-colors duration-150 cursor-pointer"
+                  aria-expanded={openIndex === i}
+                >
+                  <span className="font-ui text-sm font-semibold text-[#1E3A5F] pr-4">{section.title}</span>
+                  <span
+                    className={`text-slate-400 text-sm shrink-0 transition-transform duration-200 ${openIndex === i ? 'rotate-180' : ''}`}
+                    aria-hidden="true"
+                  >▾</span>
+                </button>
+
+                {openIndex === i && (
+                  <div className="px-5 pb-5 space-y-3">
+                    {section.blocks.map((block, bi) => {
+                      if (block.type === 'paragraph') {
+                        return <p key={bi} className="text-sm text-slate-600 leading-relaxed">{block.text}</p>;
+                      }
+                      if (block.type === 'note') {
+                        return (
+                          <div key={bi} className="rounded-lg bg-amber-50 border border-amber-200 px-3 py-2.5">
+                            <p className="text-xs text-amber-800 leading-relaxed">{block.text}</p>
+                          </div>
+                        );
+                      }
+                      if (block.type === 'bullets' || block.type === 'steps') {
+                        const isSteps = block.type === 'steps';
+                        const stringItems = (block.items ?? []) as string[];
+                        return (
+                          <div key={bi}>
+                            {block.heading && (
+                              <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">{block.heading}</p>
+                            )}
+                            {isSteps ? (
+                              <ol className="space-y-2 list-none">
+                                {stringItems.map((item, ii) => (
+                                  <li key={ii} className="flex items-start gap-2.5 text-sm text-slate-600 leading-relaxed">
+                                    <span className="shrink-0 mt-0.5 w-5 h-5 rounded-full bg-[#1E3A5F] text-white text-[10px] font-bold flex items-center justify-center">{ii + 1}</span>
+                                    <span>{item}</span>
+                                  </li>
+                                ))}
+                              </ol>
+                            ) : (
+                              <ul className="space-y-1.5">
+                                {stringItems.map((item, ii) => (
+                                  <li key={ii} className="flex items-start gap-2 text-sm text-slate-600 leading-relaxed">
+                                    <span className="shrink-0 mt-1.5 w-1.5 h-1.5 rounded-full bg-[#C2410C]" aria-hidden="true" />
+                                    <span>{item}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
+                          </div>
+                        );
+                      }
+                      if (block.type === 'questions') {
+                        return (
+                          <div key={bi} className="space-y-4">
+                            {(block.groups ?? []).map((group, gi) => (
+                              <div key={gi}>
+                                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1.5">{group.heading}</p>
+                                <ul className="space-y-1.5">
+                                  {group.questions.map((q, qi) => (
+                                    <li key={qi} className="flex items-start gap-2 text-sm text-slate-600 leading-relaxed">
+                                      <span className="shrink-0 mt-1 text-[#C2410C] text-xs font-bold">?</span>
+                                      <span>{q}</span>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
+                          </div>
+                        );
+                      }
+                      if (block.type === 'resources' && isSourceArray(block.items)) {
+                        return (
+                          <div key={bi} className="space-y-2">
+                            {(block.items as EnrollmentSource[]).map((res, ri) => (
+                              <a
+                                key={ri}
+                                href={res.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-1.5 text-sm text-[#C2410C] hover:text-[#A33509] hover:underline leading-snug"
+                              >
+                                <span className="shrink-0 text-xs" aria-hidden="true">📄</span>
+                                {res.label}
+                                <span className="opacity-60 text-xs">↗</span>
+                              </a>
+                            ))}
+                          </div>
+                        );
+                      }
+                      return null;
+                    })}
+
+                    {(section.sources ?? []).length > 0 && (
+                      <div className="pt-2 border-t border-slate-100 flex flex-wrap gap-x-4 gap-y-1">
+                        {section.sources!.map((src, si) => (
+                          <a
+                            key={si}
+                            href={src.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 text-xs text-slate-400 hover:text-[#C2410C] hover:underline"
+                          >
+                            <span aria-hidden="true">📄</span>
+                            {src.label}
+                            <span className="opacity-60">↗</span>
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        ) : activeTab === 'glossary' ? (
           <div className="px-5 py-4 space-y-6">
             {/* Care Type Definitions */}
             {(guide.careTypeDefinitions ?? []).length > 0 && (
@@ -92,51 +219,6 @@ export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip }: 
                 </dl>
               </div>
             )}
-          </div>
-        ) : activeTab === 'guide' ? (
-          <div className="divide-y divide-slate-100">
-            {guide.faqs.map((faq, i) => (
-              <div key={i}>
-                <button
-                  onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                  className="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-slate-50 transition-colors duration-150 cursor-pointer"
-                  aria-expanded={openIndex === i}
-                >
-                  <span className="font-ui text-sm font-semibold text-[#1E3A5F] pr-4">{faq.question}</span>
-                  <span
-                    className={`text-slate-400 text-sm shrink-0 transition-transform duration-200 ${
-                      openIndex === i ? 'rotate-180' : ''
-                    }`}
-                    aria-hidden="true"
-                  >
-                    ▾
-                  </span>
-                </button>
-
-                {openIndex === i && (
-                  <div className="px-5 pb-4 space-y-3">
-                    <div className="space-y-2">
-                      {faq.answer.split('\n\n').map((para, pi) => (
-                        <p key={pi} className="text-sm text-slate-600 leading-relaxed">{para}</p>
-                      ))}
-                    </div>
-
-                    {faq.sourceUrl && (
-                      <a
-                        href={faq.sourceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-xs font-medium text-[#C2410C] hover:text-[#A33509] hover:underline"
-                      >
-                        <span aria-hidden="true">📄</span>
-                        {faq.sourceLabel ?? 'Official Source'}
-                        <span className="opacity-60">↗</span>
-                      </a>
-                    )}
-                  </div>
-                )}
-              </div>
-            ))}
           </div>
         ) : (
           <div className="px-5 py-4">
