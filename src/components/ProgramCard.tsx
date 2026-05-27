@@ -84,19 +84,6 @@ export default function ProgramCard({ program }: Props) {
           </div>
         )}
 
-        {/* Population specialization — who this program is designed for */}
-        {facilityDetails.populationSpecialization && facilityDetails.populationSpecialization.length > 0 && (
-          <div className="mt-2">
-            <div className="flex flex-wrap gap-2">
-              {facilityDetails.populationSpecialization.map((pop) => (
-                <span key={pop} className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-violet-100 text-violet-700 border border-violet-200">
-                  {pop}
-                </span>
-              ))}
-            </div>
-            <p className="text-[10px] text-slate-400 italic mt-1">AI-researched · contact program to confirm</p>
-          </div>
-        )}
       </div>
 
       {/* Card body */}
