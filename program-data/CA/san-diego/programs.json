@@ -1,522 +1,5 @@
 [
   {
-    "legalLicenseName": "ST MADELEINE SOPHIES CENTER",
-    "streetName": "ST MADELEINE SOPHIES CENTER",
-    "ccldLicenseNumber": "370800930",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "2119 E. Madison Avenue",
-      "city": "El Cajon",
-      "state": "CA",
-      "zipCode": "92019",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 32.8033,
-        "lng": -116.90069
-      }
-    },
-    "contact": {
-      "phone": "(619) 442-5129",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 400,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ARC-EAST  TRAINING CENTER",
-    "streetName": "ARC-EAST  TRAINING CENTER",
-    "ccldLicenseNumber": "370803149",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1374 E. Lexington Avenue",
-      "city": "El Cajon",
-      "state": "CA",
-      "zipCode": "92019",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 32.792725,
-        "lng": -116.9322
-      }
-    },
-    "contact": {
-      "phone": "(619) 444-9417",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 180,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "ARC OF SAN DIEGO-SOL AND RUTH GERBER FA",
-    "streetName": "ARC OF SAN DIEGO-SOL AND RUTH GERBER FA",
-    "ccldLicenseNumber": "370803192",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1280 Nolan Avenue",
-      "city": "Chula Vista",
-      "state": "CA",
-      "zipCode": "91911",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 32.61461,
-        "lng": -117.04233
-      }
-    },
-    "contact": {
-      "phone": "(619) 427-7524",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 186,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "GEORGE G. GLENNER ALZHEIMER'S FAMILY CE",
-    "streetName": "GEORGE G. GLENNER ALZHEIMER'S FAMILY CE",
-    "ccldLicenseNumber": "370804406",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "3686 Fourth Ave.",
-      "city": "San Diego",
-      "state": "CA",
-      "zipCode": "92103",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 32.7448,
-        "lng": -117.16158
-      }
-    },
-    "contact": {
-      "phone": "(619) 543-4704",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 24,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "UNYEWAY  INC.-ADULT DEVELOPMENT CENTER",
-    "streetName": "UNYEWAY  INC.-ADULT DEVELOPMENT CENTER",
-    "ccldLicenseNumber": "370808372",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "11440 Riverside Dr  A-D & I",
-      "city": "Lakeside",
-      "state": "CA",
-      "zipCode": "92040",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 32.860985,
-        "lng": -116.94622
-      }
-    },
-    "contact": {
-      "phone": "(619) 562-6330",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 224,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM - CIVIC",
-    "streetName": "AVID BEHAVIORAL DAY PROGRAM - CIVIC",
-    "ccldLicenseNumber": "371881367",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "510 Civic Center Dr Suite E",
-      "city": "Vista",
-      "state": "CA",
-      "zipCode": "92084",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.199065,
-        "lng": -117.23421
-      }
-    },
-    "contact": {
-      "phone": "(858) 442-6840",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 15,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM-CAPALINA",
-    "streetName": "AVID BEHAVIORAL DAY PROGRAM-CAPALINA",
-    "ccldLicenseNumber": "371881409",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "1637 Capalina Rd",
-      "city": "San Marcos",
-      "state": "CA",
-      "zipCode": "92069",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.15184421,
-        "lng": -117.1974378
-      }
-    },
-    "contact": {
-      "phone": "(858) 442-6840",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "CENTER FOR THE ARTS AND ADULT EDUCATION",
-    "streetName": "CENTER FOR THE ARTS AND ADULT EDUCATION",
-    "ccldLicenseNumber": "371881461",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "555 Deer Spring Road",
-      "city": "San Marcos",
-      "state": "CA",
-      "zipCode": "92069",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.19455894,
-        "lng": -117.1457624
-      }
-    },
-    "contact": {
-      "phone": "(760) 721-1706",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 200,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "STEPPING STONE RESOURCES",
-    "streetName": "STEPPING STONE RESOURCES",
-    "ccldLicenseNumber": "371881466",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "842 South Main Avenue",
-      "city": "Fallbrook",
-      "state": "CA",
-      "zipCode": "92028",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.37535155,
-        "lng": -117.2514595
-      }
-    },
-    "contact": {
-      "phone": "(760) 451-8692",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 40,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "AVID BDP PENNSYLVANIA",
-    "streetName": "AVID BDP PENNSYLVANIA",
-    "ccldLicenseNumber": "371881598",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "351 E Pennsylvania Ave",
-      "city": "Escondido",
-      "state": "CA",
-      "zipCode": "92025",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.12530051,
-        "lng": -117.0790348
-      }
-    },
-    "contact": {
-      "phone": "(858) 442-6840",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "NEW BEGINNINGS #1 LLC",
-    "streetName": "NEW BEGINNINGS #1 LLC",
-    "ccldLicenseNumber": "371881641",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "504 E Alvarado St #102 201",
-      "city": "Fallbrook",
-      "state": "CA",
-      "zipCode": "92028",
-      "county": "San Diego",
-      "coordinates": {
-        "lat": 33.38216131,
-        "lng": -117.2291184
-      }
-    },
-    "contact": {
-      "phone": "(760) 586-1994",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "LEARNING SERVICES ESCONDIDO-ADULT DAY C",
     "streetName": "LEARNING SERVICES ESCONDIDO-ADULT DAY C",
     "ccldLicenseNumber": "372008307",
@@ -3288,5 +2771,745 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ST MADELEINE SOPHIES CENTER",
+    "streetName": "ST MADELEINE SOPHIES CENTER",
+    "ccldLicenseNumber": "370800930",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2119 E. Madison Avenue",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92019",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.8033,
+        "lng": -116.90069
+      }
+    },
+    "contact": {
+      "phone": "(619) 442-5129",
+      "websiteUrl": "https://www.stmsc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 400,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "St. Madeleine Sophie's Center educates and empowers individuals with intellectual and developmental disabilities to realize their full potential through nationally recognized innovative programs that provide liberal arts education, practical skills development, and employment opportunities.",
+      "minimumAge": 18,
+      "yearEstablished": 1966,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Aquatics",
+        "Gardening",
+        "Vocational Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Cerebral Palsy",
+        "Intellectual Disability",
+        "Epilepsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "San Diego region",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Empowers adults with developmental disabilities, including autism and Down syndrome, to reach their full potential.",
+        "Offers education, job training, arts, and independent living programs since 1972.",
+        "Features a two-acre certified organic garden for therapeutic and work training."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC-EAST  TRAINING CENTER",
+    "streetName": "East County Training Center",
+    "ccldLicenseNumber": "370803149",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1374 E. Lexington Avenue",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92019",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.792725,
+        "lng": -116.9322
+      }
+    },
+    "contact": {
+      "phone": "(619) 444-9417",
+      "websiteUrl": "https://www.arc-sd.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 180,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The East County Training Center, part of The Arc of San Diego, provides day training services that combine classroom instruction with community integration and vocational development. It offers various programs including an Adult Development Center, Activity Center, Community Inclusion Services, and a Seniors Program, all aimed at promoting independence and supporting individuals from those transitioning from public education to those in their retirement years.",
+      "minimumAge": 18,
+      "yearEstablished": 1951,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Community Integration",
+        "Vocational Training",
+        "Health and Fitness"
+      ],
+      "parentOrganization": "The Arc of San Diego",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Cerebral Palsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "East County Training Center supports adults with developmental disabilities through diverse programs.",
+        "Programs include vocational training, community integration, and a Seniors Program."
+      ]
+    },
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ARC OF SAN DIEGO-SOL AND RUTH GERBER FA",
+    "streetName": "The Sol and Ruth Gerber Family Center",
+    "ccldLicenseNumber": "370803192",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1280 Nolan Avenue",
+      "city": "Chula Vista",
+      "state": "CA",
+      "zipCode": "91911",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.61461,
+        "lng": -117.04233
+      }
+    },
+    "contact": {
+      "phone": "(619) 427-7524",
+      "websiteUrl": "https://www.arc-sd.com"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 186,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Sol and Ruth Gerber Family Center offers four day programs designed to assist individuals with developmental disabilities in acquiring skills for increased independence, achieving personal goals, and maximizing participation in community and work environments. Programs provide vocational, educational, and recreational support tailored to individual needs.",
+      "minimumAge": 18,
+      "yearEstablished": 2015,
+      "languagesSupported": [
+        "English",
+        "Spanish",
+        "American Sign Language"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Functional Academics",
+        "Social Skills Training",
+        "Vocational Skills Training",
+        "Physical Wellness Training",
+        "Cooking Classes",
+        "Gardening Activities",
+        "Computer Skills",
+        "Public Transportation Training",
+        "Shopping Skills Development",
+        "Volunteering",
+        "Paid Work Experiences",
+        "Museum Visits",
+        "Park Visits",
+        "Senior and Nutrition Center Visits",
+        "Bowling",
+        "Movies"
+      ],
+      "parentOrganization": "The Arc of San Diego",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "San Diego County",
+      "acceptsPrivatePay": "Yes",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "The Sol and Ruth Gerber Family Center supports adults with intellectual and developmental disabilities.",
+        "It offers day programs focused on life skills, community integration, and vocational development.",
+        "The program is CARF accredited and part of The Arc of San Diego, founded by parents in 1951."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "UNYEWAY  INC.-ADULT DEVELOPMENT CENTER",
+    "streetName": "UNYEWAY INC.-ADULT DEVELOPMENT CENTER",
+    "ccldLicenseNumber": "370808372",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "11440 Riverside Dr  A-D & I",
+      "city": "Lakeside",
+      "state": "CA",
+      "zipCode": "92040",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.860985,
+        "lng": -116.94622
+      }
+    },
+    "contact": {
+      "phone": "(619) 789-5960",
+      "websiteUrl": "http://www.unyeway.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 224,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Unyeway Inc. is committed to providing quality employment opportunities and training programs to adults with developmental disabilities. The Adult Development Center focuses on increasing independence in self-care, functional living, self-direction, communication, and community integration skills.",
+      "minimumAge": 18,
+      "yearEstablished": 1983,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Behavior Management",
+        "Self-Advocacy Training",
+        "Communication Skills Training",
+        "Vocational Training"
+      ],
+      "parentOrganization": "Unyeway, Inc.",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Unyeway Inc. serves adults with developmental disabilities in San Diego County, offering employment and training programs.",
+        "Established in 1977, Unyeway Inc. is a non-profit with employment services accredited by CARF."
+      ]
+    },
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM - CIVIC",
+    "streetName": "AVID Behavioral Day Program - Civic",
+    "ccldLicenseNumber": "371881367",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "510 Civic Center Dr Suite E",
+      "city": "Vista",
+      "state": "CA",
+      "zipCode": "92084",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.199065,
+        "lng": -117.23421
+      }
+    },
+    "contact": {
+      "phone": "(858) 442-6840",
+      "websiteUrl": "https://www.avidbdp.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 15,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "AVID Behavioral Day Program is dedicated to empowering individuals to develop the skills, confidence, and independence needed to thrive within their communities. The program supports adults with developmental disabilities in reaching their fullest personal and vocational potential through creativity, encouragement, and positive, person-centered approaches.",
+      "minimumAge": 18,
+      "maximumAge": 59,
+      "yearEstablished": 2013,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "activitiesOffered": [
+        "Behavior Management/Applied Behavior Analysis (ABA)",
+        "Functional Skill Training",
+        "Vocational Development Training",
+        "Access to Community Resources",
+        "Self Advocacy",
+        "Mobility Training",
+        "Independent Living Skills",
+        "Socialization",
+        "Self-Care",
+        "Sexuality Education",
+        "Leisure Skill Development",
+        "Recreational Skill Development",
+        "Yoga",
+        "Music"
+      ],
+      "parentOrganization": "AVID Behavioral Day Program Corp",
+      "daysOfOperation": "Monday–Sunday",
+      "hoursOfOperation": "Monday–Friday: 9:00am–6:00pm, Saturday–Sunday: 10:00am–4:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Severe Learning Disabilities",
+        "Severe Emotional Disabilities",
+        "Psychosis"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "AVID Behavioral Day Program uses Applied Behavioral Analysis (ABA) to foster skills and independence.",
+        "This program supports adults with developmental disabilities, including autism and intellectual disabilities.",
+        "Established in 2013, AVID empowers individuals through vocational and social skill development."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AVID BEHAVIORAL DAY PROGRAM-CAPALINA",
+    "streetName": "AVID Behavioral Day Program",
+    "ccldLicenseNumber": "371881409",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1637 Capalina Rd",
+      "city": "San Marcos",
+      "state": "CA",
+      "zipCode": "92069",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.15184421,
+        "lng": -117.1974378
+      }
+    },
+    "contact": {
+      "phone": "(760) 691-9622",
+      "websiteUrl": "http://WWW.AVIDBDP.ORG"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 120,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "AVID Behavioral Day Program is dedicated to empowering individuals to develop the skills, confidence, and independence needed to thrive within their communities. The program supports adults with developmental disabilities in reaching their fullest personal and vocational potential through creativity, encouragement, and positive, person-centered approaches.",
+      "minimumAge": 18,
+      "yearEstablished": 2013,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Behavior Management",
+        "Community Integration",
+        "Self-Advocacy"
+      ],
+      "parentOrganization": "Avid Behavioral Day Program Corp",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "AVID Behavioral Day Program empowers adults with developmental disabilities, including autism and intellectual disabilities.",
+        "The program focuses on independent living skills, community integration, and vocational potential.",
+        "Founded in 2013, it offers behavioral support and skill-building in a community-based setting."
+      ]
+    },
+    "completenessScore": 90,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "CENTER FOR THE ARTS AND ADULT EDUCATION",
+    "streetName": "Center for the Arts",
+    "ccldLicenseNumber": "371881461",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "555 Deer Spring Road",
+      "city": "San Marcos",
+      "state": "CA",
+      "zipCode": "92069",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.19455894,
+        "lng": -117.1457624
+      }
+    },
+    "contact": {
+      "phone": "(858) 356-4546",
+      "websiteUrl": "https://www.teriinc.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 200,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "The Center for the Arts is a vocational and experiential arts program for adults transitioning from school-age services, offering theater, fine arts, and creative enrichment. It aims to empower neurodiverse individuals and those with intellectual and developmental disabilities through education, arts, fitness, and meaningful connection.",
+      "minimumAge": 18,
+      "yearEstablished": 1980,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Performing Arts",
+        "Fitness",
+        "Urban Agriculture"
+      ],
+      "parentOrganization": "TERI (Training, Education & Resource Institute)",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "7:00am–3:00pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "TERI's Center for the Arts offers enriching fine, music, and performing arts experiences for adults with developmental disabilities.",
+        "The program supports adults 18+ with autism, cerebral palsy, and related developmental disabilities, fostering self-expression.",
+        "Established in 2009, it provides adaptive arts opportunities at the TERI Campus of Life in San Marcos."
+      ]
+    },
+    "completenessScore": 99,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "STEPPING STONE RESOURCES",
+    "streetName": "STEPPING STONE RESOURCES",
+    "ccldLicenseNumber": "371881466",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "842 South Main Avenue",
+      "city": "Fallbrook",
+      "state": "CA",
+      "zipCode": "92028",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.37535155,
+        "lng": -117.2514595
+      }
+    },
+    "contact": {
+      "phone": "(760) 858-8008",
+      "websiteUrl": "https://steppingstoneresources.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 40,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Stepping Stone Resources offers both community-based and site-based adult day programs. The community-based program supports adults with developmental and intellectual disabilities through meaningful activities in real-world community settings. The site-based program is designed for special needs adults with behavioral challenges, providing a structured and predictable environment.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "transportationServiceArea": "North San Diego County, including Fallbrook, San Marcos, Vista, Bonsall, Valley Center, Rainbow, Pala.",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Stepping Stone Resources offers behavioral and community-based adult day programs for individuals with developmental and intellectual disabilities.",
+        "They are a vendorized provider for the San Diego Regional Center, focusing on structured support and community integration."
+      ]
+    },
+    "completenessScore": 66,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "AVID BDP PENNSYLVANIA",
+    "streetName": "AVID Behavioral Day Program",
+    "ccldLicenseNumber": "371881598",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "351 E Pennsylvania Ave",
+      "city": "Escondido",
+      "state": "CA",
+      "zipCode": "92025",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.12530051,
+        "lng": -117.0790348
+      }
+    },
+    "contact": {
+      "phone": "(442) 999-5740",
+      "websiteUrl": "http://www.avidbdp.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "AVID Behavioral Day Program is dedicated to empowering individuals to develop the skills, confidence, and independence needed to thrive within their communities. The program supports adults with developmental disabilities in reaching their fullest personal and vocational potential through creativity, encouragement, and positive, person-centered approaches.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Computer Lab",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Mobility Skill Training",
+        "Shopping Skills",
+        "Personal Care Skills",
+        "Healthy Cooking/Baking Skills",
+        "Safety Skills",
+        "Laundry Skills",
+        "Wellness and Physical Fitness",
+        "Budgeting and Money Management",
+        "Positive Social Interaction",
+        "Effective Communication",
+        "Computer Skills"
+      ],
+      "parentOrganization": "AVID Behavioral Day Program Corp",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Severe Learning Disabilities",
+        "Severe Emotional Disabilities",
+        "Psychosis"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "AVID Behavioral Day Program empowers adults with developmental disabilities, including autism and intellectual disabilities.",
+        "The program uses positive behavior management and Applied Behavioral Analysis to foster independent living skills."
+      ]
+    },
+    "completenessScore": 80,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "NEW BEGINNINGS #1 LLC",
+    "streetName": "New Beginnings",
+    "ccldLicenseNumber": "371881641",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "504 E Alvarado St #102 201",
+      "city": "Fallbrook",
+      "state": "CA",
+      "zipCode": "92028",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 33.38216131,
+        "lng": -117.2291184
+      }
+    },
+    "contact": {
+      "phone": "(760) 451-6012",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Our Behavior Modification Adult Day Program is designed to empower individuals through meaningful activities that encourage independence, skill development, and community engagement. Each participant follows a personalized plan that supports their goals, builds confidence, and fosters lasting connections with peers.",
+      "minimumAge": 18,
+      "yearEstablished": 2023,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Vocational Training",
+        "Community Integration",
+        "Social Recreation"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–2:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "New Beginnings offers an Adult Day Program for adults with developmental disabilities.",
+        "The program provides vocational training, life skills, and community integration.",
+        "Founded in 2023, it focuses on skill-building and independence."
+      ]
+    },
+    "completenessScore": 84,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
   }
 ]

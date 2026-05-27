@@ -329,288 +329,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "FIRST STEP FONTANA",
-    "streetName": "FIRST STEP FONTANA",
-    "ccldLicenseNumber": "366426118",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "8621 Juniper Ave Ste 101",
-      "city": "Fontana",
-      "state": "CA",
-      "zipCode": "92335",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.097088,
-        "lng": -117.44012
-      }
-    },
-    "contact": {
-      "phone": "(909) 829-8604",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "OPARC SUMMIT SERVICES EAST",
-    "streetName": "OPARC SUMMIT SERVICES EAST",
-    "ccldLicenseNumber": "366426534",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "732 E. Carnegie  Ste. 125",
-      "city": "San Bernardin",
-      "state": "CA",
-      "zipCode": "92408",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.06946,
-        "lng": -117.27268
-      }
-    },
-    "contact": {
-      "phone": "(909) 890-5919",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 60,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "SVS SAN BERNARDINO",
-    "streetName": "SVS SAN BERNARDINO",
-    "ccldLicenseNumber": "366426837",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "350 E. Commercial Road #114",
-      "city": "San Bernardin",
-      "state": "CA",
-      "zipCode": "92408",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.055824,
-        "lng": -117.27719
-      }
-    },
-    "contact": {
-      "phone": "(909) 255-8161",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 45,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "B.E.S.T.OPPORTUNITIES  INC.",
-    "streetName": "B.E.S.T.OPPORTUNITIES  INC.",
-    "ccldLicenseNumber": "366427385",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "12269 Scarbrough Ct.",
-      "city": "Hesperia",
-      "state": "CA",
-      "zipCode": "92345",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.413082,
-        "lng": -117.395615
-      }
-    },
-    "contact": {
-      "phone": "(760) 628-0111",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 250,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COLE VOCATIONAL SERVICES HESPERIA",
-    "streetName": "COLE VOCATIONAL SERVICES HESPERIA",
-    "ccldLicenseNumber": "366427604",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "15075 Main St",
-      "city": "Hesperia",
-      "state": "CA",
-      "zipCode": "92345",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.427025,
-        "lng": -117.3347
-      }
-    },
-    "contact": {
-      "phone": "(760) 998-2829",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 75,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "INNOVATIVE BUSINESS PARTNERSHIPS INC",
-    "streetName": "INNOVATIVE BUSINESS PARTNERSHIPS INC",
-    "ccldLicenseNumber": "366427612",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "17185 Yuma Street",
-      "city": "Victorville",
-      "state": "CA",
-      "zipCode": "92393",
-      "county": "San Bernardino",
-      "coordinates": {
-        "lat": 34.473507,
-        "lng": -117.28836
-      }
-    },
-    "contact": {
-      "phone": "(760) 243-1400",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 165,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "OPARC ADULT DEVELOPMENTAL CENTER-MONTE",
     "streetName": "OPARC Adult Developmental Center - Monte Vista",
     "ccldLicenseNumber": "360910501",
@@ -2801,5 +2519,425 @@
     "completenessScore": 100,
     "lastVerifiedDate": "2026-05-25",
     "dataSourceNotes": "Pipeline import 2026-05-25. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FIRST STEP FONTANA",
+    "streetName": "FIRST STEP FONTANA",
+    "ccldLicenseNumber": "366426118",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8621 Juniper Ave Ste 101",
+      "city": "Fontana",
+      "state": "CA",
+      "zipCode": "92335",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.097088,
+        "lng": -117.44012
+      }
+    },
+    "contact": {
+      "phone": "(909) 428-6201",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "First Step Fontana is an adult day program that provides structured daytime activities, supervision, and support services for adults who need assistance during the day. Services include health monitoring, therapeutic activities, social and recreational programming, meals, personal care, and medication management.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Structured Daytime Activities",
+        "Health Monitoring",
+        "Therapeutic Programming",
+        "Social and Recreational Programming",
+        "Personal Care Assistance",
+        "Medication Management",
+        "Physical Therapy",
+        "Occupational Therapy",
+        "Nursing Services"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 57,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OPARC SUMMIT SERVICES EAST",
+    "streetName": "Oparc Summit Services East",
+    "ccldLicenseNumber": "366426534",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "732 E. Carnegie  Ste. 125",
+      "city": "San Bernardin",
+      "state": "CA",
+      "zipCode": "92408",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.06946,
+        "lng": -117.27268
+      }
+    },
+    "contact": {
+      "phone": "(909) 890-5919",
+      "websiteUrl": "https://www.oparc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "This program provides specialized support and training to adults with developmental and behavioral challenges, focusing on developing social skills, reducing behavioral incidents, and fostering independence and community integration.",
+      "minimumAge": 18,
+      "yearEstablished": 1950,
+      "languagesSupported": [
+        "English",
+        "Spanish"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible"
+      ],
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Social Skills Training",
+        "Recreational Activities",
+        "Behavior Management Support",
+        "Basic Academic Instruction",
+        "Multi-sensory Experiences",
+        "Assistance with Activities of Daily Living",
+        "Vocational Training"
+      ],
+      "parentOrganization": "OPARC",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–2:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Epilepsy",
+        "Cerebral Palsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "acceptsPrivatePay": "No",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Oparc Summit Services East supports adults with developmental disabilities through day programs and behavioral support.",
+        "This CARF-accredited program helps individuals build social skills, independence, and community connections."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SVS SAN BERNARDINO",
+    "streetName": "Social Vocational Services - San Bernardino",
+    "ccldLicenseNumber": "366426837",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "350 E. Commercial Road #114",
+      "city": "San Bernardin",
+      "state": "CA",
+      "zipCode": "92408",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.055824,
+        "lng": -117.27719
+      }
+    },
+    "contact": {
+      "phone": "(909) 255-8161",
+      "websiteUrl": "https://svsinc.org"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 45,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Social Vocational Services (SVS) in San Bernardino offers Adult Day Programs and Supported Employment services for individuals with developmental disabilities. The program focuses on promoting independence, self-advocacy, community integration, self-discovery, career exploration, and socialization through a variety of activities and community-based experiences.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "activitiesOffered": [
+        "Arts",
+        "Cooking",
+        "Computer technology",
+        "Gardening",
+        "Work experience",
+        "Volunteer activities",
+        "Physical fitness",
+        "Music expression",
+        "Self-advocacy",
+        "Health and well being",
+        "Community integration",
+        "Social interaction",
+        "Recreational activities",
+        "Career Exploration"
+      ],
+      "parentOrganization": "Social Vocational Services, Inc.",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Social Vocational Services (SVS) in San Bernardino offers adult day programs and supported employment for individuals with developmental disabilities.",
+        "SVS has over 40 years of experience, providing community inclusion, career exploration, and independent living services."
+      ]
+    },
+    "completenessScore": 72,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "B.E.S.T.OPPORTUNITIES  INC.",
+    "streetName": "B.E.S.T. Opportunities",
+    "ccldLicenseNumber": "366427385",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "12269 Scarbrough Ct.",
+      "city": "Hesperia",
+      "state": "CA",
+      "zipCode": "92345",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.413082,
+        "lng": -117.395615
+      }
+    },
+    "contact": {
+      "phone": "(760) 628-0111",
+      "websiteUrl": "https://bestopportunities.org/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 250,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "B.E.S.T. Opportunities promotes the independence and integration of adults with developmental disabilities into the community. The program provides opportunities for clients to engage in community activities, set goals, and foster independence through various classes and activities.",
+      "minimumAge": 18,
+      "yearEstablished": 1981,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Gym",
+        "Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Life Skills Training",
+        "Social Opportunities",
+        "Interactive Activities",
+        "Supported Employment"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–3:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Developmental Delay",
+        "Cerebral Palsy"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "B.E.S.T. Opportunities supports adults with developmental disabilities, fostering independence and community integration.",
+        "Established in 1981, this CARF International accredited program offers life skills, social, and employment support.",
+        "The Hesperia program, opened in 2016, provides engaging activities like art, cooking, and community outings."
+      ]
+    },
+    "completenessScore": 94,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLE VOCATIONAL SERVICES HESPERIA",
+    "streetName": "COLE VOCATIONAL SERVICES HESPERIA",
+    "ccldLicenseNumber": "366427604",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "15075 Main St",
+      "city": "Hesperia",
+      "state": "CA",
+      "zipCode": "92345",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.427025,
+        "lng": -117.3347
+      }
+    },
+    "contact": {
+      "phone": "(760) 998-2829",
+      "websiteUrl": "https://www.sevitahealth.com/"
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Cole Vocational Services offers structured, activity-based day programs that provide individuals with the chance to achieve goals, become independent, and be active in the community. These are center-licensed programs with a community service component.",
+      "minimumAge": 18,
+      "yearEstablished": 2016,
+      "languagesSupported": [
+        "English"
+      ],
+      "facilityFeatures": [
+        "Wheelchair Accessible",
+        "Outdoor Space",
+        "Sensory Room",
+        "Computer Lab",
+        "Commercial Kitchen",
+        "Vocational Workshop"
+      ],
+      "activitiesOffered": [
+        "Arts and Crafts",
+        "Music Therapy",
+        "Life Skills Training",
+        "Community Integration",
+        "Social and Recreational Programming",
+        "Therapeutic Activities",
+        "Health Monitoring",
+        "Personal Care Assistance",
+        "Medication Management"
+      ],
+      "parentOrganization": "Sevita",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Intellectual Disabilities",
+        "Developmental Disabilities",
+        "Autism"
+      ]
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "Cole Vocational Services Hesperia offers day and vocational programs for adults with disabilities.",
+        "The program helps individuals build skills, foster independence, and engage in community activities.",
+        "It is vendored with the Inland Regional Center, serving adults aged 21 and older."
+      ]
+    },
+    "completenessScore": 100,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "INNOVATIVE BUSINESS PARTNERSHIPS INC",
+    "streetName": "INNOVATIVE BUSINESS PARTNERSHIPS INC",
+    "ccldLicenseNumber": "366427612",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "17185 Yuma Street",
+      "city": "Victorville",
+      "state": "CA",
+      "zipCode": "92393",
+      "county": "San Bernardino",
+      "coordinates": {
+        "lat": 34.473507,
+        "lng": -117.28836
+      }
+    },
+    "contact": {
+      "phone": "(760) 243-1400",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 165,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "Innovative Business Partnerships Inc provides structured daytime activities, supervision, and support services for adults who need assistance during the day but return to their homes or family caregivers in the evening. Services typically include health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, medication management, and in some cases, physical therapy, occupational therapy, and nursing services.",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": [
+        "This licensed Adult Day Program in Victorville offers structured activities and health monitoring.",
+        "They serve adults with disabilities, providing therapeutic programming and meals.",
+        "Established in 1992, the program is a member of the local Chamber of Commerce."
+      ]
+    },
+    "completenessScore": 59,
+    "lastVerifiedDate": "2026-05-27",
+    "dataSourceNotes": "Pipeline import 2026-05-27. Geocode: ccld."
   }
 ]
