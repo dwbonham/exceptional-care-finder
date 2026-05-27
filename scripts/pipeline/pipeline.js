@@ -95,6 +95,7 @@ if (resetCount > 0) {
 // Normally a no-op when ccld-daily is running (which sets programs to PENDING_GEOCODE directly).
 const toEnrich = getPendingEnrichment(state);
 let enrichmentRateLimited = false;
+let rateLimitHttpStatus = 429; // set to 503 when stopped by Gemini unavailability vs quota
 if (toEnrich.length) {
   if (process.env.SKIP_ENRICHMENT === 'true') {
     // Bulk-import mode: skip Gemini entirely, use CCLD data only.
@@ -137,8 +138,9 @@ if (toEnrich.length) {
       } catch (e) {
         if (e instanceof RateLimitError) {
           save(state);
-          console.log(`\nGemini quota reached — continuing to geocode/publish already-enriched programs.\nError: ${e.message}`);
+          console.log(`\n${e.httpStatus === 503 ? 'Gemini unavailable (high demand, not a quota issue)' : 'Gemini quota reached'} — continuing to geocode/publish already-enriched programs.\nAPI said: ${e.message}`);
           enrichmentRateLimited = true;
+          rateLimitHttpStatus = e.httpStatus ?? 429;
           break;
         }
         state = updateStatus(state, licNum, STATUS.ENRICHMENT_FAILED, { enrichError: e.message });
@@ -288,7 +290,8 @@ if (!process.env.SKIP_ENRICHMENT && !enrichmentRateLimited) {
       } catch (e) {
         if (e instanceof RateLimitError) {
           enrichmentRateLimited = true;
-          console.log(`\nGemini quota reached during backfill — resuming tomorrow.\nAPI said: ${e.message}`);
+          rateLimitHttpStatus = e.httpStatus ?? 429;
+          console.log(`\n${e.httpStatus === 503 ? 'Gemini unavailable (high demand, not a quota issue) — retry when demand settles' : 'Gemini quota reached during backfill — resuming tomorrow'}.\nAPI said: ${e.message}`);
           break;
         }
         // Non-quota error: log and continue; will retry tomorrow
@@ -345,7 +348,8 @@ if (!skipSentiment && !enrichmentRateLimited && enrichCounties) {
       } catch (e) {
         if (e instanceof RateLimitError) {
           enrichmentRateLimited = true;
-          console.log(`\nGemini quota reached during sentiment backfill — resuming tomorrow.\nAPI said: ${e.message}`);
+          rateLimitHttpStatus = e.httpStatus ?? 429;
+          console.log(`\n${e.httpStatus === 503 ? 'Gemini unavailable (high demand, not a quota issue) — retry when demand settles' : 'Gemini quota reached during sentiment backfill — resuming tomorrow'}.\nAPI said: ${e.message}`);
           break;
         }
         console.error(`\nSentiment backfill error for ${licNum}: ${e.message}`);
@@ -370,8 +374,10 @@ if (!skipSentiment && !enrichmentRateLimited && enrichCounties) {
 const sheetsBase = { spreadsheetId: cfg.sheetId, serviceAccount: cfg.serviceAccount };
 
 if (enrichmentRateLimited) {
-  // Don't mark the run complete — it will resume tomorrow when quota resets
-  console.log('\nPartial run complete (Gemini quota reached). Resuming tomorrow.');
+  const stopReason = rateLimitHttpStatus === 503
+    ? 'Gemini unavailable (high demand) — not a quota issue. Retry when Gemini demand settles.'
+    : 'Gemini quota reached. Resuming tomorrow when quota resets.';
+  console.log(`\nPartial run complete. ${stopReason}`);
   console.log('\nUpdating County Summary tab…');
   await syncCountySummary(sheetsBase);
   _printQcSummary(true);
@@ -399,8 +405,9 @@ function _printQcSummary(partial) {
     ? [...enrichedCounties].sort().join(', ')
     : '(none this run)';
   const line = '━'.repeat(40);
+  const partialReason = rateLimitHttpStatus === 503 ? 'Gemini unavailable — retry' : 'quota reached';
   const title = partial
-    ? `Gemini Enrichment Partial — ${today} (quota reached)`
+    ? `Gemini Enrichment Partial — ${today} (${partialReason})`
     : `Gemini Enrichment Complete — ${today}`;
   console.log(`\n${line}`);
   console.log(title);

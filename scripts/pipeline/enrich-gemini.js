@@ -21,9 +21,10 @@ const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
 // ─── Public error class ───────────────────────────────────────────────────────
 
 export class RateLimitError extends Error {
-  constructor(message = 'Gemini rate limit reached') {
+  constructor(message = 'Gemini rate limit reached', httpStatus = 429) {
     super(message);
     this.name = 'RateLimitError';
+    this.httpStatus = httpStatus;
   }
 }
 
@@ -280,12 +281,12 @@ async function _callGemini(prompt, apiKey, model) {
 
   if (res.status === 429) {
     const body429 = await res.text();
-    throw new RateLimitError(`Gemini rate limit reached (429): ${body429}`);
+    throw new RateLimitError(`Gemini rate limit reached (429): ${body429}`, 429);
   }
 
   if (res.status === 503) {
     const body503 = await res.text();
-    throw new RateLimitError(`Gemini unavailable (503) — will retry next run: ${body503}`);
+    throw new RateLimitError(`Gemini unavailable (503) — will retry next run: ${body503}`, 503);
   }
 
   if (!res.ok) {
