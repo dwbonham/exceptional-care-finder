@@ -53,12 +53,18 @@ exceptional-care-finder/
         ├── ProgramCard.tsx          ← Program card; conditionally renders enriched fields
         ├── ProgramGrid.tsx          ← Grid of ProgramCards
         ├── AboutPage.tsx            ← About page; county count derived dynamically
-        └── StateRegulatoryGuide.tsx ← Sidebar: FAQs + RC contacts
+        ├── ParentGuidePage.tsx      ← Enrollment Guide page (full content, ToC sidebar)
+        └── StateRegulatoryGuide.tsx ← Sidebar: program types + RC finder + CTA to Enrollment Guide
 
 program-data/                        ← ALL EDITABLE DATA LIVES HERE
 └── CA/
-    ├── funding-guide.json           ← RC contacts, FAQs, parent education content
+    ├── funding-guide.json           ← RC contacts, enrollment guide sections, glossary, care-type defs
     └── [county]/programs.json       ← One folder per county; auto-discovered by import.meta.glob
+
+public/
+    ├── hero-bg.jpeg                 ← Hero section background image
+    ├── about-bg.jpeg                ← About page background image
+    └── enrollment-bg.jpeg           ← Enrollment Guide page background image
 ```
 
 ---
@@ -87,6 +93,16 @@ program-data/                        ← ALL EDITABLE DATA LIVES HERE
 - `qualitativeInsights` — parentReviews: string[]
 - `completenessScore?`, `lastVerifiedDate?`, `dataSourceNotes?` — pipeline metadata
 
+**FundingGuide** key fields (in `program-data/CA/funding-guide.json`):
+- `state`, `title` — state code and display title
+- `localAgencies[]` — Regional Center contacts; supports `county`, `zipCodes[]`, `note` for LA multi-RC logic
+- `careTypeDefinitions[]` — `{ term, definition }` pairs shown in sidebar and Enrollment Guide Program Types section
+- `glossary[]` — `{ term, definition }` pairs shown in Enrollment Guide Glossary section; includes "Self-Determination Program (SDP)" used by ProgramCard tooltip
+- `enrollmentGuide[]` — `EnrollmentSection[]`; each section has `title`, `blocks: EnrollmentBlock[]`, `sources?: EnrollmentSource[]`
+  - Block types: `paragraph` (text), `note` (amber callout), `bullets` (unordered list, optional heading), `steps` (numbered, optional heading), `questions` (grouped Q&A), `resources` (link list)
+  - Replaces the former `faqs[]` array; richer structure allows the Enrollment Guide page to render formatted content
+- **Enrollment Guide synced to Google Sheets "Enrollment Guide" tab** — `syncFundingGuides()` in `sheets-writer.js` flattens block structure to one row per content item; called by `ccld-import.js` on every run
+
 ### Fields intentionally NOT in schema
 - **Availability / waitlist status** — too volatile; always changes
 - **Current enrollment** — use `licensedCapacity` with "Licensed Capacity" label instead
@@ -102,6 +118,12 @@ program-data/                        ← ALL EDITABLE DATA LIVES HERE
 - **All new schema fields are optional (`?`)** — existing JSON stays valid when fields are added
 - **`import.meta.glob` for data discovery** — auto-discovers all `program-data/**/programs.json`; no import needed for new counties
 - **County count in About page is dynamic** — derived from `allPrograms` at build time; never goes stale
+- **Three-tab navigation: Find Programs / Enrollment Guide / About** — view state `'finder' | 'guide' | 'about'` owned by `App.tsx`; the guide tab was previously "Parent Guide" — renamed because caregivers and advocates (not just parents) use the tool
+- **Enrollment Guide page (`ParentGuidePage.tsx`)** — standalone full-content page with hero header (enrollment-bg.jpeg), sticky ToC sidebar (desktop), collapsible "On this page" (mobile), and three sections: Enrollment Guide accordion, Program Types, Glossary. Pattern matches About page layout
+- **`StateRegulatoryGuide.tsx` sidebar is navigation-focused only** — shows Program Types definitions and RC finder (with LA ZIP logic); all deep enrollment content moved to Enrollment Guide page. Footer CTA button links to the full guide
+- **Care-type badge tooltips** — clicking the care-type or Self-Determination badge in ProgramCard expands an inline definition panel. Definitions sourced from `careTypeDefinitions[]` and `glossary[]` in funding-guide.json via module-level `CARE_TYPE_DEFS` lookup (not per-render). Inline expansion chosen over floating popovers because ProgramCard has `overflow:hidden`
+- **Population specialization badges removed** — AI-generated from public web; coverage was inconsistent (~5% of programs). Showing badges for some programs but not others implied exclusion for Lanterman Act programs (which by law serve all qualifying individuals). Removed entirely to avoid misleading families
+- **Language filter not added** — only 55/935 programs (5.9%) have language data; Spanish = 43 programs across 12 counties. Filter would be misleading until LA enrichment (largest county) is complete; revisit after LA is done
 
 **Pipeline**
 - **CCLD filter: `FacilityType == '775 Adult Day Program'` ONLY** — "Adult Day Health Care" is a different program, different funding, wrong audience
@@ -129,9 +151,10 @@ program-data/                        ← ALL EDITABLE DATA LIVES HERE
 **Workflow 1 — Daily CCLD Import (`ccld-daily.yml`, 6am PT)**
 - Script: `scripts/pipeline/ccld-import.js`
 - Free: no Gemini API key required
-- What it does: fetch CCLD → diff (new/revoked/status changes) → geocode → quality gate → write JSON files → upsert to Google Sheets Programs tab → sync County Summary tab
+- What it does: fetch CCLD → diff (new/revoked/status changes) → geocode → quality gate → write JSON files → upsert to Google Sheets Programs tab → sync Enrollment Guide tab → sync Regional Centers tab → sync County Summary tab
 - New programs are tagged `geminiEnriched: false` — Gemini pipeline picks them up automatically
 - Commits directly to `main` (no PR); site deploys automatically
+- **Google Sheets tabs written by this workflow:** Programs, Enrollment Guide, Regional Centers, County Summary
 
 **Workflow 2 — Daily Gemini Enrichment (`pipeline.yml`, 7am PT)**
 - Script: `scripts/pipeline/pipeline.js`
