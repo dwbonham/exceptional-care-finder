@@ -77,7 +77,7 @@ export default function App() {
                     : 'text-stone-500 hover:text-stone-700 hover:bg-stone-50'
                 }`}
               >
-                {v === 'finder' ? 'Find Programs' : v === 'guide' ? 'Parent Guide' : 'About'}
+                {v === 'finder' ? 'Find Programs' : v === 'guide' ? 'Enrollment Guide' : 'About'}
               </button>
             ))}
           </div>
