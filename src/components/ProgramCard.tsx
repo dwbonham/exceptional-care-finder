@@ -1,6 +1,18 @@
 import { useState } from 'react';
 import type { ProgramData } from '../types';
 import MapModal from './MapModal';
+import { getFundingGuide } from '../data/funding-guides';
+
+function buildCareTypeDefs(): Record<string, string> {
+  const guide = getFundingGuide('CA');
+  const defs: Record<string, string> = {};
+  for (const d of guide?.careTypeDefinitions ?? []) defs[d.term] = d.definition;
+  for (const g of guide?.glossary ?? []) {
+    if (g.term === 'Self-Determination Program (SDP)') defs[g.term] = g.definition;
+  }
+  return defs;
+}
+const CARE_TYPE_DEFS = buildCareTypeDefs();
 
 interface Props {
   program: ProgramData;
@@ -9,6 +21,7 @@ interface Props {
 export default function ProgramCard({ program }: Props) {
   const [reviewsOpen, setReviewsOpen] = useState(false);
   const [mapOpen, setMapOpen] = useState(false);
+  const [openTooltip, setOpenTooltip] = useState<string | null>(null);
   const { location, contact, facilityDetails, fundingMechanics, qualitativeInsights } = program;
 
   const hasWebsite =
@@ -33,13 +46,23 @@ export default function ProgramCard({ program }: Props) {
 
         {/* Badges */}
         <div className="mt-3 flex flex-wrap gap-2">
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-blue-100 text-blue-700">
+          <button
+            onClick={() => setOpenTooltip(openTooltip === facilityDetails.decryptedProgramType ? null : facilityDetails.decryptedProgramType)}
+            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-semibold bg-blue-100 text-blue-700 hover:bg-blue-200 transition-colors cursor-pointer"
+            aria-expanded={openTooltip === facilityDetails.decryptedProgramType}
+          >
             {facilityDetails.decryptedProgramType}
-          </span>
+            <span className="text-blue-400 text-[10px]" aria-hidden="true">ⓘ</span>
+          </button>
           {facilityDetails.selfDeterminationAccepted === 'Yes' && (
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-700 border border-emerald-200">
+            <button
+              onClick={() => setOpenTooltip(openTooltip === 'Self-Determination Program (SDP)' ? null : 'Self-Determination Program (SDP)')}
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-700 border border-emerald-200 hover:bg-emerald-200 transition-colors cursor-pointer"
+              aria-expanded={openTooltip === 'Self-Determination Program (SDP)'}
+            >
               ✓ Self-Determination
-            </span>
+              <span className="text-emerald-400 text-[10px]" aria-hidden="true">ⓘ</span>
+            </button>
           )}
           {facilityDetails.licensedCapacity && (
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-slate-200 text-slate-500 bg-slate-50">
@@ -53,14 +76,25 @@ export default function ProgramCard({ program }: Props) {
           )}
         </div>
 
+        {/* Inline definition panel — shown when a badge ⓘ is tapped */}
+        {openTooltip && CARE_TYPE_DEFS[openTooltip] && (
+          <div className="mt-2 rounded-lg bg-blue-50 border border-blue-100 px-3 py-2.5">
+            <p className="text-[10px] font-semibold text-[#1E3A5F] uppercase tracking-wider mb-1">{openTooltip}</p>
+            <p className="text-xs text-slate-600 leading-relaxed">{CARE_TYPE_DEFS[openTooltip]}</p>
+          </div>
+        )}
+
         {/* Population specialization — who this program is designed for */}
         {facilityDetails.populationSpecialization && facilityDetails.populationSpecialization.length > 0 && (
-          <div className="mt-2 flex flex-wrap gap-2">
-            {facilityDetails.populationSpecialization.map((pop) => (
-              <span key={pop} className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-violet-100 text-violet-700 border border-violet-200">
-                {pop}
-              </span>
-            ))}
+          <div className="mt-2">
+            <div className="flex flex-wrap gap-2">
+              {facilityDetails.populationSpecialization.map((pop) => (
+                <span key={pop} className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-violet-100 text-violet-700 border border-violet-200">
+                  {pop}
+                </span>
+              ))}
+            </div>
+            <p className="text-[10px] text-slate-400 italic mt-1">AI-researched · contact program to confirm</p>
           </div>
         )}
       </div>
