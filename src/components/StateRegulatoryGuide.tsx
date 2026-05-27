@@ -115,7 +115,11 @@ export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip }: 
 
                 {openIndex === i && (
                   <div className="px-5 pb-4 space-y-3">
-                    <p className="text-sm text-slate-600 leading-relaxed">{faq.answer}</p>
+                    <div className="space-y-2">
+                      {faq.answer.split('\n\n').map((para, pi) => (
+                        <p key={pi} className="text-sm text-slate-600 leading-relaxed">{para}</p>
+                      ))}
+                    </div>
 
                     {faq.sourceUrl && (
                       <a
