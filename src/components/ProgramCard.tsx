@@ -149,47 +149,32 @@ export default function ProgramCard({ program }: Props) {
           </div>
         )}
 
-        {/* Funding & Administration block */}
-        <div className="bg-slate-50 rounded-xl p-4 border border-slate-200">
-          <p className="text-xs font-semibold text-slate-500 uppercase tracking-widest mb-3 flex items-center gap-1.5">
-            <span>💰</span> Funding &amp; Administration
-          </p>
-          <div className="flex flex-wrap gap-2 mb-3">
-            {fundingMechanics.coveringAgencies.map((agency) => (
-              <span key={agency} className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
-                <span className="font-semibold text-slate-700">Regional Center:</span>
-                {agency}
-              </span>
-            ))}
-            <span
-              className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-emerald-50 border border-emerald-200 text-xs text-emerald-700"
-              title="Individual Program Plan — the authorized plan your Regional Center writes with you. This service must be listed in your IPP before funding is approved."
-            >
-              <span className="font-semibold">Requires:</span>
-              {fundingMechanics.requiredFundingDocument}
+        {/* Funding badges — RC, IPP, transport */}
+        <div className="flex flex-wrap gap-2">
+          {fundingMechanics.coveringAgencies.map((agency) => (
+            <span key={agency} className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-xs text-slate-600">
+              <span className="font-semibold text-slate-700">RC:</span> {agency}
             </span>
-            {fundingMechanics.transportationAvailability && (
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
-                <span className="font-semibold text-slate-700">🚌 Transport:</span>
-                {fundingMechanics.transportationAvailability}
-              </span>
-            )}
-            {fundingMechanics.transportationServiceArea && (
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
-                <span className="font-semibold text-slate-700">Service Area:</span>
-                {fundingMechanics.transportationServiceArea}
-              </span>
-            )}
-            {fundingMechanics.acceptsPrivatePay && fundingMechanics.acceptsPrivatePay !== 'Unknown' && (
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs text-slate-600">
-                <span className="font-semibold text-slate-700">Private Pay:</span>
-                {fundingMechanics.acceptsPrivatePay}
-              </span>
-            )}
-          </div>
-          <p className="text-xs text-slate-600 leading-relaxed">
-            {fundingMechanics.financialCoverageNote}
-          </p>
+          ))}
+          <span
+            className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-emerald-50 border border-emerald-200 text-xs text-emerald-700"
+            title="Individual Program Plan — your Regional Center must authorize this service in your IPP before funding is approved."
+          >
+            <span className="font-semibold">Requires:</span> {fundingMechanics.requiredFundingDocument}
+          </span>
+          {fundingMechanics.transportationAvailability && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-xs text-slate-600">
+              🚌 {fundingMechanics.transportationAvailability}
+              {fundingMechanics.transportationServiceArea && (
+                <span className="text-slate-400"> · {fundingMechanics.transportationServiceArea}</span>
+              )}
+            </span>
+          )}
+          {fundingMechanics.acceptsPrivatePay && fundingMechanics.acceptsPrivatePay !== 'Unknown' && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-slate-50 border border-slate-200 text-xs text-slate-600">
+              <span className="font-semibold text-slate-700">Private Pay:</span> {fundingMechanics.acceptsPrivatePay}
+            </span>
+          )}
         </div>
 
         {/* Contact row */}
