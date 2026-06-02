@@ -64,20 +64,27 @@ export default function App() {
     <div className="min-h-screen bg-[#FAF7F2]">
       {/* Top nav */}
       <nav className="bg-white border-b border-stone-200 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-11">
-          <span className="font-ui font-semibold text-[#1E3A5F] text-sm tracking-wide">California Adult Day Program Finder</span>
-          <div className="flex gap-1">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between min-h-[44px]">
+          <span className="font-ui font-semibold text-[#1E3A5F] text-sm tracking-wide min-w-0 truncate mr-2">
+            <span className="hidden sm:inline">California </span>Adult Day Finder
+          </span>
+          <div className="flex gap-1 shrink-0">
             {(['finder', 'guide', 'about'] as const).map((v) => (
               <button
                 key={v}
                 onClick={() => setView(v)}
-                className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-colors cursor-pointer font-ui ${
+                className={`px-3 sm:px-4 py-2.5 rounded-lg text-sm font-medium transition-colors cursor-pointer font-ui min-h-[44px] focus-visible:ring-2 focus-visible:ring-[#1E3A5F]/50 focus-visible:ring-offset-1 focus-visible:outline-none ${
                   view === v
                     ? 'bg-[#FEF2EE] text-[#C2410C]'
                     : 'text-stone-500 hover:text-stone-700 hover:bg-stone-50'
                 }`}
               >
-                {v === 'finder' ? 'Find Programs' : v === 'guide' ? 'Enrollment Guide' : 'About'}
+                <span className="sm:hidden">
+                  {v === 'finder' ? 'Find' : v === 'guide' ? 'Guide' : 'About'}
+                </span>
+                <span className="hidden sm:inline">
+                  {v === 'finder' ? 'Find Programs' : v === 'guide' ? 'Enrollment Guide' : 'About'}
+                </span>
               </button>
             ))}
           </div>
