@@ -18,7 +18,7 @@
     },
     "contact": {
       "phone": "(530) 283-0111",
-      "websiteUrl": "https://www.plumasruralservices.org/alive"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 30,
@@ -42,8 +42,8 @@
         "Health & Exercise Programs"
       ],
       "parentOrganization": "Plumas Rural Services",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Intellectual Disabilities",
