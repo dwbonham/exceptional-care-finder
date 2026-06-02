@@ -1,0 +1,66 @@
+name: Validate RC Contacts
+
+on:
+  schedule:
+    - cron: '0 9 1 * *'  # 9am UTC on the 1st of every month
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.x'
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run RC contact validation
+        id: validate
+        run: |
+          set +e
+          bun scripts/pipeline/validate-rc-contacts.js > rc-validation-report.txt 2>&1
+          EXIT=$?
+          echo "exit=$EXIT" >> "$GITHUB_OUTPUT"
+          cat rc-validation-report.txt
+          exit 0
+
+      - name: Open issue on mismatch
+        if: steps.validate.outputs.exit == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          OPEN=$(gh issue list --search "RC phone number mismatch in:title" --state open --json number --jq length)
+          if [ "$OPEN" != "0" ]; then
+            echo "Issue already open — skipping duplicate."
+            exit 0
+          fi
+          REPORT=$(cat rc-validation-report.txt)
+          gh issue create \
+            --title "⚠️ RC phone number mismatch — manual fix required" \
+            --body "## Regional Center Phone Number Validation Failed
+
+The monthly validation found differences between \`program-data/CA/funding-guide.json\` and the [official DDS RC listings](https://www.dds.ca.gov/rc/listings/).
+
+**Mismatches:**
+\`\`\`
+$REPORT
+\`\`\`
+
+**To fix:**
+1. Visit the [DDS RC listings page](https://www.dds.ca.gov/rc/listings/) to confirm the correct numbers
+2. Update \`program-data/CA/funding-guide.json\` with the correct values
+3. Close this issue once fixed
+
+*Opened automatically by the monthly RC validation workflow.*"
+
+      - name: Warn on parse failure
+        if: steps.validate.outputs.exit == '2'
+        run: |
+          echo "::warning::DDS RC listings page could not be fetched or parsed. Manual check required: https://www.dds.ca.gov/rc/listings/"
