@@ -204,7 +204,7 @@ export default function ProgramCard({ program }: Props) {
               <span className="shrink-0">📞</span>
               <a
                 href={`tel:${contact.phone.replace(/\D/g, '')}`}
-                className="text-blue-600 hover:underline font-medium"
+                className="text-[#C2410C] hover:underline font-medium py-2 -my-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C2410C]/50 rounded"
               >
                 {contact.phone}
               </a>
