@@ -234,10 +234,10 @@ assert('row length matches HEADERS length', headerRow.length === HEADERS.length)
 
 console.log('\nFUNDING_GUIDE_HEADERS and REGIONAL_CENTER_HEADERS');
 
-assert('FUNDING_GUIDE_HEADERS has 5 columns', FUNDING_GUIDE_HEADERS.length === 5);
-assert('FUNDING_GUIDE_HEADERS[0] = State',    FUNDING_GUIDE_HEADERS[0] === 'State');
-assert('FUNDING_GUIDE_HEADERS[1] = Question', FUNDING_GUIDE_HEADERS[1] === 'Question');
-assert('FUNDING_GUIDE_HEADERS[2] = Answer',   FUNDING_GUIDE_HEADERS[2] === 'Answer');
+assert('FUNDING_GUIDE_HEADERS has 7 columns', FUNDING_GUIDE_HEADERS.length === 7);
+assert('FUNDING_GUIDE_HEADERS[0] = State',   FUNDING_GUIDE_HEADERS[0] === 'State');
+assert('FUNDING_GUIDE_HEADERS[1] = Section', FUNDING_GUIDE_HEADERS[1] === 'Section');
+assert('FUNDING_GUIDE_HEADERS[2] = Type',    FUNDING_GUIDE_HEADERS[2] === 'Type');
 
 assert('REGIONAL_CENTER_HEADERS has 7 columns', REGIONAL_CENTER_HEADERS.length === 7);
 assert('REGIONAL_CENTER_HEADERS[0] = State',     REGIONAL_CENTER_HEADERS[0] === 'State');

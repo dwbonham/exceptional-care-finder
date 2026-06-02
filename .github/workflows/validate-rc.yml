@@ -42,23 +42,22 @@ jobs:
             exit 0
           fi
           REPORT=$(cat rc-validation-report.txt)
+          cat > /tmp/issue-body.md << 'BODYEOF'
+          ## RC Phone Number Mismatch Detected
+          The monthly validation found differences between `program-data/CA/funding-guide.json` and the [official DDS RC listings](https://www.dds.ca.gov/rc/listings/).
+          BODYEOF
+          echo "" >> /tmp/issue-body.md
+          echo "**Mismatches:**" >> /tmp/issue-body.md
+          echo '```' >> /tmp/issue-body.md
+          echo "$REPORT" >> /tmp/issue-body.md
+          echo '```' >> /tmp/issue-body.md
+          echo "" >> /tmp/issue-body.md
+          echo "**To fix:** visit the [DDS RC listings page](https://www.dds.ca.gov/rc/listings/), update \`program-data/CA/funding-guide.json\`, then close this issue." >> /tmp/issue-body.md
+          echo "" >> /tmp/issue-body.md
+          echo "*Opened automatically by the monthly RC validation workflow.*" >> /tmp/issue-body.md
           gh issue create \
-            --title "⚠️ RC phone number mismatch — manual fix required" \
-            --body "## Regional Center Phone Number Validation Failed
-
-The monthly validation found differences between \`program-data/CA/funding-guide.json\` and the [official DDS RC listings](https://www.dds.ca.gov/rc/listings/).
-
-**Mismatches:**
-\`\`\`
-$REPORT
-\`\`\`
-
-**To fix:**
-1. Visit the [DDS RC listings page](https://www.dds.ca.gov/rc/listings/) to confirm the correct numbers
-2. Update \`program-data/CA/funding-guide.json\` with the correct values
-3. Close this issue once fixed
-
-*Opened automatically by the monthly RC validation workflow.*"
+            --title "RC phone number mismatch — manual fix required" \
+            --body-file /tmp/issue-body.md
 
       - name: Warn on parse failure
         if: steps.validate.outputs.exit == '2'
