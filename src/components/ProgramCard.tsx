@@ -91,11 +91,10 @@ export default function ProgramCard({ program }: Props) {
 
         {/* Program Summary — only shown when content exists */}
         {facilityDetails.programFocus && (
-          <div className="bg-blue-50 rounded-xl p-4 border border-blue-100">
-            <p className="text-xs font-semibold text-violet-600 uppercase tracking-widest mb-1 flex items-center gap-1">
-              ✨ <span>Program Summary</span>
+          <div className="bg-[#EFF4FA] rounded-xl p-4 border border-[#1E3A5F]/10">
+            <p className="text-xs font-semibold text-[#1E3A5F] uppercase tracking-widest mb-2">
+              About This Program
             </p>
-            <p className="text-xs text-slate-400 mb-2">Summarized from the program's public website and CCLD license record using Gemini.</p>
             <p className="text-sm text-slate-700 leading-relaxed">{facilityDetails.programFocus}</p>
           </div>
         )}
