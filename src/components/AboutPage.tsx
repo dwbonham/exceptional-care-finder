@@ -31,7 +31,7 @@ const NOT_ITEMS: NotItem[] = [
     ),
   },
   {
-    label: 'Medical day programs (CBAS / formerly ADHC)',
+    label: 'Medical day programs (CBAS / formerly Adult Day Health Care)',
     detail: (
       <>
         Programs requiring on-site medical oversight — tube feeding, wound care, nursing staff —
@@ -52,7 +52,7 @@ const NOT_ITEMS: NotItem[] = [
     label: '"Programs Without Walls" and community-based vendors',
     detail: (
       <>
-        Some RC-funded day services — including many{' '}
+        Some Regional Center-funded day services — including many{' '}
         <A href="https://www.dds.ca.gov/initiatives/sdp/">Self-Determination Program</A> providers
         — operate in community settings (parks, job sites, community centers) without a fixed
         facility. These programs are vendored directly by individual Regional Centers and don't
@@ -81,7 +81,7 @@ const NOT_ITEMS: NotItem[] = [
         These serve a different population and no statewide database exists — each county manages
         its own provider network through{' '}
         <A href="https://www.dhcs.ca.gov/services/Pages/BHS.aspx">
-          DHCS Behavioral Health Services
+          CA Dept. of Health Care Services (DHCS) Behavioral Health Services
         </A>
         .
       </>
@@ -239,7 +239,7 @@ export default function AboutPage() {
                     'Has a disability that began before age 18',
                     'Is already enrolled with a Regional Center, or is beginning the eligibility process',
                     'Needs a structured daytime program (skills training, vocational, behavioral, social)',
-                    'Relies on Regional Center funding (IPP) to pay for services',
+                    'Is funded through an Individual Program Plan (IPP) — a personal service plan written with your Regional Center',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2">
                       <span className="text-blue-500 mt-0.5 shrink-0">✓</span>
@@ -279,7 +279,7 @@ export default function AboutPage() {
                     <div>
                       Programs that accept{' '}
                       <A href="https://www.dds.ca.gov/rc/">Regional Center</A> /{' '}
-                      <A href="https://www.dds.ca.gov/">DDS</A> funding via an Individual Program Plan
+                      <A href="https://www.dds.ca.gov/">Department of Developmental Services (DDS)</A> funding via an Individual Program Plan
                       (IPP). All programs shown are state-funded for eligible clients.
                     </div>
                   </div>
@@ -457,10 +457,10 @@ export default function AboutPage() {
               </div>
               <div className="px-6 py-5 text-sm leading-relaxed text-slate-600 space-y-2">
                 <p>
-                  If you know of an active, RC-vendored Adult Day Program that doesn't appear here, or
-                  if you spot incorrect information about a listed program, please reach out. Programs
-                  are added automatically from the state licensing database, but enrichment data
-                  (names, websites, summaries) can contain errors.
+                  If you know of an active Adult Day Program that accepts Regional Center funding but
+                  doesn't appear here, or if you spot incorrect information about a listed program,
+                  please reach out. Programs are added automatically from the state licensing database,
+                  but enrichment data (names, websites, summaries) can contain errors.
                 </p>
                 <p>
                   Submit an issue or correction via{' '}

@@ -65,7 +65,7 @@ export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip, on
           )}
           {isLaZipNotFound && (
             <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mb-4 leading-relaxed">
-              ZIP {selectedLaZip} isn't in our coverage map yet. Call DDS at (833) 421-0061 to confirm which center serves you.
+              ZIP {selectedLaZip} isn't in our coverage map yet. Call the state helpline at (833) 421-0061 to find which Regional Center serves your area.
             </p>
           )}
 
