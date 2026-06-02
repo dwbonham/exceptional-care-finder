@@ -44,7 +44,7 @@ export const REGIONAL_CENTER_HEADERS = [
 ];
 
 export const COUNTY_SUMMARY_HEADERS = [
-  'County', 'Total Programs', 'Enriched', 'Pending Gemini', 'Enrichment %',
+  'County', 'Total Programs', 'Gemini Enriched', 'Pending Gemini', 'Gemini Enriched %',
   'With Sentiment', 'Sentiment %',
   'Last CCLD Refresh', 'Last Gemini Run', 'Summary Updated',
 ];
