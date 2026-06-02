@@ -102,7 +102,7 @@ export default function StateRegulatoryGuide({ selectedCounty, selectedLaZip, on
             onClick={onNavigateToGuide}
             className="w-full text-xs font-ui font-semibold text-[#C2410C] hover:text-[#A33509] text-center py-0.5 cursor-pointer transition-colors"
           >
-            New to the system? Read the full Parent Guide →
+            New to the system? Read the full Enrollment Guide →
           </button>
         ) : (
           <p className="text-xs text-slate-400 text-center">
