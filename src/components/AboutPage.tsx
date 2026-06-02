@@ -382,7 +382,7 @@ export default function AboutPage() {
                           CA Community Care Licensing Division (CCLD)
                         </A>
                       </div>
-                      <span className="text-xs text-blue-600 bg-blue-50 rounded-full px-2 py-0.5 shrink-0">Weekly automated pull</span>
+                      <span className="text-xs text-blue-600 bg-blue-50 rounded-full px-2 py-0.5 shrink-0">Daily automated pull</span>
                     </div>
                     <div className="text-slate-500">
                       Primary data source. Provides program names, addresses, phone numbers, licensed
