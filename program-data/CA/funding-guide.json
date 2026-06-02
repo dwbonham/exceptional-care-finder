@@ -3,30 +3,30 @@
   "title": "California Funding & Eligibility Guide",
   "localAgencies": [
     {
-      "county": "Sacramento, Placer, El Dorado, Yolo, Nevada, Sierra, Plumas",
+      "county": "Sacramento, Placer, El Dorado, Yolo, Nevada, Sierra, Sutter, Yuba, Alpine, Colusa",
       "name": "Alta California Regional Center",
       "phone": "(916) 978-6400",
       "websiteUrl": "https://www.altaregional.org",
-      "note": "Serves Sacramento, Placer, El Dorado, Yolo, Nevada, Sierra, and Plumas counties"
+      "note": "Serves Sacramento, Placer, El Dorado, Yolo, Nevada, Sierra, Sutter, Yuba, Alpine, and Colusa counties"
     },
     {
-      "county": "Butte, Glenn, Lassen, Modoc, Shasta, Siskiyou, Sutter, Tehama, Trinity, Yuba",
+      "county": "Butte, Glenn, Lassen, Modoc, Plumas, Shasta, Siskiyou, Tehama, Trinity",
       "name": "Far Northern Regional Center",
       "phone": "(530) 222-4791",
-      "websiteUrl": "https://www.fnrc.org",
-      "note": "Serves Butte, Glenn, Lassen, Modoc, Shasta, Siskiyou, Sutter, Tehama, Trinity, and Yuba counties"
+      "websiteUrl": "https://www.farnorthernrc.org",
+      "note": "Serves Butte, Glenn, Lassen, Modoc, Plumas, Shasta, Siskiyou, Tehama, and Trinity counties"
     },
     {
-      "county": "Del Norte, Humboldt, Lake, Mendocino, Trinity",
+      "county": "Del Norte, Humboldt, Lake, Mendocino",
       "name": "Redwood Coast Regional Center",
       "phone": "(707) 445-0893",
       "websiteUrl": "https://www.redwoodcoast.org",
-      "note": "Serves Del Norte, Humboldt, Lake, Mendocino, and Trinity counties"
+      "note": "Serves Del Norte, Humboldt, Lake, and Mendocino counties"
     },
     {
       "county": "Napa, Solano, Sonoma",
       "name": "North Bay Regional Center",
-      "phone": "(707) 256-1100",
+      "phone": "(707) 256-1182",
       "websiteUrl": "https://www.nbrc.net",
       "note": "Serves Napa, Solano, and Sonoma counties. Also has offices in Fairfield and Napa"
     },
@@ -40,16 +40,16 @@
     {
       "county": "Alameda, Contra Costa",
       "name": "Regional Center of the East Bay",
-      "phone": "(510) 383-1200",
+      "phone": "(510) 618-6100",
       "websiteUrl": "https://www.rceb.org",
       "note": "Serves Alameda and Contra Costa counties"
     },
     {
-      "county": "Amador, Calaveras, Merced, San Joaquin, Stanislaus, Tuolumne",
+      "county": "Amador, Calaveras, San Joaquin, Stanislaus, Tuolumne",
       "name": "Valley Mountain Regional Center",
       "phone": "(209) 473-0951",
       "websiteUrl": "https://www.vmrc.net",
-      "note": "Serves Amador, Calaveras, Merced, San Joaquin, Stanislaus, and Tuolumne counties"
+      "note": "Serves Amador, Calaveras, San Joaquin, Stanislaus, and Tuolumne counties"
     },
     {
       "county": "Santa Clara, Santa Cruz, San Benito, Monterey",
@@ -59,16 +59,16 @@
       "note": "Serves Santa Clara, Santa Cruz, San Benito, and Monterey counties. Headquarters in Campbell"
     },
     {
-      "county": "Fresno, Kings, Madera, Mariposa, Tulare",
+      "county": "Fresno, Kings, Madera, Mariposa, Merced, Tulare",
       "name": "Central Valley Regional Center",
       "phone": "(559) 276-4300",
       "websiteUrl": "https://www.cvrc.org",
-      "note": "Serves Fresno, Kings, Madera, Mariposa, and Tulare counties"
+      "note": "Serves Fresno, Kings, Madera, Mariposa, Merced, and Tulare counties"
     },
     {
       "county": "Inyo, Kern, Mono",
       "name": "Kern Regional Center",
-      "phone": "(661) 327-0071",
+      "phone": "(661) 327-8531",
       "websiteUrl": "https://www.kern.org",
       "note": "Serves Inyo, Kern, and Mono counties"
     },
@@ -96,14 +96,14 @@
     {
       "county": "Imperial, San Diego",
       "name": "San Diego Regional Center",
-      "phone": "(619) 685-1500",
+      "phone": "(858) 576-2996",
       "websiteUrl": "https://www.sdrc.org",
       "note": "Serves Imperial and San Diego counties"
     },
     {
       "county": "Los Angeles",
       "name": "Frank D. Lanterman Regional Center",
-      "phone": "(818) 246-5200",
+      "phone": "(213) 383-1300",
       "websiteUrl": "https://www.lanterman.org",
       "note": "Hollywood, Silver Lake, Echo Park, Los Feliz, Koreatown, Downtown LA, Glendale, Burbank, La Cañada, La Crescenta, Pasadena (portions)",
       "zipCodes": ["90004","90005","90006","90010","90012","90013","90014","90015","90017","90019","90020","90021","90026","90027","90028","90029","90038","90039","90046","90048","90053","90054","90055","90057","90060","90068","90069","90071","90086","91011","91020","91040","91046","91101","91102","91103","91104","91105","91201","91202","91203","91204","91205","91206","91207","91208","91209","91210","91214","91501","91502","91503","91504","91505","91506","91510"]
@@ -119,7 +119,7 @@
     {
       "county": "Los Angeles",
       "name": "Eastern Los Angeles Regional Center",
-      "phone": "(323) 838-4750",
+      "phone": "(626) 299-4700",
       "websiteUrl": "https://www.elarc.org",
       "note": "East Los Angeles, Boyle Heights, Eagle Rock, Highland Park, Alhambra, Monterey Park, South Pasadena, San Marino, Rosemead, San Gabriel, Temple City, Whittier area",
       "zipCodes": ["90022","90023","90031","90032","90033","90040","90041","90042","90050","90063","90065","90601","90602","90603","90604","90605","90606","90607","90608","90609","90631","90638","90639","90640","90660","90670","91007","91030","91106","91107","91108","91754","91755","91770","91775","91776","91778","91780","91801","91802","91803"]
@@ -143,7 +143,7 @@
     {
       "county": "Los Angeles",
       "name": "Harbor Regional Center",
-      "phone": "(310) 540-1711",
+      "phone": "(310) 543-0100",
       "websiteUrl": "https://www.harborrc.org",
       "note": "Long Beach, Torrance, Carson, Redondo Beach, San Pedro, Palos Verdes, Manhattan Beach, Bellflower, Lakewood, Cerritos, Norwalk, Wilmington, Signal Hill",
       "zipCodes": ["90245","90254","90266","90274","90275","90277","90278","90501","90502","90503","90504","90505","90506","90507","90508","90509","90510","90650","90701","90702","90703","90706","90707","90710","90712","90713","90714","90715","90716","90717","90731","90732","90744","90745","90746","90747","90748","90749","90755","90801","90802","90803","90804","90805","90806","90807","90808","90810","90813","90814","90815"]
@@ -449,7 +449,7 @@
         },
         {
           "type": "note",
-          "text": "Free help is available. Disability Rights California runs a program called the Office of Clients' Rights Advocacy (OCRA) — funded by the state specifically to help Regional Center clients. Every one of the 21 Regional Centers has a Clients' Rights Advocate available to you at no cost. You do not need to hire a lawyer. Call OCRA at (800) 390-7032 (Northern California) or (866) 833-6712 (Southern California)."
+          "text": "Free help is available. Disability Rights California runs a program called the Office of Clients' Rights Advocacy (OCRA) — funded by the state specifically to help Regional Center clients. Every one of the 21 Regional Centers has a Clients' Rights Advocate available to you at no cost. You do not need to hire a lawyer. Call OCRA at (800) 390-7032 (TTY: 877-669-6023)."
         }
       ],
       "sources": [
