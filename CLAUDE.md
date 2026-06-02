@@ -39,6 +39,7 @@ exceptional-care-finder/
 │   ├── bulk-import.yml              ← One-time manual: populate a fresh environment from CCLD
 │   ├── audit-urls.yml               ← Manual: audit URLs in program data
 │   ├── fix-sheet-county.yml         ← Manual: dedup + normalize county names in Programs sheet
+│   ├── validate-rc.yml              ← Monthly (1st of month): validate RC phones vs DDS live page; opens GitHub Issue on mismatch
 │   └── test.yml                     ← Runs pipeline tests on every push/PR to main
 │
 └── src/
@@ -141,6 +142,7 @@ public/
 - **Sentiment excluded from automated daily runs** — automated cron passes no `WITH_SENTIMENT` flag (defaults off). Manual workflow dispatch with sentiment checked is used for bulk enrichment of new counties. Programs enriched without sentiment are marked done in checkpoint and won't be re-enriched automatically.
 - **Quality gate: completeness ≥ 80% + ≥ 1 sentiment bullet → auto-approve** — below threshold → "Needs Review" in Sheets
 - **Sentiment sources: public web only** — Yelp and Google Reviews excluded (ToS prohibits republication)
+- **Monthly RC contact validator** — `scripts/pipeline/validate-rc-contacts.js` fetches the live DDS RC listings page and compares phone numbers against `funding-guide.json`. Runs automatically on the 1st of each month via `validate-rc.yml`. Exit 0 = all match, Exit 1 = mismatches (opens a GitHub Issue), Exit 2 = DDS page unreachable (logs a warning, no issue). Sanity check: if fewer than 15 RCs parse, treats it as a page-structure change (exit 2). Fuzzy name matching handles minor naming differences between our records and the DDS listing. Built after discovering 7 of 21 RC phone numbers were wrong in the initial AI-generated data.
 
 ---
 
@@ -163,6 +165,14 @@ public/
 - Automated runs: capped at 100 programs/run (`AUTO_BACKFILL_CAP`) to preserve quota for manual dispatches
 - Manual dispatch with `enrich_counties` set: bypasses cap, runs until quota exhausted or all done
 - Commits to `pipeline/weekly-update` branch and opens a PR for review before publishing
+
+**Workflow 3 — Monthly RC Contact Validation (`validate-rc.yml`, 1st of month 9am UTC)**
+- Script: `scripts/pipeline/validate-rc-contacts.js`
+- Free: no API keys required
+- What it does: fetch DDS RC listings page → parse one card per RC → fuzzy-match names → compare phones against `funding-guide.json`
+- On mismatch: opens a GitHub Issue with the diff; deduplicates (won't open a second issue if one is already open)
+- On parse failure / page unreachable: logs `::warning::` only, no issue created
+- Can also be triggered manually via workflow_dispatch
 
 **Manual enrichment (for new large counties):** Trigger `pipeline.yml` workflow dispatch with `enrich_counties` (comma-separated, e.g. `los-angeles`) and `with_sentiment=true`. Merge the resulting PR when the run completes.
 
