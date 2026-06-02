@@ -297,7 +297,7 @@ export default function AboutPage() {
                     California CCLD licensing database
                   </A>{' '}
                   and enriched with AI-assisted research from public web sources. Data is updated on a
-                  weekly automated schedule.
+                  daily automated schedule.
                 </p>
               </div>
             </section>
