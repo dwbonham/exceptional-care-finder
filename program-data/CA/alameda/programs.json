@@ -2020,5 +2020,52 @@
     "completenessScore": 90,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GOLDEN HOUSE ADC LIVERMORE",
+    "streetName": "GOLDEN HOUSE ADC LIVERMORE",
+    "ccldLicenseNumber": "19201703",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2600 Kitty Hawk Rd Suite 12",
+      "city": "Livermore",
+      "state": "CA",
+      "zipCode": "94551",
+      "county": "Alameda",
+      "coordinates": {
+        "lat": 37.70055007,
+        "lng": -121.8131028
+      }
+    },
+    "contact": {
+      "phone": "(510) 453-5560",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 50,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-06-10",
+    "dataSourceNotes": "Pipeline import 2026-06-10. Geocode: ccld."
   }
 ]
