@@ -9256,5 +9256,52 @@
     "completenessScore": 42,
     "lastVerifiedDate": "2026-05-26",
     "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "EMPOWERED BEHAVIOR SOLUTIONS",
+    "streetName": "EMPOWERED BEHAVIOR SOLUTIONS",
+    "ccldLicenseNumber": "198320641",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "11287 Washington Blvd",
+      "city": "Culver City",
+      "state": "CA",
+      "zipCode": "90230",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.00486758,
+        "lng": -118.4142685
+      }
+    },
+    "contact": {
+      "phone": "(323) 422-0853",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 60,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-06-17",
+    "dataSourceNotes": "Pipeline import 2026-06-17. Geocode: ccld."
   }
 ]
