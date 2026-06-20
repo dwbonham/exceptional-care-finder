@@ -3558,5 +3558,52 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-05-28",
     "dataSourceNotes": "Pipeline import 2026-05-28. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "GOOD SAMARITAN RETIREMENT CENTER",
+    "streetName": "GOOD SAMARITAN RETIREMENT CENTER",
+    "ccldLicenseNumber": "374605079",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1515 Jamacha Way",
+      "city": "El Cajon",
+      "state": "CA",
+      "zipCode": "92019",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.75442878,
+        "lng": -116.925331
+      }
+    },
+    "contact": {
+      "phone": "(619) 590-1515",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-06-20",
+    "dataSourceNotes": "Pipeline import 2026-06-20. Geocode: ccld."
   }
 ]
