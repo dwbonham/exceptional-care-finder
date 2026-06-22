@@ -82,7 +82,7 @@
     },
     "contact": {
       "phone": "(209) 754-4001",
-      "websiteUrl": "https://arcofamador.org"
+      "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 40,
@@ -106,8 +106,8 @@
         "Vocational Training",
         "Physical Activities"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20133:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–3:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
