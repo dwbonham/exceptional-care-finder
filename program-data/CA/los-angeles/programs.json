@@ -9303,5 +9303,52 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-06-17",
     "dataSourceNotes": "Pipeline import 2026-06-17. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "SELF CRAFT ADULT DAY PROGRAM",
+    "streetName": "SELF CRAFT ADULT DAY PROGRAM",
+    "ccldLicenseNumber": "198603992",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "233 W Baseline Rd  Suite 8",
+      "city": "Laverne",
+      "state": "CA",
+      "zipCode": "91750",
+      "county": "Los Angeles",
+      "coordinates": {
+        "lat": 34.12172159,
+        "lng": -117.718273
+      }
+    },
+    "contact": {
+      "phone": "(909) 593-2581",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-06-26",
+    "dataSourceNotes": "Pipeline import 2026-06-26. Geocode: ccld."
   }
 ]
