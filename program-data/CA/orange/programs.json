@@ -2206,5 +2206,52 @@
     "completenessScore": 15,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "ABILITIES UNLIMITED",
+    "streetName": "ABILITIES UNLIMITED",
+    "ccldLicenseNumber": "306006782",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "26447  26467  26469 Ran Pkw",
+      "city": "Lake Forest",
+      "state": "CA",
+      "zipCode": "92630",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.642638,
+        "lng": -117.687488
+      }
+    },
+    "contact": {
+      "phone": "(949) 716-3970",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 110,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-07-23",
+    "dataSourceNotes": "Pipeline import 2026-07-23. Geocode: ccld."
   }
 ]
