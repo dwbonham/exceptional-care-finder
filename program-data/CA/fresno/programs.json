@@ -735,7 +735,7 @@
         "Community Integration Activities",
         "Self-Advocacy"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
+      "daysOfOperation": "Monday–Friday",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -808,8 +808,8 @@
         "Recreational Activities"
       ],
       "parentOrganization": "Social Vocational Services",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -879,8 +879,8 @@
         "Education"
       ],
       "parentOrganization": "Central Valley Training Center, Inc.",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00am\u20136:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00am–6:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -945,8 +945,8 @@
         "Life Skills Training"
       ],
       "parentOrganization": "The Arc of Fresno and Madera Counties",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "9:00 AM\u20136:00 PM",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "9:00 AM–6:00 PM",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Autism",
@@ -1022,8 +1022,8 @@
         "Recreational Activities"
       ],
       "parentOrganization": "Social Vocational Services, Inc.",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Autism",
@@ -1092,8 +1092,8 @@
         "Occupational Therapy",
         "Nursing Services"
       ],
-      "daysOfOperation": "Monday\u2013Friday, 9:00 AM\u20136:00 PM; Saturday\u2013Sunday, 10:00 AM\u20134:00 PM",
-      "hoursOfOperation": "9:00 AM\u20136:00 PM (Mon-Fri), 10:00 AM\u20134:00 PM (Sat-Sun)",
+      "daysOfOperation": "Monday–Friday, 9:00 AM–6:00 PM; Saturday–Sunday, 10:00 AM–4:00 PM",
+      "hoursOfOperation": "9:00 AM–6:00 PM (Mon-Fri), 10:00 AM–4:00 PM (Sat-Sun)",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities"
@@ -1222,8 +1222,8 @@
         "Career Exploration"
       ],
       "parentOrganization": "Social Vocational Services",
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:00am\u20135:00pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–5:00pm",
       "selfDeterminationAccepted": "Unknown",
       "populationSpecialization": [
         "Developmental Disabilities",
@@ -1449,8 +1449,8 @@
         "Athletics",
         "Instructional Cooking"
       ],
-      "daysOfOperation": "Monday\u2013Friday",
-      "hoursOfOperation": "8:30am\u20134:30pm",
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:30am–4:30pm",
       "selfDeterminationAccepted": "Yes",
       "populationSpecialization": [
         "Intellectual Disabilities",
@@ -1477,5 +1477,52 @@
     "completenessScore": 100,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "COLLECTIVE  THE",
+    "streetName": "COLLECTIVE  THE",
+    "ccldLicenseNumber": "107209640",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2044 E Nees Ave",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "",
+      "county": "Fresno",
+      "coordinates": {
+        "lat": 36.85214238,
+        "lng": -119.7469712
+      }
+    },
+    "contact": {
+      "phone": "(559) 221-8272",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 240,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-07-30",
+    "dataSourceNotes": "Pipeline import 2026-07-30. Geocode: ccld."
   }
 ]
