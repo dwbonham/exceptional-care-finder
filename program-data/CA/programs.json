@@ -1,0 +1,49 @@
+[
+  {
+    "legalLicenseName": "BALLARD VOCATIONAL SERVICE CENTER",
+    "streetName": "BALLARD VOCATIONAL SERVICE CENTER",
+    "ccldLicenseNumber": "565850820",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "2400 E Gonzales Rd Ste 200",
+      "city": "Oxnard",
+      "state": "CA",
+      "zipCode": "93036.0",
+      "county": "",
+      "coordinates": {
+        "lat": 34.2184103,
+        "lng": -119.1445872
+      }
+    },
+    "contact": {
+      "phone": "(805) 815-3233",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 35,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-08-14",
+    "dataSourceNotes": "Pipeline import 2026-08-14. Geocode: geocoded."
+  }
+]
