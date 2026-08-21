@@ -3605,5 +3605,52 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-06-20",
     "dataSourceNotes": "Pipeline import 2026-06-20. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "OASIS SPRINGS DISCOVERY DAY PROGRAM",
+    "streetName": "OASIS SPRINGS DISCOVERY DAY PROGRAM",
+    "ccldLicenseNumber": "374605107",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7705 N Avenue  Ste 100 A-F",
+      "city": "Lemon Grove",
+      "state": "CA",
+      "zipCode": "91945",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.736676,
+        "lng": -117.034352
+      }
+    },
+    "contact": {
+      "phone": "(619) 723-2107",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 70,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-08-21",
+    "dataSourceNotes": "Pipeline import 2026-08-21. Geocode: ccld."
   }
 ]
