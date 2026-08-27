@@ -45,5 +45,52 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-08-14",
     "dataSourceNotes": "Pipeline import 2026-08-14. Geocode: geocoded."
+  },
+  {
+    "legalLicenseName": "INNOVATIVE CENTER ADP",
+    "streetName": "INNOVATIVE CENTER ADP",
+    "ccldLicenseNumber": "374605139",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "7339 El Cajon Blvd Suite I",
+      "city": "La Mesa",
+      "state": "CA",
+      "zipCode": "91942",
+      "county": "",
+      "coordinates": {
+        "lat": 32.7677959,
+        "lng": -117.0390376
+      }
+    },
+    "contact": {
+      "phone": "(619) 461-0914",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-08-27",
+    "dataSourceNotes": "Pipeline import 2026-08-27. Geocode: geocoded."
   }
 ]
