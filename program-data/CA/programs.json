@@ -48,7 +48,7 @@
   },
   {
     "legalLicenseName": "INNOVATIVE CENTER ADP",
-    "streetName": "INNOVATIVE CENTER ADP",
+    "streetName": "Innovative Center",
     "ccldLicenseNumber": "374605139",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -70,12 +70,28 @@
     "facilityDetails": {
       "licensedCapacity": 90,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Innovative Center is a licensed adult day program in La Mesa, California, offering structured daytime activities, supervision, and support services. It provides health monitoring, therapeutic activities, social and recreational programming, meals and snacks, personal care assistance, and medication management to adults needing assistance during the day.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "facilityFeatures": [
+        "Outdoor Space",
+        "Lounges",
+        "Library",
+        "Fireplace"
+      ],
+      "activitiesOffered": [
+        "Group Fitness",
+        "Live Entertainment",
+        "Community Outings"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–4:30pm",
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -89,8 +105,8 @@
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-08-27",
-    "dataSourceNotes": "Pipeline import 2026-08-27. Geocode: geocoded."
+    "completenessScore": 71,
+    "lastVerifiedDate": "2026-08-28",
+    "dataSourceNotes": "Pipeline import 2026-08-28. Geocode: geocoded."
   }
 ]
