@@ -117,12 +117,17 @@
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "This program serves adults with developmental disabilities, likely focusing on community integration, life skills, and vocational support, as is typical for regional center-funded day programs in California.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "selfDeterminationAccepted": "Unknown",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disability"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -136,7 +141,7 @@
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
+    "completenessScore": 39,
     "lastVerifiedDate": "2026-09-12",
     "dataSourceNotes": "Pipeline import 2026-09-12. Geocode: geocoded."
   }
