@@ -1079,5 +1079,52 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-05-24",
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "TODAY & TOGETHER",
+    "streetName": "TODAY & TOGETHER",
+    "ccldLicenseNumber": "496804376",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "17000 Arnold Drive  Bldg 401",
+      "city": "Sonoma",
+      "state": "CA",
+      "zipCode": "95476",
+      "county": "Sonoma",
+      "coordinates": {
+        "lat": 38.32164448607772,
+        "lng": -122.50605840352648
+      }
+    },
+    "contact": {
+      "phone": "(415) 828-4130",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 75,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-09-23",
+    "dataSourceNotes": "Pipeline import 2026-09-23. Geocode: ccld."
   }
 ]

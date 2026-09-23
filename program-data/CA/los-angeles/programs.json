@@ -6674,53 +6674,6 @@
     "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
   },
   {
-    "legalLicenseName": "C-H ADULT DAY CENTER PROGRAM #2",
-    "streetName": "C-H ADULT DAY CENTER PROGRAM #2",
-    "ccldLicenseNumber": "198603784",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "15744 California Ave",
-      "city": "Paramount",
-      "state": "CA",
-      "zipCode": "90723",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 33.89086853,
-        "lng": -118.1587485
-      }
-    },
-    "contact": {
-      "phone": "(562) 630-8123",
-      "websiteUrl": ""
-    },
-    "facilityDetails": {
-      "licensedCapacity": 30,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
-      "minimumAge": 18,
-      "languagesSupported": [
-        "English"
-      ],
-      "selfDeterminationAccepted": "Unknown"
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 0,
-    "lastVerifiedDate": "2026-05-24",
-    "dataSourceNotes": "Pipeline import 2026-05-24. Geocode: ccld."
-  },
-  {
     "legalLicenseName": "ROLAND CENTER  THE",
     "streetName": "ROLAND CENTER  THE",
     "ccldLicenseNumber": "198603804",
@@ -8603,80 +8556,6 @@
       "parentReviews": []
     },
     "completenessScore": 57,
-    "lastVerifiedDate": "2026-05-26",
-    "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
-  },
-  {
-    "legalLicenseName": "COMMUNITY INTEGRATION ADC",
-    "streetName": "Community Integration Services, Inc.",
-    "ccldLicenseNumber": "197606348",
-    "licenseStatus": "Active",
-    "licenseType": "ADULT DAY CARE",
-    "location": {
-      "street": "10100 Balboa Bl.",
-      "city": "Granada Hills",
-      "state": "CA",
-      "zipCode": "91343",
-      "county": "Los Angeles",
-      "coordinates": {
-        "lat": 34.25418,
-        "lng": -118.50236
-      }
-    },
-    "contact": {
-      "phone": "(818) 772-1155",
-      "websiteUrl": "http://cisadp.org/"
-    },
-    "facilityDetails": {
-      "licensedCapacity": 120,
-      "decryptedProgramType": "Adult Day Program",
-      "programFocus": "Community Integration Services, Inc. offers a multi-program environment promoting preventive health, diversity, and community membership for people with aging challenges and disabilities, including preventive health programs, lifelong learning classes, social recreational opportunities, family respite, health education, care coordination, and Independent Living Skills training. They are dedicated to improving the lives of individuals with disabilities by providing personalized services to support clients in achieving their goals and leading fulfilling lives, including daily living skills, behavioral support, and job placement/training assistance.",
-      "minimumAge": 18,
-      "yearEstablished": 2005,
-      "languagesSupported": [
-        "English",
-        "Spanish",
-        "Korean",
-        "Vietnamese"
-      ],
-      "facilityFeatures": [
-        "Wheelchair Accessible"
-      ],
-      "activitiesOffered": [
-        "Preventive Health programs",
-        "Lifelong Learning classes",
-        "Social Recreational opportunities",
-        "Family respite",
-        "Health education",
-        "Care coordination",
-        "Independent Living Skills training",
-        "Daily living skills (cooking, cleaning, personal hygiene)",
-        "Behavioral support",
-        "Job placement or training"
-      ],
-      "daysOfOperation": "Monday–Friday",
-      "hoursOfOperation": "9:00am–3:30pm",
-      "selfDeterminationAccepted": "Yes",
-      "populationSpecialization": [
-        "Autism",
-        "Down Syndrome",
-        "Intellectual Disabilities"
-      ]
-    },
-    "fundingMechanics": {
-      "fundingSourceCategory": "DDS/Regional Center",
-      "coveringAgencies": [],
-      "vendorIds": [],
-      "authorizedServiceCodes": [],
-      "transportationAvailability": "Contact Regional Center",
-      "transportationServiceArea": "San Fernando Valley",
-      "requiredFundingDocument": "IPP (Individual Program Plan)",
-      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
-    },
-    "qualitativeInsights": {
-      "parentReviews": []
-    },
-    "completenessScore": 91,
     "lastVerifiedDate": "2026-05-26",
     "dataSourceNotes": "Pipeline import 2026-05-26. Geocode: ccld."
   },
