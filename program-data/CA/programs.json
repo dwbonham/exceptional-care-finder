@@ -139,5 +139,52 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-09-12",
     "dataSourceNotes": "Pipeline import 2026-09-12. Geocode: geocoded."
+  },
+  {
+    "legalLicenseName": "HOPE SERVICES",
+    "streetName": "HOPE SERVICES",
+    "ccldLicenseNumber": "435202994",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8855 Murray Ave",
+      "city": "Gilroy",
+      "state": "CA",
+      "zipCode": "95020",
+      "county": "",
+      "coordinates": {
+        "lat": 37.0255566,
+        "lng": -121.5721608
+      }
+    },
+    "contact": {
+      "phone": "(408) 282-0419",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 70,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-09-24",
+    "dataSourceNotes": "Pipeline import 2026-09-24. Geocode: geocoded."
   }
 ]
