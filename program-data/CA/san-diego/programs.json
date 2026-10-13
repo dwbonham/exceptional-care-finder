@@ -3608,7 +3608,7 @@
   },
   {
     "legalLicenseName": "DIVERSITY & INCLUSION LLC",
-    "streetName": "DIVERSITY & INCLUSION LLC",
+    "streetName": "DIVERSITY & INCLUSION",
     "ccldLicenseNumber": "374605123",
     "licenseStatus": "Active",
     "licenseType": "ADULT DAY CARE",
@@ -3624,18 +3624,32 @@
       }
     },
     "contact": {
-      "phone": "(619) 519-2770",
+      "phone": "(619) 816-3429",
       "websiteUrl": ""
     },
     "facilityDetails": {
       "licensedCapacity": 30,
       "decryptedProgramType": "Adult Day Program",
-      "programFocus": "",
+      "programFocus": "Diversity & Inclusion provides a safe, inclusive, community-based adult day program with individualized behavioral support for individuals with intellectual and developmental disabilities served by the Regional Center in Chula Vista. The program promotes independence, choice, personal growth, and overall well-being through person-centered and positive behavior support approaches.",
       "minimumAge": 18,
       "languagesSupported": [
         "English"
       ],
-      "selfDeterminationAccepted": "Unknown"
+      "activitiesOffered": [
+        "Life Skills Training",
+        "Community Integration",
+        "Social Skills Training",
+        "Self-Advocacy Training"
+      ],
+      "daysOfOperation": "Monday–Friday",
+      "hoursOfOperation": "8:00am–2:00pm",
+      "selfDeterminationAccepted": "Yes",
+      "populationSpecialization": [
+        "Autism",
+        "Down Syndrome",
+        "Intellectual Disabilities",
+        "Developmental Disabilities"
+      ]
     },
     "fundingMechanics": {
       "fundingSourceCategory": "DDS/Regional Center",
@@ -3649,7 +3663,7 @@
     "qualitativeInsights": {
       "parentReviews": []
     },
-    "completenessScore": 0,
+    "completenessScore": 70,
     "lastVerifiedDate": "2026-10-13",
     "dataSourceNotes": "Pipeline import 2026-10-13. Geocode: ccld."
   }
