@@ -2119,5 +2119,52 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-07-23",
     "dataSourceNotes": "Pipeline import 2026-07-23. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "VOCATIONAL INNOVATIONS EUCLID",
+    "streetName": "VOCATIONAL INNOVATIONS EUCLID",
+    "ccldLicenseNumber": "306006972",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "1655 S Euclid St",
+      "city": "Anaheim",
+      "state": "CA",
+      "zipCode": "92802",
+      "county": "Orange",
+      "coordinates": {
+        "lat": 33.80610763738217,
+        "lng": -117.94163586475963
+      }
+    },
+    "contact": {
+      "phone": "(714) 617-1936",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 90,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-11-04",
+    "dataSourceNotes": "Pipeline import 2026-11-04. Geocode: ccld."
   }
 ]
