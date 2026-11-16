@@ -3652,5 +3652,52 @@
     "completenessScore": 0,
     "lastVerifiedDate": "2026-10-13",
     "dataSourceNotes": "Pipeline import 2026-10-13. Geocode: ccld."
+  },
+  {
+    "legalLicenseName": "FORWARD TOGETHER",
+    "streetName": "FORWARD TOGETHER",
+    "ccldLicenseNumber": "374605125",
+    "licenseStatus": "Active",
+    "licenseType": "ADULT DAY CARE",
+    "location": {
+      "street": "8810 Jamacha Blvd Stes D  E  F",
+      "city": "Spring Valley",
+      "state": "CA",
+      "zipCode": "91977",
+      "county": "San Diego",
+      "coordinates": {
+        "lat": 32.707385096097084,
+        "lng": -117.00827037776274
+      }
+    },
+    "contact": {
+      "phone": "(858) 353-7901",
+      "websiteUrl": ""
+    },
+    "facilityDetails": {
+      "licensedCapacity": 30,
+      "decryptedProgramType": "Adult Day Program",
+      "programFocus": "",
+      "minimumAge": 18,
+      "languagesSupported": [
+        "English"
+      ],
+      "selfDeterminationAccepted": "Unknown"
+    },
+    "fundingMechanics": {
+      "fundingSourceCategory": "DDS/Regional Center",
+      "coveringAgencies": [],
+      "vendorIds": [],
+      "authorizedServiceCodes": [],
+      "transportationAvailability": "Contact Regional Center",
+      "requiredFundingDocument": "IPP (Individual Program Plan)",
+      "financialCoverageNote": "Funding administered through your assigned Regional Center. Contact them to confirm vendor enrollment and service coverage."
+    },
+    "qualitativeInsights": {
+      "parentReviews": []
+    },
+    "completenessScore": 0,
+    "lastVerifiedDate": "2026-11-16",
+    "dataSourceNotes": "Pipeline import 2026-11-16. Geocode: ccld."
   }
 ]
